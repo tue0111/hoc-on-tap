@@ -1,0 +1,683 @@
+# Course scan — Luật kinh doanh
+# Layer: curriculum inventory (Phase 0–1). Evidence labels: OBSERVED | INFERRED | UNKNOWN.
+# Source PDFs under D:\Hoc are read-only. Law citations below are course-document references,
+# not a license to add external research.
+
+course_id: luat-kinh-doanh
+course_name:
+  value: Luật kinh doanh
+  evidence_status: OBSERVED
+  evidence:
+    - source_id: src-0077
+      locator: "Gioithieumonhoc.pdf slide 1 'môn học Luật kinh doanh'"
+    - source_id: src-0078
+      locator: "HuongdanhocvathimonLKD.pdf 'MÔN: LUẬT KINH DOANH'"
+  aliases_observed:
+    - label: LKD
+      evidence_status: OBSERVED
+      locator: "Gioithieumonhoc.pdf header 'MÔN HỌC LKD'"
+    - label: Luật kinh tế
+      evidence_status: OBSERVED
+      note: >
+        src-0082 and src-0088 headers say 'MÔN HỌC LUẬT KINH TẾ'. Required học liệu
+        is 'Tài liệu học tập lưu hành nội bộ Luật kinh tế'. Do not merge with course_name.
+
+source_folder: D:\Hoc\Luật kinh doanh
+extracts_folder: D:\Hoc\_learning_system\extracts\luat-kinh-doanh
+scan:
+  scanner: course-scanner
+  scanned_at: 2026-09-07
+  files_in_folder: 17
+  extracts_ok: 17
+  must_read_completed:
+    - Gioithieumonhoc.pdf
+    - HuongdanhocvathimonLKD.pdf
+    - Dethimau_DapanLKD.pdf
+    - LKD-C* topic files
+
+institution:
+  value: Trường Đại học Mở Thành phố Hồ Chí Minh
+  faculty: Khoa Luật
+  evidence_status: OBSERVED
+  evidence:
+    - source_id: src-0077
+      locator: "C0 slide 1 'Khoa Luật Trường Đại học Mở TPHCM'"
+    - source_id: src-0077
+      locator: "C0 slide 4 'Trường Đại học Mở Thành phố Hồ Chí Minh'"
+    - source_id: src-0078
+      locator: "header TRƯỜNG ĐẠI HỌC MỞ THÀNH PHỐ HỒ CHÍ MINH / KHOA LUẬT"
+
+course_code:
+  value: null
+  evidence_status: UNKNOWN
+  note: No course code in Gioithieumonhoc, ôn tập, exam, or LKD-C* filenames.
+
+credits:
+  value: 3
+  unit: tín chỉ lý thuyết
+  evidence_status: OBSERVED
+  source_id: src-0077
+  locator: C0 slide 1
+
+academic_year:
+  value: null
+  evidence_status: UNKNOWN
+
+semester:
+  value: null
+  evidence_status: UNKNOWN
+
+status: scanned
+delivery:
+  mode: bài giảng trực tuyến + thi kết thúc trực tiếp
+  evidence_status: OBSERVED
+  source_id: src-0077
+
+program_position:
+  value: môn học bắt buộc đối với các ngành học thuộc khối kinh tế tại Trường Đại học Mở Thành phố Hồ Chí Minh
+  evidence_status: OBSERVED
+  source_id: src-0077
+  locator: C0 slide 4
+
+lecturers:
+  - name: Trần Anh Thục Đoan
+    title: ThS.
+    role_in_c0: chủ biên / thiết kế bài giảng trực tuyến
+    evidence_status: OBSERVED
+    evidence:
+      - source_id: src-0077
+        locator: "C0 header GV: ThS. Trần Anh Thục Đoan; slide 1 chủ biên"
+      - source_id: src-0082
+        locator: "LKD-C2-CD. 2.3. ĐOAN.pdf GV line"
+      - source_id: src-0088
+        locator: LKD-C4-CD. 4.1
+      - source_id: src-0089
+        locator: LKD-C4-CD. 4.2
+      - source_id: src-0090
+        locator: LKD-C5- CD. 5.1
+      - source_id: src-0091
+        locator: LKD-C5- CD. 5.2
+      - source_id: src-0092
+        locator: LKD-C5- CD. 5.3
+    filename_token: ĐOAN
+    chapters_observed: ["2.3", "4", "5"]
+  - name: Lê Thị Tuyết Hà
+    title: TS.
+    evidence_status: OBSERVED
+    evidence:
+      - source_id: src-0077
+        locator: "C0 slide 1 'TS. Lê Thị Tuyết Hà'"
+      - source_id: src-0079
+        locator: "LKD-C1- HA.pdf 'tôi là Lê Thị Tuyết Hà'"
+    filename_token: HA
+    chapters_observed: ["1", "3"]
+  - name: Nguyễn Thị Thúy Nga
+    title: UNKNOWN
+    evidence_status: OBSERVED
+    evidence:
+      - source_id: src-0077
+        locator: "C0 slide 1 lists Nguyễn Thị Thúy Nga without a degree title"
+    filename_token: NGA
+    chapters_observed: ["2.1", "2.2", "2.4", "2.5"]
+    note: Title not stated in C0. Do not invent ThS/TS.
+
+sources:
+  - source_id: src-0077
+    role: syllabus
+    inventory_role: syllabus
+    filename: Gioithieumonhoc.pdf
+    relative_path: Luật kinh doanh/Gioithieumonhoc.pdf
+    extract: extracts/luat-kinh-doanh/src-0077__Gioithieumonhoc.pdf.extract.md
+    page_count: 4
+    evidence_status: OBSERVED
+    notes:
+      - "Chương 0: Giới thiệu môn học. 5 chapters, 3 credits, lecturers, học liệu, assessment."
+  - source_id: src-0078
+    role: review
+    inventory_role: syllabus
+    filename: HuongdanhocvathimonLKD.pdf
+    relative_path: Luật kinh doanh/HuongdanhocvathimonLKD.pdf
+    extract: extracts/luat-kinh-doanh/src-0078__HuongdanhocvathimonLKD.pdf.extract.md
+    page_count: 6
+    evidence_status: OBSERVED
+    notes:
+      - "TÀI LIỆU HƯỚNG DẪN ÔN TẬP VÀ KIỂM TRA. Page 5 blank in extract."
+  - source_id: src-0076
+    role: exam
+    inventory_role: exam
+    filename: Dethimau_DapanLKD.pdf
+    relative_path: Luật kinh doanh/Dethimau_DapanLKD.pdf
+    extract: extracts/luat-kinh-doanh/src-0076__Dethimau_DapanLKD.pdf.extract.md
+    page_count: 14
+    evidence_status: OBSERVED
+    notes:
+      - "ĐỀ THI MẪU VÀ ĐÁP ÁN: 50 MCQ, 60 phút, tài liệu giấy, answer key p.13."
+      - "p.14 leftover TOC ('Error! Bookmark not defined.') appears copied from the ôn tập document."
+  - source_id: src-0079
+    role: lecture_note
+    filename: LKD-C1- HA.pdf
+    chapter: 1
+    lecturer_token: HA
+  - source_id: src-0080
+    role: lecture_note
+    filename: LKD-C2-CD. 2.1. NGA.pdf
+    chapter: 2
+    topic_code: "2.1"
+    lecturer_token: NGA
+  - source_id: src-0081
+    role: lecture_note
+    filename: LKD-C2-CD. 2.2. NGA.pdf
+    chapter: 2
+    topic_code: "2.2"
+    lecturer_token: NGA
+  - source_id: src-0082
+    role: lecture_note
+    filename: LKD-C2-CD. 2.3. ĐOAN.pdf
+    chapter: 2
+    topic_code: "2.3"
+    lecturer_token: ĐOAN
+  - source_id: src-0083
+    role: lecture_note
+    filename: LKD-C2-CD. 2.4. NGA.pdf
+    chapter: 2
+    topic_code: "2.4"
+    lecturer_token: NGA
+  - source_id: src-0084
+    role: lecture_note
+    filename: LKD-C2-CD. 2.5. NGA.pdf
+    chapter: 2
+    topic_code: "2.5"
+    lecturer_token: NGA
+  - source_id: src-0085
+    role: lecture_note
+    filename: LKD-C3-CD. 3.1. HA.pdf
+    chapter: 3
+    topic_code: "3.1"
+    lecturer_token: HA
+  - source_id: src-0086
+    role: lecture_note
+    filename: LKD-C3-CD. 3.2. HA.pdf
+    chapter: 3
+    topic_code: "3.2"
+    lecturer_token: HA
+  - source_id: src-0087
+    role: lecture_note
+    filename: LKD-C3-CD. 3.3. HA.pdf
+    chapter: 3
+    topic_code: "3.3"
+    lecturer_token: HA
+  - source_id: src-0088
+    role: lecture_note
+    filename: LKD-C4-CD. 4.1. ĐOAN.pdf
+    chapter: 4
+    topic_code: "4.1"
+    lecturer_token: ĐOAN
+  - source_id: src-0089
+    role: lecture_note
+    filename: LKD-C4-CD. 4.2. ĐOAN.pdf
+    chapter: 4
+    topic_code: "4.2"
+    lecturer_token: ĐOAN
+  - source_id: src-0090
+    role: lecture_note
+    filename: LKD-C5- CD. 5.1. ĐOAN.pdf
+    chapter: 5
+    topic_code: "5.1"
+    lecturer_token: ĐOAN
+  - source_id: src-0091
+    role: lecture_note
+    filename: LKD-C5- CD. 5.2. ĐOAN.pdf
+    chapter: 5
+    topic_code: "5.2"
+    lecturer_token: ĐOAN
+  - source_id: src-0092
+    role: lecture_note
+    filename: LKD-C5- CD. 5.3. ĐOAN.pdf
+    chapter: 5
+    topic_code: "5.3"
+    lecturer_token: ĐOAN
+
+cited_but_not_in_folder:
+  - item: Tài liệu học tập lưu hành nội bộ Luật kinh tế (Trường Đại học Mở Tp.HCM)
+    evidence_status: OBSERVED
+    cited_in: [src-0077, src-0078]
+    note: Required textbook. Guide maps it to Chương I–X of that internal book. File not in this folder.
+  - item: Đề cương và lịch trình
+    evidence_status: OBSERVED
+    cited_in: src-0077 slides 9–10
+  - item: Video / clip bài giảng / slides
+    evidence_status: OBSERVED
+    cited_in: src-0077
+    note: Folder holds scripts, not video/slide files.
+  - item: Câu hỏi nhận định / bài tập cuối chủ đề và cuối chương
+    evidence_status: OBSERVED
+    cited_in: src-0077
+  - item: Diễn đàn tuần 3–4 và 8–9 (chủ đề nghiên cứu thêm)
+    evidence_status: OBSERVED
+    cited_in: src-0077
+
+# Course-cited legal instruments. OBSERVED references only — do not fetch or merge external text.
+course_cited_laws:
+  required_hoc_lieu:
+    evidence_status: OBSERVED
+    source_id: src-0077
+    locator: C0 slide 7
+    items:
+      - Luật Doanh nghiệp 2020
+      - Luật Hợp tác xã 2012
+      - Nghị Định 01/2021/NĐ-CP
+      - Luật Thương mại 2005
+      - Luật phá sản 2014
+      - Luật trọng tài thương mại 2010
+  additional_references:
+    evidence_status: OBSERVED
+    source_id: src-0077
+    locator: C0 slide 7
+    items:
+      - Bộ luật tố tụng dân sự 2015
+      - Bộ luật Dân sự 2015
+      - Nghị định 22/2017/NĐ-CP
+  restated_in_guide:
+    evidence_status: OBSERVED
+    source_id: src-0078
+    mappings:
+      - {topic: "2.1", read: ["Tài liệu LHNB Chương II", "LDN 2020 Chương I, II, IX"]}
+      - {topic: "2.2", read: ["Tài liệu LHNB Chương IV", "LDN 2020 Chương III"]}
+      - {topic: "2.3", read: ["Tài liệu LHNB Chương V", "LDN 2020 Chương V"]}
+      - {topic: "2.4 CTHD", read: ["Tài liệu LHNB Chương VI", "LDN 2020 Chương VI"]}
+      - {topic: "2.4 DNTN", read: ["Tài liệu LHNB Chương III", "LDN 2020 Chương VII"]}
+      - {topic: "2.5 HKD", read: ["Tài liệu LHNB Chương III", "NĐ 01/2021 phần Hộ kinh doanh"]}
+      - {topic: "2.5 HTX", read: ["Tài liệu LHNB Chương VII", "Luật HTX 2012"]}
+      - {topic: "3", read: ["Tài liệu LHNB Chương IX", "Luật Thương mại 2005", "Bộ luật Dân sự 2015"]}
+      - {topic: "4", read: ["Tài liệu LHNB Chương VIII", "Luật Phá sản 2014"]}
+      - {topic: "5", read: ["Tài liệu LHNB Chương X", "Luật Trọng tài thương mại 2010", "NĐ 22/2017/NĐ-CP", "BLTTDS 2015"]}
+  named_in_c1_nguon_luat:
+    evidence_status: OBSERVED
+    source_id: src-0079
+    items:
+      - Luật Doanh nghiệp
+      - Luật Hợp tác xã
+      - Luật Thương mại
+      - Luật Phá sản
+      - Luật Trọng tài thương mại
+      - Bộ luật Tố tụng dân sự
+      - các văn bản hướng dẫn thi hành
+      - Điều ước Quốc tế
+      - tập quán thương mại
+  note: These are citations inside course materials. Do not import statute full text as curriculum.
+
+learning_objectives_course_level:
+  evidence_status: OBSERVED
+  source_id: src-0077
+  locator: C0 slides 2 and 5
+  after_intro:
+    - Trình bày được cấu trúc môn học
+    - Sắp xếp được kế hoạch học tập theo lịch trình
+    - Xác định được yêu cầu môn học và kết quả người học phải đạt được
+    - Hình thành thái độ học tập chủ động
+  knowledge:
+    - Phân biệt được các hình thức kinh doanh hiện nay và những đặc trưng riêng của mỗi loại hình
+    - Tóm tắt được các điều kiện và thủ tục để Toà án tuyên bố một doanh nghiệp, hợp tác xã phá sản
+    - Trình bày được các nội dung chính về hợp đồng thương mại
+    - So sánh được cách thức giải quyết tranh chấp thương mại bằng con đường Tòa án và Trọng tài thương mại
+  skills:
+    - Thực hiện được các thủ tục pháp lý cơ bản trong kinh doanh
+    - Xây dựng được cơ cấu quản lý đối với đơn vị kinh doanh trên cơ sở pháp luật
+    - Áp dụng được qui định về giao kết và thực hiện hợp đồng khi giao dịch với các chủ thể khác
+    - Vận dụng được qui định pháp luật khi cần chấm dứt hoạt động kinh doanh do mất khả năng thanh toán nợ
+    - Lựa chọn được cách thức giải quyết tranh chấp thương mại phù hợp
+  attitude:
+    - Có tinh thần tôn trọng và chấp hành pháp luật trong hoạt động kinh doanh, cũng như các lĩnh vực khác trong đời sống xã hội
+
+assessment:
+  evidence_status: OBSERVED
+  source_id: src-0077
+  locator: C0 slide 8
+  weights:
+    forum: {percent: 25, form: trực tuyến}
+    chapter_tests: {percent: 25, form: trực tuyến}
+    final: {percent: 50, form: trực tiếp}
+  study_pattern:
+    - Mỗi chương tối thiểu 2 chủ đề, mỗi chủ đề thiết kế tự học 1 tuần
+    - In script, xem clip, đọc Tài liệu LHNB Luật kinh tế + văn bản pháp luật
+    - Câu hỏi nhận định / bài tập cuối chủ đề và chương (tự đánh giá)
+    - Tuần 3–4 và 8–9 có chủ đề nghiên cứu thêm / diễn đàn (tính điểm)
+    - Kiểm tra kết thúc chương: trắc nghiệm, tính điểm, giới hạn thời gian
+  final_exam:
+    from_guide:
+      source_id: src-0078
+      form: trắc nghiệm
+      n_questions: 50
+      duration_minutes: 60
+      materials: được sử dụng tài liệu giấy
+      audience_note: mục tiêu môn học nhằm trang bị cho người học không chuyên ngành luật
+    from_exam:
+      source_id: src-0076
+      title: ĐỀ THI MẪU VÀ ĐÁP ÁN
+      duration_minutes: 60
+      materials: Được sử dụng tài liệu giấy
+      n_questions: 50
+      has_answer_key: true
+      answer_key: "1b 2d 3c 4b 5a 6a 7b 8b 9c 10d / 11d 12d 13d 14d 15b 16a 17c 18c 19d 20c / 21c 22a 23a 24d 25d 26a 27b 28d 29a 30b / 31d 32a 33c 34c 35d 36d 37c 38c 39c 40a / 41b 42a 43a 44a 45b 46a 47b 48b 49a 50d"
+
+chapters:
+  - number: 0
+    title: Giới thiệu môn học
+    title_evidence_status: OBSERVED
+    source_id: src-0077
+    topics: []
+  - number: 1
+    title: Tổng quan về luật kinh doanh
+    title_evidence_status: OBSERVED
+    title_sources:
+      - {source_id: src-0077, text: Tổng quan về luật kinh doanh}
+      - {source_id: src-0078, text: "CHƯƠNG 1 TỔNG QUAN VỀ LUẬT KINH DOANH"}
+      - {source_id: src-0079, text: "Chương 1: TỔNG QUAN VỀ LUẬT KINH DOANH"}
+    note: >
+      C0 says each chapter has at least 2 topics. Folder has a single C1 file
+      (LKD-C1- HA.pdf), not split into 1.1/1.2.
+    topics:
+      - code: "1"
+        filename: LKD-C1- HA.pdf
+        source_id: src-0079
+        heading: "Chương 1: TỔNG QUAN VỀ LUẬT KINH DOANH"
+        heading_evidence_status: OBSERVED
+        speaker_self_id: Lê Thị Tuyết Hà
+        closing_five_issues:
+          - khái niệm
+          - phương pháp
+          - đối tượng điều chỉnh
+          - nội dung
+          - nguồn luật
+        content_headings:
+          - Khái niệm luật kinh doanh
+          - Đối tượng điều chỉnh (quan hệ quản lý kinh tế; quan hệ giữa các chủ thể kinh doanh; quan hệ nội bộ doanh nghiệp)
+          - Phương pháp điều chỉnh (bình đẳng-thỏa thuận; hành chính-mệnh lệnh)
+          - Nội dung môn học (thành lập DN / các loại hình / HĐ / tranh chấp / phá sản)
+          - Chủ thể luật kinh doanh
+          - Vai trò của luật kinh doanh
+          - Nguồn luật
+  - number: 2
+    title: Pháp luật về chủ thể kinh doanh
+    title_evidence_status: OBSERVED
+    title_sources: [src-0077, src-0078, src-0080]
+    topics:
+      - code: "2.1"
+        filename: LKD-C2-CD. 2.1. NGA.pdf
+        source_id: src-0080
+        heading: "Chủ đề 2.1: Quy chế pháp lý chung về doanh nghiệp"
+        heading_evidence_status: OBSERVED
+        content_headings:
+          - Khái niệm, đặc điểm của DN
+          - Quyền và nghĩa vụ của DN
+          - Thành lập DN
+          - "Quyền thành lập và quản lý DN"
+          - Góp vốn vào DN
+          - Tổ chức lại DN
+          - Giải thể DN
+        abbreviations_in_script: [DN, LDN, ĐKKD, ĐKDN, CP, TNHH]
+      - code: "2.2"
+        filename: LKD-C2-CD. 2.2. NGA.pdf
+        source_id: src-0081
+        heading: "Chủ đề 2.2: Công ty trách nhiệm hữu hạn"
+        heading_evidence_status: OBSERVED
+        content_headings:
+          - Công ty TNHH hai thành viên trở lên
+          - Đặc điểm pháp lý
+          - Quyền và nghĩa vụ của thành viên
+          - Cơ cấu tổ chức quản lý (implied by guide; script continues past first page)
+          - Công ty TNHH một thành viên
+        guide_focus:
+          - TNHH 2 TV trở lên vs TNHH 1 TV
+          - Chủ sở hữu là cá nhân vs tổ chức
+      - code: "2.3"
+        filename: LKD-C2-CD. 2.3. ĐOAN.pdf
+        source_id: src-0082
+        heading: "Script 2-3: CÔNG TY CỔ PHẦN"
+        heading_evidence_status: OBSERVED
+        document_header: MÔN HỌC LUẬT KINH TẾ
+        objectives:
+          - Trình bày được đặc trưng của công ty cổ phần
+          - Phân biệt được các loại cổ phần và các loại cổ đông
+          - Xác định được cơ cấu tổ chức của 1 công ty cổ phần
+        content_headings:
+          - "I. Khái niệm-đặc điểm công ty cổ phần"
+          - "II. Cổ phần-Cổ phiếu-Cổ đông"
+          - "Cổ phần phổ thông / cổ phần ưu đãi"
+          - Cơ cấu tổ chức (ĐHĐCĐ, HĐQT, GĐ, Ban kiểm soát — named in guide)
+      - code: "2.4"
+        filename: LKD-C2-CD. 2.4. NGA.pdf
+        source_id: src-0083
+        heading: "Chủ đề 2.4: Công ty hợp danh và doanh nghiệp tư nhân"
+        heading_evidence_status: OBSERVED
+        content_headings:
+          - Công ty hợp danh
+          - Đặc điểm pháp lý (TVHD / TVGV)
+          - Quyền và nghĩa vụ của thành viên hợp danh
+          - Doanh nghiệp tư nhân
+      - code: "2.5"
+        filename: LKD-C2-CD. 2.5. NGA.pdf
+        source_id: src-0084
+        heading: "Chủ đề 2.5: Hộ kinh doanh và hợp tác xã"
+        heading_evidence_status: OBSERVED
+        content_headings:
+          - Hộ kinh doanh
+          - "Khái niệm, đặc điểm của HKD (NĐ 01/2021 Điều 79 cited in script)"
+          - Quyền và nghĩa vụ của HKD
+          - Hợp tác xã
+          - "Guide: Luật HTX 2012 vs HTX 2003 naming change"
+  - number: 3
+    title: Pháp luật về hợp đồng kinh doanh, thương mại
+    title_evidence_status: OBSERVED
+    title_c0_short: Pháp luật về hợp đồng thương mại
+    title_sources:
+      - {source_id: src-0077, text: Pháp luật về hợp đồng thương mại}
+      - {source_id: src-0078, text: "CHƯƠNG 3 PHÁP LUẬT VỀ HỢP ĐỒNG KINH DOANH, THƯƠNG MẠI"}
+      - {source_id: src-0085, text: "Chương 3: PHÁP LUẬT VỀ HỢP ĐỒNG KINH DOANH, THƯƠNG MẠI"}
+    topics:
+      - code: "3.1"
+        filename: LKD-C3-CD. 3.1. HA.pdf
+        source_id: src-0085
+        heading: "Chủ đề 3.1. Khái quát về pháp luật hợp đồng, hợp đồng kinh doanh, thương mại"
+        heading_evidence_status: OBSERVED
+        content_headings:
+          - "3.1.1. Khái niệm hợp đồng"
+          - "3.1.2. Phân loại hợp đồng"
+          - "3.1.3. Các văn bản pháp luật hiện hành về hợp đồng kinh doanh, thương mại"
+          - "Tiêu chí phân loại: nội dung; tính chất đặc thù; sự tương xứng quyền và nghĩa vụ"
+      - code: "3.2"
+        filename: LKD-C3-CD. 3.2. HA.pdf
+        source_id: src-0086
+        heading: "Chủ đề 3.2. Pháp luật về hợp đồng dân sự"
+        heading_evidence_status: OBSERVED
+        content_headings:
+          - "3.2.1. Giao kết hợp đồng dân sự"
+          - "3.2.2. Thực hiện hợp đồng dân sự"
+          - Khái niệm giao kết hợp đồng dân sự
+          - Nguyên tắc giao kết hợp đồng dân sự
+          - Chủ thể của hợp đồng dân sự
+          - Nội dung của hợp đồng dân sự
+          - Hình thức của hợp đồng dân sự
+          - Trình tự giao kết hợp đồng dân sự
+          - Thời điểm giao kết hợp đồng
+          - Thời điểm có hiệu lực của hợp đồng dân sự
+          - Điều kiện có hiệu lực của hợp đồng
+          - Hợp đồng dân sự vô hiệu
+      - code: "3.3"
+        filename: LKD-C3-CD. 3.3. HA.pdf
+        source_id: src-0087
+        heading: "Chủ đề 3.3. Pháp luật về hợp đồng trong hoạt động kinh doanh, thương mại"
+        heading_evidence_status: OBSERVED
+        content_headings:
+          - "3.3.1. Những vấn đề cơ bản về hợp đồng trong hoạt động kinh doanh, thương mại"
+          - "3.3.2. Các loại hợp đồng kinh doanh, thương mại"
+          - "3.3.3. Trách nhiệm pháp lý do vi phạm hợp đồng kinh doanh, thương mại"
+  - number: 4
+    title: Pháp luật về phá sản
+    title_evidence_status: OBSERVED
+    title_sources: [src-0077, src-0078, src-0088]
+    topics:
+      - code: "4.1"
+        filename: LKD-C4-CD. 4.1. ĐOAN.pdf
+        source_id: src-0088
+        heading: "Script 4-1: Khái quát pháp luật về phá sản"
+        heading_evidence_status: OBSERVED
+        document_header: MÔN HỌC LUẬT KINH TẾ
+        objectives:
+          - Trình bày được khái niệm, đặc điểm của phá sản
+          - Phân biệt được phá sản và giải thể
+          - So sánh được các chủ thể tiến hành và tham gia thủ tục phá sản
+        content_headings:
+          - "Phần I: Khái niệm-đặc điểm phá sản"
+          - "Phần 2: Mục đích áp dụng pháp luật phá sản"
+          - "Phần 3: Chủ thể của pháp luật phá sản"
+          - "Hai dấu hiệu: mất khả năng thanh toán; Tòa án tuyên bố phá sản"
+          - "Mất khả năng thanh toán: không thanh toán khoản nợ trong 03 tháng kể từ ngày đến hạn (Luật phá sản 2014 cited in script)"
+      - code: "4.2"
+        filename: LKD-C4-CD. 4.2. ĐOAN.pdf
+        source_id: src-0089
+        heading: "Script 4-2: Trình tự, thủ tục giải quyết phá sản"
+        heading_evidence_status: OBSERVED
+        document_header: MÔN HỌC LUẬT KINH DOANH
+        objectives:
+          - Trình bày được các điều kiện áp dụng thủ tục phục hồi
+          - Xác định được thứ tự phân chia tài sản khi thi hành Quyết định tuyên bố phá sản
+        content_headings:
+          - "Phần 1. Nhận đơn & thụ lý yêu cầu mở thủ tục phá sản"
+          - "Phần 2. Mở thủ tục phá sản"
+          - "Phần 3. Hội nghị chủ nợ và thủ tục phục hồi hoạt động kinh doanh"
+          - "Phần 4. Quyết định tuyên bố phá sản"
+          - "Phần 5. Thi hành quyết định tuyên bố phá sản"
+  - number: 5
+    title: Pháp luật về giải quyết tranh chấp thương mại
+    title_evidence_status: OBSERVED
+    title_variants:
+      - {source_id: src-0077, text: Pháp luật về giải quyết tranh chấp thương mại}
+      - {source_id: src-0078, text: "CHƯƠNG 5 PHÁP LUẬT VỀ GIẢI QUYẾT TRANH CHẤP THƯƠNG MẠI"}
+      - {source_id: src-0090, text: "CHƯƠNG 5: GIẢI QUYẾT TRANH CHẤP KINH DOANH, THƯƠNG MẠI"}
+      - {source_id: src-0092, text: "CHƯƠNG 5: PHÁP LUẬT VỀ GIẢI QUYẾT TRANH CHẤP KINH DOANH, THƯƠNG MẠI"}
+    topics:
+      - code: "5.1"
+        filename: LKD-C5- CD. 5.1. ĐOAN.pdf
+        source_id: src-0090
+        heading: "Script 5-1: Giải quyết tranh chấp kinh doanh, thương mại bằng phương thức thương lượng và hòa giải"
+        heading_evidence_status: OBSERVED
+        objectives:
+          - Phân biệt được thương lượng và hòa giải thương mại
+          - Tóm tắt được các giai đoạn hòa giải tranh chấp thương mại
+        content_headings:
+          - Thương lượng
+          - Hòa giải thương mại
+      - code: "5.2"
+        filename: LKD-C5- CD. 5.2. ĐOAN.pdf
+        source_id: src-0091
+        heading: "Script 5-2: GIẢI QUYẾT TRANH CHẤP KINH DOANH, THƯƠNG MẠI BẰNG PHƯƠNG THỨC TÒA ÁN"
+        heading_evidence_status: OBSERVED
+        objectives:
+          - Xác định được những tranh chấp kinh doanh, thương mại mà Tòa án có thẩm quyền giải quyết
+          - Trình bày được thủ tục giải quyết tranh chấp kinh doanh, thương mại tại Tòa án
+        content_headings:
+          - "1. Thẩm quyền giải quyết tranh chấp kinh doanh, thương mại của Tòa án"
+          - "Thẩm quyền theo loại việc / theo cấp / theo lãnh thổ"
+          - "Điều 30 BLTTDS 2015 cited in script"
+          - Thủ tục giải quyết tại Tòa án
+      - code: "5.3"
+        filename: LKD-C5- CD. 5.3. ĐOAN.pdf
+        source_id: src-0092
+        heading: "Script 5-3: GIẢI QUYẾT TRANH CHẤP KINH DOANH, THƯƠNG MẠI BẰNG PHƯƠNG THỨC TRỌNG TÀI"
+        heading_evidence_status: OBSERVED
+        objectives:
+          - Xác định được những tranh chấp kinh doanh, thương mại mà trọng tài có thẩm quyền giải quyết
+          - Phân biệt thủ tục giải quyết tranh chấp kinh doanh, thương mại tại Tòa án và Trọng tài
+        content_headings:
+          - "1. Thẩm quyền giải quyết tranh chấp kinh doanh, thương mại của Trọng tài thương mại"
+          - Thỏa thuận trọng tài bằng văn bản
+          - "Luật TTTM 2010 cited in script"
+
+relationships:
+  prerequisites:
+    named: []
+    evidence_status: UNKNOWN
+  successors:
+    named: []
+    evidence_status: OBSERVED
+    quotes:
+      - source_id: src-0077
+        locator: C0 slide 4
+        text: Sinh viên có thể phối hợp kiến thức của môn học này với các môn học khác trong chương trình đào tạo
+    note: Other courses are mentioned generically. Do not invent a named list.
+  audience:
+    evidence_status: OBSERVED
+    quotes:
+      - source_id: src-0077
+        text: môn học bắt buộc đối với các ngành học thuộc khối kinh tế
+      - source_id: src-0078
+        text: người học không chuyên ngành luật
+  internal_cross_chapter:
+    - src-0079 closing says C1 is foundation for later chapters of this same course
+
+coverage:
+  chapters_declared: 5
+  chapters_with_files: [1, 2, 3, 4, 5]
+  topic_files:
+    "1": 1
+    "2": 5
+    "3": 3
+    "4": 2
+    "5": 3
+  c0_min_two_topics_per_chapter:
+    stated: true
+    c1_files: 1
+    note: C1 is a single undivided script. C2–C5 meet the ≥2 topic statement.
+  missing_in_folder:
+    - Tài liệu lưu hành nội bộ Luật kinh tế
+    - statute PDFs (only cited)
+    - đề cương / lịch trình
+    - video / slides
+    - chapter quizzes and forum prompts
+
+quality:
+  naming:
+    - "Some ĐOAN scripts header 'LUẬT KINH TẾ' (C2.3, C4.1) vs 'LUẬT KINH DOANH' elsewhere."
+    - "C5 titles vary: 'Pháp luật về…' vs 'Giải quyết tranh chấp kinh doanh, thương mại'."
+  exam_pdf:
+    - p.14 leftover ôn-tập TOC with Word 'Error! Bookmark not defined.'
+  guide_pdf:
+    - extract page 5 blank
+  lecturer_tokens_in_filenames: [HA, NGA, ĐOAN]
+  no_course_code_in_materials: true
+
+concepts:
+  - {id_candidate: luat-kinh-doanh-khai-niem, label: Khái niệm luật kinh doanh, from: heading, evidence_status: OBSERVED}
+  - {id_candidate: doi-tuong-dieu-chinh, label: Đối tượng điều chỉnh, from: heading, evidence_status: OBSERVED}
+  - {id_candidate: phuong-phap-dieu-chinh, label: Phương pháp điều chỉnh, from: heading, evidence_status: OBSERVED}
+  - {id_candidate: chu-the-lkd, label: Chủ thể luật kinh doanh, from: heading, evidence_status: OBSERVED}
+  - {id_candidate: nguon-luat-lkd, label: Nguồn luật kinh doanh, from: heading, evidence_status: OBSERVED}
+  - {id_candidate: quy-che-phap-ly-dn, label: Quy chế pháp lý chung về doanh nghiệp, from: heading, evidence_status: OBSERVED}
+  - {id_candidate: thanh-lap-to-chuc-lai-giai-the, label: Thành lập / tổ chức lại / giải thể DN, from: heading, evidence_status: OBSERVED}
+  - {id_candidate: cty-tnhh, label: Công ty TNHH (1 TV / 2 TV trở lên), from: heading, evidence_status: OBSERVED}
+  - {id_candidate: cty-co-phan, label: Công ty cổ phần, from: heading, evidence_status: OBSERVED}
+  - {id_candidate: co-phan-co-dong, label: Cổ phần / cổ phiếu / cổ đông, from: heading, evidence_status: OBSERVED}
+  - {id_candidate: cty-hop-danh, label: Công ty hợp danh, from: heading, evidence_status: OBSERVED}
+  - {id_candidate: dn-tu-nhan, label: Doanh nghiệp tư nhân, from: heading, evidence_status: OBSERVED}
+  - {id_candidate: ho-kinh-doanh, label: Hộ kinh doanh, from: heading, evidence_status: OBSERVED}
+  - {id_candidate: hop-tac-xa, label: Hợp tác xã, from: heading, evidence_status: OBSERVED}
+  - {id_candidate: hop-dong, label: Khái niệm và phân loại hợp đồng, from: heading, evidence_status: OBSERVED}
+  - {id_candidate: hop-dong-dan-su, label: Giao kết và thực hiện hợp đồng dân sự, from: heading, evidence_status: OBSERVED}
+  - {id_candidate: hop-dong-thuong-mai, label: Hợp đồng trong hoạt động kinh doanh, thương mại, from: heading, evidence_status: OBSERVED}
+  - {id_candidate: che-tai-vi-pham-hd, label: Trách nhiệm pháp lý do vi phạm hợp đồng, from: heading, evidence_status: OBSERVED}
+  - {id_candidate: pha-san, label: Phá sản doanh nghiệp / hợp tác xã, from: heading, evidence_status: OBSERVED}
+  - {id_candidate: thu-tuc-pha-san, label: Trình tự thủ tục giải quyết phá sản, from: heading, evidence_status: OBSERVED}
+  - {id_candidate: thuong-luong-hoa-giai, label: Thương lượng và hòa giải thương mại, from: heading, evidence_status: OBSERVED}
+  - {id_candidate: toa-an-tmdt, label: Giải quyết tranh chấp bằng Tòa án, from: heading, evidence_status: OBSERVED}
+  - {id_candidate: trong-tai-thuong-mai, label: Giải quyết tranh chấp bằng Trọng tài, from: heading, evidence_status: OBSERVED}
+
+unknowns:
+  - course_code
+  - academic_year
+  - semester
+  - Nguyễn Thị Thúy Nga academic title
+  - contents of missing Luật kinh tế internal textbook
+  - named sibling/successor courses in the economics program
+  - C1 topic split (if any) beyond the single file
+  - full remaining headings on pages not fully outlined in short ĐOAN scripts

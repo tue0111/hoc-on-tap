@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "created_at": "20261012_003720_209031",
+  "inventory_sha256": "9c7b47d3246ab36236379d28fd344f53881b259359a31e045f73a2c34cfa44d7",
+  "delta": {
+    "NEW": [],
+    "CHANGED": [],
+    "MISSING": []
+  },
+  "staged": [],
+  "blocked": null,
+  "detection_contract": "relative_path + size; same-size edits are NOT detected by this scan"
+}

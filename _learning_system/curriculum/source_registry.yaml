@@ -1,0 +1,4508 @@
+registry_id: source-registry
+version: "0.1.1"
+layer: curriculum
+source_root: D:/Hoc
+generated_from: inventory/files.json
+phase_2_1_overlay: curriculum/source_registry_phase2_1.yaml
+notes:
+  - Roles start from filename heuristics; some combined PDFs promoted after size+name+extract inspection.
+  - authority_rank is a retrieval prior, not a merge license.
+  - tmp/render/proxy files remain unknown artifacts and must not be treated as lecturer materials.
+  - Phase 2.1 added src-0193..src-0333 in source_registry_phase2_1.yaml. Existing source_id values are unchanged.
+sources:
+  - source_id: src-0001
+    relative_path: Kinh doanh và nghiệp vụ/Chuong1-Chude1.1-Tochuckinhdoanhvacacbenlienquan.pdf
+    filename: Chuong1-Chude1.1-Tochuckinhdoanhvacacbenlienquan.pdf
+    course_id: kinh-doanh-va-nghiep-vu
+    course_folder: Kinh doanh và nghiệp vụ
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 179358
+    page_count: 8
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 15313
+    likely_scanned: false
+    apparent_chapter: 1
+    apparent_topic_code: 1.1
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0002
+    relative_path: Kinh doanh và nghiệp vụ/Chuong1-Chude1.2-Moitruongkinhdoanh.pdf
+    filename: Chuong1-Chude1.2-Moitruongkinhdoanh.pdf
+    course_id: kinh-doanh-va-nghiep-vu
+    course_folder: Kinh doanh và nghiệp vụ
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 168464
+    page_count: 5
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 9491
+    likely_scanned: false
+    apparent_chapter: 1
+    apparent_topic_code: 1.2
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0003
+    relative_path: Kinh doanh và nghiệp vụ/Chuong1-Chude1.3-Moitruongkinhdoanh - Cacyeutophaplychinhtrivaxahoi.pdf
+    filename: Chuong1-Chude1.3-Moitruongkinhdoanh - Cacyeutophaplychinhtrivaxahoi.pdf
+    course_id: kinh-doanh-va-nghiep-vu
+    course_folder: Kinh doanh và nghiệp vụ
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 148889
+    page_count: 5
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 9939
+    likely_scanned: false
+    apparent_chapter: 1
+    apparent_topic_code: 1.3
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0004
+    relative_path: Kinh doanh và nghiệp vụ/Chuong1-Chude1.4-Moitruongkinhdoanh - Cacyeutocongnghevamoitruong.pdf
+    filename: Chuong1-Chude1.4-Moitruongkinhdoanh - Cacyeutocongnghevamoitruong.pdf
+    course_id: kinh-doanh-va-nghiep-vu
+    course_folder: Kinh doanh và nghiệp vụ
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 166795
+    page_count: 6
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 10682
+    likely_scanned: false
+    apparent_chapter: 1
+    apparent_topic_code: 1.4
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0005
+    relative_path: Kinh doanh và nghiệp vụ/Chuong1-Chude1.5-Moitruongkinhdoanh - Cacmohinhphantichcanhtranh.pdf
+    filename: Chuong1-Chude1.5-Moitruongkinhdoanh - Cacmohinhphantichcanhtranh.pdf
+    course_id: kinh-doanh-va-nghiep-vu
+    course_folder: Kinh doanh và nghiệp vụ
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 188045
+    page_count: 7
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 11794
+    likely_scanned: false
+    apparent_chapter: 1
+    apparent_topic_code: 1.5
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0006
+    relative_path: Kinh doanh và nghiệp vụ/Chuong1-Chude1.6-Moitruongkinhtevimo - Cacvandecoban.pdf
+    filename: Chuong1-Chude1.6-Moitruongkinhtevimo - Cacvandecoban.pdf
+    course_id: kinh-doanh-va-nghiep-vu
+    course_folder: Kinh doanh và nghiệp vụ
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 155126
+    page_count: 4
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 7101
+    likely_scanned: false
+    apparent_chapter: 1
+    apparent_topic_code: 1.6
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0007
+    relative_path: Kinh doanh và nghiệp vụ/Chuong1-Chude1.7-Moitruongkinhtevimo - Cacchinhsachvimo.pdf
+    filename: Chuong1-Chude1.7-Moitruongkinhtevimo - Cacchinhsachvimo.pdf
+    course_id: kinh-doanh-va-nghiep-vu
+    course_folder: Kinh doanh và nghiệp vụ
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 182062
+    page_count: 6
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 10073
+    likely_scanned: false
+    apparent_chapter: 1
+    apparent_topic_code: 1.7
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0008
+    relative_path: Kinh doanh và nghiệp vụ/Chuong1-Chude1.8-Moitruongkinhtevimo - Cacvandecoban.pdf
+    filename: Chuong1-Chude1.8-Moitruongkinhtevimo - Cacvandecoban.pdf
+    course_id: kinh-doanh-va-nghiep-vu
+    course_folder: Kinh doanh và nghiệp vụ
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 172251
+    page_count: 5
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 9923
+    likely_scanned: false
+    apparent_chapter: 1
+    apparent_topic_code: 1.8
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0009
+    relative_path: Kinh doanh và nghiệp vụ/Chuong1-Chude1.9-Moitruongkinhtevimo - Phantichcungcau.pdf
+    filename: Chuong1-Chude1.9-Moitruongkinhtevimo - Phantichcungcau.pdf
+    course_id: kinh-doanh-va-nghiep-vu
+    course_folder: Kinh doanh và nghiệp vụ
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 147377
+    page_count: 5
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 8738
+    likely_scanned: false
+    apparent_chapter: 1
+    apparent_topic_code: 1.9
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0010
+    relative_path: Kinh doanh và nghiệp vụ/Chuong2-Chude 2.1-Cautrucdoanhnghiepvachienluockinhdoanh.pdf
+    filename: Chuong2-Chude 2.1-Cautrucdoanhnghiepvachienluockinhdoanh.pdf
+    course_id: kinh-doanh-va-nghiep-vu
+    course_folder: Kinh doanh và nghiệp vụ
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 147016
+    page_count: 4
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 11935
+    likely_scanned: false
+    apparent_chapter: 2
+    apparent_topic_code: 2.1
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0011
+    relative_path: Kinh doanh và nghiệp vụ/Chuong2-Chude 2.2-Vanhoatochuc.pdf
+    filename: Chuong2-Chude 2.2-Vanhoatochuc.pdf
+    course_id: kinh-doanh-va-nghiep-vu
+    course_folder: Kinh doanh và nghiệp vụ
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 136012
+    page_count: 3
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 6215
+    likely_scanned: false
+    apparent_chapter: 2
+    apparent_topic_code: 2.2
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0012
+    relative_path: Kinh doanh và nghiệp vụ/Chuong2-Chude 2.3-Quantridoanhnghiep.pdf
+    filename: Chuong2-Chude 2.3-Quantridoanhnghiep.pdf
+    course_id: kinh-doanh-va-nghiep-vu
+    course_folder: Kinh doanh và nghiệp vụ
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 135401
+    page_count: 4
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 10577
+    likely_scanned: false
+    apparent_chapter: 2
+    apparent_topic_code: 2.3
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0013
+    relative_path: Kinh doanh và nghiệp vụ/Chuong2-Chude 2.4-Trachnhiemxahoicuadoanhnghiep.pdf
+    filename: Chuong2-Chude 2.4-Trachnhiemxahoicuadoanhnghiep.pdf
+    course_id: kinh-doanh-va-nghiep-vu
+    course_folder: Kinh doanh và nghiệp vụ
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 137225
+    page_count: 2
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 5563
+    likely_scanned: false
+    apparent_chapter: 2
+    apparent_topic_code: 2.4
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0014
+    relative_path: Kinh doanh và nghiệp vụ/Chuong6-Chude6.1-Hanhvidaoducvadaoductrongkinhdoanh.pdf
+    filename: Chuong6-Chude6.1-Hanhvidaoducvadaoductrongkinhdoanh.pdf
+    course_id: kinh-doanh-va-nghiep-vu
+    course_folder: Kinh doanh và nghiệp vụ
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 167399
+    page_count: 7
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 12537
+    likely_scanned: false
+    apparent_chapter: 6
+    apparent_topic_code: 6.1
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0015
+    relative_path: Kinh doanh và nghiệp vụ/Chuong6-Chude6.2-Daoducnghenghiepketoan.pdf
+    filename: Chuong6-Chude6.2-Daoducnghenghiepketoan.pdf
+    course_id: kinh-doanh-va-nghiep-vu
+    course_folder: Kinh doanh và nghiệp vụ
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 181559
+    page_count: 5
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 9132
+    likely_scanned: false
+    apparent_chapter: 6
+    apparent_topic_code: 6.2
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0016
+    relative_path: Kinh doanh và nghiệp vụ/KDNV-C3-CD3.1-P1-Khainiem,vaitrovacacloai hinhke toantrongdoanhnghiep.pdf
+    filename: KDNV-C3-CD3.1-P1-Khainiem,vaitrovacacloai hinhke toantrongdoanhnghiep.pdf
+    course_id: kinh-doanh-va-nghiep-vu
+    course_folder: Kinh doanh và nghiệp vụ
+    source_role: lecture_note
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename matches course-chapter-topic lecture-unit pattern
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 236899
+    page_count: 9
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 15023
+    likely_scanned: false
+    apparent_chapter: 3
+    apparent_topic_code: 3.1
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0017
+    relative_path: Kinh doanh và nghiệp vụ/KDNV-C3-CD3.1-P2-Chuanmucketoanvakhungphaply.pdf
+    filename: KDNV-C3-CD3.1-P2-Chuanmucketoanvakhungphaply.pdf
+    course_id: kinh-doanh-va-nghiep-vu
+    course_folder: Kinh doanh và nghiệp vụ
+    source_role: lecture_note
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename matches course-chapter-topic lecture-unit pattern
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 192822
+    page_count: 3
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 4834
+    likely_scanned: false
+    apparent_chapter: 3
+    apparent_topic_code: 3.1
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0018
+    relative_path: Kinh doanh và nghiệp vụ/KDNV-C3-CD3.1-P3-Ketoantaichinh.pdf
+    filename: KDNV-C3-CD3.1-P3-Ketoantaichinh.pdf
+    course_id: kinh-doanh-va-nghiep-vu
+    course_folder: Kinh doanh và nghiệp vụ
+    source_role: lecture_note
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename matches course-chapter-topic lecture-unit pattern
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 193397
+    page_count: 4
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 5884
+    likely_scanned: false
+    apparent_chapter: 3
+    apparent_topic_code: 3.1
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0019
+    relative_path: Kinh doanh và nghiệp vụ/KDNV-C3-CD3.1-P4-Ketoanquantri.pdf
+    filename: KDNV-C3-CD3.1-P4-Ketoanquantri.pdf
+    course_id: kinh-doanh-va-nghiep-vu
+    course_folder: Kinh doanh và nghiệp vụ
+    source_role: lecture_note
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename matches course-chapter-topic lecture-unit pattern
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 195525
+    page_count: 4
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 6347
+    likely_scanned: false
+    apparent_chapter: 3
+    apparent_topic_code: 3.1
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0020
+    relative_path: Kinh doanh và nghiệp vụ/KDNV-C3-CD3.1-P5-Muahangvatienluong.pdf
+    filename: KDNV-C3-CD3.1-P5-Muahangvatienluong.pdf
+    course_id: kinh-doanh-va-nghiep-vu
+    course_folder: Kinh doanh và nghiệp vụ
+    source_role: lecture_note
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename matches course-chapter-topic lecture-unit pattern
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 217922
+    page_count: 7
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 11183
+    likely_scanned: false
+    apparent_chapter: 3
+    apparent_topic_code: 3.1
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0021
+    relative_path: Kinh doanh và nghiệp vụ/KDNV-C3-CD3.2-P1-Kiemsoatnoibo.pdf
+    filename: KDNV-C3-CD3.2-P1-Kiemsoatnoibo.pdf
+    course_id: kinh-doanh-va-nghiep-vu
+    course_folder: Kinh doanh và nghiệp vụ
+    source_role: lecture_note
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename matches course-chapter-topic lecture-unit pattern
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 225482
+    page_count: 5
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 7980
+    likely_scanned: false
+    apparent_chapter: 3
+    apparent_topic_code: 3.2
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0022
+    relative_path: Kinh doanh và nghiệp vụ/KDNV-C3-CD3.2-P2-Kiemtoanvadichvubaodam.pdf
+    filename: KDNV-C3-CD3.2-P2-Kiemtoanvadichvubaodam.pdf
+    course_id: kinh-doanh-va-nghiep-vu
+    course_folder: Kinh doanh và nghiệp vụ
+    source_role: lecture_note
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename matches course-chapter-topic lecture-unit pattern
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 245283
+    page_count: 7
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 11705
+    likely_scanned: false
+    apparent_chapter: 3
+    apparent_topic_code: 3.2
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0023
+    relative_path: Kinh doanh và nghiệp vụ/KDNV-C3-CD3.3-Gianlan.pdf
+    filename: KDNV-C3-CD3.3-Gianlan.pdf
+    course_id: kinh-doanh-va-nghiep-vu
+    course_folder: Kinh doanh và nghiệp vụ
+    source_role: lecture_note
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename matches course-chapter-topic lecture-unit pattern
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 211783
+    page_count: 6
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 10987
+    likely_scanned: false
+    apparent_chapter: 3
+    apparent_topic_code: 3.3
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0024
+    relative_path: Kinh doanh và nghiệp vụ/KDNV-C3-CD3.4-Fintech.pdf
+    filename: KDNV-C3-CD3.4-Fintech.pdf
+    course_id: kinh-doanh-va-nghiep-vu
+    course_folder: Kinh doanh và nghiệp vụ
+    source_role: lecture_note
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename matches course-chapter-topic lecture-unit pattern
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 229389
+    page_count: 8
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 13213
+    likely_scanned: false
+    apparent_chapter: 3
+    apparent_topic_code: 3.4
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0025
+    relative_path: Kinh doanh và nghiệp vụ/KDNV-C4-CD4.1_Lanhdaoquanly.pdf
+    filename: KDNV-C4-CD4.1_Lanhdaoquanly.pdf
+    course_id: kinh-doanh-va-nghiep-vu
+    course_folder: Kinh doanh và nghiệp vụ
+    source_role: lecture_note
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename matches course-chapter-topic lecture-unit pattern
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 412296
+    page_count: 15
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 16642
+    likely_scanned: false
+    apparent_chapter: 4
+    apparent_topic_code: 4.1
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0026
+    relative_path: Kinh doanh và nghiệp vụ/KDNV-C4-CD4.2_Tuyendungvtuyenchon.pdf
+    filename: KDNV-C4-CD4.2_Tuyendungvtuyenchon.pdf
+    course_id: kinh-doanh-va-nghiep-vu
+    course_folder: Kinh doanh và nghiệp vụ
+    source_role: lecture_note
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename matches course-chapter-topic lecture-unit pattern
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 366695
+    page_count: 10
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 21426
+    likely_scanned: false
+    apparent_chapter: 4
+    apparent_topic_code: 4.2
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0027
+    relative_path: Kinh doanh và nghiệp vụ/KDNV-C4-CD4.3-P1_Canhandoinhom.pdf
+    filename: KDNV-C4-CD4.3-P1_Canhandoinhom.pdf
+    course_id: kinh-doanh-va-nghiep-vu
+    course_folder: Kinh doanh và nghiệp vụ
+    source_role: lecture_note
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename matches course-chapter-topic lecture-unit pattern
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 276727
+    page_count: 7
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 15922
+    likely_scanned: false
+    apparent_chapter: 4
+    apparent_topic_code: 4.3
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0028
+    relative_path: Kinh doanh và nghiệp vụ/KDNV-C4-CD4.3-P2_Dongluclamviecchocanhannhom.pdf
+    filename: KDNV-C4-CD4.3-P2_Dongluclamviecchocanhannhom.pdf
+    course_id: kinh-doanh-va-nghiep-vu
+    course_folder: Kinh doanh và nghiệp vụ
+    source_role: lecture_note
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename matches course-chapter-topic lecture-unit pattern
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 265876
+    page_count: 5
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 10773
+    likely_scanned: false
+    apparent_chapter: 4
+    apparent_topic_code: 4.3
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0029
+    relative_path: Kinh doanh và nghiệp vụ/KDNV-C4-CD4.4-P1_DaotaoPhattrien.pdf
+    filename: KDNV-C4-CD4.4-P1_DaotaoPhattrien.pdf
+    course_id: kinh-doanh-va-nghiep-vu
+    course_folder: Kinh doanh và nghiệp vụ
+    source_role: lecture_note
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename matches course-chapter-topic lecture-unit pattern
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 315900
+    page_count: 8
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 17282
+    likely_scanned: false
+    apparent_chapter: 4
+    apparent_topic_code: 4.4
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0030
+    relative_path: Kinh doanh và nghiệp vụ/KDNV-C4-CD4.4-P2_Danhgiathanhqua.pdf
+    filename: KDNV-C4-CD4.4-P2_Danhgiathanhqua.pdf
+    course_id: kinh-doanh-va-nghiep-vu
+    course_folder: Kinh doanh và nghiệp vụ
+    source_role: lecture_note
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename matches course-chapter-topic lecture-unit pattern
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 246275
+    page_count: 6
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 11768
+    likely_scanned: false
+    apparent_chapter: 4
+    apparent_topic_code: 4.4
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0031
+    relative_path: Kinh doanh và nghiệp vụ/KDNV-C5-CD5.1_QuanlythoigianTinhhieuquatrongcongviec.pdf
+    filename: KDNV-C5-CD5.1_QuanlythoigianTinhhieuquatrongcongviec.pdf
+    course_id: kinh-doanh-va-nghiep-vu
+    course_folder: Kinh doanh và nghiệp vụ
+    source_role: lecture_note
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename matches course-chapter-topic lecture-unit pattern
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 302067
+    page_count: 8
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 16860
+    likely_scanned: false
+    apparent_chapter: 5
+    apparent_topic_code: 5.1
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0032
+    relative_path: Kinh doanh và nghiệp vụ/KDNV-C5-CD5.2_Truyenthongtrongdoanhnghiep.pdf
+    filename: KDNV-C5-CD5.2_Truyenthongtrongdoanhnghiep.pdf
+    course_id: kinh-doanh-va-nghiep-vu
+    course_folder: Kinh doanh và nghiệp vụ
+    source_role: lecture_note
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename matches course-chapter-topic lecture-unit pattern
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 436104
+    page_count: 15
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 19791
+    likely_scanned: false
+    apparent_chapter: 5
+    apparent_topic_code: 5.2
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0033
+    relative_path: Kinh doanh và nghiệp vụ/KDVNV-C0-Gioithieumonhoc.pdf
+    filename: KDVNV-C0-Gioithieumonhoc.pdf
+    course_id: kinh-doanh-va-nghiep-vu
+    course_folder: Kinh doanh và nghiệp vụ
+    source_role: syllabus
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename contains course-intro/syllabus token
+    authority_rank: 1
+    extension: .pdf
+    size_bytes: 125442
+    page_count: 2
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 4368
+    likely_scanned: false
+    apparent_chapter: 0
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0034
+    relative_path: Kinh doanh và nghiệp vụ/KDVNV-Dethimau.pdf
+    filename: KDVNV-Dethimau.pdf
+    course_id: kinh-doanh-va-nghiep-vu
+    course_folder: Kinh doanh và nghiệp vụ
+    source_role: exam
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename contains exam token
+    authority_rank: 5
+    extension: .pdf
+    size_bytes: 215136
+    page_count: 5
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 14156
+    likely_scanned: false
+    apparent_chapter: None
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0035
+    relative_path: Kinh doanh và nghiệp vụ/KDVNV-HUONG DAN ON TAP.pdf
+    filename: KDVNV-HUONG DAN ON TAP.pdf
+    course_id: kinh-doanh-va-nghiep-vu
+    course_folder: Kinh doanh và nghiệp vụ
+    source_role: summary
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename contains review/ôn tập token
+    authority_rank: 6
+    extension: .pdf
+    size_bytes: 327230
+    page_count: 8
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 14112
+    likely_scanned: false
+    apparent_chapter: None
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0036
+    relative_path: Kinh doanh và nghiệp vụ/script giới thiệu môn học.pdf
+    filename: script giới thiệu môn học.pdf
+    course_id: kinh-doanh-va-nghiep-vu
+    course_folder: Kinh doanh và nghiệp vụ
+    source_role: syllabus
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename contains course-intro/syllabus token
+    authority_rank: 1
+    extension: .pdf
+    size_bytes: 800818
+    page_count: 7
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 12576
+    likely_scanned: false
+    apparent_chapter: None
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0037
+    relative_path: Kiểm toán 1/Chương 1.pdf
+    filename: Chương 1.pdf
+    course_id: kiem-toan-1
+    course_folder: Kiểm toán 1
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 756989
+    page_count: 32
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 10538
+    likely_scanned: false
+    apparent_chapter: 1
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 9 locations (not necessarily content-duplicate)
+  - source_id: src-0038
+    relative_path: Kiểm toán 1/Chương 2.pdf
+    filename: Chương 2.pdf
+    course_id: kiem-toan-1
+    course_folder: Kiểm toán 1
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 379526
+    page_count: 29
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 27858
+    likely_scanned: false
+    apparent_chapter: 2
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 9 locations (not necessarily content-duplicate)
+  - source_id: src-0039
+    relative_path: Kiểm toán 1/Chương 3.pdf
+    filename: Chương 3.pdf
+    course_id: kiem-toan-1
+    course_folder: Kiểm toán 1
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 520485
+    page_count: 37
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 11788
+    likely_scanned: false
+    apparent_chapter: 3
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 8 locations (not necessarily content-duplicate)
+  - source_id: src-0040
+    relative_path: Kiểm toán 1/Thảo luận 1/Đạo Đức Nghề Kiểm Toán.pdf
+    filename: Đạo Đức Nghề Kiểm Toán.pdf
+    course_id: kiem-toan-1
+    course_folder: Kiểm toán 1
+    source_role: assignment
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: path/filename contains assignment/discussion token
+    authority_rank: 5
+    extension: .pdf
+    size_bytes: 175871
+    page_count: 7
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 17767
+    likely_scanned: false
+    apparent_chapter: None
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0041
+    relative_path: Kiểm toán 1/Thảo luận 2/Han_Che_Kiem_Soat_Noi_Bo_Gian_Lan_BCTC.pdf
+    filename: Han_Che_Kiem_Soat_Noi_Bo_Gian_Lan_BCTC.pdf
+    course_id: kiem-toan-1
+    course_folder: Kiểm toán 1
+    source_role: assignment
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: path/filename contains assignment/discussion token
+    authority_rank: 5
+    extension: .pdf
+    size_bytes: 76065
+    page_count: 4
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 12008
+    likely_scanned: false
+    apparent_chapter: None
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0042
+    relative_path: Kế toán chi phí/Chương 1.pdf
+    filename: Chương 1.pdf
+    course_id: ke-toan-chi-phi
+    course_folder: Kế toán chi phí
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 534055
+    page_count: 26
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 11043
+    likely_scanned: false
+    apparent_chapter: 1
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 9 locations (not necessarily content-duplicate)
+  - source_id: src-0043
+    relative_path: Kế toán chi phí/Chương 2.pdf
+    filename: Chương 2.pdf
+    course_id: ke-toan-chi-phi
+    course_folder: Kế toán chi phí
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 298908
+    page_count: 14
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 37567
+    likely_scanned: false
+    apparent_chapter: 2
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 9 locations (not necessarily content-duplicate)
+  - source_id: src-0044
+    relative_path: Kế toán chi phí/Chương 3.pdf
+    filename: Chương 3.pdf
+    course_id: ke-toan-chi-phi
+    course_folder: Kế toán chi phí
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 394570
+    page_count: 19
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 25268
+    likely_scanned: false
+    apparent_chapter: 3
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 8 locations (not necessarily content-duplicate)
+  - source_id: src-0045
+    relative_path: Kế toán chi phí/Chương 4.pdf
+    filename: Chương 4.pdf
+    course_id: ke-toan-chi-phi
+    course_folder: Kế toán chi phí
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 698714
+    page_count: 50
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 13880
+    likely_scanned: false
+    apparent_chapter: 4
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 6 locations (not necessarily content-duplicate)
+  - source_id: src-0046
+    relative_path: Kế toán chi phí/Thảo luận 1/Phân Loại Chi Phí Doanh Nghiệp.pdf
+    filename: Phân Loại Chi Phí Doanh Nghiệp.pdf
+    course_id: ke-toan-chi-phi
+    course_folder: Kế toán chi phí
+    source_role: assignment
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: path/filename contains assignment/discussion token
+    authority_rank: 5
+    extension: .pdf
+    size_bytes: 341271
+    page_count: 15
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 23542
+    likely_scanned: false
+    apparent_chapter: None
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0047
+    relative_path: Kế toán ngân hàng/Bảng hệ thống tài khoản kế toán ngân hàng.docx
+    filename: Bảng hệ thống tài khoản kế toán ngân hàng.docx
+    course_id: ke-toan-ngan-hang
+    course_folder: Kế toán ngân hàng
+    source_role: reference
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename is an account-system table / chart of accounts
+    authority_rank: 6
+    extension: .docx
+    size_bytes: 189614
+    page_count: None
+    parseability: text_extractable
+    extract_ok: true
+    extract_char_count: 174
+    likely_scanned: false
+    apparent_chapter: None
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0048
+    relative_path: Kế toán ngân hàng/Chương 1.pdf
+    filename: Chương 1.pdf
+    course_id: ke-toan-ngan-hang
+    course_folder: Kế toán ngân hàng
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 1141925
+    page_count: 28
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 16979
+    likely_scanned: false
+    apparent_chapter: 1
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 9 locations (not necessarily content-duplicate)
+  - source_id: src-0049
+    relative_path: Kế toán ngân hàng/Chương 2.pdf
+    filename: Chương 2.pdf
+    course_id: ke-toan-ngan-hang
+    course_folder: Kế toán ngân hàng
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 481288
+    page_count: 15
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 14618
+    likely_scanned: false
+    apparent_chapter: 2
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 9 locations (not necessarily content-duplicate)
+  - source_id: src-0050
+    relative_path: Kế toán ngân hàng/Chương 3.pdf
+    filename: Chương 3.pdf
+    course_id: ke-toan-ngan-hang
+    course_folder: Kế toán ngân hàng
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 883782
+    page_count: 30
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 16500
+    likely_scanned: false
+    apparent_chapter: 3
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 8 locations (not necessarily content-duplicate)
+  - source_id: src-0051
+    relative_path: Kế toán ngân hàng/Chương 4.pdf
+    filename: Chương 4.pdf
+    course_id: ke-toan-ngan-hang
+    course_folder: Kế toán ngân hàng
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 1250756
+    page_count: 36
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 17347
+    likely_scanned: false
+    apparent_chapter: 4
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 6 locations (not necessarily content-duplicate)
+  - source_id: src-0052
+    relative_path: Kế toán ngân hàng/Chương 5.pdf
+    filename: Chương 5.pdf
+    course_id: ke-toan-ngan-hang
+    course_folder: Kế toán ngân hàng
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 750849
+    page_count: 24
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 16244
+    likely_scanned: false
+    apparent_chapter: 5
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 5 locations (not necessarily content-duplicate)
+  - source_id: src-0053
+    relative_path: Kế toán ngân hàng/tmp/btl1/final_render/preview2.pdf
+    filename: preview2.pdf
+    course_id: ke-toan-ngan-hang
+    course_folder: Kế toán ngân hàng
+    source_role: unknown
+    classification_confidence: low
+    classification_evidence_status: OBSERVED
+    classification_reason: path/name matches generated render/tmp/proxy artifact
+    authority_rank: null
+    extension: .pdf
+    size_bytes: 223754
+    page_count: None
+    parseability: pdf_text_layer_unknown_until_open
+    extract_ok: false
+    extract_char_count: None
+    likely_scanned: none
+    apparent_chapter: None
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0054
+    relative_path: Kế toán ngân hàng/tmp/btl1/render/BTL1-preview.pdf
+    filename: BTL1-preview.pdf
+    course_id: ke-toan-ngan-hang
+    course_folder: Kế toán ngân hàng
+    source_role: unknown
+    classification_confidence: low
+    classification_evidence_status: OBSERVED
+    classification_reason: path/name matches generated render/tmp/proxy artifact
+    authority_rank: null
+    extension: .pdf
+    size_bytes: 223750
+    page_count: None
+    parseability: pdf_text_layer_unknown_until_open
+    extract_ok: false
+    extract_char_count: None
+    likely_scanned: none
+    apparent_chapter: None
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0055
+    relative_path: Kế toán ngân hàng/tmp/pdfs/docx_word_render.pdf
+    filename: docx_word_render.pdf
+    course_id: ke-toan-ngan-hang
+    course_folder: Kế toán ngân hàng
+    source_role: unknown
+    classification_confidence: low
+    classification_evidence_status: OBSERVED
+    classification_reason: path/name matches generated render/tmp/proxy artifact
+    authority_rank: null
+    extension: .pdf
+    size_bytes: 331995
+    page_count: None
+    parseability: pdf_text_layer_unknown_until_open
+    extract_ok: false
+    extract_char_count: None
+    likely_scanned: none
+    apparent_chapter: None
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0056
+    relative_path: Kế toán ngân hàng/tmp/pdfs/page_decor.pdf
+    filename: page_decor.pdf
+    course_id: ke-toan-ngan-hang
+    course_folder: Kế toán ngân hàng
+    source_role: unknown
+    classification_confidence: low
+    classification_evidence_status: OBSERVED
+    classification_reason: path/name matches generated render/tmp/proxy artifact
+    authority_rank: null
+    extension: .pdf
+    size_bytes: 78093
+    page_count: None
+    parseability: pdf_text_layer_unknown_until_open
+    extract_ok: false
+    extract_char_count: None
+    likely_scanned: none
+    apparent_chapter: None
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0057
+    relative_path: Kế toán tài chính 1/ACCO2310_DE THI MAU_KTTC1.pdf
+    filename: ACCO2310_DE THI MAU_KTTC1.pdf
+    course_id: ke-toan-tai-chinh-1
+    course_folder: Kế toán tài chính 1
+    source_role: exam
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename contains exam token
+    authority_rank: 5
+    extension: .pdf
+    size_bytes: 146622
+    page_count: 3
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 10828
+    likely_scanned: false
+    apparent_chapter: None
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0058
+    relative_path: Kế toán tài chính 1/ACCO2310_HUONG DAN HOC TAP_KTTC1.pdf
+    filename: ACCO2310_HUONG DAN HOC TAP_KTTC1.pdf
+    course_id: ke-toan-tai-chinh-1
+    course_folder: Kế toán tài chính 1
+    source_role: syllabus
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename is a course study-guide / learning-instruction document
+    authority_rank: 1
+    extension: .pdf
+    size_bytes: 149540
+    page_count: 3
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 4726
+    likely_scanned: false
+    apparent_chapter: None
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0059
+    relative_path: Kế toán tài chính 1/Chương 0.pdf
+    filename: Chương 0.pdf
+    course_id: ke-toan-tai-chinh-1
+    course_folder: Kế toán tài chính 1
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 106551
+    page_count: 3
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 4501
+    likely_scanned: false
+    apparent_chapter: 0
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 3 locations (not necessarily content-duplicate)
+  - source_id: src-0060
+    relative_path: Kế toán tài chính 1/Chương 1.pdf
+    filename: Chương 1.pdf
+    course_id: ke-toan-tai-chinh-1
+    course_folder: Kế toán tài chính 1
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 1462454
+    page_count: 40
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 14486
+    likely_scanned: false
+    apparent_chapter: 1
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 9 locations (not necessarily content-duplicate)
+  - source_id: src-0061
+    relative_path: Kế toán tài chính 1/Chương 2.pdf
+    filename: Chương 2.pdf
+    course_id: ke-toan-tai-chinh-1
+    course_folder: Kế toán tài chính 1
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 1857031
+    page_count: 60
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 11723
+    likely_scanned: false
+    apparent_chapter: 2
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 9 locations (not necessarily content-duplicate)
+  - source_id: src-0062
+    relative_path: Kế toán tài chính 1/Chương 3.pdf
+    filename: Chương 3.pdf
+    course_id: ke-toan-tai-chinh-1
+    course_folder: Kế toán tài chính 1
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 2074509
+    page_count: 55
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 9617
+    likely_scanned: false
+    apparent_chapter: 3
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 8 locations (not necessarily content-duplicate)
+  - source_id: src-0063
+    relative_path: Kế toán tài chính 1/KTTC 1.pdf
+    filename: KTTC 1.pdf
+    course_id: ke-toan-tai-chinh-1
+    course_folder: Kế toán tài chính 1
+    source_role: textbook
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: large combined PDF named after the course; treated as textbook/course-pack pending deeper TOC confirmation
+    authority_rank: 3
+    extension: .pdf
+    size_bytes: 5500428
+    page_count: 158
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 10229
+    likely_scanned: false
+    apparent_chapter: None
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - promoted_to_textbook_in_source_registry
+  - source_id: src-0064
+    relative_path: Kế toán tài chính 1/Slide Chương 0.pdf
+    filename: Slide Chương 0.pdf
+    course_id: ke-toan-tai-chinh-1
+    course_folder: Kế toán tài chính 1
+    source_role: lecture_slide
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename starts with Slide + chapter/course token
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 448291
+    page_count: 11
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 1945
+    likely_scanned: false
+    apparent_chapter: 0
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 3 locations (not necessarily content-duplicate)
+  - source_id: src-0065
+    relative_path: Kế toán tài chính 1/Slide Chương 1.pdf
+    filename: Slide Chương 1.pdf
+    course_id: ke-toan-tai-chinh-1
+    course_folder: Kế toán tài chính 1
+    source_role: lecture_slide
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename starts with Slide + chapter/course token
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 2493950
+    page_count: 116
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 886
+    likely_scanned: false
+    apparent_chapter: 1
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 5 locations (not necessarily content-duplicate)
+  - source_id: src-0066
+    relative_path: Kế toán tài chính 1/Slide Chương 2.pdf
+    filename: Slide Chương 2.pdf
+    course_id: ke-toan-tai-chinh-1
+    course_folder: Kế toán tài chính 1
+    source_role: lecture_slide
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename starts with Slide + chapter/course token
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 3581907
+    page_count: 196
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 1353
+    likely_scanned: false
+    apparent_chapter: 2
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 5 locations (not necessarily content-duplicate)
+  - source_id: src-0067
+    relative_path: Kế toán tài chính 1/Slide Chương 3.pdf
+    filename: Slide Chương 3.pdf
+    course_id: ke-toan-tai-chinh-1
+    course_folder: Kế toán tài chính 1
+    source_role: lecture_slide
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename starts with Slide + chapter/course token
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 2162012
+    page_count: 153
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 1321
+    likely_scanned: false
+    apparent_chapter: 3
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 3 locations (not necessarily content-duplicate)
+  - source_id: src-0068
+    relative_path: Kế toán tài chính 1/Slide KTTC 1.pdf
+    filename: Slide KTTC 1.pdf
+    course_id: ke-toan-tai-chinh-1
+    course_folder: Kế toán tài chính 1
+    source_role: lecture_slide
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename starts with Slide + chapter/course token
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 9249529
+    page_count: 476
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 1440
+    likely_scanned: false
+    apparent_chapter: None
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0069
+    relative_path: Kế toán tài chính 2/Chương 1.pdf
+    filename: Chương 1.pdf
+    course_id: ke-toan-tai-chinh-2
+    course_folder: Kế toán tài chính 2
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 1024876
+    page_count: 39
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 19075
+    likely_scanned: false
+    apparent_chapter: 1
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 9 locations (not necessarily content-duplicate)
+  - source_id: src-0070
+    relative_path: Kế toán tài chính 2/Chương 2.pdf
+    filename: Chương 2.pdf
+    course_id: ke-toan-tai-chinh-2
+    course_folder: Kế toán tài chính 2
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 1049749
+    page_count: 57
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 23685
+    likely_scanned: false
+    apparent_chapter: 2
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 9 locations (not necessarily content-duplicate)
+  - source_id: src-0071
+    relative_path: Kế toán tài chính 2/tmp/redo_docx_proxy/redo_docx_proxy.pdf
+    filename: redo_docx_proxy.pdf
+    course_id: ke-toan-tai-chinh-2
+    course_folder: Kế toán tài chính 2
+    source_role: unknown
+    classification_confidence: low
+    classification_evidence_status: OBSERVED
+    classification_reason: path/name matches generated render/tmp/proxy artifact
+    authority_rank: null
+    extension: .pdf
+    size_bytes: 220841
+    page_count: None
+    parseability: pdf_text_layer_unknown_until_open
+    extract_ok: false
+    extract_char_count: None
+    likely_scanned: none
+    apparent_chapter: None
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0072
+    relative_path: Kế toán tài chính 2/tmp/redo_docx_proxy/redo_docx_proxy_final.pdf
+    filename: redo_docx_proxy_final.pdf
+    course_id: ke-toan-tai-chinh-2
+    course_folder: Kế toán tài chính 2
+    source_role: unknown
+    classification_confidence: low
+    classification_evidence_status: OBSERVED
+    classification_reason: path/name matches generated render/tmp/proxy artifact
+    authority_rank: null
+    extension: .pdf
+    size_bytes: 226948
+    page_count: None
+    parseability: pdf_text_layer_unknown_until_open
+    extract_ok: false
+    extract_char_count: None
+    likely_scanned: none
+    apparent_chapter: None
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0073
+    relative_path: Kế toán tài chính 2/tmp/render_proxy/de2_proxy.pdf
+    filename: de2_proxy.pdf
+    course_id: ke-toan-tai-chinh-2
+    course_folder: Kế toán tài chính 2
+    source_role: unknown
+    classification_confidence: low
+    classification_evidence_status: OBSERVED
+    classification_reason: path/name matches generated render/tmp/proxy artifact
+    authority_rank: null
+    extension: .pdf
+    size_bytes: 186180
+    page_count: None
+    parseability: pdf_text_layer_unknown_until_open
+    extract_ok: false
+    extract_char_count: None
+    likely_scanned: none
+    apparent_chapter: None
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0074
+    relative_path: Kế toán tài chính 2/tmp/render_proxy/de2_proxy_final.pdf
+    filename: de2_proxy_final.pdf
+    course_id: ke-toan-tai-chinh-2
+    course_folder: Kế toán tài chính 2
+    source_role: unknown
+    classification_confidence: low
+    classification_evidence_status: OBSERVED
+    classification_reason: path/name matches generated render/tmp/proxy artifact
+    authority_rank: null
+    extension: .pdf
+    size_bytes: 187087
+    page_count: None
+    parseability: pdf_text_layer_unknown_until_open
+    extract_ok: false
+    extract_char_count: None
+    likely_scanned: none
+    apparent_chapter: None
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0075
+    relative_path: Kế toán tài chính 2/Đề 2.pdf
+    filename: Đề 2.pdf
+    course_id: ke-toan-tai-chinh-2
+    course_folder: Kế toán tài chính 2
+    source_role: exam
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename is Đề N (exam booklet token)
+    authority_rank: 5
+    extension: .pdf
+    size_bytes: 154936
+    page_count: 2
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 3134
+    likely_scanned: false
+    apparent_chapter: None
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - promoted_to_exam_in_source_registry
+  - source_id: src-0076
+    relative_path: Luật kinh doanh/Dethimau_DapanLKD.pdf
+    filename: Dethimau_DapanLKD.pdf
+    course_id: luat-kinh-doanh
+    course_folder: Luật kinh doanh
+    source_role: exam
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename contains both exam and answer tokens; primary role=exam, also contains solutions
+    authority_rank: 5
+    extension: .pdf
+    size_bytes: 297860
+    page_count: 14
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 11083
+    likely_scanned: false
+    apparent_chapter: None
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - filename also contains solution/answer token
+  - source_id: src-0077
+    relative_path: Luật kinh doanh/Gioithieumonhoc.pdf
+    filename: Gioithieumonhoc.pdf
+    course_id: luat-kinh-doanh
+    course_folder: Luật kinh doanh
+    source_role: syllabus
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename contains course-intro/syllabus token
+    authority_rank: 1
+    extension: .pdf
+    size_bytes: 124415
+    page_count: 4
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 5637
+    likely_scanned: false
+    apparent_chapter: None
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0078
+    relative_path: Luật kinh doanh/HuongdanhocvathimonLKD.pdf
+    filename: HuongdanhocvathimonLKD.pdf
+    course_id: luat-kinh-doanh
+    course_folder: Luật kinh doanh
+    source_role: syllabus
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename is a course study-guide / learning-instruction document
+    authority_rank: 1
+    extension: .pdf
+    size_bytes: 249588
+    page_count: 6
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 8254
+    likely_scanned: false
+    apparent_chapter: None
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0079
+    relative_path: Luật kinh doanh/LKD-C1- HA.pdf
+    filename: LKD-C1- HA.pdf
+    course_id: luat-kinh-doanh
+    course_folder: Luật kinh doanh
+    source_role: lecture_note
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename matches course-chapter-topic lecture-unit pattern
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 308332
+    page_count: 6
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 7925
+    likely_scanned: false
+    apparent_chapter: 1
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0080
+    relative_path: Luật kinh doanh/LKD-C2-CD. 2.1. NGA.pdf
+    filename: LKD-C2-CD. 2.1. NGA.pdf
+    course_id: luat-kinh-doanh
+    course_folder: Luật kinh doanh
+    source_role: lecture_note
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename matches course-chapter-topic lecture-unit pattern
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 157381
+    page_count: 6
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 9835
+    likely_scanned: false
+    apparent_chapter: 2
+    apparent_topic_code: 2.1
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0081
+    relative_path: Luật kinh doanh/LKD-C2-CD. 2.2. NGA.pdf
+    filename: LKD-C2-CD. 2.2. NGA.pdf
+    course_id: luat-kinh-doanh
+    course_folder: Luật kinh doanh
+    source_role: lecture_note
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename matches course-chapter-topic lecture-unit pattern
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 165153
+    page_count: 6
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 10435
+    likely_scanned: false
+    apparent_chapter: 2
+    apparent_topic_code: 2.2
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0082
+    relative_path: Luật kinh doanh/LKD-C2-CD. 2.3. ĐOAN.pdf
+    filename: LKD-C2-CD. 2.3. ĐOAN.pdf
+    course_id: luat-kinh-doanh
+    course_folder: Luật kinh doanh
+    source_role: lecture_note
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename matches course-chapter-topic lecture-unit pattern
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 125293
+    page_count: 4
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 8023
+    likely_scanned: false
+    apparent_chapter: 2
+    apparent_topic_code: 2.3
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0083
+    relative_path: Luật kinh doanh/LKD-C2-CD. 2.4. NGA.pdf
+    filename: LKD-C2-CD. 2.4. NGA.pdf
+    course_id: luat-kinh-doanh
+    course_folder: Luật kinh doanh
+    source_role: lecture_note
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename matches course-chapter-topic lecture-unit pattern
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 147263
+    page_count: 5
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 9419
+    likely_scanned: false
+    apparent_chapter: 2
+    apparent_topic_code: 2.4
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0084
+    relative_path: Luật kinh doanh/LKD-C2-CD. 2.5. NGA.pdf
+    filename: LKD-C2-CD. 2.5. NGA.pdf
+    course_id: luat-kinh-doanh
+    course_folder: Luật kinh doanh
+    source_role: lecture_note
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename matches course-chapter-topic lecture-unit pattern
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 156801
+    page_count: 6
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 9654
+    likely_scanned: false
+    apparent_chapter: 2
+    apparent_topic_code: 2.5
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0085
+    relative_path: Luật kinh doanh/LKD-C3-CD. 3.1. HA.pdf
+    filename: LKD-C3-CD. 3.1. HA.pdf
+    course_id: luat-kinh-doanh
+    course_folder: Luật kinh doanh
+    source_role: lecture_note
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename matches course-chapter-topic lecture-unit pattern
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 113746
+    page_count: 3
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 3930
+    likely_scanned: false
+    apparent_chapter: 3
+    apparent_topic_code: 3.1
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0086
+    relative_path: Luật kinh doanh/LKD-C3-CD. 3.2. HA.pdf
+    filename: LKD-C3-CD. 3.2. HA.pdf
+    course_id: luat-kinh-doanh
+    course_folder: Luật kinh doanh
+    source_role: lecture_note
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename matches course-chapter-topic lecture-unit pattern
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 151094
+    page_count: 5
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 7843
+    likely_scanned: false
+    apparent_chapter: 3
+    apparent_topic_code: 3.2
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0087
+    relative_path: Luật kinh doanh/LKD-C3-CD. 3.3. HA.pdf
+    filename: LKD-C3-CD. 3.3. HA.pdf
+    course_id: luat-kinh-doanh
+    course_folder: Luật kinh doanh
+    source_role: lecture_note
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename matches course-chapter-topic lecture-unit pattern
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 155400
+    page_count: 11
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 14523
+    likely_scanned: false
+    apparent_chapter: 3
+    apparent_topic_code: 3.3
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0088
+    relative_path: Luật kinh doanh/LKD-C4-CD. 4.1. ĐOAN.pdf
+    filename: LKD-C4-CD. 4.1. ĐOAN.pdf
+    course_id: luat-kinh-doanh
+    course_folder: Luật kinh doanh
+    source_role: lecture_note
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename matches course-chapter-topic lecture-unit pattern
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 136772
+    page_count: 4
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 7953
+    likely_scanned: false
+    apparent_chapter: 4
+    apparent_topic_code: 4.1
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0089
+    relative_path: Luật kinh doanh/LKD-C4-CD. 4.2. ĐOAN.pdf
+    filename: LKD-C4-CD. 4.2. ĐOAN.pdf
+    course_id: luat-kinh-doanh
+    course_folder: Luật kinh doanh
+    source_role: lecture_note
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename matches course-chapter-topic lecture-unit pattern
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 115622
+    page_count: 3
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 7063
+    likely_scanned: false
+    apparent_chapter: 4
+    apparent_topic_code: 4.2
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0090
+    relative_path: Luật kinh doanh/LKD-C5- CD. 5.1. ĐOAN.pdf
+    filename: LKD-C5- CD. 5.1. ĐOAN.pdf
+    course_id: luat-kinh-doanh
+    course_folder: Luật kinh doanh
+    source_role: lecture_note
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename matches course-chapter-topic lecture-unit pattern
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 127075
+    page_count: 4
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 7240
+    likely_scanned: false
+    apparent_chapter: 5
+    apparent_topic_code: 5.1
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0091
+    relative_path: Luật kinh doanh/LKD-C5- CD. 5.2. ĐOAN.pdf
+    filename: LKD-C5- CD. 5.2. ĐOAN.pdf
+    course_id: luat-kinh-doanh
+    course_folder: Luật kinh doanh
+    source_role: lecture_note
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename matches course-chapter-topic lecture-unit pattern
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 134769
+    page_count: 4
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 8153
+    likely_scanned: false
+    apparent_chapter: 5
+    apparent_topic_code: 5.2
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0092
+    relative_path: Luật kinh doanh/LKD-C5- CD. 5.3. ĐOAN.pdf
+    filename: LKD-C5- CD. 5.3. ĐOAN.pdf
+    course_id: luat-kinh-doanh
+    course_folder: Luật kinh doanh
+    source_role: lecture_note
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename matches course-chapter-topic lecture-unit pattern
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 135317
+    page_count: 4
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 7858
+    likely_scanned: false
+    apparent_chapter: 5
+    apparent_topic_code: 5.3
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0093
+    relative_path: Nguyên lý kế toán/Nguyên Lý Kế Toán.pdf
+    filename: Nguyên Lý Kế Toán.pdf
+    course_id: nguyen-ly-ke-toan
+    course_folder: Nguyên lý kế toán
+    source_role: textbook
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: large combined PDF named after the course; treated as textbook/course-pack pending deeper TOC confirmation
+    authority_rank: 3
+    extension: .pdf
+    size_bytes: 5188740
+    page_count: 119
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 10902
+    likely_scanned: false
+    apparent_chapter: None
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - "promoted unknown -> textbook by size+name heuristic"
+      - promoted_to_textbook_in_source_registry
+  - source_id: src-0094
+    relative_path: Nguyên lý kế toán/NLKT-C1-CD1.1-Banchatcuaketoan.pdf
+    filename: NLKT-C1-CD1.1-Banchatcuaketoan.pdf
+    course_id: nguyen-ly-ke-toan
+    course_folder: Nguyên lý kế toán
+    source_role: lecture_note
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename matches course-chapter-topic lecture-unit pattern
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 213250
+    page_count: 3
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 6638
+    likely_scanned: false
+    apparent_chapter: 1
+    apparent_topic_code: 1.1
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0095
+    relative_path: Nguyên lý kế toán/NLKT-C1-CD1.2-Caclinhvucketoan.pdf
+    filename: NLKT-C1-CD1.2-Caclinhvucketoan.pdf
+    course_id: nguyen-ly-ke-toan
+    course_folder: Nguyên lý kế toán
+    source_role: lecture_note
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename matches course-chapter-topic lecture-unit pattern
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 183904
+    page_count: 3
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 4262
+    likely_scanned: false
+    apparent_chapter: 1
+    apparent_topic_code: 1.2
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0096
+    relative_path: Nguyên lý kế toán/NLKT-C1-CD1.3-Moitruongketoan-Tunghiencuu.pdf
+    filename: NLKT-C1-CD1.3-Moitruongketoan-Tunghiencuu.pdf
+    course_id: nguyen-ly-ke-toan
+    course_folder: Nguyên lý kế toán
+    source_role: lecture_note
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename matches course-chapter-topic lecture-unit pattern
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 254062
+    page_count: 4
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 8257
+    likely_scanned: false
+    apparent_chapter: 1
+    apparent_topic_code: 1.3
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0097
+    relative_path: Nguyên lý kế toán/NLKT-C2-CD2.1-TongquanveBCTC.pdf
+    filename: NLKT-C2-CD2.1-TongquanveBCTC.pdf
+    course_id: nguyen-ly-ke-toan
+    course_folder: Nguyên lý kế toán
+    source_role: lecture_note
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename matches course-chapter-topic lecture-unit pattern
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 221538
+    page_count: 4
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 8962
+    likely_scanned: false
+    apparent_chapter: 2
+    apparent_topic_code: 2.1
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0098
+    relative_path: Nguyên lý kế toán/NLKT-C2-CD2.2-P1-Bangcandoiketoan.pdf
+    filename: NLKT-C2-CD2.2-P1-Bangcandoiketoan.pdf
+    course_id: nguyen-ly-ke-toan
+    course_folder: Nguyên lý kế toán
+    source_role: lecture_note
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename matches course-chapter-topic lecture-unit pattern
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 225070
+    page_count: 4
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 7159
+    likely_scanned: false
+    apparent_chapter: 2
+    apparent_topic_code: 2.2
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0099
+    relative_path: Nguyên lý kế toán/NLKT-C2-CD2.2-P2-Bangcandoiketoan.pdf
+    filename: NLKT-C2-CD2.2-P2-Bangcandoiketoan.pdf
+    course_id: nguyen-ly-ke-toan
+    course_folder: Nguyên lý kế toán
+    source_role: lecture_note
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename matches course-chapter-topic lecture-unit pattern
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 186063
+    page_count: 3
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 6394
+    likely_scanned: false
+    apparent_chapter: 2
+    apparent_topic_code: 2.2
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0100
+    relative_path: Nguyên lý kế toán/NLKT-C2-CD2.3-BaocaoketquaHDKD.pdf
+    filename: NLKT-C2-CD2.3-BaocaoketquaHDKD.pdf
+    course_id: nguyen-ly-ke-toan
+    course_folder: Nguyên lý kế toán
+    source_role: lecture_note
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename matches course-chapter-topic lecture-unit pattern
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 217294
+    page_count: 4
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 9939
+    likely_scanned: false
+    apparent_chapter: 2
+    apparent_topic_code: 2.3
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0101
+    relative_path: Nguyên lý kế toán/NLKT-C2-CD2.4-Baocaoluuchuyentiente.pdf
+    filename: NLKT-C2-CD2.4-Baocaoluuchuyentiente.pdf
+    course_id: nguyen-ly-ke-toan
+    course_folder: Nguyên lý kế toán
+    source_role: lecture_note
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename matches course-chapter-topic lecture-unit pattern
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 197367
+    page_count: 4
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 5301
+    likely_scanned: false
+    apparent_chapter: 2
+    apparent_topic_code: 2.4
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0102
+    relative_path: Nguyên lý kế toán/NLKT-C2-CD2.5-BanthuyetminhBCTC-Tunghiencuu.pdf
+    filename: NLKT-C2-CD2.5-BanthuyetminhBCTC-Tunghiencuu.pdf
+    course_id: nguyen-ly-ke-toan
+    course_folder: Nguyên lý kế toán
+    source_role: lecture_note
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename matches course-chapter-topic lecture-unit pattern
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 163706
+    page_count: 2
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 3359
+    likely_scanned: false
+    apparent_chapter: 2
+    apparent_topic_code: 2.5
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0103
+    relative_path: Nguyên lý kế toán/NLKT-C2-CD2.6-PTKTvaBCTC.pdf
+    filename: NLKT-C2-CD2.6-PTKTvaBCTC.pdf
+    course_id: nguyen-ly-ke-toan
+    course_folder: Nguyên lý kế toán
+    source_role: lecture_note
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename matches course-chapter-topic lecture-unit pattern
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 214570
+    page_count: 5
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 7335
+    likely_scanned: false
+    apparent_chapter: 2
+    apparent_topic_code: 2.6
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0104
+    relative_path: Nguyên lý kế toán/NLKT-C2-CD2.7-P1-nguyentacvagiadinhketoan.pdf
+    filename: NLKT-C2-CD2.7-P1-nguyentacvagiadinhketoan.pdf
+    course_id: nguyen-ly-ke-toan
+    course_folder: Nguyên lý kế toán
+    source_role: lecture_note
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename matches course-chapter-topic lecture-unit pattern
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 196375
+    page_count: 3
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 6894
+    likely_scanned: false
+    apparent_chapter: 2
+    apparent_topic_code: 2.7
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0105
+    relative_path: Nguyên lý kế toán/NLKT-C2-CD2.7-P2-nguyentacvagiadinhketoan.pdf
+    filename: NLKT-C2-CD2.7-P2-nguyentacvagiadinhketoan.pdf
+    course_id: nguyen-ly-ke-toan
+    course_folder: Nguyên lý kế toán
+    source_role: lecture_note
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename matches course-chapter-topic lecture-unit pattern
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 157959
+    page_count: 2
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 3308
+    likely_scanned: false
+    apparent_chapter: 2
+    apparent_topic_code: 2.7
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0106
+    relative_path: Nguyên lý kế toán/NLKT-C3-CD3.1-Taikhoanketoan_v2.pdf
+    filename: NLKT-C3-CD3.1-Taikhoanketoan_v2.pdf
+    course_id: nguyen-ly-ke-toan
+    course_folder: Nguyên lý kế toán
+    source_role: lecture_note
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename matches course-chapter-topic lecture-unit pattern
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 292263
+    page_count: 11
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 20128
+    likely_scanned: false
+    apparent_chapter: 3
+    apparent_topic_code: 3.1
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0107
+    relative_path: Nguyên lý kế toán/NLKT-C3-CD3.2-Ghisokep_v2.pdf
+    filename: NLKT-C3-CD3.2-Ghisokep_v2.pdf
+    course_id: nguyen-ly-ke-toan
+    course_folder: Nguyên lý kế toán
+    source_role: lecture_note
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename matches course-chapter-topic lecture-unit pattern
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 224953
+    page_count: 7
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 14214
+    likely_scanned: false
+    apparent_chapter: 3
+    apparent_topic_code: 3.2
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0108
+    relative_path: Nguyên lý kế toán/NLKT-C3-CD3.3-TaikhoanvaBCĐKT_v2.pdf
+    filename: NLKT-C3-CD3.3-TaikhoanvaBCĐKT_v2.pdf
+    course_id: nguyen-ly-ke-toan
+    course_folder: Nguyên lý kế toán
+    source_role: lecture_note
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename matches course-chapter-topic lecture-unit pattern
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 201324
+    page_count: 3
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 5334
+    likely_scanned: false
+    apparent_chapter: 3
+    apparent_topic_code: 3.3
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0109
+    relative_path: Nguyên lý kế toán/NLKT-C3-CD3.4-Kiemtradoichieu_v2.pdf
+    filename: NLKT-C3-CD3.4-Kiemtradoichieu_v2.pdf
+    course_id: nguyen-ly-ke-toan
+    course_folder: Nguyên lý kế toán
+    source_role: lecture_note
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename matches course-chapter-topic lecture-unit pattern
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 294363
+    page_count: 5
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 8171
+    likely_scanned: false
+    apparent_chapter: 3
+    apparent_topic_code: 3.4
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0110
+    relative_path: Nguyên lý kế toán/NLKT-C4-CD4.2-Chiphitratruocvadoanhthuchuathuchien.pdf
+    filename: NLKT-C4-CD4.2-Chiphitratruocvadoanhthuchuathuchien.pdf
+    course_id: nguyen-ly-ke-toan
+    course_folder: Nguyên lý kế toán
+    source_role: lecture_note
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename matches course-chapter-topic lecture-unit pattern
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 132623
+    page_count: 3
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 4973
+    likely_scanned: false
+    apparent_chapter: 4
+    apparent_topic_code: 4.2
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0111
+    relative_path: Nguyên lý kế toán/NLKT-C4-CD4.3-Khauhaotaisancodinh.pdf
+    filename: NLKT-C4-CD4.3-Khauhaotaisancodinh.pdf
+    course_id: nguyen-ly-ke-toan
+    course_folder: Nguyên lý kế toán
+    source_role: lecture_note
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename matches course-chapter-topic lecture-unit pattern
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 172280
+    page_count: 4
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 6157
+    likely_scanned: false
+    apparent_chapter: 4
+    apparent_topic_code: 4.3
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0112
+    relative_path: Nguyên lý kế toán/NLKT-C4-CD4.4-Doanhthuchuathutienvachiphichuatratien.pdf
+    filename: NLKT-C4-CD4.4-Doanhthuchuathutienvachiphichuatratien.pdf
+    course_id: nguyen-ly-ke-toan
+    course_folder: Nguyên lý kế toán
+    source_role: lecture_note
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename matches course-chapter-topic lecture-unit pattern
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 167502
+    page_count: 4
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 5509
+    likely_scanned: false
+    apparent_chapter: 4
+    apparent_topic_code: 4.4
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0113
+    relative_path: Nguyên lý kế toán/NLKT-C4-CD4.5-Ketchuyendexacdinhketquakinhdoanh.pdf
+    filename: NLKT-C4-CD4.5-Ketchuyendexacdinhketquakinhdoanh.pdf
+    course_id: nguyen-ly-ke-toan
+    course_folder: Nguyên lý kế toán
+    source_role: lecture_note
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename matches course-chapter-topic lecture-unit pattern
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 189395
+    page_count: 6
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 9135
+    likely_scanned: false
+    apparent_chapter: 4
+    apparent_topic_code: 4.5
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0114
+    relative_path: Nguyên lý kế toán/NLKT-C4-CD4.6-Moiquanhetaikhoanbaocaotaichinh.pdf
+    filename: NLKT-C4-CD4.6-Moiquanhetaikhoanbaocaotaichinh.pdf
+    course_id: nguyen-ly-ke-toan
+    course_folder: Nguyên lý kế toán
+    source_role: lecture_note
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename matches course-chapter-topic lecture-unit pattern
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 179701
+    page_count: 4
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 7559
+    likely_scanned: false
+    apparent_chapter: 4
+    apparent_topic_code: 4.6
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0115
+    relative_path: Nguyên lý kế toán/NLKT-C4-CD4.pdf
+    filename: NLKT-C4-CD4.pdf
+    course_id: nguyen-ly-ke-toan
+    course_folder: Nguyên lý kế toán
+    source_role: lecture_note
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename matches course-chapter-topic lecture-unit pattern
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 218483
+    page_count: 5
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 9436
+    likely_scanned: false
+    apparent_chapter: 4
+    apparent_topic_code: 4
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0116
+    relative_path: Nguyên lý kế toán/NLKT-C5-CD5.1-P1-Chungtuketoan.pdf
+    filename: NLKT-C5-CD5.1-P1-Chungtuketoan.pdf
+    course_id: nguyen-ly-ke-toan
+    course_folder: Nguyên lý kế toán
+    source_role: lecture_note
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename matches course-chapter-topic lecture-unit pattern
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 203990
+    page_count: 6
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 11640
+    likely_scanned: false
+    apparent_chapter: 5
+    apparent_topic_code: 5.1
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0117
+    relative_path: Nguyên lý kế toán/NLKT-C5-CD5.1-P2-Sosachketoan.pdf
+    filename: NLKT-C5-CD5.1-P2-Sosachketoan.pdf
+    course_id: nguyen-ly-ke-toan
+    course_folder: Nguyên lý kế toán
+    source_role: lecture_note
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename matches course-chapter-topic lecture-unit pattern
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 206076
+    page_count: 7
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 12280
+    likely_scanned: false
+    apparent_chapter: 5
+    apparent_topic_code: 5.1
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0118
+    relative_path: Nguyên lý kế toán/NLKT-C5-CD5.2-Tochuccongtacketoantrongdoanhnghiep.pdf
+    filename: NLKT-C5-CD5.2-Tochuccongtacketoantrongdoanhnghiep.pdf
+    course_id: nguyen-ly-ke-toan
+    course_folder: Nguyên lý kế toán
+    source_role: lecture_note
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename matches course-chapter-topic lecture-unit pattern
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 169496
+    page_count: 4
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 6236
+    likely_scanned: false
+    apparent_chapter: 5
+    apparent_topic_code: 5.2
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0119
+    relative_path: Nguyên lý kế toán/NLKT-C6-CD6.1-CacmucdoungdungCNTT_v2.pdf
+    filename: NLKT-C6-CD6.1-CacmucdoungdungCNTT_v2.pdf
+    course_id: nguyen-ly-ke-toan
+    course_folder: Nguyên lý kế toán
+    source_role: lecture_note
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename matches course-chapter-topic lecture-unit pattern
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 184682
+    page_count: 4
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 8242
+    likely_scanned: false
+    apparent_chapter: 6
+    apparent_topic_code: 6.1
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0120
+    relative_path: Nguyên lý kế toán/NLKT-C6-CD6.2-Xaydungdulieu_v2.pdf
+    filename: NLKT-C6-CD6.2-Xaydungdulieu_v2.pdf
+    course_id: nguyen-ly-ke-toan
+    course_folder: Nguyên lý kế toán
+    source_role: lecture_note
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename matches course-chapter-topic lecture-unit pattern
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 209790
+    page_count: 5
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 9243
+    likely_scanned: false
+    apparent_chapter: 6
+    apparent_topic_code: 6.2
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0121
+    relative_path: Ngân hàng thương mại/Chương 0.pdf
+    filename: Chương 0.pdf
+    course_id: ngan-hang-thuong-mai
+    course_folder: Ngân hàng thương mại
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 219414
+    page_count: 6
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 9320
+    likely_scanned: false
+    apparent_chapter: 0
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 3 locations (not necessarily content-duplicate)
+  - source_id: src-0122
+    relative_path: Ngân hàng thương mại/Chương 1.pdf
+    filename: Chương 1.pdf
+    course_id: ngan-hang-thuong-mai
+    course_folder: Ngân hàng thương mại
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 519940
+    page_count: 15
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 12345
+    likely_scanned: false
+    apparent_chapter: 1
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 9 locations (not necessarily content-duplicate)
+  - source_id: src-0123
+    relative_path: Ngân hàng thương mại/Chương 2.pdf
+    filename: Chương 2.pdf
+    course_id: ngan-hang-thuong-mai
+    course_folder: Ngân hàng thương mại
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 366888
+    page_count: 12
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 14965
+    likely_scanned: false
+    apparent_chapter: 2
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 9 locations (not necessarily content-duplicate)
+  - source_id: src-0124
+    relative_path: Ngân hàng thương mại/Chương 3.pdf
+    filename: Chương 3.pdf
+    course_id: ngan-hang-thuong-mai
+    course_folder: Ngân hàng thương mại
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 511135
+    page_count: 24
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 10782
+    likely_scanned: false
+    apparent_chapter: 3
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 8 locations (not necessarily content-duplicate)
+  - source_id: src-0125
+    relative_path: Ngân hàng thương mại/Chương 4.pdf
+    filename: Chương 4.pdf
+    course_id: ngan-hang-thuong-mai
+    course_folder: Ngân hàng thương mại
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 282735
+    page_count: 7
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 11449
+    likely_scanned: false
+    apparent_chapter: 4
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 6 locations (not necessarily content-duplicate)
+  - source_id: src-0126
+    relative_path: Ngân hàng thương mại/Chương 5.pdf
+    filename: Chương 5.pdf
+    course_id: ngan-hang-thuong-mai
+    course_folder: Ngân hàng thương mại
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 925830
+    page_count: 52
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 14002
+    likely_scanned: false
+    apparent_chapter: 5
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 5 locations (not necessarily content-duplicate)
+  - source_id: src-0127
+    relative_path: Ngân hàng thương mại/Chương 6.pdf
+    filename: Chương 6.pdf
+    course_id: ngan-hang-thuong-mai
+    course_folder: Ngân hàng thương mại
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 446933
+    page_count: 15
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 15033
+    likely_scanned: false
+    apparent_chapter: 6
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 4 locations (not necessarily content-duplicate)
+  - source_id: src-0128
+    relative_path: Ngân hàng thương mại/DE THI MAU NHTM 2025 (1).pdf
+    filename: DE THI MAU NHTM 2025 (1).pdf
+    course_id: ngan-hang-thuong-mai
+    course_folder: Ngân hàng thương mại
+    source_role: exam
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename contains exam token
+    authority_rank: 5
+    extension: .pdf
+    size_bytes: 478918
+    page_count: 10
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 20608
+    likely_scanned: false
+    apparent_chapter: None
+    apparent_topic_code: null
+    academic_year_in_filename: 2025
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0129
+    relative_path: Ngân hàng thương mại/huongdan ontap va kiemtra (1).pdf
+    filename: huongdan ontap va kiemtra (1).pdf
+    course_id: ngan-hang-thuong-mai
+    course_folder: Ngân hàng thương mại
+    source_role: summary
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename contains review/ôn tập token
+    authority_rank: 6
+    extension: .pdf
+    size_bytes: 90023
+    page_count: 2
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 2783
+    likely_scanned: false
+    apparent_chapter: None
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0130
+    relative_path: Ngân hàng thương mại/Ngân hàng Thương Mại.pdf
+    filename: Ngân hàng Thương Mại.pdf
+    course_id: ngan-hang-thuong-mai
+    course_folder: Ngân hàng thương mại
+    source_role: textbook
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: large combined PDF named after the course; treated as textbook/course-pack pending deeper TOC confirmation
+    authority_rank: 3
+    extension: .pdf
+    size_bytes: 3765410
+    page_count: 143
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 9320
+    likely_scanned: false
+    apparent_chapter: None
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - "promoted unknown -> textbook by size+name heuristic"
+      - promoted_to_textbook_in_source_registry
+  - source_id: src-0131
+    relative_path: Ngân hàng thương mại/Slide Chương 0.pdf
+    filename: Slide Chương 0.pdf
+    course_id: ngan-hang-thuong-mai
+    course_folder: Ngân hàng thương mại
+    source_role: lecture_slide
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename starts with Slide + chapter/course token
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 934916
+    page_count: 11
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 2243
+    likely_scanned: false
+    apparent_chapter: 0
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 3 locations (not necessarily content-duplicate)
+  - source_id: src-0132
+    relative_path: Ngân hàng thương mại/Slide Chương 1.pdf
+    filename: Slide Chương 1.pdf
+    course_id: ngan-hang-thuong-mai
+    course_folder: Ngân hàng thương mại
+    source_role: lecture_slide
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename starts with Slide + chapter/course token
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 2102250
+    page_count: 40
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 914
+    likely_scanned: false
+    apparent_chapter: 1
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 5 locations (not necessarily content-duplicate)
+  - source_id: src-0133
+    relative_path: Ngân hàng thương mại/Slide Chương 2.pdf
+    filename: Slide Chương 2.pdf
+    course_id: ngan-hang-thuong-mai
+    course_folder: Ngân hàng thương mại
+    source_role: lecture_slide
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename starts with Slide + chapter/course token
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 1326738
+    page_count: 22
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 1287
+    likely_scanned: false
+    apparent_chapter: 2
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 5 locations (not necessarily content-duplicate)
+  - source_id: src-0134
+    relative_path: Ngân hàng thương mại/Slide Chương 3.pdf
+    filename: Slide Chương 3.pdf
+    course_id: ngan-hang-thuong-mai
+    course_folder: Ngân hàng thương mại
+    source_role: lecture_slide
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename starts with Slide + chapter/course token
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 3871410
+    page_count: 48
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 1333
+    likely_scanned: false
+    apparent_chapter: 3
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 3 locations (not necessarily content-duplicate)
+  - source_id: src-0135
+    relative_path: Ngân hàng thương mại/Slide Chương 4.pdf
+    filename: Slide Chương 4.pdf
+    course_id: ngan-hang-thuong-mai
+    course_folder: Ngân hàng thương mại
+    source_role: lecture_slide
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename starts with Slide + chapter/course token
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 1539938
+    page_count: 44
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 1014
+    likely_scanned: false
+    apparent_chapter: 4
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 3 locations (not necessarily content-duplicate)
+  - source_id: src-0136
+    relative_path: Ngân hàng thương mại/Slide Chương 5.pdf
+    filename: Slide Chương 5.pdf
+    course_id: ngan-hang-thuong-mai
+    course_folder: Ngân hàng thương mại
+    source_role: lecture_slide
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename starts with Slide + chapter/course token
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 2076705
+    page_count: 106
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 1173
+    likely_scanned: false
+    apparent_chapter: 5
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 2 locations (not necessarily content-duplicate)
+  - source_id: src-0137
+    relative_path: Ngân hàng thương mại/Slide Chương 6.pdf
+    filename: Slide Chương 6.pdf
+    course_id: ngan-hang-thuong-mai
+    course_folder: Ngân hàng thương mại
+    source_role: lecture_slide
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename starts with Slide + chapter/course token
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 2470473
+    page_count: 64
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 1235
+    likely_scanned: false
+    apparent_chapter: 6
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 3 locations (not necessarily content-duplicate)
+  - source_id: src-0138
+    relative_path: Ngân hàng thương mại/Slide Ngân hàng Thương Mại.pdf
+    filename: Slide Ngân hàng Thương Mại.pdf
+    course_id: ngan-hang-thuong-mai
+    course_folder: Ngân hàng thương mại
+    source_role: lecture_slide
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename starts with Slide + chapter/course token
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 15035547
+    page_count: 335
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 1469
+    likely_scanned: false
+    apparent_chapter: None
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0139
+    relative_path: Ngân hàng thương mại/SO_TAY_THI_MO_NHTM.docx
+    filename: SO_TAY_THI_MO_NHTM.docx
+    course_id: ngan-hang-thuong-mai
+    course_folder: Ngân hàng thương mại
+    source_role: summary
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: handbook/sổ tay token; could be exam summary or reference
+    authority_rank: 6
+    extension: .docx
+    size_bytes: 36521
+    page_count: None
+    parseability: text_extractable
+    extract_ok: true
+    extract_char_count: 5673
+    likely_scanned: false
+    apparent_chapter: None
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0140
+    relative_path: Ngân hàng thương mại/SO_TAY_THI_MO_NHTM.pdf
+    filename: SO_TAY_THI_MO_NHTM.pdf
+    course_id: ngan-hang-thuong-mai
+    course_folder: Ngân hàng thương mại
+    source_role: summary
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: handbook/sổ tay token; could be exam summary or reference
+    authority_rank: 6
+    extension: .pdf
+    size_bytes: 464695
+    page_count: 17
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 35700
+    likely_scanned: false
+    apparent_chapter: None
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0141
+    relative_path: Thị trường tài chính/Chương 1.pdf
+    filename: Chương 1.pdf
+    course_id: thi-truong-tai-chinh
+    course_folder: Thị trường tài chính
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 498959
+    page_count: 6
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 10464
+    likely_scanned: false
+    apparent_chapter: 1
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 9 locations (not necessarily content-duplicate)
+  - source_id: src-0142
+    relative_path: Thị trường tài chính/Chương 2.pdf
+    filename: Chương 2.pdf
+    course_id: thi-truong-tai-chinh
+    course_folder: Thị trường tài chính
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 531511
+    page_count: 10
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 13092
+    likely_scanned: false
+    apparent_chapter: 2
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 9 locations (not necessarily content-duplicate)
+  - source_id: src-0143
+    relative_path: Thị trường tài chính/Chương 3.pdf
+    filename: Chương 3.pdf
+    course_id: thi-truong-tai-chinh
+    course_folder: Thị trường tài chính
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 487904
+    page_count: 10
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 12242
+    likely_scanned: false
+    apparent_chapter: 3
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 8 locations (not necessarily content-duplicate)
+  - source_id: src-0144
+    relative_path: Thị trường tài chính/Chương 4.pdf
+    filename: Chương 4.pdf
+    course_id: thi-truong-tai-chinh
+    course_folder: Thị trường tài chính
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 391735
+    page_count: 10
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 14461
+    likely_scanned: false
+    apparent_chapter: 4
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 6 locations (not necessarily content-duplicate)
+  - source_id: src-0145
+    relative_path: Thị trường tài chính/Chương 5.pdf
+    filename: Chương 5.pdf
+    course_id: thi-truong-tai-chinh
+    course_folder: Thị trường tài chính
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 568622
+    page_count: 10
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 11789
+    likely_scanned: false
+    apparent_chapter: 5
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 5 locations (not necessarily content-duplicate)
+  - source_id: src-0146
+    relative_path: Thị trường tài chính/Chương 6.pdf
+    filename: Chương 6.pdf
+    course_id: thi-truong-tai-chinh
+    course_folder: Thị trường tài chính
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 533865
+    page_count: 10
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 12581
+    likely_scanned: false
+    apparent_chapter: 6
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 4 locations (not necessarily content-duplicate)
+  - source_id: src-0147
+    relative_path: Thị trường tài chính/Chương 7.pdf
+    filename: Chương 7.pdf
+    course_id: thi-truong-tai-chinh
+    course_folder: Thị trường tài chính
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 268729
+    page_count: 5
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 5986
+    likely_scanned: false
+    apparent_chapter: 7
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 2 locations (not necessarily content-duplicate)
+  - source_id: src-0148
+    relative_path: Thị trường tài chính/Slide Chương 1.pdf
+    filename: Slide Chương 1.pdf
+    course_id: thi-truong-tai-chinh
+    course_folder: Thị trường tài chính
+    source_role: lecture_slide
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename starts with Slide + chapter/course token
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 791384
+    page_count: 37
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 2051
+    likely_scanned: false
+    apparent_chapter: 1
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 5 locations (not necessarily content-duplicate)
+  - source_id: src-0149
+    relative_path: Thị trường tài chính/Slide Chương 2.pdf
+    filename: Slide Chương 2.pdf
+    course_id: thi-truong-tai-chinh
+    course_folder: Thị trường tài chính
+    source_role: lecture_slide
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename starts with Slide + chapter/course token
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 1113780
+    page_count: 42
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 1701
+    likely_scanned: false
+    apparent_chapter: 2
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 5 locations (not necessarily content-duplicate)
+  - source_id: src-0150
+    relative_path: Thị trường tài chính/Slide chương 3.pdf
+    filename: Slide chương 3.pdf
+    course_id: thi-truong-tai-chinh
+    course_folder: Thị trường tài chính
+    source_role: lecture_slide
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename starts with Slide + chapter/course token
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 496367
+    page_count: 37
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 2511
+    likely_scanned: false
+    apparent_chapter: 3
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0151
+    relative_path: Thị trường tài chính/Slide chương 4.pdf
+    filename: Slide chương 4.pdf
+    course_id: thi-truong-tai-chinh
+    course_folder: Thị trường tài chính
+    source_role: lecture_slide
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename starts with Slide + chapter/course token
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 1039166
+    page_count: 36
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 1834
+    likely_scanned: false
+    apparent_chapter: 4
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0152
+    relative_path: Thị trường tài chính/Slide chương 5.pdf
+    filename: Slide chương 5.pdf
+    course_id: thi-truong-tai-chinh
+    course_folder: Thị trường tài chính
+    source_role: lecture_slide
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename starts with Slide + chapter/course token
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 1962820
+    page_count: 33
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 2106
+    likely_scanned: false
+    apparent_chapter: 5
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0153
+    relative_path: Thị trường tài chính/Slide Chương 6.pdf
+    filename: Slide Chương 6.pdf
+    course_id: thi-truong-tai-chinh
+    course_folder: Thị trường tài chính
+    source_role: lecture_slide
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename starts with Slide + chapter/course token
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 568866
+    page_count: 39
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 2526
+    likely_scanned: false
+    apparent_chapter: 6
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 3 locations (not necessarily content-duplicate)
+  - source_id: src-0154
+    relative_path: Thị trường tài chính/Slide Chương 7.pdf
+    filename: Slide Chương 7.pdf
+    course_id: thi-truong-tai-chinh
+    course_folder: Thị trường tài chính
+    source_role: lecture_slide
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename starts with Slide + chapter/course token
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 1292631
+    page_count: 33
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 2832
+    likely_scanned: false
+    apparent_chapter: 7
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0155
+    relative_path: Tài chính doanh nghiệp 1/Chương 0.pdf
+    filename: Chương 0.pdf
+    course_id: tai-chinh-doanh-nghiep-1
+    course_folder: Tài chính doanh nghiệp 1
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 266080
+    page_count: 3
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 3093
+    likely_scanned: false
+    apparent_chapter: 0
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 3 locations (not necessarily content-duplicate)
+  - source_id: src-0156
+    relative_path: Tài chính doanh nghiệp 1/Chương 1.pdf
+    filename: Chương 1.pdf
+    course_id: tai-chinh-doanh-nghiep-1
+    course_folder: Tài chính doanh nghiệp 1
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 557562
+    page_count: 12
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 11717
+    likely_scanned: false
+    apparent_chapter: 1
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 9 locations (not necessarily content-duplicate)
+  - source_id: src-0157
+    relative_path: Tài chính doanh nghiệp 1/Chương 2.pdf
+    filename: Chương 2.pdf
+    course_id: tai-chinh-doanh-nghiep-1
+    course_folder: Tài chính doanh nghiệp 1
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 851542
+    page_count: 31
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 12817
+    likely_scanned: false
+    apparent_chapter: 2
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 9 locations (not necessarily content-duplicate)
+  - source_id: src-0158
+    relative_path: Tài chính doanh nghiệp 1/Chương 3.pdf
+    filename: Chương 3.pdf
+    course_id: tai-chinh-doanh-nghiep-1
+    course_folder: Tài chính doanh nghiệp 1
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 605502
+    page_count: 12
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 12003
+    likely_scanned: false
+    apparent_chapter: 3
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 8 locations (not necessarily content-duplicate)
+  - source_id: src-0159
+    relative_path: Tài chính doanh nghiệp 1/Chương 4.pdf
+    filename: Chương 4.pdf
+    course_id: tai-chinh-doanh-nghiep-1
+    course_folder: Tài chính doanh nghiệp 1
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 834628
+    page_count: 23
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 13950
+    likely_scanned: false
+    apparent_chapter: 4
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 6 locations (not necessarily content-duplicate)
+  - source_id: src-0160
+    relative_path: Tài chính doanh nghiệp 1/Chương 5.pdf
+    filename: Chương 5.pdf
+    course_id: tai-chinh-doanh-nghiep-1
+    course_folder: Tài chính doanh nghiệp 1
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 1992545
+    page_count: 28
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 10477
+    likely_scanned: false
+    apparent_chapter: 5
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 5 locations (not necessarily content-duplicate)
+  - source_id: src-0161
+    relative_path: Tài chính doanh nghiệp 1/Chương 6.pdf
+    filename: Chương 6.pdf
+    course_id: tai-chinh-doanh-nghiep-1
+    course_folder: Tài chính doanh nghiệp 1
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 1948949
+    page_count: 26
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 14081
+    likely_scanned: false
+    apparent_chapter: 6
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 4 locations (not necessarily content-duplicate)
+  - source_id: src-0162
+    relative_path: Tài chính doanh nghiệp 1/Chương 7.pdf
+    filename: Chương 7.pdf
+    course_id: tai-chinh-doanh-nghiep-1
+    course_folder: Tài chính doanh nghiệp 1
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 1485602
+    page_count: 46
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 12120
+    likely_scanned: false
+    apparent_chapter: 7
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 2 locations (not necessarily content-duplicate)
+  - source_id: src-0163
+    relative_path: Tài chính doanh nghiệp 1/Chương 8.pdf
+    filename: Chương 8.pdf
+    course_id: tai-chinh-doanh-nghiep-1
+    course_folder: Tài chính doanh nghiệp 1
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 1262079
+    page_count: 24
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 13361
+    likely_scanned: false
+    apparent_chapter: 8
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0164
+    relative_path: Tài chính doanh nghiệp 1/Chương 9.pdf
+    filename: Chương 9.pdf
+    course_id: tai-chinh-doanh-nghiep-1
+    course_folder: Tài chính doanh nghiệp 1
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 673551
+    page_count: 13
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 16221
+    likely_scanned: false
+    apparent_chapter: 9
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0165
+    relative_path: Tài chính doanh nghiệp 1/Corporate_Finance_Blueprint.pptx
+    filename: Corporate_Finance_Blueprint.pptx
+    course_id: tai-chinh-doanh-nghiep-1
+    course_folder: Tài chính doanh nghiệp 1
+    source_role: lecture_slide
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: pptx extension only; content role not confirmed
+    authority_rank: 2
+    extension: .pptx
+    size_bytes: 19934605
+    page_count: None
+    parseability: pptx_library_missing
+    extract_ok: false
+    extract_char_count: None
+    likely_scanned: none
+    apparent_chapter: None
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0166
+    relative_path: Tài chính doanh nghiệp 1/Slide Chương 0.pdf
+    filename: Slide Chương 0.pdf
+    course_id: tai-chinh-doanh-nghiep-1
+    course_folder: Tài chính doanh nghiệp 1
+    source_role: lecture_slide
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename starts with Slide + chapter/course token
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 870171
+    page_count: 6
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 1108
+    likely_scanned: false
+    apparent_chapter: 0
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 3 locations (not necessarily content-duplicate)
+  - source_id: src-0167
+    relative_path: Tài chính doanh nghiệp 1/Slide Chương 1.pdf
+    filename: Slide Chương 1.pdf
+    course_id: tai-chinh-doanh-nghiep-1
+    course_folder: Tài chính doanh nghiệp 1
+    source_role: lecture_slide
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename starts with Slide + chapter/course token
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 1466471
+    page_count: 8
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 2071
+    likely_scanned: false
+    apparent_chapter: 1
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 5 locations (not necessarily content-duplicate)
+  - source_id: src-0168
+    relative_path: Tài chính doanh nghiệp 1/Slide Chương 2.pdf
+    filename: Slide Chương 2.pdf
+    course_id: tai-chinh-doanh-nghiep-1
+    course_folder: Tài chính doanh nghiệp 1
+    source_role: lecture_slide
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename starts with Slide + chapter/course token
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 1079225
+    page_count: 26
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 1463
+    likely_scanned: false
+    apparent_chapter: 2
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 5 locations (not necessarily content-duplicate)
+  - source_id: src-0169
+    relative_path: Tài chính doanh nghiệp 1/Slide Chương 4.pdf
+    filename: Slide Chương 4.pdf
+    course_id: tai-chinh-doanh-nghiep-1
+    course_folder: Tài chính doanh nghiệp 1
+    source_role: lecture_slide
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename starts with Slide + chapter/course token
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 1077478
+    page_count: 15
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 1337
+    likely_scanned: false
+    apparent_chapter: 4
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 3 locations (not necessarily content-duplicate)
+  - source_id: src-0170
+    relative_path: Tài chính doanh nghiệp 1/Slide Chương 5.pdf
+    filename: Slide Chương 5.pdf
+    course_id: tai-chinh-doanh-nghiep-1
+    course_folder: Tài chính doanh nghiệp 1
+    source_role: lecture_slide
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename starts with Slide + chapter/course token
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 1778483
+    page_count: 16
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 1038
+    likely_scanned: false
+    apparent_chapter: 5
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 2 locations (not necessarily content-duplicate)
+  - source_id: src-0171
+    relative_path: Tài chính doanh nghiệp 1/Slide Chương 6.pdf
+    filename: Slide Chương 6.pdf
+    course_id: tai-chinh-doanh-nghiep-1
+    course_folder: Tài chính doanh nghiệp 1
+    source_role: lecture_slide
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename starts with Slide + chapter/course token
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 1391420
+    page_count: 14
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 1084
+    likely_scanned: false
+    apparent_chapter: 6
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 3 locations (not necessarily content-duplicate)
+  - source_id: src-0172
+    relative_path: Tài chính doanh nghiệp 1/Slide.pdf
+    filename: Slide.pdf
+    course_id: tai-chinh-doanh-nghiep-1
+    course_folder: Tài chính doanh nghiệp 1
+    source_role: lecture_slide
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename starts with Slide
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 6188425
+    page_count: 77
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 1108
+    likely_scanned: false
+    apparent_chapter: None
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0173
+    relative_path: Tài chính doanh nghiệp 1/SO_TAY_THI_MO_TCDN1.docx
+    filename: SO_TAY_THI_MO_TCDN1.docx
+    course_id: tai-chinh-doanh-nghiep-1
+    course_folder: Tài chính doanh nghiệp 1
+    source_role: summary
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: handbook/sổ tay token; could be exam summary or reference
+    authority_rank: 6
+    extension: .docx
+    size_bytes: 53530
+    page_count: None
+    parseability: text_extractable
+    extract_ok: true
+    extract_char_count: 11432
+    likely_scanned: false
+    apparent_chapter: None
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0174
+    relative_path: Tài chính doanh nghiệp 1/SO_TAY_THI_MO_TCDN1.pdf
+    filename: SO_TAY_THI_MO_TCDN1.pdf
+    course_id: tai-chinh-doanh-nghiep-1
+    course_folder: Tài chính doanh nghiệp 1
+    source_role: summary
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: handbook/sổ tay token; could be exam summary or reference
+    authority_rank: 6
+    extension: .pdf
+    size_bytes: 744465
+    page_count: 25
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 50605
+    likely_scanned: false
+    apparent_chapter: None
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0175
+    relative_path: Tài chính doanh nghiệp 1/TCDN1-Dapandethimau.pdf
+    filename: TCDN1-Dapandethimau.pdf
+    course_id: tai-chinh-doanh-nghiep-1
+    course_folder: Tài chính doanh nghiệp 1
+    source_role: exam
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename contains both exam and answer tokens; primary role=exam, also contains solutions
+    authority_rank: 5
+    extension: .pdf
+    size_bytes: 154030
+    page_count: 1
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 921
+    likely_scanned: false
+    apparent_chapter: None
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - filename also contains solution/answer token
+  - source_id: src-0176
+    relative_path: Tài chính doanh nghiệp 1/TCDN1-Dethimau.pdf
+    filename: TCDN1-Dethimau.pdf
+    course_id: tai-chinh-doanh-nghiep-1
+    course_folder: Tài chính doanh nghiệp 1
+    source_role: exam
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename contains exam token
+    authority_rank: 5
+    extension: .pdf
+    size_bytes: 309683
+    page_count: 7
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 12434
+    likely_scanned: false
+    apparent_chapter: None
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0177
+    relative_path: Tài chính doanh nghiệp 1/TCDN1-Tailieuhuongdanntap.docx
+    filename: TCDN1-Tailieuhuongdanntap.docx
+    course_id: tai-chinh-doanh-nghiep-1
+    course_folder: Tài chính doanh nghiệp 1
+    source_role: summary
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename contains review/ôn tập token
+    authority_rank: 6
+    extension: .docx
+    size_bytes: 42150
+    page_count: None
+    parseability: text_extractable
+    extract_ok: true
+    extract_char_count: 412
+    likely_scanned: false
+    apparent_chapter: None
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0178
+    relative_path: Tài chính doanh nghiệp 1/Tài Chính Doanh NGhiệp.pdf
+    filename: Tài Chính Doanh NGhiệp.pdf
+    course_id: tai-chinh-doanh-nghiep-1
+    course_folder: Tài chính doanh nghiệp 1
+    source_role: textbook
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: large combined PDF named after the course; treated as textbook/course-pack pending deeper TOC confirmation
+    authority_rank: 3
+    extension: .pdf
+    size_bytes: 10443371
+    page_count: 218
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 8846
+    likely_scanned: false
+    apparent_chapter: None
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - promoted_to_textbook_in_source_registry
+  - source_id: src-0179
+    relative_path: Tài chính hành chính sự nghiệp/Chương 1.pdf
+    filename: Chương 1.pdf
+    course_id: tai-chinh-hanh-chinh-su-nghiep
+    course_folder: Tài chính hành chính sự nghiệp
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 1029643
+    page_count: 39
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 14517
+    likely_scanned: false
+    apparent_chapter: 1
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 9 locations (not necessarily content-duplicate)
+  - source_id: src-0180
+    relative_path: Tài chính hành chính sự nghiệp/Chương 2.pdf
+    filename: Chương 2.pdf
+    course_id: tai-chinh-hanh-chinh-su-nghiep
+    course_folder: Tài chính hành chính sự nghiệp
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 1392287
+    page_count: 52
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 14676
+    likely_scanned: false
+    apparent_chapter: 2
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 9 locations (not necessarily content-duplicate)
+  - source_id: src-0181
+    relative_path: Tài chính hành chính sự nghiệp/Chương 3.pdf
+    filename: Chương 3.pdf
+    course_id: tai-chinh-hanh-chinh-su-nghiep
+    course_folder: Tài chính hành chính sự nghiệp
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 584683
+    page_count: 26
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 13656
+    likely_scanned: false
+    apparent_chapter: 3
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 8 locations (not necessarily content-duplicate)
+  - source_id: src-0182
+    relative_path: Tài chính hành chính sự nghiệp/Chương 4.pdf
+    filename: Chương 4.pdf
+    course_id: tai-chinh-hanh-chinh-su-nghiep
+    course_folder: Tài chính hành chính sự nghiệp
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 990004
+    page_count: 41
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 15105
+    likely_scanned: false
+    apparent_chapter: 4
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 6 locations (not necessarily content-duplicate)
+  - source_id: src-0183
+    relative_path: Tài chính hành chính sự nghiệp/Chương 5.pdf
+    filename: Chương 5.pdf
+    course_id: tai-chinh-hanh-chinh-su-nghiep
+    course_folder: Tài chính hành chính sự nghiệp
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 1196250
+    page_count: 44
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 11965
+    likely_scanned: false
+    apparent_chapter: 5
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 5 locations (not necessarily content-duplicate)
+  - source_id: src-0184
+    relative_path: Tài chính hành chính sự nghiệp/Chương 6.pdf
+    filename: Chương 6.pdf
+    course_id: tai-chinh-hanh-chinh-su-nghiep
+    course_folder: Tài chính hành chính sự nghiệp
+    source_role: lecture_note
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: "filename is 'Chương N' only; could be notes, slides-export, or textbook chapter"
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 1541657
+    page_count: 57
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 11079
+    likely_scanned: false
+    apparent_chapter: 6
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 4 locations (not necessarily content-duplicate)
+  - source_id: src-0185
+    relative_path: Tài chính hành chính sự nghiệp/DE THI MAU TCHCSN NĂM 2022.pdf
+    filename: DE THI MAU TCHCSN NĂM 2022.pdf
+    course_id: tai-chinh-hanh-chinh-su-nghiep
+    course_folder: Tài chính hành chính sự nghiệp
+    source_role: exam
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename contains exam token
+    authority_rank: 5
+    extension: .pdf
+    size_bytes: 464964
+    page_count: 9
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 13547
+    likely_scanned: false
+    apparent_chapter: None
+    apparent_topic_code: null
+    academic_year_in_filename: 2022
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0186
+    relative_path: Tài chính hành chính sự nghiệp/Hành chính và sự nghiệp.pdf
+    filename: Hành chính và sự nghiệp.pdf
+    course_id: tai-chinh-hanh-chinh-su-nghiep
+    course_folder: Tài chính hành chính sự nghiệp
+    source_role: textbook
+    classification_confidence: low
+    classification_evidence_status: INFERRED
+    classification_reason: large combined PDF named after the course; treated as textbook/course-pack pending deeper TOC confirmation
+    authority_rank: 3
+    extension: .pdf
+    size_bytes: 6734712
+    page_count: 259
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 10527
+    likely_scanned: false
+    apparent_chapter: None
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - promoted_to_textbook_in_source_registry
+  - source_id: src-0187
+    relative_path: Tài chính hành chính sự nghiệp/Slide Chương 1.pdf
+    filename: Slide Chương 1.pdf
+    course_id: tai-chinh-hanh-chinh-su-nghiep
+    course_folder: Tài chính hành chính sự nghiệp
+    source_role: lecture_slide
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename starts with Slide + chapter/course token
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 2424248
+    page_count: 84
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 2561
+    likely_scanned: false
+    apparent_chapter: 1
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 5 locations (not necessarily content-duplicate)
+  - source_id: src-0188
+    relative_path: Tài chính hành chính sự nghiệp/Slide Chương 2.pdf
+    filename: Slide Chương 2.pdf
+    course_id: tai-chinh-hanh-chinh-su-nghiep
+    course_folder: Tài chính hành chính sự nghiệp
+    source_role: lecture_slide
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename starts with Slide + chapter/course token
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 2649271
+    page_count: 114
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 1286
+    likely_scanned: false
+    apparent_chapter: 2
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 5 locations (not necessarily content-duplicate)
+  - source_id: src-0189
+    relative_path: Tài chính hành chính sự nghiệp/Slide Chương 3.pdf
+    filename: Slide Chương 3.pdf
+    course_id: tai-chinh-hanh-chinh-su-nghiep
+    course_folder: Tài chính hành chính sự nghiệp
+    source_role: lecture_slide
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename starts with Slide + chapter/course token
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 386281
+    page_count: 48
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 3127
+    likely_scanned: false
+    apparent_chapter: 3
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 3 locations (not necessarily content-duplicate)
+  - source_id: src-0190
+    relative_path: Tài chính hành chính sự nghiệp/Slide Chương 4.pdf
+    filename: Slide Chương 4.pdf
+    course_id: tai-chinh-hanh-chinh-su-nghiep
+    course_folder: Tài chính hành chính sự nghiệp
+    source_role: lecture_slide
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename starts with Slide + chapter/course token
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 3305535
+    page_count: 80
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 974
+    likely_scanned: false
+    apparent_chapter: 4
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes:
+      - same filename appears in 3 locations (not necessarily content-duplicate)
+  - source_id: src-0191
+    relative_path: Tài chính hành chính sự nghiệp/SlideHành chính và sự nghiệp.pdf
+    filename: SlideHành chính và sự nghiệp.pdf
+    course_id: tai-chinh-hanh-chinh-su-nghiep
+    course_folder: Tài chính hành chính sự nghiệp
+    source_role: lecture_slide
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename starts with Slide
+    authority_rank: 2
+    extension: .pdf
+    size_bytes: 9076379
+    page_count: 326
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 2561
+    likely_scanned: false
+    apparent_chapter: None
+    apparent_topic_code: null
+    academic_year_in_filename: null
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []
+  - source_id: src-0192
+    relative_path: Tài chính hành chính sự nghiệp/TAI LIEU ON TAP TCHCSN NĂM 2022.pdf
+    filename: TAI LIEU ON TAP TCHCSN NĂM 2022.pdf
+    course_id: tai-chinh-hanh-chinh-su-nghiep
+    course_folder: Tài chính hành chính sự nghiệp
+    source_role: summary
+    classification_confidence: medium
+    classification_evidence_status: OBSERVED
+    classification_reason: filename contains review/ôn tập token
+    authority_rank: 6
+    extension: .pdf
+    size_bytes: 347266
+    page_count: 12
+    parseability: pdf_text_layer_present
+    extract_ok: true
+    extract_char_count: 8266
+    likely_scanned: false
+    apparent_chapter: None
+    apparent_topic_code: null
+    academic_year_in_filename: 2022
+    course_code_in_filename: []
+    exact_duplicate_paths: []
+    notes: []

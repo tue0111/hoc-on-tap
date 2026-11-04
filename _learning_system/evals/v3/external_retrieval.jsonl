@@ -1,0 +1,5 @@
+{"id":"ext-01","question":"Kế toán tài chính 1: Thông tư 200/2014/TT-BTC hướng dẫn kế toán doanh nghiệp như thế nào?","filters":{"course_id":"ke-toan-tai-chinh-1"},"check":"curriculum_update","expected_ref":"Thông tư 200/2014/TT-BTC"}
+{"id":"ext-02","question":"Nguyên lý kế toán: kết cấu tài khoản chữ T có bên Nợ và bên Có như thế nào?","filters":{"course_id":"nguyen-ly-ke-toan"},"check":"no_update"}
+{"id":"ext-03","question":"Thông tư 200/2014/TT-BTC hiện hành được thay thế bởi văn bản nào?","filters":{},"check":"external","expected_ref":"Thông tư 200/2014/TT-BTC"}
+{"id":"ext-04","question":"Quyết định 479/2004/QĐ-NHNN có sửa đổi mới nhất nào?","filters":{"course_id":"external"},"check":"external","expected_ref":"Quyết định 479/2004/QĐ-NHNN"}
+{"id":"ext-05","question":"IFRS hiện hành bắt buộc với mọi doanh nghiệp Việt Nam chưa?","filters":{},"check":"unknown_external"}

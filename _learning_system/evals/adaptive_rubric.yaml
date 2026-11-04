@@ -1,0 +1,14 @@
+rubric_id: adaptive-session-phase-5
+version: "0.1.0"
+pass_if:
+  - revisable: new strong evidence can change the prior diagnosis
+  - self_report_weak: "em hiểu rồi" does not resolve
+  - verify_more_bounded: at most 3 discriminators
+  - confirmed_prereq_only: prerequisite confirmation needs strong false Nợ/Có evidence
+  - no_mastery: persist_to_learner_state is false
+fail_if:
+  - belief_lock_in
+  - premature_resolution
+  - verify_more_forever
+  - self_report_overweight
+  - correct_answer_equals_mastery

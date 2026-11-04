@@ -1,0 +1,16 @@
+rubric_id: learning-decision-phase-4
+version: "0.1.0"
+pass_if:
+  - one_action: exactly one primary intervention
+  - root_cause_not_symptom: action targets Phase 3 root cause
+  - confirmed_prereq_only: PREREQUISITE_MICRO_BACKFILL requires confirmed gap
+  - micro_or_short: depth is MICRO or SHORT by default
+  - grounded: curriculum sources or VERIFY_MORE/NO_INTERVENTION
+  - no_mastery: persistence is false
+fail_if:
+  - REVIEW_ENTIRE_CHAPTER
+  - REVIEW_ALL_NLKT
+  - FULL_STUDY_PLAN
+  - writes mastery scores
+  - multiple simultaneous interventions
+  - unconfirmed prerequisite backfill

@@ -1,0 +1,259 @@
+course_id: luat-kinh-doanh
+version: 0.1.0
+id_prefix: lkd
+concepts:
+- concept_id: lkd-tong-quan-ve-luat-kinh-doanh
+  canonical_name: TỔNG QUAN VỀ LUẬT KINH DOANH
+  aliases:
+  - đối tượng điều chỉnh
+  - phương pháp điều chỉnh
+  same_as: null
+  chapter: 1
+  topic: null
+  source_refs:
+  - source_id: src-0079
+    page: 1
+  - source_id: src-0079
+    page: 3
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: lkd-phap-luat-ve-chu-the-kinh-doanh
+  canonical_name: Pháp luật về chủ thể kinh doanh
+  aliases: []
+  same_as: null
+  chapter: 2
+  topic: null
+  source_refs:
+  - source_id: src-0080
+    page: 1
+  - source_id: src-0081
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: lkd-quy-che-phap-ly-chung-ve-doanh-nghiep
+  canonical_name: Quy chế pháp lý chung về doanh nghiệp
+  aliases:
+  - ĐKKD
+  - ĐKDN
+  same_as: null
+  chapter: 2
+  topic: '2.1'
+  source_refs:
+  - source_id: src-0080
+    page: 1
+  - source_id: src-0080
+    page: 4
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: lkd-cong-ty-trach-nhiem-huu-han
+  canonical_name: Công ty trách nhiệm hữu hạn
+  aliases:
+  - TNHH
+  same_as: null
+  chapter: 2
+  topic: '2.2'
+  source_refs:
+  - source_id: src-0081
+    page: 1
+  - source_id: src-0081
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: lkd-cong-ty-co-phan
+  canonical_name: CÔNG TY CỔ PHẦN
+  aliases:
+  - CTCP
+  same_as: null
+  chapter: 2
+  topic: '2.3'
+  source_refs:
+  - source_id: src-0082
+    page: 1
+  - source_id: src-0082
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: lkd-cong-ty-hop-danh-va-doanh-nghiep-tu-nhan
+  canonical_name: Công ty hợp danh và doanh nghiệp tư nhân
+  aliases:
+  - công ty hợp danh
+  - doanh nghiệp tư nhân
+  same_as: null
+  chapter: 2
+  topic: '2.4'
+  source_refs:
+  - source_id: src-0083
+    page: 1
+  - source_id: src-0083
+    page: 3
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: lkd-ho-kinh-doanh-va-hop-tac-xa
+  canonical_name: Hộ kinh doanh và hợp tác xã
+  aliases:
+  - HKD
+  - HTX
+  same_as: null
+  chapter: 2
+  topic: '2.5'
+  source_refs:
+  - source_id: src-0084
+    page: 1
+  - source_id: src-0084
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: lkd-phap-luat-ve-hop-dong-kinh-doanh-thuong-mai
+  canonical_name: PHÁP LUẬT VỀ HỢP ĐỒNG KINH DOANH, THƯƠNG MẠI
+  aliases: []
+  same_as: null
+  chapter: 3
+  topic: null
+  source_refs:
+  - source_id: src-0085
+    page: 1
+  - source_id: src-0086
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: lkd-khai-quat-ve-phap-luat-hop-dong-hop-dong-kinh-doanh-thuong-mai
+  canonical_name: Khái quát về pháp luật hợp đồng, hợp đồng kinh doanh, thương mại
+  aliases:
+  - khái niệm hợp đồng
+  - phân loại hợp đồng
+  same_as: null
+  chapter: 3
+  topic: '3.1'
+  source_refs:
+  - source_id: src-0085
+    page: 1
+  - source_id: src-0085
+    page: 3
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: lkd-phap-luat-ve-hop-dong-dan-su
+  canonical_name: Pháp luật về hợp đồng dân sự
+  aliases:
+  - giao kết hợp đồng dân sự
+  - thực hiện hợp đồng dân sự
+  same_as: null
+  chapter: 3
+  topic: '3.2'
+  source_refs:
+  - source_id: src-0086
+    page: 1
+  - source_id: src-0086
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: lkd-phap-luat-ve-hop-dong-trong-hoat-dong-kinh-doanh-thuong-mai
+  canonical_name: Pháp luật về hợp đồng trong hoạt động kinh doanh, thương mại
+  aliases:
+  - vi phạm hợp đồng kinh doanh
+  same_as: null
+  chapter: 3
+  topic: '3.3'
+  source_refs:
+  - source_id: src-0087
+    page: 1
+  - source_id: src-0087
+    page: 7
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: lkd-phap-luat-ve-pha-san
+  canonical_name: PHÁP LUẬT VỀ PHÁ SẢN
+  aliases: []
+  same_as: null
+  chapter: 4
+  topic: null
+  source_refs:
+  - source_id: src-0088
+    page: 1
+  - source_id: src-0089
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: lkd-khai-quat-phap-luat-ve-pha-san
+  canonical_name: Khái quát pháp luật về phá sản
+  aliases:
+  - mất khả năng thanh toán
+  same_as: null
+  chapter: 4
+  topic: '4.1'
+  source_refs:
+  - source_id: src-0088
+    page: 1
+  - source_id: src-0088
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: lkd-trinh-tu-thu-tuc-giai-quyet-pha-san
+  canonical_name: Trình tự, thủ tục giải quyết phá sản
+  aliases:
+  - mở thủ tục phá sản
+  same_as: null
+  chapter: 4
+  topic: '4.2'
+  source_refs:
+  - source_id: src-0089
+    page: 1
+  - source_id: src-0089
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: lkd-giai-quyet-tranh-chap-kinh-doanh-thuong-mai
+  canonical_name: GIẢI QUYẾT TRANH CHẤP KINH DOANH, THƯƠNG MẠI
+  aliases: []
+  same_as: null
+  chapter: 5
+  topic: null
+  source_refs:
+  - source_id: src-0090
+    page: 1
+  - source_id: src-0091
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: lkd-giai-quyet-tranh-chap-kinh-doanh-thuong-mai-bang-phuong-thuc-thuong-luong-va-hoa-giai
+  canonical_name: Giải quyết tranh chấp kinh doanh, thương mại bằng phương thức thương lượng và hòa giải
+  aliases:
+  - thương lượng và hòa giải
+  same_as: null
+  chapter: 5
+  topic: '5.1'
+  source_refs:
+  - source_id: src-0090
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: lkd-giai-quyet-tranh-chap-kinh-doanh-thuong-mai-bang-phuong-thuc-toa-an
+  canonical_name: GIẢI QUYẾT TRANH CHẤP KINH DOANH, THƯƠNG MẠI BẰNG PHƯƠNG THỨC TÒA ÁN
+  aliases:
+  - thẩm quyền theo lãnh thổ
+  same_as: null
+  chapter: 5
+  topic: '5.2'
+  source_refs:
+  - source_id: src-0091
+    page: 1
+  - source_id: src-0091
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: lkd-giai-quyet-tranh-chap-kinh-doanh-thuong-mai-bang-phuong-thuc-trong-tai
+  canonical_name: GIẢI QUYẾT TRANH CHẤP KINH DOANH, THƯƠNG MẠI BẰNG PHƯƠNG THỨC TRỌNG TÀI
+  aliases:
+  - trọng tài thương mại
+  same_as: null
+  chapter: 5
+  topic: '5.3'
+  source_refs:
+  - source_id: src-0092
+    page: 1
+  - source_id: src-0092
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+account_map: {}
+edges: []
+conflicts: []

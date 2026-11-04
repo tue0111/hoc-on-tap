@@ -1,0 +1,687 @@
+{
+  "course_id": "ke-toan-tai-chinh-2",
+  "tag": "_debug_fix",
+  "eval_sha256": "0c9e52c16751b0829376570b2828e74389b02a820b79b2ce2728c87fb62e1750",
+  "n": 23,
+  "metrics": {
+    "direct_must_include": 1.0,
+    "direct_chapter_at1": 0.9,
+    "source_bound": 1.0,
+    "insufficient": 1.0,
+    "collision_contamination": 0,
+    "account": 1.0,
+    "topic_owner": 1.0
+  },
+  "gates": {
+    "direct_must_include": true,
+    "direct_chapter_at1": true,
+    "source_bound": true,
+    "insufficient": true,
+    "collision_contamination": true,
+    "account": true,
+    "topic_owner": true
+  },
+  "all_pass": true,
+  "results": [
+    {
+      "id": "k2-d01",
+      "category": "direct",
+      "question": "Kế toán tài chính 2: tài sản cố định hữu hình được ghi nhận khi nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0333",
+        "src-0306",
+        "src-0305",
+        "src-0312",
+        "src-0306"
+      ],
+      "top_chapters": [
+        null,
+        1,
+        null,
+        1,
+        1
+      ],
+      "partition": "ke-toan-tai-chinh-2",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": false,
+      "contaminated": false,
+      "pass": false
+    },
+    {
+      "id": "k2-d02",
+      "category": "direct",
+      "question": "Trong Kế toán tài chính 2, các phương pháp tính khấu hao TSCĐ gồm những phương pháp nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0308",
+        "src-0308",
+        "src-0308",
+        "src-0308",
+        "src-0308"
+      ],
+      "top_chapters": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "partition": "ke-toan-tai-chinh-2",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "k2-d03",
+      "category": "direct",
+      "question": "KTTC2 thanh lý tài sản cố định hạch toán thế nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0310",
+        "src-0306",
+        "src-0312",
+        "src-0310",
+        "src-0307"
+      ],
+      "top_chapters": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "partition": "ke-toan-tai-chinh-2",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "k2-d04",
+      "category": "direct",
+      "question": "Kế toán tài chính 2: phải trả cho người bán TK 331 có kết cấu như thế nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0315",
+        "src-0315",
+        "src-0319",
+        "src-0315",
+        "src-0309"
+      ],
+      "top_chapters": [
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
+      "partition": "ke-toan-tai-chinh-2",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "k2-d05",
+      "category": "direct",
+      "question": "Kế toán tài chính 2 hạch toán tiền lương và các khoản trích theo lương ra sao?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0317",
+        "src-0317",
+        "src-0317",
+        "src-0314",
+        "src-0314"
+      ],
+      "top_chapters": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "partition": "ke-toan-tai-chinh-2",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "k2-d06",
+      "category": "direct",
+      "question": "KTTC2: cổ phiếu quỹ được ghi nhận như thế nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0322",
+        "src-0333",
+        "src-0322",
+        "src-0322",
+        "src-0320"
+      ],
+      "top_chapters": [
+        3,
+        null,
+        3,
+        3,
+        3
+      ],
+      "partition": "ke-toan-tai-chinh-2",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "k2-d07",
+      "category": "direct",
+      "question": "Kế toán tài chính 2: lợi nhuận chưa phân phối hạch toán như thế nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0323",
+        "src-0320",
+        "src-0323",
+        "src-0323",
+        "src-0323"
+      ],
+      "top_chapters": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "partition": "ke-toan-tai-chinh-2",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "k2-d08",
+      "category": "direct",
+      "question": "Trong KTTC2, kế toán doanh thu bán hàng và giá vốn hàng bán làm thế nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0325",
+        "src-0312",
+        "src-0333",
+        "src-0325",
+        "src-0326"
+      ],
+      "top_chapters": [
+        4,
+        1,
+        null,
+        4,
+        4
+      ],
+      "partition": "ke-toan-tai-chinh-2",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "k2-d09",
+      "category": "direct",
+      "question": "Kế toán tài chính 2: kết chuyển xác định kết quả kinh doanh gồm những bút toán gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0325",
+        "src-0330",
+        "src-0331",
+        "src-0325",
+        "src-0329"
+      ],
+      "top_chapters": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "partition": "ke-toan-tai-chinh-2",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "k2-d10",
+      "category": "direct",
+      "question": "KTTC2 sự khác biệt giữa kế toán và thuế là gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0332",
+        "src-0332",
+        "src-0325",
+        "src-0332",
+        "src-0316"
+      ],
+      "top_chapters": [
+        4,
+        4,
+        4,
+        4,
+        2
+      ],
+      "partition": "ke-toan-tai-chinh-2",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "k2-s01",
+      "category": "source_bound",
+      "question": "Theo chương 3 của Kế toán tài chính 2, vốn chủ sở hữu gồm những gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0321",
+        "src-0320",
+        "src-0324",
+        "src-0324",
+        "src-0324"
+      ],
+      "top_chapters": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "partition": "ke-toan-tai-chinh-2",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "k2-s02",
+      "category": "source_bound",
+      "question": "Đề thi mẫu Kế toán tài chính 2 gồm những dạng câu hỏi nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0333",
+        "src-0314",
+        "src-0305",
+        "src-0305",
+        "src-0305"
+      ],
+      "top_chapters": [
+        null,
+        2,
+        null,
+        null,
+        null
+      ],
+      "partition": "ke-toan-tai-chinh-2",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "k2-s03",
+      "category": "source_bound",
+      "question": "Hướng dẫn ôn tập Kế toán tài chính 2 yêu cầu học những gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0305",
+        "src-0325",
+        "src-0305",
+        "src-0305",
+        "src-0305"
+      ],
+      "top_chapters": [
+        null,
+        4,
+        null,
+        null,
+        null
+      ],
+      "partition": "ke-toan-tai-chinh-2",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "k2-i01",
+      "category": "insufficient",
+      "question": "Mô hình CAPM trong KTTC2 được tính như thế nào?",
+      "coverage": "insufficient",
+      "top_sources": [
+        "src-0325",
+        "src-0313",
+        "src-0325",
+        "src-0307",
+        "src-0307"
+      ],
+      "top_chapters": [
+        4,
+        2,
+        4,
+        1,
+        1
+      ],
+      "partition": "ke-toan-tai-chinh-2",
+      "unknowns": [
+        "no_course_concept_match",
+        "term_not_in_course_corpus:capm",
+        "topic_in_other_course:tai-chinh-doanh-nghiep-1",
+        "insufficient_curriculum_evidence"
+      ],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "k2-i02",
+      "category": "insufficient",
+      "question": "Phương pháp tính giá thành theo quy trình sản xuất trong Kế toán tài chính 2 là gì?",
+      "coverage": "insufficient",
+      "top_sources": [
+        "src-0308",
+        "src-0308",
+        "src-0331",
+        "src-0308",
+        "src-0075"
+      ],
+      "top_chapters": [
+        1,
+        1,
+        4,
+        1,
+        null
+      ],
+      "partition": "ke-toan-tai-chinh-2",
+      "unknowns": [
+        "no_course_concept_match",
+        "topic_in_other_course:ke-toan-chi-phi",
+        "insufficient_curriculum_evidence"
+      ],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "k2-i03",
+      "category": "insufficient",
+      "question": "Kế toán tài chính 2 hướng dẫn xếp hạng tín dụng khách hàng vay ngân hàng thế nào?",
+      "coverage": "insufficient",
+      "top_sources": [
+        "src-0313",
+        "src-0326",
+        "src-0315",
+        "src-0331",
+        "src-0307"
+      ],
+      "top_chapters": [
+        2,
+        4,
+        2,
+        4,
+        1
+      ],
+      "partition": "ke-toan-tai-chinh-2",
+      "unknowns": [
+        "no_course_concept_match",
+        "topic_in_other_course:ngan-hang-thuong-mai",
+        "insufficient_curriculum_evidence"
+      ],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "k2-c01",
+      "category": "collision",
+      "question": "Chương 1 của Kế toán tài chính 2 nói về gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0308",
+        "src-0306",
+        "src-0312",
+        "src-0309",
+        "src-0310"
+      ],
+      "top_chapters": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "partition": "ke-toan-tai-chinh-2",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "k2-c02",
+      "category": "collision",
+      "question": "Chương 2 của KTTC2 nói về gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0313",
+        "src-0319",
+        "src-0319",
+        "src-0319",
+        "src-0319"
+      ],
+      "top_chapters": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "partition": "ke-toan-tai-chinh-2",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "k2-a01",
+      "category": "account",
+      "question": "Tài khoản 3387 trong Kế toán tài chính 2 dùng để làm gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0318",
+        "src-0318",
+        "src-0318",
+        "src-0327",
+        "src-0318"
+      ],
+      "top_chapters": [
+        2,
+        2,
+        2,
+        4,
+        2
+      ],
+      "partition": "ke-toan-tai-chinh-2",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "k2-a02",
+      "category": "account",
+      "question": "TK 419 trong KTTC2 phản ánh gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0322",
+        "src-0322",
+        "src-0322",
+        "src-0321",
+        "src-0322"
+      ],
+      "top_chapters": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "partition": "ke-toan-tai-chinh-2",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "k2-t01",
+      "category": "topic_owner",
+      "question": "TSCĐ được ghi nhận như thế nào trong KTTC1?",
+      "coverage": "insufficient",
+      "top_sources": [
+        "src-0060",
+        "src-0062",
+        "src-0061",
+        "src-0062",
+        "src-0061"
+      ],
+      "top_chapters": [
+        1,
+        3,
+        2,
+        3,
+        2
+      ],
+      "partition": null,
+      "unknowns": [
+        "kttc1_has_no_tscd_chapter",
+        "insufficient_curriculum_evidence"
+      ],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "suggestions": [
+        {
+          "type": "topic_owner",
+          "course_id": "ke-toan-tai-chinh-2",
+          "course_name": "Kế toán tài chính 2",
+          "concept_ids": [
+            "kttc2-tai-san-co-dinh"
+          ],
+          "chapters": [
+            1
+          ]
+        }
+      ],
+      "pass": true
+    },
+    {
+      "id": "k2-t02",
+      "category": "topic_owner",
+      "question": "Tài sản cố định vô hình trong KTTC1 là gì?",
+      "coverage": "insufficient",
+      "top_sources": [
+        "src-0060",
+        "src-0061",
+        "src-0062",
+        "src-0062",
+        "src-0061"
+      ],
+      "top_chapters": [
+        1,
+        2,
+        3,
+        3,
+        2
+      ],
+      "partition": null,
+      "unknowns": [
+        "kttc1_has_no_tscd_chapter",
+        "insufficient_curriculum_evidence"
+      ],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "suggestions": [
+        {
+          "type": "topic_owner",
+          "course_id": "ke-toan-tai-chinh-2",
+          "course_name": "Kế toán tài chính 2",
+          "concept_ids": [
+            "kttc2-khai-niem-va-nguyen-tac-tai-san-co-dinh-vo-hinh",
+            "kttc2-tai-san-co-dinh"
+          ],
+          "chapters": [
+            1
+          ]
+        }
+      ],
+      "pass": true
+    },
+    {
+      "id": "k2-t03",
+      "category": "topic_owner",
+      "question": "Vốn chủ sở hữu hạch toán thế nào trong KTTC1?",
+      "coverage": "insufficient",
+      "top_sources": [
+        "src-0062",
+        "src-0060",
+        "src-0060",
+        "src-0060",
+        "src-0058"
+      ],
+      "top_chapters": [
+        3,
+        1,
+        1,
+        1,
+        null
+      ],
+      "partition": null,
+      "unknowns": [
+        "topic_not_in_kttc1_outline",
+        "insufficient_curriculum_evidence"
+      ],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "suggestions": [
+        {
+          "type": "topic_owner",
+          "course_id": "ke-toan-tai-chinh-2",
+          "course_name": "Kế toán tài chính 2",
+          "concept_ids": [
+            "kttc2-von-chu-so-huu"
+          ],
+          "chapters": [
+            3
+          ]
+        }
+      ],
+      "pass": true
+    }
+  ]
+}

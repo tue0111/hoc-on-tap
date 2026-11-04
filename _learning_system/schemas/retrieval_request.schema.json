@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.learning-system/schemas/retrieval_request.schema.json",
+  "title": "RetrievalRequest",
+  "description": "Hybrid retrieval request. Vector search is optional and never sufficient alone.",
+  "type": "object",
+  "required": ["request_id", "question"],
+  "additionalProperties": false,
+  "properties": {
+    "request_id": { "type": "string" },
+    "question": { "type": "string" },
+    "learner_id": { "type": ["string", "null"] },
+    "filters": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "course_id": { "type": ["string", "null"] },
+        "course_ids": { "type": "array", "items": { "type": "string" } },
+        "semester": { "type": ["string", "null"] },
+        "academic_year": { "type": ["string", "null"] },
+        "source_type": {
+          "type": ["string", "null"],
+          "enum": [
+            "syllabus", "textbook", "lecture_slide", "lecture_note", "summary",
+            "exercise", "solution", "exam", "quiz", "assignment", "reference",
+            "spreadsheet", "unknown", null
+          ]
+        },
+        "chapter": { "type": ["integer", "string", "null"] },
+        "topic": { "type": ["string", "null"] },
+        "concept_id": { "type": ["string", "null"] },
+        "authority_max_rank": { "type": ["integer", "null"], "minimum": 1, "maximum": 8 },
+        "historical_or_current": {
+          "type": ["string", "null"],
+          "enum": ["historical", "current", "unknown", null]
+        },
+        "version": { "type": ["string", "null"] },
+        "include_prerequisites": { "type": "boolean", "default": true },
+        "include_external": { "type": "boolean", "default": false }
+      }
+    },
+    "pipeline": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "enum": [
+          "course_context",
+          "concept_detection",
+          "curriculum_retrieval",
+          "prerequisite_expansion",
+          "source_authority_filtering",
+          "evidence_packaging",
+          "reasoning"
+        ]
+      },
+      "default": [
+        "course_context",
+        "concept_detection",
+        "curriculum_retrieval",
+        "prerequisite_expansion",
+        "source_authority_filtering",
+        "evidence_packaging",
+        "reasoning"
+      ]
+    }
+  }
+}

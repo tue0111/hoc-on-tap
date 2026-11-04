@@ -1,0 +1,10 @@
+{
+  "chunking_version": "2.0.0",
+  "chunk_count": 196,
+  "course_id": "thi-truong-tai-chinh",
+  "dup_groups": 0,
+  "by_source_type": {
+    "lecture_note": 105,
+    "lecture_slide": 91
+  }
+}

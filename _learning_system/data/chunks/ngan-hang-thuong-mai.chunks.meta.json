@@ -1,0 +1,12 @@
+{
+  "chunking_version": "2.0.0",
+  "chunk_count": 357,
+  "course_id": "ngan-hang-thuong-mai",
+  "dup_groups": 0,
+  "by_source_type": {
+    "lecture_note": 233,
+    "exam": 22,
+    "summary": 3,
+    "lecture_slide": 99
+  }
+}

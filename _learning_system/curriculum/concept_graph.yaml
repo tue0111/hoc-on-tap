@@ -1,0 +1,472 @@
+graph_id: concept-graph
+version: "0.1.1"
+layer: curriculum
+status: skeleton
+rule: >
+  Every edge has source, edge_type, confidence, explicit_or_inferred.
+  Sequential chapter numbering alone is inferred, never explicit.
+  Do not import a Western textbook order that this corpus does not teach.
+note: >
+  NLKT teaches financial statements (C2) BEFORE accounts and double-entry (C3).
+  The graph records that taught order. It does not rewrite it as
+  Journal → Adjusting → Statements.
+
+nodes:
+  - concept_id: phuong-trinh-ke-toan
+  - concept_id: phuong-trinh-ke-toan-mo-rong
+  - concept_id: bang-can-doi-ke-toan
+  - concept_id: bao-cao-kqkd
+  - concept_id: bao-cao-lctt
+  - concept_id: bao-cao-tai-chinh
+  - concept_id: tai-khoan-ke-toan
+  - concept_id: no-co
+  - concept_id: ghi-so-kep
+  - concept_id: dinh-khoan
+  - concept_id: kiem-tra-doi-chieu
+  - concept_id: co-so-don-tich
+  - concept_id: nguyen-tac-phu-hop
+  - concept_id: but-toan-dieu-chinh
+  - concept_id: chi-phi-tra-truoc
+  - concept_id: khau-hao
+  - concept_id: ket-chuyen
+  - concept_id: chung-tu-ke-toan
+  - concept_id: so-sach-ke-toan
+  - concept_id: tien-va-tuong-duong-tien
+  - concept_id: no-phai-thu
+  - concept_id: hang-ton-kho
+  - concept_id: tscd
+  - concept_id: no-phai-tra
+  - concept_id: chi-phi-truc-tiep
+  - concept_id: chi-phi-gian-tiep
+  - concept_id: phan-bo-chi-phi
+  - concept_id: ktcp-theo-cong-viec
+  - concept_id: ktcp-theo-quy-trinh
+  - concept_id: kiem-toan
+  - concept_id: kiem-soat-noi-bo
+  - concept_id: nhtm
+  - concept_id: huy-dong-von
+  - concept_id: cap-tin-dung
+  - concept_id: cho-vay
+  - concept_id: thoi-gia-tien-te
+  - concept_id: capm
+  - concept_id: chi-phi-su-dung-von
+
+edges:
+  # --- NLKT explicit conceptual edges ---
+  - id: e-nlkt-ptkt-bcdkt
+    from: phuong-trinh-ke-toan
+    to: bang-can-doi-ke-toan
+    edge_type: used_to_prepare
+    explicit_or_inferred: explicit
+    confidence: high
+    source: src-0103
+    evidence: "C2.6 lists lập bảng cân đối kế toán từ phương trình kế toán."
+
+  - id: e-nlkt-ptktmr-kqkd
+    from: phuong-trinh-ke-toan-mo-rong
+    to: bao-cao-kqkd
+    edge_type: used_to_prepare
+    explicit_or_inferred: explicit
+    confidence: high
+    source: src-0103
+    evidence: "C2.6 lists lập BCKQKD từ phương trình kế toán mở rộng."
+
+  - id: e-nlkt-ptkt-tk
+    from: phuong-trinh-ke-toan
+    to: tai-khoan-ke-toan
+    edge_type: conceptual_basis
+    explicit_or_inferred: explicit
+    confidence: high
+    source: src-0106
+    evidence: >
+      C3.1: bài học trước, TS = Nợ phải trả + VCSH; accounts grouped from that equation.
+
+  - id: e-nlkt-tk-noco
+    from: tai-khoan-ke-toan
+    to: no-co
+    edge_type: has_structure
+    explicit_or_inferred: explicit
+    confidence: high
+    source: src-0106
+    evidence: "T-account: cột trái Bên Nợ, cột phải Bên Có."
+
+  - id: e-nlkt-tk-gsk
+    from: tai-khoan-ke-toan
+    to: ghi-so-kep
+    edge_type: prerequisite
+    explicit_or_inferred: explicit
+    confidence: high
+    source: src-0107
+    evidence: "C3.2: chủ đề trước đã học tài khoản; nay ghi vào ít nhất hai tài khoản."
+
+  - id: e-nlkt-ptkt-gsk
+    from: phuong-trinh-ke-toan
+    to: ghi-so-kep
+    edge_type: conceptual_basis
+    explicit_or_inferred: explicit
+    confidence: high
+    source: src-0107
+    evidence: >
+      Ghi sổ kép ghi trên cơ sở đảm bảo tính cân đối của phương trình kế toán;
+      Nợ = Có.
+
+  - id: e-nlkt-gsk-dinhkhoan
+    from: ghi-so-kep
+    to: dinh-khoan
+    edge_type: applied_as
+    explicit_or_inferred: explicit
+    confidence: high
+    source: src-0107
+    evidence: "Nguyên tắc ghi sổ kép được áp dụng qua việc lập định khoản kế toán."
+
+  - id: e-nlkt-gsk-tkbcdkt
+    from: ghi-so-kep
+    to: bang-can-doi-ke-toan
+    edge_type: prerequisite
+    explicit_or_inferred: explicit
+    confidence: high
+    source: src-0108
+    evidence: "C3.3 recap: tài khoản + ghi sổ kép before TK và BCĐKT."
+
+  - id: e-nlkt-gsk-doichieu
+    from: ghi-so-kep
+    to: kiem-tra-doi-chieu
+    edge_type: produces
+    explicit_or_inferred: explicit
+    confidence: high
+    source: src-0107
+    evidence: "Hệ quả ghi sổ kép → bảng tổng hợp tài khoản, taught in 3.4."
+
+  - id: e-nlkt-don-tich-adjust
+    from: co-so-don-tich
+    to: but-toan-dieu-chinh
+    edge_type: prerequisite
+    explicit_or_inferred: explicit
+    confidence: high
+    source: src-0115
+    evidence: "C4.1: cơ sở dồn tích đã học ở chương 2; used to introduce adjusting entries."
+
+  - id: e-nlkt-phuhop-prepaid
+    from: nguyen-tac-phu-hop
+    to: chi-phi-tra-truoc
+    edge_type: prerequisite
+    explicit_or_inferred: explicit
+    confidence: high
+    source: src-0110
+    evidence: "C4.2: không ghi hết số đã trả vì nguyên tắc phù hợp."
+
+  - id: e-nlkt-adjust-depr
+    from: but-toan-dieu-chinh
+    to: khau-hao
+    edge_type: instance_of
+    explicit_or_inferred: inferred
+    confidence: medium
+    source: src-0111
+    evidence: "C4.3 sits in the adjusting-entry chapter sequence; text cites nguyên tắc giá gốc more than the phrase bút toán điều chỉnh."
+
+  - id: e-nlkt-don-tich-accrued
+    from: co-so-don-tich
+    to: ket-chuyen
+    edge_type: related
+    explicit_or_inferred: inferred
+    confidence: low
+    source: src-0113
+    note: Do not treat as a hard prereq. C4.5 explicitly requires revenue/expense accounts from C3 and double-entry.
+
+  - id: e-nlkt-dt-ketchuyen
+    from: tai-khoan-ke-toan
+    to: ket-chuyen
+    edge_type: prerequisite
+    explicit_or_inferred: explicit
+    confidence: high
+    source: src-0113
+    evidence: "Nhớ lại các TK Doanh thu đã nghiên cứu ở chương 3; ghi sổ kép."
+
+  - id: e-nlkt-dinhkhoan-chungtu
+    from: dinh-khoan
+    to: chung-tu-ke-toan
+    edge_type: used_in
+    explicit_or_inferred: explicit
+    confidence: high
+    source: src-0116
+    evidence: "Ghi sổ kế toán chính là định khoản / ghi sổ kép đã học ở chương 3."
+
+  - id: e-nlkt-chungtu-sosach
+    from: chung-tu-ke-toan
+    to: so-sach-ke-toan
+    edge_type: sequence_in_chapter
+    explicit_or_inferred: inferred
+    confidence: medium
+    source: src-0116
+    evidence: "C5.1 P1 chứng từ then P2 sổ sách; numbering only plus process narrative."
+
+  # --- Course-level edges ---
+  - id: e-course-nlkt-kttc1
+    from: nguyen-ly-ke-toan
+    to: ke-toan-tai-chinh-1
+    edge_type: prerequisite_course
+    explicit_or_inferred: explicit
+    confidence: high
+    source: src-0058
+    evidence: "KTTC1 là môn chuyển tiếp sau môn cơ sở ngành Nguyên lý kế toán."
+
+  - id: e-course-kttc1-kttc2
+    from: ke-toan-tai-chinh-1
+    to: ke-toan-tai-chinh-2
+    edge_type: sequence_in_series
+    explicit_or_inferred: explicit
+    confidence: high
+    source: src-0059
+    evidence: "KTTC chia 4 học phần; KTTC1 is the first. KTTC2 scripts continue from KTTC1."
+
+  - id: e-course-kttc-audit
+    from: ke-toan-tai-chinh
+    to: kiem-toan-1
+    edge_type: prerequisite_course_family
+    explicit_or_inferred: explicit
+    confidence: medium
+    source: src-0037
+    evidence: "Kiểm toán 1 được học sau môn kế toán tài chính."
+    note: Which KTTC part is UNKNOWN. Target is the family, not kttc1 or kttc2 specifically.
+
+  - id: e-kttc1-nlkt-tk
+    from: tai-khoan-ke-toan
+    to: tien-va-tuong-duong-tien
+    edge_type: applied_in
+    explicit_or_inferred: inferred
+    confidence: medium
+    source: src-0058
+    evidence: "KTTC1 Ch2 requires TK 111/112/113 after NLKT account structure. Not restated as a prereq sentence."
+
+  - id: e-kttc1-tien-nopt
+    from: tien-va-tuong-duong-tien
+    to: no-phai-thu
+    edge_type: sequence_in_chapter_pair
+    explicit_or_inferred: inferred
+    confidence: low
+    source: src-0058
+    evidence: "Same KTTC1 chapter 2 heading groups tiền and nợ phải thu. Not a stated dependency."
+
+  - id: e-kttc1-nopt-htk
+    from: no-phai-thu
+    to: hang-ton-kho
+    edge_type: sequence_in_course
+    explicit_or_inferred: inferred
+    confidence: medium
+    source: src-0059
+    evidence: "KTTC1: after overview, objects on the current-asset side of BCĐKT, Ch2 then Ch3."
+
+  - id: e-kttc2-tscd-nopt
+    from: tscd
+    to: no-phai-tra
+    edge_type: sequence_in_course
+    explicit_or_inferred: inferred
+    confidence: medium
+    source: src-0069
+    evidence: "Advertised order Ch1 TSCĐ then Ch2 nợ phải trả. Files exist for both."
+
+  # --- Cost accounting (present chapters only) ---
+  - id: e-ktcp-direct-indirect
+    from: chi-phi-truc-tiep
+    to: chi-phi-gian-tiep
+    edge_type: contrast_pair
+    explicit_or_inferred: explicit
+    confidence: high
+    source: src-0043
+    evidence: "Ch2 phân loại chi phí includes trực tiếp / gián tiếp."
+
+  - id: e-ktcp-indirect-alloc
+    from: chi-phi-gian-tiep
+    to: phan-bo-chi-phi
+    edge_type: requires
+    explicit_or_inferred: inferred
+    confidence: medium
+    source: src-0043
+    evidence: "Ch2 discusses cơ sở phân bổ / SXC. Dedicated allocation chapter 6 is advertised but missing."
+
+  - id: e-ktcp-job
+    from: chi-phi-truc-tiep
+    to: ktcp-theo-cong-viec
+    edge_type: used_in
+    explicit_or_inferred: inferred
+    confidence: medium
+    source: src-0044
+    evidence: "Ch3 job costing uses NVLTT, NCTT, SXC. Not a one-sentence prereq."
+
+  - id: e-ktcp-process
+    from: ktcp-theo-cong-viec
+    to: ktcp-theo-quy-trinh
+    edge_type: sequence_in_course
+    explicit_or_inferred: inferred
+    confidence: medium
+    source: src-0042
+    evidence: "Chương 0 lists Ch3 công việc then Ch4 quá trình. No 'requires Ch3' sentence."
+
+  # --- Audit ---
+  - id: e-audit-bctc-kt
+    from: bao-cao-tai-chinh
+    to: kiem-toan
+    edge_type: sequence_in_course
+    explicit_or_inferred: inferred
+    confidence: medium
+    source: src-0037
+    evidence: "Ch1 Tổng quan BCTC then Ch2 tổng quan kiểm toán. Intro also says audit of BCTC."
+
+  - id: e-audit-kt-ksnb
+    from: kiem-toan
+    to: kiem-soat-noi-bo
+    edge_type: sequence_in_course
+    explicit_or_inferred: inferred
+    confidence: medium
+    source: src-0039
+    evidence: "Ch2 then Ch3 KSNB in the present files. Ch4–6 missing."
+
+  # --- NHTM explicit intra-course ---
+  - id: e-nhtm-overview-deposit
+    from: nhtm
+    to: huy-dong-von
+    edge_type: sequence_in_course
+    explicit_or_inferred: inferred
+    confidence: medium
+    source: src-0121
+    evidence: "Ch1 tổng quan is described as foundation for later chapters."
+
+  - id: e-nhtm-credit-overview
+    from: huy-dong-von
+    to: cap-tin-dung
+    edge_type: sequence_in_course
+    explicit_or_inferred: inferred
+    confidence: low
+    source: src-0121
+    evidence: "Order Ch2 then Ch3 in intro. Not a stated dependency between deposits and credit."
+
+  - id: e-nhtm-credit-loan
+    from: cap-tin-dung
+    to: cho-vay
+    edge_type: prerequisite
+    explicit_or_inferred: explicit
+    confidence: high
+    source: src-0121
+    evidence: >
+      Ch3 tổng quan cấp tín dụng is presented so learners can approach
+      specific methods in later chapters, starting with cho vay (Ch4).
+
+  # --- TCDN1 sequence from advertised outline (inferred except where a chapter cites prior) ---
+  - id: e-tcdn-tvm-valuation
+    from: thoi-gia-tien-te
+    to: capm
+    edge_type: sequence_in_course
+    explicit_or_inferred: inferred
+    confidence: low
+    source: src-0155
+    evidence: "Ch3 then Ch4 in the advertised list only."
+
+  - id: e-tcdn-capm-wacc
+    from: capm
+    to: chi-phi-su-dung-von
+    edge_type: sequence_in_course
+    explicit_or_inferred: inferred
+    confidence: low
+    source: src-0155
+    evidence: "Ch4 then Ch6 in the advertised list. No explicit 'requires CAPM' quote captured in Phase 0–1 extracts."
+
+  # --- Phase 2.1 (new chapter files; no overwrite of prior edges) ---
+  - id: e-kttc2-npt-vcsh
+    from: no-phai-tra
+    to: von-chu-so-huu
+    edge_type: sequence_in_course
+    explicit_or_inferred: explicit
+    confidence: high
+    source: src-0303
+    added_in: "2.1"
+    evidence: >
+      Chương 3 script: "Chương 2 môn học này, các anh chị đã tìm hiểu ... nợ phải trả.
+      Chương này ... vốn chủ sở hữu."
+
+  - id: e-kttc2-vcsh-kqkd
+    from: von-chu-so-huu
+    to: kttc2-xac-dinh-kqkd
+    edge_type: sequence_in_course
+    explicit_or_inferred: inferred
+    confidence: medium
+    source: src-0069
+    added_in: "2.1"
+    evidence: "Advertised four-chapter order; Ch3 and Ch4 files now both present."
+
+  - id: e-ktcp-process-std
+    from: ktcp-theo-quy-trinh
+    to: ktcp-dinh-muc
+    edge_type: sequence_in_course
+    explicit_or_inferred: inferred
+    confidence: medium
+    source: src-0042
+    added_in: "2.1"
+    evidence: "Chương 0 lists Ch4 quá trình then Ch5 định mức. Ch5 file now present (src-0221)."
+
+  - id: e-ktcp-std-alloc
+    from: ktcp-dinh-muc
+    to: phan-bo-chi-phi
+    edge_type: sequence_in_course
+    explicit_or_inferred: inferred
+    confidence: medium
+    source: src-0042
+    added_in: "2.1"
+    evidence: "Advertised Ch5 then Ch6. Ch6 file now present (src-0222)."
+
+  - id: e-audit-ksnb-prep
+    from: kiem-soat-noi-bo
+    to: trong-yeu-kiem-toan
+    edge_type: sequence_in_course
+    explicit_or_inferred: explicit
+    confidence: high
+    source: src-0193
+    added_in: "2.1"
+    evidence: >
+      Ch4 script: after chapters 1–3 (BCTC, kiểm toán, KSNB),
+      "bước sang ... chương Chuẩn bị kiểm toán" including trọng yếu.
+
+  - id: e-audit-prep-evidence
+    from: trong-yeu-kiem-toan
+    to: bang-chung-kiem-toan
+    edge_type: sequence_in_course
+    explicit_or_inferred: inferred
+    confidence: medium
+    source: src-0194
+    added_in: "2.1"
+    evidence: "Ch4 then Ch5 files; ôn tập lists that order (src-0196)."
+
+  - id: e-audit-evidence-complete
+    from: bang-chung-kiem-toan
+    to: hoan-thanh-kiem-toan
+    edge_type: sequence_in_course
+    explicit_or_inferred: inferred
+    confidence: medium
+    source: src-0195
+    added_in: "2.1"
+    evidence: "Ch5 then Ch6; Ch6 is the last chapter of the course."
+
+  - id: e-ktnh-credit-invest
+    from: cap-tin-dung
+    to: ktnh-dau-tu-chung-khoan
+    edge_type: sequence_in_course
+    explicit_or_inferred: inferred
+    confidence: low
+    source: src-0048
+    added_in: "2.1"
+    evidence: "Advertised Ch5 tín dụng then Ch6 đầu tư CK. Ch6 file now present."
+
+not_in_graph:
+  - reason: Advertised chapters that were missing in Phase 0–1 are now present (Phase 2.1)
+    items: []
+  - reason: Named successor courses still absent from D:\Hoc
+    items: [KTTC3, KTTC4, Kế toán quản trị, Kế toán thuế, HTTT kế toán]
+  - reason: TITLE_VARIANT not a GRAPH_CONFLICT
+    items:
+      - kiem-toan-1 Ch6 script "Hoàn thành kiểm toán" vs ôn tập "Báo cáo kiểm toán"
+  - reason: Named successor courses not in D:\Hoc
+    items: [KTTC3, KTTC4, Kế toán quản trị, Kế toán thuế, HTTT kế toán]
+  - reason: Would be generic accounting lore, not evidenced here
+    items:
+      - Forcing Journal → Adjusting → Statements as the taught backbone
+      - IFRS conceptual framework as a node
+      - VAS list beyond what scripts cite

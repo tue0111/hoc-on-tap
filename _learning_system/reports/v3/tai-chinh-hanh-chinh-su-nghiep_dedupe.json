@@ -1,0 +1,56 @@
+{
+  "course_id": "tai-chinh-hanh-chinh-su-nghiep",
+  "thresholds": {
+    "dup": 0.85,
+    "distinct": 0.5
+  },
+  "pairs": [
+    {
+      "upper": "src-0186",
+      "upper_file": "Hành chính và sự nghiệp.pdf",
+      "lowers": [
+        "src-0179",
+        "src-0180",
+        "src-0181",
+        "src-0182",
+        "src-0183",
+        "src-0184",
+        "src-0187",
+        "src-0188",
+        "src-0189",
+        "src-0190",
+        "src-0191"
+      ],
+      "cov": 0.9998,
+      "back": 0.8786,
+      "decision": "combined_duplicate",
+      "shingles_upper": 54872,
+      "shingles_lower": 62445,
+      "scope": "course-wide combined"
+    },
+    {
+      "upper": "src-0191",
+      "upper_file": "SlideHành chính và sự nghiệp.pdf",
+      "lowers": [
+        "src-0179",
+        "src-0180",
+        "src-0181",
+        "src-0182",
+        "src-0183",
+        "src-0184",
+        "src-0187",
+        "src-0188",
+        "src-0189",
+        "src-0190"
+      ],
+      "cov": 0.9996,
+      "back": 0.179,
+      "decision": "combined_duplicate",
+      "shingles_upper": 11183,
+      "shingles_lower": 62441,
+      "scope": "course-wide slides"
+    }
+  ],
+  "mid_band_scopes": [],
+  "REVIEW": []
+}

@@ -1,0 +1,106 @@
+{
+  "course_id": "kiem-toan-1",
+  "thresholds": {
+    "dup": 0.85,
+    "distinct": 0.5
+  },
+  "pairs": [
+    {
+      "upper": "src-0037",
+      "upper_file": "Chương 1.pdf",
+      "lowers": [
+        "src-0197",
+        "src-0198",
+        "src-0199"
+      ],
+      "cov": 0.8937,
+      "back": 1.0,
+      "decision": "combined_duplicate",
+      "shingles_upper": 8432,
+      "shingles_lower": 7536,
+      "scope": "chapter 1"
+    },
+    {
+      "upper": "src-0038",
+      "upper_file": "Chương 2.pdf",
+      "lowers": [
+        "src-0200",
+        "src-0201",
+        "src-0202"
+      ],
+      "cov": 0.9983,
+      "back": 1.0,
+      "decision": "combined_duplicate",
+      "shingles_upper": 8163,
+      "shingles_lower": 8149,
+      "scope": "chapter 2"
+    },
+    {
+      "upper": "src-0039",
+      "upper_file": "Chương 3.pdf",
+      "lowers": [
+        "src-0203",
+        "src-0204",
+        "src-0205",
+        "src-0206"
+      ],
+      "cov": 0.9977,
+      "back": 1.0,
+      "decision": "combined_duplicate",
+      "shingles_upper": 9191,
+      "shingles_lower": 9170,
+      "scope": "chapter 3"
+    },
+    {
+      "upper": "src-0193",
+      "upper_file": "Chương 4.pdf",
+      "lowers": [
+        "src-0207",
+        "src-0208",
+        "src-0209",
+        "src-0210",
+        "src-0211",
+        "src-0212"
+      ],
+      "cov": 0.9966,
+      "back": 1.0,
+      "decision": "combined_duplicate",
+      "shingles_upper": 9797,
+      "shingles_lower": 9764,
+      "scope": "chapter 4"
+    },
+    {
+      "upper": "src-0194",
+      "upper_file": "Chương 5.pdf",
+      "lowers": [
+        "src-0213",
+        "src-0214",
+        "src-0215"
+      ],
+      "cov": 0.9983,
+      "back": 1.0,
+      "decision": "combined_duplicate",
+      "shingles_upper": 4236,
+      "shingles_lower": 4229,
+      "scope": "chapter 5"
+    },
+    {
+      "upper": "src-0195",
+      "upper_file": "Chương 6.pdf",
+      "lowers": [
+        "src-0216",
+        "src-0217",
+        "src-0218",
+        "src-0219"
+      ],
+      "cov": 0.9989,
+      "back": 0.9448,
+      "decision": "combined_duplicate",
+      "shingles_upper": 6201,
+      "shingles_lower": 6556,
+      "scope": "chapter 6"
+    }
+  ],
+  "mid_band_scopes": [],
+  "REVIEW": []
+}

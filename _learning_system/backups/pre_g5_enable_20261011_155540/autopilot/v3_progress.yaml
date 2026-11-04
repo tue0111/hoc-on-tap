@@ -1,0 +1,578 @@
+plan_version: '1.0'
+current_wave: 5
+current_step: 5.1 harvest curriculum citations; R1 deferred until after G5 PASS
+steps:
+  '0.1':
+    status: done
+    at: '2026-10-11'
+    note: progress file + backups/pre_v3 (35 py files)
+  '0.2':
+    status: done
+    at: '2026-10-11'
+    note: integrity OK 40/40; 8 suites run; retrieval fails exactly kttc1-08, pre-07;
+      md reports identical to history; baseline raw in reports/v3/baseline/raw
+  '0.3':
+    status: done
+    at: '2026-10-11'
+    note: HOC_ROOT path refactor 35 files; v3_regression IDENTICAL
+  '0.4':
+    status: done
+    at: '2026-10-11'
+    note: course_registry.yaml (14 entries) + retrieval/courses.py; smoke tests pass
+  '0.5':
+    status: done
+    at: '2026-10-11'
+    note: Index/build_index parametrized; partition.py; retrieve() routing (legacy
+      body moved to _retrieve_legacy unchanged); concepts course fns; director guard
+      + partition answer; regression IDENTICAL
+  '0.6':
+    status: done
+    at: '2026-10-11'
+    note: inventory 333->339 (src-0334..0339 KTCP learner files); 14 learner_material
+      overrides; D:\Hoc listing matched inventory counts for all 12 courses; 43 staged
+      files hash-matched
+  1.stage:
+    status: done
+    at: '2026-10-11'
+    note: 34 files staged, hashes match
+  1.extract:
+    status: done
+    at: '2026-10-11'
+    note: 34 docs/349 pages, 0 errors, page counts match, 0 UNPARSED
+  1.dedupe:
+    status: done
+    at: '2026-10-11'
+    note: Chuong1-4 cov .97-.999 -> combined_duplicate, 0 REVIEW
+  1.concepts:
+    status: done
+    at: '2026-10-11'
+    note: '33 concepts, 47 accounts, validator PASS (11 candidate aliases dropped:
+      absent from text)'
+  1.partition:
+    status: done
+    at: '2026-10-11'
+    note: 464 chunks, vocab 1570
+  1.eval:
+    status: done
+    at: '2026-10-11'
+    note: first run recorded in evals/v3/FROZEN.json
+  1.amendment_A1:
+    status: done
+    at: '2026-10-11'
+    note: 'Opus resolved G1 escalation: partition off-outline rule A1; insufficient
+      gate deferred to G3x'
+  2a.extract:
+    status: done
+    at: '2026-10-11'
+    note: 45 docs, 405 pages, 0 errors
+  2a.dedupe:
+    status: done
+    at: '2026-10-11'
+    note: 7 chapter PDFs combined_duplicate, REVIEW []
+  2a.concepts:
+    status: done
+    at: '2026-10-11'
+    note: 30 concepts, validator PASS
+  2a.partition:
+    status: done
+    at: '2026-10-11'
+    note: 362 chunks
+  2a.eval:
+    status: done
+    at: '2026-10-11'
+    note: 23 rows frozen; run1..run3; chapter@1 0.70, topic_owner 0/3
+  2b.extract:
+    status: done
+    at: '2026-10-11'
+    note: 33 docs, 368 pages, 0 errors
+  2b.dedupe:
+    status: done
+    at: '2026-10-11'
+    note: 6 chapter PDFs combined_duplicate, REVIEW []
+  2b.concepts:
+    status: done
+    at: '2026-10-11'
+    note: 40 concepts, validator PASS
+  2b.partition:
+    status: done
+    at: '2026-10-11'
+    note: 358 chunks
+  2b.eval:
+    status: done
+    at: '2026-10-11'
+    note: 20 rows frozen, run1; insufficient 0.67 deferred to G3x
+  2c.extract:
+    status: done
+    at: '2026-10-11'
+    note: 54 docs, 630 pages, 0 errors
+  2c.dedupe:
+    status: done
+    at: '2026-10-11'
+    note: 9 chapter PDFs combined_duplicate, REVIEW []
+  2c.concepts:
+    status: done
+    at: '2026-10-11'
+    note: 30 concepts, 67 accounts, validator PASS
+  2c.partition:
+    status: done
+    at: '2026-10-11'
+    note: 959 chunks
+  2c.eval:
+    status: done
+    at: '2026-10-11'
+    note: 22 rows frozen; chapter@1 0.75
+  3a.stage:
+    status: done
+    at: '2026-10-11'
+    note: 36 inventory files present; size and sha256 all match
+  3a.extract:
+    status: done
+    at: '2026-10-11'
+    note: 36 docs, 225 pages, 436837 chars, 0 errors, 0 page mismatches, 0 UNPARSED,
+      0 thin
+  3a.dedupe:
+    status: done
+    at: '2026-10-11'
+    note: no chapter-vs-unit or combined-slide pairs; REVIEW empty
+  3a.concept_candidates:
+    status: done
+    at: '2026-10-11'
+    note: 32 unit titles, 75 heading hits, 0 outline titles, 0 accounts
+  3a.concepts:
+    status: done
+    at: '2026-10-11'
+    note: 25 concepts, 0 accounts, validator PASS; macro/micro slug collision disambiguated
+      by topic suffix
+  3a.partition:
+    status: done
+    at: '2026-10-11'
+    note: 521 chunks, vocab 2086, 0 dup groups, all indexed docs represented, source
+      hashes valid
+  3a.eval:
+    status: done
+    at: '2026-10-11'
+    note: 20 rows frozen; direct include 1.0, chapter@1 1.0, source_bound 1.0, insufficient
+      0.667 deferred to G3x, collision 0
+  3a.regression:
+    status: done
+    at: '2026-10-11'
+    note: IDENTICAL; reports/v3/run_20261011_114131
+  3b.stage:
+    status: done
+    at: '2026-10-11'
+    note: 17 inventory files present; size and sha256 all match
+  3b.extract:
+    status: done
+    at: '2026-10-11'
+    note: 17 docs, 95 pages, 142860 chars, 0 errors, 0 page mismatches, 0 UNPARSED,
+      0 thin
+  3b.dedupe:
+    status: done
+    at: '2026-10-11'
+    note: no chapter-vs-unit or combined-slide pairs; REVIEW empty
+  3b.concept_candidates:
+    status: done
+    at: '2026-10-11'
+    note: 13 topic files, 20 heading hits, 0 outline titles, 0 accounts
+  3b.concepts:
+    status: done
+    at: '2026-10-11'
+    note: 18 concepts, 0 accounts, validator PASS
+  3b.partition:
+    status: done
+    at: '2026-10-11'
+    note: 177 chunks, vocab 1017, 0 dup groups, all indexed docs represented, source
+      hashes valid
+  3b.eval:
+    status: done
+    at: '2026-10-11'
+    note: 20 rows frozen; direct include 1.0, chapter@1 0.917, source_bound 1.0, insufficient
+      1.0, collision 0; no tuning
+  3b.regression:
+    status: done
+    at: '2026-10-11'
+    note: IDENTICAL; reports/v3/run_20261011_114404
+  3c.stage:
+    status: done
+    at: '2026-10-11'
+    note: 24 inventory files present; size and sha256 all match; src-0165/0173/0174
+      learner overrides and src-0178 combined role confirmed
+  3c.extract:
+    status: done
+    at: '2026-10-11'
+    note: 24 docs, 653 pages, 797548 chars, 0 errors, 0 page mismatches, 0 UNPARSED;
+      src-0165 learner PPTX skipped here for G3g; src-0177 included; src-0178 excluded
+      combined
+  3c.dedupe:
+    status: done
+    at: '2026-10-11'
+    note: src-0178 course-wide cov 0.9981 and src-0172 Slide.pdf cov 0.9890 marked
+      combined_duplicate; REVIEW empty
+  3c.concept_candidates:
+    status: done
+    at: '2026-10-11'
+    note: 23 heading hits, 211 outline titles, 1 account occurrence below mapping
+      threshold
+  3c.concepts:
+    status: done
+    at: '2026-10-11'
+    note: 29 concepts, 0 mapped accounts, validator PASS; 75 vs 90 minute exam-duration
+      conflict preserved with sources
+  3c.partition:
+    status: done
+    at: '2026-10-11'
+    note: 392 chunks, vocab 7123, 0 dup groups, all indexed docs represented, source
+      hashes valid
+  3c.eval:
+    status: done
+    at: '2026-10-11'
+    note: first run 20 rows frozen; direct include 0.917, chapter@1 0.333, source_bound
+      0.667, insufficient 1.0, collision 0
+  3c.tuning:
+    status: done
+    at: '2026-10-11'
+    note: run2 and run3 unchanged; no legal alias/cue/account/dup_group change can
+      remove course-name tokens from lexical scoring; D1 remains unapproved
+  3c.regression:
+    status: done
+    at: '2026-10-11'
+    note: IDENTICAL; reports/v3/run_20261011_115026
+  3d.stage:
+    status: done
+    at: '2026-10-11'
+    note: 20 inventory files present; size and sha256 all match; src-0130 combined
+      role and src-0139/0140 learner overrides confirmed
+  3d.extract:
+    status: done
+    at: '2026-10-11'
+    note: 20 docs, 986 pages, 692683 chars, 0 errors, 0 page mismatches, 0 UNPARSED,
+      0 thin; learner files excluded
+  3d.dedupe:
+    status: done
+    at: '2026-10-11'
+    note: src-0130 cov 0.9034 and src-0138 course-wide slides cov 0.9972 marked combined_duplicate;
+      REVIEW empty
+  3d.concept_candidates:
+    status: done
+    at: '2026-10-11'
+    note: 39 heading hits, 644 outline titles, 0 accounts
+  3d.concepts:
+    status: done
+    at: '2026-10-11'
+    note: 23 concepts, validator PASS; one absent alias dropped; 2010 vs 32/2024/QH15
+      law-vintage conflict preserved with sources
+  3d.partition:
+    status: done
+    at: '2026-10-11'
+    note: 357 chunks, vocab 1602, 0 dup groups, all indexed docs represented, source
+      hashes valid
+  3d.eval:
+    status: done
+    at: '2026-10-11'
+    note: 20 rows frozen; direct include 0.917, chapter@1 0.833, source_bound 1.0,
+      insufficient 1.0, collision 0; no tuning
+  3d.regression:
+    status: done
+    at: '2026-10-11'
+    note: IDENTICAL; reports/v3/run_20261011_115403
+  3e.stage:
+    status: done
+    at: '2026-10-11'
+    note: 14 inventory files present; size and sha256 all match
+  3e.extract:
+    status: done
+    at: '2026-10-11'
+    note: 14 docs, 318 pages, 167990 chars, 0 errors, 0 page mismatches, 0 UNPARSED,
+      0 thin
+  3e.dedupe:
+    status: done
+    at: '2026-10-11'
+    note: no chapter-vs-unit or combined-slide pairs; REVIEW empty
+  3e.concept_candidates:
+    status: done
+    at: '2026-10-11'
+    note: 0 unit titles, 32 heading hits, 16 outline titles, 0 accounts
+  3e.concepts:
+    status: done
+    at: '2026-10-11'
+    note: 27 concepts, 0 accounts, validator PASS; Ch6-last-vs-Ch7 conflict preserved
+      as UNKNOWN
+  3e.partition:
+    status: done
+    at: '2026-10-11'
+    note: 196 chunks, vocab 1317, 0 dup groups, all indexed docs represented, source
+      hashes valid
+  3e.eval:
+    status: done
+    at: '2026-10-11'
+    note: 20 rows frozen; direct include 1.0, chapter@1 1.0, source_bound 1.0, insufficient
+      1.0, collision 0; no tuning
+  3e.regression:
+    status: done
+    at: '2026-10-11'
+    note: IDENTICAL; reports/v3/run_20261011_115804
+  3f.stage:
+    status: done
+    at: '2026-10-11'
+    note: 14 inventory files present; size and sha256 all match; src-0186 combined
+      override confirmed
+  3f.extract:
+    status: done
+    at: '2026-10-11'
+    note: 14 docs, 1191 pages, 888967 chars, 0 errors, 0 page mismatches, 0 UNPARSED,
+      0 thin
+  3f.dedupe:
+    status: done
+    at: '2026-10-11'
+    note: src-0186 combined cov 0.9998 and src-0191 course-wide slide cov 0.9996 marked
+      combined_duplicate; REVIEW empty
+  3f.concept_candidates:
+    status: done
+    at: '2026-10-11'
+    note: 0 unit titles, 42 heading hits, 806 outline titles, 0 accounts
+  3f.concepts:
+    status: done
+    at: '2026-10-11'
+    note: 26 concepts, 0 accounts, validator PASS; exam-format and topic-numbering
+      conflicts preserved
+  3f.partition:
+    status: done
+    at: '2026-10-11'
+    note: 768 chunks, vocab 1431, 0 dup groups, all indexed docs represented, source
+      hashes valid
+  3f.eval:
+    status: done
+    at: '2026-10-11'
+    note: 20 rows frozen; direct include 1.0, chapter@1 0.833, source_bound 0.667,
+      insufficient 0.667 deferred to G3x, collision 0; no tuning
+  3f.regression:
+    status: done
+    at: '2026-10-11'
+    note: IDENTICAL; reports/v3/run_20261011_120239
+  3g.stage:
+    status: done
+    at: '2026-10-11'
+    note: 14 learner-material inventory files selected by overrides/path rules; size
+      and sha256 all match; script syntax checks pass
+  3g.extract:
+    status: done
+    at: '2026-10-11'
+    note: 14 docs, 132 pages/slides, 276921 chars, 0 errors, 0 page mismatches; src-0165
+      thin/image-heavy but PPTX text frames extracted one page per slide
+  3g.partition:
+    status: done
+    at: '2026-10-11'
+    note: 307 chunks, vocab 2083, all indexed text documents represented, source hashes
+      valid, no learner_material chunk in any course partition
+  3g.eval:
+    status: done
+    at: '2026-10-11'
+    note: 5 rows frozen; top3 1.0, implicit routing 1.0, coverage/unknowns/metadata
+      contracts 1.0, explicit route pass
+  3g.regression:
+    status: done
+    at: '2026-10-11'
+    note: IDENTICAL; reports/v3/run_20261011_120737
+  3g.pause:
+    status: done
+    at: '2026-10-11'
+    note: user resumed with "Tiếp"
+  G3x.start:
+    status: done
+    at: '2026-10-11'
+    note: rerun every frozen course eval currently at retrieval tier; learner-notes
+      uses its dedicated G3g gate
+  G3x.eval:
+    status: done
+    at: '2026-10-11'
+    note: 7 frozen course evals rerun; Law, NHTM, TTTC pass; KTTC2, KT1, KDNV, TCHCSN
+      insufficient 0.667<1.0 and returned to catalog
+  G3x.regression:
+    status: done
+    at: '2026-10-11'
+    note: IDENTICAL after tier demotions; reports/v3/run_20261011_122633
+  G3x.fix:
+    status: done
+    at: '2026-10-11'
+    note: User authorized debug/fix; seven course gates pass, learner-notes pass,
+      all frozen hashes unchanged; regression reports\v3\run_20261011_213339
+  '4.1':
+    status: done
+    at: '20261011_143917'
+    note: Synchronized from verified registry/artifacts; catalog failures preserved.
+  '4.2':
+    status: done
+    at: '20261011_143917'
+    note: Synchronized from verified registry/artifacts; catalog failures preserved.
+  '4.3':
+    status: done
+    at: '20261011_143917'
+    note: Synchronized from verified registry/artifacts; catalog failures preserved.
+  '4.4':
+    status: done
+    at: '20261011_143917'
+    note: Synchronized from verified registry/artifacts; catalog failures preserved.
+  '4.5':
+    status: done
+    at: '20261011_143917'
+    note: Synchronized from verified registry/artifacts; catalog failures preserved.
+  '4.6':
+    status: done
+    at: '20261011_143917'
+    note: Synchronized from verified registry/artifacts; catalog failures preserved.
+  '4.7':
+    status: done
+    at: '20261011_143917'
+    note: Synchronized from verified registry/artifacts; catalog failures preserved.
+  '4.8':
+    status: done
+    at: '2026-10-11T14:40:49.943773+00:00'
+    note: Verified; reports/v3/G4.md and V3_FINAL.md
+  '4.9':
+    status: done
+    at: '2026-10-11T14:40:49.943773+00:00'
+    note: Verified; reports/v3/G4.md and V3_FINAL.md
+  D1.trial:
+    status: blocked
+    at: '2026-10-11T14:43:25.380868+00:00'
+    note: Authorized trial regresses TCHCSN; reverted. reports/v3/D1_rerun.md
+  D2.waiver:
+    status: done
+    at: '2026-10-11T14:43:25.380868+00:00'
+    note: Learner approved waiver of kp-t01/kp-t02/kp-t03 only; evals unchanged.
+  A2:
+    status: done
+    note: Appended verbatim; G4 pass_a2; no tier changes; D2 waiver recorded.
+gates:
+  G0:
+    status: pass
+    report: reports/v3/G0.md
+  G1:
+    status: pass
+    report: reports/v3/G-ke-toan-tai-chinh-2.md
+    tier: retrieval
+    failed_at_g3x: insufficient 0.667 < 1.0
+    resolution_report: reports/v3/G3x_FIX.md
+  G2a:
+    status: fail
+    report: reports/v3/G-ke-toan-chi-phi.md
+    tier: catalog
+  G2b:
+    status: pass
+    report: reports/v3/G-kiem-toan-1.md
+    tier: retrieval
+    failed_at_g3x: insufficient 0.667 < 1.0
+    resolution_report: reports/v3/G3x_FIX.md
+  G2c:
+    status: fail
+    report: reports/v3/G-ke-toan-ngan-hang.md
+    tier: catalog
+  G3a:
+    status: pass
+    report: reports/v3/G-kinh-doanh-va-nghiep-vu.md
+    tier: retrieval
+    failed_at_g3x: insufficient 0.667 < 1.0
+    resolution_report: reports/v3/G3x_FIX.md
+  G3b:
+    status: pass
+    report: reports/v3/G-luat-kinh-doanh.md
+    tier: retrieval
+  G3c:
+    status: fail
+    report: reports/v3/G-tai-chinh-doanh-nghiep-1.md
+    tier: catalog
+  G3d:
+    status: pass
+    report: reports/v3/G-ngan-hang-thuong-mai.md
+    tier: retrieval
+  G3e:
+    status: pass
+    report: reports/v3/G-thi-truong-tai-chinh.md
+    tier: retrieval
+  G3f:
+    status: pass
+    report: reports/v3/G-tai-chinh-hanh-chinh-su-nghiep.md
+    tier: retrieval
+    failed_at_g3x: insufficient 0.667 < 1.0
+    resolution_report: reports/v3/G3x_FIX.md
+  G3g:
+    status: pass
+    report: reports/v3/G-learner-notes.md
+    tier: retrieval
+  G3x:
+    status: pass
+    report: reports/v3/G3x_FIX.md
+    passed:
+    - ke-toan-tai-chinh-2
+    - kiem-toan-1
+    - kinh-doanh-va-nghiep-vu
+    - luat-kinh-doanh
+    - ngan-hang-thuong-mai
+    - thi-truong-tai-chinh
+    - tai-chinh-hanh-chinh-su-nghiep
+    failed_to_catalog: []
+    core_regression: IDENTICAL
+    previous_report: reports/v3/G3x.md
+  G4:
+    status: pass_a2
+    report: reports/v3/G4.md
+    core_regression: IDENTICAL
+    reason: Every course has a final state; catalog failures are open items R1.
+    resolution: Amendment A2.1
+escalations:
+- step: G1
+  reason: 'insufficient gate 0/3: min-max hybrid score makes top score always >=0.15,
+    so partition coverage can never be insufficient; no allowed tuning knob can fix.
+    Needs design decision (see report).'
+  at: '2026-10-11'
+  resolution: Amendment A1 (V3_EXPANSION_PLAN.md)
+- step: G2a
+  reason: 'ke-toan-chi-phi: direct_chapter_at1 0.70<0.80 after 2 tuning rounds; topic_owner
+    rows mis-specified by executor (spec 4.3 suppresses suggestion when core answers
+    sufficiently). Local to KTCP; continuing.'
+  at: '2026-10-11'
+  resolution: null
+- step: G2c
+  reason: 'ke-toan-ngan-hang: direct_chapter_at1 0.75<0.80 after 2 tuning rounds (course-name
+    tokens in query match generic intro chunks; one row ambiguous NHTM cue). Same
+    root cause as KTCP. Proposed fix: strip course cue tokens from lexical query in
+    retrieve_partition (outside allowed knobs).'
+  at: '2026-10-11'
+  resolution: null
+- step: G3c
+  reason: 'tai-chinh-doanh-nghiep-1: direct_chapter_at1 0.333<0.80 after two confirmation
+    rounds; course-name tokens rank multi-chapter summary and chapter-0 overview above
+    the correct chapter. No allowed tuning knob fixes lexical query terms; D1 remains
+    unapproved.'
+  at: '2026-10-11'
+  resolution: null
+- step: G3x/ke-toan-tai-chinh-2
+  reason: insufficient 0.667<1.0 on frozen eval; k2-i02 remained partial at the mandatory
+    A1 checkpoint. Returned to catalog; eval unchanged; D1 not applied.
+  at: '2026-10-11'
+  resolution: Resolved by authorized engine/routing fix; reports/v3/G3x_FIX.md
+- step: G3x/kiem-toan-1
+  reason: insufficient 0.667<1.0 on frozen eval; kt-i03 remained partial at the mandatory
+    A1 checkpoint. Returned to catalog; eval unchanged; D1 not applied.
+  at: '2026-10-11'
+  resolution: Resolved by authorized engine/routing fix; reports/v3/G3x_FIX.md
+- step: G3x/kinh-doanh-va-nghiep-vu
+  reason: insufficient 0.667<1.0 on frozen eval; kd-i03 remained partial at the mandatory
+    A1 checkpoint. Returned to catalog; eval unchanged; D1 not applied.
+  at: '2026-10-11'
+  resolution: Resolved by authorized engine/routing fix; reports/v3/G3x_FIX.md
+- step: G3x/tai-chinh-hanh-chinh-su-nghiep
+  reason: insufficient 0.667<1.0 on frozen eval; hcsn-i03 remained partial at the
+    mandatory A1 checkpoint. Returned to catalog; eval unchanged; D1 not applied.
+  at: '2026-10-11'
+  resolution: Resolved by authorized engine/routing fix; reports/v3/G3x_FIX.md
+- step: G4
+  reason: Three course gates remain failed. Explicit D1 approval and D2 resolution
+    needed; no gate waiver assumed.
+  at: '2026-10-11T14:40:49.943773+00:00'
+  resolution: Amendment A2.1
+- step: D1.trial
+  reason: TCHCSN chapter@1 0.75<0.80 after uniform cue stripping; TCDN1 remains 0.333.
+    Change reverted, registry unchanged.
+  at: '2026-10-11T14:43:25.380868+00:00'
+  resolution: null

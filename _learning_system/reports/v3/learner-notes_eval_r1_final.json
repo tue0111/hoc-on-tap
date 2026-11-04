@@ -1,0 +1,125 @@
+{
+  "partition": "learner-notes",
+  "tag": "_r1_final",
+  "eval_sha256": "90827db034bb78c377eeebaf47e037da58e5158be176fcd63789b036a989d3f6",
+  "n": 5,
+  "metrics": {
+    "top3": 1.0,
+    "implicit_routing": 1.0,
+    "coverage_contract": 1.0,
+    "unknowns_contract": 1.0,
+    "metadata_contract": 1.0,
+    "explicit_route": 1.0
+  },
+  "all_pass": true,
+  "results": [
+    {
+      "id": "ln-01",
+      "question": "Bài thảo luận của tao về bản chất và đạo đức nghề kiểm toán độc lập viết những gì?",
+      "expected": [
+        "src-0040"
+      ],
+      "top3": [
+        "src-0040",
+        "src-0040",
+        "src-0040"
+      ],
+      "checks": {
+        "top3": true,
+        "partition": true,
+        "coverage": true,
+        "unknowns": true,
+        "metadata": true
+      },
+      "pass": true
+    },
+    {
+      "id": "ln-02",
+      "question": "Bài của tao về chi phí sản phẩm và chi phí thời kỳ trong doanh nghiệp sản xuất, thương mại, dịch vụ trình bày thế nào?",
+      "expected": [
+        "src-0046"
+      ],
+      "top3": [
+        "src-0046",
+        "src-0046",
+        "src-0046"
+      ],
+      "checks": {
+        "top3": true,
+        "partition": true,
+        "coverage": true,
+        "unknowns": true,
+        "metadata": true
+      },
+      "pass": true
+    },
+    {
+      "id": "ln-03",
+      "question": "Sổ tay Ngân hàng thương mại của tao tổng hợp các dạng bài tính và trọng tâm đề ra sao?",
+      "expected": [
+        "src-0139",
+        "src-0140"
+      ],
+      "top3": [
+        "src-0140",
+        "src-0139",
+        "src-0140"
+      ],
+      "checks": {
+        "top3": true,
+        "partition": true,
+        "coverage": true,
+        "unknowns": true,
+        "metadata": true
+      },
+      "pass": true
+    },
+    {
+      "id": "ln-04",
+      "question": "Sổ tay Tài chính doanh nghiệp 1 của tao giải thích công thức và logic làm bài thế nào?",
+      "expected": [
+        "src-0165",
+        "src-0173",
+        "src-0174"
+      ],
+      "top3": [
+        "src-0174",
+        "src-0173",
+        "src-0174"
+      ],
+      "checks": {
+        "top3": true,
+        "partition": true,
+        "coverage": true,
+        "unknowns": true,
+        "metadata": true
+      },
+      "pass": true
+    },
+    {
+      "id": "ln-05",
+      "question": "Bài làm của tao về kế toán chi phí định mức, chi phí đầu tư ban đầu và phân bổ chi phí sản xuất chung gồm gì?",
+      "expected": [
+        "src-0334",
+        "src-0335",
+        "src-0336",
+        "src-0337",
+        "src-0338",
+        "src-0339"
+      ],
+      "top3": [
+        "src-0339",
+        "src-0337",
+        "src-0334"
+      ],
+      "checks": {
+        "top3": true,
+        "partition": true,
+        "coverage": true,
+        "unknowns": true,
+        "metadata": true
+      },
+      "pass": true
+    }
+  ]
+}

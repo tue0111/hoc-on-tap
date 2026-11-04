@@ -1,0 +1,575 @@
+course_id: ke-toan-tai-chinh-2
+version: 0.1.0
+id_prefix: kttc2
+concepts:
+- concept_id: kttc2-tai-san-co-dinh
+  canonical_name: Tài sản cố định
+  aliases:
+  - TSCĐ
+  same_as: tscd
+  chapter: 1
+  topic: '1.1'
+  source_refs:
+  - source_id: src-0306
+    page: 1
+  - source_id: src-0306
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kttc2-khai-niem-va-nguyen-tac-tai-san-co-dinh-huu-hinh
+  canonical_name: Khái niệm và nguyên tắc tài sản cố định hữu hình
+  aliases:
+  - tài sản cố định hữu hình
+  - TSCĐ hữu hình
+  - nguyên giá tài sản cố định
+  same_as: null
+  chapter: 1
+  topic: '1.1'
+  source_refs:
+  - source_id: src-0306
+    page: 1
+  - source_id: src-0306
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kttc2-khai-niem-va-nguyen-tac-tai-san-co-dinh-vo-hinh
+  canonical_name: Khái niệm và nguyên tắc tài sản cố định vô hình
+  aliases:
+  - tài sản cố định vô hình
+  - TSCĐ vô hình
+  - quyền sử dụng đất
+  same_as: null
+  chapter: 1
+  topic: '1.2'
+  source_refs:
+  - source_id: src-0307
+    page: 1
+  - source_id: src-0307
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kttc2-cac-phuong-phap-tinh-khau-hao-tscd
+  canonical_name: Các phương pháp tính khấu hao TSCĐ
+  aliases:
+  - phương pháp khấu hao
+  - khấu hao đường thẳng
+  - số dư giảm dần
+  - khấu hao theo sản lượng
+  same_as: null
+  chapter: 1
+  topic: '1.3'
+  source_refs:
+  - source_id: src-0308
+    page: 1
+  - source_id: src-0308
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kttc2-khau-hao-tai-san-co-dinh
+  canonical_name: Khấu hao tài sản cố định
+  aliases:
+  - khấu hao
+  - hao mòn tài sản cố định
+  same_as: khau-hao
+  chapter: 1
+  topic: '1.3'
+  source_refs:
+  - source_id: src-0308
+    page: 1
+  - source_id: src-0308
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kttc2-ke-toan-tang-tai-san-co-dinh
+  canonical_name: Kế toán tăng tài sản cố định
+  aliases:
+  - tăng TSCĐ
+  - mua sắm tài sản cố định
+  - xây dựng cơ bản dở dang
+  same_as: null
+  chapter: 1
+  topic: '1.4'
+  source_refs:
+  - source_id: src-0309
+    page: 1
+  - source_id: src-0309
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kttc2-ke-toan-giam-tai-san-co-dinh
+  canonical_name: Kế toán giảm tài sản cố định
+  aliases:
+  - giảm TSCĐ
+  - thanh lý tài sản cố định
+  - thanh lý TSCĐ
+  - nhượng bán TSCĐ
+  same_as: null
+  chapter: 1
+  topic: '1.5'
+  source_refs:
+  - source_id: src-0310
+    page: 1
+  - source_id: src-0310
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kttc2-ke-toan-chi-phi-phat-sinh-sau-khi-ghi-nhan-ban-dau
+  canonical_name: Kế toán chi phí phát sinh sau khi ghi nhận ban đầu
+  aliases:
+  - chi phí phát sinh sau ghi nhận ban đầu
+  - sửa chữa lớn
+  same_as: null
+  chapter: 1
+  topic: '1.6'
+  source_refs:
+  - source_id: src-0311
+    page: 1
+  - source_id: src-0311
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kttc2-trinh-bay-thong-tin-tren-bao-cao-tai-chinh
+  canonical_name: Trình bày thông tin trên báo cáo tài chính
+  aliases:
+  - trình bày thông tin
+  - thuyết minh báo cáo tài chính
+  same_as: bao-cao-tai-chinh
+  chapter: 1
+  topic: '1.7'
+  chapters:
+  - 1
+  - 2
+  - 3
+  - 4
+  source_refs:
+  - source_id: src-0312
+    page: 1
+  - source_id: src-0304
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kttc2-khai-niem-dieu-kien-ghi-nhan-va-phan-loai
+  canonical_name: Khái niệm, điều kiện ghi nhận và phân loại
+  aliases:
+  - điều kiện ghi nhận nợ phải trả
+  - phân loại nợ phải trả
+  same_as: null
+  chapter: 2
+  topic: '2.1'
+  source_refs:
+  - source_id: src-0313
+    page: 1
+  - source_id: src-0313
+    page: 3
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kttc2-no-phai-tra
+  canonical_name: Nợ phải trả
+  aliases:
+  - khoản nợ phải trả
+  - nợ ngắn hạn
+  - nợ dài hạn
+  same_as: no-phai-tra
+  chapter: 2
+  topic: '2.1'
+  source_refs:
+  - source_id: src-0313
+    page: 1
+  - source_id: src-0313
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kttc2-ghi-nhan-va-danh-gia-no-phai-tra
+  canonical_name: Ghi nhận và đánh giá nợ phải trả
+  aliases:
+  - đánh giá nợ phải trả
+  - ghi nhận nợ phải trả
+  same_as: null
+  chapter: 2
+  topic: '2.2'
+  source_refs:
+  - source_id: src-0314
+    page: 1
+  - source_id: src-0314
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kttc2-phai-tra-cho-nguoi-ban
+  canonical_name: Phải trả cho người bán
+  aliases:
+  - tài khoản 331
+  - phải trả người bán
+  same_as: null
+  chapter: 2
+  topic: '2.3'
+  source_refs:
+  - source_id: src-0315
+    page: 1
+  - source_id: src-0315
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kttc2-cac-khoan-di-vay
+  canonical_name: Các khoản đi vay
+  aliases:
+  - tài khoản 3411
+  - vay và nợ thuê tài chính
+  same_as: null
+  chapter: 2
+  topic: '2.3'
+  source_refs:
+  - source_id: src-0315
+    page: 1
+  - source_id: src-0315
+    page: 6
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kttc2-chi-phi-phai-tra
+  canonical_name: Chi phí phải trả
+  aliases:
+  - tài khoản 335
+  - trích trước chi phí
+  same_as: null
+  chapter: 2
+  topic: '2.3'
+  source_refs:
+  - source_id: src-0315
+    page: 1
+  - source_id: src-0315
+    page: 9
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kttc2-thue-va-cac-khoan-phai-nop-nha-nuoc
+  canonical_name: Thuế và các khoản phải nộp nhà nước
+  aliases:
+  - tài khoản 333
+  - thuế phải nộp
+  same_as: null
+  chapter: 2
+  topic: '2.4'
+  source_refs:
+  - source_id: src-0316
+    page: 1
+  - source_id: src-0316
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kttc2-thue-gia-tri-gia-tang
+  canonical_name: Thuế giá trị gia tăng
+  aliases:
+  - thuế GTGT
+  - thuế giá trị gia tăng phải nộp
+  same_as: null
+  chapter: 2
+  topic: '2.4'
+  source_refs:
+  - source_id: src-0316
+    page: 1
+  - source_id: src-0316
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kttc2-phai-tra-nguoi-lao-dong
+  canonical_name: Phải trả người lao động
+  aliases:
+  - tiền lương và các khoản trích theo lương
+  - tài khoản 334
+  - bảo hiểm xã hội
+  - bảo hiểm y tế
+  - bảo hiểm thất nghiệp
+  - kinh phí công đoàn
+  same_as: null
+  chapter: 2
+  topic: '2.5'
+  source_refs:
+  - source_id: src-0317
+    page: 1
+  - source_id: src-0317
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kttc2-quy-khen-thuong-phuc-loi
+  canonical_name: Quỹ khen thưởng, phúc lợi
+  aliases:
+  - quỹ khen thưởng phúc lợi
+  - tài khoản 353
+  same_as: null
+  chapter: 2
+  topic: '2.5'
+  source_refs:
+  - source_id: src-0317
+    page: 1
+  - source_id: src-0317
+    page: 10
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kttc2-phai-tra-noi-bo
+  canonical_name: Phải trả nội bộ
+  aliases:
+  - tài khoản 336
+  same_as: null
+  chapter: 2
+  topic: '2.6'
+  source_refs:
+  - source_id: src-0318
+    page: 1
+  - source_id: src-0318
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kttc2-du-phong-phai-tra
+  canonical_name: Dự phòng phải trả
+  aliases:
+  - tài khoản 352
+  same_as: null
+  chapter: 2
+  topic: '2.6'
+  source_refs:
+  - source_id: src-0318
+    page: 1
+  - source_id: src-0318
+    page: 9
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kttc2-doanh-thu-chua-thuc-hien
+  canonical_name: Doanh thu chưa thực hiện
+  aliases:
+  - tài khoản 3387
+  same_as: null
+  chapter: 2
+  topic: '2.6'
+  source_refs:
+  - source_id: src-0318
+    page: 1
+  - source_id: src-0318
+    page: 5
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kttc2-von-chu-so-huu
+  canonical_name: Vốn chủ sở hữu
+  aliases:
+  - VCSH
+  - các bộ phận cấu thành nên vốn chủ sở hữu
+  same_as: von-chu-so-huu
+  chapter: 3
+  topic: '3.1'
+  source_refs:
+  - source_id: src-0320
+    page: 1
+  - source_id: src-0320
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kttc2-ke-toan-von-dau-tu-cua-chu-so-huu
+  canonical_name: Kế toán vốn đầu tư của chủ sở hữu
+  aliases:
+  - vốn góp của chủ sở hữu
+  - thặng dư vốn cổ phần
+  - vốn đầu tư của chủ sở hữu
+  same_as: null
+  chapter: 3
+  topic: '3.2'
+  source_refs:
+  - source_id: src-0321
+    page: 1
+  - source_id: src-0321
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kttc2-ke-toan-co-phieu-quy
+  canonical_name: Kế toán cổ phiếu quỹ
+  aliases:
+  - cổ phiếu quỹ
+  - tài khoản 419
+  same_as: null
+  chapter: 3
+  topic: '3.3'
+  source_refs:
+  - source_id: src-0322
+    page: 1
+  - source_id: src-0322
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kttc2-ke-toan-loi-nhuan-chua-phan-phoi-va-cac-quy-du-tru
+  canonical_name: Kế toán lợi nhuận chưa phân phối và các quỹ dự trữ
+  aliases:
+  - lợi nhuận chưa phân phối
+  - quỹ dự trữ
+  - tài khoản 421
+  same_as: null
+  chapter: 3
+  topic: '3.4'
+  source_refs:
+  - source_id: src-0323
+    page: 1
+  - source_id: src-0323
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kttc2-dinh-nghia-va-dieu-kien-ghi-nhan
+  canonical_name: Định nghĩa và điều kiện ghi nhận
+  aliases:
+  - điều kiện ghi nhận doanh thu
+  - định nghĩa doanh thu
+  same_as: null
+  chapter: 4
+  topic: '4.1'
+  source_refs:
+  - source_id: src-0325
+    page: 1
+  - source_id: src-0325
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kttc2-ke-toan-doanh-thu-ban-hang
+  canonical_name: Kế toán doanh thu bán hàng
+  aliases:
+  - giá vốn hàng bán
+  - doanh thu cung cấp dịch vụ
+  - doanh thu bán hàng
+  - tài khoản 511
+  same_as: null
+  chapter: 4
+  topic: '4.2'
+  source_refs:
+  - source_id: src-0326
+    page: 1
+  - source_id: src-0326
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kttc2-ke-toan-hoat-dong-tai-chinh
+  canonical_name: Kế toán hoạt động tài chính
+  aliases:
+  - doanh thu hoạt động tài chính
+  - chi phí tài chính
+  - tài khoản 515
+  - tài khoản 635
+  same_as: null
+  chapter: 4
+  topic: '4.3'
+  source_refs:
+  - source_id: src-0327
+    page: 1
+  - source_id: src-0327
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kttc2-ke-toan-chi-phi-hoat-dong
+  canonical_name: Kế toán chi phí hoạt động
+  aliases:
+  - chi phí bán hàng
+  - chi phí quản lý doanh nghiệp
+  - tài khoản 642
+  same_as: null
+  chapter: 4
+  topic: '4.4'
+  source_refs:
+  - source_id: src-0328
+    page: 1
+  - source_id: src-0304
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kttc2-ke-toan-hoat-dong-khac
+  canonical_name: Kế toán hoạt động khác
+  aliases:
+  - thu nhập khác
+  - chi phí khác
+  - tài khoản 711
+  - tài khoản 811
+  same_as: null
+  chapter: 4
+  topic: '4.5'
+  source_refs:
+  - source_id: src-0329
+    page: 1
+  - source_id: src-0329
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kttc2-ke-toan-xac-dinh-ket-qua-hoat-dong-kinh-doanh
+  canonical_name: Kế toán xác định kết quả hoạt động kinh doanh
+  aliases:
+  - xác định kết quả kinh doanh
+  - tài khoản 911
+  same_as: kttc2-xac-dinh-kqkd
+  chapter: 4
+  topic: '4.6'
+  source_refs:
+  - source_id: src-0330
+    page: 1
+  - source_id: src-0330
+    page: 7
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kttc2-su-khac-biet-giua-ke-toan-va-thue
+  canonical_name: Sự khác biệt giữa kế toán và thuế
+  aliases: []
+  same_as: null
+  chapter: 4
+  topic: '4.8'
+  source_refs:
+  - source_id: src-0332
+    page: 1
+  - source_id: src-0304
+    page: 43
+  evidence_status: OBSERVED
+  confidence: high
+account_map:
+  '211': kttc2-khai-niem-va-nguyen-tac-tai-san-co-dinh-huu-hinh
+  '213': kttc2-khai-niem-va-nguyen-tac-tai-san-co-dinh-vo-hinh
+  '214': kttc2-khau-hao-tai-san-co-dinh
+  '2141': kttc2-khau-hao-tai-san-co-dinh
+  '2411': kttc2-ke-toan-tang-tai-san-co-dinh
+  '2412': kttc2-ke-toan-tang-tai-san-co-dinh
+  '2413': kttc2-ke-toan-chi-phi-phat-sinh-sau-khi-ghi-nhan-ban-dau
+  '331': kttc2-phai-tra-cho-nguoi-ban
+  '3411': kttc2-cac-khoan-di-vay
+  '335': kttc2-chi-phi-phai-tra
+  '333': kttc2-thue-va-cac-khoan-phai-nop-nha-nuoc
+  '3331': kttc2-thue-gia-tri-gia-tang
+  '33311': kttc2-thue-gia-tri-gia-tang
+  '133': kttc2-thue-gia-tri-gia-tang
+  '1331': kttc2-thue-gia-tri-gia-tang
+  '1332': kttc2-thue-gia-tri-gia-tang
+  '3332': kttc2-thue-va-cac-khoan-phai-nop-nha-nuoc
+  '3333': kttc2-thue-va-cac-khoan-phai-nop-nha-nuoc
+  '3334': kttc2-thue-va-cac-khoan-phai-nop-nha-nuoc
+  '3335': kttc2-thue-va-cac-khoan-phai-nop-nha-nuoc
+  '334': kttc2-phai-tra-nguoi-lao-dong
+  '3382': kttc2-phai-tra-nguoi-lao-dong
+  '3383': kttc2-phai-tra-nguoi-lao-dong
+  '3384': kttc2-phai-tra-nguoi-lao-dong
+  '3386': kttc2-phai-tra-nguoi-lao-dong
+  '353': kttc2-quy-khen-thuong-phuc-loi
+  '336': kttc2-phai-tra-noi-bo
+  '352': kttc2-du-phong-phai-tra
+  '3387': kttc2-doanh-thu-chua-thuc-hien
+  '411': kttc2-ke-toan-von-dau-tu-cua-chu-so-huu
+  '4111': kttc2-ke-toan-von-dau-tu-cua-chu-so-huu
+  '4112': kttc2-ke-toan-von-dau-tu-cua-chu-so-huu
+  '419': kttc2-ke-toan-co-phieu-quy
+  '421': kttc2-ke-toan-loi-nhuan-chua-phan-phoi-va-cac-quy-du-tru
+  '414': kttc2-ke-toan-loi-nhuan-chua-phan-phoi-va-cac-quy-du-tru
+  '418': kttc2-ke-toan-loi-nhuan-chua-phan-phoi-va-cac-quy-du-tru
+  '511': kttc2-ke-toan-doanh-thu-ban-hang
+  '521': kttc2-ke-toan-doanh-thu-ban-hang
+  '632': kttc2-ke-toan-doanh-thu-ban-hang
+  '515': kttc2-ke-toan-hoat-dong-tai-chinh
+  '635': kttc2-ke-toan-hoat-dong-tai-chinh
+  '641': kttc2-ke-toan-chi-phi-hoat-dong
+  '642': kttc2-ke-toan-chi-phi-hoat-dong
+  '711': kttc2-ke-toan-hoat-dong-khac
+  '811': kttc2-ke-toan-hoat-dong-khac
+  '911': kttc2-ke-toan-xac-dinh-ket-qua-hoat-dong-kinh-doanh
+  '8211': kttc2-su-khac-biet-giua-ke-toan-va-thue
+edges: []
+conflicts:
+- type: COURSE_CODE
+  note: ACCO1334 (script header) vs ACCO2315 (Hướng dẫn ôn tập header); official code UNKNOWN
+  source_ids:
+  - src-0306
+  - src-0305
+  evidence_status: OBSERVED

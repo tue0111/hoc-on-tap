@@ -1,0 +1,930 @@
+{
+  "now": 333,
+  "old": 192,
+  "new": [
+    "Kiểm toán 1/Chương 4.pdf",
+    "Kiểm toán 1/Chương 5.pdf",
+    "Kiểm toán 1/Chương 6.pdf",
+    "Kiểm toán 1/Hướng dẫn ôn tập.pdf",
+    "Kiểm toán 1/_nguon/23_Script_Ch1_Clip 1.pdf",
+    "Kiểm toán 1/_nguon/24_Script_Ch1_CliP 2.pdf",
+    "Kiểm toán 1/_nguon/25_Script_Ch1_CliP 3.pdf",
+    "Kiểm toán 1/_nguon/26_Script_Ch2_Clip 1.pdf",
+    "Kiểm toán 1/_nguon/27_Script_Ch2_Clip 2.pdf",
+    "Kiểm toán 1/_nguon/28_Script_Ch2_Clip 3.pdf",
+    "Kiểm toán 1/_nguon/29_Script_Ch3_CD 3.1.pdf",
+    "Kiểm toán 1/_nguon/30_Script_Ch3_CD 3.2_P1.pdf",
+    "Kiểm toán 1/_nguon/30_Script_Ch3_CD 3.2_P2.pdf",
+    "Kiểm toán 1/_nguon/31_Script_Ch3_CD 3.3.pdf",
+    "Kiểm toán 1/_nguon/32_Script_Ch4_CD 4.1_P1.pdf",
+    "Kiểm toán 1/_nguon/32_Script_Ch4_CD 4.1_P2.pdf",
+    "Kiểm toán 1/_nguon/33_Script_Ch4_CD 4.2_P1.pdf",
+    "Kiểm toán 1/_nguon/33_Script_Ch4_CD 4.2_P2.pdf",
+    "Kiểm toán 1/_nguon/34_Script_Ch4_CD 4.3_P1.pdf",
+    "Kiểm toán 1/_nguon/34_Script_Ch4_CD 4.3_P2.pdf",
+    "Kiểm toán 1/_nguon/35_Script_Ch5-CD5.1.pdf",
+    "Kiểm toán 1/_nguon/36_Script_Ch5-CD5.2.pdf",
+    "Kiểm toán 1/_nguon/37_Script_Ch5-CD5.3.pdf",
+    "Kiểm toán 1/_nguon/38_Script_Ch6-CD6.1.pdf",
+    "Kiểm toán 1/_nguon/39_Script_Ch6-CD6.2.pdf",
+    "Kiểm toán 1/_nguon/40_Script_Ch6-CD6.3.pdf",
+    "Kiểm toán 1/_nguon/59_TLTK_BCKiT_CD 6.3.pdf",
+    "Kiểm toán 1/Đề thi mẫu.pdf",
+    "Kế toán chi phí/Chương 5.pdf",
+    "Kế toán chi phí/Chương 6.pdf",
+    "Kế toán chi phí/Chương 7.pdf",
+    "Kế toán chi phí/Hướng dẫn ôn tập.pdf",
+    "Kế toán chi phí/_nguon/CHUONG 1 CHU DE 1 P 1.pdf",
+    "Kế toán chi phí/_nguon/CHUONG 1 CHU DE 1 P2.pdf",
+    "Kế toán chi phí/_nguon/CHUONG 1 CHU DE 2 P1.pdf",
+    "Kế toán chi phí/_nguon/CHUONG 1 CHU DE 2 P2.pdf",
+    "Kế toán chi phí/_nguon/CHUONG 3 CHU DE 1 P1.pdf",
+    "Kế toán chi phí/_nguon/CHUONG 3 CHU DE 1 P2.pdf",
+    "Kế toán chi phí/_nguon/CHUONG 3 CHU DE 2 P1.pdf",
+    "Kế toán chi phí/_nguon/CHUONG 3 CHU DE 2 P2.pdf",
+    "Kế toán chi phí/_nguon/CHUONG 5 CHU DE 1 P1.pdf",
+    "Kế toán chi phí/_nguon/CHUONG 5 CHU DE 1 P2.pdf",
+    "Kế toán chi phí/_nguon/CHUONG 5 CHU DE 2 P1.pdf",
+    "Kế toán chi phí/_nguon/CHUONG 5 CHU DE 2 P2.pdf",
+    "Kế toán chi phí/_nguon/CHUONG 5 CHU DE 2 P3.pdf",
+    "Kế toán chi phí/_nguon/CHUONG 6 CHU DE 1 P1.pdf",
+    "Kế toán chi phí/_nguon/CHUONG 6 CHU DE 1 P2.pdf",
+    "Kế toán chi phí/_nguon/CHUONG 6 CHU DE 2 P1.pdf",
+    "Kế toán chi phí/_nguon/CHUONG 6 CHU DE 2 P2.pdf",
+    "Kế toán chi phí/_nguon/CHUONG 6 CHU DE 3.pdf",
+    "Kế toán chi phí/_nguon/KTCP-C2-CD2.1.1-Khái-niệm-CP-và-phân-loại-chi-phí-theo-yếu-tố-và-mối-qh-với-đối-tượng-chịu-chi-phí.pdf",
+    "Kế toán chi phí/_nguon/KTCP-C2-CD2.1.2-Phân-loại-chi-phí-theo-cách-ứng-xử-và-thời-kỳ-XĐKQKD.pdf",
+    "Kế toán chi phí/_nguon/KTCP-C2-CD2.2-Khái-niệm-giá-thành-và-phân-loại-giá-thành.pdf",
+    "Kế toán chi phí/_nguon/KTCP-C4-CD4.1.1-Giới-thiệu-KTCP-theo-quy-trình.pdf",
+    "Kế toán chi phí/_nguon/KTCP-C4-CD4.1.2-KTCP-theo-quy-trình-PPTB.pdf",
+    "Kế toán chi phí/_nguon/KTCP-C4-CD4.1.3-KTCP-theo-quy-trình-PPFIFO.pdf",
+    "Kế toán chi phí/_nguon/KTCP-C4-CD4.2-KTCP-theo-quy-trình-2-giai-đoạn.pdf",
+    "Kế toán chi phí/_nguon/KTCP-C4-CD4.3.1-KTCP-theo-quy-trình-CP-kết-hợp.pdf",
+    "Kế toán chi phí/_nguon/KTCP-C4-CD4.3.2-KTCP-theo-quy-trình-Xử-lý-CL.pdf",
+    "Kế toán chi phí/_nguon/KTCP-C7-CD7.1-Phương-pháp-giá-thành-khả-biến-và-giá-thành-sản-xuất.pdf",
+    "Kế toán chi phí/_nguon/KTCP-C7-CD7.2-Phân-tích-sự-khác-biệt-khi-lập-báo-cáo-thu-nhập-và-một-số-ứng-dụng-trong-quá-trình-ra-quyết-định-quản-trị.DOC.pdf",
+    "Kế toán chi phí/Đề thi mẫu.pdf",
+    "Kế toán ngân hàng/Chương 6.pdf",
+    "Kế toán ngân hàng/Chương 7.pdf",
+    "Kế toán ngân hàng/Chương 8.pdf",
+    "Kế toán ngân hàng/Chương 9.pdf",
+    "Kế toán ngân hàng/Hướng dẫn ôn tập.pdf",
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C1_CD1.1_Dacdiemkinhdoanhcuanganhanganhhuongdenketoan.pdf",
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C1_CD1.2_Doituongketoannganhang.pdf",
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C1_CD1.3_Tochuccongtacketoan.pdf",
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C1_CD1.4_Hethongtaikhoanketoannganhang.pdf",
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C1_CD1.5_Chungtutrongketoannganhang.pdf",
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C2_CD2.1_Ketoantienmat.pdf",
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C2_CD2.2_Ketoantienguitainganhangnhanuocvatochuctindungkhac.pdf",
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C3_CD3.1_Khainiemghinhancacnguonhuydongvon.pdf",
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C3_CD3.2_Ketoantienguivatienguitietkiem.pdf",
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C3_CD3.3_Ketoanphathanhgiaytocogia-Video1.pdf",
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C3_CD3.3_Ketoanphathanhgiaytocogia-Video2.pdf",
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C4_CD4.1_Hinhthucthanhtoankhongdungtienmat.pdf",
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C4_CD4.2_Cacphuongthucthanhtoanquanganhang.pdf",
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C4_CD4.3_Cachethongthanhtoanquanganhang.pdf",
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C4_CD4.4_Ketoannghiepvuthanhtoanquanganhang.pdf",
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C4_CD4.5_Ketoannghiepvuthanhtoanliennganhang-Video1.pdf",
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C4_CD4.5_Ketoannghiepvuthanhtoanliennganhang-Video2.pdf",
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C5_CD5.1_Khaiquatnghiepvucaptindungvanguyentacketoan.pdf",
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C5_CD5.2_Ketoannghiepvuchovay.pdf",
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C5_CD5.3_Ketoannghiepvutindungkhac.pdf",
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C6_CD6.1_Khaiquatcackhoandautuvakindoanhchungkhoan.pdf",
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C6_CD6.2_Ketoanchungkhoankinhdoanh.pdf",
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C6_CD6.3_Ketoanchungkhoansansangdeban-chietkhau-video2.pdf",
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C6_CD6.3_Ketoanchungkhoansansangdeban-menhgia-video1.pdf",
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C6_CD6.3_Ketoanchungkhoansansangdeban-phutroi-video3.pdf",
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C6_CD6.4_Ketoanchungkhoangiudenngaydaohan-chietkhau-video2.pdf",
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C6_CD6.4_Ketoanchungkhoangiudenngaydaohan-menhgia-video1.pdf",
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C6_CD6.4_Ketoanchungkhoangiudenngaydaohan-phutroi-video3.pdf",
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C7_CD7.1_Khaiquatvehoatdongkinhdoanhngoaitevathanhtoanquocte-Video1.pdf",
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C7_CD7.1_Khaiquatvehoatdongkinhdoanhngoaitevathanhtoanquocte-Video2.pdf",
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C7_CD7.2_Ketoanmuabanngoaitegiaongay.pdf",
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C7_CD7.3_Ketoangiaodichtientekyhan-video1.pdf",
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C7_CD7.3_Ketoangiaodichtientekyhan-video2.pdf",
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C7_CD7.4_Ketoanthanhtoanquoctechuyentienvanhothu.pdf",
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C7_CD7.5_Ketoanthanhtoanquoctetindungchungtu.pdf",
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C8_CD8.1_Phanloainguyentacketoanthunhapvachiphi.pdf",
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C8_CD8.2_Ketoanthunhap.pdf",
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C8_CD8.3_Ketoanchiphi.pdf",
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C8_CD8.4_Ketoanxacdinhketquakinhdoanh.pdf",
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C9_CD9.1_Trinhbaybaocaotaichinhtrongnganhangthuongmai.pdf",
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C9_CD9.2_Bangcandoiketoan.pdf",
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C9_CD9.3_Baocaoketquahoatdongkinhdoanh.pdf",
+    "Kế toán ngân hàng/Đề thi mẫu.pdf",
+    "Kế toán tài chính 2/Chương 3.pdf",
+    "Kế toán tài chính 2/Chương 4.pdf",
+    "Kế toán tài chính 2/Hướng dẫn ôn tập.pdf",
+    "Kế toán tài chính 2/_nguon/KTTC2-C1-CD1.1-Khai niem va nguyen tacTSCDHH.pdf",
+    "Kế toán tài chính 2/_nguon/KTTC2-C1-CD1.2-Khai niem va nguyen tacTSCDVH.pdf",
+    "Kế toán tài chính 2/_nguon/KTTC2-C1-CD1.3-Cacphuongphaptinhkhauhao.pdf",
+    "Kế toán tài chính 2/_nguon/KTTC2-C1-CD1.4-KetoantangTSCD.pdf",
+    "Kế toán tài chính 2/_nguon/KTTC2-C1-CD1.5-KetoangiamTSCD.pdf",
+    "Kế toán tài chính 2/_nguon/KTTC2-C1-CD1.6-Ketoanchiphisaukhighinhanbandau.pdf",
+    "Kế toán tài chính 2/_nguon/KTTC2-C1-CD1.7-TrinhbaythongtinBCTC.pdf",
+    "Kế toán tài chính 2/_nguon/KTTC2-C2-CD2.1_Khainiemvadieukienghinhan.pdf",
+    "Kế toán tài chính 2/_nguon/KTTC2-C2-CD2.2 - Ghinhanvadanhgia.pdf",
+    "Kế toán tài chính 2/_nguon/KTTC2-C2-CD2.3-TranThiVinh-Vandungtaikhoan-P1.pdf",
+    "Kế toán tài chính 2/_nguon/KTTC2-C2-CD2.4-TranThiVinh-Vandungtaikhoan-P2_V2.pdf",
+    "Kế toán tài chính 2/_nguon/KTTC2-C2-CD2.5-TranThiVinh_Vandungtaikhoan-P3.pdf",
+    "Kế toán tài chính 2/_nguon/KTTC2-C2-CD2.6-TranThiVinh_Vandungtaikhoan-P4.pdf",
+    "Kế toán tài chính 2/_nguon/KTTC2-C2-CD2.7-TranThiVinh-TrinhbaythongtinBCTC.pdf",
+    "Kế toán tài chính 2/_nguon/KTTC2-C3-CD3.1_Dinhnghiavaphanloai.pdf",
+    "Kế toán tài chính 2/_nguon/KTTC2-C3-CD3.2_Ketoanvondautucuachusohuu.pdf",
+    "Kế toán tài chính 2/_nguon/KTTC2-C3-CD3.3_Ketoancophieuquy.pdf",
+    "Kế toán tài chính 2/_nguon/KTTC2-C3-CD3.4_Ketoanloinhuanchuaphanphoi.pdf",
+    "Kế toán tài chính 2/_nguon/KTTC2-C3-CD3.5_Trinhbaythongtin.pdf",
+    "Kế toán tài chính 2/_nguon/KTTC2-C4-CD4.1-Dinhngiavadieukienghinhan.pdf",
+    "Kế toán tài chính 2/_nguon/KTTC2-C4-CD4.2-KeToanDoanhThuVaGiaVon.pdf",
+    "Kế toán tài chính 2/_nguon/KTTC2-C4-CD4.3-KeToanHoatDongTaiChinh.pdf",
+    "Kế toán tài chính 2/_nguon/KTTC2-C4-CD4.4-KeToanChiPhiHoatDong.pdf",
+    "Kế toán tài chính 2/_nguon/KTTC2-C4-CD4.5-KeToanHoatDongKhac.pdf",
+    "Kế toán tài chính 2/_nguon/KTTC2-C4-CD4.6-KeToanXDKQKD.pdf",
+    "Kế toán tài chính 2/_nguon/KTTC2-C4-CD4.7-TrinhBayThongTin.pdf",
+    "Kế toán tài chính 2/_nguon/KTTC2-C4-CD4.8-SuKhacBiet-V2.pdf",
+    "Kế toán tài chính 2/Đề thi mẫu.pdf"
+  ],
+  "changed": [],
+  "missing": [],
+  "counts": {
+    "Kiểm toán 1": {
+      "new": 28,
+      "changed": 0,
+      "missing": 0,
+      "unchanged": 5
+    },
+    "Kế toán chi phí": {
+      "new": 34,
+      "changed": 0,
+      "missing": 0,
+      "unchanged": 5
+    },
+    "Kế toán ngân hàng": {
+      "new": 48,
+      "changed": 0,
+      "missing": 0,
+      "unchanged": 10
+    },
+    "Kế toán tài chính 2": {
+      "new": 31,
+      "changed": 0,
+      "missing": 0,
+      "unchanged": 7
+    },
+    "Kinh doanh và nghiệp vụ": {
+      "new": 0,
+      "changed": 0,
+      "missing": 0,
+      "unchanged": 36
+    },
+    "Kế toán tài chính 1": {
+      "new": 0,
+      "changed": 0,
+      "missing": 0,
+      "unchanged": 12
+    },
+    "Luật kinh doanh": {
+      "new": 0,
+      "changed": 0,
+      "missing": 0,
+      "unchanged": 17
+    },
+    "Nguyên lý kế toán": {
+      "new": 0,
+      "changed": 0,
+      "missing": 0,
+      "unchanged": 28
+    },
+    "Ngân hàng thương mại": {
+      "new": 0,
+      "changed": 0,
+      "missing": 0,
+      "unchanged": 20
+    },
+    "Thị trường tài chính": {
+      "new": 0,
+      "changed": 0,
+      "missing": 0,
+      "unchanged": 14
+    },
+    "Tài chính doanh nghiệp 1": {
+      "new": 0,
+      "changed": 0,
+      "missing": 0,
+      "unchanged": 24
+    },
+    "Tài chính hành chính sự nghiệp": {
+      "new": 0,
+      "changed": 0,
+      "missing": 0,
+      "unchanged": 14
+    }
+  },
+  "new_meta": {
+    "Kiểm toán 1/Chương 4.pdf": {
+      "size": 703527,
+      "sha256": "347757999783bf82bab2b732818e3a431ae0a7c41a9f442c6ea84fdfd766cd04",
+      "filename": "Chương 4.pdf"
+    },
+    "Kiểm toán 1/Chương 5.pdf": {
+      "size": 321872,
+      "sha256": "db40e247d1ffafe5eecb923ed016ba4463f9581ef13623c109241b76e744f902",
+      "filename": "Chương 5.pdf"
+    },
+    "Kiểm toán 1/Chương 6.pdf": {
+      "size": 329901,
+      "sha256": "02d555299b38b2486a99e4b7df77b3e96367dc8045e4b370eb6b1ad14a74ba0a",
+      "filename": "Chương 6.pdf"
+    },
+    "Kiểm toán 1/Hướng dẫn ôn tập.pdf": {
+      "size": 161595,
+      "sha256": "ef9bfe2bd736819f8e556a1ff01344615dde41eba7225ccb856b7ed4696b0ec9",
+      "filename": "Hướng dẫn ôn tập.pdf"
+    },
+    "Kiểm toán 1/_nguon/23_Script_Ch1_Clip 1.pdf": {
+      "size": 162549,
+      "sha256": "7277ffec713feafbcddb9e24ded99b800ad696ca20b074ea9ace599b9bda945b",
+      "filename": "23_Script_Ch1_Clip 1.pdf"
+    },
+    "Kiểm toán 1/_nguon/24_Script_Ch1_CliP 2.pdf": {
+      "size": 205330,
+      "sha256": "08b416a1785bbe517a4cfed8be89f2302b6cda92793fcc725019ee05028ca7ad",
+      "filename": "24_Script_Ch1_CliP 2.pdf"
+    },
+    "Kiểm toán 1/_nguon/25_Script_Ch1_CliP 3.pdf": {
+      "size": 269511,
+      "sha256": "9f764c5478ab9646b603228ae7ed5b6e86c194a7da5323558b545a898a4b9b32",
+      "filename": "25_Script_Ch1_CliP 3.pdf"
+    },
+    "Kiểm toán 1/_nguon/26_Script_Ch2_Clip 1.pdf": {
+      "size": 129980,
+      "sha256": "d3490674cbe74e3ee829f80f0590e50c93969bb8cda5d8e328591d91417f5ed9",
+      "filename": "26_Script_Ch2_Clip 1.pdf"
+    },
+    "Kiểm toán 1/_nguon/27_Script_Ch2_Clip 2.pdf": {
+      "size": 107953,
+      "sha256": "233429b6eb68f412746c44d5ce888089795d1834deb7ca689b0839c52cb3ba94",
+      "filename": "27_Script_Ch2_Clip 2.pdf"
+    },
+    "Kiểm toán 1/_nguon/28_Script_Ch2_Clip 3.pdf": {
+      "size": 150283,
+      "sha256": "edb0db8782a05e459ee63588cc674d32e833753b0d5a6393769bbfe9156275ec",
+      "filename": "28_Script_Ch2_Clip 3.pdf"
+    },
+    "Kiểm toán 1/_nguon/29_Script_Ch3_CD 3.1.pdf": {
+      "size": 113980,
+      "sha256": "6a162223893f81917c17f3b5456746819236057764d75a94c72d76a33db1ab00",
+      "filename": "29_Script_Ch3_CD 3.1.pdf"
+    },
+    "Kiểm toán 1/_nguon/30_Script_Ch3_CD 3.2_P1.pdf": {
+      "size": 116938,
+      "sha256": "1a9fe41373e4abf06717383885c8e3fc5e31d19bc1eaf6322bc2c181af730d41",
+      "filename": "30_Script_Ch3_CD 3.2_P1.pdf"
+    },
+    "Kiểm toán 1/_nguon/30_Script_Ch3_CD 3.2_P2.pdf": {
+      "size": 168600,
+      "sha256": "202446d48c7475a9b7943583e4418bcc4a2f8418009c326c784dce103ebb9bcb",
+      "filename": "30_Script_Ch3_CD 3.2_P2.pdf"
+    },
+    "Kiểm toán 1/_nguon/31_Script_Ch3_CD 3.3.pdf": {
+      "size": 134317,
+      "sha256": "c7d11ab5b3374baa29906eadd02d93f938195c210cc6adcfa3a0a0c0cdd3cb3a",
+      "filename": "31_Script_Ch3_CD 3.3.pdf"
+    },
+    "Kiểm toán 1/_nguon/32_Script_Ch4_CD 4.1_P1.pdf": {
+      "size": 115126,
+      "sha256": "b251cd57377f048131f860366130d188f8258e970d996d56bc5e2e6fbda5759e",
+      "filename": "32_Script_Ch4_CD 4.1_P1.pdf"
+    },
+    "Kiểm toán 1/_nguon/32_Script_Ch4_CD 4.1_P2.pdf": {
+      "size": 136358,
+      "sha256": "81cd486432a4be7466f3144218064c0eeeb3b3a330ac710942904c104f9cb310",
+      "filename": "32_Script_Ch4_CD 4.1_P2.pdf"
+    },
+    "Kiểm toán 1/_nguon/33_Script_Ch4_CD 4.2_P1.pdf": {
+      "size": 112553,
+      "sha256": "93dd493f247ac25f54d5265ab1f29e0ec36552471a0acaeca1c77d12e634e6b0",
+      "filename": "33_Script_Ch4_CD 4.2_P1.pdf"
+    },
+    "Kiểm toán 1/_nguon/33_Script_Ch4_CD 4.2_P2.pdf": {
+      "size": 102561,
+      "sha256": "eb7137f7b1d1468a0e4eebf8707815552110ab2acf9faebc31cb80d938a065ee",
+      "filename": "33_Script_Ch4_CD 4.2_P2.pdf"
+    },
+    "Kiểm toán 1/_nguon/34_Script_Ch4_CD 4.3_P1.pdf": {
+      "size": 108906,
+      "sha256": "8d11a376328bff2b32847f7af8fcca3f7373e534a0991978530d96010859be16",
+      "filename": "34_Script_Ch4_CD 4.3_P1.pdf"
+    },
+    "Kiểm toán 1/_nguon/34_Script_Ch4_CD 4.3_P2.pdf": {
+      "size": 133577,
+      "sha256": "771b1a2a0dd51f6369f5cb29435284fb0ab2f2779dfd4c4ee73ef5a88c08dfdb",
+      "filename": "34_Script_Ch4_CD 4.3_P2.pdf"
+    },
+    "Kiểm toán 1/_nguon/35_Script_Ch5-CD5.1.pdf": {
+      "size": 99090,
+      "sha256": "9cc69b19b8a0ec4f304b7c39b8ff48943c13f9dda66e0131c17b8cd4274d2f57",
+      "filename": "35_Script_Ch5-CD5.1.pdf"
+    },
+    "Kiểm toán 1/_nguon/36_Script_Ch5-CD5.2.pdf": {
+      "size": 105097,
+      "sha256": "7eb6288952234853bf3e22af66158ba23a2c01c796adba9580159ed9ded8cf77",
+      "filename": "36_Script_Ch5-CD5.2.pdf"
+    },
+    "Kiểm toán 1/_nguon/37_Script_Ch5-CD5.3.pdf": {
+      "size": 120309,
+      "sha256": "438908825c36e148988829739d25ba6dbd0a98b9f38ea73fb487968d8fd9c7f7",
+      "filename": "37_Script_Ch5-CD5.3.pdf"
+    },
+    "Kiểm toán 1/_nguon/38_Script_Ch6-CD6.1.pdf": {
+      "size": 108073,
+      "sha256": "36e889a4ef0c61b921e5ae1a3c252622f0071e9c380c0b3e580ee456e83315d5",
+      "filename": "38_Script_Ch6-CD6.1.pdf"
+    },
+    "Kiểm toán 1/_nguon/39_Script_Ch6-CD6.2.pdf": {
+      "size": 109657,
+      "sha256": "5bf0f90e4a1dc59cf1d747b288877f95e37c80aa3ae7ea356b4b9a186e1e33e5",
+      "filename": "39_Script_Ch6-CD6.2.pdf"
+    },
+    "Kiểm toán 1/_nguon/40_Script_Ch6-CD6.3.pdf": {
+      "size": 114269,
+      "sha256": "5fadf3902a915987590fb4181cd044eb8112326073e9d93a6170114aeb072153",
+      "filename": "40_Script_Ch6-CD6.3.pdf"
+    },
+    "Kiểm toán 1/_nguon/59_TLTK_BCKiT_CD 6.3.pdf": {
+      "size": 157858,
+      "sha256": "5f474087cd43840358a6b3ecfe1ad07f4075f3558bea3fa34fb5a9ec19548e15",
+      "filename": "59_TLTK_BCKiT_CD 6.3.pdf"
+    },
+    "Kiểm toán 1/Đề thi mẫu.pdf": {
+      "size": 270320,
+      "sha256": "e660dfa2b435f482e4011d0d48fed1988f8c58a92fc072aa3e04129148a41d95",
+      "filename": "Đề thi mẫu.pdf"
+    },
+    "Kế toán chi phí/Chương 5.pdf": {
+      "size": 540232,
+      "sha256": "6de8adf8843770b887f78ec4a88dbcc16c21e117b1732d1333030fe265d056a9",
+      "filename": "Chương 5.pdf"
+    },
+    "Kế toán chi phí/Chương 6.pdf": {
+      "size": 575519,
+      "sha256": "2986f37995b6ffe42d43a51f72b4038bd9692b0a1f8bafecaeca39505621901f",
+      "filename": "Chương 6.pdf"
+    },
+    "Kế toán chi phí/Chương 7.pdf": {
+      "size": 279589,
+      "sha256": "834919c66b3b20f9e998cfd6d542765bd084163465324de6c8e102e86ef54847",
+      "filename": "Chương 7.pdf"
+    },
+    "Kế toán chi phí/Hướng dẫn ôn tập.pdf": {
+      "size": 124361,
+      "sha256": "b1f58895bc1ca8ff430741e466496aec955c064fd4f9791b65c1040be4afe910",
+      "filename": "Hướng dẫn ôn tập.pdf"
+    },
+    "Kế toán chi phí/_nguon/CHUONG 1 CHU DE 1 P 1.pdf": {
+      "size": 97728,
+      "sha256": "4deea6be81bea62a2b94e20e9d4f8f15df9f36f882c77369125e99c302df93f1",
+      "filename": "CHUONG 1 CHU DE 1 P 1.pdf"
+    },
+    "Kế toán chi phí/_nguon/CHUONG 1 CHU DE 1 P2.pdf": {
+      "size": 107469,
+      "sha256": "61228a05ee20546cf7f4cd1f4ec2a23f43cfca95ea3d61e61376216b081bcd6b",
+      "filename": "CHUONG 1 CHU DE 1 P2.pdf"
+    },
+    "Kế toán chi phí/_nguon/CHUONG 1 CHU DE 2 P1.pdf": {
+      "size": 95895,
+      "sha256": "b85cf270d8e34883a5616c753414e30ae5299ab44d691aaaff918178e48caf98",
+      "filename": "CHUONG 1 CHU DE 2 P1.pdf"
+    },
+    "Kế toán chi phí/_nguon/CHUONG 1 CHU DE 2 P2.pdf": {
+      "size": 106921,
+      "sha256": "1e6887ac8a21acaf733dd59c0d10349455b69b220778d9b187bd88933e53a94a",
+      "filename": "CHUONG 1 CHU DE 2 P2.pdf"
+    },
+    "Kế toán chi phí/_nguon/CHUONG 3 CHU DE 1 P1.pdf": {
+      "size": 104071,
+      "sha256": "fd75079988f4f39c427435d4a8528d8196e379ed36c595ca4fe1ba2297dbcb4a",
+      "filename": "CHUONG 3 CHU DE 1 P1.pdf"
+    },
+    "Kế toán chi phí/_nguon/CHUONG 3 CHU DE 1 P2.pdf": {
+      "size": 108919,
+      "sha256": "83f35f3a0e23c4f399ec8ea9a66cf4f80e85a545bc95c025f543c0db890149b2",
+      "filename": "CHUONG 3 CHU DE 1 P2.pdf"
+    },
+    "Kế toán chi phí/_nguon/CHUONG 3 CHU DE 2 P1.pdf": {
+      "size": 92962,
+      "sha256": "80d324ce3acc608cb12477cbecc1505fe6eb1090a46381d52f0ac59f0461458d",
+      "filename": "CHUONG 3 CHU DE 2 P1.pdf"
+    },
+    "Kế toán chi phí/_nguon/CHUONG 3 CHU DE 2 P2.pdf": {
+      "size": 98127,
+      "sha256": "4d6fd5cb3af14b2df6c74030ed07c86933510fd57e3e3376e0012bc0affca814",
+      "filename": "CHUONG 3 CHU DE 2 P2.pdf"
+    },
+    "Kế toán chi phí/_nguon/CHUONG 5 CHU DE 1 P1.pdf": {
+      "size": 118391,
+      "sha256": "6e1fb928dca19406580b78cddeaa4e53372aa1abf3c0c5b6dfaa2dfa28df048e",
+      "filename": "CHUONG 5 CHU DE 1 P1.pdf"
+    },
+    "Kế toán chi phí/_nguon/CHUONG 5 CHU DE 1 P2.pdf": {
+      "size": 106393,
+      "sha256": "cb30292b05c0f029bad2b756c0cc93ecf9261e7014e2073a6a927439e5ff9aab",
+      "filename": "CHUONG 5 CHU DE 1 P2.pdf"
+    },
+    "Kế toán chi phí/_nguon/CHUONG 5 CHU DE 2 P1.pdf": {
+      "size": 98619,
+      "sha256": "0ad1425f2cb246d4d29559d7c7fa30429f9945e96f4c21fe0ab4b0127c811064",
+      "filename": "CHUONG 5 CHU DE 2 P1.pdf"
+    },
+    "Kế toán chi phí/_nguon/CHUONG 5 CHU DE 2 P2.pdf": {
+      "size": 115567,
+      "sha256": "84d77bdf424e92f507457f628a9b1b8fcf9f8f317a20963db09e2af19fd42fef",
+      "filename": "CHUONG 5 CHU DE 2 P2.pdf"
+    },
+    "Kế toán chi phí/_nguon/CHUONG 5 CHU DE 2 P3.pdf": {
+      "size": 105605,
+      "sha256": "50475b1e759993e11b484ded159e74d0b9c2c4628e18b41501773fcb9698692d",
+      "filename": "CHUONG 5 CHU DE 2 P3.pdf"
+    },
+    "Kế toán chi phí/_nguon/CHUONG 6 CHU DE 1 P1.pdf": {
+      "size": 103467,
+      "sha256": "6744e6c136bf379a9cb63dc3763198f770054330a433d3564b02257736b3da89",
+      "filename": "CHUONG 6 CHU DE 1 P1.pdf"
+    },
+    "Kế toán chi phí/_nguon/CHUONG 6 CHU DE 1 P2.pdf": {
+      "size": 117631,
+      "sha256": "38e8d26eb15330c76f1486b645e90ad73d206d62b8acfff8a33470247e0507d8",
+      "filename": "CHUONG 6 CHU DE 1 P2.pdf"
+    },
+    "Kế toán chi phí/_nguon/CHUONG 6 CHU DE 2 P1.pdf": {
+      "size": 120593,
+      "sha256": "f378a5494615fafc080e095946d35001de2d44aa71c99eb88afdb235584a8e2c",
+      "filename": "CHUONG 6 CHU DE 2 P1.pdf"
+    },
+    "Kế toán chi phí/_nguon/CHUONG 6 CHU DE 2 P2.pdf": {
+      "size": 118835,
+      "sha256": "96de30713bd7016793b65c299ec60e2908ceba887d99fe56de94faf18fc1702a",
+      "filename": "CHUONG 6 CHU DE 2 P2.pdf"
+    },
+    "Kế toán chi phí/_nguon/CHUONG 6 CHU DE 3.pdf": {
+      "size": 119412,
+      "sha256": "90e5f6075669a109b57bfd486bb7906711c1c6f79c0b393b4d91817165a480e6",
+      "filename": "CHUONG 6 CHU DE 3.pdf"
+    },
+    "Kế toán chi phí/_nguon/KTCP-C2-CD2.1.1-Khái-niệm-CP-và-phân-loại-chi-phí-theo-yếu-tố-và-mối-qh-với-đối-tượng-chịu-chi-phí.pdf": {
+      "size": 87780,
+      "sha256": "6e5d27cfcc253086d73de0ae1cd40055b1314a78ef760ebc093daae611b098f4",
+      "filename": "KTCP-C2-CD2.1.1-Khái-niệm-CP-và-phân-loại-chi-phí-theo-yếu-tố-và-mối-qh-với-đối-tượng-chịu-chi-phí.pdf"
+    },
+    "Kế toán chi phí/_nguon/KTCP-C2-CD2.1.2-Phân-loại-chi-phí-theo-cách-ứng-xử-và-thời-kỳ-XĐKQKD.pdf": {
+      "size": 113951,
+      "sha256": "29c6c543bdc55e0e5ea08d30e1315dcb15cb5ee3e4669bc3c863a27b9744c1f8",
+      "filename": "KTCP-C2-CD2.1.2-Phân-loại-chi-phí-theo-cách-ứng-xử-và-thời-kỳ-XĐKQKD.pdf"
+    },
+    "Kế toán chi phí/_nguon/KTCP-C2-CD2.2-Khái-niệm-giá-thành-và-phân-loại-giá-thành.pdf": {
+      "size": 103345,
+      "sha256": "a791b99c1ce0271add83ba0a5873f1e427691a86856019d000eb7c326cee24bb",
+      "filename": "KTCP-C2-CD2.2-Khái-niệm-giá-thành-và-phân-loại-giá-thành.pdf"
+    },
+    "Kế toán chi phí/_nguon/KTCP-C4-CD4.1.1-Giới-thiệu-KTCP-theo-quy-trình.pdf": {
+      "size": 99626,
+      "sha256": "7a95fa549ea81ae577d153fcff10de89285308205d17894fe664113312cc89d0",
+      "filename": "KTCP-C4-CD4.1.1-Giới-thiệu-KTCP-theo-quy-trình.pdf"
+    },
+    "Kế toán chi phí/_nguon/KTCP-C4-CD4.1.2-KTCP-theo-quy-trình-PPTB.pdf": {
+      "size": 136460,
+      "sha256": "f1af222b1767b807dbd16eedfef765c19a4d6b80dd5ee56603e240e8af1de102",
+      "filename": "KTCP-C4-CD4.1.2-KTCP-theo-quy-trình-PPTB.pdf"
+    },
+    "Kế toán chi phí/_nguon/KTCP-C4-CD4.1.3-KTCP-theo-quy-trình-PPFIFO.pdf": {
+      "size": 128537,
+      "sha256": "6811ef0f1924bee5fe05abc1138868afa5945e32ce2ba70ad853cbc1543be524",
+      "filename": "KTCP-C4-CD4.1.3-KTCP-theo-quy-trình-PPFIFO.pdf"
+    },
+    "Kế toán chi phí/_nguon/KTCP-C4-CD4.2-KTCP-theo-quy-trình-2-giai-đoạn.pdf": {
+      "size": 116195,
+      "sha256": "384ae887d7ac093c6d38ffcc98aa12824a5ffe4d76afaf519da5eda27171efb2",
+      "filename": "KTCP-C4-CD4.2-KTCP-theo-quy-trình-2-giai-đoạn.pdf"
+    },
+    "Kế toán chi phí/_nguon/KTCP-C4-CD4.3.1-KTCP-theo-quy-trình-CP-kết-hợp.pdf": {
+      "size": 127446,
+      "sha256": "4ff492a940abd4899a26e59aaa9f123e5193a1f693c99a38eb91de7b17ee5541",
+      "filename": "KTCP-C4-CD4.3.1-KTCP-theo-quy-trình-CP-kết-hợp.pdf"
+    },
+    "Kế toán chi phí/_nguon/KTCP-C4-CD4.3.2-KTCP-theo-quy-trình-Xử-lý-CL.pdf": {
+      "size": 108795,
+      "sha256": "f94c954876020e6991cd78cfb3335b3b56399901ff13595f500f0a8425741792",
+      "filename": "KTCP-C4-CD4.3.2-KTCP-theo-quy-trình-Xử-lý-CL.pdf"
+    },
+    "Kế toán chi phí/_nguon/KTCP-C7-CD7.1-Phương-pháp-giá-thành-khả-biến-và-giá-thành-sản-xuất.pdf": {
+      "size": 92788,
+      "sha256": "565194cd6d1a52cdeb2598a2c4bd4b226e2ecf75ae3c1e451e85c77e6f9b1dff",
+      "filename": "KTCP-C7-CD7.1-Phương-pháp-giá-thành-khả-biến-và-giá-thành-sản-xuất.pdf"
+    },
+    "Kế toán chi phí/_nguon/KTCP-C7-CD7.2-Phân-tích-sự-khác-biệt-khi-lập-báo-cáo-thu-nhập-và-một-số-ứng-dụng-trong-quá-trình-ra-quyết-định-quản-trị.DOC.pdf": {
+      "size": 197330,
+      "sha256": "19dce7c0c229b6d3aa2596f62f4871e77ef4a765e4519ac403961e494b19e182",
+      "filename": "KTCP-C7-CD7.2-Phân-tích-sự-khác-biệt-khi-lập-báo-cáo-thu-nhập-và-một-số-ứng-dụng-trong-quá-trình-ra-quyết-định-quản-trị.DOC.pdf"
+    },
+    "Kế toán chi phí/Đề thi mẫu.pdf": {
+      "size": 192274,
+      "sha256": "f67c96a032c758d75c4ee6cf0317a6703beb4d57209159b76d0cdd418228fc18",
+      "filename": "Đề thi mẫu.pdf"
+    },
+    "Kế toán ngân hàng/Chương 6.pdf": {
+      "size": 1695270,
+      "sha256": "9a5e42f1cb926ba187f96e913fc1dff013febd97031a09b7b59f9979343359d3",
+      "filename": "Chương 6.pdf"
+    },
+    "Kế toán ngân hàng/Chương 7.pdf": {
+      "size": 1496641,
+      "sha256": "ed95e786532b954d34b62f9e5a6aefdb70a452de997e22bab9e2526df9a06b0b",
+      "filename": "Chương 7.pdf"
+    },
+    "Kế toán ngân hàng/Chương 8.pdf": {
+      "size": 783246,
+      "sha256": "ef90242a9b17b369e98410aa00681b4d8ed98a9f8d2415ee8a00aedfbbefbef7",
+      "filename": "Chương 8.pdf"
+    },
+    "Kế toán ngân hàng/Chương 9.pdf": {
+      "size": 709159,
+      "sha256": "f9109e5d2b4dbf2ee5a08433f8a73adb8154cec25e7e3a4b6f84ec2b641c6072",
+      "filename": "Chương 9.pdf"
+    },
+    "Kế toán ngân hàng/Hướng dẫn ôn tập.pdf": {
+      "size": 314322,
+      "sha256": "d46dd788fa980c966a2ea1feb19f12d209d96017258172501b5355fc9e7279d4",
+      "filename": "Hướng dẫn ôn tập.pdf"
+    },
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C1_CD1.1_Dacdiemkinhdoanhcuanganhanganhhuongdenketoan.pdf": {
+      "size": 276821,
+      "sha256": "301731e84e5108fe8fe9db4a68fb7ee190a7e37cde8c232c117b86ac99a31aa5",
+      "filename": "SCRIP KTNH_C1_CD1.1_Dacdiemkinhdoanhcuanganhanganhhuongdenketoan.pdf"
+    },
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C1_CD1.2_Doituongketoannganhang.pdf": {
+      "size": 215085,
+      "sha256": "727c82539cdef6430970fbd067ffe60280c735867283b3918e7ed92ec7ce5488",
+      "filename": "SCRIP KTNH_C1_CD1.2_Doituongketoannganhang.pdf"
+    },
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C1_CD1.3_Tochuccongtacketoan.pdf": {
+      "size": 206674,
+      "sha256": "92354c73c8da26fb5603db2a091af312bc9b50c496961011ff08831a7bded6e7",
+      "filename": "SCRIP KTNH_C1_CD1.3_Tochuccongtacketoan.pdf"
+    },
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C1_CD1.4_Hethongtaikhoanketoannganhang.pdf": {
+      "size": 207702,
+      "sha256": "b7d595879a1a0e9d5a719253d7c3a5c38bba64979bc3742fcdee9323e3f59e7a",
+      "filename": "SCRIP KTNH_C1_CD1.4_Hethongtaikhoanketoannganhang.pdf"
+    },
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C1_CD1.5_Chungtutrongketoannganhang.pdf": {
+      "size": 199925,
+      "sha256": "637117014ce6419308fc1100339e4beff813140078253aa7566392e6491ae06a",
+      "filename": "SCRIP KTNH_C1_CD1.5_Chungtutrongketoannganhang.pdf"
+    },
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C2_CD2.1_Ketoantienmat.pdf": {
+      "size": 277293,
+      "sha256": "f5c7384fb6487ab215b9f6f139e4ae3ea78e05540af9bd64014bc198bdb57d01",
+      "filename": "SCRIP KTNH_C2_CD2.1_Ketoantienmat.pdf"
+    },
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C2_CD2.2_Ketoantienguitainganhangnhanuocvatochuctindungkhac.pdf": {
+      "size": 218589,
+      "sha256": "b9cf1089a09fdb178edc287c0e0084e5307f419aa6d51bed2905beac33a73fb9",
+      "filename": "SCRIP KTNH_C2_CD2.2_Ketoantienguitainganhangnhanuocvatochuctindungkhac.pdf"
+    },
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C3_CD3.1_Khainiemghinhancacnguonhuydongvon.pdf": {
+      "size": 233332,
+      "sha256": "f67fa73d97a271ffa79438c783523458e7fbe534a93c3984904dd99ca05cbd68",
+      "filename": "SCRIP KTNH_C3_CD3.1_Khainiemghinhancacnguonhuydongvon.pdf"
+    },
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C3_CD3.2_Ketoantienguivatienguitietkiem.pdf": {
+      "size": 253503,
+      "sha256": "4040e1c37ccf68dd9dda04db13893c0a78544e05921b7f20289c06da9f048515",
+      "filename": "SCRIP KTNH_C3_CD3.2_Ketoantienguivatienguitietkiem.pdf"
+    },
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C3_CD3.3_Ketoanphathanhgiaytocogia-Video1.pdf": {
+      "size": 227898,
+      "sha256": "15bf735ba4ad50a0f054f47a3039f8fc4184a8d85786add7e44105b0dd335f56",
+      "filename": "SCRIP KTNH_C3_CD3.3_Ketoanphathanhgiaytocogia-Video1.pdf"
+    },
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C3_CD3.3_Ketoanphathanhgiaytocogia-Video2.pdf": {
+      "size": 217948,
+      "sha256": "aa908289ca404dbf44ddf69f5e45c6b36b8ab9f9644e8e5ee451ea89fe361326",
+      "filename": "SCRIP KTNH_C3_CD3.3_Ketoanphathanhgiaytocogia-Video2.pdf"
+    },
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C4_CD4.1_Hinhthucthanhtoankhongdungtienmat.pdf": {
+      "size": 208203,
+      "sha256": "80ee395932b6280a3599fa9f5ccb270c533c3e9115ce00081553fafc382002f1",
+      "filename": "SCRIP KTNH_C4_CD4.1_Hinhthucthanhtoankhongdungtienmat.pdf"
+    },
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C4_CD4.2_Cacphuongthucthanhtoanquanganhang.pdf": {
+      "size": 229506,
+      "sha256": "1529594314665e0bc0eb2f1855bf3d42b70587215ad314ce89d33669012aa7d2",
+      "filename": "SCRIP KTNH_C4_CD4.2_Cacphuongthucthanhtoanquanganhang.pdf"
+    },
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C4_CD4.3_Cachethongthanhtoanquanganhang.pdf": {
+      "size": 204154,
+      "sha256": "5ad5fb9d45d88e307b38e53e49ae1fa26c181d3827dad09dbb3d791fecb44261",
+      "filename": "SCRIP KTNH_C4_CD4.3_Cachethongthanhtoanquanganhang.pdf"
+    },
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C4_CD4.4_Ketoannghiepvuthanhtoanquanganhang.pdf": {
+      "size": 245462,
+      "sha256": "1cf3021b8d21e379f4c7d3d79dfda91046c8471dcd24a0db9c9fbe48f027786e",
+      "filename": "SCRIP KTNH_C4_CD4.4_Ketoannghiepvuthanhtoanquanganhang.pdf"
+    },
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C4_CD4.5_Ketoannghiepvuthanhtoanliennganhang-Video1.pdf": {
+      "size": 201056,
+      "sha256": "5aa9da86b86fa401d2b2dccb2d9d6cec61a9d3b2e1ecb317dccd2ebec9211862",
+      "filename": "SCRIP KTNH_C4_CD4.5_Ketoannghiepvuthanhtoanliennganhang-Video1.pdf"
+    },
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C4_CD4.5_Ketoannghiepvuthanhtoanliennganhang-Video2.pdf": {
+      "size": 221174,
+      "sha256": "b004e9204a2ad756689b65f24ba0a8475753b5b3b74e90b930e36e4a16be2d56",
+      "filename": "SCRIP KTNH_C4_CD4.5_Ketoannghiepvuthanhtoanliennganhang-Video2.pdf"
+    },
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C5_CD5.1_Khaiquatnghiepvucaptindungvanguyentacketoan.pdf": {
+      "size": 294530,
+      "sha256": "2e76a8258924bbed8c25bc8c2e71d033aea9270c40a9a9f37077a6c89e02c4c1",
+      "filename": "SCRIP KTNH_C5_CD5.1_Khaiquatnghiepvucaptindungvanguyentacketoan.pdf"
+    },
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C5_CD5.2_Ketoannghiepvuchovay.pdf": {
+      "size": 246203,
+      "sha256": "0dc25573db9b731c4582bd02e1e3316afb8520facb6eced5e3c209131b536129",
+      "filename": "SCRIP KTNH_C5_CD5.2_Ketoannghiepvuchovay.pdf"
+    },
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C5_CD5.3_Ketoannghiepvutindungkhac.pdf": {
+      "size": 241501,
+      "sha256": "f25a636c10d830b25d92702616bc0533020bc2a642bfe79f6ed68a8a08606840",
+      "filename": "SCRIP KTNH_C5_CD5.3_Ketoannghiepvutindungkhac.pdf"
+    },
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C6_CD6.1_Khaiquatcackhoandautuvakindoanhchungkhoan.pdf": {
+      "size": 203796,
+      "sha256": "255380f7177dd05494115e01cb06b122c351c7eefc8e61fb7d1c6efe54d2c650",
+      "filename": "SCRIP KTNH_C6_CD6.1_Khaiquatcackhoandautuvakindoanhchungkhoan.pdf"
+    },
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C6_CD6.2_Ketoanchungkhoankinhdoanh.pdf": {
+      "size": 201734,
+      "sha256": "ddaacb1a0408688244c6a94f1b7f99a3e011047a9cf3605e8196e7be20a3185a",
+      "filename": "SCRIP KTNH_C6_CD6.2_Ketoanchungkhoankinhdoanh.pdf"
+    },
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C6_CD6.3_Ketoanchungkhoansansangdeban-chietkhau-video2.pdf": {
+      "size": 246688,
+      "sha256": "c323c2fe7ee199325a37424e7f412cd0bfa84ce06bf5957d9ffcedbb488c3028",
+      "filename": "SCRIP KTNH_C6_CD6.3_Ketoanchungkhoansansangdeban-chietkhau-video2.pdf"
+    },
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C6_CD6.3_Ketoanchungkhoansansangdeban-menhgia-video1.pdf": {
+      "size": 274190,
+      "sha256": "e48301113e93572b0baff5992357a7e60a6c2060d1a1b37a30474eca0753d47d",
+      "filename": "SCRIP KTNH_C6_CD6.3_Ketoanchungkhoansansangdeban-menhgia-video1.pdf"
+    },
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C6_CD6.3_Ketoanchungkhoansansangdeban-phutroi-video3.pdf": {
+      "size": 247243,
+      "sha256": "4cb5570fdce212a71ca09f29be3281ce597cea50900a677b58cfdfe37a08e485",
+      "filename": "SCRIP KTNH_C6_CD6.3_Ketoanchungkhoansansangdeban-phutroi-video3.pdf"
+    },
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C6_CD6.4_Ketoanchungkhoangiudenngaydaohan-chietkhau-video2.pdf": {
+      "size": 220245,
+      "sha256": "28a3f0277db17512d7c30a804e66e9794de666022935411e6168d72d56a32643",
+      "filename": "SCRIP KTNH_C6_CD6.4_Ketoanchungkhoangiudenngaydaohan-chietkhau-video2.pdf"
+    },
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C6_CD6.4_Ketoanchungkhoangiudenngaydaohan-menhgia-video1.pdf": {
+      "size": 273410,
+      "sha256": "2d91357f6563d5506ddf1f8f87a96b2678a7fb61eb1193945c393767aaa22620",
+      "filename": "SCRIP KTNH_C6_CD6.4_Ketoanchungkhoangiudenngaydaohan-menhgia-video1.pdf"
+    },
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C6_CD6.4_Ketoanchungkhoangiudenngaydaohan-phutroi-video3.pdf": {
+      "size": 218782,
+      "sha256": "276478978dd7a856edd65694cd4c13411e7d933295df169e2906a85152357152",
+      "filename": "SCRIP KTNH_C6_CD6.4_Ketoanchungkhoangiudenngaydaohan-phutroi-video3.pdf"
+    },
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C7_CD7.1_Khaiquatvehoatdongkinhdoanhngoaitevathanhtoanquocte-Video1.pdf": {
+      "size": 210595,
+      "sha256": "1ceb0cb673b10acc1f0fcdad8f20a83dccf3d76b7de251421b22ef5dd85eb361",
+      "filename": "SCRIP KTNH_C7_CD7.1_Khaiquatvehoatdongkinhdoanhngoaitevathanhtoanquocte-Video1.pdf"
+    },
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C7_CD7.1_Khaiquatvehoatdongkinhdoanhngoaitevathanhtoanquocte-Video2.pdf": {
+      "size": 276830,
+      "sha256": "b2bc009c3c10db1d74361d42424bb93955af4950c933b28aa0275cc0e11b99e5",
+      "filename": "SCRIP KTNH_C7_CD7.1_Khaiquatvehoatdongkinhdoanhngoaitevathanhtoanquocte-Video2.pdf"
+    },
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C7_CD7.2_Ketoanmuabanngoaitegiaongay.pdf": {
+      "size": 223969,
+      "sha256": "e31d3fdf3665521a5ed17cbc48d2911edac8f86c740d0f6b21d3f83ed989fe21",
+      "filename": "SCRIP KTNH_C7_CD7.2_Ketoanmuabanngoaitegiaongay.pdf"
+    },
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C7_CD7.3_Ketoangiaodichtientekyhan-video1.pdf": {
+      "size": 229195,
+      "sha256": "77959defbccf27756581354e6e89fe835c132885ce9bededc81612b4b436e6e8",
+      "filename": "SCRIP KTNH_C7_CD7.3_Ketoangiaodichtientekyhan-video1.pdf"
+    },
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C7_CD7.3_Ketoangiaodichtientekyhan-video2.pdf": {
+      "size": 206649,
+      "sha256": "b9959d47bcdec6c6b2b9a4ca4e0f018d50a057adfa6bd5bc85c756784c4b983c",
+      "filename": "SCRIP KTNH_C7_CD7.3_Ketoangiaodichtientekyhan-video2.pdf"
+    },
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C7_CD7.4_Ketoanthanhtoanquoctechuyentienvanhothu.pdf": {
+      "size": 233894,
+      "sha256": "4a5da4c899ac531c0565da8f0f9265b7c8abe43d9398bcc74c6b62914747fc58",
+      "filename": "SCRIP KTNH_C7_CD7.4_Ketoanthanhtoanquoctechuyentienvanhothu.pdf"
+    },
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C7_CD7.5_Ketoanthanhtoanquoctetindungchungtu.pdf": {
+      "size": 235688,
+      "sha256": "e77eba9cb3ce4c1afcc0c75ffdd05bdc34f52ec035fef411f3953f4f42475f53",
+      "filename": "SCRIP KTNH_C7_CD7.5_Ketoanthanhtoanquoctetindungchungtu.pdf"
+    },
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C8_CD8.1_Phanloainguyentacketoanthunhapvachiphi.pdf": {
+      "size": 217563,
+      "sha256": "e0bcfb1176780c65ca3b2007ea37ba65af305394fbd7a1f53a139289ca803498",
+      "filename": "SCRIP KTNH_C8_CD8.1_Phanloainguyentacketoanthunhapvachiphi.pdf"
+    },
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C8_CD8.2_Ketoanthunhap.pdf": {
+      "size": 207298,
+      "sha256": "3a1a3e0177e4329f3b49d02fd8a3eee2d0b6f311c1d7a81eb236b4312e5740d1",
+      "filename": "SCRIP KTNH_C8_CD8.2_Ketoanthunhap.pdf"
+    },
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C8_CD8.3_Ketoanchiphi.pdf": {
+      "size": 234285,
+      "sha256": "75e579e6b56f25a9637b3fa48961fa403dc596cb4e64adfd59695d9dbb7749d8",
+      "filename": "SCRIP KTNH_C8_CD8.3_Ketoanchiphi.pdf"
+    },
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C8_CD8.4_Ketoanxacdinhketquakinhdoanh.pdf": {
+      "size": 189674,
+      "sha256": "949342dff2fa92f6bf78f00a000690310c22a939c55e3589ce235155afecdb26",
+      "filename": "SCRIP KTNH_C8_CD8.4_Ketoanxacdinhketquakinhdoanh.pdf"
+    },
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C9_CD9.1_Trinhbaybaocaotaichinhtrongnganhangthuongmai.pdf": {
+      "size": 327950,
+      "sha256": "f3fbb4dc302d500b58c5d5c5ebe3b2c12d045d6cdc0a9867dc94fe819c2d5c15",
+      "filename": "SCRIP KTNH_C9_CD9.1_Trinhbaybaocaotaichinhtrongnganhangthuongmai.pdf"
+    },
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C9_CD9.2_Bangcandoiketoan.pdf": {
+      "size": 242687,
+      "sha256": "0c6860d473a9a150c72ac81db73e65cc72184ae4bdda45c2923e100705ffa693",
+      "filename": "SCRIP KTNH_C9_CD9.2_Bangcandoiketoan.pdf"
+    },
+    "Kế toán ngân hàng/_nguon/SCRIP KTNH_C9_CD9.3_Baocaoketquahoatdongkinhdoanh.pdf": {
+      "size": 189144,
+      "sha256": "f5533d8de43f6a0c2c8bd35c71938316ac010d5e5ac4689c26b771a327bf7f10",
+      "filename": "SCRIP KTNH_C9_CD9.3_Baocaoketquahoatdongkinhdoanh.pdf"
+    },
+    "Kế toán ngân hàng/Đề thi mẫu.pdf": {
+      "size": 236988,
+      "sha256": "5582e2780a5dbbbec66111645dd8e83a39677c56a866938e45f810fc5a0a8348",
+      "filename": "Đề thi mẫu.pdf"
+    },
+    "Kế toán tài chính 2/Chương 3.pdf": {
+      "size": 619912,
+      "sha256": "47aa4010c0ff7414c27500b99510d30b9a00130ecd1921471f945809f43daf7a",
+      "filename": "Chương 3.pdf"
+    },
+    "Kế toán tài chính 2/Chương 4.pdf": {
+      "size": 786696,
+      "sha256": "34f097506d3395a2b125f804cee5f687caf36a7e575c890be552c54c76aacd00",
+      "filename": "Chương 4.pdf"
+    },
+    "Kế toán tài chính 2/Hướng dẫn ôn tập.pdf": {
+      "size": 662842,
+      "sha256": "1aa0152bb32b4bbd8859da7ed233f092c90ef1b1da005c190fb196669e395229",
+      "filename": "Hướng dẫn ôn tập.pdf"
+    },
+    "Kế toán tài chính 2/_nguon/KTTC2-C1-CD1.1-Khai niem va nguyen tacTSCDHH.pdf": {
+      "size": 115676,
+      "sha256": "647c44b84734c0aba484a459dc20f51e11f31f19d2ef97733186bfc9651d5ca6",
+      "filename": "KTTC2-C1-CD1.1-Khai niem va nguyen tacTSCDHH.pdf"
+    },
+    "Kế toán tài chính 2/_nguon/KTTC2-C1-CD1.2-Khai niem va nguyen tacTSCDVH.pdf": {
+      "size": 139512,
+      "sha256": "46b3feab01324be6600e7c9b81e8a71db0f19557e1a09ac9ca5e63233de05d7e",
+      "filename": "KTTC2-C1-CD1.2-Khai niem va nguyen tacTSCDVH.pdf"
+    },
+    "Kế toán tài chính 2/_nguon/KTTC2-C1-CD1.3-Cacphuongphaptinhkhauhao.pdf": {
+      "size": 136989,
+      "sha256": "029f0ac9b62bbd1c9d357aa425411b42489e7b3d5cd37bb33b629559b2db1548",
+      "filename": "KTTC2-C1-CD1.3-Cacphuongphaptinhkhauhao.pdf"
+    },
+    "Kế toán tài chính 2/_nguon/KTTC2-C1-CD1.4-KetoantangTSCD.pdf": {
+      "size": 139413,
+      "sha256": "c30db1497ac7eacd7f1dddb1dd8b11a35beb5f192deba0f86408a8cc3f39b809",
+      "filename": "KTTC2-C1-CD1.4-KetoantangTSCD.pdf"
+    },
+    "Kế toán tài chính 2/_nguon/KTTC2-C1-CD1.5-KetoangiamTSCD.pdf": {
+      "size": 101148,
+      "sha256": "f059dc8f9515ffd7d6394adce38b87f10a4f9f1c47e8b4b391a26e2c8a7315fa",
+      "filename": "KTTC2-C1-CD1.5-KetoangiamTSCD.pdf"
+    },
+    "Kế toán tài chính 2/_nguon/KTTC2-C1-CD1.6-Ketoanchiphisaukhighinhanbandau.pdf": {
+      "size": 101276,
+      "sha256": "6473f619196da0016ec1a8080a14269ac369b3ba1bb5f75aafd6188a060d5993",
+      "filename": "KTTC2-C1-CD1.6-Ketoanchiphisaukhighinhanbandau.pdf"
+    },
+    "Kế toán tài chính 2/_nguon/KTTC2-C1-CD1.7-TrinhbaythongtinBCTC.pdf": {
+      "size": 204150,
+      "sha256": "64564368653b857e30ac3ca20fea71ba1469c2c1194717b2694abaaf2dc3d184",
+      "filename": "KTTC2-C1-CD1.7-TrinhbaythongtinBCTC.pdf"
+    },
+    "Kế toán tài chính 2/_nguon/KTTC2-C2-CD2.1_Khainiemvadieukienghinhan.pdf": {
+      "size": 141519,
+      "sha256": "0d731e02139d6d6fbadbd4b73b82cb43c228bcdbab208221a4f18f959ecf6e2f",
+      "filename": "KTTC2-C2-CD2.1_Khainiemvadieukienghinhan.pdf"
+    },
+    "Kế toán tài chính 2/_nguon/KTTC2-C2-CD2.2 - Ghinhanvadanhgia.pdf": {
+      "size": 146552,
+      "sha256": "e1668b9705b028c43a94d9b9746ca40420afdec4aaeab0daf76c23c2e1912f70",
+      "filename": "KTTC2-C2-CD2.2 - Ghinhanvadanhgia.pdf"
+    },
+    "Kế toán tài chính 2/_nguon/KTTC2-C2-CD2.3-TranThiVinh-Vandungtaikhoan-P1.pdf": {
+      "size": 146053,
+      "sha256": "e2780a7254e9eead84bcddb919fc81018be7b0247633e5c648b0d253768e99e9",
+      "filename": "KTTC2-C2-CD2.3-TranThiVinh-Vandungtaikhoan-P1.pdf"
+    },
+    "Kế toán tài chính 2/_nguon/KTTC2-C2-CD2.4-TranThiVinh-Vandungtaikhoan-P2_V2.pdf": {
+      "size": 155020,
+      "sha256": "b9531d3b422e6ddf4e3146555731651e5e5673b80bb2f786ce0dcb66e2ecf306",
+      "filename": "KTTC2-C2-CD2.4-TranThiVinh-Vandungtaikhoan-P2_V2.pdf"
+    },
+    "Kế toán tài chính 2/_nguon/KTTC2-C2-CD2.5-TranThiVinh_Vandungtaikhoan-P3.pdf": {
+      "size": 141405,
+      "sha256": "33319a9a1a06ff01a3ab6a00fe1c08ded372c334d4e4bbd7c78c3eaa17dea7e4",
+      "filename": "KTTC2-C2-CD2.5-TranThiVinh_Vandungtaikhoan-P3.pdf"
+    },
+    "Kế toán tài chính 2/_nguon/KTTC2-C2-CD2.6-TranThiVinh_Vandungtaikhoan-P4.pdf": {
+      "size": 128820,
+      "sha256": "a656f13021e49cf5c16c4dd29f7708175d7613cad59f46416129c91297417e6f",
+      "filename": "KTTC2-C2-CD2.6-TranThiVinh_Vandungtaikhoan-P4.pdf"
+    },
+    "Kế toán tài chính 2/_nguon/KTTC2-C2-CD2.7-TranThiVinh-TrinhbaythongtinBCTC.pdf": {
+      "size": 227001,
+      "sha256": "7038af547aca00e5b2c47c820b36ed65574a397378703136a826c8bea304569e",
+      "filename": "KTTC2-C2-CD2.7-TranThiVinh-TrinhbaythongtinBCTC.pdf"
+    },
+    "Kế toán tài chính 2/_nguon/KTTC2-C3-CD3.1_Dinhnghiavaphanloai.pdf": {
+      "size": 147979,
+      "sha256": "2ee6db96cc095b2b01ff4d73262393e32f98d6e1072afe5727ec61855d1db1ac",
+      "filename": "KTTC2-C3-CD3.1_Dinhnghiavaphanloai.pdf"
+    },
+    "Kế toán tài chính 2/_nguon/KTTC2-C3-CD3.2_Ketoanvondautucuachusohuu.pdf": {
+      "size": 111428,
+      "sha256": "596cba55586cdec8dd93910158d53618f509f86597806a598c7446ea7883ea5e",
+      "filename": "KTTC2-C3-CD3.2_Ketoanvondautucuachusohuu.pdf"
+    },
+    "Kế toán tài chính 2/_nguon/KTTC2-C3-CD3.3_Ketoancophieuquy.pdf": {
+      "size": 115565,
+      "sha256": "bf953fe1c64c89041c110a31c5f4b30b005e6512deee104441619c116827f82f",
+      "filename": "KTTC2-C3-CD3.3_Ketoancophieuquy.pdf"
+    },
+    "Kế toán tài chính 2/_nguon/KTTC2-C3-CD3.4_Ketoanloinhuanchuaphanphoi.pdf": {
+      "size": 137491,
+      "sha256": "e9e86dd4e7ddc08408c4d927337e2e849f0d29da8e2d6cd0c55c301011347ebc",
+      "filename": "KTTC2-C3-CD3.4_Ketoanloinhuanchuaphanphoi.pdf"
+    },
+    "Kế toán tài chính 2/_nguon/KTTC2-C3-CD3.5_Trinhbaythongtin.pdf": {
+      "size": 112012,
+      "sha256": "2d62a3bb0aa71df205692398e2189f1601a75a5f1c847db0fd4efee55b0f9df3",
+      "filename": "KTTC2-C3-CD3.5_Trinhbaythongtin.pdf"
+    },
+    "Kế toán tài chính 2/_nguon/KTTC2-C4-CD4.1-Dinhngiavadieukienghinhan.pdf": {
+      "size": 104765,
+      "sha256": "01ee4997368757f65bd57abb6ee12fd7557a7992dc6773c854e08c72dfda2d21",
+      "filename": "KTTC2-C4-CD4.1-Dinhngiavadieukienghinhan.pdf"
+    },
+    "Kế toán tài chính 2/_nguon/KTTC2-C4-CD4.2-KeToanDoanhThuVaGiaVon.pdf": {
+      "size": 147032,
+      "sha256": "d39c07b0db629aec13343bd3943451cdc8b1b26591b9078cab7748b19c1dff4b",
+      "filename": "KTTC2-C4-CD4.2-KeToanDoanhThuVaGiaVon.pdf"
+    },
+    "Kế toán tài chính 2/_nguon/KTTC2-C4-CD4.3-KeToanHoatDongTaiChinh.pdf": {
+      "size": 80286,
+      "sha256": "2944bc1e95ed437d689974e66c18d9c5e1f2b63262f14b317335ca45b9749a37",
+      "filename": "KTTC2-C4-CD4.3-KeToanHoatDongTaiChinh.pdf"
+    },
+    "Kế toán tài chính 2/_nguon/KTTC2-C4-CD4.4-KeToanChiPhiHoatDong.pdf": {
+      "size": 78445,
+      "sha256": "efe19be7c4ba4c327e77d4562b483ef4fc880f460dbb0579db527a8eec72efb0",
+      "filename": "KTTC2-C4-CD4.4-KeToanChiPhiHoatDong.pdf"
+    },
+    "Kế toán tài chính 2/_nguon/KTTC2-C4-CD4.5-KeToanHoatDongKhac.pdf": {
+      "size": 95748,
+      "sha256": "1abad315a0df48e4fed239e14028762ed587bf2832065a01e186340c075c5edc",
+      "filename": "KTTC2-C4-CD4.5-KeToanHoatDongKhac.pdf"
+    },
+    "Kế toán tài chính 2/_nguon/KTTC2-C4-CD4.6-KeToanXDKQKD.pdf": {
+      "size": 99674,
+      "sha256": "5de5ac7cb51f5dbb16228894cfadeba84ad212ccc44713657a5391e5da622f64",
+      "filename": "KTTC2-C4-CD4.6-KeToanXDKQKD.pdf"
+    },
+    "Kế toán tài chính 2/_nguon/KTTC2-C4-CD4.7-TrinhBayThongTin.pdf": {
+      "size": 99184,
+      "sha256": "1c7ebe16dd2720ae891c29af254bcd90871024fea6418d925940866adf522152",
+      "filename": "KTTC2-C4-CD4.7-TrinhBayThongTin.pdf"
+    },
+    "Kế toán tài chính 2/_nguon/KTTC2-C4-CD4.8-SuKhacBiet-V2.pdf": {
+      "size": 89118,
+      "sha256": "d01dda3647798d151aaf9eccf5f8757face74d81eb074f051bd769c22d5467e6",
+      "filename": "KTTC2-C4-CD4.8-SuKhacBiet-V2.pdf"
+    },
+    "Kế toán tài chính 2/Đề thi mẫu.pdf": {
+      "size": 246393,
+      "sha256": "e608229a4029255bfdc9d7bb19cb09c07ae914a82c93d507823959d16a8e2e98",
+      "filename": "Đề thi mẫu.pdf"
+    }
+  }
+}

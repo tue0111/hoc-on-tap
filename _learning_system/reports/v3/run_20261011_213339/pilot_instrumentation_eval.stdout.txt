@@ -1,0 +1,20 @@
+PASS ask_is_teach
+PASS ask_does_not_diagnose
+PASS ask_user_hides_internals
+PASS ask_no_debug_payload
+PASS attempt_diagnoses
+PASS attempt_user_hides_internals
+PASS debug_shows_diagnosis
+PASS admission_runs
+PASS feedback_typo_class
+PASS feedback_exclude
+PASS exclude_flag_set
+PASS next_runs_policy
+PASS next_user_hides_internals
+PASS policy_persistence_false
+PASS instrumentation_not_real
+PASS feedback_correct
+PASS feedback_overreach
+PASS forbidden_fields_import
+FORBIDDEN_OK ('learner_score', 'overall_mastery')
+RESULT {"n": 13, "fail": [], "pass": true, "session_id": "st-677d6465e5e8", "turns": 5}

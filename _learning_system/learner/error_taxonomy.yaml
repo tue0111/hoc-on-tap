@@ -1,0 +1,96 @@
+taxonomy_id: accounting-error-taxonomy
+version: "0.1.0"
+status: initial
+layer: learner_state
+usage: Diagnostic Engine (Level 4, Phase 3). Session-local codes only. Do not attach to long-term learner mastery.
+
+principles:
+  - One primary code per failed attempt; secondary codes allowed.
+  - Codes describe the failure mode, not the concept.
+  - concept_id lives on the attempt, not inside the error code.
+  - source_conflict is about disagreeing authorities, not learner error alone.
+
+codes:
+  - id: recall_failure
+    meaning: Learner cannot retrieve a previously taught term, formula, or account name.
+    typical_signals: blank answer, wrong name for a defined term, forgotten account code
+    related_mastery_dimension: recall
+
+  - id: conceptual_failure
+    meaning: Learner has the term but the underlying model is wrong.
+    typical_signals: reversed debit/credit meaning, treating equity as an asset, confusing cash vs accrual
+    related_mastery_dimension: conceptual
+
+  - id: prerequisite_gap
+    meaning: Failure is explained by a missing earlier concept on an evidenced graph edge.
+    typical_signals: cannot journal because debit/credit is not understood
+    requires: explicit or inferred graph edge with source
+    related_mastery_dimension: conceptual
+
+  - id: classification_error
+    meaning: Wrong bucket for an item that the curriculum classifies.
+    typical_signals: asset vs expense, direct vs indirect cost, operating vs financial cash flow
+    related_mastery_dimension: conceptual
+    corpus_note: Expected in cost accounting, financial accounting, and cash-flow topics if those chapters exist.
+
+  - id: procedural_error
+    meaning: Concept is known; the taught sequence of steps is not followed.
+    typical_signals: skipped adjusting entry before statements; wrong costing sequence
+    related_mastery_dimension: procedural
+
+  - id: journal_entry_error
+    meaning: Specific recording error in a journal/ledger entry.
+    subtypes:
+      - wrong_account
+      - reversed_debit_credit
+      - unbalanced_entry
+      - wrong_amount
+      - missing_line
+      - wrong_period
+    related_mastery_dimension: procedural
+    corpus_note: Keep even if some courses have not yet been fully extracted; NLKT materials name accounts, double-entry, and statements.
+
+  - id: formula_selection_error
+    meaning: Chose the wrong formula or model among taught alternatives.
+    typical_signals: wrong cost formula, wrong ratio, WACC vs cost of equity mix-up
+    related_mastery_dimension: application
+
+  - id: arithmetic_error
+    meaning: Right method, wrong calculation.
+    typical_signals: addition/percentage/allocation math error with otherwise correct setup
+    related_mastery_dimension: procedural
+
+  - id: interpretation_error
+    meaning: Numbers or statements are produced but meaning is wrong.
+    typical_signals: misreading a ratio, treating a debit balance as “bad”, wrong going-concern conclusion
+    related_mastery_dimension: application
+
+  - id: transfer_failure
+    meaning: Can do the taught example but fails on a new context using the same concept.
+    typical_signals: works on merchandising example, fails on bank/service example
+    related_mastery_dimension: transfer
+
+  - id: terminology_confusion
+    meaning: Mixes near-synonyms or Vietnamese/English equivalents incorrectly.
+    typical_signals: doanh thu vs thu nhập, chi phí vs giá vốn, kiểm toán vs kiểm soát nội bộ
+    related_mastery_dimension: recall
+    corpus_note: Bilingual materials are present (Vietnamese course names, some English tokens such as Fintech, Corporate Finance).
+
+  - id: source_conflict
+    meaning: Learner is caught between two curriculum sources that disagree, or between curriculum and external knowledge.
+    typical_signals: VAS vs lecturer slide vs textbook definition
+    not_a_learner_defect: true
+    related_mastery_dimension: null
+
+  - id: unknown
+    meaning: Failure mode cannot be classified from available evidence.
+    related_mastery_dimension: unknown
+
+future_extensions_if_corpus_supports:
+  - audit_opinion_error
+  - tax_vs_accounting_basis_error
+  - ethics_rule_selection_error
+  - law_article_citation_error
+  - banking_product_misclassification
+  - public_sector_budget_vs_accrual_error
+  rule: Add only after OBSERVED items exist in sources. Do not add now as populated diagnostic history.

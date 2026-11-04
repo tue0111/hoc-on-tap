@@ -1,0 +1,115 @@
+{
+  "differences": [
+    {
+      "course": "ke-toan-tai-chinh-2",
+      "row": "k2-s02",
+      "fields": {
+        "unknowns": {
+          "before": [],
+          "after": [
+            "topic_in_other_course:ke-toan-chi-phi",
+            "insufficient_curriculum_evidence"
+          ]
+        },
+        "coverage": {
+          "before": "sufficient",
+          "after": "insufficient"
+        }
+      }
+    },
+    {
+      "course": "ke-toan-tai-chinh-2",
+      "row": "k2-s03",
+      "fields": {
+        "unknowns": {
+          "before": [],
+          "after": [
+            "topic_in_other_course:ke-toan-chi-phi",
+            "insufficient_curriculum_evidence"
+          ]
+        },
+        "coverage": {
+          "before": "sufficient",
+          "after": "insufficient"
+        }
+      }
+    },
+    {
+      "course": "ke-toan-tai-chinh-2",
+      "row": "k2-i02",
+      "fields": {
+        "unknowns": {
+          "before": [
+            "no_course_concept_match",
+            "topic_in_other_course:ke-toan-chi-phi",
+            "insufficient_curriculum_evidence"
+          ],
+          "after": [
+            "topic_in_other_course:ke-toan-chi-phi",
+            "no_course_concept_match",
+            "insufficient_curriculum_evidence"
+          ]
+        }
+      }
+    },
+    {
+      "course": "ke-toan-tai-chinh-2",
+      "row": "k2-i03",
+      "fields": {
+        "unknowns": {
+          "before": [
+            "no_course_concept_match",
+            "topic_in_other_course:ngan-hang-thuong-mai",
+            "insufficient_curriculum_evidence"
+          ],
+          "after": [
+            "topic_in_other_course:ke-toan-chi-phi",
+            "no_course_concept_match",
+            "topic_in_other_course:ngan-hang-thuong-mai",
+            "insufficient_curriculum_evidence"
+          ]
+        }
+      }
+    },
+    {
+      "course": "ke-toan-tai-chinh-2",
+      "row": "k2-c01",
+      "fields": {
+        "unknowns": {
+          "before": [],
+          "after": [
+            "topic_in_other_course:ke-toan-chi-phi",
+            "insufficient_curriculum_evidence"
+          ]
+        },
+        "coverage": {
+          "before": "sufficient",
+          "after": "insufficient"
+        }
+      }
+    },
+    {
+      "course": "luat-kinh-doanh",
+      "row": "lk-i02",
+      "fields": {
+        "unknowns": {
+          "before": [
+            "no_course_concept_match",
+            "term_not_in_course_corpus:fifo",
+            "topic_in_other_course:ke-toan-tai-chinh-1",
+            "topic_in_other_course:ke-toan-chi-phi",
+            "insufficient_curriculum_evidence"
+          ],
+          "after": [
+            "topic_in_other_course:ke-toan-chi-phi",
+            "no_course_concept_match",
+            "term_not_in_course_corpus:fifo",
+            "topic_in_other_course:ke-toan-tai-chinh-1",
+            "insufficient_curriculum_evidence"
+          ]
+        }
+      }
+    }
+  ],
+  "rank_scores_identical": true
+}

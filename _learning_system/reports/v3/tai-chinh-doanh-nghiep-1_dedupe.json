@@ -1,0 +1,68 @@
+{
+  "course_id": "tai-chinh-doanh-nghiep-1",
+  "thresholds": {
+    "dup": 0.85,
+    "distinct": 0.5
+  },
+  "pairs": [
+    {
+      "upper": "src-0178",
+      "upper_file": "Tài Chính Doanh NGhiệp.pdf",
+      "lowers": [
+        "src-0155",
+        "src-0156",
+        "src-0157",
+        "src-0158",
+        "src-0159",
+        "src-0160",
+        "src-0161",
+        "src-0162",
+        "src-0163",
+        "src-0164",
+        "src-0166",
+        "src-0167",
+        "src-0168",
+        "src-0169",
+        "src-0170",
+        "src-0171",
+        "src-0172"
+      ],
+      "cov": 0.9981,
+      "back": 0.9434,
+      "decision": "combined_duplicate",
+      "shingles_upper": 31394,
+      "shingles_lower": 33214,
+      "scope": "course-wide combined"
+    },
+    {
+      "upper": "src-0172",
+      "upper_file": "Slide.pdf",
+      "lowers": [
+        "src-0155",
+        "src-0156",
+        "src-0157",
+        "src-0158",
+        "src-0159",
+        "src-0160",
+        "src-0161",
+        "src-0162",
+        "src-0163",
+        "src-0164",
+        "src-0166",
+        "src-0167",
+        "src-0168",
+        "src-0169",
+        "src-0170",
+        "src-0171"
+      ],
+      "cov": 0.989,
+      "back": 0.0513,
+      "decision": "combined_duplicate",
+      "shingles_upper": 1722,
+      "shingles_lower": 33195,
+      "scope": "course-wide slides"
+    }
+  ],
+  "mid_band_scopes": [],
+  "REVIEW": []
+}

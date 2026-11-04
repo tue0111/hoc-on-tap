@@ -1,0 +1,5 @@
+{"id": "rt-001", "question": "giới thiệu môn luật kinh doanh", "filters": {"course_id": "luat-kinh-doanh", "source_type": "syllabus"}, "must_hit_filenames": ["Gioithieumonhoc.pdf"], "must_not": ["invent semester"]}
+{"id": "rt-002", "question": "đề thi mẫu ngân hàng thương mại", "filters": {"course_id": "ngan-hang-thuong-mai", "source_type": "exam"}, "must_hit_filenames": ["DE THI MAU NHTM 2025 (1).pdf"]}
+{"id": "rt-003", "question": "đáp án đề thi mẫu TCDN1", "filters": {"course_id": "tai-chinh-doanh-nghiep-1"}, "must_hit_filenames": ["TCDN1-Dapandethimau.pdf"]}
+{"id": "rt-004", "question": "bảng hệ thống tài khoản kế toán ngân hàng", "filters": {"course_id": "ke-toan-ngan-hang", "source_type": "reference"}, "must_hit_filenames": ["Bảng hệ thống tài khoản kế toán ngân hàng.docx"]}
+{"id": "rt-005", "question": "slide chương 3 kế toán tài chính 1", "filters": {"course_id": "ke-toan-tai-chinh-1", "source_type": "lecture_slide", "chapter": 3}, "must_hit_filenames": ["Slide Chương 3.pdf"]}

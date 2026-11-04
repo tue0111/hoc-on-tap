@@ -1,0 +1,139 @@
+{
+  "frozen_at": "2026-09-08T14:48:07.384921+00:00",
+  "core_status": "PHASE8_PASS_CORE_LEARNING_SYSTEM_READY",
+  "active_scope": [
+    "ACCO1325",
+    "ACCO2310"
+  ],
+  "versions": {
+    "index": "2.0.0",
+    "chunking": "2.0.0",
+    "extract": "2.0.0",
+    "retrieval": "2.0.0",
+    "diagnostic": "3.0.0",
+    "decision": "4.0.0",
+    "adaptive": "5.0.0",
+    "admission_module": "6.0.0",
+    "admission_policy": "1.0.0",
+    "state_derivation": "7.0.0",
+    "learning_policy": "8.0.0",
+    "concept_registry": "0.1.0"
+  },
+  "index_meta": {
+    "chunk_count": 810,
+    "vocab_size": 1981,
+    "courses": [
+      "ke-toan-tai-chinh-1",
+      "nguyen-ly-ke-toan"
+    ],
+    "concept_registry_version": "0.1.0"
+  },
+  "inventory": {
+    "path": "inventory/files.json",
+    "sha256": "301e57b0b36aec787749dc6b0a0f5526cecec38c842e4ddd74fdccb838e0aa27",
+    "file_count": 333
+  },
+  "source_integrity": {
+    "status": "OK",
+    "checked": 40,
+    "missing": 0,
+    "mismatches": 0,
+    "courses": [
+      "nguyen-ly-ke-toan",
+      "ke-toan-tai-chinh-1"
+    ]
+  },
+  "frozen_suites": {
+    "evals/phase2_retrieval_tests.jsonl": {
+      "sha256": "c66309aa2a05e168ace578a4de8d3c1c3ded866d830c50f5a21def81d74f0508",
+      "n": 60,
+      "exists": true
+    },
+    "evals/diagnostic_cases.jsonl": {
+      "sha256": "2ec03ea99cc3313d38b8a827edf0f1780c41c9e3eafe5df2f911c83d3b730d93",
+      "n": 90,
+      "exists": true
+    },
+    "evals/decision_cases.jsonl": {
+      "sha256": "0a706310e29e903cfb9864beb5792dc4bc916dc069a1ad72484557c8bd26d89c",
+      "n": 130,
+      "exists": true
+    },
+    "evals/decision_naturalistic_shadow.jsonl": {
+      "sha256": "24229066bfdf13151ff81e0062e2b511c8c61876c598c002edcf4f727bf79943",
+      "n": 40,
+      "exists": true
+    },
+    "evals/adaptive_sessions.jsonl": {
+      "sha256": "965e0484e24d608467aa5f82c10e4134b9ee23371015761832cb169a9c36ba71",
+      "n": 100,
+      "exists": true
+    },
+    "evals/adaptive_adversarial.jsonl": {
+      "sha256": "c1236c72dc938be8be650c9527cc45374140e91eb99e7a475727b1b05a34c88e",
+      "n": 16,
+      "exists": true
+    },
+    "evals/admission_cases.jsonl": {
+      "sha256": "b1ac9d94539748db8372ef0a8730c5557155309c3fd7c22e6bcda4f79de758f4",
+      "n": 120,
+      "exists": true
+    },
+    "evals/admission_longitudinal.jsonl": {
+      "sha256": "aa4805388cca3e9145e402e963dad7ea73644246ecc1aa03aeb51d32ed90dbda",
+      "n": 40,
+      "exists": true
+    },
+    "evals/admission_naturalistic.jsonl": {
+      "sha256": "6e271c76d6a8a7e9af73d59383bd160632eb829f9046e2f6dd2299e626461898",
+      "n": 40,
+      "exists": true
+    },
+    "evals/state_cases.jsonl": {
+      "sha256": "0392ab1bb0686b137a01fd43dbdfb1f3f84eab47d35315d782b2edec02852f0b",
+      "n": 150,
+      "exists": true
+    },
+    "evals/state_longitudinal.jsonl": {
+      "sha256": "e0701af2d9f48eebb92f86b20ca0784886c58b1495b8d4de8e737c1285c1529b",
+      "n": 60,
+      "exists": true
+    },
+    "evals/state_naturalistic.jsonl": {
+      "sha256": "fb4b7251ef231d51c00ad58cf4257c3ba6a8c6eda3add2fdb61bb3664edc7145",
+      "n": 50,
+      "exists": true
+    },
+    "evals/learning_policy_cases.jsonl": {
+      "sha256": "6a8b66f6df6b0850bd0bd38e28cd8066ea9140b6d8da82ca25bcab4599dd24b6",
+      "n": 180,
+      "exists": true
+    },
+    "evals/learning_policy_longitudinal.jsonl": {
+      "sha256": "48a38176a7c61119e272679a23ad5b2ec740c750262053aa697e03a01d435d37",
+      "n": 80,
+      "exists": true
+    },
+    "evals/learning_policy_naturalistic.jsonl": {
+      "sha256": "7e76f747d62b5b6963e5e05c6b5619e46b69b90ccac3a17a6957c96e74d2d023",
+      "n": 60,
+      "exists": true
+    },
+    "evals/learning_policy_adversarial.jsonl": {
+      "sha256": "299ad927f7034b4c7fd9f6620b99e080f3e47d61ee58bc6f2323224f2ead2d1d",
+      "n": 8,
+      "exists": true
+    },
+    "evals/learning_policy_e2e.jsonl": {
+      "sha256": "def704979b2765b5390a8169e1c25ef76e159f2d392e2ed0608999627eff8ab8",
+      "n": 30,
+      "exists": true
+    }
+  },
+  "concept_registry_header": [
+    "registry_id: concept-registry",
+    "version: \"0.1.0\"",
+    "layer: curriculum"
+  ],
+  "note": "Derived freeze. Not evidence of learning success. Do not edit frozen eval JSONL to pass new code."
+}

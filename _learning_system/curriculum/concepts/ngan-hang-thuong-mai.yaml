@@ -1,0 +1,328 @@
+course_id: ngan-hang-thuong-mai
+version: 0.1.0
+id_prefix: nhtm
+concepts:
+- concept_id: nhtm-tong-quan-ve-ngan-hang-thuong-mai
+  canonical_name: TỔNG QUAN VỀ NGÂN HÀNG THƯƠNG MẠI
+  aliases: []
+  same_as: null
+  chapter: 1
+  topic: '1'
+  source_refs:
+  - source_id: src-0122
+    page: 1
+  - source_id: src-0132
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: nhtm-khai-quat-ve-ngan-hang-thuong-mai
+  canonical_name: Khái quát về ngân hàng thương mại
+  aliases: []
+  same_as: null
+  chapter: 1
+  topic: '1.1'
+  source_refs:
+  - source_id: src-0122
+    page: 1
+  - source_id: src-0132
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: nhtm-chuc-nang-cua-ngan-hang-thuong-mai
+  canonical_name: Chức năng của Ngân hàng thương mại
+  aliases:
+  - trung gian tín dụng
+  - trung gian thanh toán
+  same_as: null
+  chapter: 1
+  topic: '1.2'
+  source_refs:
+  - source_id: src-0122
+    page: 1
+  - source_id: src-0132
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: nhtm-nghiep-vu-cua-ngan-hang-thuong-mai
+  canonical_name: Nghiệp vụ của Ngân hàng thương mại
+  aliases: []
+  same_as: null
+  chapter: 1
+  topic: '1.3'
+  source_refs:
+  - source_id: src-0122
+    page: 1
+  - source_id: src-0132
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: nhtm-nghiep-vu-huy-dong-von-cua-ngan-hang-thuong-mai
+  canonical_name: NGHIỆP VỤ HUY ĐỘNG VỐN CỦA NGÂN HÀNG THƯƠNG MẠI
+  aliases: []
+  same_as: null
+  chapter: 2
+  topic: '2'
+  source_refs:
+  - source_id: src-0123
+    page: 1
+  - source_id: src-0133
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: nhtm-khai-niem-ve-nghiep-vu-huy-dong-von-cua-nhtm
+  canonical_name: Khái niệm về nghiệp vụ huy động vốn của NHTM
+  aliases: []
+  same_as: null
+  chapter: 2
+  topic: '2.1'
+  source_refs:
+  - source_id: src-0123
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: nhtm-hinh-thuc-huy-dong-von-cua-nhtm
+  canonical_name: Hình thức huy động vốn của NHTM
+  aliases:
+  - phát hành giấy tờ có giá
+  same_as: null
+  chapter: 2
+  topic: '2.2'
+  source_refs:
+  - source_id: src-0123
+    page: 1
+  - source_id: src-0123
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: nhtm-tong-quan-ve-nghiep-vu-cap-tin-dung-cua-ngan-hang
+  canonical_name: TỔNG QUAN VỀ NGHIỆP VỤ CẤP TÍN DỤNG CỦA NGÂN HÀNG
+  aliases: []
+  same_as: null
+  chapter: 3
+  topic: '3'
+  source_refs:
+  - source_id: src-0124
+    page: 1
+  - source_id: src-0134
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: nhtm-khai-quat-ve-nghiep-vu-cap-tin-dung
+  canonical_name: Khái quát về nghiệp vụ cấp tín dụng
+  aliases:
+  - hoạt động cấp tín dụng
+  same_as: null
+  chapter: 3
+  topic: '3.1'
+  source_refs:
+  - source_id: src-0124
+    page: 1
+  - source_id: src-0134
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: nhtm-quy-trinh-tin-dung
+  canonical_name: Quy trình tín dụng
+  aliases: []
+  same_as: null
+  chapter: 3
+  topic: '3.2'
+  source_refs:
+  - source_id: src-0124
+    page: 1
+  - source_id: src-0134
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: nhtm-dam-bao-tin-dung
+  canonical_name: Đảm bảo tín dụng
+  aliases: []
+  same_as: null
+  chapter: 3
+  topic: '3.3'
+  source_refs:
+  - source_id: src-0124
+    page: 1
+  - source_id: src-0134
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: nhtm-nghiep-vu-cho-vay
+  canonical_name: NGHIỆP VỤ CHO VAY
+  aliases: []
+  same_as: null
+  chapter: 4
+  topic: '4'
+  source_refs:
+  - source_id: src-0125
+    page: 1
+  - source_id: src-0135
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: nhtm-cho-vay-ngan-han
+  canonical_name: Cho vay ngắn hạn
+  aliases:
+  - hạn mức tín dụng
+  same_as: null
+  chapter: 4
+  topic: '4.1'
+  source_refs:
+  - source_id: src-0125
+    page: 1
+  - source_id: src-0135
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: nhtm-cho-vay-trung-dai-han
+  canonical_name: Cho vay trung dài hạn
+  aliases:
+  - cho vay trung và dài hạn
+  same_as: null
+  chapter: 4
+  topic: '4.2'
+  source_refs:
+  - source_id: src-0125
+    page: 1
+  - source_id: src-0135
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: nhtm-cac-nghiep-vu-tin-dung-khac
+  canonical_name: CÁC NGHIỆP VỤ TÍN DỤNG KHÁC
+  aliases: []
+  same_as: null
+  chapter: 5
+  topic: '5'
+  source_refs:
+  - source_id: src-0126
+    page: 1
+  - source_id: src-0136
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: nhtm-nghiep-vu-chiet-khau-giay-to-co-gia
+  canonical_name: Nghiệp vụ chiết khấu giấy tờ có giá
+  aliases:
+  - chiết khấu giấy tờ có giá
+  same_as: null
+  chapter: 5
+  topic: '5.1'
+  source_refs:
+  - source_id: src-0126
+    page: 1
+  - source_id: src-0126
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: nhtm-nghiep-vu-cho-thue-tai-chinh
+  canonical_name: Nghiệp vụ cho thuê tài chính
+  aliases:
+  - cho thuê tài chính
+  same_as: null
+  chapter: 5
+  topic: '5.2'
+  source_refs:
+  - source_id: src-0126
+    page: 1
+  - source_id: src-0136
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: nhtm-nghiep-vu-bao-thanh-toan
+  canonical_name: Nghiệp vụ bao thanh toán
+  aliases:
+  - bao thanh toán
+  same_as: null
+  chapter: 5
+  topic: '5.3'
+  source_refs:
+  - source_id: src-0126
+    page: 1
+  - source_id: src-0136
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: nhtm-nghiep-vu-bao-lanh-ngan-hang
+  canonical_name: Nghiệp vụ bảo lãnh ngân hàng
+  aliases:
+  - bảo lãnh ngân hàng
+  same_as: null
+  chapter: 5
+  topic: '5.4'
+  source_refs:
+  - source_id: src-0126
+    page: 1
+  - source_id: src-0136
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: nhtm-dich-vu-ngan-hang
+  canonical_name: DỊCH VỤ NGÂN HÀNG
+  aliases: []
+  same_as: null
+  chapter: 6
+  topic: '6'
+  source_refs:
+  - source_id: src-0127
+    page: 1
+  - source_id: src-0137
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: nhtm-dich-vu-thanh-toan
+  canonical_name: Dịch vụ thanh toán
+  aliases: []
+  same_as: null
+  chapter: 6
+  topic: '6.1'
+  source_refs:
+  - source_id: src-0127
+    page: 1
+  - source_id: src-0137
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: nhtm-dich-vu-ngan-hang-dien-tu
+  canonical_name: Dịch vụ ngân hàng điện tử
+  aliases: []
+  same_as: null
+  chapter: 6
+  topic: '6.2'
+  source_refs:
+  - source_id: src-0127
+    page: 1
+  - source_id: src-0137
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: nhtm-dich-vu-uy-thac-va-dich-vu-phan-phoi-bao-hiem-qua-kenh-ngan-hang
+  canonical_name: Dịch vụ ủy thác và Dịch vụ phân phối bảo hiểm qua kênh ngân hàng
+  aliases:
+  - dịch vụ ủy thác
+  - phân phối bảo hiểm qua kênh ngân hàng
+  same_as: null
+  chapter: 6
+  topic: '6.3'
+  source_refs:
+  - source_id: src-0127
+    page: 1
+  - source_id: src-0137
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+account_map: {}
+edges: []
+conflicts:
+- type: LAW_VINTAGE_CONFLICT
+  note: Bài giảng dùng Luật các TCTD 47/2010/QH12 hoặc gọi Luật TCTD 2010; đề thi mẫu 2025 dùng Luật 32/2024/QH15. Giữ tách
+    biệt, không hợp nhất định nghĩa hay hạn mức.
+  observations:
+  - instrument: Luật các tổ chức tín dụng 47/2010/QH12
+    source_id: src-0124
+    page: 2
+  - instrument: Luật các tổ chức tín dụng 32/2024/QH15
+    source_id: src-0128
+    page: 7
+  evidence_status: OBSERVED
+  resolution: UNKNOWN

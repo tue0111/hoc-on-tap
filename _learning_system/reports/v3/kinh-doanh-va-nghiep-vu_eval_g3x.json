@@ -1,0 +1,557 @@
+{
+  "course_id": "kinh-doanh-va-nghiep-vu",
+  "tag": "_g3x",
+  "eval_sha256": "892eeb3f66ca29e2f4d96613767f2854386c42a039b9b8f4a436c6b3fb381e38",
+  "n": 20,
+  "metrics": {
+    "direct_must_include": 1.0,
+    "direct_chapter_at1": 1.0,
+    "source_bound": 1.0,
+    "insufficient": 0.6666666666666666,
+    "collision_contamination": 0,
+    "account": null,
+    "topic_owner": null
+  },
+  "gates": {
+    "direct_must_include": true,
+    "direct_chapter_at1": true,
+    "source_bound": true,
+    "insufficient": false,
+    "collision_contamination": true,
+    "account": true,
+    "topic_owner": true
+  },
+  "all_pass": false,
+  "results": [
+    {
+      "id": "kd-d01",
+      "category": "direct",
+      "question": "Kinh doanh và nghiệp vụ: các bên liên quan của một tổ chức kinh doanh gồm những ai?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0001",
+        "src-0002",
+        "src-0001",
+        "src-0001",
+        "src-0004"
+      ],
+      "top_chapters": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "partition": "kinh-doanh-va-nghiep-vu",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kd-d02",
+      "category": "direct",
+      "question": "Kinh doanh và nghiệp vụ: các mô hình phân tích cạnh tranh được dùng như thế nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0005",
+        "src-0005",
+        "src-0035",
+        "src-0001",
+        "src-0009"
+      ],
+      "top_chapters": [
+        1,
+        1,
+        null,
+        1,
+        1
+      ],
+      "partition": "kinh-doanh-va-nghiep-vu",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kd-d03",
+      "category": "direct",
+      "question": "Kinh doanh và nghiệp vụ: các chính sách vĩ mô tác động đến doanh nghiệp ra sao?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0007",
+        "src-0007",
+        "src-0001",
+        "src-0006",
+        "src-0035"
+      ],
+      "top_chapters": [
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "partition": "kinh-doanh-va-nghiep-vu",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kd-d04",
+      "category": "direct",
+      "question": "Kinh doanh và nghiệp vụ: phân tích cung cầu trong kinh tế vi mô gồm nội dung gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0009",
+        "src-0009",
+        "src-0035",
+        "src-0001",
+        "src-0035"
+      ],
+      "top_chapters": [
+        1,
+        1,
+        null,
+        1,
+        null
+      ],
+      "partition": "kinh-doanh-va-nghiep-vu",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kd-d05",
+      "category": "direct",
+      "question": "Kinh doanh và nghiệp vụ: cấu trúc doanh nghiệp liên hệ với chiến lược kinh doanh thế nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0010",
+        "src-0035",
+        "src-0010",
+        "src-0010",
+        "src-0013"
+      ],
+      "top_chapters": [
+        2,
+        null,
+        2,
+        2,
+        2
+      ],
+      "partition": "kinh-doanh-va-nghiep-vu",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kd-d06",
+      "category": "direct",
+      "question": "Kinh doanh và nghiệp vụ: văn hóa tổ chức có những thành phần nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0011",
+        "src-0035",
+        "src-0011",
+        "src-0011",
+        "src-0011"
+      ],
+      "top_chapters": [
+        2,
+        null,
+        2,
+        2,
+        2
+      ],
+      "partition": "kinh-doanh-va-nghiep-vu",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kd-d07",
+      "category": "direct",
+      "question": "Kinh doanh và nghiệp vụ: trách nhiệm xã hội của doanh nghiệp được hiểu thế nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0013",
+        "src-0013",
+        "src-0036",
+        "src-0014",
+        "src-0033"
+      ],
+      "top_chapters": [
+        2,
+        2,
+        null,
+        6,
+        0
+      ],
+      "partition": "kinh-doanh-va-nghiep-vu",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kd-d08",
+      "category": "direct",
+      "question": "Kinh doanh và nghiệp vụ: kiểm soát nội bộ và kiểm toán hỗ trợ doanh nghiệp thế nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0022",
+        "src-0022",
+        "src-0021",
+        "src-0019",
+        "src-0016"
+      ],
+      "top_chapters": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "partition": "kinh-doanh-va-nghiep-vu",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kd-d09",
+      "category": "direct",
+      "question": "Kinh doanh và nghiệp vụ: Fintech ảnh hưởng đến kiểm soát hệ thống thông tin ra sao?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0024",
+        "src-0016",
+        "src-0016",
+        "src-0035",
+        "src-0024"
+      ],
+      "top_chapters": [
+        3,
+        3,
+        3,
+        null,
+        3
+      ],
+      "partition": "kinh-doanh-va-nghiep-vu",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kd-d10",
+      "category": "direct",
+      "question": "Kinh doanh và nghiệp vụ: quy trình tuyển dụng nhân sự gồm những bước nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0026",
+        "src-0026",
+        "src-0026",
+        "src-0035",
+        "src-0026"
+      ],
+      "top_chapters": [
+        4,
+        4,
+        4,
+        null,
+        4
+      ],
+      "partition": "kinh-doanh-va-nghiep-vu",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kd-d11",
+      "category": "direct",
+      "question": "Kinh doanh và nghiệp vụ: tạo động lực làm việc cho cá nhân và nhóm bằng cách nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0027",
+        "src-0028",
+        "src-0028",
+        "src-0035",
+        "src-0031"
+      ],
+      "top_chapters": [
+        4,
+        4,
+        4,
+        null,
+        5
+      ],
+      "partition": "kinh-doanh-va-nghiep-vu",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kd-d12",
+      "category": "direct",
+      "question": "Kinh doanh và nghiệp vụ: đạo đức nghề nghiệp kế toán đặt ra yêu cầu gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0014",
+        "src-0015",
+        "src-0015",
+        "src-0014",
+        "src-0036"
+      ],
+      "top_chapters": [
+        6,
+        6,
+        6,
+        6,
+        null
+      ],
+      "partition": "kinh-doanh-va-nghiep-vu",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kd-s01",
+      "category": "source_bound",
+      "question": "Theo chương 5 của Kinh doanh và nghiệp vụ, kỹ năng làm việc hiệu quả gồm những nội dung nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0031",
+        "src-0032",
+        "src-0031",
+        "src-0031",
+        "src-0032"
+      ],
+      "top_chapters": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "partition": "kinh-doanh-va-nghiep-vu",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kd-s02",
+      "category": "source_bound",
+      "question": "Đề thi mẫu Kinh doanh và nghiệp vụ có những dạng câu hỏi nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0034",
+        "src-0028",
+        "src-0035",
+        "src-0005",
+        "src-0034"
+      ],
+      "top_chapters": [
+        null,
+        4,
+        null,
+        1,
+        null
+      ],
+      "partition": "kinh-doanh-va-nghiep-vu",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kd-s03",
+      "category": "source_bound",
+      "question": "Hướng dẫn ôn tập Kinh doanh và nghiệp vụ yêu cầu học những phần nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0035",
+        "src-0013",
+        "src-0010",
+        "src-0011",
+        "src-0029"
+      ],
+      "top_chapters": [
+        null,
+        2,
+        2,
+        2,
+        4
+      ],
+      "partition": "kinh-doanh-va-nghiep-vu",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kd-i01",
+      "category": "insufficient",
+      "question": "WACC trong Kinh doanh và nghiệp vụ được tính như thế nào?",
+      "coverage": "insufficient",
+      "top_sources": [
+        "src-0031",
+        "src-0016",
+        "src-0006",
+        "src-0005",
+        "src-0034"
+      ],
+      "top_chapters": [
+        5,
+        3,
+        1,
+        1,
+        null
+      ],
+      "partition": "kinh-doanh-va-nghiep-vu",
+      "unknowns": [
+        "no_course_concept_match",
+        "term_not_in_course_corpus:wacc",
+        "insufficient_curriculum_evidence"
+      ],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kd-i02",
+      "category": "insufficient",
+      "question": "Duration trái phiếu trong Kinh doanh và nghiệp vụ đo như thế nào?",
+      "coverage": "insufficient",
+      "top_sources": [
+        "src-0016",
+        "src-0008",
+        "src-0024",
+        "src-0006",
+        "src-0016"
+      ],
+      "top_chapters": [
+        3,
+        1,
+        3,
+        1,
+        3
+      ],
+      "partition": "kinh-doanh-va-nghiep-vu",
+      "unknowns": [
+        "no_course_concept_match",
+        "term_not_in_course_corpus:duration",
+        "insufficient_curriculum_evidence"
+      ],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kd-i03",
+      "category": "insufficient",
+      "question": "Kinh doanh và nghiệp vụ hướng dẫn hạch toán thuế thu nhập hoãn lại ra sao?",
+      "coverage": "partial",
+      "top_sources": [
+        "src-0008",
+        "src-0016",
+        "src-0006",
+        "src-0034",
+        "src-0020"
+      ],
+      "top_chapters": [
+        1,
+        3,
+        1,
+        null,
+        3
+      ],
+      "partition": "kinh-doanh-va-nghiep-vu",
+      "unknowns": [
+        "no_course_concept_match"
+      ],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": false
+    },
+    {
+      "id": "kd-c01",
+      "category": "collision",
+      "question": "Chương 1 của Kinh doanh và nghiệp vụ nói về gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0002",
+        "src-0001",
+        "src-0004",
+        "src-0002",
+        "src-0006"
+      ],
+      "top_chapters": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "partition": "kinh-doanh-va-nghiep-vu",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kd-c02",
+      "category": "collision",
+      "question": "Chương 6 của Kinh doanh và nghiệp vụ nói về gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0014",
+        "src-0015",
+        "src-0014",
+        "src-0014",
+        "src-0015"
+      ],
+      "top_chapters": [
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "partition": "kinh-doanh-va-nghiep-vu",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    }
+  ]
+}

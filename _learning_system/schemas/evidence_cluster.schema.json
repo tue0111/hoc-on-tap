@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.learning-system/schemas/evidence_cluster.schema.json",
+  "title": "EvidenceCluster",
+  "description": "Candidates grouped by concept_id + dimension. No global weakness labels.",
+  "type": "object",
+  "required": ["cluster_id", "concept_id", "dimension"],
+  "additionalProperties": false,
+  "properties": {
+    "cluster_id": { "type": "string" },
+    "concept_id": { "type": "string" },
+    "dimension": { "type": "string" },
+    "candidate_ids": { "type": "array", "items": { "type": "string" } },
+    "independent_incorrect": { "type": "integer" },
+    "independent_correct": { "type": "integer" },
+    "retry_count": { "type": "integer" },
+    "relations": { "type": "array" }
+  }
+}

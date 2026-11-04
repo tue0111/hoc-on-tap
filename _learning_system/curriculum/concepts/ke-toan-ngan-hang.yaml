@@ -1,0 +1,487 @@
+course_id: ke-toan-ngan-hang
+version: 0.1.0
+id_prefix: ktnh
+concepts:
+- concept_id: ktnh-dac-diem-kinh-doanh-cua-ngan-hang
+  canonical_name: Đặc điểm kinh doanh của ngân hàng
+  aliases: []
+  same_as: null
+  chapter: 1
+  topic: '1.1'
+  source_refs:
+  - source_id: src-0260
+    page: 1
+  - source_id: src-0260
+    page: 7
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: ktnh-doi-tuong-ke-toan-ngan-hang
+  canonical_name: Đối tượng kế toán ngân hàng
+  aliases: []
+  same_as: null
+  chapter: 1
+  topic: '1.2'
+  source_refs:
+  - source_id: src-0261
+    page: 1
+  - source_id: src-0261
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: ktnh-to-chuc-cong-tac-ke-toan-ngan-hang
+  canonical_name: Tổ chức công tác kế toán ngân hàng
+  aliases: []
+  same_as: null
+  chapter: 1
+  topic: '1.3'
+  source_refs:
+  - source_id: src-0262
+    page: 1
+  - source_id: src-0262
+    page: 4
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: ktnh-he-thong-tai-khoan-ke-toan-ngan-hang
+  canonical_name: Hệ thống tài khoản kế toán ngân hàng
+  aliases:
+  - hệ thống tài khoản kế toán các tổ chức tín dụng
+  same_as: he-thong-tk-ngan-hang
+  chapter: 1
+  topic: '1.4'
+  source_refs:
+  - source_id: src-0263
+    page: 1
+  - source_id: src-0263
+    page: 3
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: ktnh-chung-tu-ke-toan
+  canonical_name: Chứng từ kế toán
+  aliases: []
+  same_as: null
+  chapter: 1
+  topic: '1.5'
+  source_refs:
+  - source_id: src-0264
+    page: 1
+  - source_id: src-0264
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: ktnh-ke-toan-nghiep-vu-tien-mat
+  canonical_name: Kế toán nghiệp vụ tiền mặt
+  aliases:
+  - tiền mặt tại đơn vị
+  - thu/chi tiền mặt
+  same_as: null
+  chapter: 2
+  topic: '2.1'
+  source_refs:
+  - source_id: src-0265
+    page: 1
+  - source_id: src-0265
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: ktnh-tien-gui-tai-ngan-hang-nha-nuoc
+  canonical_name: Tiền gửi tại Ngân hàng Nhà nước
+  aliases:
+  - tiền gửi tại tổ chức tín dụng
+  same_as: null
+  chapter: 2
+  topic: '2.2'
+  source_refs:
+  - source_id: src-0266
+    page: 1
+  - source_id: src-0266
+    page: 3
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: ktnh-nguon-huy-dong-von
+  canonical_name: Nguồn huy động vốn
+  aliases:
+  - huy động vốn
+  same_as: huy-dong-von
+  chapter: 3
+  topic: '3.1'
+  source_refs:
+  - source_id: src-0267
+    page: 1
+  - source_id: src-0267
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: ktnh-tien-gui-tiet-kiem
+  canonical_name: Tiền gửi tiết kiệm
+  aliases: []
+  same_as: null
+  chapter: 3
+  topic: '3.2'
+  source_refs:
+  - source_id: src-0268
+    page: 1
+  - source_id: src-0268
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: ktnh-phat-hanh-giay-to-co-gia
+  canonical_name: Phát hành giấy tờ có giá
+  aliases:
+  - giấy tờ có giá
+  - chiết khấu giấy tờ có giá
+  same_as: null
+  chapter: 3
+  topic: '3.3'
+  source_refs:
+  - source_id: src-0269
+    page: 1
+  - source_id: src-0270
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: ktnh-hinh-thuc-thanh-toan-khong-dung-tien-mat
+  canonical_name: Hình thức thanh toán không dùng tiền mặt
+  aliases: []
+  same_as: null
+  chapter: 4
+  topic: '4.1'
+  source_refs:
+  - source_id: src-0271
+    page: 1
+  - source_id: src-0271
+    page: 3
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: ktnh-phuong-thuc-thanh-toan-qua-ngan-hang
+  canonical_name: Phương thức thanh toán qua ngân hàng
+  aliases:
+  - ủy nhiệm chi
+  same_as: null
+  chapter: 4
+  topic: '4.2'
+  source_refs:
+  - source_id: src-0272
+    page: 1
+  - source_id: src-0272
+    page: 6
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: ktnh-he-thong-thanh-toan-qua-ngan-hang
+  canonical_name: Hệ thống thanh toán qua ngân hàng
+  aliases: []
+  same_as: null
+  chapter: 4
+  topic: '4.3'
+  source_refs:
+  - source_id: src-0273
+    page: 1
+  - source_id: src-0051
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: ktnh-thanh-toan-lien-ngan-hang
+  canonical_name: Thanh toán liên ngân hàng
+  aliases:
+  - thanh toán bù trừ
+  same_as: null
+  chapter: 4
+  topic: '4.5'
+  source_refs:
+  - source_id: src-0275
+    page: 1
+  - source_id: src-0276
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: ktnh-cap-tin-dung
+  canonical_name: Cấp tín dụng
+  aliases: []
+  same_as: cap-tin-dung
+  chapter: 5
+  topic: '5.1'
+  source_refs:
+  - source_id: src-0277
+    page: 1
+  - source_id: src-0277
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: ktnh-nghiep-vu-cho-vay
+  canonical_name: Nghiệp vụ cho vay
+  aliases:
+  - nợ trong hạn
+  - hợp đồng tín dụng
+  same_as: cho-vay
+  chapter: 5
+  topic: '5.2'
+  source_refs:
+  - source_id: src-0278
+    page: 1
+  - source_id: src-0278
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: ktnh-nghiep-vu-tin-dung-khac
+  canonical_name: Nghiệp vụ tín dụng khác
+  aliases:
+  - bảo lãnh ngân hàng
+  same_as: null
+  chapter: 5
+  topic: '5.3'
+  source_refs:
+  - source_id: src-0279
+    page: 1
+  - source_id: src-0279
+    page: 3
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: ktnh-dau-tu-va-kinh-doanh-chung-khoan
+  canonical_name: Đầu tư và kinh doanh chứng khoán
+  aliases: []
+  same_as: ktnh-dau-tu-chung-khoan
+  chapter: 6
+  topic: '6.1'
+  source_refs:
+  - source_id: src-0280
+    page: 1
+  - source_id: src-0280
+    page: 4
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: ktnh-chung-khoan-kinh-doanh
+  canonical_name: Chứng khoán kinh doanh
+  aliases: []
+  same_as: null
+  chapter: 6
+  topic: '6.2'
+  source_refs:
+  - source_id: src-0281
+    page: 1
+  - source_id: src-0281
+    page: 3
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: ktnh-chung-khoan-san-sang-de-ban
+  canonical_name: Chứng khoán sẵn sàng để bán
+  aliases: []
+  same_as: null
+  chapter: 6
+  topic: '6.3'
+  source_refs:
+  - source_id: src-0282
+    page: 1
+  - source_id: src-0283
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: ktnh-chung-khoan-giu-den-ngay-dao-han
+  canonical_name: Chứng khoán giữ đến ngày đáo hạn
+  aliases: []
+  same_as: null
+  chapter: 6
+  topic: '6.4'
+  source_refs:
+  - source_id: src-0285
+    page: 1
+  - source_id: src-0286
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: ktnh-kinh-doanh-ngoai-te-va-thanh-toan-quoc-te
+  canonical_name: Kinh doanh ngoại tệ và thanh toán quốc tế
+  aliases: []
+  same_as: ktnh-ngoai-te
+  chapter: 7
+  topic: '7.1'
+  source_refs:
+  - source_id: src-0288
+    page: 1
+  - source_id: src-0289
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: ktnh-mua-ban-ngoai-te-giao-ngay
+  canonical_name: Mua bán ngoại tệ giao ngay
+  aliases: []
+  same_as: null
+  chapter: 7
+  topic: '7.2'
+  source_refs:
+  - source_id: src-0290
+    page: 1
+  - source_id: src-0290
+    page: 4
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: ktnh-giao-dich-tien-te-ky-han
+  canonical_name: Giao dịch tiền tệ kỳ hạn
+  aliases:
+  - forward
+  same_as: null
+  chapter: 7
+  topic: '7.3'
+  source_refs:
+  - source_id: src-0291
+    page: 1
+  - source_id: src-0292
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: ktnh-thanh-toan-quoc-te-chuyen-tien-va-nho-thu
+  canonical_name: Thanh toán quốc tế chuyển tiền và nhờ thu
+  aliases:
+  - nhờ thu
+  same_as: null
+  chapter: 7
+  topic: '7.4'
+  source_refs:
+  - source_id: src-0293
+    page: 1
+  - source_id: src-0293
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: ktnh-tin-dung-chung-tu
+  canonical_name: Tín dụng chứng từ
+  aliases:
+  - thư tín dụng
+  same_as: null
+  chapter: 7
+  topic: '7.5'
+  source_refs:
+  - source_id: src-0294
+    page: 1
+  - source_id: src-0294
+    page: 7
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: ktnh-thu-nhap-va-chi-phi
+  canonical_name: Thu nhập và chi phí
+  aliases: []
+  same_as: null
+  chapter: 8
+  topic: '8.1'
+  source_refs:
+  - source_id: src-0295
+    page: 1
+  - source_id: src-0295
+    page: 5
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: ktnh-ke-toan-thu-nhap
+  canonical_name: Kế toán thu nhập
+  aliases: []
+  same_as: null
+  chapter: 8
+  topic: '8.2'
+  source_refs:
+  - source_id: src-0296
+    page: 1
+  - source_id: src-0257
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: ktnh-xac-dinh-ket-qua-kinh-doanh
+  canonical_name: Xác định kết quả kinh doanh
+  aliases: []
+  same_as: null
+  chapter: 8
+  topic: '8.4'
+  source_refs:
+  - source_id: src-0298
+    page: 1
+  - source_id: src-0298
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: ktnh-trinh-bay-bao-cao-tai-chinh-trong-ngan-hang-thuong-mai
+  canonical_name: Trình bày báo cáo tài chính trong ngân hàng thương mại
+  aliases:
+  - bảng cân đối kế toán
+  - báo cáo kết quả hoạt động kinh doanh
+  same_as: ktnh-bctc-ngan-hang
+  chapter: 9
+  topic: '9.1'
+  source_refs:
+  - source_id: src-0299
+    page: 1
+  - source_id: src-0299
+    page: 4
+  evidence_status: OBSERVED
+  confidence: high
+account_map:
+  '101': ktnh-ke-toan-nghiep-vu-tien-mat
+  '1011': ktnh-ke-toan-nghiep-vu-tien-mat
+  '1013': ktnh-ke-toan-nghiep-vu-tien-mat
+  '1019': ktnh-ke-toan-nghiep-vu-tien-mat
+  '3614': ktnh-ke-toan-nghiep-vu-tien-mat
+  '461': ktnh-ke-toan-nghiep-vu-tien-mat
+  '111': ktnh-tien-gui-tai-ngan-hang-nha-nuoc
+  '1113': ktnh-tien-gui-tai-ngan-hang-nha-nuoc
+  '1311': ktnh-tien-gui-tai-ngan-hang-nha-nuoc
+  '1312': ktnh-tien-gui-tai-ngan-hang-nha-nuoc
+  '1331': ktnh-tien-gui-tai-ngan-hang-nha-nuoc
+  '4211': ktnh-tien-gui-tiet-kiem
+  '4221': ktnh-tien-gui-tiet-kiem
+  '4232': ktnh-tien-gui-tiet-kiem
+  '4913': ktnh-tien-gui-tiet-kiem
+  '431': ktnh-phat-hanh-giay-to-co-gia
+  '432': ktnh-phat-hanh-giay-to-co-gia
+  '433': ktnh-phat-hanh-giay-to-co-gia
+  '4921': ktnh-phat-hanh-giay-to-co-gia
+  '803': ktnh-phat-hanh-giay-to-co-gia
+  '4271': ktnh-phuong-thuc-thanh-toan-qua-ngan-hang
+  '5191': ktnh-phuong-thuc-thanh-toan-qua-ngan-hang
+  '5192': ktnh-phuong-thuc-thanh-toan-qua-ngan-hang
+  '4599': ktnh-phuong-thuc-thanh-toan-qua-ngan-hang
+  '5012': ktnh-thanh-toan-lien-ngan-hang
+  '2111': ktnh-nghiep-vu-cho-vay
+  '2112': ktnh-nghiep-vu-cho-vay
+  '2192': ktnh-nghiep-vu-cho-vay
+  '221': ktnh-nghiep-vu-cho-vay
+  '3941': ktnh-nghiep-vu-cho-vay
+  '702': ktnh-nghiep-vu-cho-vay
+  '925': ktnh-nghiep-vu-tin-dung-khac
+  '994': ktnh-nghiep-vu-tin-dung-khac
+  '387': ktnh-nghiep-vu-tin-dung-khac
+  '392': ktnh-dau-tu-va-kinh-doanh-chung-khoan
+  '703': ktnh-dau-tu-va-kinh-doanh-chung-khoan
+  '153': ktnh-chung-khoan-kinh-doanh
+  '741': ktnh-chung-khoan-kinh-doanh
+  '841': ktnh-chung-khoan-kinh-doanh
+  '3922': ktnh-chung-khoan-san-sang-de-ban
+  '163': ktnh-chung-khoan-giu-den-ngay-dao-han
+  '3923': ktnh-chung-khoan-giu-den-ngay-dao-han
+  '1031': ktnh-kinh-doanh-ngoai-te-va-thanh-toan-quoc-te
+  '6311': ktnh-kinh-doanh-ngoai-te-va-thanh-toan-quoc-te
+  '821': ktnh-kinh-doanh-ngoai-te-va-thanh-toan-quoc-te
+  '4711': ktnh-mua-ban-ngoai-te-giao-ngay
+  '4712': ktnh-mua-ban-ngoai-te-giao-ngay
+  '4741': ktnh-giao-dich-tien-te-ky-han
+  '4742': ktnh-giao-dich-tien-te-ky-han
+  '4861': ktnh-giao-dich-tien-te-ky-han
+  '4862': ktnh-giao-dich-tien-te-ky-han
+  '723': ktnh-giao-dich-tien-te-ky-han
+  '823': ktnh-giao-dich-tien-te-ky-han
+  '6322': ktnh-giao-dich-tien-te-ky-han
+  '6332': ktnh-giao-dich-tien-te-ky-han
+  '455': ktnh-thanh-toan-quoc-te-chuyen-tien-va-nho-thu
+  '9122': ktnh-thanh-toan-quoc-te-chuyen-tien-va-nho-thu
+  '9123': ktnh-thanh-toan-quoc-te-chuyen-tien-va-nho-thu
+  '9124': ktnh-thanh-toan-quoc-te-chuyen-tien-va-nho-thu
+  '4282': ktnh-tin-dung-chung-tu
+  '488': ktnh-thu-nhap-va-chi-phi
+  '388': ktnh-thu-nhap-va-chi-phi
+  '711': ktnh-ke-toan-thu-nhap
+  '801': ktnh-ke-toan-thu-nhap
+  '691': ktnh-xac-dinh-ket-qua-kinh-doanh
+  '692': ktnh-xac-dinh-ket-qua-kinh-doanh
+  '4534': ktnh-xac-dinh-ket-qua-kinh-doanh
+edges: []
+conflicts:
+- type: SOURCE_VINTAGE
+  note: src-0047 chart of accounts is from QĐ 479/2004/QĐ-NHNN (labelled tài liệu tham khảo); current status to be checked
+    in Wave 5
+  source_ids:
+  - src-0047
+  evidence_status: OBSERVED

@@ -1,0 +1,38 @@
+{
+  "index_version": "3.0.0",
+  "chunking_version": "2.0.0",
+  "extract_version": "3.0.0",
+  "build_date": "2026-10-11T05:06:38.352316+00:00",
+  "chunk_count": 307,
+  "vocab_size": 2083,
+  "avgdl": 158.57980456026058,
+  "k1": 1.5,
+  "b": 0.75,
+  "courses": [
+    "ke-toan-chi-phi",
+    "kiem-toan-1",
+    "ngan-hang-thuong-mai",
+    "tai-chinh-doanh-nghiep-1"
+  ],
+  "source_hashes": [
+    "29239986e18c64916be865b1f531242be07477f5047d3dc0c5ac5a094c022fec",
+    "3f2f699a9843a386658ff979e72036dcd7030dcebfd50eff4a9dbd8425b7b79e",
+    "642f8ee7ebf9b9674a8ff2a471cf2ed168bdfb6d4f2ae53fa23083380c6cb5d0",
+    "74d8b3a08754ec6ccf7fd8d73a8b1f6ba568c38133f39f688e01b366ac5ed8e3",
+    "8b955845b01244ef02be1c7e0600f5a02b505929efdfeafce8cd31f6211a3180",
+    "aa0040d27d407ced4c0cfed10b8ad9206adb1e6a08ee9fd5da40e924775cb7cc",
+    "ad44b83db39bd8c2087fa0c8b0e2cbdcf94212d76065ff6bc001f57d54426784",
+    "b1a5af4a69eb69c3f1fb80eb3cf168a890791b372ebed80c574412d9b29c0f60",
+    "b4bba2cebfd2844e8529238d59d5684c66252b360d33ebdc8e73bba9bde3aefd",
+    "c5613514204989fe0fb35162d20c9453f837f268bb8796d1279d53560a261f08",
+    "e78a5966b82f1616a89935d4e337df69b2fe8efc14e702dd5e9926d6768a68a6",
+    "edba24e3f3217d015999c1a578859a59723cd0ddbfe43255a5228941e3f9d4b8",
+    "fe27e0154165efc1ce76167d700770d94490524753e716082c449fd68009bd16"
+  ],
+  "embedding": null,
+  "lexical": "bm25",
+  "semantic": "tfidf_cosine_numpy",
+  "concept_registry_version": "0.1.0",
+  "partition": "learner_notes",
+  "concept_table_version": null
+}

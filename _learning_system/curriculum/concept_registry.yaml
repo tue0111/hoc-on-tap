@@ -1,0 +1,646 @@
+registry_id: concept-registry
+version: "0.1.0"
+layer: curriculum
+policy: >
+  High-value structural concepts only (syllabus, TOC, headings, learning
+  objectives, recurring terms). Prerequisites live in concept_graph.yaml.
+  Aliases are from the corpus, not imported English textbooks.
+source_scans: curriculum/course_manifests/
+
+concepts:
+  - concept_id: ke-toan-he-thong-thong-tin
+    canonical_name: Kế toán như hệ thống thông tin
+    aliases: [bản chất của kế toán, khái niệm kế toán]
+    courses: [nguyen-ly-ke-toan, ke-toan-tai-chinh-1, kinh-doanh-va-nghiep-vu]
+    source_refs: [src-0094, src-0060, src-0016]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - concept_id: linh-vuc-ke-toan
+    canonical_name: Các lĩnh vực kế toán
+    aliases: [kế toán tài chính, kế toán quản trị]
+    courses: [nguyen-ly-ke-toan, kinh-doanh-va-nghiep-vu]
+    source_refs: [src-0095, src-0018, src-0019]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - concept_id: bao-cao-tai-chinh
+    canonical_name: Báo cáo tài chính
+    aliases: [BCTC, financial statements]
+    courses: [nguyen-ly-ke-toan, ke-toan-tai-chinh-1, kiem-toan-1]
+    source_refs: [src-0097, src-0060, src-0037]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - concept_id: bang-can-doi-ke-toan
+    canonical_name: Bảng cân đối kế toán
+    aliases: [BCĐKT]
+    courses: [nguyen-ly-ke-toan, ke-toan-tai-chinh-1]
+    source_refs: [src-0098, src-0103, src-0058]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - concept_id: bao-cao-kqkd
+    canonical_name: Báo cáo kết quả hoạt động kinh doanh
+    aliases: [BCKQKD, BCKQHĐKD]
+    courses: [nguyen-ly-ke-toan, ke-toan-tai-chinh-1]
+    source_refs: [src-0100, src-0058]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - concept_id: bao-cao-lctt
+    canonical_name: Báo cáo lưu chuyển tiền tệ
+    aliases: [BCLCTT]
+    courses: [nguyen-ly-ke-toan, ke-toan-tai-chinh-1]
+    source_refs: [src-0101, src-0058]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - concept_id: thuyet-minh-bctc
+    canonical_name: Bản thuyết minh báo cáo tài chính
+    aliases: []
+    courses: [nguyen-ly-ke-toan]
+    source_refs: [src-0102]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - concept_id: phuong-trinh-ke-toan
+    canonical_name: Phương trình kế toán
+    aliases: ["Tài sản = Nợ phải trả + Vốn chủ sở hữu"]
+    courses: [nguyen-ly-ke-toan]
+    source_refs: [src-0103, src-0106, src-0107]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - concept_id: phuong-trinh-ke-toan-mo-rong
+    canonical_name: Phương trình kế toán mở rộng
+    aliases: []
+    courses: [nguyen-ly-ke-toan]
+    source_refs: [src-0103]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - concept_id: nguyen-tac-ke-toan
+    canonical_name: Nguyên tắc và giả định kế toán
+    aliases: [chuẩn mực chung]
+    courses: [nguyen-ly-ke-toan, ke-toan-tai-chinh-1]
+    source_refs: [src-0104, src-0105, src-0058]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - concept_id: co-so-don-tich
+    canonical_name: Cơ sở dồn tích
+    aliases: []
+    courses: [nguyen-ly-ke-toan]
+    source_refs: [src-0106, src-0112, src-0115]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - concept_id: nguyen-tac-phu-hop
+    canonical_name: Nguyên tắc phù hợp
+    aliases: []
+    courses: [nguyen-ly-ke-toan]
+    source_refs: [src-0106, src-0110]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - concept_id: tai-khoan-ke-toan
+    canonical_name: Tài khoản kế toán
+    aliases: [T-account, kết cấu tài khoản]
+    courses: [nguyen-ly-ke-toan, ke-toan-tai-chinh-1]
+    source_refs: [src-0106, src-0058]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - concept_id: no-co
+    canonical_name: Bên Nợ và bên Có
+    aliases: [ghi Nợ, ghi Có]
+    courses: [nguyen-ly-ke-toan]
+    source_refs: [src-0106]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - concept_id: ghi-so-kep
+    canonical_name: Ghi sổ kép
+    aliases: []
+    courses: [nguyen-ly-ke-toan]
+    source_refs: [src-0107]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - concept_id: dinh-khoan
+    canonical_name: Định khoản kế toán
+    aliases: [bút toán]
+    courses: [nguyen-ly-ke-toan, ke-toan-tai-chinh-1, ke-toan-tai-chinh-2]
+    source_refs: [src-0107, src-0058, src-0075]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - concept_id: kiem-tra-doi-chieu
+    canonical_name: Kiểm tra đối chiếu
+    aliases: [bảng tổng hợp tài khoản]
+    courses: [nguyen-ly-ke-toan]
+    source_refs: [src-0109, src-0107]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - concept_id: but-toan-dieu-chinh
+    canonical_name: Bút toán điều chỉnh
+    aliases: []
+    courses: [nguyen-ly-ke-toan]
+    source_refs: [src-0115]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - concept_id: chi-phi-tra-truoc
+    canonical_name: Chi phí trả trước và doanh thu chưa thực hiện
+    aliases: []
+    courses: [nguyen-ly-ke-toan]
+    source_refs: [src-0110]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - concept_id: khau-hao
+    canonical_name: Khấu hao tài sản cố định
+    aliases: []
+    courses: [nguyen-ly-ke-toan, ke-toan-tai-chinh-2]
+    source_refs: [src-0111, src-0069, src-0075]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - concept_id: ket-chuyen
+    canonical_name: Kết chuyển xác định kết quả kinh doanh
+    aliases: []
+    courses: [nguyen-ly-ke-toan]
+    source_refs: [src-0113]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - concept_id: chung-tu-ke-toan
+    canonical_name: Chứng từ kế toán
+    aliases: []
+    courses: [nguyen-ly-ke-toan]
+    source_refs: [src-0116]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - concept_id: so-sach-ke-toan
+    canonical_name: Sổ sách kế toán
+    aliases: [nhật ký chung, sổ cái]
+    courses: [nguyen-ly-ke-toan, ke-toan-tai-chinh-1]
+    source_refs: [src-0117, src-0058]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - concept_id: tt200
+    canonical_name: Hệ thống tài khoản kế toán Việt Nam (Thông tư 200/2014/TT-BTC)
+    aliases: [TT 200]
+    courses: [ke-toan-tai-chinh-1, ke-toan-tai-chinh-2]
+    source_refs: [src-0058, src-0075]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - concept_id: tien-va-tuong-duong-tien
+    canonical_name: Tiền và tương đương tiền
+    aliases: ["TK 111", "TK 112", "TK 113"]
+    courses: [ke-toan-tai-chinh-1]
+    source_refs: [src-0058, src-0061]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - concept_id: no-phai-thu
+    canonical_name: Nợ phải thu
+    aliases: ["TK 131", "TK 136", "TK 138", "TK 141", "TK 2293"]
+    courses: [ke-toan-tai-chinh-1]
+    source_refs: [src-0058, src-0061]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - concept_id: hang-ton-kho
+    canonical_name: Hàng tồn kho
+    aliases: [HTK, "TK 151–157", "TK 2294"]
+    courses: [ke-toan-tai-chinh-1]
+    source_refs: [src-0058, src-0062]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - concept_id: kktx-kkdk
+    canonical_name: Kê khai thường xuyên và kiểm kê định kỳ
+    aliases: []
+    courses: [ke-toan-tai-chinh-1]
+    source_refs: [src-0058]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - concept_id: pp-tinh-gia-xuat-kho
+    canonical_name: Phương pháp tính giá xuất kho
+    aliases: [bình quân gia quyền, FIFO, giá thực tế đích danh]
+    courses: [ke-toan-tai-chinh-1]
+    source_refs: [src-0058]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - concept_id: tscd
+    canonical_name: Tài sản cố định
+    aliases: [TSCĐ hữu hình, TSCĐ vô hình]
+    courses: [ke-toan-tai-chinh-2]
+    source_refs: [src-0069]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - concept_id: no-phai-tra
+    canonical_name: Nợ phải trả
+    aliases: []
+    courses: [ke-toan-tai-chinh-2]
+    source_refs: [src-0070, src-0069]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - concept_id: von-chu-so-huu
+    canonical_name: Vốn chủ sở hữu
+    aliases: [VCSH]
+    courses: [ke-toan-tai-chinh-2]
+    source_refs: [src-0069, src-0303]
+    confidence: high
+    evidence_status: OBSERVED
+    note: >
+      Phase 2.1: chapter file now present (Kế toán tài chính 2/Chương 3.pdf, src-0303).
+      Previously advertised-only in KTTC2 Chương 0.
+
+  - concept_id: doi-tuong-chiu-chi-phi
+    canonical_name: Đối tượng chịu chi phí
+    aliases: []
+    courses: [ke-toan-chi-phi]
+    source_refs: [src-0042, src-0043]
+    confidence: high
+    evidence_status: OBSERVED
+    note: English "cost object" not observed in extracts.
+
+  - concept_id: chi-phi-truc-tiep
+    canonical_name: Chi phí trực tiếp
+    aliases: [NVLTT, NCTT]
+    courses: [ke-toan-chi-phi]
+    source_refs: [src-0043, src-0044]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - concept_id: chi-phi-gian-tiep
+    canonical_name: Chi phí gián tiếp
+    aliases: [SXC]
+    courses: [ke-toan-chi-phi]
+    source_refs: [src-0043]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - concept_id: phan-bo-chi-phi
+    canonical_name: Phân bổ chi phí
+    aliases: [cơ sở phân bổ]
+    courses: [ke-toan-chi-phi]
+    source_refs: [src-0043, src-0042]
+    confidence: high
+    evidence_status: OBSERVED
+    note: Dedicated Ch6 announced; file missing. Term appears in Ch2.
+
+  - concept_id: ktcp-theo-cong-viec
+    canonical_name: Kế toán chi phí theo công việc
+    aliases: []
+    courses: [ke-toan-chi-phi]
+    source_refs: [src-0044, src-0042]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - concept_id: ktcp-theo-quy-trinh
+    canonical_name: Kế toán chi phí theo quy trình
+    aliases: [theo quá trình]
+    courses: [ke-toan-chi-phi]
+    source_refs: [src-0045, src-0042]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - concept_id: gia-thanh
+    canonical_name: Giá thành
+    aliases: [giá thành thực tế, giá thành định mức]
+    courses: [ke-toan-chi-phi]
+    source_refs: [src-0042, src-0043]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - concept_id: kiem-toan
+    canonical_name: Kiểm toán
+    aliases: [kiểm toán độc lập, kiểm toán BCTC]
+    courses: [kiem-toan-1, kinh-doanh-va-nghiep-vu]
+    source_refs: [src-0038, src-0022]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - concept_id: kiem-soat-noi-bo
+    canonical_name: Kiểm soát nội bộ
+    aliases: [KSNB]
+    courses: [kiem-toan-1, kinh-doanh-va-nghiep-vu]
+    source_refs: [src-0039, src-0021]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - concept_id: gian-lan-bctc
+    canonical_name: Gian lận báo cáo tài chính
+    aliases: [gian lận]
+    courses: [kiem-toan-1, kinh-doanh-va-nghiep-vu]
+    source_refs: [src-0041, src-0023]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - concept_id: dao-duc-nghe-nghiep-ke-toan
+    canonical_name: Đạo đức nghề nghiệp kế toán / kiểm toán
+    aliases: []
+    courses: [kinh-doanh-va-nghiep-vu, kiem-toan-1]
+    source_refs: [src-0015, src-0040]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - concept_id: nhtm
+    canonical_name: Ngân hàng thương mại
+    aliases: [NHTM]
+    courses: [ngan-hang-thuong-mai]
+    source_refs: [src-0121, src-0122]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - concept_id: huy-dong-von
+    canonical_name: Huy động vốn
+    aliases: [tiền gửi, giấy tờ có giá]
+    courses: [ngan-hang-thuong-mai, ke-toan-ngan-hang]
+    source_refs: [src-0123, src-0050]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - concept_id: cap-tin-dung
+    canonical_name: Cấp tín dụng
+    aliases: []
+    courses: [ngan-hang-thuong-mai, ke-toan-ngan-hang]
+    source_refs: [src-0124, src-0052]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - concept_id: cho-vay
+    canonical_name: Nghiệp vụ cho vay
+    aliases: []
+    courses: [ngan-hang-thuong-mai]
+    source_refs: [src-0125, src-0121]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - concept_id: he-thong-tk-ngan-hang
+    canonical_name: Hệ thống tài khoản kế toán ngân hàng
+    aliases: []
+    courses: [ke-toan-ngan-hang]
+    source_refs: [src-0047, src-0048]
+    confidence: medium
+    evidence_status: OBSERVED
+    note: DOCX table extract is thin (174 chars).
+
+  - concept_id: thi-truong-tai-chinh
+    canonical_name: Thị trường tài chính
+    aliases: [TTTC]
+    courses: [thi-truong-tai-chinh]
+    source_refs: [src-0141]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - concept_id: thi-truong-trai-phieu
+    canonical_name: Thị trường trái phiếu
+    aliases: []
+    courses: [thi-truong-tai-chinh]
+    source_refs: [src-0143]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - concept_id: thi-truong-co-phieu
+    canonical_name: Thị trường cổ phiếu
+    aliases: []
+    courses: [thi-truong-tai-chinh]
+    source_refs: [src-0144]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - concept_id: thi-truong-ngoai-hoi
+    canonical_name: Thị trường ngoại hối
+    aliases: []
+    courses: [thi-truong-tai-chinh]
+    source_refs: [src-0145]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - concept_id: thi-truong-phai-sinh
+    canonical_name: Thị trường tài chính phái sinh
+    aliases: []
+    courses: [thi-truong-tai-chinh]
+    source_refs: [src-0146]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - concept_id: thoi-gia-tien-te
+    canonical_name: Thời giá của tiền tệ và mô hình chiết khấu dòng tiền
+    aliases: [TVM]
+    courses: [tai-chinh-doanh-nghiep-1]
+    source_refs: [src-0155, src-0158]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - concept_id: capm
+    canonical_name: Mô hình định giá tài sản vốn (CAPM)
+    aliases: [lợi nhuận và rủi ro]
+    courses: [tai-chinh-doanh-nghiep-1]
+    source_refs: [src-0155, src-0159]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - concept_id: chi-phi-su-dung-von
+    canonical_name: Chi phí sử dụng vốn
+    aliases: [chi phí vốn]
+    courses: [tai-chinh-doanh-nghiep-1]
+    source_refs: [src-0155, src-0161]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - concept_id: phan-tich-bctc
+    canonical_name: Phân tích báo cáo tài chính
+    aliases: []
+    courses: [tai-chinh-doanh-nghiep-1]
+    source_refs: [src-0155, src-0157]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - concept_id: don-bay
+    canonical_name: Đòn bẩy kinh doanh và đòn bẩy tài chính
+    aliases: []
+    courses: [tai-chinh-doanh-nghiep-1]
+    source_refs: [src-0155, src-0163]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - concept_id: nsnn
+    canonical_name: Ngân sách nhà nước
+    aliases: [NSNN]
+    courses: [tai-chinh-hanh-chinh-su-nghiep]
+    source_refs: [src-0179]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - concept_id: tu-chu-tai-chinh-hcsn
+    canonical_name: Cơ chế tự chủ, tự chịu trách nhiệm
+    aliases: []
+    courses: [tai-chinh-hanh-chinh-su-nghiep]
+    source_refs: [src-0180]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - concept_id: tai-san-cong
+    canonical_name: Quản lý sử dụng tài sản công
+    aliases: []
+    courses: [tai-chinh-hanh-chinh-su-nghiep]
+    source_refs: [src-0183]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - concept_id: loai-hinh-kinh-doanh
+    canonical_name: Loại hình tổ chức kinh doanh
+    aliases: [chủ thể kinh doanh]
+    courses: [kinh-doanh-va-nghiep-vu, luat-kinh-doanh]
+    source_refs: [src-0001, src-0077]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - concept_id: hop-dong-thuong-mai
+    canonical_name: Hợp đồng thương mại
+    aliases: []
+    courses: [luat-kinh-doanh]
+    source_refs: [src-0077]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - concept_id: pha-san
+    canonical_name: Pháp luật về phá sản
+    aliases: []
+    courses: [luat-kinh-doanh]
+    source_refs: [src-0077]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - concept_id: tranh-chap-thuong-mai
+    canonical_name: Giải quyết tranh chấp thương mại
+    aliases: [trọng tài thương mại]
+    courses: [luat-kinh-doanh]
+    source_refs: [src-0077]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - concept_id: chuan-muc-ke-toan
+    canonical_name: Chuẩn mực kế toán và khung pháp lý
+    aliases: [VAS, luật kế toán]
+    courses: [kinh-doanh-va-nghiep-vu, ke-toan-tai-chinh-1]
+    source_refs: [src-0017, src-0060]
+    confidence: high
+    evidence_status: OBSERVED
+    note: Keep lecturer citations as curriculum; do not merge later IFRS/VAS research into this node.
+
+  # --- Phase 2.1 additions (new chapter files; mapped to existing ids where possible) ---
+  - concept_id: kttc2-xac-dinh-kqkd
+    canonical_name: Kế toán xác định kết quả hoạt động kinh doanh
+    aliases: [KQKD]
+    courses: [ke-toan-tai-chinh-2]
+    source_refs: [src-0304, src-0069]
+    confidence: high
+    evidence_status: OBSERVED
+    added_in: "2.1"
+    note: Chapter file Chương 4.pdf now present. Advertised in KTTC2 Chương 0 (src-0069).
+
+  - concept_id: ktcp-dinh-muc
+    canonical_name: Kế toán chi phí theo định mức
+    aliases: [chi phí định mức]
+    courses: [ke-toan-chi-phi]
+    source_refs: [src-0221, src-0042]
+    confidence: high
+    evidence_status: OBSERVED
+    added_in: "2.1"
+    note: Chapter 5 file now present. Related existing id gia-thanh-dinh-muc.
+
+  - concept_id: ktcp-gia-thanh-quyet-dinh
+    canonical_name: Ảnh hưởng của phương pháp giá thành tới quyết định quản trị
+    aliases: [giá thành khả biến, giá thành sản xuất]
+    courses: [ke-toan-chi-phi]
+    source_refs: [src-0223, src-0042]
+    confidence: high
+    evidence_status: OBSERVED
+    added_in: "2.1"
+
+  - concept_id: trong-yeu-kiem-toan
+    canonical_name: Trọng yếu
+    aliases: [materiality]
+    courses: [kiem-toan-1]
+    source_refs: [src-0193]
+    confidence: high
+    evidence_status: OBSERVED
+    added_in: "2.1"
+
+  - concept_id: rui-ro-kiem-toan
+    canonical_name: Rủi ro kiểm toán
+    aliases: []
+    courses: [kiem-toan-1]
+    source_refs: [src-0193]
+    confidence: high
+    evidence_status: OBSERVED
+    added_in: "2.1"
+
+  - concept_id: bang-chung-kiem-toan
+    canonical_name: Bằng chứng kiểm toán
+    aliases: []
+    courses: [kiem-toan-1]
+    source_refs: [src-0194]
+    confidence: high
+    evidence_status: OBSERVED
+    added_in: "2.1"
+
+  - concept_id: hoan-thanh-kiem-toan
+    canonical_name: Hoàn thành kiểm toán
+    aliases: [báo cáo kiểm toán]
+    courses: [kiem-toan-1]
+    source_refs: [src-0195, src-0196]
+    confidence: high
+    evidence_status: OBSERVED
+    added_in: "2.1"
+    note: >
+      Chapter script title is Hoàn thành kiểm toán (src-0195).
+      Ôn tập lists the same unit as Báo cáo kiểm toán (src-0196). TITLE_VARIANT, not a graph overwrite.
+
+  - concept_id: ktnh-dau-tu-chung-khoan
+    canonical_name: Kế toán nghiệp vụ đầu tư và kinh doanh chứng khoán
+    aliases: [chứng khoán kinh doanh, chứng khoán sẵn sàng để bán, chứng khoán giữ đến ngày đáo hạn]
+    courses: [ke-toan-ngan-hang]
+    source_refs: [src-0255]
+    confidence: high
+    evidence_status: OBSERVED
+    added_in: "2.1"
+
+  - concept_id: ktnh-ngoai-te
+    canonical_name: Kế toán kinh doanh ngoại tệ và thanh toán quốc tế
+    aliases: []
+    courses: [ke-toan-ngan-hang]
+    source_refs: [src-0256]
+    confidence: high
+    evidence_status: OBSERVED
+    added_in: "2.1"
+
+  - concept_id: ktnh-bctc-ngan-hang
+    canonical_name: Báo cáo tài chính ngân hàng thương mại
+    aliases: []
+    courses: [ke-toan-ngan-hang]
+    source_refs: [src-0258]
+    confidence: high
+    evidence_status: OBSERVED
+    added_in: "2.1"
+
+id_uniqueness_check: parent_validated_phase_0_1_and_2_1
+alias_conflicts:
+  - alias: "Kế toán và doanh nghiệp"
+    conflict: observed as an alternate title inside KDNV intro script vs folder name Kinh doanh và nghiệp vụ
+    resolution: keep folder name as course_name; alias recorded on the course, not as a separate concept

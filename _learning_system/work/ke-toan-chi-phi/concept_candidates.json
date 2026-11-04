@@ -1,0 +1,1125 @@
+{
+  "course_id": "ke-toan-chi-phi",
+  "unit_titles": [
+    {
+      "source_id": "src-0225",
+      "chapter": 1,
+      "topic": "1.1",
+      "title_from_filename": "CHUONG 1 CHU DE 1 P 1",
+      "page": 1
+    },
+    {
+      "source_id": "src-0226",
+      "chapter": 1,
+      "topic": "1.1",
+      "title_from_filename": "CHUONG 1 CHU DE 1 P2",
+      "page": 1
+    },
+    {
+      "source_id": "src-0227",
+      "chapter": 1,
+      "topic": "1.2",
+      "title_from_filename": "CHUONG 1 CHU DE 2 P1",
+      "page": 1
+    },
+    {
+      "source_id": "src-0228",
+      "chapter": 1,
+      "topic": "1.2",
+      "title_from_filename": "CHUONG 1 CHU DE 2 P2",
+      "page": 1
+    },
+    {
+      "source_id": "src-0229",
+      "chapter": 3,
+      "topic": "3.1",
+      "title_from_filename": "CHUONG 3 CHU DE 1 P1",
+      "page": 1
+    },
+    {
+      "source_id": "src-0230",
+      "chapter": 3,
+      "topic": "3.1",
+      "title_from_filename": "CHUONG 3 CHU DE 1 P2",
+      "page": 1
+    },
+    {
+      "source_id": "src-0231",
+      "chapter": 3,
+      "topic": "3.2",
+      "title_from_filename": "CHUONG 3 CHU DE 2 P1",
+      "page": 1
+    },
+    {
+      "source_id": "src-0232",
+      "chapter": 3,
+      "topic": "3.2",
+      "title_from_filename": "CHUONG 3 CHU DE 2 P2",
+      "page": 1
+    },
+    {
+      "source_id": "src-0233",
+      "chapter": 5,
+      "topic": "5.1",
+      "title_from_filename": "CHUONG 5 CHU DE 1 P1",
+      "page": 1
+    },
+    {
+      "source_id": "src-0234",
+      "chapter": 5,
+      "topic": "5.1",
+      "title_from_filename": "CHUONG 5 CHU DE 1 P2",
+      "page": 1
+    },
+    {
+      "source_id": "src-0235",
+      "chapter": 5,
+      "topic": "5.2",
+      "title_from_filename": "CHUONG 5 CHU DE 2 P1",
+      "page": 1
+    },
+    {
+      "source_id": "src-0236",
+      "chapter": 5,
+      "topic": "5.2",
+      "title_from_filename": "CHUONG 5 CHU DE 2 P2",
+      "page": 1
+    },
+    {
+      "source_id": "src-0237",
+      "chapter": 5,
+      "topic": "5.2",
+      "title_from_filename": "CHUONG 5 CHU DE 2 P3",
+      "page": 1
+    },
+    {
+      "source_id": "src-0238",
+      "chapter": 6,
+      "topic": "6.1",
+      "title_from_filename": "CHUONG 6 CHU DE 1 P1",
+      "page": 1
+    },
+    {
+      "source_id": "src-0239",
+      "chapter": 6,
+      "topic": "6.1",
+      "title_from_filename": "CHUONG 6 CHU DE 1 P2",
+      "page": 1
+    },
+    {
+      "source_id": "src-0240",
+      "chapter": 6,
+      "topic": "6.2",
+      "title_from_filename": "CHUONG 6 CHU DE 2 P1",
+      "page": 1
+    },
+    {
+      "source_id": "src-0241",
+      "chapter": 6,
+      "topic": "6.2",
+      "title_from_filename": "CHUONG 6 CHU DE 2 P2",
+      "page": 1
+    },
+    {
+      "source_id": "src-0242",
+      "chapter": 6,
+      "topic": "6.3",
+      "title_from_filename": "CHUONG 6 CHU DE 3",
+      "page": 1
+    },
+    {
+      "source_id": "src-0243",
+      "chapter": 2,
+      "topic": "2.1.1",
+      "title_from_filename": "KTCP C2 CD2.1.1 Khái niệm CP và phân loại chi phí theo yếu tố và mối qh với đối tượng chịu chi phí",
+      "page": 1
+    },
+    {
+      "source_id": "src-0244",
+      "chapter": 2,
+      "topic": "2.1.2",
+      "title_from_filename": "KTCP C2 CD2.1.2 Phân loại chi phí theo cách ứng xử và thời kỳ XĐKQKD",
+      "page": 1
+    },
+    {
+      "source_id": "src-0245",
+      "chapter": 2,
+      "topic": "2.2",
+      "title_from_filename": "KTCP C2 CD2.2 Khái niệm giá thành và phân loại giá thành",
+      "page": 1
+    },
+    {
+      "source_id": "src-0246",
+      "chapter": 4,
+      "topic": "4.1.1",
+      "title_from_filename": "KTCP C4 CD4.1.1 Giới thiệu KTCP theo quy trình",
+      "page": 1
+    },
+    {
+      "source_id": "src-0247",
+      "chapter": 4,
+      "topic": "4.1.2",
+      "title_from_filename": "KTCP C4 CD4.1.2 KTCP theo quy trình PPTB",
+      "page": 1
+    },
+    {
+      "source_id": "src-0248",
+      "chapter": 4,
+      "topic": "4.1.3",
+      "title_from_filename": "KTCP C4 CD4.1.3 KTCP theo quy trình PPFIFO",
+      "page": 1
+    },
+    {
+      "source_id": "src-0249",
+      "chapter": 4,
+      "topic": "4.2",
+      "title_from_filename": "KTCP C4 CD4.2 KTCP theo quy trình 2 giai đoạn",
+      "page": 1
+    },
+    {
+      "source_id": "src-0250",
+      "chapter": 4,
+      "topic": "4.3.1",
+      "title_from_filename": "KTCP C4 CD4.3.1 KTCP theo quy trình CP kết hợp",
+      "page": 1
+    },
+    {
+      "source_id": "src-0251",
+      "chapter": 4,
+      "topic": "4.3.2",
+      "title_from_filename": "KTCP C4 CD4.3.2 KTCP theo quy trình Xử lý CL",
+      "page": 1
+    },
+    {
+      "source_id": "src-0252",
+      "chapter": 7,
+      "topic": "7.1",
+      "title_from_filename": "KTCP C7 CD7.1 Phương pháp giá thành khả biến và giá thành sản xuất",
+      "page": 1
+    },
+    {
+      "source_id": "src-0253",
+      "chapter": 7,
+      "topic": "7.2",
+      "title_from_filename": "KTCP C7 CD7.2 Phân tích sự khác biệt khi lập báo cáo thu nhập và một số ứng dụng trong quá trình ra quyết định quản trị.DOC",
+      "page": 1
+    }
+  ],
+  "heading_lines": [
+    {
+      "kind": "chuong",
+      "line": "Chương 4: Kế toán chi phí theo quy trình",
+      "count": 12,
+      "refs": [
+        {
+          "source_id": "src-0045",
+          "page": 1
+        },
+        {
+          "source_id": "src-0045",
+          "page": 7
+        },
+        {
+          "source_id": "src-0045",
+          "page": 19
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 6: Phân bổ chi phí",
+      "count": 11,
+      "refs": [
+        {
+          "source_id": "src-0222",
+          "page": 1
+        },
+        {
+          "source_id": "src-0222",
+          "page": 6
+        },
+        {
+          "source_id": "src-0222",
+          "page": 12
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 5: Kế toán chi phí theo định mức",
+      "count": 10,
+      "refs": [
+        {
+          "source_id": "src-0221",
+          "page": 1
+        },
+        {
+          "source_id": "src-0221",
+          "page": 8
+        },
+        {
+          "source_id": "src-0221",
+          "page": 16
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 1: Tổng quan về kế toán chi phí",
+      "count": 9,
+      "refs": [
+        {
+          "source_id": "src-0042",
+          "page": 6
+        },
+        {
+          "source_id": "src-0042",
+          "page": 10
+        },
+        {
+          "source_id": "src-0042",
+          "page": 16
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 3: Kế toán chi phí theo công việc",
+      "count": 9,
+      "refs": [
+        {
+          "source_id": "src-0044",
+          "page": 1
+        },
+        {
+          "source_id": "src-0044",
+          "page": 6
+        },
+        {
+          "source_id": "src-0044",
+          "page": 12
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 2: Phân loại chi phí và giá thành",
+      "count": 6,
+      "refs": [
+        {
+          "source_id": "src-0043",
+          "page": 1
+        },
+        {
+          "source_id": "src-0043",
+          "page": 4
+        },
+        {
+          "source_id": "src-0043",
+          "page": 11
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2: Trình tự kế toán chi phí định mức",
+      "count": 6,
+      "refs": [
+        {
+          "source_id": "src-0221",
+          "page": 16
+        },
+        {
+          "source_id": "src-0221",
+          "page": 21
+        },
+        {
+          "source_id": "src-0221",
+          "page": 25
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 7: Ảnh hưởng của phương pháp giá thành trong quá trình ra quyết định",
+      "count": 5,
+      "refs": [
+        {
+          "source_id": "src-0223",
+          "page": 1
+        },
+        {
+          "source_id": "src-0223",
+          "page": 5
+        },
+        {
+          "source_id": "src-0224",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1: Khái niệm và vai trò của kế toán chi phí trong quản trị doanh nghiệp",
+      "count": 4,
+      "refs": [
+        {
+          "source_id": "src-0042",
+          "page": 6
+        },
+        {
+          "source_id": "src-0042",
+          "page": 10
+        },
+        {
+          "source_id": "src-0225",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2: Kế toán chi phí và các yếu tố thành công cốt lõi, phân tích chuỗi giá trị",
+      "count": 4,
+      "refs": [
+        {
+          "source_id": "src-0042",
+          "page": 16
+        },
+        {
+          "source_id": "src-0042",
+          "page": 21
+        },
+        {
+          "source_id": "src-0227",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.1: Khái niệm về chi phí và phân loại chi phí",
+      "count": 4,
+      "refs": [
+        {
+          "source_id": "src-0043",
+          "page": 1
+        },
+        {
+          "source_id": "src-0043",
+          "page": 4
+        },
+        {
+          "source_id": "src-0243",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1: Kế toán chi phí theo công việc tính theo chi phí thực tế",
+      "count": 4,
+      "refs": [
+        {
+          "source_id": "src-0044",
+          "page": 1
+        },
+        {
+          "source_id": "src-0044",
+          "page": 6
+        },
+        {
+          "source_id": "src-0229",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2: Kế toán chi phí theo công việc tính theo chi phí thực tế kết hợp với ước",
+      "count": 4,
+      "refs": [
+        {
+          "source_id": "src-0044",
+          "page": 12
+        },
+        {
+          "source_id": "src-0044",
+          "page": 16
+        },
+        {
+          "source_id": "src-0231",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.1: Trình tự kế toán chi phí theo quá trình tính theo chi phí thực tế ở quy",
+      "count": 4,
+      "refs": [
+        {
+          "source_id": "src-0045",
+          "page": 1
+        },
+        {
+          "source_id": "src-0045",
+          "page": 19
+        },
+        {
+          "source_id": "src-0246",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.3: Trình tự kế toán chi phí theo quy trình tính theo chi phí thực tế kết hợp",
+      "count": 4,
+      "refs": [
+        {
+          "source_id": "src-0045",
+          "page": 35
+        },
+        {
+          "source_id": "src-0045",
+          "page": 46
+        },
+        {
+          "source_id": "src-0250",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1: Những vấn đề chung về kế toán chi phí định mức",
+      "count": 4,
+      "refs": [
+        {
+          "source_id": "src-0221",
+          "page": 1
+        },
+        {
+          "source_id": "src-0221",
+          "page": 8
+        },
+        {
+          "source_id": "src-0233",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1: Phân bổ chi phí sản xuất chung",
+      "count": 4,
+      "refs": [
+        {
+          "source_id": "src-0222",
+          "page": 1
+        },
+        {
+          "source_id": "src-0222",
+          "page": 6
+        },
+        {
+          "source_id": "src-0238",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.2: Khái niệm giá thành và phân loại giá thành",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0043",
+          "page": 11
+        },
+        {
+          "source_id": "src-0245",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.1: Trình tự kế toán chi phí theo quy trình tính theo chi phí thực tế ở quy",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0045",
+          "page": 7
+        },
+        {
+          "source_id": "src-0247",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.2: Trình tự kế toán chi phí theo quá trình tính theo chi phí thực tế ở quy",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0045",
+          "page": 27
+        },
+        {
+          "source_id": "src-0249",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2: phân bổ chi phí bộ phận phục vụ, các khoản thiệt hại trong sản xuất và",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0222",
+          "page": 12
+        },
+        {
+          "source_id": "src-0240",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2: Phân bổ chi phí bộ phận phục vụ, các khoản thiệt hại trong sản xuất và",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0222",
+          "page": 19
+        },
+        {
+          "source_id": "src-0241",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3: Phân bổ chi phí trong môi trường vừa theo công việc và vừa theo quá",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0222",
+          "page": 28
+        },
+        {
+          "source_id": "src-0242",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 7.1: Phương pháp giá thành khả biến và giá thành sản xuất",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0223",
+          "page": 1
+        },
+        {
+          "source_id": "src-0252",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 7.2: Phân tích sự khác biệt khi lập báo cáo thu nhập và một số ứng dụng",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0223",
+          "page": 5
+        },
+        {
+          "source_id": "src-0253",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 0: Giới thiệu môn học",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0042",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 2: Phân loại chi phí",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0224",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 4: Kế toán chi phí theo quá trình",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0224",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 5: Kế toán chi phí định mức",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0224",
+          "page": 2
+        }
+      ]
+    }
+  ],
+  "outline_titles": [
+    {
+      "source_id": "src-0042",
+      "title": "KeToanChiPhi_Script",
+      "page": 1
+    },
+    {
+      "source_id": "src-0042",
+      "title": "CHUONG 1 CHU DE 1 P 1",
+      "page": 6
+    },
+    {
+      "source_id": "src-0042",
+      "title": "CHUONG 1 CHU DE 1 P2",
+      "page": 10
+    },
+    {
+      "source_id": "src-0042",
+      "title": "CHUONG 1 CHU DE 2 P1",
+      "page": 16
+    },
+    {
+      "source_id": "src-0042",
+      "title": "CHUONG 1 CHU DE 2 P2",
+      "page": 21
+    },
+    {
+      "source_id": "src-0043",
+      "title": "KTCP-C2-CD2.1.1-Khái-niệm-CP-và-phân-loại-chi-phí-theo-yếu-tố-và-mối-qh-với-đối-tượng-chịu-chi-phí",
+      "page": 1
+    },
+    {
+      "source_id": "src-0043",
+      "title": "KTCP-C2-CD2.1.2-Phân-loại-chi-phí-theo-cách-ứng-xử-và-thời-kỳ-XĐKQKD",
+      "page": 4
+    },
+    {
+      "source_id": "src-0043",
+      "title": "KTCP-C2-CD2.2-Khái-niệm-giá-thành-và-phân-loại-giá-thành",
+      "page": 11
+    },
+    {
+      "source_id": "src-0044",
+      "title": "CHUONG 3 CHU DE 1 P1",
+      "page": 1
+    },
+    {
+      "source_id": "src-0044",
+      "title": "CHUONG 3 CHU DE 1 P2",
+      "page": 6
+    },
+    {
+      "source_id": "src-0044",
+      "title": "CHUONG 3 CHU DE 2 P1",
+      "page": 12
+    },
+    {
+      "source_id": "src-0044",
+      "title": "CHUONG 3 CHU DE 2 P2",
+      "page": 16
+    },
+    {
+      "source_id": "src-0045",
+      "title": "KTCP-C4-CD4.1.1-Giới-thiệu-KTCP-theo-quy-trình",
+      "page": 1
+    },
+    {
+      "source_id": "src-0045",
+      "title": "KTCP-C4-CD4.1.2-KTCP-theo-quy-trình-PPTB",
+      "page": 7
+    },
+    {
+      "source_id": "src-0045",
+      "title": "KTCP-C4-CD4.1.3-KTCP-theo-quy-trình-PPFIFO",
+      "page": 19
+    },
+    {
+      "source_id": "src-0045",
+      "title": "KTCP-C4-CD4.2-KTCP-theo-quy-trình-2-giai-đoạn",
+      "page": 27
+    },
+    {
+      "source_id": "src-0045",
+      "title": "KTCP-C4-CD4.3.1-KTCP-theo-quy-trình-CP-kết-hợp",
+      "page": 35
+    },
+    {
+      "source_id": "src-0045",
+      "title": "KTCP-C4-CD4.3.2-KTCP-theo-quy-trình-Xử-lý-CL",
+      "page": 46
+    },
+    {
+      "source_id": "src-0046",
+      "title": "Nghiên Cứu Chi Phí Sản Phẩm Và Chi Phí Thời Kỳ Trong Các Loại Hình Doanh Nghiệp Sản Xuất, Thương Mại Và Dịch Vụ: Lý Luận, So Sánh Và Ứng Dụng Thực Tế ",
+      "page": 1
+    },
+    {
+      "source_id": "src-0046",
+      "title": "1. Cơ Sở Lý Luận Về Phân Loại Chi Phí Sản Phẩm Và Chi Phí Thời Kỳ ",
+      "page": 1
+    },
+    {
+      "source_id": "src-0046",
+      "title": "1.1 Khái Niệm Và Bản Chất Kinh Tế Của Chi Phí ",
+      "page": 1
+    },
+    {
+      "source_id": "src-0046",
+      "title": "1.2 Nguyên Tắc Phù Hợp Và Khả Năng Tồn Kho ",
+      "page": 1
+    },
+    {
+      "source_id": "src-0046",
+      "title": "2. So Sánh Chi Phí Sản Phẩm Và Chi Phí Thời Kỳ Trong Doanh Nghiệp Sản Xuất, Thương Mại Và Dịch Vụ ",
+      "page": 2
+    },
+    {
+      "source_id": "src-0046",
+      "title": "2.1 Điểm Giống Nhau Giữa Chi Phí Sản Phẩm Và Chi Phí Thời Kỳ ",
+      "page": 2
+    },
+    {
+      "source_id": "src-0046",
+      "title": "2.2 Điểm Khác Nhau Chi Tiết Giữa Chi Phí Sản Phẩm Và Chi Phí Thời Kỳ Của Các Loại Hình Doanh Nghiệp ",
+      "page": 3
+    },
+    {
+      "source_id": "src-0046",
+      "title": "2.3 So Sánh Đặc Thù Giữa 3 Loại Hình Doanh Nghiệp (Sản Xuất, Thương Mại, Dịch Vụ) ",
+      "page": 3
+    },
+    {
+      "source_id": "src-0046",
+      "title": "3. Phân Tích Số Liệu Thực Tế Tại Ba Doanh Nghiệp Cụ Thể ",
+      "page": 4
+    },
+    {
+      "source_id": "src-0046",
+      "title": "3.1 Doanh Nghiệp Sản Xuất: Công Ty Cổ Phần Bánh Kẹo An Khánh ",
+      "page": 5
+    },
+    {
+      "source_id": "src-0046",
+      "title": "Quy trình tính toán giá vốn và kết quả kinh doanh: ",
+      "page": 6
+    },
+    {
+      "source_id": "src-0046",
+      "title": "3.2 Doanh Nghiệp Thương Mại: Công Ty TNHH Thương Mại & Bán Lẻ Minh Phát ",
+      "page": 7
+    },
+    {
+      "source_id": "src-0046",
+      "title": "Quy trình tính toán giá vốn và kết quả kinh doanh: ",
+      "page": 8
+    },
+    {
+      "source_id": "src-0046",
+      "title": "3.3 Doanh Nghiệp Dịch Vụ: Công Ty Cổ Phần Vận Tải Passenger Express Việt Nam ",
+      "page": 9
+    },
+    {
+      "source_id": "src-0046",
+      "title": "Quy trình tính toán giá vốn và kết quả kinh doanh: ",
+      "page": 11
+    },
+    {
+      "source_id": "src-0046",
+      "title": "3.4 So Sánh Tổng Hợp Kết Quả Báo Cáo Tài Chính Giữa Ba Doanh Nghiệp ",
+      "page": 12
+    },
+    {
+      "source_id": "src-0046",
+      "title": "4. Tác Động Quản Trị Và Các Bài Học Chiến Lược Từ Phân Loại Chi Phí ",
+      "page": 13
+    },
+    {
+      "source_id": "src-0046",
+      "title": "4.1 Rủi Ro Phân Loại Sai Chi Phí Và Sai Lệch Báo Cáo Tài Chính ",
+      "page": 13
+    },
+    {
+      "source_id": "src-0046",
+      "title": "4.2 Phân Tích Chuỗi Giá Trị Và Định Giá Sản Phẩm ",
+      "page": 13
+    },
+    {
+      "source_id": "src-0046",
+      "title": "4.3 Quản Trị Chi Phí Theo Ứng Xử Chi Phí ",
+      "page": 14
+    },
+    {
+      "source_id": "src-0046",
+      "title": "5. Kết Luận Và Đề Xuất Doanh Nghiệp ",
+      "page": 14
+    },
+    {
+      "source_id": "src-0046",
+      "title": "5.1 Kết Luận ",
+      "page": 14
+    },
+    {
+      "source_id": "src-0046",
+      "title": "5.2 Đề Xuất Cho Doanh Nghiệp ",
+      "page": 14
+    },
+    {
+      "source_id": "src-0046",
+      "title": "Nguồn trích dẫn ",
+      "page": 15
+    }
+  ],
+  "accounts": [
+    {
+      "account": "154",
+      "count": 144,
+      "refs": [
+        [
+          "src-0043",
+          8
+        ],
+        [
+          "src-0043",
+          9
+        ],
+        [
+          "src-0044",
+          9
+        ]
+      ]
+    },
+    {
+      "account": "632",
+      "count": 76,
+      "refs": [
+        [
+          "src-0043",
+          8
+        ],
+        [
+          "src-0043",
+          9
+        ],
+        [
+          "src-0044",
+          9
+        ]
+      ]
+    },
+    {
+      "account": "627",
+      "count": 64,
+      "refs": [
+        [
+          "src-0043",
+          8
+        ],
+        [
+          "src-0044",
+          9
+        ],
+        [
+          "src-0044",
+          14
+        ]
+      ]
+    },
+    {
+      "account": "155",
+      "count": 50,
+      "refs": [
+        [
+          "src-0043",
+          9
+        ],
+        [
+          "src-0044",
+          10
+        ],
+        [
+          "src-0044",
+          14
+        ]
+      ]
+    },
+    {
+      "account": "621",
+      "count": 28,
+      "refs": [
+        [
+          "src-0043",
+          8
+        ],
+        [
+          "src-0044",
+          9
+        ],
+        [
+          "src-0044",
+          14
+        ]
+      ]
+    },
+    {
+      "account": "152",
+      "count": 28,
+      "refs": [
+        [
+          "src-0221",
+          16
+        ],
+        [
+          "src-0221",
+          17
+        ],
+        [
+          "src-0221",
+          19
+        ]
+      ]
+    },
+    {
+      "account": "622",
+      "count": 18,
+      "refs": [
+        [
+          "src-0043",
+          8
+        ],
+        [
+          "src-0045",
+          16
+        ],
+        [
+          "src-0045",
+          25
+        ]
+      ]
+    },
+    {
+      "account": "100",
+      "count": 4,
+      "refs": [
+        [
+          "src-0044",
+          18
+        ],
+        [
+          "src-0222",
+          32
+        ],
+        [
+          "src-0232",
+          3
+        ]
+      ]
+    },
+    {
+      "account": "334",
+      "count": 4,
+      "refs": [
+        [
+          "src-0221",
+          18
+        ],
+        [
+          "src-0235",
+          3
+        ]
+      ]
+    },
+    {
+      "account": "112",
+      "count": 4,
+      "refs": [
+        [
+          "src-0221",
+          20
+        ],
+        [
+          "src-0235",
+          5
+        ]
+      ]
+    },
+    {
+      "account": "156",
+      "count": 2,
+      "refs": [
+        [
+          "src-0043",
+          7
+        ],
+        [
+          "src-0244",
+          4
+        ]
+      ]
+    },
+    {
+      "account": "111",
+      "count": 2,
+      "refs": [
+        [
+          "src-0221",
+          17
+        ],
+        [
+          "src-0235",
+          2
+        ]
+      ]
+    },
+    {
+      "account": "331",
+      "count": 2,
+      "refs": [
+        [
+          "src-0221",
+          17
+        ],
+        [
+          "src-0235",
+          2
+        ]
+      ]
+    }
+  ]
+}

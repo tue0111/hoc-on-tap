@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.learning-system/schemas/diagnostic_session.schema.json",
+  "title": "DiagnosticSession",
+  "description": "Session-local Level 4 state. Must not be written into long-term learner mastery.",
+  "type": "object",
+  "required": ["session_id", "target_concept", "hypotheses"],
+  "additionalProperties": false,
+  "properties": {
+    "session_id": { "type": "string" },
+    "target_concept": { "type": ["string", "null"] },
+    "course_id": { "type": ["string", "null"] },
+    "hypotheses": { "type": "array" },
+    "questions_asked": { "type": "array" },
+    "learner_evidence": { "type": "array" },
+    "eliminated_hypotheses": { "type": "array", "items": { "type": "string" } },
+    "remaining_hypotheses": { "type": "array", "items": { "type": "string" } },
+    "diagnosis": { "type": ["object", "null"] },
+    "confidence": { "type": ["string", "null"], "enum": ["high", "medium", "low", "inconclusive", null] },
+    "persist_to_learner_state": { "type": "boolean", "const": false }
+  }
+}

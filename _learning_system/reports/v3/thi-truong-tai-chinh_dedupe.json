@@ -1,0 +1,10 @@
+{
+  "course_id": "thi-truong-tai-chinh",
+  "thresholds": {
+    "dup": 0.85,
+    "distinct": 0.5
+  },
+  "pairs": [],
+  "mid_band_scopes": [],
+  "REVIEW": []
+}

@@ -1,0 +1,56 @@
+ref: Luật 32/2024/QH15
+status: amended
+replaced_by: null
+amended_by:
+- Luật 43/2024/QH15
+- Luật 96/2025/QH15
+effective_from: '2025-10-15'
+effective_date_meaning: effective date of cited change, not necessarily original instrument
+scope: Ngày này là hiệu lực sửa đổi theo Luật 96/2025; luật gốc có hiệu lực chính
+  từ 01/07/2024. Danh sách sửa đổi không bảo đảm đầy đủ mọi thay đổi sau này.
+key_changes:
+- text: Khi tra quy định hiện hành cần đọc cùng các luật sửa đổi, không chỉ bản gốc
+    năm 2024.
+  source_url: https://chinhphu.vn/?classid=1&docid=214588&orggroupid=1&pageid=27160
+cited_in_courses:
+- ngan-hang-thuong-mai
+curriculum_occurrences:
+- source_id: src-0128
+  page: 7
+  layer: curriculum
+- source_id: src-0130
+  page: 140
+  layer: curriculum
+- source_id: src-0139
+  page: 3
+  layer: curriculum
+- source_id: src-0139
+  page: 3
+  layer: learner_notes
+- source_id: src-0140
+  page: 4
+  layer: curriculum
+- source_id: src-0140
+  page: 4
+  layer: learner_notes
+variants:
+- 32/2024/QH15
+- Luật TCTD số 32/2024/QH15
+- Luật các tổ chức tín dụng số 32/2024/QH15
+sources:
+- url: https://chinhphu.vn/?classid=1&docid=214588&orggroupid=1&pageid=27160
+  publisher: chinhphu.vn
+  retrieved_at: '2026-10-11'
+  authority: official
+- url: https://vbpl.vn/boxaydung/Pages/vbpq-thuoctinh-hopnhat.aspx?ItemID=170533
+  publisher: vbpl.vn
+  retrieved_at: '2026-10-11'
+  authority: official
+evidence_status: OBSERVED
+layer: external
+checked_at: '2026-10-11'
+unknown_reason: null
+search_log: research/search_logs/ref_004.json
+record_kind: verified_status
+freshness_limit: Snapshot of sources checked on the stated date; not a guarantee that
+  every later amendment has been found.

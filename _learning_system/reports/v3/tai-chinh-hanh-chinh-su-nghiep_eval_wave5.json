@@ -1,0 +1,572 @@
+{
+  "course_id": "tai-chinh-hanh-chinh-su-nghiep",
+  "tag": "_wave5",
+  "eval_sha256": "6365ddfa557dd2caeee16bb2ffa75173e1fc78ce208d74a9998dde4452689b24",
+  "n": 20,
+  "metrics": {
+    "direct_must_include": 1.0,
+    "direct_chapter_at1": 0.8333333333333334,
+    "source_bound": 0.6666666666666666,
+    "insufficient": 1.0,
+    "collision_contamination": 0,
+    "account": null,
+    "topic_owner": null
+  },
+  "gates": {
+    "direct_must_include": true,
+    "direct_chapter_at1": true,
+    "source_bound": true,
+    "insufficient": true,
+    "collision_contamination": true,
+    "account": true,
+    "topic_owner": true
+  },
+  "all_pass": true,
+  "results": [
+    {
+      "id": "hcsn-d01",
+      "category": "direct",
+      "question": "Tài chính hành chính sự nghiệp: ngân sách nhà nước và đơn vị hành chính sự nghiệp có đặc điểm gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0179",
+        "src-0187",
+        "src-0179",
+        "src-0187",
+        "src-0179"
+      ],
+      "top_chapters": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "partition": "tai-chinh-hanh-chinh-su-nghiep",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "hcsn-d02",
+      "category": "direct",
+      "question": "Tài chính hành chính sự nghiệp: phương pháp và quy trình quản lý tài chính tại đơn vị HCSN gồm gì?",
+      "coverage": "partial",
+      "top_sources": [
+        "src-0187",
+        "src-0179",
+        "src-0187",
+        "src-0183",
+        "src-0179"
+      ],
+      "top_chapters": [
+        1,
+        1,
+        1,
+        5,
+        1
+      ],
+      "partition": "tai-chinh-hanh-chinh-su-nghiep",
+      "unknowns": [
+        "no_course_concept_match"
+      ],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "hcsn-d03",
+      "category": "direct",
+      "question": "Tài chính hành chính sự nghiệp: cơ chế tự chủ tài chính trong cơ quan hành chính nhà nước được quản lý thế nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0180",
+        "src-0180",
+        "src-0180",
+        "src-0180",
+        "src-0180"
+      ],
+      "top_chapters": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "partition": "tai-chinh-hanh-chinh-su-nghiep",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "hcsn-d04",
+      "category": "direct",
+      "question": "Tài chính hành chính sự nghiệp: đơn vị sự nghiệp công lập thực hiện tự chủ tài chính ra sao?",
+      "coverage": "partial",
+      "top_sources": [
+        "src-0179",
+        "src-0180",
+        "src-0180",
+        "src-0180",
+        "src-0187"
+      ],
+      "top_chapters": [
+        1,
+        2,
+        2,
+        2,
+        1
+      ],
+      "partition": "tai-chinh-hanh-chinh-su-nghiep",
+      "unknowns": [
+        "no_course_concept_match"
+      ],
+      "must_include": true,
+      "chapter_at1": false,
+      "contaminated": false,
+      "pass": false
+    },
+    {
+      "id": "hcsn-d05",
+      "category": "direct",
+      "question": "Tài chính hành chính sự nghiệp: quỹ tiền lương và các khoản nộp theo lương gồm những nội dung nào?",
+      "coverage": "partial",
+      "top_sources": [
+        "src-0181",
+        "src-0192",
+        "src-0189",
+        "src-0181",
+        "src-0189"
+      ],
+      "top_chapters": [
+        3,
+        null,
+        3,
+        3,
+        3
+      ],
+      "partition": "tai-chinh-hanh-chinh-su-nghiep",
+      "unknowns": [
+        "no_course_concept_match"
+      ],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "hcsn-d06",
+      "category": "direct",
+      "question": "Tài chính hành chính sự nghiệp: quy trình quản lý quỹ tiền lương và các khoản nộp theo lương diễn ra thế nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0181",
+        "src-0181",
+        "src-0189",
+        "src-0192",
+        "src-0181"
+      ],
+      "top_chapters": [
+        3,
+        3,
+        3,
+        null,
+        3
+      ],
+      "partition": "tai-chinh-hanh-chinh-su-nghiep",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "hcsn-d07",
+      "category": "direct",
+      "question": "Tài chính hành chính sự nghiệp: dự án đầu tư công được phân loại theo các tiêu chí nào?",
+      "coverage": "partial",
+      "top_sources": [
+        "src-0182",
+        "src-0182",
+        "src-0182",
+        "src-0182",
+        "src-0190"
+      ],
+      "top_chapters": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "partition": "tai-chinh-hanh-chinh-su-nghiep",
+      "unknowns": [
+        "no_course_concept_match"
+      ],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "hcsn-d08",
+      "category": "direct",
+      "question": "Tài chính hành chính sự nghiệp: chi phí quản lý dự án đầu tư xây dựng được quản lý thế nào?",
+      "coverage": "partial",
+      "top_sources": [
+        "src-0185",
+        "src-0182",
+        "src-0190",
+        "src-0190",
+        "src-0182"
+      ],
+      "top_chapters": [
+        null,
+        4,
+        4,
+        4,
+        4
+      ],
+      "partition": "tai-chinh-hanh-chinh-su-nghiep",
+      "unknowns": [
+        "no_course_concept_match"
+      ],
+      "must_include": true,
+      "chapter_at1": false,
+      "contaminated": false,
+      "pass": false
+    },
+    {
+      "id": "hcsn-d09",
+      "category": "direct",
+      "question": "Tài chính hành chính sự nghiệp: nguyên tắc quản lý và sử dụng tài sản công là gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0183",
+        "src-0183",
+        "src-0192",
+        "src-0183",
+        "src-0183"
+      ],
+      "top_chapters": [
+        5,
+        5,
+        null,
+        5,
+        5
+      ],
+      "partition": "tai-chinh-hanh-chinh-su-nghiep",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "hcsn-d10",
+      "category": "direct",
+      "question": "Tài chính hành chính sự nghiệp: mua sắm tài sản công và lựa chọn nhà thầu thực hiện ra sao?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0183",
+        "src-0183",
+        "src-0192",
+        "src-0183",
+        "src-0183"
+      ],
+      "top_chapters": [
+        5,
+        5,
+        null,
+        5,
+        5
+      ],
+      "partition": "tai-chinh-hanh-chinh-su-nghiep",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "hcsn-d11",
+      "category": "direct",
+      "question": "Tài chính hành chính sự nghiệp: trình tự lập kế hoạch tài chính 5 năm như thế nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0184",
+        "src-0185",
+        "src-0185",
+        "src-0184",
+        "src-0184"
+      ],
+      "top_chapters": [
+        6,
+        null,
+        null,
+        6,
+        6
+      ],
+      "partition": "tai-chinh-hanh-chinh-su-nghiep",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "hcsn-d12",
+      "category": "direct",
+      "question": "Tài chính hành chính sự nghiệp: kế hoạch tài chính ngân sách nhà nước 3 năm xác định chỉ tiêu cơ sở thế nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0184",
+        "src-0185",
+        "src-0184",
+        "src-0192",
+        "src-0184"
+      ],
+      "top_chapters": [
+        6,
+        null,
+        6,
+        null,
+        6
+      ],
+      "partition": "tai-chinh-hanh-chinh-su-nghiep",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "hcsn-s01",
+      "category": "source_bound",
+      "question": "Theo đề thi mẫu TCHCSN năm 2022, cấu trúc đề và thời lượng thi là gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0184",
+        "src-0184",
+        "src-0184",
+        "src-0182",
+        "src-0192"
+      ],
+      "top_chapters": [
+        6,
+        6,
+        6,
+        4,
+        null
+      ],
+      "partition": "tai-chinh-hanh-chinh-su-nghiep",
+      "unknowns": [],
+      "must_include": false,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": false
+    },
+    {
+      "id": "hcsn-s02",
+      "category": "source_bound",
+      "question": "Theo Slide Chương 1 môn Tài chính hành chính sự nghiệp, tỷ trọng đánh giá quá trình và cuối kỳ là bao nhiêu?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0187",
+        "src-0187",
+        "src-0179",
+        "src-0179",
+        "src-0179"
+      ],
+      "top_chapters": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "partition": "tai-chinh-hanh-chinh-su-nghiep",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "hcsn-s03",
+      "category": "source_bound",
+      "question": "Theo tài liệu ôn tập TCHCSN năm 2022, nội dung ôn tập và hình thức thi được mô tả thế nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0192",
+        "src-0192",
+        "src-0192",
+        "src-0192",
+        "src-0192"
+      ],
+      "top_chapters": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "partition": "tai-chinh-hanh-chinh-su-nghiep",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "hcsn-i01",
+      "category": "insufficient",
+      "question": "Tài chính hành chính sự nghiệp hướng dẫn định giá quyền chọn theo mô hình Black-Scholes thế nào?",
+      "coverage": "insufficient",
+      "top_sources": [
+        "src-0192",
+        "src-0183",
+        "src-0192",
+        "src-0179",
+        "src-0187"
+      ],
+      "top_chapters": [
+        null,
+        5,
+        null,
+        1,
+        1
+      ],
+      "partition": "tai-chinh-hanh-chinh-su-nghiep",
+      "unknowns": [
+        "no_course_concept_match",
+        "term_not_in_course_corpus:black",
+        "term_not_in_course_corpus:scholes",
+        "insufficient_curriculum_evidence"
+      ],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "hcsn-i02",
+      "category": "insufficient",
+      "question": "Tài chính hành chính sự nghiệp giải thích cơ sở dẫn liệu kiểm toán hàng tồn kho ra sao?",
+      "coverage": "insufficient",
+      "top_sources": [
+        "src-0192",
+        "src-0192",
+        "src-0187",
+        "src-0179",
+        "src-0187"
+      ],
+      "top_chapters": [
+        null,
+        null,
+        1,
+        1,
+        1
+      ],
+      "partition": "tai-chinh-hanh-chinh-su-nghiep",
+      "unknowns": [
+        "topic_in_other_course:kiem-toan-1",
+        "no_course_concept_match",
+        "topic_owner_hint:ke-toan-tai-chinh-1",
+        "topic_owner_hint:kinh-doanh-va-nghiep-vu",
+        "insufficient_curriculum_evidence"
+      ],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "hcsn-i03",
+      "category": "insufficient",
+      "question": "Tài chính hành chính sự nghiệp trình bày nghiệp vụ bao thanh toán của ngân hàng thương mại thế nào?",
+      "coverage": "insufficient",
+      "top_sources": [
+        "src-0179",
+        "src-0180",
+        "src-0187",
+        "src-0179",
+        "src-0179"
+      ],
+      "top_chapters": [
+        1,
+        2,
+        1,
+        1,
+        1
+      ],
+      "partition": "tai-chinh-hanh-chinh-su-nghiep",
+      "unknowns": [
+        "topic_in_other_course:ngan-hang-thuong-mai",
+        "no_course_concept_match",
+        "insufficient_curriculum_evidence"
+      ],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "hcsn-c01",
+      "category": "collision",
+      "question": "Chương 3 của môn Tài chính hành chính sự nghiệp nói về gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0181",
+        "src-0181",
+        "src-0181",
+        "src-0181",
+        "src-0181"
+      ],
+      "top_chapters": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "partition": "tai-chinh-hanh-chinh-su-nghiep",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "hcsn-c02",
+      "category": "collision",
+      "question": "Chương 6 của môn Tài chính hành chính sự nghiệp nói về gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0184",
+        "src-0184",
+        "src-0184",
+        "src-0184",
+        "src-0184"
+      ],
+      "top_chapters": [
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "partition": "tai-chinh-hanh-chinh-su-nghiep",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    }
+  ]
+}

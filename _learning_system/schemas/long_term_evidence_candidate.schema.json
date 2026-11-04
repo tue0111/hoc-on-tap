@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.learning-system/schemas/long_term_evidence_candidate.schema.json",
+  "title": "LongTermEvidenceCandidate",
+  "description": "Phase 6 candidate for long-term learner EVIDENCE. Not a mastery conclusion.",
+  "type": "object",
+  "required": ["candidate_id", "observation"],
+  "additionalProperties": false,
+  "properties": {
+    "candidate_id": { "type": "string" },
+    "learner_event_type": { "type": ["string", "null"] },
+    "course_id": { "type": ["string", "null"] },
+    "concept_id": { "type": ["string", "null"] },
+    "dimension": {
+      "type": ["string", "null"],
+      "enum": ["RECALL", "CONCEPTUAL", "PROCEDURAL", "APPLICATION", "TRANSFER", null]
+    },
+    "observation": { "type": "string" },
+    "outcome": {
+      "type": ["string", "null"],
+      "enum": ["CORRECT", "INCORRECT", "PARTIAL", "INCONCLUSIVE", null]
+    },
+    "support_level": {
+      "type": ["string", "null"],
+      "enum": ["INDEPENDENT", "HINTED", "GUIDED", "COPIED", "SELF_REPORTED", null]
+    },
+    "independence": {
+      "type": ["string", "null"],
+      "enum": ["SAME_TASK_RETRY", "SAME_PATTERN_NEAR_TRANSFER", "INDEPENDENT_TASK", "CROSS_CONTEXT_TRANSFER", null]
+    },
+    "hint_level": {
+      "type": ["string", "null"],
+      "enum": ["NO_HINT", "LIGHT_HINT", "STRUCTURAL_HINT", "DIRECT_HINT", "ANSWER_EXPOSED", null]
+    },
+    "source_session_id": { "type": ["string", "null"] },
+    "source_task_id": { "type": ["string", "null"] },
+    "curriculum_evidence_refs": { "type": "array" },
+    "diagnostic_result_ref": { "type": ["string", "null"] },
+    "decision_ref": { "type": ["string", "null"] },
+    "adaptive_summary_ref": { "type": ["string", "null"] },
+    "lineage_ids": { "type": "array", "items": { "type": "string" } },
+    "evidence_strength": {
+      "type": ["string", "null"],
+      "enum": ["STRONG", "MEDIUM", "WEAK", null]
+    },
+    "explicit_false_rule": { "type": "boolean" },
+    "mechanical_only": { "type": "boolean" },
+    "wrong_reason_with_correct_result": { "type": "boolean" },
+    "diagnosis_status": { "type": ["string", "null"] },
+    "error_type": { "type": ["string", "null"] },
+    "timestamp": { "type": ["string", "null"] },
+    "observed_at": { "type": ["string", "null"] },
+    "provenance": { "type": "object" }
+  }
+}

@@ -1,0 +1,108 @@
+# Schema only. Do not populate mastery scores in Phase 0–1.
+# Layer B: LEARNER STATE. Must not be mixed with curriculum knowledge or external research.
+
+schema_id: learner-state
+schema_version: "0.1.0"
+status: schema_only
+population_policy: empty_until_assessment_evidence
+notes:
+  - Instances live later at learner/state/<learner_id>.yaml
+  - Every mastery field requires evidence_refs. No default numeric scores.
+  - exposure != mastery.
+
+learner:
+  learner_id:
+    type: string
+    required: true
+  created_at:
+    type: datetime
+  updated_at:
+    type: datetime
+  program_ref:
+    type: string
+    description: curriculum_manifest.program.id
+  current_focus:
+    course_ids: [string]
+    concept_ids: [string]
+    evidence_status: {enum: [OBSERVED, INFERRED, UNKNOWN]}
+
+concept_state:
+  description: One record per concept the learner has been exposed to.
+  key: concept_id
+  fields:
+    concept_id:
+      type: string
+      required: true
+      ref: curriculum/concept_registry.yaml
+    exposure:
+      status:
+        enum: [unseen, seen, practiced, assessed, unknown]
+        default: unseen
+        rule: unseen unless an evidence_ref exists
+      first_seen:
+        type: datetime
+        nullable: true
+      last_seen:
+        type: datetime
+        nullable: true
+      source_refs:
+        type: list
+        item: source_id
+    mastery:
+      rule: all dimensions nullable until evidence exists; never default to 0 or 1
+      scale: {min: 0.0, max: 1.0, nullable: true}
+      recall: {type: number, nullable: true}
+      conceptual: {type: number, nullable: true}
+      procedural: {type: number, nullable: true}
+      application: {type: number, nullable: true}
+      transfer: {type: number, nullable: true}
+      overall:
+        type: number
+        nullable: true
+        rule: derived later; do not invent in Phase 0–1
+    evidence:
+      correct: [{attempt_id: string, source_id: string, timestamp: datetime}]
+      incorrect: [{attempt_id: string, source_id: string, timestamp: datetime, error_codes: [string]}]
+      hints_required: [{attempt_id: string, hint_level: integer}]
+      diagnostic_results: [{diagnostic_id: string, ref: schemas/diagnostic_result.schema.json}]
+    error_history:
+      - timestamp: datetime
+        error_code:
+          ref: learner/error_taxonomy.yaml
+        item_ref: string
+        notes: string
+    confidence:
+      type: number
+      nullable: true
+      description: system confidence in the mastery estimate, not learner self-rating
+    last_update_reason:
+      enum: [practice, exam, diagnostic, self_report, unknown]
+
+session:
+  session_id: string
+  started_at: datetime
+  ended_at: datetime
+  course_ids: [string]
+  concept_ids: [string]
+  questions_asked: integer
+  diagnostic_ids: [string]
+  summary_ref: string
+
+attempt:
+  attempt_id: string
+  session_id: string
+  item_id: string
+  concept_ids: [string]
+  course_id: string
+  response_raw: string
+  correctness:
+    enum: [correct, incorrect, partial, unevaluated]
+  error_codes: [string]
+  evidence_status:
+    enum: [OBSERVED, INFERRED, UNKNOWN]
+
+constraints:
+  - Do not copy curriculum definitions into learner state.
+  - Do not treat a seen slide as mastery.
+  - Do not infer weakness from missing homework files.
+  - Prerequisite gaps are diagnostic outputs, not default state.

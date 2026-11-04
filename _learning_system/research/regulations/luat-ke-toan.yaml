@@ -1,0 +1,84 @@
+ref: Luật kế toán
+status: unknown
+replaced_by: null
+amended_by: []
+effective_from: null
+effective_date_meaning: effective date of cited change, not necessarily original instrument
+scope: UNKNOWN
+key_changes: []
+cited_in_courses:
+- ke-toan-ngan-hang
+- ke-toan-tai-chinh-1
+- kinh-doanh-va-nghiep-vu
+- nguyen-ly-ke-toan
+curriculum_occurrences:
+- source_id: src-0034
+  page: 5
+  layer: curriculum
+- source_id: src-0048
+  page: 8
+  layer: curriculum
+- source_id: src-0058
+  page: 1
+  layer: curriculum
+- source_id: src-0060
+  page: 8
+  layer: curriculum
+- source_id: src-0063
+  page: 11
+  layer: curriculum
+- source_id: src-0065
+  page: 19
+  layer: curriculum
+- source_id: src-0065
+  page: 20
+  layer: curriculum
+- source_id: src-0067
+  page: 110
+  layer: curriculum
+- source_id: src-0067
+  page: 111
+  layer: curriculum
+- source_id: src-0068
+  page: 30
+  layer: curriculum
+- source_id: src-0068
+  page: 31
+  layer: curriculum
+- source_id: src-0068
+  page: 433
+  layer: curriculum
+- source_id: src-0068
+  page: 434
+  layer: curriculum
+- source_id: src-0093
+  page: 1
+  layer: curriculum
+- source_id: src-0093
+  page: 8
+  layer: curriculum
+- source_id: src-0094
+  page: 1
+  layer: curriculum
+- source_id: src-0096
+  page: 2
+  layer: curriculum
+- source_id: src-0260
+  page: 4
+  layer: curriculum
+variants:
+- Luật Kế toán
+- Luật kế toán
+- luật kế toán
+sources: []
+evidence_status: UNKNOWN
+layer: external
+checked_at: '2026-10-11'
+unknown_reason: Trích dẫn thiếu số hiệu/năm hoặc chỉ tên chuẩn mực; chưa định danh
+  chắc chắn văn bản và phiên bản. Chưa đủ bằng chứng đã kiểm tra để kết luận trạng
+  thái và chuỗi sửa đổi hiện hành. Xem nhật ký tìm kiếm; không suy ra còn hiệu lực
+  từ việc chưa thấy văn bản thay thế.
+search_log: research/search_logs/ref_019.json
+record_kind: unverified_reference
+freshness_limit: Snapshot of sources checked on the stated date; not a guarantee that
+  every later amendment has been found.

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.learning-system/schemas/adaptive_learning_request.schema.json",
+  "title": "AdaptiveLearningRequest",
+  "description": "Phase 8 input. Longitudinal policy. Current diagnosis optional. No SRS.",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "request_id": { "type": ["string", "null"] },
+    "current_context": {
+      "type": "object",
+      "properties": {
+        "course_id": { "type": ["string", "null"] },
+        "chapter": { "type": ["integer", "string", "null"] },
+        "topic": { "type": ["string", "null"] },
+        "task_type": { "type": ["string", "null"] },
+        "current_concepts": { "type": "array", "items": { "type": "string" } },
+        "required_dimension": { "type": ["string", "null"] }
+      }
+    },
+    "learner_state": { "type": ["object", "null"] },
+    "learner_state_refs": { "type": "array" },
+    "current_diagnostic_result": { "type": ["object", "null"] },
+    "current_learning_goal": { "type": ["string", "null"] },
+    "constraints": {
+      "type": "object",
+      "properties": {
+        "max_actions": { "type": "integer" },
+        "allow_prerequisite_backfill": { "type": "boolean" }
+      }
+    }
+  }
+}

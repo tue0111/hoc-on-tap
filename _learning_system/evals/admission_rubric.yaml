@@ -1,0 +1,14 @@
+rubric_id: admission-phase-6
+version: "1.0.0"
+policy_version: "1.0.0"
+pass_if:
+  - observation_only: admitted rows are behavioral observations
+  - no_mastery: no percentage or trait label
+  - self_report_rejected: self-report never ADMIT
+  - retries_not_independent: SAME_TASK_RETRY not ADMIT
+  - provenance: every ADMIT has session or diagnostic ref
+fail_if:
+  - "user is weak"
+  - mastery score
+  - one-off ordinary error ADMIT
+  - hinted success ADMIT as independent

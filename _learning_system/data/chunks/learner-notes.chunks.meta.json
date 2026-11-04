@@ -1,0 +1,16 @@
+{
+  "chunking_version": "2.0.0",
+  "chunk_count": 307,
+  "partition": "learner_notes",
+  "by_course": {
+    "kiem-toan-1": 32,
+    "ke-toan-chi-phi": 79,
+    "ngan-hang-thuong-mai": 77,
+    "tai-chinh-doanh-nghiep-1": 119
+  },
+  "by_source_type": {
+    "assignment": 58,
+    "summary": 196,
+    "unknown": 53
+  }
+}

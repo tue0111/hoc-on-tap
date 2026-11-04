@@ -1,0 +1,47 @@
+model_id: source-authority
+version: "0.1.0"
+layer: curriculum
+note: Rank is a retrieval prior, not a license to drop conflicting text.
+
+ranks:
+  - rank: 1
+    id: official_syllabus
+    maps_from_roles: [syllabus]
+    meaning: Course outline / giới thiệu môn / hướng dẫn học tập that states scope and objectives.
+  - rank: 2
+    id: lecturer_materials
+    maps_from_roles: [lecture_slide, lecture_note]
+    meaning: Lecturer-provided slides and chapter units.
+  - rank: 3
+    id: required_textbook
+    maps_from_roles: [textbook]
+    meaning: Bound/combined course textbook PDF when identified.
+  - rank: 4
+    id: official_practice
+    maps_from_roles: [exercise, solution]
+    meaning: Official exercises and solutions.
+  - rank: 5
+    id: assessment
+    maps_from_roles: [exam, quiz, assignment]
+    meaning: Exams, quizzes, assignments, thảo luận.
+  - rank: 6
+    id: supplementary_reference
+    maps_from_roles: [reference, spreadsheet]
+    meaning: Charts of accounts, tables, extra references.
+  - rank: 7
+    id: personal_notes
+    maps_from_roles: []
+    meaning: Learner-authored notes. None identified as a distinct role in Phase 0–1 filename pass.
+  - rank: 8
+    id: external_material
+    maps_from_roles: []
+    meaning: Research Agent layer C only. Not stored as curriculum truth.
+
+provenance_rule: >
+  A concept may hold lecturer_definition, textbook_definition, and
+  external_definition in parallel. Retrieval returns all requested ranks.
+  Conflicts stay in EvidencePackage.conflicts.
+
+unknown_role:
+  rank: null
+  treatment: retrieve only when filters do not exclude unknown; never treat as syllabus.

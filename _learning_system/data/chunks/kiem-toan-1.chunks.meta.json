@@ -1,0 +1,11 @@
+{
+  "chunking_version": "2.0.0",
+  "chunk_count": 358,
+  "course_id": "kiem-toan-1",
+  "dup_groups": 0,
+  "by_source_type": {
+    "summary": 8,
+    "lecture_note": 340,
+    "exam": 10
+  }
+}

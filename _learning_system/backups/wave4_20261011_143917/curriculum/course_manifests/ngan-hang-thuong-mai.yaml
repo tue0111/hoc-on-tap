@@ -1,0 +1,706 @@
+schema_version: "0.1"
+scanner: course-scanner
+scanned_at: "2026-09-07"
+layer: curriculum
+course_id: ngan-hang-thuong-mai
+course_name: Ngân hàng thương mại
+source_folder: D:\Hoc\Ngân hàng thương mại
+extracts_dir: D:\Hoc\_learning_system\extracts\ngan-hang-thuong-mai
+inventory_file_count: 20
+
+institution:
+  value: "Trường Đại học Mở TP.HCM"
+  evidence_status: OBSERVED
+  evidence:
+    - source_id: src-0121
+      quote: "Chương trình đào tạo trực tuyến của Trường Đại Học Mở TP.HCM"
+    - source_id: src-0121
+      quote: "Trường Đại học Mở TPHCM"
+  faculty:
+    value: "Khoa Tài chính ngân hàng"
+    evidence_status: OBSERVED
+    evidence:
+      - source_id: src-0121
+        quote: "Phan Ngọc Thùy Như - Giảng viên Khoa Tài chính ngân hàng"
+
+course_code:
+  value: null
+  evidence_status: UNKNOWN
+  note: "No ACCO/FINA-style code in filenames or extracted text."
+
+academic_year:
+  value: "2025"
+  evidence_status: OBSERVED
+  scope: sample_exam_filename_year
+  evidence:
+    - "filename DE THI MAU NHTM 2025 (1).pdf"
+  note: "Year token is OBSERVED in the sample-exam filename. Not confirmed as enrollment academic year (e.g. 2024–2025)."
+
+semester:
+  value: null
+  evidence_status: UNKNOWN
+
+status:
+  materials: present
+  completeness: mostly_complete_with_mismatch
+  delivery_mode:
+    value: "đào tạo trực tuyến"
+    evidence_status: OBSERVED
+    evidence:
+      - source_id: src-0121
+  course_type:
+    value: "môn học bắt buộc, khối kiến thức ngành Tài chính - Ngân hàng (và một số chuyên ngành khác)"
+    evidence_status: OBSERVED
+    evidence:
+      - source_id: src-0121
+  notes:
+    - "OBSERVED: Chương 0 script says the course is designed as 7 chapters, then enumerates content chapters 1–6 only."
+    - "OBSERVED: folder has Chương 0–6 scripts + matching slides; no Chương 7 file."
+    - "OBSERVED: Slide Chương 0 TOC lists 6 content units and a numeral '6'."
+    - "If intro is counted as a chapter, files 0–6 = 7 items; the script still lists only six numbered content chapters."
+
+lecturers:
+  named:
+    - name: "Phan Ngọc Thùy Như"
+      title: "GVC.Th.S"
+      evidence_status: OBSERVED
+      role: "giảng viên biên soạn / người đọc script Chương 0"
+      evidence:
+        - source_id: src-0121
+          quote: "Tôi là Phan Ngọc Thùy Như - Giảng viên Khoa Tài chính ngân hàng"
+        - source_id: src-0131
+          quote: "GVC.Th.S Phan Ngọc Thùy Như"
+        - source_id: src-0132
+          quote: "Ths. Phan Ngọc Thùy Như"
+    - name: "Trần Thế Sao"
+      title: "GVC.TS."
+      evidence_status: OBSERVED
+      role: "giảng viên biên soạn (slide intro)"
+      evidence:
+        - source_id: src-0131
+          quote: "GVC.TS. Trần Thế Sao"
+    - name: "Ngô Thành Trung"
+      title: "GVC.TS."
+      evidence_status: OBSERVED
+      role: "giảng viên biên soạn (slide intro)"
+      evidence:
+        - source_id: src-0131
+          quote: "GVC.TS. Ngô Thành Trung"
+  unnamed_group:
+    evidence_status: OBSERVED
+    note: "Chương 0 / Chương 5 scripts refer to 'nhóm giảng viên' / 'các Thầy Cô biên soạn' without listing remaining names."
+
+cited_learning_materials_not_in_folder:
+  evidence_status: OBSERVED
+  items:
+    - citation: "Nguyễn Minh Kiều (2018), Nghiệp vụ Ngân hàng thương mại, Trường Đại học Mở Thành phố Hồ Chí Minh."
+      source_id: src-0131
+      present_in_folder: false
+    - citation: "Trần Thế Sao & Phan Ngọc Thùy Như (2015), Hệ thống bài tập và 315 câu hỏi trắc nghiệm nghiệp vụ Ngân hàng thương mại, NXB Kinh tế Thành phố Hồ Chí Minh."
+      source_id: src-0131
+      present_in_folder: false
+    - description: "video bài giảng; bài tập tự đánh giá sau mỗi chủ đề kèm đáp án; diễn đàn; kiểm tra kết thúc chương"
+      source_id: src-0121
+      present_in_folder: false
+
+assessment:
+  evidence_status: OBSERVED
+  source_ids: [src-0131, src-0121]
+  process:
+    - item: "Diễn đàn thảo luận nội dung môn học"
+      weight_pct: 15
+    - item: "Video conference"
+      weight_pct: 10
+    - item: "Kiểm tra kết thúc chương"
+      weight_pct: 15
+  final:
+    - item: "Thi hết môn"
+      weight_pct: 60
+  sample_exam:
+    filename: "DE THI MAU NHTM 2025 (1).pdf"
+    source_id: src-0128
+    year_in_filename: 2025
+    year_evidence_status: OBSERVED
+    format: "50 câu trắc nghiệm / 90 phút / 0,2đ/câu / được sử dụng tài liệu / phiếu TLTN"
+    includes_answer_key: true
+    answer_key_heading: "ĐÁP ÁN ĐỀ THI MẪU"
+    law_vintage_in_exam:
+      evidence_status: OBSERVED
+      notes:
+        - "Exam items cite Luật các TCTD số 32/2024/QH15 and Thông tư 26/2024/TT-NHNN."
+        - "Lecture scripts (Chương 1, 3, 5) cite Luật các TCTD 2010 / 47/2010/QH12 and Luật công cụ chuyển nhượng 49/2005/QH11."
+        - "Do not merge 2010 lecturer definitions with 2024 exam citations."
+
+sources:
+  by_role:
+    syllabus_intro:
+      note: "No separate đề cương file. Chương 0 script + Slide Chương 0 function as course intro (mục tiêu, CĐR, nội dung, tài liệu, đánh giá). Inventory classified Chương 0 as lecture_note."
+      items:
+        - source_id: src-0121
+          relative_path: "Ngân hàng thương mại/Chương 0.pdf"
+          inventory_role: lecture_note
+          functional_role: syllabus_intro
+          page_count: 6
+          pages_extracted: 6
+          char_count: 9320
+          extract_ok: true
+        - source_id: src-0131
+          relative_path: "Ngân hàng thương mại/Slide Chương 0.pdf"
+          inventory_role: lecture_slide
+          functional_role: syllabus_intro
+          page_count: 11
+          pages_extracted: 11
+          char_count: 2243
+          extract_ok: true
+          note: "Slide text layer sparse; lecturer names and 6-unit TOC OBSERVED."
+    lecture_note:
+      items:
+        - source_id: src-0122
+          relative_path: "Ngân hàng thương mại/Chương 1.pdf"
+          chapter: 1
+          page_count: 15
+          pages_extracted: 8
+          char_count: 12345
+          extract_ok: true
+          truncation: true
+        - source_id: src-0123
+          relative_path: "Ngân hàng thương mại/Chương 2.pdf"
+          chapter: 2
+          page_count: 12
+          pages_extracted: 12
+          char_count: 14965
+          extract_ok: true
+        - source_id: src-0124
+          relative_path: "Ngân hàng thương mại/Chương 3.pdf"
+          chapter: 3
+          page_count: 24
+          pages_extracted: 8
+          char_count: 10782
+          extract_ok: true
+          truncation: true
+        - source_id: src-0125
+          relative_path: "Ngân hàng thương mại/Chương 4.pdf"
+          chapter: 4
+          page_count: 7
+          pages_extracted: 7
+          char_count: 11449
+          extract_ok: true
+        - source_id: src-0126
+          relative_path: "Ngân hàng thương mại/Chương 5.pdf"
+          chapter: 5
+          page_count: 52
+          pages_extracted: 8
+          char_count: 14002
+          extract_ok: true
+          truncation: true
+          note: "Severe extract truncation vs 52 pages."
+        - source_id: src-0127
+          relative_path: "Ngân hàng thương mại/Chương 6.pdf"
+          chapter: 6
+          page_count: 15
+          pages_extracted: 8
+          char_count: 15033
+          extract_ok: true
+          truncation: true
+    lecture_slide:
+      items:
+        - source_id: src-0132
+          relative_path: "Ngân hàng thương mại/Slide Chương 1.pdf"
+          chapter: 1
+          page_count: 40
+          pages_extracted: 6
+          char_count: 914
+          extract_ok: true
+          truncation: true
+          quality: "low text yield; likely image-heavy slides"
+        - source_id: src-0133
+          relative_path: "Ngân hàng thương mại/Slide Chương 2.pdf"
+          chapter: 2
+          page_count: 22
+          char_count: 1287
+        - source_id: src-0134
+          relative_path: "Ngân hàng thương mại/Slide Chương 3.pdf"
+          chapter: 3
+          page_count: 48
+          char_count: 1333
+        - source_id: src-0135
+          relative_path: "Ngân hàng thương mại/Slide Chương 4.pdf"
+          chapter: 4
+          page_count: 44
+          char_count: 1014
+        - source_id: src-0136
+          relative_path: "Ngân hàng thương mại/Slide Chương 5.pdf"
+          chapter: 5
+          page_count: 106
+          char_count: 1173
+          note: "Outline title OBSERVED: 'Chương 5 – CÁC NGHIỆP VỤ TÍN DỤNG KHÁC'"
+        - source_id: src-0137
+          relative_path: "Ngân hàng thương mại/Slide Chương 6.pdf"
+          chapter: 6
+          page_count: 64
+          char_count: 1235
+          note: "Outline includes 'NHTM-C6-CD6.3 DICH VU UY THAC VA BANCASURRANCE'"
+        - source_id: src-0138
+          relative_path: "Ngân hàng thương mại/Slide Ngân hàng Thương Mại.pdf"
+          chapter: null
+          page_count: 335
+          pages_extracted: 6
+          char_count: 1469
+          extract_ok: true
+          truncation: true
+          note: "Combined slide pack. Outline starts at Slide Chương 0–3 in extract; inventory outline truncated. Not a separate curriculum chapter."
+    combined_pack:
+      items:
+        - source_id: src-0130
+          relative_path: "Ngân hàng thương mại/Ngân hàng Thương Mại.pdf"
+          inventory_role: textbook
+          inventory_confidence: low
+          inventory_reason: "promoted unknown -> textbook by size+name heuristic"
+          extract_header_role: unknown
+          scanner_role: combined_lecture_pack
+          page_count: 143
+          pages_extracted: 6
+          char_count: 9320
+          extract_ok: true
+          truncation: true
+          note: >
+            Outline concatenates Chương 0–6 scripts + 'huongdan ontap va kiemtra (1)'
+            + 'DE THI MAU NHTM 2025 (1)'. Extracted text matches Chương 0 only.
+            This is not the cited Nguyễn Minh Kiều (2018) textbook.
+    exam:
+      items:
+        - source_id: src-0128
+          relative_path: "Ngân hàng thương mại/DE THI MAU NHTM 2025 (1).pdf"
+          inventory_role: exam
+          also_contains: solution
+          page_count: 10
+          pages_extracted: 10
+          char_count: 20608
+          extract_ok: true
+          note: "Sample exam + printed answer key. Filename year 2025 OBSERVED."
+    study_guide:
+      items:
+        - source_id: src-0129
+          relative_path: "Ngân hàng thương mại/huongdan ontap va kiemtra (1).pdf"
+          inventory_role: summary
+          page_count: 2
+          char_count: 2783
+          extract_ok: true
+          note: "Study/exam process guide; not a chapter outline."
+    personal_notes:
+      note: "Learner exam handbook (thi mở). Inventory role=summary. Treat as rank 7 personal notes; do not overwrite lecturer scripts."
+      items:
+        - source_id: src-0139
+          relative_path: "Ngân hàng thương mại/SO_TAY_THI_MO_NHTM.docx"
+          inventory_role: summary
+          char_count: 5673
+          extract_ok: true
+          metadata_author: "Un-named"
+        - source_id: src-0140
+          relative_path: "Ngân hàng thương mại/SO_TAY_THI_MO_NHTM.pdf"
+          inventory_role: summary
+          page_count: 17
+          pages_extracted: 17
+          char_count: 35700
+          extract_ok: true
+          metadata_author: "Un-named"
+          note: "Richer extract than the .docx. Mixes Luật TCTD 2024 with chapter map 1–6. External/legal update — keep separate from 2010 lecture definitions."
+    textbook:
+      items: []
+      note: "Cited Nguyễn Minh Kiều (2018) is NOT in the source folder. Combined PDF is a pack, not that textbook."
+    exercise: []
+    solution:
+      items:
+        - source_id: src-0128
+          note: "Answer key is appended inside the sample-exam PDF, not a standalone dapan file."
+
+chapters:
+  - number: 0
+    title: "Giới thiệu môn học"
+    title_evidence_status: OBSERVED
+    title_source: src-0121
+    present_in_folder: true
+    files: ["Chương 0.pdf", "Slide Chương 0.pdf"]
+    topics: []
+    learning_objectives_observed:
+      - "Trang bị kiến thức về các nghiệp vụ trong hoạt động kinh doanh của NHTM."
+      - "Thực hành các nghiệp vụ kinh doanh của NHTM."
+      - "Tuân thủ quy định pháp luật, đạo đức nghề nghiệp khi thực hiện nghiệp vụ tại ngân hàng."
+    course_learning_outcomes_observed:
+      - "Mô tả được các hoạt động kinh doanh của một ngân hàng thương mại"
+      - "Xác định được các sản phẩm phù hợp để tư vấn cho các khách hàng khác nhau"
+      - "Thực hiện được một số công việc trong nghiệp vụ huy động vốn, nghiệp vụ cấp tín dụng và dịch vụ ngân hàng"
+      - "Thực hiện nghiệp vụ đúng với các qui định pháp lý và đạo đức nghề nghiệp trong hoạt động kinh doanh ngân hàng"
+    designed_structure_claim:
+      quote: "môn học này được thiết kế thành 7 chương"
+      evidence_status: OBSERVED
+      enumerated_content_chapters_in_same_script: [1, 2, 3, 4, 5, 6]
+      slide_toc_units:
+        evidence_status: OBSERVED
+        source_id: src-0131
+        items:
+          - "TỔNG QUAN VỀ NGÂN HÀNG THƯƠNG MẠI"
+          - "NGHIỆP VỤ HUY ĐỘNG VỐN"
+          - "TỔNG QUAN VỀ NGHIỆP VỤ CẤP TÍN DỤNG"
+          - "NGHIỆP VỤ CHO VAY"
+          - "CÁC NGHIỆP VỤ CẤP TÍN DỤNG KHÁC"
+          - "DỊCH VỤ NGÂN HÀNG"
+        trailing_numeral_on_slide: 6
+      folder_files: ["Chương 0.pdf", "Chương 1.pdf", "Chương 2.pdf", "Chương 3.pdf", "Chương 4.pdf", "Chương 5.pdf", "Chương 6.pdf"]
+      missing_chapter_7_file: true
+      mismatch: >
+        Intro claims 7 chapters but then describes chapters 1–6. Folder has intro + 6 content
+        chapters (0–6). No Chương 7. Slide TOC shows 6 content units.
+
+  - number: 1
+    title: "TỔNG QUAN VỀ NGÂN HÀNG THƯƠNG MẠI"
+    title_evidence_status: OBSERVED
+    title_source: src-0122
+    present_in_folder: true
+    files: ["Chương 1.pdf", "Slide Chương 1.pdf"]
+    topic_count_stated: 3
+    topics:
+      - code: "1.1"
+        title: "Khái quát về ngân hàng thương mại"
+        evidence_status: OBSERVED
+        outline_token: "NHTM-C1-CD1.1-KhaiquatveNHTM"
+      - code: "1.2"
+        title: "Chức năng của Ngân hàng thương mại"
+        evidence_status: OBSERVED
+        outline_token: "NHTM-C1-CD1.2-ChucnangNHTM"
+      - code: "1.3"
+        title: "Nghiệp vụ của ngân hàng thương mại"
+        evidence_status: OBSERVED
+        outline_token: "NHTM-C1-CD1.3-NghiepvuNHTM"
+        note: "Topic body truncated in extract (pages_extracted 8/15); title OBSERVED from chapter intro list + PDF outline."
+    learning_objectives_observed:
+      - "Khái quát hóa về ngân hàng thương mại."
+      - "Trình bày được các chức năng và các nghiệp vụ cơ bản của NHTM."
+
+  - number: 2
+    title: "NGHIỆP VỤ HUY ĐỘNG VỐN CỦA NGÂN HÀNG THƯƠNG MẠI"
+    title_evidence_status: OBSERVED
+    title_source: src-0123
+    present_in_folder: true
+    files: ["Chương 2.pdf", "Slide Chương 2.pdf"]
+    short_title_in_intro: "Nghiệp vụ huy động vốn"
+    topic_count_stated: 2
+    topics:
+      - code: "2.1"
+        title: "Khái niệm về nghiệp vụ huy động vốn của NHTM"
+        evidence_status: OBSERVED
+        outline_token: "NHTM-C2-CD2.1-Khainiemvehuydongvon"
+      - code: "2.2"
+        title: "Các hình thức huy động vốn của NHTM"
+        evidence_status: OBSERVED
+        outline_token: "NHTM-C2-CD2.2-HInhthuchuydongvon"
+    learning_objectives_observed:
+      - "Nắm được những vấn đề cơ bản về nghiệp vụ huy động vốn."
+      - "Xác định được tầm quan trọng của nghiệp vụ này đối với ngân hàng và khách hàng."
+      - "Hiểu rõ đặc điểm cơ bản của các hình thức huy động vốn, từ đó có thể thực hiện tính lãi đối với các giao dịch này."
+
+  - number: 3
+    title: "TỔNG QUAN VỀ NGHIỆP VỤ CẤP TÍN DỤNG CỦA NGÂN HÀNG THƯƠNG MẠI"
+    title_evidence_status: OBSERVED
+    title_source: src-0124
+    present_in_folder: true
+    files: ["Chương 3.pdf", "Slide Chương 3.pdf"]
+    topic_count_stated: 3
+    topics:
+      - code: "3.1"
+        title: "Khái quát về nghiệp vụ cấp tín dụng"
+        evidence_status: OBSERVED
+        outline_token: "NHTM-C3-CD3.1-Khaiquattindungnganhang"
+      - code: "3.2"
+        title: "Quy trình tín dụng"
+        evidence_status: OBSERVED
+        outline_token: "NHTM-C3-CD3.2-Quytrinhtindung"
+      - code: "3.3"
+        title: "Đảm bảo tín dụng"
+        evidence_status: OBSERVED
+        outline_token: "NHTM-C3-CD3.3-Dambaotindung"
+    learning_objectives_observed:
+      - "Xác định được những vấn đề cơ bản cũng như khái quát hóa các thuật ngữ trong hoạt động cấp tín dụng của ngân hàng."
+      - "Mô tả được quy trình cấp tín dụng cũng như phân biệt được các phương thức đảm bảo tín dụng thường được sử dụng tại NHTM."
+
+  - number: 4
+    title: "NGHIỆP VỤ CHO VAY"
+    title_evidence_status: OBSERVED
+    title_source: src-0125
+    present_in_folder: true
+    files: ["Chương 4.pdf", "Slide Chương 4.pdf"]
+    topic_count_stated: 2
+    topics:
+      - code: "4.1"
+        title: "Cho vay ngắn hạn"
+        evidence_status: OBSERVED
+        outline_token: "NHTM-C4-CD4.1-CHO VAY NGAN HAN"
+      - code: "4.2"
+        title: "Cho vay trung dài hạn"
+        evidence_status: OBSERVED
+        outline_token: "NHTM-C4-CD4.2-CHO VAY TRUNG DAI HAN"
+    learning_objectives_observed: []
+    note: "Chapter 4 script does not open with a 'sau khi học xong' objective block; objectives for cho vay are stated at course/Chương 0 level."
+
+  - number: 5
+    title: "Các nghiệp vụ tín dụng khác"
+    title_evidence_status: OBSERVED
+    title_source: src-0126
+    alt_titles:
+      - text: "Các nghiệp vụ cấp tín dụng khác"
+        source_id: src-0126
+        evidence_status: OBSERVED
+      - text: "Chương 5 – CÁC NGHIỆP VỤ TÍN DỤNG KHÁC"
+        source_id: src-0136
+        evidence_status: OBSERVED
+    present_in_folder: true
+    files: ["Chương 5.pdf", "Slide Chương 5.pdf"]
+    topic_count_stated: 4
+    topics:
+      - code: "5.1"
+        title: "Nghiệp vụ chiết khấu giấy tờ có giá"
+        evidence_status: OBSERVED
+        outline_token: "NHTM-C5-CD5.1-Nghiepvuchietkhaugiaytocogia"
+      - code: "5.2"
+        title: "Nghiệp vụ cho thuê tài chính"
+        evidence_status: OBSERVED
+        outline_token: "NHTM-C5-CD5.2-Nghiepvuchothuetaichinh"
+      - code: "5.3"
+        title: "Bao thanh toán"
+        evidence_status: OBSERVED
+        outline_token: "NHTM-C5-CD5.3-Baothanhtoan"
+      - code: "5.4"
+        title: "Nghiệp vụ bảo lãnh ngân hàng"
+        evidence_status: OBSERVED
+        outline_token: "NHTM-C5-CD5.4_Nghiepvubaolanhnganhang"
+    learning_objectives_observed:
+      - "Sau khi học xong các chủ đề này, hy vọng các bạn sẽ biết thêm nhiều sản phẩm cấp tín dụng hữu ích của ngân hàng thương mại"
+
+  - number: 6
+    title: "DỊCH VỤ NGÂN HÀNG"
+    title_evidence_status: OBSERVED
+    title_source: src-0127
+    present_in_folder: true
+    files: ["Chương 6.pdf", "Slide Chương 6.pdf"]
+    topic_count_stated: 3
+    topics:
+      - code: "6.1"
+        title: "Dịch vụ thanh toán"
+        evidence_status: OBSERVED
+        outline_token: "NHTM-C6-CD6.1-DICH VU THANH TOAN"
+      - code: "6.2"
+        title: "Dịch vụ ngân hàng điện tử"
+        evidence_status: OBSERVED
+        outline_token: "NHTM-C6-CD6.2-DICH VU NGAN HANG DIEN TU"
+      - code: "6.3"
+        title: "Dịch vụ ủy thác"
+        evidence_status: OBSERVED
+        outline_token: "NHTM-C6-CD6.3-DICH VU UY THAC"
+        bundled_in_intro_and_slide:
+          - "Dịch vụ phân phối bảo hiểm qua kênh ngân hàng (bancassurance)"
+        note: >
+          Chương 0 and Chương 6 intro list thanh toán, e-banking, ủy thác AND bancassurance,
+          then call them '3 chủ đề'. Slide 6.3 outline token includes BANCASURRANCE.
+          Topic 6.3 body truncated in extract.
+    learning_objectives_observed: []
+
+  - number: 7
+    title: null
+    title_evidence_status: UNKNOWN
+    present_in_folder: false
+    note: "Intro claims 7 chapters; no title or file for a seventh content chapter is OBSERVED."
+
+relationships:
+  prerequisites_observed: []
+  prerequisites_inferred: []
+  related_courses:
+    - course_id: ke-toan-ngan-hang
+      relation: related_domain
+      evidence_status: INFERRED
+      confidence: low
+      note: "Same banking-operations domain (huy động vốn, tín dụng, thanh toán). No NHTM document states KTNH as required or related course."
+    - course_id: thi-truong-tai-chinh
+      relation: related_domain
+      evidence_status: INFERRED
+      confidence: low
+      note: "Chương 0 points learners to NHNN website for 'thông tin về thị trường tài chính Việt Nam'. Does not name the TTTC course."
+  cited_legal_sources_in_lectures:
+    evidence_status: OBSERVED
+    items:
+      - "Luật các tổ chức tín dụng năm 2010 / số 47/2010/QH12"
+      - "Luật các công cụ chuyển nhượng số 49/2005/QH11"
+  cited_legal_sources_in_exam_or_personal_notes:
+    evidence_status: OBSERVED
+    items:
+      - "Luật các TCTD số 32/2024/QH15 (exam + sổ tay)"
+      - "Thông tư 26/2024/TT-NHNN (exam)"
+      - "Thông tư 39 (sổ tay; not verified in lecture extracts)"
+      - "Luật bảo hiểm tiền gửi (exam)"
+    note: "Keep exam/personal-note 2024 citations separate from 2010 lecture definitions."
+
+coverage:
+  designed_content_chapters: "claimed 7; enumerated 1–6"
+  present_content_chapters: [1, 2, 3, 4, 5, 6]
+  present_intro: true
+  matching_slides_for_chapters: [0, 1, 2, 3, 4, 5, 6]
+  sample_exam: true
+  official_syllabus_file: false
+  required_textbook_file: false
+  video_lectures: false
+  self_assessment_exercises: false
+  chapter_quizzes: false
+  missing:
+    - "Separate đề cương (weights said to follow đề cương môn học)"
+    - "Nguyễn Minh Kiều (2018) textbook"
+    - "Trần Thế Sao & Phan Ngọc Thùy Như (2015) exercise book"
+    - "Video bài giảng"
+    - "Bài tập tự đánh giá + đáp án after each topic"
+    - "Chương 7 file (if 7 content chapters were intended)"
+
+quality:
+  scripts: "text_extractable; several chapter extracts truncated at 8 pages"
+  slides: "text layer present but low char_count vs page_count; likely image-heavy"
+  combined_pdf: "143 pages, extract only first 6 pages (Chương 0 text); outline useful"
+  combined_slides: "335 pages, extract 6 pages / 1469 chars"
+  exam: "full 10-page extract including answer-key heading"
+  so_tay_docx: "headings extracted; tables/formulas likely incomplete"
+  so_tay_pdf: "full 17-page extract"
+  truncation_observed:
+    - "src-0122 Chương 1: 8/15 pages"
+    - "src-0124 Chương 3: 8/24 pages"
+    - "src-0126 Chương 5: 8/52 pages"
+    - "src-0127 Chương 6: 8/15 pages (topics 6.3 body missing)"
+    - "src-0130 combined PDF: 6/143 pages"
+    - "src-0138 combined slides: 6/335 pages"
+
+concepts:
+  source_rule: "headings and stated learning objectives only; not body definitions"
+  items:
+    - id: nhtm-intro
+      chapter: 0
+      label: "Giới thiệu môn học Ngân hàng thương mại"
+      kind: heading
+    - id: nhtm-cdr
+      chapter: 0
+      label: "Chuẩn đầu ra môn học"
+      kind: objective
+    - id: nhtm-c1
+      chapter: 1
+      label: "Tổng quan về ngân hàng thương mại"
+      kind: heading
+    - id: nhtm-c1-1
+      chapter: 1
+      label: "Khái quát về ngân hàng thương mại"
+      kind: heading
+    - id: nhtm-c1-2
+      chapter: 1
+      label: "Chức năng của ngân hàng thương mại"
+      kind: heading
+    - id: nhtm-c1-3
+      chapter: 1
+      label: "Nghiệp vụ của ngân hàng thương mại"
+      kind: heading
+    - id: nhtm-c2
+      chapter: 2
+      label: "Nghiệp vụ huy động vốn của NHTM"
+      kind: heading
+    - id: nhtm-c2-1
+      chapter: 2
+      label: "Khái niệm về nghiệp vụ huy động vốn"
+      kind: heading
+    - id: nhtm-c2-2
+      chapter: 2
+      label: "Hình thức huy động vốn (tiền gửi, phát hành GTCG)"
+      kind: heading
+    - id: nhtm-c3
+      chapter: 3
+      label: "Tổng quan về nghiệp vụ cấp tín dụng của NHTM"
+      kind: heading
+    - id: nhtm-c3-1
+      chapter: 3
+      label: "Khái quát về nghiệp vụ cấp tín dụng"
+      kind: heading
+    - id: nhtm-c3-2
+      chapter: 3
+      label: "Quy trình tín dụng"
+      kind: heading
+    - id: nhtm-c3-3
+      chapter: 3
+      label: "Đảm bảo tín dụng"
+      kind: heading
+    - id: nhtm-c4
+      chapter: 4
+      label: "Nghiệp vụ cho vay"
+      kind: heading
+    - id: nhtm-c4-1
+      chapter: 4
+      label: "Cho vay ngắn hạn"
+      kind: heading
+    - id: nhtm-c4-2
+      chapter: 4
+      label: "Cho vay trung dài hạn"
+      kind: heading
+    - id: nhtm-c5
+      chapter: 5
+      label: "Các nghiệp vụ tín dụng khác"
+      kind: heading
+    - id: nhtm-c5-1
+      chapter: 5
+      label: "Chiết khấu giấy tờ có giá"
+      kind: heading
+    - id: nhtm-c5-2
+      chapter: 5
+      label: "Cho thuê tài chính"
+      kind: heading
+    - id: nhtm-c5-3
+      chapter: 5
+      label: "Bao thanh toán"
+      kind: heading
+    - id: nhtm-c5-4
+      chapter: 5
+      label: "Bảo lãnh ngân hàng"
+      kind: heading
+    - id: nhtm-c6
+      chapter: 6
+      label: "Dịch vụ ngân hàng"
+      kind: heading
+    - id: nhtm-c6-1
+      chapter: 6
+      label: "Dịch vụ thanh toán"
+      kind: heading
+    - id: nhtm-c6-2
+      chapter: 6
+      label: "Dịch vụ ngân hàng điện tử"
+      kind: heading
+    - id: nhtm-c6-3
+      chapter: 6
+      label: "Dịch vụ ủy thác"
+      kind: heading
+    - id: nhtm-c6-bancassurance
+      chapter: 6
+      label: "Dịch vụ phân phối bảo hiểm qua kênh ngân hàng (bancassurance)"
+      kind: heading
+      note: "Named in Chương 0 and bundled under slide 6.3; not a separate numbered chủ đề in script outline."
+
+unknowns:
+  - "Official course code"
+  - "Enrollment academic year / semester (only 2025 on sample-exam filename)"
+  - "Title or existence of a 7th content chapter"
+  - "Full names of remaining biên soạn lecturers beyond the three on Slide Chương 0"
+  - "Whether combined PDF/slides are official LMS exports or learner concatenations"
+  - "Authorship of SO_TAY_THI_MO (metadata Un-named; treat as personal notes)"
+  - "Whether video / self-tests exist outside this folder"
+
+mismatches:
+  - id: designed_7_vs_folder_0_to_6
+    evidence_status: OBSERVED
+    detail: "Chương 0 says 7 chapters; enumerates 1–6; folder and combined outline stop at Chương 6; slide TOC lists 6 units."
+  - id: law_vintage_lecture_vs_exam
+    evidence_status: OBSERVED
+    detail: "Scripts use Luật TCTD 2010; 2025 sample exam uses Luật TCTD 2024. Do not merge."
+  - id: combined_pdf_not_cited_textbook
+    evidence_status: OBSERVED
+    detail: "Ngân hàng Thương Mại.pdf is a concatenated pack, not Nguyễn Minh Kiều (2018)."
+  - id: chuong6_three_topics_four_services
+    evidence_status: OBSERVED
+    detail: "Script lists four services then says three chủ đề; bancassurance bundled with ủy thác."

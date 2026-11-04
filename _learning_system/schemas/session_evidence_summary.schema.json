@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.learning-system/schemas/session_evidence_summary.schema.json",
+  "title": "SessionEvidenceSummary",
+  "description": "End-of-session artifact. candidate_long_term_evidence is not admitted to mastery.",
+  "type": "object",
+  "required": ["session_id", "final_session_status", "persistence"],
+  "additionalProperties": false,
+  "properties": {
+    "session_id": { "type": "string" },
+    "course": { "type": ["string", "null"] },
+    "concepts_tested": { "type": "array", "items": { "type": "string" } },
+    "observed_errors": { "type": "array" },
+    "diagnoses": { "type": "array" },
+    "diagnosis_transitions": { "type": "array" },
+    "evidence_events": { "type": "array" },
+    "final_session_status": { "type": "string" },
+    "candidate_long_term_evidence": { "type": "array" },
+    "persistence": { "type": "boolean", "const": false }
+  }
+}

@@ -1,0 +1,562 @@
+{
+  "course_id": "kiem-toan-1",
+  "tag": "_d1_candidate",
+  "eval_sha256": "8e1df7c48a6fe2b99f0b6eaa78c1f2e8c16da74d1647a1d45f8ab8700547c34b",
+  "n": 20,
+  "metrics": {
+    "direct_must_include": 1.0,
+    "direct_chapter_at1": 1.0,
+    "source_bound": 1.0,
+    "insufficient": 1.0,
+    "collision_contamination": 0,
+    "account": null,
+    "topic_owner": null
+  },
+  "gates": {
+    "direct_must_include": true,
+    "direct_chapter_at1": true,
+    "source_bound": true,
+    "insufficient": true,
+    "collision_contamination": true,
+    "account": true,
+    "topic_owner": true
+  },
+  "all_pass": true,
+  "results": [
+    {
+      "id": "kt-d01",
+      "category": "direct",
+      "question": "Kiểm toán 1: các giả định của báo cáo tài chính gồm những gì?",
+      "coverage": "partial",
+      "top_sources": [
+        "src-0197",
+        "src-0197",
+        "src-0197",
+        "src-0197",
+        "src-0197"
+      ],
+      "top_chapters": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "partition": "kiem-toan-1",
+      "unknowns": [
+        "no_course_concept_match"
+      ],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kt-d02",
+      "category": "direct",
+      "question": "Kiểm toán 1: phân loại kiểm toán theo chủ thể gồm những loại nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0200",
+        "src-0200",
+        "src-0200",
+        "src-0200",
+        "src-0200"
+      ],
+      "top_chapters": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "partition": "kiem-toan-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kt-d03",
+      "category": "direct",
+      "question": "Kiểm toán 1: quy trình kiểm toán gồm những giai đoạn nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0201",
+        "src-0208",
+        "src-0202",
+        "src-0211",
+        "src-0201"
+      ],
+      "top_chapters": [
+        2,
+        4,
+        2,
+        4,
+        2
+      ],
+      "partition": "kiem-toan-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kt-d04",
+      "category": "direct",
+      "question": "Kiểm toán 1: các bộ phận hợp thành hệ thống kiểm soát nội bộ theo COSO là gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0204",
+        "src-0204",
+        "src-0203",
+        "src-0205",
+        "src-0204"
+      ],
+      "top_chapters": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "partition": "kiem-toan-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kt-d05",
+      "category": "direct",
+      "question": "Kiểm toán 1: trọng yếu và mức trọng yếu thực hiện được xác định thế nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0208",
+        "src-0208",
+        "src-0208",
+        "src-0208",
+        "src-0208"
+      ],
+      "top_chapters": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "partition": "kiem-toan-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kt-d06",
+      "category": "direct",
+      "question": "Kiểm toán 1: mô hình rủi ro kiểm toán gồm những thành phần nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0210",
+        "src-0209",
+        "src-0209",
+        "src-0210",
+        "src-0209"
+      ],
+      "top_chapters": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "partition": "kiem-toan-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kt-d07",
+      "category": "direct",
+      "question": "Kiểm toán 1: lập kế hoạch kiểm toán gồm những bước nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0211",
+        "src-0211",
+        "src-0212",
+        "src-0212",
+        "src-0208"
+      ],
+      "top_chapters": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "partition": "kiem-toan-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kt-d08",
+      "category": "direct",
+      "question": "Kiểm toán 1: bằng chứng kiểm toán cần đầy đủ và thích hợp nghĩa là gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0214",
+        "src-0216",
+        "src-0196",
+        "src-0213",
+        "src-0216"
+      ],
+      "top_chapters": [
+        5,
+        6,
+        null,
+        5,
+        6
+      ],
+      "partition": "kiem-toan-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kt-d09",
+      "category": "direct",
+      "question": "Kiểm toán 1: các kỹ thuật thu thập bằng chứng kiểm toán gồm những gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0215",
+        "src-0213",
+        "src-0215",
+        "src-0213",
+        "src-0196"
+      ],
+      "top_chapters": [
+        5,
+        5,
+        5,
+        5,
+        null
+      ],
+      "partition": "kiem-toan-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kt-d10",
+      "category": "direct",
+      "question": "Kiểm toán 1: các loại ý kiến kiểm toán gồm những loại nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0218",
+        "src-0218",
+        "src-0201",
+        "src-0218",
+        "src-0220"
+      ],
+      "top_chapters": [
+        6,
+        6,
+        2,
+        6,
+        null
+      ],
+      "partition": "kiem-toan-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kt-d11",
+      "category": "direct",
+      "question": "Kiểm toán 1: kiểm toán nội bộ khác kiểm toán độc lập thế nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0200",
+        "src-0200",
+        "src-0200",
+        "src-0200",
+        "src-0200"
+      ],
+      "top_chapters": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "partition": "kiem-toan-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kt-d12",
+      "category": "direct",
+      "question": "Kiểm toán 1: rủi ro tiềm tàng, rủi ro kiểm soát và rủi ro phát hiện là gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0210",
+        "src-0209",
+        "src-0209",
+        "src-0209",
+        "src-0209"
+      ],
+      "top_chapters": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "partition": "kiem-toan-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kt-s01",
+      "category": "source_bound",
+      "question": "Theo chương 3 của Kiểm toán 1, kiểm soát nội bộ gồm những chủ đề nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0206",
+        "src-0203",
+        "src-0206",
+        "src-0205",
+        "src-0206"
+      ],
+      "top_chapters": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "partition": "kiem-toan-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kt-s02",
+      "category": "source_bound",
+      "question": "Đề thi mẫu Kiểm toán 1 gồm những dạng câu hỏi nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0220",
+        "src-0206",
+        "src-0196",
+        "src-0196",
+        "src-0206"
+      ],
+      "top_chapters": [
+        null,
+        3,
+        null,
+        null,
+        3
+      ],
+      "partition": "kiem-toan-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kt-s03",
+      "category": "source_bound",
+      "question": "Hướng dẫn ôn tập Kiểm toán 1 yêu cầu học những gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0196",
+        "src-0202",
+        "src-0202",
+        "src-0202",
+        "src-0196"
+      ],
+      "top_chapters": [
+        null,
+        2,
+        2,
+        2,
+        null
+      ],
+      "partition": "kiem-toan-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kt-i01",
+      "category": "insufficient",
+      "question": "Mô hình CAPM trong Kiểm toán 1 được tính như thế nào?",
+      "coverage": "insufficient",
+      "top_sources": [
+        "src-0209",
+        "src-0202",
+        "src-0197",
+        "src-0210",
+        "src-0213"
+      ],
+      "top_chapters": [
+        4,
+        2,
+        1,
+        4,
+        5
+      ],
+      "partition": "kiem-toan-1",
+      "unknowns": [
+        "topic_in_other_course:tai-chinh-doanh-nghiep-1",
+        "no_course_concept_match",
+        "term_not_in_course_corpus:capm",
+        "insufficient_curriculum_evidence"
+      ],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kt-i02",
+      "category": "insufficient",
+      "question": "Kiểm toán 1 hướng dẫn hạch toán tài sản cố định thế nào?",
+      "coverage": "insufficient",
+      "top_sources": [
+        "src-0202",
+        "src-0202",
+        "src-0201",
+        "src-0218",
+        "src-0212"
+      ],
+      "top_chapters": [
+        2,
+        2,
+        2,
+        6,
+        4
+      ],
+      "partition": "kiem-toan-1",
+      "unknowns": [
+        "topic_in_other_course:ke-toan-tai-chinh-2",
+        "no_course_concept_match",
+        "insufficient_curriculum_evidence"
+      ],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kt-i03",
+      "category": "insufficient",
+      "question": "Kiểm toán 1: phương pháp tính giá thành theo quy trình sản xuất là gì?",
+      "coverage": "insufficient",
+      "top_sources": [
+        "src-0215",
+        "src-0197",
+        "src-0215",
+        "src-0207",
+        "src-0200"
+      ],
+      "top_chapters": [
+        5,
+        1,
+        5,
+        4,
+        2
+      ],
+      "partition": "kiem-toan-1",
+      "unknowns": [
+        "no_course_concept_match",
+        "topic_in_other_course:ke-toan-chi-phi",
+        "insufficient_curriculum_evidence"
+      ],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kt-c01",
+      "category": "collision",
+      "question": "Chương 1 của Kiểm toán 1 nói về gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0197",
+        "src-0197",
+        "src-0199",
+        "src-0198",
+        "src-0197"
+      ],
+      "top_chapters": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "partition": "kiem-toan-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kt-c02",
+      "category": "collision",
+      "question": "Chương 5 của Kiểm toán 1 nói về gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0213",
+        "src-0215",
+        "src-0215",
+        "src-0214",
+        "src-0213"
+      ],
+      "top_chapters": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "partition": "kiem-toan-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    }
+  ]
+}

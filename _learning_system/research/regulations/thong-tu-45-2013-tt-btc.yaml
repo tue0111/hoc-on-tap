@@ -1,0 +1,53 @@
+ref: Thông tư 45/2013/TT-BTC
+status: unknown
+replaced_by: null
+amended_by: []
+effective_from: null
+effective_date_meaning: effective date of cited change, not necessarily original instrument
+scope: UNKNOWN
+key_changes: []
+cited_in_courses:
+- ke-toan-tai-chinh-2
+- ngan-hang-thuong-mai
+curriculum_occurrences:
+- source_id: src-0069
+  page: 4
+  layer: curriculum
+- source_id: src-0069
+  page: 11
+  layer: curriculum
+- source_id: src-0069
+  page: 17
+  layer: curriculum
+- source_id: src-0126
+  page: 25
+  layer: curriculum
+- source_id: src-0130
+  page: 89
+  layer: curriculum
+- source_id: src-0306
+  page: 2
+  layer: curriculum
+- source_id: src-0307
+  page: 2
+  layer: curriculum
+- source_id: src-0308
+  page: 3
+  layer: curriculum
+variants:
+- 'Thông tư
+
+  45/2013/TT-BTC'
+- Thông tư 45/2013/TT-BTC
+- thông tư 45/2013/TT-BTC
+sources: []
+evidence_status: UNKNOWN
+layer: external
+checked_at: '2026-10-11'
+unknown_reason: Chưa đủ bằng chứng đã kiểm tra để kết luận trạng thái và chuỗi sửa
+  đổi hiện hành. Xem nhật ký tìm kiếm; không suy ra còn hiệu lực từ việc chưa thấy
+  văn bản thay thế.
+search_log: research/search_logs/ref_053.json
+record_kind: unverified_reference
+freshness_limit: Snapshot of sources checked on the stated date; not a guarantee that
+  every later amendment has been found.

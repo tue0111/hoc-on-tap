@@ -1,0 +1,365 @@
+course_id: tai-chinh-hanh-chinh-su-nghiep
+version: 0.1.0
+id_prefix: hcsn
+concepts:
+- concept_id: hcsn-tong-quan-ve-tai-chinh-hanh-chinh-su-nghiep
+  canonical_name: Tổng quan về tài chính hành chính sự nghiệp
+  aliases:
+  - ĐVHCSN
+  same_as: null
+  chapter: 1
+  topic: '1'
+  source_refs:
+  - source_id: src-0179
+    page: 1
+  - source_id: src-0187
+    page: 4
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: hcsn-ngan-sach-nha-nuoc
+  canonical_name: ngân sách nhà nước
+  aliases:
+  - NSNN
+  same_as: null
+  chapter: 1
+  topic: 1.1.1
+  source_refs:
+  - source_id: src-0179
+    page: 1
+  - source_id: src-0179
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: hcsn-phuong-phap-quan-ly-tai-chinh
+  canonical_name: Phương pháp quản lý tài chính
+  aliases: []
+  same_as: null
+  chapter: 1
+  topic: '1.1'
+  source_refs:
+  - source_id: src-0179
+    page: 1
+  - source_id: src-0179
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: hcsn-quy-trinh-quan-ly-tai-chinh-don-vi-hanh-chinh-su-nghiep-cong-lap
+  canonical_name: Quy trình quản lý tài chính đơn vị Hành chính sự nghiệp công lập
+  aliases: []
+  same_as: null
+  chapter: 1
+  topic: '1.2'
+  source_refs:
+  - source_id: src-0179
+    page: 26
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: hcsn-nhiem-vu-quyen-han-cua-cac-don-vi-hanh-chinh-su-nghiep
+  canonical_name: Nhiệm vụ quyền hạn của các đơn vị hành chính sự nghiệp
+  aliases: []
+  same_as: null
+  chapter: 1
+  topic: '1.3'
+  source_refs:
+  - source_id: src-0179
+    page: 34
+  - source_id: src-0187
+    page: 69
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: hcsn-quan-ly-tai-chinh-theo-co-che-tu-chu-tu-chiu-trach-nhiem
+  canonical_name: Quản lý tài chính theo cơ chế tự chủ, tự chịu trách nhiệm
+  aliases:
+  - cơ chế tự chủ tài chính
+  same_as: null
+  chapter: 2
+  topic: '2'
+  source_refs:
+  - source_id: src-0180
+    page: 1
+  - source_id: src-0188
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: hcsn-mot-so-van-de-co-ban-ve-co-che-tu-chu-tai-chinh
+  canonical_name: Một số vấn đề cơ bản về cơ chế tự chủ tài chính
+  aliases: []
+  same_as: null
+  chapter: 2
+  topic: '2.1'
+  source_refs:
+  - source_id: src-0180
+    page: 1
+  - source_id: src-0180
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: hcsn-quan-ly-tai-chinh-theo-co-che-tu-chu-co-quan-hanh-chinh-nha-nuoc
+  canonical_name: Quản lý tài chính theo cơ chế tự chủ cơ quan Hành chính nhà nước
+  aliases: []
+  same_as: null
+  chapter: 2
+  topic: '2.2'
+  source_refs:
+  - source_id: src-0180
+    page: 17
+  - source_id: src-0180
+    page: 25
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: hcsn-quan-ly-tai-chinh-theo-co-che-tu-chu-don-vi-su-nghiep-cong-lap
+  canonical_name: Quản lý tài chính theo cơ chế tự chủ đơn vị sự nghiệp công lập
+  aliases: []
+  same_as: null
+  chapter: 2
+  topic: '2.3'
+  source_refs:
+  - source_id: src-0180
+    page: 30
+  - source_id: src-0180
+    page: 41
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: hcsn-quan-ly-quy-tien-luong
+  canonical_name: Quản lý quỹ tiền lương
+  aliases: []
+  same_as: null
+  chapter: 3
+  topic: '3'
+  source_refs:
+  - source_id: src-0181
+    page: 1
+  - source_id: src-0189
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: hcsn-mot-so-van-de-chung-ve-quy-tien-luong-va-cac-khoan-nop-theo-luong
+  canonical_name: Một số vấn đề chung về quỹ tiền lương và các khoản nộp theo lương
+  aliases: []
+  same_as: null
+  chapter: 3
+  topic: '3.1'
+  source_refs:
+  - source_id: src-0181
+    page: 1
+  - source_id: src-0181
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: hcsn-quy-trinh-quan-ly-quy-tien-luong-va-cac-khoan-nop-theo-luong
+  canonical_name: Quy trình quản lý quỹ tiền lương và các khoản nộp theo lương
+  aliases: []
+  same_as: null
+  chapter: 3
+  topic: '3.2'
+  source_refs:
+  - source_id: src-0189
+    page: 16
+  - source_id: src-0181
+    page: 21
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: hcsn-quan-ly-tai-chinh-du-an-dau-tu-cong
+  canonical_name: Quản lý tài chính dự án đầu tư công
+  aliases: []
+  same_as: null
+  chapter: 4
+  topic: '4'
+  source_refs:
+  - source_id: src-0182
+    page: 1
+  - source_id: src-0190
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: hcsn-phan-loai-du-an-dau-tu-cong
+  canonical_name: Phân loại dự án đầu tư công
+  aliases: []
+  same_as: null
+  chapter: 4
+  topic: '4.1'
+  source_refs:
+  - source_id: src-0182
+    page: 1
+  - source_id: src-0182
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: hcsn-quy-trinh-quan-ly-tai-chinh-du-an-dau-tu-cong
+  canonical_name: Quy trình quản lý tài chính dự án đầu tư công
+  aliases: []
+  same_as: null
+  chapter: 4
+  topic: '4.2'
+  source_refs:
+  - source_id: src-0182
+    page: 11
+  - source_id: src-0182
+    page: 12
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: hcsn-quan-ly-chi-phi-quan-ly-du-an-dau-tu-xay-dung
+  canonical_name: Quản lý chi phí quản lý dự án đầu tư xây dựng
+  aliases: []
+  same_as: null
+  chapter: 4
+  topic: '4.3'
+  source_refs:
+  - source_id: src-0182
+    page: 2
+  - source_id: src-0182
+    page: 31
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: hcsn-quan-ly-su-dung-tai-san-cong
+  canonical_name: QUẢN LÝ SỬ DỤNG TÀI SẢN CÔNG
+  aliases:
+  - tài sản công
+  same_as: null
+  chapter: 5
+  topic: '5'
+  source_refs:
+  - source_id: src-0183
+    page: 1
+  - source_id: src-0183
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: hcsn-mot-so-van-de-co-ban-trong-quan-ly-su-dung-tai-san-cong
+  canonical_name: Một số vấn đề cơ bản trong quản lý, sử dụng tài sản công
+  aliases: []
+  same_as: null
+  chapter: 5
+  topic: '5.1'
+  source_refs:
+  - source_id: src-0183
+    page: 1
+  - source_id: src-0183
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: hcsn-quan-ly-su-dung-tai-san-tai-co-quan-hanh-chinh-nha-nuoc
+  canonical_name: Quản lý, sử dụng tài sản tại cơ quan Hành chính nhà nước
+  aliases: []
+  same_as: null
+  chapter: 5
+  topic: '5.2'
+  source_refs:
+  - source_id: src-0183
+    page: 2
+  - source_id: src-0183
+    page: 6
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: hcsn-quan-ly-su-dung-tai-san-tai-don-vi-su-nghiep-cong-lap
+  canonical_name: Quản lý, sử dụng tài sản tại Đơn vị sự nghiệp công lập
+  aliases: []
+  same_as: null
+  chapter: 5
+  topic: '5.3'
+  source_refs:
+  - source_id: src-0183
+    page: 2
+  - source_id: src-0183
+    page: 28
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: hcsn-phuong-thuc-mua-sam-tai-san-cong
+  canonical_name: Phương thức mua sắm tài sản công
+  aliases:
+  - lựa chọn nhà thầu
+  same_as: null
+  chapter: 5
+  topic: '5.4'
+  source_refs:
+  - source_id: src-0183
+    page: 1
+  - source_id: src-0183
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: hcsn-ke-hoach-tai-chinh-va-ke-hoach-tai-chinh-ngan-sach-nha-nuoc
+  canonical_name: KẾ HOẠCH TÀI CHÍNH VÀ KẾ HOẠCH TÀI CHÍNH NGÂN SÁCH NHÀ NƯỚC
+  aliases: []
+  same_as: null
+  chapter: 6
+  topic: '6'
+  source_refs:
+  - source_id: src-0184
+    page: 1
+  - source_id: src-0184
+    page: 7
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: hcsn-ke-hoach-tai-chinh-5-nam
+  canonical_name: Kế hoạch tài chính 5 năm
+  aliases: []
+  same_as: null
+  chapter: 6
+  topic: '6.1'
+  source_refs:
+  - source_id: src-0184
+    page: 1
+  - source_id: src-0184
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: hcsn-ke-hoach-tai-chinh-ngan-sach-nha-nuoc-3-nam
+  canonical_name: Kế hoạch tài chính ngân sách nhà nước 3 năm
+  aliases: []
+  same_as: null
+  chapter: 6
+  topic: '6.2'
+  source_refs:
+  - source_id: src-0184
+    page: 7
+  - source_id: src-0184
+    page: 8
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: hcsn-xac-dinh-cac-chi-tieu-co-so
+  canonical_name: Xác định các chỉ tiêu cơ sở
+  aliases: []
+  same_as: null
+  chapter: 6
+  topic: 6.2.1
+  source_refs:
+  - source_id: src-0184
+    page: 9
+  - source_id: src-0184
+    page: 39
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: hcsn-nhu-cau-chi-tieu-moi
+  canonical_name: Nhu cầu chi tiêu mới
+  aliases: []
+  same_as: null
+  chapter: 6
+  topic: 6.2.2
+  source_refs:
+  - source_id: src-0184
+    page: 9
+  - source_id: src-0184
+    page: 11
+  evidence_status: OBSERVED
+  confidence: high
+account_map: {}
+edges: []
+conflicts:
+- type: EXAM_FORMAT_CONFLICT
+  note: Slide giới thiệu và đề mẫu 2022 ghi trắc nghiệm 75 phút; tài liệu ôn tập 2022 ghi tự luận 1-2 câu, 75 phút. Không
+    hợp nhất thành một hình thức thi.
+  observations:
+  - format: trắc nghiệm
+    source_id: src-0187
+  - format: 40 câu trắc nghiệm
+    source_id: src-0185
+  - format: tự luận 1-2 câu
+    source_id: src-0192
+  evidence_status: OBSERVED
+  resolution: UNKNOWN
+- type: TOPIC_NUMBERING_CONFLICT
+  note: Lecture scripts và tài liệu ôn tập dùng số chủ đề không đồng nhất ở Chương 2 và Chương 4; giữ chapter làm ranh giới,
+    không tự đồng nhất số chủ đề.
+  evidence_status: OBSERVED
+  resolution: UNKNOWN

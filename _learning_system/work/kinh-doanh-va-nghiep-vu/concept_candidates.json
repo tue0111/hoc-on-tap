@@ -1,0 +1,1130 @@
+{
+  "course_id": "kinh-doanh-va-nghiep-vu",
+  "unit_titles": [
+    {
+      "source_id": "src-0001",
+      "chapter": 1,
+      "topic": "1.1",
+      "title_from_filename": "Chuong1 Chude1.1 Tochuckinhdoanhvacacbenlienquan",
+      "page": 1
+    },
+    {
+      "source_id": "src-0002",
+      "chapter": 1,
+      "topic": "1.2",
+      "title_from_filename": "Chuong1 Chude1.2 Moitruongkinhdoanh",
+      "page": 1
+    },
+    {
+      "source_id": "src-0003",
+      "chapter": 1,
+      "topic": "1.3",
+      "title_from_filename": "Chuong1 Chude1.3 Moitruongkinhdoanh   Cacyeutophaplychinhtrivaxahoi",
+      "page": 1
+    },
+    {
+      "source_id": "src-0004",
+      "chapter": 1,
+      "topic": "1.4",
+      "title_from_filename": "Chuong1 Chude1.4 Moitruongkinhdoanh   Cacyeutocongnghevamoitruong",
+      "page": 1
+    },
+    {
+      "source_id": "src-0005",
+      "chapter": 1,
+      "topic": "1.5",
+      "title_from_filename": "Chuong1 Chude1.5 Moitruongkinhdoanh   Cacmohinhphantichcanhtranh",
+      "page": 1
+    },
+    {
+      "source_id": "src-0006",
+      "chapter": 1,
+      "topic": "1.6",
+      "title_from_filename": "Chuong1 Chude1.6 Moitruongkinhtevimo   Cacvandecoban",
+      "page": 1
+    },
+    {
+      "source_id": "src-0007",
+      "chapter": 1,
+      "topic": "1.7",
+      "title_from_filename": "Chuong1 Chude1.7 Moitruongkinhtevimo   Cacchinhsachvimo",
+      "page": 1
+    },
+    {
+      "source_id": "src-0008",
+      "chapter": 1,
+      "topic": "1.8",
+      "title_from_filename": "Chuong1 Chude1.8 Moitruongkinhtevimo   Cacvandecoban",
+      "page": 1
+    },
+    {
+      "source_id": "src-0009",
+      "chapter": 1,
+      "topic": "1.9",
+      "title_from_filename": "Chuong1 Chude1.9 Moitruongkinhtevimo   Phantichcungcau",
+      "page": 1
+    },
+    {
+      "source_id": "src-0010",
+      "chapter": 2,
+      "topic": "2.1",
+      "title_from_filename": "Chuong2 Chude 2.1 Cautrucdoanhnghiepvachienluockinhdoanh",
+      "page": 1
+    },
+    {
+      "source_id": "src-0011",
+      "chapter": 2,
+      "topic": "2.2",
+      "title_from_filename": "Chuong2 Chude 2.2 Vanhoatochuc",
+      "page": 1
+    },
+    {
+      "source_id": "src-0012",
+      "chapter": 2,
+      "topic": "2.3",
+      "title_from_filename": "Chuong2 Chude 2.3 Quantridoanhnghiep",
+      "page": 1
+    },
+    {
+      "source_id": "src-0013",
+      "chapter": 2,
+      "topic": "2.4",
+      "title_from_filename": "Chuong2 Chude 2.4 Trachnhiemxahoicuadoanhnghiep",
+      "page": 1
+    },
+    {
+      "source_id": "src-0014",
+      "chapter": 6,
+      "topic": "6.1",
+      "title_from_filename": "Chuong6 Chude6.1 Hanhvidaoducvadaoductrongkinhdoanh",
+      "page": 1
+    },
+    {
+      "source_id": "src-0015",
+      "chapter": 6,
+      "topic": "6.2",
+      "title_from_filename": "Chuong6 Chude6.2 Daoducnghenghiepketoan",
+      "page": 1
+    },
+    {
+      "source_id": "src-0016",
+      "chapter": 3,
+      "topic": "3.1",
+      "title_from_filename": "KDNV C3 CD3.1 P1 Khainiem,vaitrovacacloai hinhke toantrongdoanhnghiep",
+      "page": 1
+    },
+    {
+      "source_id": "src-0017",
+      "chapter": 3,
+      "topic": "3.1",
+      "title_from_filename": "KDNV C3 CD3.1 P2 Chuanmucketoanvakhungphaply",
+      "page": 1
+    },
+    {
+      "source_id": "src-0018",
+      "chapter": 3,
+      "topic": "3.1",
+      "title_from_filename": "KDNV C3 CD3.1 P3 Ketoantaichinh",
+      "page": 1
+    },
+    {
+      "source_id": "src-0019",
+      "chapter": 3,
+      "topic": "3.1",
+      "title_from_filename": "KDNV C3 CD3.1 P4 Ketoanquantri",
+      "page": 1
+    },
+    {
+      "source_id": "src-0020",
+      "chapter": 3,
+      "topic": "3.1",
+      "title_from_filename": "KDNV C3 CD3.1 P5 Muahangvatienluong",
+      "page": 1
+    },
+    {
+      "source_id": "src-0021",
+      "chapter": 3,
+      "topic": "3.2",
+      "title_from_filename": "KDNV C3 CD3.2 P1 Kiemsoatnoibo",
+      "page": 1
+    },
+    {
+      "source_id": "src-0022",
+      "chapter": 3,
+      "topic": "3.2",
+      "title_from_filename": "KDNV C3 CD3.2 P2 Kiemtoanvadichvubaodam",
+      "page": 1
+    },
+    {
+      "source_id": "src-0023",
+      "chapter": 3,
+      "topic": "3.3",
+      "title_from_filename": "KDNV C3 CD3.3 Gianlan",
+      "page": 1
+    },
+    {
+      "source_id": "src-0024",
+      "chapter": 3,
+      "topic": "3.4",
+      "title_from_filename": "KDNV C3 CD3.4 Fintech",
+      "page": 1
+    },
+    {
+      "source_id": "src-0025",
+      "chapter": 4,
+      "topic": "4.1",
+      "title_from_filename": "KDNV C4 CD4.1 Lanhdaoquanly",
+      "page": 1
+    },
+    {
+      "source_id": "src-0026",
+      "chapter": 4,
+      "topic": "4.2",
+      "title_from_filename": "KDNV C4 CD4.2 Tuyendungvtuyenchon",
+      "page": 1
+    },
+    {
+      "source_id": "src-0027",
+      "chapter": 4,
+      "topic": "4.3",
+      "title_from_filename": "KDNV C4 CD4.3 P1 Canhandoinhom",
+      "page": 1
+    },
+    {
+      "source_id": "src-0028",
+      "chapter": 4,
+      "topic": "4.3",
+      "title_from_filename": "KDNV C4 CD4.3 P2 Dongluclamviecchocanhannhom",
+      "page": 1
+    },
+    {
+      "source_id": "src-0029",
+      "chapter": 4,
+      "topic": "4.4",
+      "title_from_filename": "KDNV C4 CD4.4 P1 DaotaoPhattrien",
+      "page": 1
+    },
+    {
+      "source_id": "src-0030",
+      "chapter": 4,
+      "topic": "4.4",
+      "title_from_filename": "KDNV C4 CD4.4 P2 Danhgiathanhqua",
+      "page": 1
+    },
+    {
+      "source_id": "src-0031",
+      "chapter": 5,
+      "topic": "5.1",
+      "title_from_filename": "KDNV C5 CD5.1 QuanlythoigianTinhhieuquatrongcongviec",
+      "page": 1
+    },
+    {
+      "source_id": "src-0032",
+      "chapter": 5,
+      "topic": "5.2",
+      "title_from_filename": "KDNV C5 CD5.2 Truyenthongtrongdoanhnghiep",
+      "page": 1
+    }
+  ],
+  "heading_lines": [
+    {
+      "kind": "chuong",
+      "line": "Chương 1: Tổ chức kinh doanh, các bên liên quan và môi trường kinh doanh",
+      "count": 9,
+      "refs": [
+        {
+          "source_id": "src-0001",
+          "page": 1
+        },
+        {
+          "source_id": "src-0002",
+          "page": 1
+        },
+        {
+          "source_id": "src-0003",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 3: Kế toán, hệ thống báo cáo, kiểm soát và tuân thủ",
+      "count": 9,
+      "refs": [
+        {
+          "source_id": "src-0016",
+          "page": 1
+        },
+        {
+          "source_id": "src-0017",
+          "page": 1
+        },
+        {
+          "source_id": "src-0018",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 4: Lãnh Đạo và Quản Lý",
+      "count": 6,
+      "refs": [
+        {
+          "source_id": "src-0025",
+          "page": 1
+        },
+        {
+          "source_id": "src-0026",
+          "page": 1
+        },
+        {
+          "source_id": "src-0027",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.1: Những vấn đề chung về kế toán",
+      "count": 5,
+      "refs": [
+        {
+          "source_id": "src-0016",
+          "page": 1
+        },
+        {
+          "source_id": "src-0017",
+          "page": 1
+        },
+        {
+          "source_id": "src-0018",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 2: Cấu trúc, chiến lược và quản trị doanh nghiệp",
+      "count": 4,
+      "refs": [
+        {
+          "source_id": "src-0010",
+          "page": 1
+        },
+        {
+          "source_id": "src-0011",
+          "page": 1
+        },
+        {
+          "source_id": "src-0012",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.2: Môi trường kinh doanh",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0002",
+          "page": 1
+        },
+        {
+          "source_id": "src-0035",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.2: Văn hóa tổ chức",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0011",
+          "page": 1
+        },
+        {
+          "source_id": "src-0035",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.3: Quản trị doanh nghiệp",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0012",
+          "page": 1
+        },
+        {
+          "source_id": "src-0035",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 6: Đạo đức kinh doanh và đạo đức nghề nghiệp kế toán",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0014",
+          "page": 1
+        },
+        {
+          "source_id": "src-0015",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.2: Kiểm soát nội bộ và kiểm toán",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0021",
+          "page": 1
+        },
+        {
+          "source_id": "src-0022",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.1: Lãnh đạo và quản lý",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0025",
+          "page": 1
+        },
+        {
+          "source_id": "src-0035",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.2: Tuyển dụng nhân sự",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0026",
+          "page": 1
+        },
+        {
+          "source_id": "src-0035",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 5: Kỹ Năng Làm Việc Hiệu Quả Và Truyền Thông Trong Doanh Nghiệp",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0031",
+          "page": 1
+        },
+        {
+          "source_id": "src-0032",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.1: Tổ chức kinh doanh và các bên liên quan",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0001",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.1: Tổ chức kinh doanh và các bên liên quan, có các chuẩn đầu ra như sau:",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0001",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.1 Tổ chức kinh doanh và các bên liên quan đến đây là kết thúc. Cảm ơn các",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0001",
+          "page": 8
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.2: Môi trường kinh doanh gồm các chuẩn đầu ra như sau:",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0002",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.2 Môi trường kinh doanh đến đây là kết thúc. Cảm ơn các Anh Chị đã chú ý",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0002",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.3: Môi trường kinh doanh- Các yếu tố chính trị, pháp lý và xã hội",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0003",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.3 Môi trường kinh doanh-Các yếu tố chính trị, pháp lý và xã hội đến đây là kết thúc.",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0003",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.4: Môi trường kinh doanh – Các yếu tố công nghệ và môi trường",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0004",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.4 Môi trường kinh doanh- Các yếu tố công nghệ và môi trường sẽ nghiên cứu",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0004",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.4 Môi trường kinh doanh – Các yếu tố công nghệ và môi trường đến đây là kết",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0004",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.5: Môi trường kinh doanh – Các mô hình phân tích cạnh tranh",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0005",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.5 Môi trường kinh doanh - Các mô hình phân tích cạnh tranh đến đây là kết",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0005",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.6: Môi trường kinh tế vĩ mô – Các vấn đề cơ bản",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0006",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.6 Môi trường kinh tế vĩ mô - Các vấn đề cơ bản đến đây là kết thúc. Cảm ơn",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0006",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.7: Môi trường kinh tế vĩ mô – Các chính sách vĩ mô",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0007",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.7 Môi trường kinh tế vĩ mô - Các chính sách vĩ mô đến đây là kết thúc. Cảm ơn",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0007",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.8: Môi trường kinh tế vi mô – Các vấn đề cơ bản",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0008",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.8 Môi trường kinh tế vi mô - Các vấn đề cơ bản đến đây là kết thúc. Cảm ơn",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0008",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.9: Môi trường kinh tế vi mô – Phân tích cung cầu",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0009",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.9 Môi trường kinh tế vi mô – Phân tích cung cầu đến đây là kết thúc. Cảm ơn",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0009",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.1: Cấu trúc doanh nghiệp và chiến lược kinh doanh",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0010",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.4: Trách nhiệm xã hội của doanh nghiệp",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0013",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 6.1: Hành vi đạo đức và đạo đức trong kinh doanh",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0014",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 6.1: Hành vi đạo đức và đạo đức trong kinh doanh, có các chuẩn đầu ra như sau:",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0014",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 6.1 Hành vi đạo đức và đạo đức trong kinh doanh đến đây là kết thúc. Cảm ơn",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0014",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 6.2: Đạo đức nghề nghiệp kế toán",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0015",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 6.2 Đạo đức nghề nghiệp kế toán đến đây là kết thúc. Cảm ơn các Anh Chị đã",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0015",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.1 Những về đề chung về kế toán. Kế tiếp đến chủ đề 3.2 các bạn sẽ được",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0016",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.3: Phát hiện và ngăn chặn gian lận",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0023",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.4: Kiểm soát hệ thống thông tin và ảnh hưởng của công nghệ tài chính (Fintech)",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0024",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.3: Cá nhân, nhóm và đội và việc tạo động lực làm việc",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0027",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.3: Cá nhân, đội và nhóm và việc tạo động lực làm việc.",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0028",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.4: Đào tạo, Phát triển và Đánh giá Thành quả",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0029",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.4: Đào tạo, phát triển và đánh giá thành quả",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0030",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 0: Giới thiệu môn học",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0033",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "CHƯƠNG 1: Tổ chức kinh doanh,",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0035",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.1: Tổ chức kinh doanh và",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0035",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.3: Môi trường kinh doanh -",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0035",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.4: Môi trường kinh doanh -",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0035",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.5: Môi trường kinh doanh -",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0035",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.6: Môi trường kinh tế vĩ mô",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0035",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.7: Môi trường kinh tế vĩ mô",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0035",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.8: Môi trường kinh tế vi mô",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0035",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.9: Môi trường kinh tế vi mô",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0035",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "CHƯƠNG 2: Cấu trúc, chiến lược và",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0035",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.1: Cấu trúc doanh nghiệp và",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0035",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.4: Trách nhiệm xã hội của",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0035",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "CHƯƠNG 3: Kế toán, hệ thống báo",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0035",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.1: Những vấn đề chung về",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0035",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.2: Kiểm soát nội bộ và kiểm",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0035",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.3: Phát hiện và ngăn chặn",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0035",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.4: Kiểm soát hệ thống thông",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0035",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "CHƯƠNG 4: Lãnh đạo và quản lý",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0035",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.3: Cá nhân, đội và nhóm và",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0035",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.4: Đào tạo, phát triển và",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0035",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "CHƯƠNG 5: Kỹ năng làm việc hiệu",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0035",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 5.1: Quản lý thời gian và tính",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0035",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 5.2: Truyền thông trong",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0035",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "CHƯƠNG 6: Đạo đức kinh doanh và",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0035",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 6.1: Hành vi đạo đức và đạo",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0035",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 6.2: Đạo đức nghề nghiệp kế",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0035",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 1: Tổ chức doanh nghiệp, các bên liên quan và môi trường bên",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0036",
+          "page": 3
+        }
+      ]
+    }
+  ],
+  "outline_titles": [],
+  "accounts": []
+}

@@ -1,0 +1,25 @@
+controller_version: "1.0.0"
+current_stage: PILOT_WAIT_REAL_TRAFFIC
+current_status: WAITING
+core_version: "8.0.0"
+active_scope:
+  - ACCO1325
+  - ACCO2310
+last_successful_gate: REAL_PILOT_READY
+current_task: WAIT_REAL_LEARNER_TRAFFIC
+patch_cycle: 0
+pilot:
+  meaningful_sessions: 0
+  substantive_turns: 0
+  high_severity_open: 0
+  instrumentation: pass
+expansion:
+  enabled: false
+  eligible: false
+  current_course: null
+external_research:
+  enabled: false
+srs:
+  enabled: false
+blocked_reason: REAL_DATA_REQUIRED
+stop_status: REAL_PILOT_READY

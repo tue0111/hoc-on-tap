@@ -1,0 +1,10 @@
+{
+  "course_id": "kinh-doanh-va-nghiep-vu",
+  "thresholds": {
+    "dup": 0.85,
+    "distinct": 0.5
+  },
+  "pairs": [],
+  "mid_band_scopes": [],
+  "REVIEW": []
+}

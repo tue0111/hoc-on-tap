@@ -1,0 +1,866 @@
+# Course scan — curriculum layer only.
+# Evidence labels: OBSERVED | INFERRED | UNKNOWN
+# Concepts limited to headings / objectives / key terms actually present in extracts or PDF outlines.
+
+scan_meta:
+  scanner: course-scanner
+  scanned_at: "2026-09-07"
+  evidence_basis:
+    - inventory/files.json
+    - extracts/kiem-toan-1/*.extract.md
+    - inventory/headings.json
+  extracts_dir: D:\Hoc\_learning_system\extracts\kiem-toan-1
+  source_folder_observed: D:\Hoc\Kiểm toán 1
+  write_scope: D:\Hoc\_learning_system\course_scans
+  note: >
+    Chương 1.pdf extract is 8/32 pages; Chương 3.pdf extract is 8/37 pages;
+    Chương 2.pdf extract is 15/29 pages. Later chủ đề known from announcements
+    and PDF outlines, not always from full body text.
+
+course_id: kiem-toan-1
+course_name:
+  value: Kiểm toán 1
+  evidence_status: OBSERVED
+  evidence: "Môn học: Kiểm toán 1 — extracts/kiem-toan-1/src-0037__Chương_1.pdf.extract.md PAGE 1"
+source_folder: D:\Hoc\Kiểm toán 1
+
+institution:
+  value: Trường Đại học Mở TP. Hồ Chí Minh
+  faculty_observed: Khoa Kế toán - Kiểm toán
+  department_observed: Bộ môn kiểm toán
+  evidence_status: OBSERVED
+  evidence: >
+    src-0037 PAGE 1: 'giảng viên của bộ môn kiểm toán, thuộc khoa Kế toán -Kiểm toán';
+    src-0037 PAGE 7 and src-0038 PAGE 1: 'khoa Kế toán Kiểm toán, trường Đại học Mở TP. Hồ Chí Minh'
+
+course_code:
+  value: null
+  evidence_status: UNKNOWN
+  evidence: "No ACCO/mã học phần token in filenames or extracted pages."
+
+academic_year:
+  value: null
+  evidence_status: UNKNOWN
+
+semester:
+  value: null
+  evidence_status: UNKNOWN
+
+status: partial_vs_announced_outline
+status_note: >
+  Chương 0 (inside Chương 1.pdf) announces 6 chapters over 10 weeks.
+  Folder contains lecture scripts for chapters 1–3 plus two thảo luận.
+  Chapters 4–6 are announced but have no files.
+
+lecturers_observed:
+  - name: Đinh Thị Thu Hiền
+    title_observed: Th.S
+    credentials_observed: CPA
+    chapters_assigned: [1, 2]
+    role_in_source: thuyết giảng chương 1&2; named speaker of ch.1 and ch.2 scripts
+    evidence_status: OBSERVED
+    evidence: "src-0037 PAGE 1; src-0037 PAGE 7; src-0038 PAGE 1"
+  - name: Trần Thị Vinh
+    title_observed: Th.S
+    chapters_assigned: [5, 6]
+    role_in_source: named in intro as presenter of chương 5&6; those files are absent
+    evidence_status: OBSERVED
+    evidence: "src-0037 PAGE 1"
+  - name: null
+    chapters_assigned: [3, 4]
+    role_in_source: unnamed intro speaker ('cuối cùng là tôi') for chương 3&4
+    evidence_status: UNKNOWN
+    evidence: "src-0037 PAGE 1 does not give this speaker's name."
+
+sources:
+  - source_id: src-0037
+    relative_path: Kiểm toán 1/Chương 1.pdf
+    extract_path: extracts/kiem-toan-1/src-0037__Chương_1.pdf.extract.md
+    role: lecture_note
+    role_evidence_status: INFERRED
+    role_note: "Filename 'Chương N' only; inventory confidence low. Body is video script."
+    contains_observed:
+      - "Chương 0: Giới thiệu môn học (PAGES 1–6)"
+      - "Chương 1: Tổng quan về báo cáo tài chính (from PAGE 7)"
+    page_count: 32
+    pages_extracted: 8
+    extract_truncated: true
+    outline_observed:
+      - KiemToan1_Script
+      - 23_Script_Ch1_Clip 1
+      - 24_Script_Ch1_CliP 2
+      - 25_Script_Ch1_CliP 3
+  - source_id: src-0038
+    relative_path: Kiểm toán 1/Chương 2.pdf
+    extract_path: extracts/kiem-toan-1/src-0038__Chương_2.pdf.extract.md
+    role: lecture_note
+    role_evidence_status: INFERRED
+    page_count: 29
+    pages_extracted: 15
+    extract_truncated: true
+    outline_observed:
+      - 26_Script_Ch2_Clip 1
+      - 27_Script_Ch2_Clip 2
+      - 28_Script_Ch2_Clip 3
+  - source_id: src-0039
+    relative_path: Kiểm toán 1/Chương 3.pdf
+    extract_path: extracts/kiem-toan-1/src-0039__Chương_3.pdf.extract.md
+    role: lecture_note
+    role_evidence_status: INFERRED
+    page_count: 37
+    pages_extracted: 8
+    extract_truncated: true
+    outline_observed:
+      - 29_Script_Ch3_CD 3.1
+      - 30_Script_Ch3_CD 3.2_P1
+      - 30_Script_Ch3_CD 3.2_P2
+      - 31_Script_Ch3_CD 3.3
+    outline_noise_note: >
+      Two outline entries are storage-of-documents sentences, not topic titles.
+      Near-duplicate filename/size signal vs Ngân hàng thương mại/Chương 3.pdf
+      is filename coincidence, not content identity.
+  - source_id: src-0040
+    relative_path: Kiểm toán 1/Thảo luận 1/Đạo Đức Nghề Kiểm Toán.pdf
+    extract_path: extracts/kiem-toan-1/src-0040__Đạo_Đức_Nghề_Kiểm_Toán.pdf.extract.md
+    role: assignment
+    role_evidence_status: OBSERVED
+    role_note: "Path token 'Thảo luận 1'."
+    page_count: 7
+    pages_extracted: 7
+    extract_truncated: false
+    title_observed: >
+      Bản chất của nghề kiểm toán độc lập và yếu tố quyết định sự tồn tại,
+      phát triển của doanh nghiệp kiểm toán
+    producer_observed: Skia/PDF m153 Google Docs Renderer
+  - source_id: src-0041
+    relative_path: Kiểm toán 1/Thảo luận 2/Han_Che_Kiem_Soat_Noi_Bo_Gian_Lan_BCTC.pdf
+    extract_path: extracts/kiem-toan-1/src-0041__Han_Che_Kiem_Soat_Noi_Bo_Gian_Lan_BCTC.pdf.extract.md
+    role: assignment
+    role_evidence_status: OBSERVED
+    role_note: "Path token 'Thảo luận 2'."
+    page_count: 4
+    pages_extracted: 4
+    extract_truncated: false
+    title_observed: >
+      Phân tích hạn chế tiềm tàng của hệ thống kiểm soát nội bộ và nguyên nhân
+      thất bại trong ngăn chặn gian lận báo cáo tài chính tại doanh nghiệp niêm yết
+    producer_observed: WeasyPrint 62.3
+    self_note_in_source: "Bài làm được hoàn thiện với sự hỗ trợ ... từ trợ lý AI."
+
+sources_by_role:
+  syllabus:
+    present: false
+    note: "No standalone đề cương file. Course intro is embedded in src-0037 as 'Chương 0'."
+  lecture_note:
+    present: true
+    source_ids: [src-0037, src-0038, src-0039]
+  lecture_slide:
+    present: false
+  textbook:
+    present: false
+  exercise:
+    present: false
+  exam:
+    present: false
+  assignment:
+    present: true
+    source_ids: [src-0040, src-0041]
+  reference:
+    present: false
+
+structure:
+  announced_chapter_count: 6
+  announced_duration: "10 tuần"
+  announced_chapter_count_evidence: "src-0037 PAGE 3: 'Môn này chúng ta có tất cả là 6 chương, và các anh/chị có 10 tuần để học.'"
+  files_present_for_chapters: [1, 2, 3]
+  schedule_announced:
+    - { weeks: [1], chapter_title: Tổng quan về BCTC }
+    - { weeks: [2, 3], chapter_title: Tổng quan về kiểm toán và môi trường kiểm toán độc lập }
+    - { weeks: [4, 5], chapter_title: Kiểm soát nội bộ }
+    - { weeks: [6, 7, 8], chapter_title: Chuẩn bị kiểm toán }
+    - { weeks: [9], chapter_title: Bằng chứng kiểm toán }
+    - { weeks: [10], chapter_title: Hoàn thành kiểm toán }
+  chapters:
+    - number: 0
+      title: Giới thiệu môn học
+      present_as_file: false
+      embedded_in: src-0037
+      evidence_status: OBSERVED
+      headings_observed:
+        - Chương 0: Giới thiệu môn học
+      course_objectives_observed:
+        - Cung cấp kiến thức cơ bản về nghề nghiệp kiểm toán độc lập và hoạt động kiểm toán BCTC
+        - Vận dụng tham gia hoạch định và tổ chức công tác kiểm soát, kiểm tra kế toán trong các tổ chức
+        - Cung cấp kiến thức kiểm toán nền tảng và bước đầu tiếp cận quy trình kiểm toán BCTC của kiểm toán độc lập
+      learning_activities_observed:
+        - Xem video bài giảng
+        - Làm bài tập mỗi chủ đề/chương
+        - Bài kiểm tra kết thúc mỗi chương
+        - Đọc thêm tài liệu tham khảo
+      assessment_weights:
+        value: null
+        evidence_status: UNKNOWN
+        note: "Intro lists activities and chapter tests but does not state percentage weights in extracted pages."
+    - number: 1
+      title: Tổng quan về báo cáo tài chính
+      title_variants:
+        - variant: Tổng quan về BCTC
+          where: "src-0037 PAGE 3 schedule"
+        - variant: TỔNG QUAN VỀ BÁO CÁO TÀI CHÍNH
+          where: "src-0037 PAGE 7 heading"
+      present_as_file: true
+      source_id: src-0037
+      evidence_status: OBSERVED
+      headings_observed:
+        - "Chương 1: TỔNG QUAN VỀ BÁO CÁO TÀI CHÍNH"
+        - "Chủ đề 1.1: Mục đích của báo cáo tài chính"
+        - "Chủ đề 1.1 – Trình bày được bản chất và Giải thích được các giả định của báo cáo tài chính"
+        - "Chủ đề 1.2 – Phân tích được các đặc điểm chất lượng và yêu cầu trung thực hợp lý của báo cáo tài chính"
+        - "Chủ đề 1.3 – Phân tích được các khái niệm, nguyên tắc ghi nhận và đánh giá các yếu tố của báo cáo tài chính"
+      topic_1_1_contents_observed:
+        - Mục đích của BCTC
+        - Bảng cân đối kế toán
+        - Báo cáo kết quả hoạt động kinh doanh
+        - Báo cáo lưu chuyển tiền tệ
+        - Thuyết minh BCTC
+        - Các giả định của BCTC
+      objectives_observed:
+        - Trình bày được bản chất của báo cáo tài chính
+        - Giải thích được các giả định của báo cáo tài chính
+        - Phân tích được các đặc điểm chất lượng của báo cáo tài chính
+        - Phân tích được yêu cầu trung thực hợp lý của báo cáo tài chính
+        - Phân tích được các khái niệm, nguyên tắc ghi nhận và đánh giá các yếu tố của báo cáo tài chính
+    - number: 2
+      title: Tổng quan về kiểm toán
+      title_variants:
+        - variant: Tổng quan về kiểm toán và môi trường kiểm toán độc lập
+          where: "src-0037 PAGE 4 schedule"
+        - variant: TỔNG QUAN VỀ KIỂM TOÁN
+          where: "src-0038 PAGE 1 heading"
+        - variant: Tổng quan về kiểm toán và môi trường kiểm toán
+          where: "src-0038 PAGE 1 spoken title"
+      present_as_file: true
+      source_id: src-0038
+      evidence_status: OBSERVED
+      headings_observed:
+        - "Chương 2: TỔNG QUAN VỀ KIỂM TOÁN"
+        - "Chủ đề 2.1: Khái niệm kiểm toán và phân loại kiểm toán"
+        - "Chủ đề 2.2: Quy trình kiểm toán"
+        - "Chủ đề 2.3 là trình bày được các định chế chi phối hoạt động kiểm toán độc lập (announced; body not in 15-page extract)"
+      intro_contents_announced:
+        - Khái niệm kiểm toán
+        - Phân loại kiểm toán
+        - Môi trường của hoạt động kiểm toán
+      objectives_observed:
+        - Giải thích được bản chất hoạt động kiểm toán
+        - Phân tích được vai trò của hoạt động kiểm toán, gồm các loại hình kiểm toán khác nhau
+        - Trình bày cơ bản về quy trình kiểm toán và môi trường kiểm toán
+        - Trình bày được các định chế chi phối hoạt động kiểm toán độc lập
+        - "Chủ đề 2.2 CĐR: Trình bày được các giai đoạn về quy trình kiểm toán"
+    - number: 3
+      title: Kiểm soát nội bộ
+      present_as_file: true
+      source_id: src-0039
+      evidence_status: OBSERVED
+      headings_observed:
+        - "Chương 3: Kiểm soát nội bộ"
+        - "Chủ đề 3.1: Khái niệm kiểm soát nội bộ"
+        - "Chủ đề 3.2: Các bộ phận hợp thành hệ thống KSNB (Phần 1)"
+      headings_from_outline_only:
+        - 30_Script_Ch3_CD 3.2_P2
+        - 31_Script_Ch3_CD 3.3
+      intro_contents_announced:
+        - "3.1: Định nghĩa KSNB; vai trò; hạn chế tiềm tàng"
+        - "3.2: Các bộ phận hợp thành hệ thống KSNB"
+        - "3.3: Mục đích và trình tự nghiên cứu KSNB trong quy trình kiểm toán BCTC"
+      objectives_observed:
+        - Giải thích được khái niệm về KSNB
+        - Giải thích được mục đích và vai trò của KSNB
+        - Trình bày được những hạn chế tiềm tàng của KSNB
+        - Giải thích được các bộ phận hợp thành hệ thống KSNB
+        - Nhận biết được các yếu kém liên quan đến từng bộ phận của KSNB
+        - Thiết lập được các thủ tục kiểm soát ở mức độ đơn giản
+      coso_components_named_in_extract:
+        - Môi trường kiểm soát
+        - Đánh giá rủi ro
+        - Các hoạt động kiểm soát
+        - Thông tin truyền thông
+        - Giám sát
+    - number: 4
+      title: Chuẩn bị kiểm toán
+      present_as_file: false
+      evidence_status: OBSERVED
+      evidence: "Announced in src-0037 PAGES 5–6; no folder file."
+      intro_contents_announced:
+        - Trọng yếu
+        - Rủi ro
+        - Mục tiêu kiểm toán
+        - Thủ tục kiểm toán
+        - Công việc tiền kế hoạch và lập kế hoạch kiểm toán
+      intro_note: "Intro calls this the hardest chapter (kỹ thuật đặc thù nghề nghiệp)."
+    - number: 5
+      title: Bằng chứng kiểm toán
+      present_as_file: false
+      evidence_status: OBSERVED
+      evidence: "Announced in src-0037 PAGES 5–6; no folder file. Lecturer assigned: Trần Thị Vinh."
+      intro_contents_announced:
+        - Khái niệm về bằng chứng kiểm toán
+        - Yêu cầu về bằng chứng kiểm toán
+        - Các kỹ thuật thu thập bằng chứng
+    - number: 6
+      title: Hoàn thành kiểm toán
+      present_as_file: false
+      evidence_status: OBSERVED
+      evidence: "Announced in src-0037 PAGE 6; no folder file. Lecturer assigned: Trần Thị Vinh."
+      intro_contents_announced:
+        - Đánh giá kết quả kiểm toán
+        - Báo cáo kiểm toán
+
+relationships:
+  explicit:
+    - type: course_prerequisite
+      from: ke-toan-tai-chinh
+      to: kiem-toan-1
+      statement: >
+        src-0037 PAGE 2: 'Môn học này được học sau môn môn kế toán tài chính.
+        Như vậy, kiến thức về kế toán tài chính sẽ hỗ trợ các anh/chị tiếp cận
+        môn học này thuận lợi hơn.'
+      evidence_status: OBSERVED
+      note: >
+        Source says 'kế toán tài chính' without a course_id, year, or
+        'Kế toán tài chính 1' vs '2' disambiguation.
+    - type: reverse_reinforcement
+      statement: >
+        src-0037 PAGE 2: learning this course also củng cố kiến thức kế toán tài chính.
+      evidence_status: OBSERVED
+    - type: intra_course_sequence
+      statement: "src-0037 lists six chapters in a 10-week schedule; ch.4 is called hardest."
+      evidence_status: OBSERVED
+    - type: assignment_cites_lectures
+      statement: >
+        src-0041 references 'Tài liệu bài giảng môn Kiểm toán 1 (Chương 1...;
+        Chương 2...; Chương 3: Kiểm soát nội bộ)'.
+      evidence_status: OBSERVED
+  inferred:
+    - type: assignment_maps_to_chapter_2
+      statement: "Thảo luận 1 (đạo đức / định chế / độc lập) maps to announced chủ đề 2.3 and ch.2 environment content."
+      evidence_status: INFERRED
+      confidence: medium
+    - type: assignment_maps_to_chapter_3
+      statement: "Thảo luận 2 (hạn chế KSNB, gian lận BCTC) maps to ch.3 hạn chế tiềm tàng / COSO."
+      evidence_status: INFERRED
+      confidence: high
+  not_asserted:
+    - "Subsequent course after Kiểm toán 1 is mentioned as existing ('môn học nào sau đó') but not named — UNKNOWN."
+    - "Do not invent a prerequisite edge to Nguyên lý kế toán unless a file says so."
+
+coverage:
+  advertised_chapters_missing_files: []
+  chapters_with_script_files: [1, 2, 3, 4, 5, 6]
+  announced_chapters: 6
+  lecture_files_present: 3
+  intro_embedded_in_chapter_1: true
+  assignments_present: 2
+  missing_vs_announcement:
+    - chapter_4_chuan_bi_kiem_toan
+    - chapter_5_bang_chung_kiem_toan
+    - chapter_6_hoan_thanh_kiem_toan
+    - standalone_syllabus
+    - textbook
+    - official_exercises_solutions
+    - exam
+  extract_gaps:
+    - "src-0037: 8/32 pages — chủ đề 1.2 and 1.3 body not in extract"
+    - "src-0038: 15/29 pages — chủ đề 2.3 body not in extract; 2.2 starts at PAGE 14"
+    - "src-0039: 8/37 pages — chủ đề 3.2 phần 2 and 3.3 body not in extract"
+
+quality:
+  parseability: pdf_text_layer_present
+  likely_scanned: false
+  source_role_confidence: low_for_chuong_files
+  title_inconsistency_observed:
+    - "Ch.2 schedule title includes 'môi trường kiểm toán độc lập'; file heading is 'TỔNG QUAN VỀ KIỂM TOÁN'"
+  assignment_provenance_note: >
+    Both thảo luận PDFs are learner papers (Google Docs / WeasyPrint), not
+    lecturer scripts. src-0041 cites COSO 2013, VSA 240, VSA 315, Albrecht
+    Fraud Examination, and notes AI assistance. Keep assignment definitions
+    separate from lecture definitions.
+  unnamed_ch3_ch4_lecturer: true
+
+concepts:
+  - id: kt1-bao-cao-tai-chinh
+    kind: key_term
+    term_vi: báo cáo tài chính
+    term_en: null
+    aliases_observed: [BCTC]
+    chapter: 1
+    source_ids: [src-0037]
+    evidence_status: OBSERVED
+  - id: kt1-muc-dich-bctc
+    kind: heading
+    term_vi: mục đích của báo cáo tài chính
+    term_en: null
+    chapter: 1
+    source_ids: [src-0037]
+    evidence_status: OBSERVED
+    note: "Cung cấp thông tin cho người sử dụng nhằm ra quyết định kinh tế."
+  - id: kt1-ban-chat-bctc
+    kind: key_term
+    term_vi: bản chất của báo cáo tài chính
+    term_en: null
+    chapter: 1
+    source_ids: [src-0037]
+    evidence_status: OBSERVED
+    note: "Named as CĐR; full exposition not in 8-page extract."
+  - id: kt1-gia-dinh-bctc
+    kind: key_term
+    term_vi: giả định của báo cáo tài chính
+    term_en: null
+    chapter: 1
+    source_ids: [src-0037]
+    evidence_status: OBSERVED
+  - id: kt1-dac-diem-chat-luong-bctc
+    kind: key_term
+    term_vi: đặc điểm chất lượng của báo cáo tài chính
+    term_en: null
+    chapter: 1
+    source_ids: [src-0037]
+    evidence_status: OBSERVED
+  - id: kt1-trung-thuc-hop-ly
+    kind: key_term
+    term_vi: yêu cầu trung thực hợp lý của báo cáo tài chính
+    term_en: null
+    chapter: 1
+    source_ids: [src-0037]
+    evidence_status: OBSERVED
+  - id: kt1-ghi-nhan-danh-gia-yeu-to-bctc
+    kind: key_term
+    term_vi: nguyên tắc ghi nhận và đánh giá các yếu tố của BCTC
+    term_en: null
+    chapter: 1
+    source_ids: [src-0037]
+    evidence_status: OBSERVED
+  - id: kt1-bang-cdkt
+    kind: heading
+    term_vi: bảng cân đối kế toán
+    term_en: null
+    chapter: 1
+    source_ids: [src-0037]
+    evidence_status: OBSERVED
+  - id: kt1-bckqkd
+    kind: heading
+    term_vi: báo cáo kết quả hoạt động kinh doanh
+    term_en: null
+    chapter: 1
+    source_ids: [src-0037]
+    evidence_status: OBSERVED
+  - id: kt1-bclctt
+    kind: heading
+    term_vi: báo cáo lưu chuyển tiền tệ
+    term_en: null
+    chapter: 1
+    source_ids: [src-0037]
+    evidence_status: OBSERVED
+  - id: kt1-thuyet-minh-bctc
+    kind: heading
+    term_vi: thuyết minh BCTC
+    term_en: null
+    chapter: 1
+    source_ids: [src-0037]
+    evidence_status: OBSERVED
+  - id: kt1-kiem-toan
+    kind: key_term
+    term_vi: kiểm toán
+    term_en: null
+    chapter: 2
+    source_ids: [src-0038]
+    evidence_status: OBSERVED
+    note: >
+      Định nghĩa observed: thu thập và đánh giá các bằng chứng về một thông tin
+      nhằm xác định mức độ phù hợp với chuẩn mực được thiết lập; thực hiện bởi
+      KTV đủ năng lực và độc lập.
+  - id: kt1-bang-chung-kiem-toan
+    kind: key_term
+    term_vi: bằng chứng kiểm toán
+    term_en: null
+    chapter: [2, 5]
+    source_ids: [src-0037, src-0038]
+    evidence_status: OBSERVED
+    note: "Defined in ch.2 extract; dedicated ch.5 file is missing."
+  - id: kt1-nang-luc-ktv
+    kind: key_term
+    term_vi: năng lực của kiểm toán viên
+    term_en: null
+    chapter: 2
+    source_ids: [src-0038]
+    evidence_status: OBSERVED
+  - id: kt1-tinh-doc-lap
+    kind: key_term
+    term_vi: tính độc lập
+    term_en: null
+    chapter: [2, assignment]
+    source_ids: [src-0038, src-0040]
+    evidence_status: OBSERVED
+  - id: kt1-kiem-toan-hoat-dong
+    kind: key_term
+    term_vi: kiểm toán hoạt động
+    term_en: null
+    chapter: 2
+    source_ids: [src-0038]
+    evidence_status: OBSERVED
+  - id: kt1-kiem-toan-tuan-thu
+    kind: key_term
+    term_vi: kiểm toán tuân thủ
+    term_en: null
+    chapter: 2
+    source_ids: [src-0038]
+    evidence_status: OBSERVED
+  - id: kt1-kiem-toan-bctc
+    kind: key_term
+    term_vi: kiểm toán báo cáo tài chính
+    term_en: null
+    chapter: 2
+    source_ids: [src-0038]
+    evidence_status: OBSERVED
+  - id: kt1-kiem-toan-noi-bo
+    kind: key_term
+    term_vi: kiểm toán nội bộ
+    term_en: null
+    chapter: 2
+    source_ids: [src-0038]
+    evidence_status: OBSERVED
+  - id: kt1-kiem-toan-nha-nuoc
+    kind: key_term
+    term_vi: kiểm toán nhà nước
+    term_en: null
+    chapter: 2
+    source_ids: [src-0038]
+    evidence_status: OBSERVED
+  - id: kt1-kiem-toan-doc-lap
+    kind: key_term
+    term_vi: kiểm toán độc lập
+    term_en: null
+    chapter: [0, 2, assignment]
+    source_ids: [src-0037, src-0038, src-0040]
+    evidence_status: OBSERVED
+  - id: kt1-quy-trinh-kiem-toan
+    kind: key_term
+    term_vi: quy trình kiểm toán
+    term_en: null
+    chapter: 2
+    source_ids: [src-0038]
+    evidence_status: OBSERVED
+    stages_observed: [chuẩn bị kiểm toán, thực hiện kiểm toán, hoàn thành kiểm toán]
+  - id: kt1-tien-ke-hoach
+    kind: key_term
+    term_vi: tiền kế hoạch
+    term_en: null
+    chapter: [2, 4]
+    source_ids: [src-0038]
+    evidence_status: OBSERVED
+  - id: kt1-lap-ke-hoach
+    kind: key_term
+    term_vi: lập kế hoạch
+    term_en: null
+    chapter: [2, 4]
+    source_ids: [src-0038]
+    evidence_status: OBSERVED
+  - id: kt1-danh-gia-rui-ro-kt
+    kind: key_term
+    term_vi: đánh giá rủi ro (trong thực hiện kiểm toán)
+    term_en: null
+    chapter: 2
+    source_ids: [src-0038]
+    evidence_status: OBSERVED
+  - id: kt1-thu-nghiem-kiem-soat
+    kind: key_term
+    term_vi: thử nghiệm kiểm soát
+    term_en: null
+    chapter: 2
+    source_ids: [src-0038]
+    evidence_status: OBSERVED
+  - id: kt1-thu-nghiem-co-ban
+    kind: key_term
+    term_vi: thử nghiệm cơ bản
+    term_en: null
+    chapter: 2
+    source_ids: [src-0038]
+    evidence_status: OBSERVED
+  - id: kt1-dinh-che-kt-doc-lap
+    kind: heading
+    term_vi: định chế chi phối hoạt động kiểm toán độc lập
+    term_en: null
+    chapter: 2
+    source_ids: [src-0038]
+    evidence_status: OBSERVED
+    note: "Announced as chủ đề 2.3; body not in extract."
+  - id: kt1-ksnb
+    kind: key_term
+    term_vi: kiểm soát nội bộ
+    term_en: null
+    aliases_observed: [KSNB]
+    chapter: 3
+    source_ids: [src-0039]
+    evidence_status: OBSERVED
+    note: "COSO 1992/2013 definition quoted in lecture extract."
+  - id: kt1-dam-bao-hop-ly
+    kind: key_term
+    term_vi: đảm bảo hợp lý
+    term_en: null
+    chapter: 3
+    source_ids: [src-0039]
+    evidence_status: OBSERVED
+    contrast_observed: "không phải đảm bảo tuyệt đối"
+  - id: kt1-han-che-tiem-tang-ksnb
+    kind: key_term
+    term_vi: hạn chế tiềm tàng của KSNB
+    term_en: null
+    chapter: [3, assignment]
+    source_ids: [src-0039, src-0041]
+    evidence_status: OBSERVED
+    causes_named_in_lecture:
+      - chi phí kiểm soát không vượt quá lợi ích
+      - thông đồng
+      - gian lận quản lý / lạm quyền
+      - tình huống ngoài dự kiến
+      - hạn chế do con người
+  - id: kt1-coso
+    kind: key_term
+    term_vi: Báo cáo COSO
+    term_en: COSO
+    chapter: [3, assignment]
+    source_ids: [src-0039, src-0041]
+    evidence_status: OBSERVED
+    versions_named: ["1992", "2013"]
+  - id: kt1-moi-truong-kiem-soat
+    kind: key_term
+    term_vi: môi trường kiểm soát
+    term_en: null
+    chapter: 3
+    source_ids: [src-0039]
+    evidence_status: OBSERVED
+  - id: kt1-danh-gia-rui-ro-ksnb
+    kind: key_term
+    term_vi: đánh giá rủi ro (bộ phận KSNB)
+    term_en: null
+    chapter: 3
+    source_ids: [src-0039]
+    evidence_status: OBSERVED
+  - id: kt1-hoat-dong-kiem-soat
+    kind: key_term
+    term_vi: các hoạt động kiểm soát
+    term_en: null
+    chapter: 3
+    source_ids: [src-0039]
+    evidence_status: OBSERVED
+  - id: kt1-thong-tin-truyen-thong
+    kind: key_term
+    term_vi: thông tin truyền thông
+    term_en: null
+    chapter: 3
+    source_ids: [src-0039]
+    evidence_status: OBSERVED
+  - id: kt1-giam-sat
+    kind: key_term
+    term_vi: giám sát
+    term_en: null
+    chapter: 3
+    source_ids: [src-0039]
+    evidence_status: OBSERVED
+  - id: kt1-muc-tieu-ksnb
+    kind: key_term
+    term_vi: mục tiêu của KSNB
+    term_en: null
+    chapter: 3
+    source_ids: [src-0039]
+    evidence_status: OBSERVED
+    items_observed: [mục tiêu hoạt động, mục tiêu BCTC, mục tiêu tuân thủ]
+  - id: kt1-trong-yeu
+    kind: key_term
+    term_vi: trọng yếu
+    term_en: null
+    chapter: 4
+    source_ids: [src-0037]
+    evidence_status: OBSERVED
+    note: "Named in ch.0 schedule for missing chapter 4; not developed in present extracts."
+  - id: kt1-rui-ro-kiem-toan
+    kind: key_term
+    term_vi: rủi ro
+    term_en: null
+    chapter: 4
+    source_ids: [src-0037]
+    evidence_status: OBSERVED
+    note: "Named in ch.0 schedule for missing chapter 4."
+  - id: kt1-bao-cao-kiem-toan
+    kind: key_term
+    term_vi: báo cáo kiểm toán
+    term_en: null
+    chapter: 6
+    source_ids: [src-0037]
+    evidence_status: OBSERVED
+    note: "Named in ch.0 for missing chapter 6."
+  - id: kt1-chinh-truc
+    kind: key_term
+    term_vi: nguyên tắc chính trực
+    term_en: null
+    chapter: assignment
+    source_ids: [src-0040]
+    evidence_status: OBSERVED
+    note: "Thông tư 70/2015/TT-BTC cited in assignment, not in lecture extract."
+  - id: kt1-khach-quan
+    kind: key_term
+    term_vi: nguyên tắc khách quan
+    term_en: null
+    chapter: assignment
+    source_ids: [src-0040]
+    evidence_status: OBSERVED
+  - id: kt1-nang-luc-than-trong
+    kind: key_term
+    term_vi: nguyên tắc năng lực chuyên môn và tính thận trọng
+    term_en: null
+    chapter: assignment
+    source_ids: [src-0040]
+    evidence_status: OBSERVED
+  - id: kt1-bao-mat
+    kind: key_term
+    term_vi: nguyên tắc bảo mật
+    term_en: null
+    chapter: assignment
+    source_ids: [src-0040]
+    evidence_status: OBSERVED
+  - id: kt1-tu-cach-nghe-nghiep
+    kind: key_term
+    term_vi: nguyên tắc tư cách nghề nghiệp
+    term_en: null
+    chapter: assignment
+    source_ids: [src-0040]
+    evidence_status: OBSERVED
+  - id: kt1-doc-lap-tu-tuong-hinh-thuc
+    kind: key_term
+    term_vi: độc lập về tư tưởng và độc lập về hình thức
+    term_en: null
+    chapter: assignment
+    source_ids: [src-0040]
+    evidence_status: OBSERVED
+  - id: kt1-hoai-nghi-nghe-nghiep
+    kind: key_term
+    term_vi: hoài nghi nghề nghiệp
+    term_en: Professional Skepticism
+    chapter: assignment
+    source_ids: [src-0040, src-0041]
+    evidence_status: OBSERVED
+  - id: kt1-loi-ich-cong-chung
+    kind: key_term
+    term_vi: lợi ích công chúng
+    term_en: null
+    chapter: assignment
+    source_ids: [src-0040]
+    evidence_status: OBSERVED
+  - id: kt1-luat-kiem-toan-doc-lap
+    kind: key_term
+    term_vi: Luật Kiểm toán độc lập số 67/2011/QH12
+    term_en: null
+    chapter: assignment
+    source_ids: [src-0040]
+    evidence_status: OBSERVED
+  - id: kt1-tt70-2015
+    kind: key_term
+    term_vi: Thông tư 70/2015/TT-BTC
+    term_en: null
+    chapter: assignment
+    source_ids: [src-0040]
+    evidence_status: OBSERVED
+  - id: kt1-management-override
+    kind: key_term
+    term_vi: lạm quyền quản lý / vô hiệu hóa kiểm soát
+    term_en: Management Override of Controls
+    chapter: assignment
+    source_ids: [src-0041]
+    evidence_status: OBSERVED
+  - id: kt1-tam-giac-gian-lan
+    kind: key_term
+    term_vi: mô hình tam giác gian lận
+    term_en: Fraud Triangle
+    chapter: assignment
+    source_ids: [src-0041]
+    evidence_status: OBSERVED
+  - id: kt1-vsa-240
+    kind: key_term
+    term_vi: VSA 240
+    term_en: null
+    chapter: assignment
+    source_ids: [src-0041]
+    evidence_status: OBSERVED
+    note: "Cited in assignment references, not in lecture extracts."
+  - id: kt1-vsa-315
+    kind: key_term
+    term_vi: VSA 315
+    term_en: null
+    chapter: assignment
+    source_ids: [src-0041]
+    evidence_status: OBSERVED
+    note: "Cited in assignment references, not in lecture extracts."
+
+concept_counts:
+  total_concept_records: 55
+  from_lecture_extracts: 41
+  from_assignments_only: 14
+  headings_in_structure_not_double_counted_here: true
+
+unknowns:
+  - course_code
+  - academic_year
+  - semester
+  - official_syllabus_pdf
+  - assessment_percentage_weights
+  - name_of_chapter_3_and_4_lecturer
+  - which_ke_toan_tai_chinh_course_is_the_named_prereq
+  - subsequent_course_after_kiem_toan_1
+  - body_of_chu_de_1_2_and_1_3
+  - body_of_chu_de_2_3
+  - body_of_chu_de_3_2_p2_and_3_3
+  - chapters_4_5_6_files
+
+phase_2_1:
+  retrieval_impact: NO_RETRIEVAL_IMPACT
+  production_index: not_updated
+  status: READY_FOR_FUTURE_INGESTION
+  new_canonical:
+    - source_id: src-0193
+      file: Chương 4.pdf
+      title: Chuẩn bị kiểm toán
+      pages: 43
+    - source_id: src-0194
+      file: Chương 5.pdf
+      title: Bằng chứng kiểm toán
+      pages: 15
+    - source_id: src-0195
+      file: Chương 6.pdf
+      title: Hoàn thành kiểm toán
+      pages: 21
+    - source_id: src-0196
+      file: Hướng dẫn ôn tập.pdf
+      role: summary
+      pages: 4
+    - source_id: src-0220
+      file: Đề thi mẫu.pdf
+      role: exam
+      pages: 4
+  advertised_chapters_now_present: [1, 2, 3, 4, 5, 6]
+  missing_advertised_chapters: []
+  resolved_unknown: chapters_4_5_6_files
+  title_variant:
+    ch6_script: Hoàn thành kiểm toán
+    ch6_ontap: Báo cáo kiểm toán
+    flag: TITLE_VARIANT
+  note: _nguon unit scripts catalogued only.
+
+v3:
+  tier: retrieval
+  index: 3.0.0
+  gate: G2b
+  gate_status: pass
+  chunk_count: 358
+  coverage_evidence: data/normalized/kiem-toan-1.documents.jsonl
+  legacy_fields_note: Pre-V3 scan fields remain historical unless explicitly updated
+    above. V3 concepts and normalized corpus are canonical.

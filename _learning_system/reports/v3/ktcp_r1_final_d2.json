@@ -1,0 +1,19 @@
+{
+  "label": "D2 waiver",
+  "excluded_ids": [
+    "kp-t01",
+    "kp-t02",
+    "kp-t03"
+  ],
+  "raw_report": "ke-toan-chi-phi_eval_r1_final.json",
+  "gates": {
+    "direct_must_include": true,
+    "direct_chapter_at1": true,
+    "source_bound": true,
+    "insufficient": true,
+    "collision_contamination": true,
+    "account": true,
+    "topic_owner": true
+  },
+  "all_pass": true
+}

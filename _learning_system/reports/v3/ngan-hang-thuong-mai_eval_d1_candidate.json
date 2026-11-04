@@ -1,0 +1,563 @@
+{
+  "course_id": "ngan-hang-thuong-mai",
+  "tag": "_d1_candidate",
+  "eval_sha256": "3d3dbe4bccd66897c6c84ce0c7f8e74951a8b7c687f297486f538372670fcb9b",
+  "n": 20,
+  "metrics": {
+    "direct_must_include": 0.9166666666666666,
+    "direct_chapter_at1": 0.8333333333333334,
+    "source_bound": 1.0,
+    "insufficient": 1.0,
+    "collision_contamination": 0,
+    "account": null,
+    "topic_owner": null
+  },
+  "gates": {
+    "direct_must_include": true,
+    "direct_chapter_at1": true,
+    "source_bound": true,
+    "insufficient": true,
+    "collision_contamination": true,
+    "account": true,
+    "topic_owner": true
+  },
+  "all_pass": true,
+  "results": [
+    {
+      "id": "nh-d01",
+      "category": "direct",
+      "question": "Ngân hàng thương mại: khái niệm và đặc điểm của ngân hàng thương mại là gì?",
+      "coverage": "partial",
+      "top_sources": [
+        "src-0123",
+        "src-0136",
+        "src-0126",
+        "src-0122",
+        "src-0133"
+      ],
+      "top_chapters": [
+        2,
+        5,
+        5,
+        1,
+        2
+      ],
+      "partition": "ngan-hang-thuong-mai",
+      "unknowns": [
+        "no_course_concept_match"
+      ],
+      "must_include": true,
+      "chapter_at1": false,
+      "contaminated": false,
+      "pass": false
+    },
+    {
+      "id": "nh-d02",
+      "category": "direct",
+      "question": "Ngân hàng thương mại: chức năng trung gian tín dụng và trung gian thanh toán được thực hiện thế nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0122",
+        "src-0122",
+        "src-0122",
+        "src-0132",
+        "src-0122"
+      ],
+      "top_chapters": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "partition": "ngan-hang-thuong-mai",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "nh-d03",
+      "category": "direct",
+      "question": "Ngân hàng thương mại: các hình thức huy động vốn của NHTM gồm những gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0123",
+        "src-0123",
+        "src-0123",
+        "src-0123",
+        "src-0123"
+      ],
+      "top_chapters": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "partition": "ngan-hang-thuong-mai",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "nh-d04",
+      "category": "direct",
+      "question": "Ngân hàng thương mại: quy trình tín dụng gồm những bước nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0124",
+        "src-0134",
+        "src-0124",
+        "src-0121",
+        "src-0128"
+      ],
+      "top_chapters": [
+        3,
+        3,
+        3,
+        0,
+        null
+      ],
+      "partition": "ngan-hang-thuong-mai",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "nh-d05",
+      "category": "direct",
+      "question": "Ngân hàng thương mại: đảm bảo tín dụng có những hình thức nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0124",
+        "src-0124",
+        "src-0134",
+        "src-0124",
+        "src-0124"
+      ],
+      "top_chapters": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "partition": "ngan-hang-thuong-mai",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "nh-d06",
+      "category": "direct",
+      "question": "Ngân hàng thương mại: cho vay ngắn hạn theo hạn mức tín dụng được xác định ra sao?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0135",
+        "src-0125",
+        "src-0125",
+        "src-0125",
+        "src-0135"
+      ],
+      "top_chapters": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "partition": "ngan-hang-thuong-mai",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "nh-d07",
+      "category": "direct",
+      "question": "Ngân hàng thương mại: cho vay trung dài hạn có các phương thức nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0125",
+        "src-0135",
+        "src-0135",
+        "src-0121",
+        "src-0125"
+      ],
+      "top_chapters": [
+        4,
+        4,
+        4,
+        0,
+        4
+      ],
+      "partition": "ngan-hang-thuong-mai",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "nh-d08",
+      "category": "direct",
+      "question": "Ngân hàng thương mại: nghiệp vụ chiết khấu giấy tờ có giá diễn ra thế nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0136",
+        "src-0126",
+        "src-0126",
+        "src-0126",
+        "src-0126"
+      ],
+      "top_chapters": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "partition": "ngan-hang-thuong-mai",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "nh-d09",
+      "category": "direct",
+      "question": "Ngân hàng thương mại: nghiệp vụ bao thanh toán được thực hiện thế nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0126",
+        "src-0126",
+        "src-0121",
+        "src-0128",
+        "src-0126"
+      ],
+      "top_chapters": [
+        5,
+        5,
+        0,
+        null,
+        5
+      ],
+      "partition": "ngan-hang-thuong-mai",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "nh-d10",
+      "category": "direct",
+      "question": "Ngân hàng thương mại: nghiệp vụ bảo lãnh ngân hàng có những loại nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0136",
+        "src-0126",
+        "src-0126",
+        "src-0126",
+        "src-0126"
+      ],
+      "top_chapters": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "partition": "ngan-hang-thuong-mai",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "nh-d11",
+      "category": "direct",
+      "question": "Ngân hàng thương mại: dịch vụ thanh toán gồm những phương thức nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0123",
+        "src-0121",
+        "src-0123",
+        "src-0128",
+        "src-0123"
+      ],
+      "top_chapters": [
+        2,
+        0,
+        2,
+        null,
+        2
+      ],
+      "partition": "ngan-hang-thuong-mai",
+      "unknowns": [],
+      "must_include": false,
+      "chapter_at1": false,
+      "contaminated": false,
+      "pass": false
+    },
+    {
+      "id": "nh-d12",
+      "category": "direct",
+      "question": "Ngân hàng thương mại: dịch vụ ngân hàng điện tử có các loại nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0137",
+        "src-0127",
+        "src-0137",
+        "src-0137",
+        "src-0127"
+      ],
+      "top_chapters": [
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "partition": "ngan-hang-thuong-mai",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "nh-s01",
+      "category": "source_bound",
+      "question": "Theo chương 5 của Ngân hàng thương mại, các nghiệp vụ tín dụng khác gồm gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0126",
+        "src-0126",
+        "src-0126",
+        "src-0126",
+        "src-0126"
+      ],
+      "top_chapters": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "partition": "ngan-hang-thuong-mai",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "nh-s02",
+      "category": "source_bound",
+      "question": "Đề thi mẫu Ngân hàng thương mại 2025 có những dạng câu hỏi nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0128",
+        "src-0128",
+        "src-0121",
+        "src-0128",
+        "src-0128"
+      ],
+      "top_chapters": [
+        null,
+        null,
+        0,
+        null,
+        null
+      ],
+      "partition": "ngan-hang-thuong-mai",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "nh-s03",
+      "category": "source_bound",
+      "question": "Hướng dẫn ôn tập và kiểm tra Ngân hàng thương mại yêu cầu học gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0129",
+        "src-0129",
+        "src-0129",
+        "src-0121",
+        "src-0134"
+      ],
+      "top_chapters": [
+        null,
+        null,
+        null,
+        0,
+        3
+      ],
+      "partition": "ngan-hang-thuong-mai",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "nh-i01",
+      "category": "insufficient",
+      "question": "WACC trong Ngân hàng thương mại được tính như thế nào?",
+      "coverage": "insufficient",
+      "top_sources": [
+        "src-0123",
+        "src-0123",
+        "src-0122",
+        "src-0122",
+        "src-0124"
+      ],
+      "top_chapters": [
+        2,
+        2,
+        1,
+        1,
+        3
+      ],
+      "partition": "ngan-hang-thuong-mai",
+      "unknowns": [
+        "topic_in_other_course:tai-chinh-doanh-nghiep-1",
+        "no_course_concept_match",
+        "term_not_in_course_corpus:wacc",
+        "insufficient_curriculum_evidence"
+      ],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "nh-i02",
+      "category": "insufficient",
+      "question": "Ngân hàng thương mại giải thích cơ sở dẫn liệu kiểm toán thế nào?",
+      "coverage": "insufficient",
+      "top_sources": [
+        "src-0124",
+        "src-0123",
+        "src-0123",
+        "src-0124",
+        "src-0129"
+      ],
+      "top_chapters": [
+        3,
+        2,
+        2,
+        3,
+        null
+      ],
+      "partition": "ngan-hang-thuong-mai",
+      "unknowns": [
+        "topic_in_other_course:kiem-toan-1",
+        "no_course_concept_match",
+        "topic_owner_hint:kinh-doanh-va-nghiep-vu",
+        "insufficient_curriculum_evidence"
+      ],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "nh-i03",
+      "category": "insufficient",
+      "question": "Ngân hàng thương mại hướng dẫn giao kết hợp đồng dân sự ra sao?",
+      "coverage": "insufficient",
+      "top_sources": [
+        "src-0126",
+        "src-0134",
+        "src-0124",
+        "src-0126",
+        "src-0126"
+      ],
+      "top_chapters": [
+        5,
+        3,
+        3,
+        5,
+        5
+      ],
+      "partition": "ngan-hang-thuong-mai",
+      "unknowns": [
+        "topic_in_other_course:luat-kinh-doanh",
+        "no_course_concept_match",
+        "insufficient_curriculum_evidence"
+      ],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "nh-c01",
+      "category": "collision",
+      "question": "Chương 1 của Ngân hàng thương mại nói về gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0122",
+        "src-0132",
+        "src-0122",
+        "src-0122",
+        "src-0122"
+      ],
+      "top_chapters": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "partition": "ngan-hang-thuong-mai",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "nh-c02",
+      "category": "collision",
+      "question": "Chương 6 của Ngân hàng thương mại nói về gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0127",
+        "src-0127",
+        "src-0127",
+        "src-0127",
+        "src-0127"
+      ],
+      "top_chapters": [
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "partition": "ngan-hang-thuong-mai",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    }
+  ]
+}

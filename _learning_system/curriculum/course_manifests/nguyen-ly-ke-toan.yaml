@@ -1,0 +1,891 @@
+course_id: nguyen-ly-ke-toan
+course_name: Nguyên lý kế toán
+source_folder: D:\Hoc\Nguyên lý kế toán
+institution:
+  value: null
+  evidence_status: UNKNOWN
+  note: >
+    Not named in this course folder. Outside this folder, KTTC1 src-0059 names
+    "Khoa kế toán kiểm toán trường ĐH Mở TP HCM" while introducing lecturers
+    who teach Nguyên lý kế toán. That is OBSERVED in another course, not here.
+course_code:
+  value: ACCO1325
+  evidence_status: OBSERVED
+  evidence_quote: "Môn học: NGUYÊN LÝ KẾ TOÁN - ACCO1325"
+  source_refs: [src-0093, src-0094, src-0095, src-0096, src-0097, src-0098, src-0099, src-0100, src-0101, src-0102, src-0103, src-0104, src-0105, src-0106, src-0107, src-0108, src-0109, src-0119, src-0120]
+  note: >
+    Code is absent from C4 and C5 scripts (src-0110..src-0118), which header only
+    "Môn học: NGUYÊN LÝ KẾ TOÁN" / "Nguyên lý kế toán".
+academic_year:
+  value: null
+  evidence_status: UNKNOWN
+semester:
+  value: null
+  evidence_status: UNKNOWN
+status:
+  historical: unknown
+  current: unknown
+  unknown: true
+lecturers_observed: []
+# PDF Word metadata authors THANH / user / chaul are not confirmed lecturer names.
+scan_meta:
+  scanned_at: "2026-09-07"
+  extract_dir: D:\Hoc\_learning_system\extracts\nguyen-ly-ke-toan
+  file_count_in_folder: 28
+  compiled_pdf_pages: 119
+  compiled_pdf_pages_in_harvest_extract: 6
+  compiled_pdf_note: >
+    Nguyên Lý Kế Toán.pdf is a concatenation of the NLKT-C* scripts (bookmarks
+    match topic filenames). Original has a full text layer; harvest extract is thin.
+
+sources:
+  syllabus: []
+  textbook: []
+  lecture_slide: []
+  lecture_note:
+    - {source_id: src-0093, filename: Nguyên Lý Kế Toán.pdf, pages: 119, role_note: "Compiled video scripts; inventory had inferred textbook by size+name; OBSERVED content is BÀI GIẢNG DẠNG VĂN BẢN (SCRIPT) + two TÀI LIỆU TỰ NGHIÊN CỨU units."}
+    - {source_id: src-0094, filename: NLKT-C1-CD1.1-Banchatcuaketoan.pdf, pages: 3, topic: "1.1"}
+    - {source_id: src-0095, filename: NLKT-C1-CD1.2-Caclinhvucketoan.pdf, pages: 3, topic: "1.2"}
+    - {source_id: src-0096, filename: NLKT-C1-CD1.3-Moitruongketoan-Tunghiencuu.pdf, pages: 4, topic: "1.3", label_observed: "TÀI LIỆU TỰ NGHIÊN CỨU"}
+    - {source_id: src-0097, filename: NLKT-C2-CD2.1-TongquanveBCTC.pdf, pages: 4, topic: "2.1"}
+    - {source_id: src-0098, filename: NLKT-C2-CD2.2-P1-Bangcandoiketoan.pdf, pages: 4, topic: "2.2"}
+    - {source_id: src-0099, filename: NLKT-C2-CD2.2-P2-Bangcandoiketoan.pdf, pages: 3, topic: "2.2"}
+    - {source_id: src-0100, filename: NLKT-C2-CD2.3-BaocaoketquaHDKD.pdf, pages: 4, topic: "2.3"}
+    - {source_id: src-0101, filename: NLKT-C2-CD2.4-Baocaoluuchuyentiente.pdf, pages: 4, topic: "2.4"}
+    - {source_id: src-0102, filename: NLKT-C2-CD2.5-BanthuyetminhBCTC-Tunghiencuu.pdf, pages: 2, topic: "2.5", label_observed: "TÀI LIỆU TỰ NGHIÊN CỨU"}
+    - {source_id: src-0103, filename: NLKT-C2-CD2.6-PTKTvaBCTC.pdf, pages: 5, topic: "2.6"}
+    - {source_id: src-0104, filename: NLKT-C2-CD2.7-P1-nguyentacvagiadinhketoan.pdf, pages: 3, topic: "2.7"}
+    - {source_id: src-0105, filename: NLKT-C2-CD2.7-P2-nguyentacvagiadinhketoan.pdf, pages: 2, topic: "2.7"}
+    - {source_id: src-0106, filename: NLKT-C3-CD3.1-Taikhoanketoan_v2.pdf, pages: 11, topic: "3.1"}
+    - {source_id: src-0107, filename: NLKT-C3-CD3.2-Ghisokep_v2.pdf, pages: 7, topic: "3.2"}
+    - {source_id: src-0108, filename: NLKT-C3-CD3.3-TaikhoanvaBCĐKT_v2.pdf, pages: 3, topic: "3.3"}
+    - {source_id: src-0109, filename: NLKT-C3-CD3.4-Kiemtradoichieu_v2.pdf, pages: 5, topic: "3.4"}
+    - {source_id: src-0115, filename: NLKT-C4-CD4.pdf, pages: 5, topic: "4.1", role_note: "Standalone file is named NLKT-C4-CD4.pdf; body is Chủ đề 4.1 Tổng quan về các bút toán điều chỉnh."}
+    - {source_id: src-0110, filename: NLKT-C4-CD4.2-Chiphitratruocvadoanhthuchuathuchien.pdf, pages: 3, topic: "4.2"}
+    - {source_id: src-0111, filename: NLKT-C4-CD4.3-Khauhaotaisancodinh.pdf, pages: 4, topic: "4.3"}
+    - {source_id: src-0112, filename: NLKT-C4-CD4.4-Doanhthuchuathutienvachiphichuatratien.pdf, pages: 4, topic: "4.4"}
+    - {source_id: src-0113, filename: NLKT-C4-CD4.5-Ketchuyendexacdinhketquakinhdoanh.pdf, pages: 6, topic: "4.5"}
+    - {source_id: src-0114, filename: NLKT-C4-CD4.6-Moiquanhetaikhoanbaocaotaichinh.pdf, pages: 4, topic: "4.6"}
+    - {source_id: src-0116, filename: NLKT-C5-CD5.1-P1-Chungtuketoan.pdf, pages: 6, topic: "5.1"}
+    - {source_id: src-0117, filename: NLKT-C5-CD5.1-P2-Sosachketoan.pdf, pages: 7, topic: "5.1"}
+    - {source_id: src-0118, filename: NLKT-C5-CD5.2-Tochuccongtacketoantrongdoanhnghiep.pdf, pages: 4, topic: "5.2"}
+    - {source_id: src-0119, filename: NLKT-C6-CD6.1-CacmucdoungdungCNTT_v2.pdf, pages: 4, topic: "6.1"}
+    - {source_id: src-0120, filename: NLKT-C6-CD6.2-Xaydungdulieu_v2.pdf, pages: 5, topic: "6.2"}
+  summary: []
+  exercise: []
+  solution: []
+  exam: []
+  quiz: []
+  assignment: []
+  reference: []
+  unknown: []
+
+structure:
+  chapters:
+    - number: 1
+      title: TỔNG QUAN VỀ KẾ TOÁN
+      evidence_status: OBSERVED
+      evidence_quote_or_filename: "Chương 1: TỔNG QUAN VỀ KẾ TOÁN (NLKT-C1-CD1.1-Banchatcuaketoan.pdf)"
+      topics:
+        - code: "1.1"
+          title: Bản chất của kế toán
+          source_refs: [src-0094, src-0093]
+        - code: "1.2"
+          title: Các lĩnh vực kế toán
+          source_refs: [src-0095, src-0093]
+        - code: "1.3"
+          title: Môi trường kế toán
+          source_refs: [src-0096, src-0093]
+          note: Labeled TÀI LIỆU TỰ NGHIÊN CỨU.
+    - number: 2
+      title: BÁO CÁO TÀI CHÍNH
+      evidence_status: OBSERVED
+      evidence_quote_or_filename: "Chương 2: BÁO CÁO TÀI CHÍNH (NLKT-C2-CD2.1-TongquanveBCTC.pdf)"
+      topics:
+        - code: "2.1"
+          title: Tổng quan về báo cáo tài chính
+          source_refs: [src-0097, src-0093]
+        - code: "2.2"
+          title: Bảng cân đối kế toán
+          source_refs: [src-0098, src-0099, src-0093]
+          parts: ["P1 Các khoản mục của bảng cân đối kế toán", "P2 Lập Bảng cân đối kế toán và ý nghĩa thông tin"]
+        - code: "2.3"
+          title: Báo cáo kết quả hoạt động kinh doanh
+          source_refs: [src-0100, src-0093]
+          note: "Script heading typo OBSERVED: 'BÁO CÁC KẾT QUẢ HOẠT ĐỘNG KINH DOANH'."
+        - code: "2.4"
+          title: Báo cáo lưu chuyển tiền tệ
+          source_refs: [src-0101, src-0093]
+        - code: "2.5"
+          title: Bản thuyết minh báo cáo tài chính
+          source_refs: [src-0102, src-0093]
+          note: Labeled TÀI LIỆU TỰ NGHIÊN CỨU.
+        - code: "2.6"
+          title: Phương trình kế toán và báo cáo tài chính
+          source_refs: [src-0103, src-0093]
+        - code: "2.7"
+          title: Nguyên tắc kế toán và giả định kế toán
+          source_refs: [src-0104, src-0105, src-0093]
+          parts: ["P1 Các nguyên tắc kế toán", "P2 Các giả định kế toán"]
+    - number: 3
+      title: TÀI KHOẢN VÀ GHI SỔ KÉP
+      evidence_status: OBSERVED
+      evidence_quote_or_filename: "Chương 3: TÀI KHOẢN VÀ GHI SỔ KÉP (NLKT-C3-CD3.1-Taikhoanketoan_v2.pdf)"
+      topics:
+        - code: "3.1"
+          title: Tài khoản kế toán
+          source_refs: [src-0106, src-0093]
+        - code: "3.2"
+          title: Ghi sổ kép
+          source_refs: [src-0107, src-0093]
+        - code: "3.3"
+          title: Tài khoản và bảng cân đối kế toán
+          source_refs: [src-0108, src-0093]
+        - code: "3.4"
+          title: Kiểm tra đối chiếu
+          source_refs: [src-0109, src-0093]
+    - number: 4
+      title: Khóa sổ và lập báo cáo tài chính
+      evidence_status: OBSERVED
+      evidence_quote_or_filename: "Chương 4: Khóa sổ và lập báo cáo tài chính (NLKT-C4-CD4.pdf)"
+      topics:
+        - code: "4.1"
+          title: Tổng quan về các bút toán điều chỉnh
+          source_refs: [src-0115, src-0093]
+          note: "No standalone NLKT-C4-CD4.1-*.pdf; content lives in NLKT-C4-CD4.pdf."
+        - code: "4.2"
+          title: Chi phí trả trước và doanh thu chưa thực hiện
+          source_refs: [src-0110, src-0093]
+        - code: "4.3"
+          title: Khấu hao tài sản cố định
+          source_refs: [src-0111, src-0093]
+        - code: "4.4"
+          title: Doanh thu chưa thu tiền và chi phí chưa trả tiền
+          source_refs: [src-0112, src-0093]
+        - code: "4.5"
+          title: Kết chuyển để xác định kết quả kinh doanh
+          source_refs: [src-0113, src-0093]
+        - code: "4.6"
+          title: Mối quan hệ tài khoản – báo cáo tài chính
+          source_refs: [src-0114, src-0093]
+    - number: 5
+      title: Quy trình kế toán
+      evidence_status: OBSERVED
+      evidence_quote_or_filename: "Chương 5: Quy trình kế toán (NLKT-C5-CD5.1-P1-Chungtuketoan.pdf)"
+      topics:
+        - code: "5.1"
+          title: Chứng từ kế toán và sổ sách kế toán
+          source_refs: [src-0116, src-0117, src-0093]
+          parts: ["P1 Chứng từ kế toán", "P2 Sổ sách kế toán"]
+        - code: "5.2"
+          title: Tổ chức công tác kế toán trong doanh nghiệp
+          source_refs: [src-0118, src-0093]
+    - number: 6
+      title: HỆ THỐNG THÔNG TIN KẾ TOÁN
+      evidence_status: OBSERVED
+      evidence_quote_or_filename: "Chương 6: HỆ THỐNG THÔNG TIN KẾ TOÁN (NLKT-C6-CD6.1-CacmucdoungdungCNTT_v2.pdf)"
+      topics:
+        - code: "6.1"
+          title: Các mức độ ứng dụng công nghệ thông tin
+          source_refs: [src-0119, src-0093]
+        - code: "6.2"
+          title: Xây dựng dữ liệu
+          source_refs: [src-0120, src-0093]
+
+relationships:
+  explicit_prerequisites:
+    - target: "3.1 Tài khoản kế toán / phương trình kế toán"
+      evidence: >
+        "Trong bài học trước thì giữa Tài sản, Nợ phải trả, Vốn chủ sở hữu sẽ tồn tại
+        sự cân đối được mô tả thông qua phương trình kế toán Tài Sản = Nợ Phải Trả +
+        Vốn Chủ Sở Hữu."
+      source_ref: src-0106
+      confidence: high
+      evidence_status: OBSERVED
+    - target: "3.2 Ghi sổ kép"
+      evidence: >
+        "Với kiến thức đã học ở chương 2, chúng ta thấy mọi nghiệp vụ kinh tế phát sinh
+        không làm thay đổi tính cân bằng của phương trình kế toán." Also "Ở chủ đề trước,
+        chúng ta đã tìm hiểu các tài khoản chi tiết..."
+      source_ref: src-0107
+      confidence: high
+      evidence_status: OBSERVED
+    - target: "3.3 Tài khoản và bảng cân đối kế toán"
+      evidence: >
+        "trong các buổi học trước, chúng ta đã tìm hiểu về Tài khoản là gì, có mấy loại
+        Tài khoản cũng như cách phản ánh nghiệp vụ phát sinh vào tài khoản theo nguyên
+        tắc ghi sổ kép."
+      source_ref: src-0108
+      confidence: high
+      evidence_status: OBSERVED
+    - target: "3.4 Kiểm tra đối chiếu"
+      evidence: >
+        C3.2 states hệ quả ghi sổ kép leads to bảng tổng hợp tài khoản, "Phần kiến thức
+        này chúng ta sẽ tìm hiểu ở chủ đề 3.4." C3.4 opens by recapping tài khoản, ghi sổ
+        kép, and mối liên kết tài khoản–BCĐKT.
+      source_ref: src-0107
+      also_source_ref: src-0109
+      confidence: high
+      evidence_status: OBSERVED
+    - target: "4.1 Bút toán điều chỉnh"
+      evidence: >
+        "Cơ sở dồn tích là một nguyên tắc kế toán quan trọng mà chúng ta đã tìm hiểu trong
+        chương 2 báo cáo tài chính." Also requires kỳ kế toán and phù hợp to determine profit.
+      source_ref: src-0115
+      confidence: high
+      evidence_status: OBSERVED
+    - target: "4.2 Chi phí trả trước / doanh thu chưa thực hiện"
+      evidence: >
+        "Số tiền ghi nhận không phải là tổng số tiền đã chi trả trước... vì kế toán phải
+        tuân thủ nguyên tắc phù hợp."
+      source_ref: src-0110
+      confidence: high
+      evidence_status: OBSERVED
+    - target: "4.3 Khấu hao TSCĐ"
+      evidence: "Tài sản cố định được ghi nhận tăng theo nguyên tắc giá gốc."
+      source_ref: src-0111
+      confidence: high
+      evidence_status: OBSERVED
+    - target: "4.4 Doanh thu chưa thu tiền / chi phí chưa trả tiền"
+      evidence: >
+        "Doanh thu chưa thu tiền còn được gọi là doanh thu dồn tích vì được ghi nhận là
+        doanh thu trong kỳ theo nguyên tắc cơ sở dồn tích." Chi phí chưa trả tiền also
+        cites cơ sở dồn tích and phù hợp.
+      source_ref: src-0112
+      confidence: high
+      evidence_status: OBSERVED
+    - target: "4.5 Kết chuyển"
+      evidence: >
+        "Trước khi thực hiện bút toán kết chuyển, hãy nhớ lại các TK Doanh thu, TK thu mà
+        chúng ta đã nghiên cứu ở chương 3." Also "ghi sổ kế toán phải tuân thủ nguyên tắc
+        ghi sổ kép".
+      source_ref: src-0113
+      confidence: high
+      evidence_status: OBSERVED
+    - target: "4.6 Mối quan hệ tài khoản – BCTC"
+      evidence: "Hãy cùng nhớ lại về báo cáo kết quả kinh doanh đã học ở chương 2."
+      source_ref: src-0114
+      confidence: high
+      evidence_status: OBSERVED
+    - target: "5.1 Ghi sổ từ chứng từ"
+      evidence: >
+        "Ghi sổ kế toán chính là công việc định khoản hay ghi sổ kép mà các anh chị đã
+        được hướng dẫn ở chương 3."
+      source_ref: src-0116
+      confidence: high
+      evidence_status: OBSERVED
+    - target: "3.1 / 3.2 Tài khoản doanh thu (cơ sở dồn tích)"
+      evidence: >
+        "Theo nguyên tắc kế toán cơ sở dồn tích, doanh thu được ghi nhận dựa trên cơ sở
+        nghiệp vụ kinh tế phát sinh, không dựa trên cơ sở thu tiền."
+      source_ref: src-0106
+      confidence: high
+      evidence_status: OBSERVED
+    - target: "3.1 Tài khoản giá vốn (nguyên tắc phù hợp)"
+      evidence: >
+        "Theo nguyên tắc kế toán phù hợp, khi ghi nhận doanh thu bán hàng chúng ta sẽ ghi
+        nhận 1 khoản chi phí tương ứng."
+      source_ref: src-0106
+      confidence: high
+      evidence_status: OBSERVED
+  inferred_prerequisites:
+    - target: "Chương 2 BCTC after Chương 1 tổng quan"
+      reason: Sequential chapter numbering and C2.1 treats BCTC as product of kế toán tài chính introduced in 1.2; no sentence saying "phải học chương 1 trước".
+      confidence: medium
+    - target: "Chương 5 after Chương 4 khóa sổ"
+      reason: Sequential order; C5.1 P2 mentions cuối kỳ "Thực hiện các bút toán điều chỉnh, khóa sổ và kết chuyển" which is C4 content, but does not cite chương 4 by number.
+      confidence: medium
+    - target: "Chương 6 HTTT after Chương 5 quy trình"
+      reason: Sequential order plus C1.1 already mentions phần mềm in the accounting process; C6 does not name C5 as prerequisite.
+      confidence: low
+    - target: "2.2 BCĐKT after 2.1 tổng quan"
+      reason: Topic numbering inside chapter 2; 2.2 says "tìm hiểu tiếp những nội dung tiếp theo liên quan đến báo cáo tài chính".
+      confidence: medium
+  successor_courses:
+    - course_id: null
+      course_name: Hệ thống thông tin kế toán
+      evidence_status: OBSERVED
+      evidence: >
+        "Nếu các bạn là học viên chuyên ngành kế toán thì sau này các bạn sẽ được tìm
+        hiểu kỹ hơn về quy trình xây dựng cập nhật và kết xuất dữ liệu trên hai ứng dụng
+        bảng tính excel và phần mềm kế toán ở các môn học Hệ thống thông tin kế toán."
+      source_ref: src-0120
+      confidence: high
+    - course_id: ke-toan-tai-chinh-1
+      course_name: Kế toán tài chính 1
+      course_code: ACCO2310
+      evidence_status: OBSERVED
+      evidence_location: "Outside this folder (Kế toán tài chính 1)"
+      evidence: >
+        src-0058: "Đây là môn học chuyển tiếp sau môn cơ sở ngành là môn Nguyên lý kế toán."
+        src-0059: "Sau khi hoàn tất nghiên cứu môn Nguyên lý kế toán, các anh chị tiếp tục
+        học các học phần môn Kế toán tài chính. Môn kế toán tài chính chia ra thành 4 học
+        phần gồm KTTC1, KTTC2, KTTC3 và KTTC4."
+      source_refs: [src-0058, src-0059]
+      confidence: high
+      note: Not evidenced inside Nguyên lý kế toán folder.
+  related_courses:
+    - name: Kế toán doanh nghiệp thương mại
+      evidence_status: UNKNOWN
+      evidence: >
+        src-0100: "nội dung về các khoản giảm trừ doanh thu này sẽ được trình bày chi tiết
+        hơn trong chương về kế toán doanh nghiệp thương mại"
+      source_ref: src-0100
+      note: >
+        Wording is "chương", not clearly a separate course. No such chapter file exists
+        in this folder. Do not treat as a confirmed successor.
+
+coverage:
+  syllabus_present:
+    value: false
+    notes: No giới thiệu môn / đề cương / hướng dẫn học tập file in this folder. C1.1 refers to "phần mở đầu môn học" which is not present as a source file.
+  theory_present:
+    value: true
+    notes: Full C1–C6 video-script theory. Two units are self-study prose (1.3, 2.5).
+  exercises_present:
+    value: true
+    notes: >
+      Embedded in-lecture bài thực hành / ví dụ (classification, BCĐKT, BCKQKD, cash-flow
+      lines, T-accounts, adjusting entries). No standalone exercise booklet. C5.1 tells
+      learners to "đọc và làm bài tập trong giáo trình môn học" — that textbook is not
+      in this folder.
+  solutions_present:
+    value: false
+    notes: Worked examples inside scripts are teaching walkthroughs, not a solutions file.
+  exams_present:
+    value: false
+    notes: No đề thi / đề mẫu / quiz file in this folder.
+
+quality:
+  completeness: >
+    Theory coverage of 6 named chapters is complete in scripts. Gaps: no syllabus,
+    no exam, no dedicated exercises/solutions, no required textbook PDF despite C5
+    citing giáo trình, no Chương 0 / phần mở đầu, no standalone CD4.1 filename.
+  parseability: >
+    All 27 topic PDFs have a text layer and were fully extracted. Compiled
+    Nguyên Lý Kế Toán.pdf (119 pages) has a text layer; harvest extract captured
+    only 6 pages. Original skim confirms it duplicates the topic scripts.
+  duplicate_risk: high
+  duplicate_risk_notes: >
+    src-0093 is a merge of src-0094..src-0120. Topic files are the canonical units.
+    C4.1 content appears both as NLKT-C4-CD4.pdf and inside the compiled PDF.
+  thin_text_layer_files: []
+  harvest_truncated_extracts:
+    - source_id: src-0093
+      filename: Nguyên Lý Kế Toán.pdf
+      pages: 119
+      pages_extracted: 6
+      likely_scanned: false
+  other_quality_notes:
+    - "C2.4 practice list has 8 numbered giao dịch but later refers to giao dịch 5 và 9; classification numbers in the script do not match the table. OBSERVED inconsistency."
+    - "C4/C5 scripts omit course code ACCO1325 while C1–C3 and C6 include it."
+    - "PDF metadata authors (THANH, user, chaul) are Word usernames, not lecturer identification."
+
+concepts:
+  - suggested_id: nlkt-ban-chat-ke-toan
+    canonical_name: Bản chất của kế toán
+    aliases: ["kế toán như hệ thống thông tin", "khái niệm kế toán"]
+    appearances: ["1.1 heading", "Chương 1 objectives"]
+    source_refs: [src-0094]
+    prerequisites: {explicit: [], inferred: []}
+    related: [nlkt-du-lieu-va-thong-tin, nlkt-quy-trinh-ke-toan]
+    confidence: high
+    evidence_status: OBSERVED
+    evidence_quote: >
+      Theo Luật kế toán “Kế toán là việc thu thập, xử lý, kiểm tra, phân tích và cung cấp
+      thông tin kinh tế, tài chính dưới hình thức giá trị, hiện vật và thời gian lao động”.
+      Also: kế toán là hệ thống thông tin phục vụ ra quyết định kinh tế.
+
+  - suggested_id: nlkt-du-lieu-va-thong-tin
+    canonical_name: Dữ liệu kế toán và thông tin kế toán
+    aliases: []
+    appearances: ["1.1 nội dung chủ đề"]
+    source_refs: [src-0094]
+    prerequisites: {explicit: [], inferred: [nlkt-ban-chat-ke-toan]}
+    related: [nlkt-quy-trinh-ke-toan]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - suggested_id: nlkt-quy-trinh-ke-toan
+    canonical_name: Quy trình kế toán
+    aliases: ["thu thập – xử lý – cung cấp thông tin"]
+    appearances: ["1.1", "Chương 5 title"]
+    source_refs: [src-0094, src-0116, src-0117]
+    prerequisites: {explicit: [], inferred: [nlkt-ban-chat-ke-toan]}
+    related: [nlkt-chung-tu-ke-toan, nlkt-so-sach-ke-toan, nlkt-bao-cao-tai-chinh]
+    confidence: high
+    evidence_status: OBSERVED
+    evidence_quote: >
+      Chứng từ → sổ kế toán → báo cáo kế toán. C5: "Thu thập dữ liệu. Sau đó, kế toán sẽ
+      tiến hành Phân loại, xử lý, ghi chép, lưu trữ số liệu. Và Kết thúc của quy trình là
+      Cung cấp thông tin."
+
+  - suggested_id: nlkt-linh-vuc-ke-toan
+    canonical_name: Các lĩnh vực kế toán
+    aliases: ["kế toán tài chính", "kế toán quản trị", "kế toán thuế", "kiểm toán báo cáo tài chính"]
+    appearances: ["1.2 heading"]
+    source_refs: [src-0095]
+    prerequisites: {explicit: [], inferred: [nlkt-ban-chat-ke-toan]}
+    related: [nlkt-bao-cao-tai-chinh]
+    confidence: high
+    evidence_status: OBSERVED
+    evidence_quote: >
+      "môn học khái quát các hình thức cung cấp thông tin kế toán thành 4 lĩnh vực kế toán
+      gồm: Kế toán tài chính; Kế toán quản trị; Kế toán thuế; Kiểm toán báo cáo tài chính"
+
+  - suggested_id: nlkt-moi-truong-ke-toan
+    canonical_name: Môi trường kế toán
+    aliases: ["tổ chức nghề nghiệp", "định chế pháp lý", "đạo đức nghề nghiệp"]
+    appearances: ["1.3 heading"]
+    source_refs: [src-0096]
+    prerequisites: {explicit: [], inferred: [nlkt-ban-chat-ke-toan]}
+    related: []
+    confidence: high
+    evidence_status: OBSERVED
+    evidence_quote: >
+      "Các yếu tố của môi trường kế toán là: vai trò của kế toán, các tổ chức nghề nghiệp,
+      các định chế pháp lý và đạo đức nghề nghiệp." Cites Luật kế toán 2017; VAS; TT
+      200/2014/TT-BTC; TT 133/2016/TT-BTC; TT 107/2017/TT-BTC.
+
+  - suggested_id: nlkt-bao-cao-tai-chinh
+    canonical_name: Báo cáo tài chính
+    aliases: ["BCTC"]
+    appearances: ["Chương 2 title", "2.1"]
+    source_refs: [src-0097, src-0098]
+    prerequisites: {explicit: [], inferred: [nlkt-linh-vuc-ke-toan]}
+    related: [nlkt-bang-can-doi-ke-toan, nlkt-bao-cao-kqkd, nlkt-bao-cao-lctt, nlkt-thuyet-minh-bctc]
+    confidence: high
+    evidence_status: OBSERVED
+    evidence_quote: >
+      "Báo cáo tài chính là những báo cáo tổng hợp trình bày: Tình hình tài chính tại một
+      thời điểm và sự thay đổi tình hình tài chính trong một thời kỳ" and comprises BCĐKT,
+      BCKQKD, BCLCTT, Bản thuyết minh.
+
+  - suggested_id: nlkt-bang-can-doi-ke-toan
+    canonical_name: Bảng cân đối kế toán
+    aliases: ["BCĐKT", "tình hình tài chính tại một thời điểm"]
+    appearances: ["2.2 heading", "2.1", "3.3", "4.6"]
+    source_refs: [src-0098, src-0099, src-0108, src-0114]
+    prerequisites: {explicit: [], inferred: [nlkt-bao-cao-tai-chinh]}
+    related: [nlkt-phuong-trinh-ke-toan, nlkt-tai-khoan-ke-toan]
+    confidence: high
+    evidence_status: OBSERVED
+    evidence_quote: >
+      Phản ánh tài sản và nguồn vốn tại một thời điểm; tổng tài sản = tổng nguồn vốn;
+      tài sản xếp theo tính thanh khoản giảm dần.
+
+  - suggested_id: nlkt-bao-cao-kqkd
+    canonical_name: Báo cáo kết quả hoạt động kinh doanh
+    aliases: ["BCKQKD", "báo cáo KQKD"]
+    appearances: ["2.3 heading", "4.6"]
+    source_refs: [src-0100, src-0114]
+    prerequisites: {explicit: [], inferred: [nlkt-bao-cao-tai-chinh]}
+    related: [nlkt-phuong-trinh-ke-toan-mo-rong, nlkt-ket-chuyen]
+    confidence: high
+    evidence_status: OBSERVED
+    evidence_quote: >
+      Trình bày doanh thu, thu nhập, chi phí và lãi/lỗ trong một thời kỳ. LN gộp = DT
+      bán hàng – GVHB.
+
+  - suggested_id: nlkt-bao-cao-lctt
+    canonical_name: Báo cáo lưu chuyển tiền tệ
+    aliases: ["BCLCTT", "báo cáo lưu chuyển tiền"]
+    appearances: ["2.4 heading"]
+    source_refs: [src-0101]
+    prerequisites: {explicit: [], inferred: [nlkt-bao-cao-tai-chinh]}
+    related: []
+    confidence: high
+    evidence_status: OBSERVED
+    evidence_quote: >
+      Dòng tiền theo ba hoạt động: kinh doanh, đầu tư, tài chính.
+
+  - suggested_id: nlkt-thuyet-minh-bctc
+    canonical_name: Bản thuyết minh báo cáo tài chính
+    aliases: ["thuyết minh"]
+    appearances: ["2.5 heading"]
+    source_refs: [src-0102]
+    prerequisites: {explicit: [], inferred: [nlkt-bao-cao-tai-chinh]}
+    related: [nlkt-bang-can-doi-ke-toan, nlkt-bao-cao-kqkd, nlkt-bao-cao-lctt]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - suggested_id: nlkt-phuong-trinh-ke-toan
+    canonical_name: Phương trình kế toán
+    aliases: ["accounting equation", "Tài sản = Nợ phải trả + Vốn chủ sở hữu"]
+    appearances: ["2.6 heading", "3.1", "3.2"]
+    source_refs: [src-0103, src-0106, src-0107]
+    prerequisites: {explicit: [], inferred: [nlkt-bang-can-doi-ke-toan]}
+    related: [nlkt-phuong-trinh-ke-toan-mo-rong, nlkt-ghi-so-kep]
+    confidence: high
+    evidence_status: OBSERVED
+    evidence_quote: >
+      "Nguồn lực kinh tế = Nguồn hình thành; Tài sản = Nguồn vốn; Tài sản = Nợ phải trả
+      + Vốn chủ sở hữu; Tài sản - Nợ phải trả = Vốn chủ sở hữu"
+
+  - suggested_id: nlkt-phuong-trinh-ke-toan-mo-rong
+    canonical_name: Phương trình kế toán mở rộng
+    aliases: ["doanh thu làm tăng VCSH", "chi phí làm giảm VCSH"]
+    appearances: ["2.6"]
+    source_refs: [src-0103]
+    prerequisites: {explicit: [nlkt-phuong-trinh-ke-toan], inferred: []}
+    related: [nlkt-bao-cao-kqkd, nlkt-tai-khoan-ke-toan]
+    confidence: high
+    evidence_status: OBSERVED
+    evidence_quote: >
+      Doanh thu góp phần làm tăng LN chưa phân phối / VCSH; chi phí góp phần làm giảm
+      LN chưa phân phối / VCSH. Used to lập BCKQKD.
+
+  - suggested_id: nlkt-nguyen-tac-ke-toan
+    canonical_name: Nguyên tắc kế toán
+    aliases: ["hoạt động liên tục", "giá gốc", "cơ sở dồn tích", "phù hợp", "thận trọng", "trọng yếu", "nhất quán"]
+    appearances: ["2.7 P1 heading", "4.1"]
+    source_refs: [src-0104, src-0115]
+    prerequisites: {explicit: [], inferred: [nlkt-bao-cao-tai-chinh]}
+    related: [nlkt-gia-dinh-ke-toan, nlkt-but-toan-dieu-chinh]
+    confidence: high
+    evidence_status: OBSERVED
+    evidence_quote: >
+      "Các nguyên tắc kế toán cơ bản gồm: Hoạt động liên tục; Giá gốc; Cơ sở dồn tích;
+      Phù hợp; Thận trọng; Trọng yếu; Nhất quán"
+
+  - suggested_id: nlkt-gia-dinh-ke-toan
+    canonical_name: Giả định kế toán
+    aliases: ["đơn vị kinh tế", "đơn vị tiền tệ", "kỳ kế toán"]
+    appearances: ["2.7 P2 heading", "4.1 kỳ kế toán"]
+    source_refs: [src-0105, src-0115]
+    prerequisites: {explicit: [], inferred: [nlkt-nguyen-tac-ke-toan]}
+    related: [nlkt-but-toan-dieu-chinh]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - suggested_id: nlkt-tai-khoan-ke-toan
+    canonical_name: Tài khoản kế toán
+    aliases: ["T-account", "tài khoản chữ T", "năm nhóm tài khoản"]
+    appearances: ["3.1 heading"]
+    source_refs: [src-0106]
+    prerequisites:
+      explicit: [nlkt-phuong-trinh-ke-toan, nlkt-phuong-trinh-ke-toan-mo-rong]
+      inferred: []
+    related: [nlkt-no-va-co, nlkt-ghi-so-kep]
+    confidence: high
+    evidence_status: OBSERVED
+    evidence_quote: >
+      "Tài khoản kế toán là việc phân loại đối tượng kế toán để tổ chức phản ánh và kiểm
+      tra một cách thường xuyên, liên tục và có hệ thống". Groups: TS, Nợ phải trả, VCSH,
+      Doanh thu, Chi phí. TK BCĐKT vs TK BCKQKD.
+
+  - suggested_id: nlkt-no-va-co
+    canonical_name: Nợ và Có
+    aliases: ["debit-credit", "ghi Nợ", "ghi Có", "kết cấu tài khoản"]
+    appearances: ["3.1"]
+    source_refs: [src-0106]
+    prerequisites:
+      explicit: [nlkt-tai-khoan-ke-toan]
+      inferred: []
+    related: [nlkt-ghi-so-kep]
+    confidence: high
+    evidence_status: OBSERVED
+    evidence_quote: >
+      "Tài sản, Chi phí tăng ghi bên Nợ, giảm ghi bên Có. Nợ phải trả - Vốn chủ sở hữu –
+      Doanh thu tăng ghi bên Có, giảm ghi bên Nợ."
+
+  - suggested_id: nlkt-ghi-so-kep
+    canonical_name: Ghi sổ kép
+    aliases: ["double-entry", "nguyên tắc ghi sổ kép"]
+    appearances: ["3.2 heading", "Chương 3 title"]
+    source_refs: [src-0107]
+    prerequisites:
+      explicit: [nlkt-phuong-trinh-ke-toan, nlkt-tai-khoan-ke-toan, nlkt-no-va-co]
+      inferred: []
+    related: [nlkt-dinh-khoan, nlkt-kiem-tra-doi-chieu]
+    confidence: high
+    evidence_status: OBSERVED
+    evidence_quote: >
+      "một nghiệp vụ kinh tế phát sinh luôn được ghi vào ít nhất hai tài khoản liên quan
+      Với tổng số tiền ghi bên Nợ bằng tổng số tiền ghi bên Có." Hệ quả: tổng PS Nợ = tổng
+      PS Có; tổng số dư Nợ = tổng số dư Có.
+
+  - suggested_id: nlkt-dinh-khoan
+    canonical_name: Định khoản kế toán
+    aliases: ["journal entry", "bút toán"]
+    appearances: ["3.2", "3.3", "5.1"]
+    source_refs: [src-0107, src-0108]
+    prerequisites:
+      explicit: [nlkt-ghi-so-kep]
+      inferred: []
+    related: [nlkt-so-sach-ke-toan]
+    confidence: high
+    evidence_status: OBSERVED
+    evidence_quote: >
+      "Định khoản kế toán là việc phân tích nội dung các nghiệp vụ kinh tế phát sinh...
+      xác định các tài khoản bị ảnh hưởng" then 4 bước.
+
+  - suggested_id: nlkt-kiem-tra-doi-chieu
+    canonical_name: Kiểm tra đối chiếu
+    aliases: ["tài khoản tổng hợp và chi tiết", "bảng cân đối tài khoản"]
+    appearances: ["3.4 heading"]
+    source_refs: [src-0109]
+    prerequisites:
+      explicit: [nlkt-ghi-so-kep, nlkt-tai-khoan-ke-toan]
+      inferred: []
+    related: [nlkt-bang-can-doi-tai-khoan]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - suggested_id: nlkt-bang-can-doi-tai-khoan
+    canonical_name: Bảng cân đối tài khoản
+    aliases: ["BCĐTK", "trial balance"]
+    appearances: ["3.4"]
+    source_refs: [src-0109]
+    prerequisites:
+      explicit: [nlkt-ghi-so-kep]
+      inferred: []
+    related: [nlkt-kiem-tra-doi-chieu]
+    confidence: high
+    evidence_status: OBSERVED
+    evidence_quote: >
+      "Bảng cân đối tài khoản được lập để đối chiếu, kiểm tra số liệu ghi chép trên các
+      tài khoản kế toán". Weakness: không phát hiện sai sót nếu ghi sổ kép vẫn cân.
+
+  - suggested_id: nlkt-but-toan-dieu-chinh
+    canonical_name: Bút toán điều chỉnh
+    aliases: ["adjusting entries", "khoản trả trước", "khoản dồn tích"]
+    appearances: ["4.1 heading", "Chương 4 objectives"]
+    source_refs: [src-0115]
+    prerequisites:
+      explicit: [nlkt-nguyen-tac-ke-toan, nlkt-gia-dinh-ke-toan, nlkt-ghi-so-kep]
+      inferred: []
+    related: [nlkt-chi-phi-tra-truoc, nlkt-doanh-thu-chua-thuc-hien, nlkt-khau-hao-tscd, nlkt-doanh-thu-chua-thu-tien, nlkt-chi-phi-chua-tra-tien]
+    confidence: high
+    evidence_status: OBSERVED
+    evidence_quote: >
+      Năm loại trong phạm vi môn học: chi phí trả trước; doanh thu chưa thực hiện; khấu
+      hao TSCĐ; chi phí chưa trả tiền; doanh thu chưa thu tiền. Thực hiện cuối kỳ để đủ
+      doanh thu/chi phí và cập nhật TS/nợ phải trả.
+
+  - suggested_id: nlkt-chi-phi-tra-truoc
+    canonical_name: Chi phí trả trước
+    aliases: ["prepaid expense"]
+    appearances: ["4.2 heading"]
+    source_refs: [src-0110]
+    prerequisites:
+      explicit: [nlkt-but-toan-dieu-chinh, nlkt-nguyen-tac-ke-toan]
+      inferred: []
+    related: [nlkt-doanh-thu-chua-thuc-hien]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - suggested_id: nlkt-doanh-thu-chua-thuc-hien
+    canonical_name: Doanh thu chưa thực hiện
+    aliases: ["unearned revenue"]
+    appearances: ["4.2 heading"]
+    source_refs: [src-0110]
+    prerequisites:
+      explicit: [nlkt-but-toan-dieu-chinh]
+      inferred: []
+    related: [nlkt-chi-phi-tra-truoc]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - suggested_id: nlkt-khau-hao-tscd
+    canonical_name: Khấu hao tài sản cố định
+    aliases: ["khấu hao đường thẳng", "hao mòn TSCĐ", "nguyên giá", "khấu hao lũy kế", "giá trị còn lại"]
+    appearances: ["4.3 heading"]
+    source_refs: [src-0111]
+    prerequisites:
+      explicit: [nlkt-but-toan-dieu-chinh, nlkt-nguyen-tac-ke-toan]
+      inferred: []
+    related: []
+    confidence: high
+    evidence_status: OBSERVED
+    evidence_quote: >
+      "Khấu hao là phân bổ có hệ thống giá gốc tài sản cố định vào chi phí hoạt động".
+      TK Hao mòn TSCĐ is tài sản but kết cấu ngược (Có tăng).
+
+  - suggested_id: nlkt-doanh-thu-chua-thu-tien
+    canonical_name: Doanh thu chưa thu tiền
+    aliases: ["doanh thu dồn tích", "accrued revenue"]
+    appearances: ["4.4 heading"]
+    source_refs: [src-0112]
+    prerequisites:
+      explicit: [nlkt-but-toan-dieu-chinh, nlkt-nguyen-tac-ke-toan]
+      inferred: []
+    related: [nlkt-chi-phi-chua-tra-tien]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - suggested_id: nlkt-chi-phi-chua-tra-tien
+    canonical_name: Chi phí chưa trả tiền
+    aliases: ["chi phí phải trả", "chi phí dồn tích", "accrued expense"]
+    appearances: ["4.4 heading"]
+    source_refs: [src-0112]
+    prerequisites:
+      explicit: [nlkt-but-toan-dieu-chinh, nlkt-nguyen-tac-ke-toan]
+      inferred: []
+    related: [nlkt-doanh-thu-chua-thu-tien]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - suggested_id: nlkt-ket-chuyen
+    canonical_name: Kết chuyển để xác định kết quả kinh doanh
+    aliases: ["TK Xác định kết quả kinh doanh", "tài khoản tạm thời", "kết chuyển lãi/lỗ"]
+    appearances: ["4.5 heading", "3.1 pointer to chương 4"]
+    source_refs: [src-0113, src-0106]
+    prerequisites:
+      explicit: [nlkt-tai-khoan-ke-toan, nlkt-ghi-so-kep, nlkt-but-toan-dieu-chinh]
+      inferred: []
+    related: [nlkt-khoa-so, nlkt-bao-cao-kqkd]
+    confidence: high
+    evidence_status: OBSERVED
+    evidence_quote: >
+      Kết chuyển DT/TN sang Có TK XĐKQKD; kết chuyển chi phí sang Nợ TK XĐKQKD; chênh
+      lệch sang LN chưa phân phối. Example assumes thuế TNDN 0%.
+
+  - suggested_id: nlkt-khoa-so
+    canonical_name: Khóa sổ
+    aliases: ["đóng sổ"]
+    appearances: ["Chương 4 title", "4.5"]
+    source_refs: [src-0113, src-0114]
+    prerequisites:
+      explicit: [nlkt-ket-chuyen]
+      inferred: []
+    related: [nlkt-bao-cao-tai-chinh]
+    confidence: high
+    evidence_status: OBSERVED
+    evidence_quote: >
+      TK tạm thời khóa sổ bằng kết chuyển (không số dư). TK thường xuyên (BCĐKT) khóa sổ
+      bằng cộng PS và tính số dư cuối kỳ.
+
+  - suggested_id: nlkt-ty-so-tai-chinh
+    canonical_name: Tỷ số tài chính cơ bản
+    aliases: ["tỷ số thanh toán ngắn hạn", "tỷ số nợ", "ROA", "tỷ số lợi nhuận trên tài sản"]
+    appearances: ["4.6", "Chương 4 objectives"]
+    source_refs: [src-0114, src-0099]
+    prerequisites:
+      explicit: [nlkt-bang-can-doi-ke-toan, nlkt-bao-cao-kqkd]
+      inferred: []
+    related: []
+    confidence: high
+    evidence_status: OBSERVED
+
+  - suggested_id: nlkt-chung-tu-ke-toan
+    canonical_name: Chứng từ kế toán
+    aliases: ["chứng từ gốc", "luân chuyển chứng từ"]
+    appearances: ["5.1 P1 heading"]
+    source_refs: [src-0116]
+    prerequisites:
+      explicit: [nlkt-ghi-so-kep]
+      inferred: [nlkt-quy-trinh-ke-toan]
+    related: [nlkt-so-sach-ke-toan]
+    confidence: high
+    evidence_status: OBSERVED
+    evidence_quote: >
+      "Chứng từ kế toán là những giấy tờ và vật mang tin phản ánh nghiệp vụ kinh tế tài
+      chính phát sinh đã hoàn thành"
+
+  - suggested_id: nlkt-so-sach-ke-toan
+    canonical_name: Sổ sách kế toán
+    aliases: ["sổ kế toán", "sổ cái", "nhật ký chung"]
+    appearances: ["5.1 P2 heading"]
+    source_refs: [src-0117]
+    prerequisites:
+      explicit: [nlkt-chung-tu-ke-toan]
+      inferred: [nlkt-dinh-khoan]
+    related: [nlkt-hinh-thuc-nhat-ky-chung]
+    confidence: high
+    evidence_status: OBSERVED
+
+  - suggested_id: nlkt-hinh-thuc-nhat-ky-chung
+    canonical_name: Hình thức kế toán Nhật ký chung
+    aliases: ["journal", "sổ nhật ký chung"]
+    appearances: ["5.1 P2"]
+    source_refs: [src-0117]
+    prerequisites:
+      explicit: [nlkt-so-sach-ke-toan]
+      inferred: [nlkt-dinh-khoan]
+    related: []
+    confidence: high
+    evidence_status: OBSERVED
+    evidence_quote: >
+      Other forms named but not taught in detail: Nhật ký – Sổ cái; Chứng từ ghi sổ;
+      Nhật ký – Chứng từ; hình thức trên máy vi tính.
+
+  - suggested_id: nlkt-to-chuc-cong-tac-ke-toan
+    canonical_name: Tổ chức công tác kế toán trong doanh nghiệp
+    aliases: ["tổ chức bộ máy kế toán", "tập trung", "phân tán"]
+    appearances: ["5.2 heading"]
+    source_refs: [src-0118]
+    prerequisites: {explicit: [], inferred: [nlkt-chung-tu-ke-toan, nlkt-so-sach-ke-toan, nlkt-tai-khoan-ke-toan]}
+    related: []
+    confidence: high
+    evidence_status: OBSERVED
+
+  - suggested_id: nlkt-cntt-ke-toan
+    canonical_name: Các mức độ ứng dụng CNTT trong kế toán
+    aliases: ["Excel", "phần mềm kế toán", "ERP"]
+    appearances: ["6.1 heading"]
+    source_refs: [src-0119]
+    prerequisites: {explicit: [], inferred: [nlkt-quy-trinh-ke-toan]}
+    related: [nlkt-he-thong-thong-tin-ke-toan]
+    confidence: high
+    evidence_status: OBSERVED
+    evidence_quote: >
+      Three levels taught: bảng tính Excel; phần mềm kế toán; ERP. "phần mềm ứng dụng
+      KHÔNG thể thay thế con người trong kế toán được."
+
+  - suggested_id: nlkt-he-thong-thong-tin-ke-toan
+    canonical_name: Hệ thống thông tin kế toán
+    aliases: ["HTTT kế toán", "kế toán máy", "xây dựng dữ liệu"]
+    appearances: ["Chương 6 title", "6.2 heading"]
+    source_refs: [src-0120]
+    prerequisites: {explicit: [], inferred: [nlkt-cntt-ke-toan, nlkt-chung-tu-ke-toan]}
+    related: [nlkt-cntt-ke-toan]
+    confidence: high
+    evidence_status: OBSERVED
+    evidence_quote: >
+      Cite in-script: Romney và Steinbart 2018 / James Hall 2013 — AIS nhận đầu vào dữ
+      liệu (chứng từ) và kết xuất thông tin (báo cáo). Demo phần mềm MISA. Five components:
+      phần cứng, phần mềm, tổ chức dữ liệu, thủ tục, con người.
+
+unknowns:
+  - item: institution
+    status: UNKNOWN
+    note: Not in this folder. Cross-course KTTC1 src-0059 names ĐH Mở TP HCM.
+  - item: lecturers
+    status: UNKNOWN
+    note: >
+      Not named in NLKT files. Cross-course KTTC1 src-0059: "Ths Phạm Thị Phương Thảo
+      giảng viên của Khoa kế toán kiểm toán trường ĐH Mở TP HCM, tham gia giảng dạy môn
+      Nguyên lý kế toán". C6.2 uses "thầy" for the MISA demo only. Not promoted to
+      lecturers_observed.
+  - item: academic_year_and_semester
+    status: UNKNOWN
+  - item: official_syllabus
+    status: UNKNOWN
+    note: "C1.1 refers to phần mở đầu môn học; file not in folder."
+  - item: required_textbook
+    status: UNKNOWN
+    note: "C5.1 requires giáo trình môn học with bài tập; PDF not in folder."
+  - item: exam_and_grading
+    status: UNKNOWN
+  - item: course_prerequisites_into_NLKT
+    status: UNKNOWN
+    note: No source in this folder names a prior course required to take NLKT.
+  - item: missing_CD4.1_filename
+    status: OBSERVED_AS_ABSENT
+    note: Topic 4.1 exists inside NLKT-C4-CD4.pdf, not as NLKT-C4-CD4.1-*.pdf.
+  - item: chuong_ke_toan_doanh_nghiep_thuong_mai
+    status: UNKNOWN
+    note: Mentioned in src-0100 as a future "chương"; no file here.
+  - item: course_status_historical_or_current
+    status: UNKNOWN
+
+notes:
+  - OBSERVED: All instructional files are video scripts (BÀI GIẢNG DẠNG VĂN BẢN) except 1.3 and 2.5 (TÀI LIỆU TỰ NGHIÊN CỨU).
+  - OBSERVED: Accounting-equation → debit/credit/T-accounts → double-entry/journalizing → adjusting → closing → financial-statements chain is taught with explicit back-references, not only chapter order.
+  - OBSERVED: src-0093 compiled PDF bookmarks equal the topic filenames; do not treat it as a separate textbook.
+  - Do not merge Luật kế toán / VAS / TT 200 citations in 1.3 with lecturer script definitions in other units.
+  - External AIS citations (Romney & Steinbart 2018; James Hall 2013) in 6.2 are source-attributed, not curriculum-only truth.
+  - Inventory classified src-0093 as textbook (INFERRED, low confidence). This scan overrides that role to lecture_note based on observed "SCRIPT" headers.
+  - C2.1 slide 15 has a garbled sentence mixing BCĐKT and BCKQKD; do not invent a cleaner definition.
+  - No mastery scores, semester order, or invented inbound prerequisites were added.

@@ -1,0 +1,5 @@
+- Source PDFs/PPT/DOCX under D:\Hoc course folders are read-only.
+- Write only inside D:\Hoc\_learning_system.
+- Label OBSERVED / INFERRED / UNKNOWN.
+- Do not invent semester order or mastery scores.
+- Do not merge lecturer, textbook, and external definitions.

@@ -1,0 +1,614 @@
+{
+  "course_id": "ke-toan-ngan-hang",
+  "tag": "_run3",
+  "eval_sha256": "07d8958ebd6610048cf631970dffa69f039051ab3198eb9f4508c3f073d283b2",
+  "n": 22,
+  "metrics": {
+    "direct_must_include": 0.9166666666666666,
+    "direct_chapter_at1": 0.75,
+    "source_bound": 1.0,
+    "insufficient": 1.0,
+    "collision_contamination": 0,
+    "account": 1.0,
+    "topic_owner": null
+  },
+  "gates": {
+    "direct_must_include": true,
+    "direct_chapter_at1": false,
+    "source_bound": true,
+    "insufficient": true,
+    "collision_contamination": true,
+    "account": true,
+    "topic_owner": true
+  },
+  "all_pass": false,
+  "results": [
+    {
+      "id": "kn-d01",
+      "category": "direct",
+      "question": "Kế toán ngân hàng: đặc điểm kinh doanh của ngân hàng ảnh hưởng đến kế toán như thế nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0260",
+        "src-0260",
+        "src-0260",
+        "src-0259",
+        "src-0260"
+      ],
+      "top_chapters": [
+        1,
+        1,
+        1,
+        null,
+        1
+      ],
+      "partition": "ke-toan-ngan-hang",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kn-d02",
+      "category": "direct",
+      "question": "Kế toán ngân hàng: kế toán nghiệp vụ tiền mặt gồm những nội dung nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0271",
+        "src-0265",
+        "src-0265",
+        "src-0265",
+        "src-0296"
+      ],
+      "top_chapters": [
+        4,
+        2,
+        2,
+        2,
+        8
+      ],
+      "partition": "ke-toan-ngan-hang",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": false,
+      "contaminated": false,
+      "pass": false
+    },
+    {
+      "id": "kn-d03",
+      "category": "direct",
+      "question": "Kế toán ngân hàng: kế toán tiền gửi tiết kiệm hạch toán thế nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0267",
+        "src-0268",
+        "src-0268",
+        "src-0302",
+        "src-0268"
+      ],
+      "top_chapters": [
+        3,
+        3,
+        3,
+        null,
+        3
+      ],
+      "partition": "ke-toan-ngan-hang",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kn-d04",
+      "category": "direct",
+      "question": "Kế toán ngân hàng: kế toán phát hành giấy tờ có giá hạch toán chiết khấu và phụ trội ra sao?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0269",
+        "src-0269",
+        "src-0270",
+        "src-0267",
+        "src-0267"
+      ],
+      "top_chapters": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "partition": "ke-toan-ngan-hang",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kn-d05",
+      "category": "direct",
+      "question": "Kế toán ngân hàng: các phương thức thanh toán qua ngân hàng gồm những gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0272",
+        "src-0271",
+        "src-0271",
+        "src-0273",
+        "src-0272"
+      ],
+      "top_chapters": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "partition": "ke-toan-ngan-hang",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kn-d06",
+      "category": "direct",
+      "question": "Kế toán ngân hàng: kế toán nghiệp vụ cho vay hạch toán thế nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0271",
+        "src-0278",
+        "src-0278",
+        "src-0278",
+        "src-0278"
+      ],
+      "top_chapters": [
+        4,
+        5,
+        5,
+        5,
+        5
+      ],
+      "partition": "ke-toan-ngan-hang",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": false,
+      "contaminated": false,
+      "pass": false
+    },
+    {
+      "id": "kn-d07",
+      "category": "direct",
+      "question": "Kế toán ngân hàng: kế toán chứng khoán kinh doanh hạch toán thế nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0281",
+        "src-0280",
+        "src-0283",
+        "src-0280",
+        "src-0280"
+      ],
+      "top_chapters": [
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "partition": "ke-toan-ngan-hang",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kn-d08",
+      "category": "direct",
+      "question": "Kế toán ngân hàng: kế toán mua bán ngoại tệ giao ngay hạch toán thế nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0290",
+        "src-0290",
+        "src-0290",
+        "src-0290",
+        "src-0290"
+      ],
+      "top_chapters": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "partition": "ke-toan-ngan-hang",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kn-d09",
+      "category": "direct",
+      "question": "Kế toán ngân hàng: kế toán thu nhập của ngân hàng gồm những khoản nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0295",
+        "src-0295",
+        "src-0296",
+        "src-0295",
+        "src-0295"
+      ],
+      "top_chapters": [
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "partition": "ke-toan-ngan-hang",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kn-d10",
+      "category": "direct",
+      "question": "Kế toán ngân hàng: bảng cân đối kế toán của ngân hàng thương mại trình bày thế nào?",
+      "coverage": "partial",
+      "top_sources": [
+        "src-0103",
+        "src-0097",
+        "src-0058",
+        "src-0062",
+        "src-0062"
+      ],
+      "top_chapters": [
+        2,
+        2,
+        null,
+        3,
+        3
+      ],
+      "partition": null,
+      "unknowns": [
+        "course_scope_unresolved"
+      ],
+      "must_include": false,
+      "chapter_at1": false,
+      "contaminated": true,
+      "pass": false
+    },
+    {
+      "id": "kn-d11",
+      "category": "direct",
+      "question": "Kế toán ngân hàng: kế toán chứng khoán sẵn sàng để bán xử lý chiết khấu phụ trội thế nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0284",
+        "src-0283",
+        "src-0283",
+        "src-0283",
+        "src-0284"
+      ],
+      "top_chapters": [
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "partition": "ke-toan-ngan-hang",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kn-d12",
+      "category": "direct",
+      "question": "Kế toán ngân hàng: thanh toán quốc tế bằng tín dụng chứng từ hạch toán thế nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0294",
+        "src-0294",
+        "src-0288",
+        "src-0289",
+        "src-0288"
+      ],
+      "top_chapters": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "partition": "ke-toan-ngan-hang",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kn-s01",
+      "category": "source_bound",
+      "question": "Theo chương 4 của Kế toán ngân hàng, thanh toán qua ngân hàng gồm những chủ đề nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0271",
+        "src-0271",
+        "src-0271",
+        "src-0272",
+        "src-0274"
+      ],
+      "top_chapters": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "partition": "ke-toan-ngan-hang",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kn-s02",
+      "category": "source_bound",
+      "question": "Đề thi mẫu Kế toán ngân hàng gồm những dạng câu hỏi nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0302",
+        "src-0259",
+        "src-0265",
+        "src-0259",
+        "src-0259"
+      ],
+      "top_chapters": [
+        null,
+        null,
+        2,
+        null,
+        null
+      ],
+      "partition": "ke-toan-ngan-hang",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kn-s03",
+      "category": "source_bound",
+      "question": "Hướng dẫn ôn tập Kế toán ngân hàng yêu cầu học những gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0259",
+        "src-0259",
+        "src-0259",
+        "src-0259",
+        "src-0259"
+      ],
+      "top_chapters": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "partition": "ke-toan-ngan-hang",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kn-i01",
+      "category": "insufficient",
+      "question": "Mô hình CAPM trong Kế toán ngân hàng được tính như thế nào?",
+      "coverage": "insufficient",
+      "top_sources": [
+        "src-0271",
+        "src-0262",
+        "src-0267",
+        "src-0262",
+        "src-0262"
+      ],
+      "top_chapters": [
+        4,
+        1,
+        3,
+        1,
+        1
+      ],
+      "partition": "ke-toan-ngan-hang",
+      "unknowns": [
+        "no_course_concept_match",
+        "term_not_in_course_corpus:capm",
+        "insufficient_curriculum_evidence"
+      ],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kn-i02",
+      "category": "insufficient",
+      "question": "Kế toán ngân hàng hướng dẫn hạch toán tài sản cố định thế nào?",
+      "coverage": "insufficient",
+      "top_sources": [
+        "src-0278",
+        "src-0271",
+        "src-0259",
+        "src-0047",
+        "src-0300"
+      ],
+      "top_chapters": [
+        5,
+        4,
+        null,
+        null,
+        9
+      ],
+      "partition": "ke-toan-ngan-hang",
+      "unknowns": [
+        "topic_in_other_course:ke-toan-tai-chinh-2",
+        "no_course_concept_match",
+        "insufficient_curriculum_evidence"
+      ],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kn-i03",
+      "category": "insufficient",
+      "question": "Kế toán ngân hàng: bằng chứng kiểm toán cần đầy đủ và thích hợp nghĩa là gì?",
+      "coverage": "insufficient",
+      "top_sources": [
+        "src-0271",
+        "src-0266",
+        "src-0299",
+        "src-0299",
+        "src-0260"
+      ],
+      "top_chapters": [
+        4,
+        2,
+        9,
+        9,
+        1
+      ],
+      "partition": "ke-toan-ngan-hang",
+      "unknowns": [
+        "topic_in_other_course:kiem-toan-1",
+        "no_course_concept_match",
+        "topic_owner_hint:kinh-doanh-va-nghiep-vu",
+        "insufficient_curriculum_evidence"
+      ],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kn-c01",
+      "category": "collision",
+      "question": "Chương 6 của Kế toán ngân hàng nói về gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0281",
+        "src-0281",
+        "src-0283",
+        "src-0284",
+        "src-0282"
+      ],
+      "top_chapters": [
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "partition": "ke-toan-ngan-hang",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kn-c02",
+      "category": "collision",
+      "question": "Chương 9 của KTNH nói về gì?",
+      "coverage": "partial",
+      "top_sources": [
+        "src-0301",
+        "src-0301",
+        "src-0301",
+        "src-0301",
+        "src-0301"
+      ],
+      "top_chapters": [
+        9,
+        9,
+        9,
+        9,
+        9
+      ],
+      "partition": "ke-toan-ngan-hang",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kn-a01",
+      "category": "account",
+      "question": "Tài khoản 4211 trong Kế toán ngân hàng dùng để làm gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0271",
+        "src-0274",
+        "src-0302",
+        "src-0268",
+        "src-0263"
+      ],
+      "top_chapters": [
+        4,
+        4,
+        null,
+        3,
+        1
+      ],
+      "partition": "ke-toan-ngan-hang",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kn-a02",
+      "category": "account",
+      "question": "TK 1011 trong KTNH phản ánh gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0265",
+        "src-0293",
+        "src-0265",
+        "src-0269",
+        "src-0268"
+      ],
+      "top_chapters": [
+        2,
+        7,
+        2,
+        3,
+        3
+      ],
+      "partition": "ke-toan-ngan-hang",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    }
+  ]
+}

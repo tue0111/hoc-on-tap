@@ -1,0 +1,39 @@
+controller_version: 1.0.0
+current_stage: PILOT_WAIT_REAL_TRAFFIC
+current_status: WAITING
+core_version: 9.0.0
+active_scope:
+- ACCO1325
+- ACCO2310
+last_successful_gate: REAL_PILOT_READY
+current_task: WAIT_REAL_LEARNER_TRAFFIC
+patch_cycle: 0
+pilot:
+  meaningful_sessions: 0
+  substantive_turns: 0
+  high_severity_open: 0
+  instrumentation: pass
+expansion:
+  enabled: true
+  eligible: false
+  current_course: null
+  mode: curriculum_ingestion_only
+  authorized_by: learner
+  authorized_at: '2026-10-11'
+external_research:
+  enabled: false
+  mode: official_sources_only
+srs:
+  enabled: false
+blocked_reason: REAL_DATA_REQUIRED
+stop_status: REAL_PILOT_READY
+retrieval_scope:
+- ke-toan-tai-chinh-2
+- kiem-toan-1
+- ngan-hang-thuong-mai
+- thi-truong-tai-chinh
+- tai-chinh-hanh-chinh-su-nghiep
+- luat-kinh-doanh
+- kinh-doanh-va-nghiep-vu
+refresh:
+  enabled: false

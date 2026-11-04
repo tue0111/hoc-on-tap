@@ -1,0 +1,2 @@
+{"logged_at": "2026-09-08T14:48:23.551315+00:00", "session_id": "st-727882f20c1f", "turn_id": "st-727882f20c1f-t003", "text": "Tao chỉ tính nhầm.", "code": "WRONG_DIAGNOSIS", "kind": "instrumentation_test", "counted_as_real": false}
+{"logged_at": "2026-09-08T14:48:23.563833+00:00", "session_id": "st-727882f20c1f", "turn_id": "st-727882f20c1f-t004", "text": "Tao không muốn lần này được dùng để đánh giá.", "code": "EXCLUDE_FROM_LONG_TERM_EVIDENCE", "kind": "instrumentation_test", "counted_as_real": false}

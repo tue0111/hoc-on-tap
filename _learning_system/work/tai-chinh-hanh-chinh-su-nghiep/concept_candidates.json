@@ -1,0 +1,4725 @@
+{
+  "course_id": "tai-chinh-hanh-chinh-su-nghiep",
+  "unit_titles": [],
+  "heading_lines": [
+    {
+      "kind": "chuong",
+      "line": "Chương 2: Quản lý tài chính theo cơ chế tự chủ, tự chịu trách nhiệm",
+      "count": 16,
+      "refs": [
+        {
+          "source_id": "src-0180",
+          "page": 1
+        },
+        {
+          "source_id": "src-0180",
+          "page": 7
+        },
+        {
+          "source_id": "src-0180",
+          "page": 11
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 1: Tổng quan về tài chính hành chính sự nghiệp",
+      "count": 12,
+      "refs": [
+        {
+          "source_id": "src-0179",
+          "page": 1
+        },
+        {
+          "source_id": "src-0179",
+          "page": 11
+        },
+        {
+          "source_id": "src-0179",
+          "page": 18
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 4: Quản lý tài chính dự án đầu tư công",
+      "count": 12,
+      "refs": [
+        {
+          "source_id": "src-0182",
+          "page": 1
+        },
+        {
+          "source_id": "src-0182",
+          "page": 12
+        },
+        {
+          "source_id": "src-0182",
+          "page": 19
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 5: QUẢN LÝ SỬ DỤNG TÀI SẢN CÔNG",
+      "count": 12,
+      "refs": [
+        {
+          "source_id": "src-0183",
+          "page": 1
+        },
+        {
+          "source_id": "src-0183",
+          "page": 7
+        },
+        {
+          "source_id": "src-0183",
+          "page": 14
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.1: Phương pháp quản lý tài chính",
+      "count": 6,
+      "refs": [
+        {
+          "source_id": "src-0179",
+          "page": 1
+        },
+        {
+          "source_id": "src-0179",
+          "page": 11
+        },
+        {
+          "source_id": "src-0179",
+          "page": 18
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.1: Một số vấn đề cơ bản về cơ chế tự chủ tài chính",
+      "count": 6,
+      "refs": [
+        {
+          "source_id": "src-0180",
+          "page": 1
+        },
+        {
+          "source_id": "src-0180",
+          "page": 7
+        },
+        {
+          "source_id": "src-0180",
+          "page": 11
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.2: Quản lý tài chính theo cơ chế tự chủ đơn vị sự nghiệp công lập",
+      "count": 6,
+      "refs": [
+        {
+          "source_id": "src-0180",
+          "page": 30
+        },
+        {
+          "source_id": "src-0180",
+          "page": 41
+        },
+        {
+          "source_id": "src-0180",
+          "page": 50
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.2: Quy trình quản lý tài chính dự án đầu tư công",
+      "count": 6,
+      "refs": [
+        {
+          "source_id": "src-0182",
+          "page": 12
+        },
+        {
+          "source_id": "src-0182",
+          "page": 19
+        },
+        {
+          "source_id": "src-0182",
+          "page": 25
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.1",
+      "count": 6,
+      "refs": [
+        {
+          "source_id": "src-0189",
+          "page": 3
+        },
+        {
+          "source_id": "src-0189",
+          "page": 4
+        },
+        {
+          "source_id": "src-0189",
+          "page": 32
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.2: Quản lý tài chính theo cơ chế tự chủ cơ quan Hành chính nhà nước",
+      "count": 4,
+      "refs": [
+        {
+          "source_id": "src-0180",
+          "page": 17
+        },
+        {
+          "source_id": "src-0180",
+          "page": 25
+        },
+        {
+          "source_id": "src-0186",
+          "page": 56
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 3: Quản lý quỹ tiền lương",
+      "count": 4,
+      "refs": [
+        {
+          "source_id": "src-0181",
+          "page": 1
+        },
+        {
+          "source_id": "src-0186",
+          "page": 92
+        },
+        {
+          "source_id": "src-0192",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 3: Quản lý tài chính dự án đầu tư công",
+      "count": 4,
+      "refs": [
+        {
+          "source_id": "src-0181",
+          "page": 12
+        },
+        {
+          "source_id": "src-0181",
+          "page": 22
+        },
+        {
+          "source_id": "src-0186",
+          "page": 103
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 5.1: Một số vấn đề cơ bản trong quản lý, sử dụng tài sản công",
+      "count": 4,
+      "refs": [
+        {
+          "source_id": "src-0183",
+          "page": 1
+        },
+        {
+          "source_id": "src-0183",
+          "page": 7
+        },
+        {
+          "source_id": "src-0186",
+          "page": 159
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 5.2: Quản lý, sử dụng tài sản tại cơ quan Hành chính nhà nước.",
+      "count": 4,
+      "refs": [
+        {
+          "source_id": "src-0183",
+          "page": 14
+        },
+        {
+          "source_id": "src-0183",
+          "page": 20
+        },
+        {
+          "source_id": "src-0186",
+          "page": 172
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 6: KẾ HOẠCH TÀI CHÍNH VÀ KẾ HOẠCH TÀI CHÍNH NGÂN SÁCH",
+      "count": 4,
+      "refs": [
+        {
+          "source_id": "src-0184",
+          "page": 1
+        },
+        {
+          "source_id": "src-0184",
+          "page": 7
+        },
+        {
+          "source_id": "src-0186",
+          "page": 203
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.2",
+      "count": 4,
+      "refs": [
+        {
+          "source_id": "src-0189",
+          "page": 3
+        },
+        {
+          "source_id": "src-0189",
+          "page": 16
+        },
+        {
+          "source_id": "src-0191",
+          "page": 201
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.2: Quy trình quản lý tài chính đơn vị Hành chính sự nghiệp công lập",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0179",
+          "page": 26
+        },
+        {
+          "source_id": "src-0186",
+          "page": 26
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.3: Nhiệm vụ quyền hạn của các đơn vị hành chính sự nghiệp trong công",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0179",
+          "page": 34
+        },
+        {
+          "source_id": "src-0186",
+          "page": 34
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.1: Một số vấn đề chung về quỹ tiền lương và các khoản nộp theo",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0181",
+          "page": 1
+        },
+        {
+          "source_id": "src-0186",
+          "page": 92
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.1: Một số vấn đề chung về quỹ tiền lương và các khoản nộp theo lương",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0181",
+          "page": 12
+        },
+        {
+          "source_id": "src-0186",
+          "page": 103
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.2: Quy trình quản lý quỹ tiền lương và các khoản nộp theo lương",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0181",
+          "page": 22
+        },
+        {
+          "source_id": "src-0186",
+          "page": 113
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.2: Phân loại dự án đầu tư công",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0182",
+          "page": 1
+        },
+        {
+          "source_id": "src-0186",
+          "page": 118
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.3: Quản lý chi phí quản lý dự án đầu tư xây dựng",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0182",
+          "page": 32
+        },
+        {
+          "source_id": "src-0186",
+          "page": 149
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 5.3: Quản lý, sử dụng tài sản tại Đơn vị sự nghiệp công lập.",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0183",
+          "page": 29
+        },
+        {
+          "source_id": "src-0186",
+          "page": 187
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 5.4: Phương thức mua sắm tài sản công",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0183",
+          "page": 37
+        },
+        {
+          "source_id": "src-0186",
+          "page": 195
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 6.1: Kế hoạch tài chính 5 năm",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0184",
+          "page": 1
+        },
+        {
+          "source_id": "src-0186",
+          "page": 203
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 6.2: Kế hoạch tài chính ngân sách nhà nước 3 năm",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0184",
+          "page": 7
+        },
+        {
+          "source_id": "src-0186",
+          "page": 209
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 6.1",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0184",
+          "page": 20
+        },
+        {
+          "source_id": "src-0186",
+          "page": 222
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 6.2",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0184",
+          "page": 32
+        },
+        {
+          "source_id": "src-0186",
+          "page": 234
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.1",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0187",
+          "page": 12
+        },
+        {
+          "source_id": "src-0191",
+          "page": 12
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.2",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0187",
+          "page": 53
+        },
+        {
+          "source_id": "src-0191",
+          "page": 53
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.3",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0187",
+          "page": 69
+        },
+        {
+          "source_id": "src-0191",
+          "page": 69
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.1",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0188",
+          "page": 4
+        },
+        {
+          "source_id": "src-0191",
+          "page": 88
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.2",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0188",
+          "page": 44
+        },
+        {
+          "source_id": "src-0191",
+          "page": 128
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.3",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0188",
+          "page": 75
+        },
+        {
+          "source_id": "src-0191",
+          "page": 159
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.1",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0190",
+          "page": 4
+        },
+        {
+          "source_id": "src-0191",
+          "page": 250
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.2",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0190",
+          "page": 17
+        },
+        {
+          "source_id": "src-0191",
+          "page": 263
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.3",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0190",
+          "page": 65
+        },
+        {
+          "source_id": "src-0191",
+          "page": 311
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 5: Quản lý sử dụng tài sản công",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0192",
+          "page": 5
+        },
+        {
+          "source_id": "src-0192",
+          "page": 9
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 6: Kế hoạch tài chính và kế hoạch tài chính ngân sách nhà nước",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0192",
+          "page": 6
+        },
+        {
+          "source_id": "src-0192",
+          "page": 10
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 2: Quản lý tài chính theo cơ chế tự chủ",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0192",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 2: Chương 2: Quản lý tài chính theo cơ chế tự chủ",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0192",
+          "page": 7
+        }
+      ]
+    }
+  ],
+  "outline_titles": [
+    {
+      "source_id": "src-0179",
+      "title": "TCHCSN-C1-CD1.1.1-Script",
+      "page": 1
+    },
+    {
+      "source_id": "src-0179",
+      "title": "TCHCSN-C1-CD1.1.2-Script",
+      "page": 11
+    },
+    {
+      "source_id": "src-0179",
+      "title": "TCHCSN-C1-CD1.1.3-Script",
+      "page": 18
+    },
+    {
+      "source_id": "src-0179",
+      "title": "TCHCSN-C1-CD1.2-Script",
+      "page": 26
+    },
+    {
+      "source_id": "src-0179",
+      "title": "TCHCSN-C1-CD1.3-Script",
+      "page": 34
+    },
+    {
+      "source_id": "src-0180",
+      "title": "TCHCSN-C2-CD2.1.1-Script",
+      "page": 1
+    },
+    {
+      "source_id": "src-0180",
+      "title": "TCHCSN-C2-CD2.1.2-Script",
+      "page": 7
+    },
+    {
+      "source_id": "src-0180",
+      "title": "TCHCSN-C2-CD2.1.3-Script",
+      "page": 11
+    },
+    {
+      "source_id": "src-0180",
+      "title": "TCHCSN-C2-CD2.2.1-Script",
+      "page": 17
+    },
+    {
+      "source_id": "src-0180",
+      "title": "TCHCSN-C2-CD2.2.2-Script",
+      "page": 25
+    },
+    {
+      "source_id": "src-0180",
+      "title": "TCHCSN-C2-CD2.3.1-Script",
+      "page": 30
+    },
+    {
+      "source_id": "src-0180",
+      "title": "TCHCSN-C2-CD2.3.2-Script",
+      "page": 41
+    },
+    {
+      "source_id": "src-0180",
+      "title": "TCHCSN-C2-CD2.3.3-Script",
+      "page": 50
+    },
+    {
+      "source_id": "src-0181",
+      "title": "TCHCSN-C3-CD3.1.1-Script",
+      "page": 1
+    },
+    {
+      "source_id": "src-0181",
+      "title": "TCHCSN-C3-CD3.1.2-Script",
+      "page": 12
+    },
+    {
+      "source_id": "src-0181",
+      "title": "TCHCSN-C3-CD3.2-Script",
+      "page": 22
+    },
+    {
+      "source_id": "src-0182",
+      "title": "TCHCSN-C4-CD4.1-Script",
+      "page": 1
+    },
+    {
+      "source_id": "src-0182",
+      "title": "TCHCSN-C4-CD4.2.1-Script",
+      "page": 12
+    },
+    {
+      "source_id": "src-0182",
+      "title": "TCHCSN-C4-CD4.2.2-Script",
+      "page": 19
+    },
+    {
+      "source_id": "src-0182",
+      "title": "TCHCSN-C4-CD4.2.3-Script",
+      "page": 25
+    },
+    {
+      "source_id": "src-0182",
+      "title": "TCHCSN-C4-CD4.3-Script",
+      "page": 32
+    },
+    {
+      "source_id": "src-0183",
+      "title": "TCHCSN-CD5.1.1-Script",
+      "page": 1
+    },
+    {
+      "source_id": "src-0183",
+      "title": "TCHCSN-CD5.1.2-Script",
+      "page": 7
+    },
+    {
+      "source_id": "src-0183",
+      "title": "TCHCSN-CD5.2.1-Script",
+      "page": 14
+    },
+    {
+      "source_id": "src-0183",
+      "title": "TCHCSN-CD5.2.2-Script",
+      "page": 20
+    },
+    {
+      "source_id": "src-0183",
+      "title": "TCHCSN-CD5.3-Script",
+      "page": 29
+    },
+    {
+      "source_id": "src-0183",
+      "title": "TCHCSN-CD5.4-Script",
+      "page": 37
+    },
+    {
+      "source_id": "src-0184",
+      "title": "TCHCSN-CD6.1-Script",
+      "page": 1
+    },
+    {
+      "source_id": "src-0184",
+      "title": "TCHCSN-CD6.2-Script",
+      "page": 7
+    },
+    {
+      "source_id": "src-0184",
+      "title": "TCHCSN-HTBNHON-KHTCNS-6.1",
+      "page": 17
+    },
+    {
+      "source_id": "src-0184",
+      "title": "KẾ HOẠCH TÀI CHÍNH VÀ  KẾ HOẠCH TÀI CHÍNH NGÂN SÁCH NHÀ NƯỚC",
+      "page": 17
+    },
+    {
+      "source_id": "src-0184",
+      "title": "Chuẩn đầu ra",
+      "page": 18
+    },
+    {
+      "source_id": "src-0184",
+      "title": "Kết cấu chương",
+      "page": 19
+    },
+    {
+      "source_id": "src-0184",
+      "title": "Kế hoạch tài chính 5 năm",
+      "page": 20
+    },
+    {
+      "source_id": "src-0184",
+      "title": "Chuẩn đầu ra",
+      "page": 21
+    },
+    {
+      "source_id": "src-0184",
+      "title": "Nội dung",
+      "page": 22
+    },
+    {
+      "source_id": "src-0184",
+      "title": "Kế hoạch tài chính 5 năm",
+      "page": 23
+    },
+    {
+      "source_id": "src-0184",
+      "title": "Kế hoạch tài chính 5 năm",
+      "page": 24
+    },
+    {
+      "source_id": "src-0184",
+      "title": "Kế hoạch tài chính 5 năm",
+      "page": 25
+    },
+    {
+      "source_id": "src-0184",
+      "title": "Kế hoạch tài chính 5 năm",
+      "page": 26
+    },
+    {
+      "source_id": "src-0184",
+      "title": "Kế hoạch tài chính 5 năm quốc gia",
+      "page": 27
+    },
+    {
+      "source_id": "src-0184",
+      "title": "Kế hoạch tài chính 5 năm địa phương",
+      "page": 28
+    },
+    {
+      "source_id": "src-0184",
+      "title": "Trình tự lập kế hoạch tài chính 5 năm",
+      "page": 29
+    },
+    {
+      "source_id": "src-0184",
+      "title": "Tóm tắt",
+      "page": 30
+    },
+    {
+      "source_id": "src-0184",
+      "title": "TCHCSN-HTBNHON-KHTCNS-6.2",
+      "page": 31
+    },
+    {
+      "source_id": "src-0184",
+      "title": "KẾ HOẠCH TÀI CHÍNH VÀ  KẾ HOẠCH TÀI CHÍNH NGÂN SÁCH NHÀ NƯỚC",
+      "page": 31
+    },
+    {
+      "source_id": "src-0184",
+      "title": "Kế hoạch tài chính ngân sách 3 năm",
+      "page": 32
+    },
+    {
+      "source_id": "src-0184",
+      "title": "Chuẩn đầu ra",
+      "page": 33
+    },
+    {
+      "source_id": "src-0184",
+      "title": "Nội dung",
+      "page": 34
+    },
+    {
+      "source_id": "src-0184",
+      "title": "Kế hoạch tài chính 3 năm",
+      "page": 35
+    },
+    {
+      "source_id": "src-0184",
+      "title": "Kế hoạch tài chính 3 năm",
+      "page": 36
+    },
+    {
+      "source_id": "src-0184",
+      "title": "Kế hoạch tài chính 3 năm",
+      "page": 37
+    },
+    {
+      "source_id": "src-0184",
+      "title": "Nội dung kế hoạch tài chính 3 năm",
+      "page": 38
+    },
+    {
+      "source_id": "src-0184",
+      "title": "Xác định các chỉ tiêu cơ sở",
+      "page": 39
+    },
+    {
+      "source_id": "src-0184",
+      "title": "Nhu cầu chi đầu tư phát triển cơ sở",
+      "page": 40
+    },
+    {
+      "source_id": "src-0184",
+      "title": "Nhu cầu chi đầu tư phát triển cơ sở",
+      "page": 41
+    },
+    {
+      "source_id": "src-0184",
+      "title": "Nhu cầu chi thường xuyên cơ sở",
+      "page": 42
+    },
+    {
+      "source_id": "src-0184",
+      "title": "Nhu cầu chi tiêu mới",
+      "page": 43
+    },
+    {
+      "source_id": "src-0184",
+      "title": "Nhu cầu chi tiêu mới",
+      "page": 44
+    },
+    {
+      "source_id": "src-0184",
+      "title": "Nhu cầu chi tiêu mới",
+      "page": 45
+    },
+    {
+      "source_id": "src-0184",
+      "title": "Nhu cầu chi đầu tư phát triển mới",
+      "page": 46
+    },
+    {
+      "source_id": "src-0184",
+      "title": "Ví dụ",
+      "page": 47
+    },
+    {
+      "source_id": "src-0184",
+      "title": "Ví dụ",
+      "page": 48
+    },
+    {
+      "source_id": "src-0184",
+      "title": "Nhu cầu chi tiêu mới",
+      "page": 49
+    },
+    {
+      "source_id": "src-0184",
+      "title": "Nhu cầu chi thường xuyên mới",
+      "page": 50
+    },
+    {
+      "source_id": "src-0184",
+      "title": "Ví dụ",
+      "page": 51
+    },
+    {
+      "source_id": "src-0184",
+      "title": "Trình tự lập kế hoạch tài chính 3 năm",
+      "page": 52
+    },
+    {
+      "source_id": "src-0184",
+      "title": "Giai đoạn 1",
+      "page": 53
+    },
+    {
+      "source_id": "src-0184",
+      "title": "Giai đoạn 2",
+      "page": 54
+    },
+    {
+      "source_id": "src-0184",
+      "title": "Tóm tắt",
+      "page": 55
+    },
+    {
+      "source_id": "src-0184",
+      "title": "Tóm tắt chương 6",
+      "page": 56
+    },
+    {
+      "source_id": "src-0184",
+      "title": "Xin chân thành cảm ơn!",
+      "page": 57
+    },
+    {
+      "source_id": "src-0186",
+      "title": "Chương 1",
+      "page": 1
+    },
+    {
+      "source_id": "src-0186",
+      "title": "TCHCSN-C1-CD1.1.1-Script",
+      "page": 1
+    },
+    {
+      "source_id": "src-0186",
+      "title": "TCHCSN-C1-CD1.1.2-Script",
+      "page": 11
+    },
+    {
+      "source_id": "src-0186",
+      "title": "TCHCSN-C1-CD1.1.3-Script",
+      "page": 18
+    },
+    {
+      "source_id": "src-0186",
+      "title": "TCHCSN-C1-CD1.2-Script",
+      "page": 26
+    },
+    {
+      "source_id": "src-0186",
+      "title": "TCHCSN-C1-CD1.3-Script",
+      "page": 34
+    },
+    {
+      "source_id": "src-0186",
+      "title": "Chương 2",
+      "page": 40
+    },
+    {
+      "source_id": "src-0186",
+      "title": "TCHCSN-C2-CD2.1.1-Script",
+      "page": 40
+    },
+    {
+      "source_id": "src-0186",
+      "title": "TCHCSN-C2-CD2.1.2-Script",
+      "page": 46
+    },
+    {
+      "source_id": "src-0186",
+      "title": "TCHCSN-C2-CD2.1.3-Script",
+      "page": 50
+    },
+    {
+      "source_id": "src-0186",
+      "title": "TCHCSN-C2-CD2.2.1-Script",
+      "page": 56
+    },
+    {
+      "source_id": "src-0186",
+      "title": "TCHCSN-C2-CD2.2.2-Script",
+      "page": 64
+    },
+    {
+      "source_id": "src-0186",
+      "title": "TCHCSN-C2-CD2.3.1-Script",
+      "page": 69
+    },
+    {
+      "source_id": "src-0186",
+      "title": "TCHCSN-C2-CD2.3.2-Script",
+      "page": 80
+    },
+    {
+      "source_id": "src-0186",
+      "title": "TCHCSN-C2-CD2.3.3-Script",
+      "page": 89
+    },
+    {
+      "source_id": "src-0186",
+      "title": "Chương 3",
+      "page": 92
+    },
+    {
+      "source_id": "src-0186",
+      "title": "TCHCSN-C3-CD3.1.1-Script",
+      "page": 92
+    },
+    {
+      "source_id": "src-0186",
+      "title": "TCHCSN-C3-CD3.1.2-Script",
+      "page": 103
+    },
+    {
+      "source_id": "src-0186",
+      "title": "TCHCSN-C3-CD3.2-Script",
+      "page": 113
+    },
+    {
+      "source_id": "src-0186",
+      "title": "Chương 4",
+      "page": 118
+    },
+    {
+      "source_id": "src-0186",
+      "title": "TCHCSN-C4-CD4.1-Script",
+      "page": 118
+    },
+    {
+      "source_id": "src-0186",
+      "title": "TCHCSN-C4-CD4.2.1-Script",
+      "page": 129
+    },
+    {
+      "source_id": "src-0186",
+      "title": "TCHCSN-C4-CD4.2.2-Script",
+      "page": 136
+    },
+    {
+      "source_id": "src-0186",
+      "title": "TCHCSN-C4-CD4.2.3-Script",
+      "page": 142
+    },
+    {
+      "source_id": "src-0186",
+      "title": "TCHCSN-C4-CD4.3-Script",
+      "page": 149
+    },
+    {
+      "source_id": "src-0186",
+      "title": "Chương 5",
+      "page": 159
+    },
+    {
+      "source_id": "src-0186",
+      "title": "TCHCSN-CD5.1.1-Script",
+      "page": 159
+    },
+    {
+      "source_id": "src-0186",
+      "title": "TCHCSN-CD5.1.2-Script",
+      "page": 165
+    },
+    {
+      "source_id": "src-0186",
+      "title": "TCHCSN-CD5.2.1-Script",
+      "page": 172
+    },
+    {
+      "source_id": "src-0186",
+      "title": "TCHCSN-CD5.2.2-Script",
+      "page": 178
+    },
+    {
+      "source_id": "src-0186",
+      "title": "TCHCSN-CD5.3-Script",
+      "page": 187
+    },
+    {
+      "source_id": "src-0186",
+      "title": "TCHCSN-CD5.4-Script",
+      "page": 195
+    },
+    {
+      "source_id": "src-0186",
+      "title": "Chương 6",
+      "page": 203
+    },
+    {
+      "source_id": "src-0186",
+      "title": "TCHCSN-CD6.1-Script",
+      "page": 203
+    },
+    {
+      "source_id": "src-0186",
+      "title": "TCHCSN-CD6.2-Script",
+      "page": 209
+    },
+    {
+      "source_id": "src-0186",
+      "title": "TCHCSN-HTBNHON-KHTCNS-6.1",
+      "page": 219
+    },
+    {
+      "source_id": "src-0186",
+      "title": "KẾ HOẠCH TÀI CHÍNH VÀ  KẾ HOẠCH TÀI CHÍNH NGÂN SÁCH NHÀ NƯỚC",
+      "page": 219
+    },
+    {
+      "source_id": "src-0186",
+      "title": "Chuẩn đầu ra",
+      "page": 220
+    },
+    {
+      "source_id": "src-0186",
+      "title": "Kết cấu chương",
+      "page": 221
+    },
+    {
+      "source_id": "src-0186",
+      "title": "Kế hoạch tài chính 5 năm",
+      "page": 222
+    },
+    {
+      "source_id": "src-0186",
+      "title": "Chuẩn đầu ra",
+      "page": 223
+    },
+    {
+      "source_id": "src-0186",
+      "title": "Nội dung",
+      "page": 224
+    },
+    {
+      "source_id": "src-0186",
+      "title": "Kế hoạch tài chính 5 năm",
+      "page": 225
+    },
+    {
+      "source_id": "src-0186",
+      "title": "Kế hoạch tài chính 5 năm",
+      "page": 226
+    },
+    {
+      "source_id": "src-0186",
+      "title": "Kế hoạch tài chính 5 năm",
+      "page": 227
+    },
+    {
+      "source_id": "src-0186",
+      "title": "Kế hoạch tài chính 5 năm",
+      "page": 228
+    },
+    {
+      "source_id": "src-0186",
+      "title": "Kế hoạch tài chính 5 năm quốc gia",
+      "page": 229
+    },
+    {
+      "source_id": "src-0186",
+      "title": "Kế hoạch tài chính 5 năm địa phương",
+      "page": 230
+    },
+    {
+      "source_id": "src-0186",
+      "title": "Trình tự lập kế hoạch tài chính 5 năm",
+      "page": 231
+    },
+    {
+      "source_id": "src-0186",
+      "title": "Tóm tắt",
+      "page": 232
+    },
+    {
+      "source_id": "src-0186",
+      "title": "TCHCSN-HTBNHON-KHTCNS-6.2",
+      "page": 233
+    },
+    {
+      "source_id": "src-0186",
+      "title": "KẾ HOẠCH TÀI CHÍNH VÀ  KẾ HOẠCH TÀI CHÍNH NGÂN SÁCH NHÀ NƯỚC",
+      "page": 233
+    },
+    {
+      "source_id": "src-0186",
+      "title": "Kế hoạch tài chính ngân sách 3 năm",
+      "page": 234
+    },
+    {
+      "source_id": "src-0186",
+      "title": "Chuẩn đầu ra",
+      "page": 235
+    },
+    {
+      "source_id": "src-0186",
+      "title": "Nội dung",
+      "page": 236
+    },
+    {
+      "source_id": "src-0186",
+      "title": "Kế hoạch tài chính 3 năm",
+      "page": 237
+    },
+    {
+      "source_id": "src-0186",
+      "title": "Kế hoạch tài chính 3 năm",
+      "page": 238
+    },
+    {
+      "source_id": "src-0186",
+      "title": "Kế hoạch tài chính 3 năm",
+      "page": 239
+    },
+    {
+      "source_id": "src-0186",
+      "title": "Nội dung kế hoạch tài chính 3 năm",
+      "page": 240
+    },
+    {
+      "source_id": "src-0186",
+      "title": "Xác định các chỉ tiêu cơ sở",
+      "page": 241
+    },
+    {
+      "source_id": "src-0186",
+      "title": "Nhu cầu chi đầu tư phát triển cơ sở",
+      "page": 242
+    },
+    {
+      "source_id": "src-0186",
+      "title": "Nhu cầu chi đầu tư phát triển cơ sở",
+      "page": 243
+    },
+    {
+      "source_id": "src-0186",
+      "title": "Nhu cầu chi thường xuyên cơ sở",
+      "page": 244
+    },
+    {
+      "source_id": "src-0186",
+      "title": "Nhu cầu chi tiêu mới",
+      "page": 245
+    },
+    {
+      "source_id": "src-0186",
+      "title": "Nhu cầu chi tiêu mới",
+      "page": 246
+    },
+    {
+      "source_id": "src-0186",
+      "title": "Nhu cầu chi tiêu mới",
+      "page": 247
+    },
+    {
+      "source_id": "src-0186",
+      "title": "Nhu cầu chi đầu tư phát triển mới",
+      "page": 248
+    },
+    {
+      "source_id": "src-0186",
+      "title": "Ví dụ",
+      "page": 249
+    },
+    {
+      "source_id": "src-0186",
+      "title": "Ví dụ",
+      "page": 250
+    },
+    {
+      "source_id": "src-0186",
+      "title": "Nhu cầu chi tiêu mới",
+      "page": 251
+    },
+    {
+      "source_id": "src-0186",
+      "title": "Nhu cầu chi thường xuyên mới",
+      "page": 252
+    },
+    {
+      "source_id": "src-0186",
+      "title": "Ví dụ",
+      "page": 253
+    },
+    {
+      "source_id": "src-0186",
+      "title": "Trình tự lập kế hoạch tài chính 3 năm",
+      "page": 254
+    },
+    {
+      "source_id": "src-0186",
+      "title": "Giai đoạn 1",
+      "page": 255
+    },
+    {
+      "source_id": "src-0186",
+      "title": "Giai đoạn 2",
+      "page": 256
+    },
+    {
+      "source_id": "src-0186",
+      "title": "Tóm tắt",
+      "page": 257
+    },
+    {
+      "source_id": "src-0186",
+      "title": "Tóm tắt chương 6",
+      "page": 258
+    },
+    {
+      "source_id": "src-0186",
+      "title": "Xin chân thành cảm ơn!",
+      "page": 259
+    },
+    {
+      "source_id": "src-0187",
+      "title": "TÀI CHÍNH  HÀNH CHÍNH  SỰ NGHIỆP",
+      "page": 1
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Mô tả môn học",
+      "page": 2
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Mục tiêu",
+      "page": 3
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Nội dung",
+      "page": 4
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Chuẩn đầu ra",
+      "page": 5
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Đánh giá môn học",
+      "page": 6
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Tài liệu tham khảo",
+      "page": 7
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Xin chân thành cảm ơn!",
+      "page": 8
+    },
+    {
+      "source_id": "src-0187",
+      "title": "TỔNG QUAN VỀ  TÀI CHÍNH  HÀNH CHÍNH SỰ NGHIỆP",
+      "page": 9
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Chuẩn đầu ra",
+      "page": 10
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Nội dung của chương",
+      "page": 11
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Phương pháp quản lý tài chính đơn vị hành chính sự nghiệp ",
+      "page": 12
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Chuẩn đầu ra",
+      "page": 13
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 14 ",
+      "page": 14
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 15 ",
+      "page": 15
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 16 ",
+      "page": 16
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 17 ",
+      "page": 17
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 18 ",
+      "page": 18
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 19 ",
+      "page": 19
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 20 ",
+      "page": 20
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 21 ",
+      "page": 21
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 22 ",
+      "page": 22
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 23 ",
+      "page": 23
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 24 ",
+      "page": 24
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 25 ",
+      "page": 25
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 26 ",
+      "page": 26
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 27 ",
+      "page": 27
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 28 ",
+      "page": 28
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 29 ",
+      "page": 29
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 30 ",
+      "page": 30
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 31 ",
+      "page": 31
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 32 ",
+      "page": 32
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 33 ",
+      "page": 33
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 34 ",
+      "page": 34
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 35 ",
+      "page": 35
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 36 ",
+      "page": 36
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 37 ",
+      "page": 37
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 38 ",
+      "page": 38
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 39 ",
+      "page": 39
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 40 ",
+      "page": 40
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 41 ",
+      "page": 41
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 42 ",
+      "page": 42
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 43 ",
+      "page": 43
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 44 ",
+      "page": 44
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 45 ",
+      "page": 45
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 46 ",
+      "page": 46
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 47 ",
+      "page": 47
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 48 ",
+      "page": 48
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 49 ",
+      "page": 49
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 50 ",
+      "page": 50
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 51 ",
+      "page": 51
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 52 ",
+      "page": 52
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Quy trình quản lý tài chính đơn vị hành chính sự nghiệp ",
+      "page": 53
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Chuẩn đầu ra",
+      "page": 54
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 55 ",
+      "page": 55
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 56 ",
+      "page": 56
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 57 ",
+      "page": 57
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 58 ",
+      "page": 58
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 59 ",
+      "page": 59
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 60 ",
+      "page": 60
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 61 ",
+      "page": 61
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 62 ",
+      "page": 62
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 63 ",
+      "page": 63
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 64 ",
+      "page": 64
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 65 ",
+      "page": 65
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 66 ",
+      "page": 66
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 67 ",
+      "page": 67
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 68 ",
+      "page": 68
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Nhiệm vụ quyền hạn của các đơn vị hành chính sự nghiệp trong công tác quản lý tài chính",
+      "page": 69
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Chuẩn đầu ra",
+      "page": 70
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 71 ",
+      "page": 71
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 72 ",
+      "page": 72
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 73 ",
+      "page": 73
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 74 ",
+      "page": 74
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 75 ",
+      "page": 75
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 76 ",
+      "page": 76
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 77 ",
+      "page": 77
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 78 ",
+      "page": 78
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 79 ",
+      "page": 79
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 80 ",
+      "page": 80
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 81 ",
+      "page": 81
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 82 ",
+      "page": 82
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 83 ",
+      "page": 83
+    },
+    {
+      "source_id": "src-0187",
+      "title": "Slide 84 ",
+      "page": 84
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Quản lý tài chính theo cơ chế tự chủ, tự chịu trách nhiệm",
+      "page": 1
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Chuẩn đầu ra",
+      "page": 2
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Kết cấu chương",
+      "page": 3
+    },
+    {
+      "source_id": "src-0188",
+      "title": " Một số vấn đề cơ bản về cơ chế tự chủ tài chính",
+      "page": 4
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Chuẩn đầu ra",
+      "page": 5
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 6 ",
+      "page": 6
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 7 ",
+      "page": 7
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 8 ",
+      "page": 8
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 9 ",
+      "page": 9
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 10 ",
+      "page": 10
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 11 ",
+      "page": 11
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 12 ",
+      "page": 12
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 13 ",
+      "page": 13
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 14 ",
+      "page": 14
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 15 ",
+      "page": 15
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 16 ",
+      "page": 16
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 17 ",
+      "page": 17
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 18 ",
+      "page": 18
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 19 ",
+      "page": 19
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 20 ",
+      "page": 20
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 21 ",
+      "page": 21
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 22 ",
+      "page": 22
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 23 ",
+      "page": 23
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 24 ",
+      "page": 24
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 25 ",
+      "page": 25
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 26 ",
+      "page": 26
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 27 ",
+      "page": 27
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 28 ",
+      "page": 28
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 29 ",
+      "page": 29
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 30 ",
+      "page": 30
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 31 ",
+      "page": 31
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 32 ",
+      "page": 32
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 33 ",
+      "page": 33
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 34 ",
+      "page": 34
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 35 ",
+      "page": 35
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 36 ",
+      "page": 36
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 37 ",
+      "page": 37
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 38 ",
+      "page": 38
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 39 ",
+      "page": 39
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 40 ",
+      "page": 40
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 41 ",
+      "page": 41
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 42 ",
+      "page": 42
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 43 ",
+      "page": 43
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Quản lý tài chính theo cơ chế tự chủ cơ quan Hành chính nhà nước",
+      "page": 44
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Chuẩn đầu ra",
+      "page": 45
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 46 ",
+      "page": 46
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 47 ",
+      "page": 47
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 48 ",
+      "page": 48
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 49 ",
+      "page": 49
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 50 ",
+      "page": 50
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 51 ",
+      "page": 51
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 52 ",
+      "page": 52
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 53 ",
+      "page": 53
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 54 ",
+      "page": 54
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 55 ",
+      "page": 55
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 56 ",
+      "page": 56
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 57 ",
+      "page": 57
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 58 ",
+      "page": 58
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 59 ",
+      "page": 59
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 60 ",
+      "page": 60
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 61 ",
+      "page": 61
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 62 ",
+      "page": 62
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 63 ",
+      "page": 63
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 64 ",
+      "page": 64
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 65 ",
+      "page": 65
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 66 ",
+      "page": 66
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 67 ",
+      "page": 67
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 68 ",
+      "page": 68
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 69 ",
+      "page": 69
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 70 ",
+      "page": 70
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 71 ",
+      "page": 71
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 72 ",
+      "page": 72
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 73 ",
+      "page": 73
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 74 ",
+      "page": 74
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Quản lý tài chính theo cơ chế tự chủ đơn vị Sự nghiệp công lập",
+      "page": 75
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Chuẩn đầu ra",
+      "page": 76
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 77 ",
+      "page": 77
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 78 ",
+      "page": 78
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 79 ",
+      "page": 79
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 80 ",
+      "page": 80
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 81 ",
+      "page": 81
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 82 ",
+      "page": 82
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 83 ",
+      "page": 83
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 84 ",
+      "page": 84
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 85 ",
+      "page": 85
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 86 ",
+      "page": 86
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 87 ",
+      "page": 87
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 88 ",
+      "page": 88
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 89 ",
+      "page": 89
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 90 ",
+      "page": 90
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 91 ",
+      "page": 91
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 92 ",
+      "page": 92
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 93 ",
+      "page": 93
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 94 ",
+      "page": 94
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 95 ",
+      "page": 95
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 96 ",
+      "page": 96
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 97 ",
+      "page": 97
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 98 ",
+      "page": 98
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 99 ",
+      "page": 99
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 100 ",
+      "page": 100
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 101 ",
+      "page": 101
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 102 ",
+      "page": 102
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 103 ",
+      "page": 103
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 104 ",
+      "page": 104
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 105 ",
+      "page": 105
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 106 ",
+      "page": 106
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 107 ",
+      "page": 107
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 108 ",
+      "page": 108
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 109 ",
+      "page": 109
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 110 ",
+      "page": 110
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 111 ",
+      "page": 111
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 112 ",
+      "page": 112
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 113 ",
+      "page": 113
+    },
+    {
+      "source_id": "src-0188",
+      "title": "Slide 114 ",
+      "page": 114
+    },
+    {
+      "source_id": "src-0189",
+      "title": "QUẢN LÝ QUỸ TIỀN LƯƠNG",
+      "page": 1
+    },
+    {
+      "source_id": "src-0189",
+      "title": "Chuẩn đầu ra",
+      "page": 2
+    },
+    {
+      "source_id": "src-0189",
+      "title": "Kết cấu chương",
+      "page": 3
+    },
+    {
+      "source_id": "src-0189",
+      "title": " Một số vấn đề về quỹ tiền lương và các khoản nộp theo lương",
+      "page": 4
+    },
+    {
+      "source_id": "src-0189",
+      "title": "Chuẩn đầu ra",
+      "page": 5
+    },
+    {
+      "source_id": "src-0189",
+      "title": "Slide 6 ",
+      "page": 6
+    },
+    {
+      "source_id": "src-0189",
+      "title": "Slide 7 ",
+      "page": 7
+    },
+    {
+      "source_id": "src-0189",
+      "title": "Slide 8 ",
+      "page": 8
+    },
+    {
+      "source_id": "src-0189",
+      "title": "Slide 9 ",
+      "page": 9
+    },
+    {
+      "source_id": "src-0189",
+      "title": "Slide 10 ",
+      "page": 10
+    },
+    {
+      "source_id": "src-0189",
+      "title": "Slide 11 ",
+      "page": 11
+    },
+    {
+      "source_id": "src-0189",
+      "title": "Slide 12 ",
+      "page": 12
+    },
+    {
+      "source_id": "src-0189",
+      "title": "Slide 13 ",
+      "page": 13
+    },
+    {
+      "source_id": "src-0189",
+      "title": "Slide 14 ",
+      "page": 14
+    },
+    {
+      "source_id": "src-0189",
+      "title": "Slide 15 ",
+      "page": 15
+    },
+    {
+      "source_id": "src-0189",
+      "title": "Slide 16 ",
+      "page": 16
+    },
+    {
+      "source_id": "src-0189",
+      "title": "Slide 17 ",
+      "page": 17
+    },
+    {
+      "source_id": "src-0189",
+      "title": "Slide 18 ",
+      "page": 18
+    },
+    {
+      "source_id": "src-0189",
+      "title": "Slide 19 ",
+      "page": 19
+    },
+    {
+      "source_id": "src-0189",
+      "title": "Slide 20 ",
+      "page": 20
+    },
+    {
+      "source_id": "src-0189",
+      "title": "Slide 21 ",
+      "page": 21
+    },
+    {
+      "source_id": "src-0189",
+      "title": "Slide 22 ",
+      "page": 22
+    },
+    {
+      "source_id": "src-0189",
+      "title": "Slide 23 ",
+      "page": 23
+    },
+    {
+      "source_id": "src-0189",
+      "title": "Slide 24 ",
+      "page": 24
+    },
+    {
+      "source_id": "src-0189",
+      "title": "Slide 25 ",
+      "page": 25
+    },
+    {
+      "source_id": "src-0189",
+      "title": "Slide 26 ",
+      "page": 26
+    },
+    {
+      "source_id": "src-0189",
+      "title": "Slide 27 ",
+      "page": 27
+    },
+    {
+      "source_id": "src-0189",
+      "title": "Slide 28 ",
+      "page": 28
+    },
+    {
+      "source_id": "src-0189",
+      "title": "Slide 29 ",
+      "page": 29
+    },
+    {
+      "source_id": "src-0189",
+      "title": "Slide 30 ",
+      "page": 30
+    },
+    {
+      "source_id": "src-0189",
+      "title": "Slide 31 ",
+      "page": 31
+    },
+    {
+      "source_id": "src-0189",
+      "title": " Một số vấn đề về quỹ tiền lương và các khoản nộp theo lương",
+      "page": 32
+    },
+    {
+      "source_id": "src-0189",
+      "title": "Slide 33 ",
+      "page": 33
+    },
+    {
+      "source_id": "src-0189",
+      "title": "Slide 34 ",
+      "page": 34
+    },
+    {
+      "source_id": "src-0189",
+      "title": "Slide 35 ",
+      "page": 35
+    },
+    {
+      "source_id": "src-0189",
+      "title": "Slide 36 ",
+      "page": 36
+    },
+    {
+      "source_id": "src-0189",
+      "title": "Slide 37 ",
+      "page": 37
+    },
+    {
+      "source_id": "src-0189",
+      "title": "Slide 38 ",
+      "page": 38
+    },
+    {
+      "source_id": "src-0189",
+      "title": "Slide 39 ",
+      "page": 39
+    },
+    {
+      "source_id": "src-0189",
+      "title": "Slide 40 ",
+      "page": 40
+    },
+    {
+      "source_id": "src-0189",
+      "title": "Slide 41 ",
+      "page": 41
+    },
+    {
+      "source_id": "src-0189",
+      "title": "Slide 42 ",
+      "page": 42
+    },
+    {
+      "source_id": "src-0189",
+      "title": "Slide 43 ",
+      "page": 43
+    },
+    {
+      "source_id": "src-0189",
+      "title": "Slide 44 ",
+      "page": 44
+    },
+    {
+      "source_id": "src-0189",
+      "title": "Slide 45 ",
+      "page": 45
+    },
+    {
+      "source_id": "src-0189",
+      "title": "Slide 46 ",
+      "page": 46
+    },
+    {
+      "source_id": "src-0189",
+      "title": "Slide 47 ",
+      "page": 47
+    },
+    {
+      "source_id": "src-0189",
+      "title": "Slide 48 ",
+      "page": 48
+    },
+    {
+      "source_id": "src-0190",
+      "title": "QUẢN LÝ TÀI CHÍNH DỰ ÁN ĐẦU TƯ CÔNG",
+      "page": 1
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Chuẩn đầu ra",
+      "page": 2
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Kết cấu chương",
+      "page": 3
+    },
+    {
+      "source_id": "src-0190",
+      "title": " Phân loại dự án đầu tư công",
+      "page": 4
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Chuẩn đầu ra",
+      "page": 5
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 6 ",
+      "page": 6
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 7 ",
+      "page": 7
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 8 ",
+      "page": 8
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 9 ",
+      "page": 9
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 10 ",
+      "page": 10
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 11 ",
+      "page": 11
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 12 ",
+      "page": 12
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 13 ",
+      "page": 13
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 14 ",
+      "page": 14
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 15 ",
+      "page": 15
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 16 ",
+      "page": 16
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Quy trình quản lý tài chính dự án đầu tư công",
+      "page": 17
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Chuẩn đầu ra",
+      "page": 18
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 19 ",
+      "page": 19
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 20 ",
+      "page": 20
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 21 ",
+      "page": 21
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 22 ",
+      "page": 22
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 23 ",
+      "page": 23
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 24 ",
+      "page": 24
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 25 ",
+      "page": 25
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 26 ",
+      "page": 26
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 27 ",
+      "page": 27
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 28 ",
+      "page": 28
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 29 ",
+      "page": 29
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 30 ",
+      "page": 30
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 31 ",
+      "page": 31
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 32 ",
+      "page": 32
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 33 ",
+      "page": 33
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 34 ",
+      "page": 34
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 35 ",
+      "page": 35
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 36 ",
+      "page": 36
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 37 ",
+      "page": 37
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 38 ",
+      "page": 38
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 39 ",
+      "page": 39
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 40 ",
+      "page": 40
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 41 ",
+      "page": 41
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 42 ",
+      "page": 42
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 43 ",
+      "page": 43
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 44 ",
+      "page": 44
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 45 ",
+      "page": 45
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 46 ",
+      "page": 46
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 47 ",
+      "page": 47
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 48 ",
+      "page": 48
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 49 ",
+      "page": 49
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 50 ",
+      "page": 50
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 51 ",
+      "page": 51
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 52 ",
+      "page": 52
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 53 ",
+      "page": 53
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 54 ",
+      "page": 54
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 55 ",
+      "page": 55
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 56 ",
+      "page": 56
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 57 ",
+      "page": 57
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 58 ",
+      "page": 58
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 59 ",
+      "page": 59
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 60 ",
+      "page": 60
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 61 ",
+      "page": 61
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 62 ",
+      "page": 62
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 63 ",
+      "page": 63
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 64 ",
+      "page": 64
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Quản lý chi phí quản lý dự án đầu tư xây dựng",
+      "page": 65
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Chuẩn đầu ra",
+      "page": 66
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 67 ",
+      "page": 67
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 68 ",
+      "page": 68
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 69 ",
+      "page": 69
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 70 ",
+      "page": 70
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 71 ",
+      "page": 71
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 72 ",
+      "page": 72
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 73 ",
+      "page": 73
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 74 ",
+      "page": 74
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 75 ",
+      "page": 75
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 76 ",
+      "page": 76
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 77 ",
+      "page": 77
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 78 ",
+      "page": 78
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Tóm tắt",
+      "page": 79
+    },
+    {
+      "source_id": "src-0190",
+      "title": "Slide 80 ",
+      "page": 80
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide Chương 1",
+      "page": 1
+    },
+    {
+      "source_id": "src-0191",
+      "title": "TÀI CHÍNH  HÀNH CHÍNH  SỰ NGHIỆP",
+      "page": 1
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Mô tả môn học",
+      "page": 2
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Mục tiêu",
+      "page": 3
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Nội dung",
+      "page": 4
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Chuẩn đầu ra",
+      "page": 5
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Đánh giá môn học",
+      "page": 6
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Tài liệu tham khảo",
+      "page": 7
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Xin chân thành cảm ơn!",
+      "page": 8
+    },
+    {
+      "source_id": "src-0191",
+      "title": "TỔNG QUAN VỀ  TÀI CHÍNH  HÀNH CHÍNH SỰ NGHIỆP",
+      "page": 9
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Chuẩn đầu ra",
+      "page": 10
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Nội dung của chương",
+      "page": 11
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Phương pháp quản lý tài chính đơn vị hành chính sự nghiệp ",
+      "page": 12
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Chuẩn đầu ra",
+      "page": 13
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 14 ",
+      "page": 14
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 15 ",
+      "page": 15
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 16 ",
+      "page": 16
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 17 ",
+      "page": 17
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 18 ",
+      "page": 18
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 19 ",
+      "page": 19
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 20 ",
+      "page": 20
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 21 ",
+      "page": 21
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 22 ",
+      "page": 22
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 23 ",
+      "page": 23
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 24 ",
+      "page": 24
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 25 ",
+      "page": 25
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 26 ",
+      "page": 26
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 27 ",
+      "page": 27
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 28 ",
+      "page": 28
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 29 ",
+      "page": 29
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 30 ",
+      "page": 30
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 31 ",
+      "page": 31
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 32 ",
+      "page": 32
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 33 ",
+      "page": 33
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 34 ",
+      "page": 34
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 35 ",
+      "page": 35
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 36 ",
+      "page": 36
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 37 ",
+      "page": 37
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 38 ",
+      "page": 38
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 39 ",
+      "page": 39
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 40 ",
+      "page": 40
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 41 ",
+      "page": 41
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 42 ",
+      "page": 42
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 43 ",
+      "page": 43
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 44 ",
+      "page": 44
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 45 ",
+      "page": 45
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 46 ",
+      "page": 46
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 47 ",
+      "page": 47
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 48 ",
+      "page": 48
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 49 ",
+      "page": 49
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 50 ",
+      "page": 50
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 51 ",
+      "page": 51
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 52 ",
+      "page": 52
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Quy trình quản lý tài chính đơn vị hành chính sự nghiệp ",
+      "page": 53
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Chuẩn đầu ra",
+      "page": 54
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 55 ",
+      "page": 55
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 56 ",
+      "page": 56
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 57 ",
+      "page": 57
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 58 ",
+      "page": 58
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 59 ",
+      "page": 59
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 60 ",
+      "page": 60
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 61 ",
+      "page": 61
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 62 ",
+      "page": 62
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 63 ",
+      "page": 63
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 64 ",
+      "page": 64
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 65 ",
+      "page": 65
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 66 ",
+      "page": 66
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 67 ",
+      "page": 67
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 68 ",
+      "page": 68
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Nhiệm vụ quyền hạn của các đơn vị hành chính sự nghiệp trong công tác quản lý tài chính",
+      "page": 69
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Chuẩn đầu ra",
+      "page": 70
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 71 ",
+      "page": 71
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 72 ",
+      "page": 72
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 73 ",
+      "page": 73
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 74 ",
+      "page": 74
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 75 ",
+      "page": 75
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 76 ",
+      "page": 76
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 77 ",
+      "page": 77
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 78 ",
+      "page": 78
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 79 ",
+      "page": 79
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 80 ",
+      "page": 80
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 81 ",
+      "page": 81
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 82 ",
+      "page": 82
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 83 ",
+      "page": 83
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 84 ",
+      "page": 84
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide Chương 2",
+      "page": 85
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Quản lý tài chính theo cơ chế tự chủ, tự chịu trách nhiệm",
+      "page": 85
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Chuẩn đầu ra",
+      "page": 86
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Kết cấu chương",
+      "page": 87
+    },
+    {
+      "source_id": "src-0191",
+      "title": " Một số vấn đề cơ bản về cơ chế tự chủ tài chính",
+      "page": 88
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Chuẩn đầu ra",
+      "page": 89
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 6 ",
+      "page": 90
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 7 ",
+      "page": 91
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 8 ",
+      "page": 92
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 9 ",
+      "page": 93
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 10 ",
+      "page": 94
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 11 ",
+      "page": 95
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 12 ",
+      "page": 96
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 13 ",
+      "page": 97
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 14 ",
+      "page": 98
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 15 ",
+      "page": 99
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 16 ",
+      "page": 100
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 17 ",
+      "page": 101
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 18 ",
+      "page": 102
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 19 ",
+      "page": 103
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 20 ",
+      "page": 104
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 21 ",
+      "page": 105
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 22 ",
+      "page": 106
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 23 ",
+      "page": 107
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 24 ",
+      "page": 108
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 25 ",
+      "page": 109
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 26 ",
+      "page": 110
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 27 ",
+      "page": 111
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 28 ",
+      "page": 112
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 29 ",
+      "page": 113
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 30 ",
+      "page": 114
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 31 ",
+      "page": 115
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 32 ",
+      "page": 116
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 33 ",
+      "page": 117
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 34 ",
+      "page": 118
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 35 ",
+      "page": 119
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 36 ",
+      "page": 120
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 37 ",
+      "page": 121
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 38 ",
+      "page": 122
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 39 ",
+      "page": 123
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 40 ",
+      "page": 124
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 41 ",
+      "page": 125
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 42 ",
+      "page": 126
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 43 ",
+      "page": 127
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Quản lý tài chính theo cơ chế tự chủ cơ quan Hành chính nhà nước",
+      "page": 128
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Chuẩn đầu ra",
+      "page": 129
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 46 ",
+      "page": 130
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 47 ",
+      "page": 131
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 48 ",
+      "page": 132
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 49 ",
+      "page": 133
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 50 ",
+      "page": 134
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 51 ",
+      "page": 135
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 52 ",
+      "page": 136
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 53 ",
+      "page": 137
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 54 ",
+      "page": 138
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 55 ",
+      "page": 139
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 56 ",
+      "page": 140
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 57 ",
+      "page": 141
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 58 ",
+      "page": 142
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 59 ",
+      "page": 143
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 60 ",
+      "page": 144
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 61 ",
+      "page": 145
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 62 ",
+      "page": 146
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 63 ",
+      "page": 147
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 64 ",
+      "page": 148
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 65 ",
+      "page": 149
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 66 ",
+      "page": 150
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 67 ",
+      "page": 151
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 68 ",
+      "page": 152
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 69 ",
+      "page": 153
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 70 ",
+      "page": 154
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 71 ",
+      "page": 155
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 72 ",
+      "page": 156
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 73 ",
+      "page": 157
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 74 ",
+      "page": 158
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Quản lý tài chính theo cơ chế tự chủ đơn vị Sự nghiệp công lập",
+      "page": 159
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Chuẩn đầu ra",
+      "page": 160
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 77 ",
+      "page": 161
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 78 ",
+      "page": 162
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 79 ",
+      "page": 163
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 80 ",
+      "page": 164
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 81 ",
+      "page": 165
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 82 ",
+      "page": 166
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 83 ",
+      "page": 167
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 84 ",
+      "page": 168
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 85 ",
+      "page": 169
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 86 ",
+      "page": 170
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 87 ",
+      "page": 171
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 88 ",
+      "page": 172
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 89 ",
+      "page": 173
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 90 ",
+      "page": 174
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 91 ",
+      "page": 175
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 92 ",
+      "page": 176
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 93 ",
+      "page": 177
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 94 ",
+      "page": 178
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 95 ",
+      "page": 179
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 96 ",
+      "page": 180
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 97 ",
+      "page": 181
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 98 ",
+      "page": 182
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 99 ",
+      "page": 183
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 100 ",
+      "page": 184
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 101 ",
+      "page": 185
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 102 ",
+      "page": 186
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 103 ",
+      "page": 187
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 104 ",
+      "page": 188
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 105 ",
+      "page": 189
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 106 ",
+      "page": 190
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 107 ",
+      "page": 191
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 108 ",
+      "page": 192
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 109 ",
+      "page": 193
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 110 ",
+      "page": 194
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 111 ",
+      "page": 195
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 112 ",
+      "page": 196
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 113 ",
+      "page": 197
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 114 ",
+      "page": 198
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide Chương 3",
+      "page": 199
+    },
+    {
+      "source_id": "src-0191",
+      "title": "QUẢN LÝ QUỸ TIỀN LƯƠNG",
+      "page": 199
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Chuẩn đầu ra",
+      "page": 200
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Kết cấu chương",
+      "page": 201
+    },
+    {
+      "source_id": "src-0191",
+      "title": " Một số vấn đề về quỹ tiền lương và các khoản nộp theo lương",
+      "page": 202
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Chuẩn đầu ra",
+      "page": 203
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 6 ",
+      "page": 204
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 7 ",
+      "page": 205
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 8 ",
+      "page": 206
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 9 ",
+      "page": 207
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 10 ",
+      "page": 208
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 11 ",
+      "page": 209
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 12 ",
+      "page": 210
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 13 ",
+      "page": 211
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 14 ",
+      "page": 212
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 15 ",
+      "page": 213
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 16 ",
+      "page": 214
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 17 ",
+      "page": 215
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 18 ",
+      "page": 216
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 19 ",
+      "page": 217
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 20 ",
+      "page": 218
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 21 ",
+      "page": 219
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 22 ",
+      "page": 220
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 23 ",
+      "page": 221
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 24 ",
+      "page": 222
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 25 ",
+      "page": 223
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 26 ",
+      "page": 224
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 27 ",
+      "page": 225
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 28 ",
+      "page": 226
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 29 ",
+      "page": 227
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 30 ",
+      "page": 228
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 31 ",
+      "page": 229
+    },
+    {
+      "source_id": "src-0191",
+      "title": " Một số vấn đề về quỹ tiền lương và các khoản nộp theo lương",
+      "page": 230
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 33 ",
+      "page": 231
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 34 ",
+      "page": 232
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 35 ",
+      "page": 233
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 36 ",
+      "page": 234
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 37 ",
+      "page": 235
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 38 ",
+      "page": 236
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 39 ",
+      "page": 237
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 40 ",
+      "page": 238
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 41 ",
+      "page": 239
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 42 ",
+      "page": 240
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 43 ",
+      "page": 241
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 44 ",
+      "page": 242
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 45 ",
+      "page": 243
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 46 ",
+      "page": 244
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 47 ",
+      "page": 245
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 48 ",
+      "page": 246
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide Chương 4",
+      "page": 247
+    },
+    {
+      "source_id": "src-0191",
+      "title": "QUẢN LÝ TÀI CHÍNH DỰ ÁN ĐẦU TƯ CÔNG",
+      "page": 247
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Chuẩn đầu ra",
+      "page": 248
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Kết cấu chương",
+      "page": 249
+    },
+    {
+      "source_id": "src-0191",
+      "title": " Phân loại dự án đầu tư công",
+      "page": 250
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Chuẩn đầu ra",
+      "page": 251
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 6 ",
+      "page": 252
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 7 ",
+      "page": 253
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 8 ",
+      "page": 254
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 9 ",
+      "page": 255
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 10 ",
+      "page": 256
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 11 ",
+      "page": 257
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 12 ",
+      "page": 258
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 13 ",
+      "page": 259
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 14 ",
+      "page": 260
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 15 ",
+      "page": 261
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 16 ",
+      "page": 262
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Quy trình quản lý tài chính dự án đầu tư công",
+      "page": 263
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Chuẩn đầu ra",
+      "page": 264
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 19 ",
+      "page": 265
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 20 ",
+      "page": 266
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 21 ",
+      "page": 267
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 22 ",
+      "page": 268
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 23 ",
+      "page": 269
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 24 ",
+      "page": 270
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 25 ",
+      "page": 271
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 26 ",
+      "page": 272
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 27 ",
+      "page": 273
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 28 ",
+      "page": 274
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 29 ",
+      "page": 275
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 30 ",
+      "page": 276
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 31 ",
+      "page": 277
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 32 ",
+      "page": 278
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 33 ",
+      "page": 279
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 34 ",
+      "page": 280
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 35 ",
+      "page": 281
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 36 ",
+      "page": 282
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 37 ",
+      "page": 283
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 38 ",
+      "page": 284
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 39 ",
+      "page": 285
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 40 ",
+      "page": 286
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 41 ",
+      "page": 287
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 42 ",
+      "page": 288
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 43 ",
+      "page": 289
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 44 ",
+      "page": 290
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 45 ",
+      "page": 291
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 46 ",
+      "page": 292
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 47 ",
+      "page": 293
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 48 ",
+      "page": 294
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 49 ",
+      "page": 295
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 50 ",
+      "page": 296
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 51 ",
+      "page": 297
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 52 ",
+      "page": 298
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 53 ",
+      "page": 299
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 54 ",
+      "page": 300
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 55 ",
+      "page": 301
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 56 ",
+      "page": 302
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 57 ",
+      "page": 303
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 58 ",
+      "page": 304
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 59 ",
+      "page": 305
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 60 ",
+      "page": 306
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 61 ",
+      "page": 307
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 62 ",
+      "page": 308
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 63 ",
+      "page": 309
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 64 ",
+      "page": 310
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Quản lý chi phí quản lý dự án đầu tư xây dựng",
+      "page": 311
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Chuẩn đầu ra",
+      "page": 312
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 67 ",
+      "page": 313
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 68 ",
+      "page": 314
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 69 ",
+      "page": 315
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 70 ",
+      "page": 316
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 71 ",
+      "page": 317
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 72 ",
+      "page": 318
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 73 ",
+      "page": 319
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 74 ",
+      "page": 320
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 75 ",
+      "page": 321
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 76 ",
+      "page": 322
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 77 ",
+      "page": 323
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 78 ",
+      "page": 324
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Tóm tắt",
+      "page": 325
+    },
+    {
+      "source_id": "src-0191",
+      "title": "Slide 80 ",
+      "page": 326
+    }
+  ],
+  "accounts": []
+}

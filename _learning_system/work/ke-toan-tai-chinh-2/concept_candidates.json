@@ -1,0 +1,3228 @@
+{
+  "course_id": "ke-toan-tai-chinh-2",
+  "unit_titles": [
+    {
+      "source_id": "src-0306",
+      "chapter": 1,
+      "topic": "1.1",
+      "title_from_filename": "KTTC2 C1 CD1.1 Khai niem va nguyen tacTSCDHH",
+      "page": 1
+    },
+    {
+      "source_id": "src-0307",
+      "chapter": 1,
+      "topic": "1.2",
+      "title_from_filename": "KTTC2 C1 CD1.2 Khai niem va nguyen tacTSCDVH",
+      "page": 1
+    },
+    {
+      "source_id": "src-0308",
+      "chapter": 1,
+      "topic": "1.3",
+      "title_from_filename": "KTTC2 C1 CD1.3 Cacphuongphaptinhkhauhao",
+      "page": 1
+    },
+    {
+      "source_id": "src-0309",
+      "chapter": 1,
+      "topic": "1.4",
+      "title_from_filename": "KTTC2 C1 CD1.4 KetoantangTSCD",
+      "page": 1
+    },
+    {
+      "source_id": "src-0310",
+      "chapter": 1,
+      "topic": "1.5",
+      "title_from_filename": "KTTC2 C1 CD1.5 KetoangiamTSCD",
+      "page": 1
+    },
+    {
+      "source_id": "src-0311",
+      "chapter": 1,
+      "topic": "1.6",
+      "title_from_filename": "KTTC2 C1 CD1.6 Ketoanchiphisaukhighinhanbandau",
+      "page": 1
+    },
+    {
+      "source_id": "src-0312",
+      "chapter": 1,
+      "topic": "1.7",
+      "title_from_filename": "KTTC2 C1 CD1.7 TrinhbaythongtinBCTC",
+      "page": 1
+    },
+    {
+      "source_id": "src-0313",
+      "chapter": 2,
+      "topic": "2.1",
+      "title_from_filename": "KTTC2 C2 CD2.1 Khainiemvadieukienghinhan",
+      "page": 1
+    },
+    {
+      "source_id": "src-0314",
+      "chapter": 2,
+      "topic": "2.2",
+      "title_from_filename": "KTTC2 C2 CD2.2   Ghinhanvadanhgia",
+      "page": 1
+    },
+    {
+      "source_id": "src-0315",
+      "chapter": 2,
+      "topic": "2.3",
+      "title_from_filename": "KTTC2 C2 CD2.3 TranThiVinh Vandungtaikhoan P1",
+      "page": 1
+    },
+    {
+      "source_id": "src-0316",
+      "chapter": 2,
+      "topic": "2.4",
+      "title_from_filename": "KTTC2 C2 CD2.4 TranThiVinh Vandungtaikhoan P2 V2",
+      "page": 1
+    },
+    {
+      "source_id": "src-0317",
+      "chapter": 2,
+      "topic": "2.5",
+      "title_from_filename": "KTTC2 C2 CD2.5 TranThiVinh Vandungtaikhoan P3",
+      "page": 1
+    },
+    {
+      "source_id": "src-0318",
+      "chapter": 2,
+      "topic": "2.6",
+      "title_from_filename": "KTTC2 C2 CD2.6 TranThiVinh Vandungtaikhoan P4",
+      "page": 1
+    },
+    {
+      "source_id": "src-0319",
+      "chapter": 2,
+      "topic": "2.7",
+      "title_from_filename": "KTTC2 C2 CD2.7 TranThiVinh TrinhbaythongtinBCTC",
+      "page": 1
+    },
+    {
+      "source_id": "src-0320",
+      "chapter": 3,
+      "topic": "3.1",
+      "title_from_filename": "KTTC2 C3 CD3.1 Dinhnghiavaphanloai",
+      "page": 1
+    },
+    {
+      "source_id": "src-0321",
+      "chapter": 3,
+      "topic": "3.2",
+      "title_from_filename": "KTTC2 C3 CD3.2 Ketoanvondautucuachusohuu",
+      "page": 1
+    },
+    {
+      "source_id": "src-0322",
+      "chapter": 3,
+      "topic": "3.3",
+      "title_from_filename": "KTTC2 C3 CD3.3 Ketoancophieuquy",
+      "page": 1
+    },
+    {
+      "source_id": "src-0323",
+      "chapter": 3,
+      "topic": "3.4",
+      "title_from_filename": "KTTC2 C3 CD3.4 Ketoanloinhuanchuaphanphoi",
+      "page": 1
+    },
+    {
+      "source_id": "src-0324",
+      "chapter": 3,
+      "topic": "3.5",
+      "title_from_filename": "KTTC2 C3 CD3.5 Trinhbaythongtin",
+      "page": 1
+    },
+    {
+      "source_id": "src-0325",
+      "chapter": 4,
+      "topic": "4.1",
+      "title_from_filename": "KTTC2 C4 CD4.1 Dinhngiavadieukienghinhan",
+      "page": 1
+    },
+    {
+      "source_id": "src-0326",
+      "chapter": 4,
+      "topic": "4.2",
+      "title_from_filename": "KTTC2 C4 CD4.2 KeToanDoanhThuVaGiaVon",
+      "page": 1
+    },
+    {
+      "source_id": "src-0327",
+      "chapter": 4,
+      "topic": "4.3",
+      "title_from_filename": "KTTC2 C4 CD4.3 KeToanHoatDongTaiChinh",
+      "page": 1
+    },
+    {
+      "source_id": "src-0328",
+      "chapter": 4,
+      "topic": "4.4",
+      "title_from_filename": "KTTC2 C4 CD4.4 KeToanChiPhiHoatDong",
+      "page": 1
+    },
+    {
+      "source_id": "src-0329",
+      "chapter": 4,
+      "topic": "4.5",
+      "title_from_filename": "KTTC2 C4 CD4.5 KeToanHoatDongKhac",
+      "page": 1
+    },
+    {
+      "source_id": "src-0330",
+      "chapter": 4,
+      "topic": "4.6",
+      "title_from_filename": "KTTC2 C4 CD4.6 KeToanXDKQKD",
+      "page": 1
+    },
+    {
+      "source_id": "src-0331",
+      "chapter": 4,
+      "topic": "4.7",
+      "title_from_filename": "KTTC2 C4 CD4.7 TrinhBayThongTin",
+      "page": 1
+    },
+    {
+      "source_id": "src-0332",
+      "chapter": 4,
+      "topic": "4.8",
+      "title_from_filename": "KTTC2 C4 CD4.8 SuKhacBiet V2",
+      "page": 1
+    }
+  ],
+  "heading_lines": [
+    {
+      "kind": "chuong",
+      "line": "Chương 4: KẾ TOÁN XÁC ĐỊNH KẾT QUẢ HOẠT ĐỘNG KINH DOANH",
+      "count": 16,
+      "refs": [
+        {
+          "source_id": "src-0304",
+          "page": 1
+        },
+        {
+          "source_id": "src-0304",
+          "page": 7
+        },
+        {
+          "source_id": "src-0304",
+          "page": 19
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 1: KẾ TOÁN TÀI SẢN CỐ ĐỊNH",
+      "count": 15,
+      "refs": [
+        {
+          "source_id": "src-0069",
+          "page": 3
+        },
+        {
+          "source_id": "src-0069",
+          "page": 10
+        },
+        {
+          "source_id": "src-0069",
+          "page": 15
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "CHƯƠNG 2: KẾ TOÁN NỢ PHẢI TRẢ",
+      "count": 10,
+      "refs": [
+        {
+          "source_id": "src-0070",
+          "page": 10
+        },
+        {
+          "source_id": "src-0070",
+          "page": 21
+        },
+        {
+          "source_id": "src-0070",
+          "page": 32
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 3: KẾ TOÁN VỐN CHỦ SỞ HỮU",
+      "count": 10,
+      "refs": [
+        {
+          "source_id": "src-0303",
+          "page": 1
+        },
+        {
+          "source_id": "src-0303",
+          "page": 8
+        },
+        {
+          "source_id": "src-0303",
+          "page": 13
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 2: KẾ TOÁN NỢ PHẢI TRẢ",
+      "count": 4,
+      "refs": [
+        {
+          "source_id": "src-0070",
+          "page": 1
+        },
+        {
+          "source_id": "src-0070",
+          "page": 6
+        },
+        {
+          "source_id": "src-0313",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.1: KHÁI NIỆM VÀ NGUYÊN TẮC TÀI SẢN CỐ ĐỊNH HỮU HÌNH",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0069",
+          "page": 3
+        },
+        {
+          "source_id": "src-0306",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.2: KHÁI NIỆM VÀ NGUYÊN TẮC TÀI SẢN CỐ ĐỊNH VÔ HÌNH",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0069",
+          "page": 10
+        },
+        {
+          "source_id": "src-0307",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.3: CÁC PHƯƠNG PHÁP TÍNH KHẤU HAO TSCĐ",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0069",
+          "page": 15
+        },
+        {
+          "source_id": "src-0308",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.4: KẾ TOÁN TĂNG TÀI SẢN CỐ ĐỊNH",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0069",
+          "page": 20
+        },
+        {
+          "source_id": "src-0309",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.5: KẾ TOÁN GIẢM TÀI SẢN CỐ ĐỊNH",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0069",
+          "page": 28
+        },
+        {
+          "source_id": "src-0310",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.6: KẾ TOÁN CHI PHÍ PHÁT SINH SAU KHI GHI NHẬN BAN ĐẦU",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0069",
+          "page": 32
+        },
+        {
+          "source_id": "src-0311",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.7: TRÌNH BÀY THÔNG TIN TRÊN BÁO CÁO TÀI CHÍNH",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0069",
+          "page": 36
+        },
+        {
+          "source_id": "src-0312",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.1: KHÁI NIỆM, ĐIỀU KIỆN GHI NHẬN VÀ PHÂN LOẠI",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0070",
+          "page": 1
+        },
+        {
+          "source_id": "src-0313",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.2: GHI NHẬN VÀ ĐÁNH GIÁ NỢ PHẢI TRẢ",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0070",
+          "page": 6
+        },
+        {
+          "source_id": "src-0314",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.3: Vận dụng tài khoản – Phần 1",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0070",
+          "page": 10
+        },
+        {
+          "source_id": "src-0315",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.4: Vận dụng tài khoản – Phần 2",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0070",
+          "page": 21
+        },
+        {
+          "source_id": "src-0316",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.5: Vận dụng tài khoản – Phần 3",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0070",
+          "page": 32
+        },
+        {
+          "source_id": "src-0317",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.6: Vận dụng tài khoản – Phần 4",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0070",
+          "page": 43
+        },
+        {
+          "source_id": "src-0318",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.7: Trình bày thông tin trên báo cáo tài chính",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0070",
+          "page": 53
+        },
+        {
+          "source_id": "src-0319",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.1: ĐỊNH NGHĨA VÀ CÁC BỘ PHẬN CẤU THÀNH NÊN VỐN CHỦ",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0303",
+          "page": 1
+        },
+        {
+          "source_id": "src-0320",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.2: KẾ TOÁN VỐN ĐẦU TƯ CỦA CHỦ SỞ HỮU",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0303",
+          "page": 8
+        },
+        {
+          "source_id": "src-0321",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.2 và chủ đề 3.3.",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0303",
+          "page": 8
+        },
+        {
+          "source_id": "src-0321",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.3: KẾ TOÁN CỔ PHIẾU QUỸ",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0303",
+          "page": 13
+        },
+        {
+          "source_id": "src-0322",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.4: KẾ TOÁN LỢI NHUẬN CHƯA PHÂN PHỐI VÀ CÁC QUỸ DỰ TRỮ",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0303",
+          "page": 18
+        },
+        {
+          "source_id": "src-0323",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.5: TRÌNH BÀY THÔNG TIN VỐN CHỦ SỞ HỮU TRÊN BCTC",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0303",
+          "page": 22
+        },
+        {
+          "source_id": "src-0324",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.1: ĐỊNH NGHĨA VÀ ĐIỀU KIỆN GHI NHẬN",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0304",
+          "page": 1
+        },
+        {
+          "source_id": "src-0325",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1: Định nghĩa và điều kiện ghi nhận. Trình bày định nghĩa doanh thu, thu",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0304",
+          "page": 1
+        },
+        {
+          "source_id": "src-0325",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2: Kế toán doanh thu bán hàng và giá vốn hàng bán. Giới thiệu tài khoản",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0304",
+          "page": 1
+        },
+        {
+          "source_id": "src-0325",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3: Kế toán hoạt động tài chính. Giới thiệu tài khoản và vận dụng tài khoản",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0304",
+          "page": 1
+        },
+        {
+          "source_id": "src-0325",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4: Kế toán chi phí hoạt động. Giới thiệu tài khoản và vận dụng tài khoản",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0304",
+          "page": 1
+        },
+        {
+          "source_id": "src-0325",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 5: Kế toán hoạt động khác. Giới thiệu tài khoản và vận dụng tài khoản để",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0304",
+          "page": 1
+        },
+        {
+          "source_id": "src-0325",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 6: Kế toán xác định kết quả kinh doanh. Thực hiện các bút toán kết",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0304",
+          "page": 1
+        },
+        {
+          "source_id": "src-0325",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 7: Trình bày thông tin trên báo cáo tài chính. Giới thiệu những nội dung",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0304",
+          "page": 1
+        },
+        {
+          "source_id": "src-0325",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 8: Sự khác giữa kế toán và thuế. Giới thiệu một số sự khác biệt trong",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0304",
+          "page": 1
+        },
+        {
+          "source_id": "src-0325",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.2: KẾ TOÁN DOANH THU BÁN HÀNG (CUNG CẤP DỊCH VỤ) VÀ",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0304",
+          "page": 7
+        },
+        {
+          "source_id": "src-0326",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.3: KẾ TOÁN HOẠT ĐỘNG TÀI CHÍNH",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0304",
+          "page": 19
+        },
+        {
+          "source_id": "src-0327",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.4: KẾ TOÁN CHI PHÍ HOẠT ĐỘNG",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0304",
+          "page": 22
+        },
+        {
+          "source_id": "src-0328",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.5: KẾ TOÁN HOẠT ĐỘNG KHÁC",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0304",
+          "page": 25
+        },
+        {
+          "source_id": "src-0329",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.6: KẾ TOÁN XÁC ĐỊNH KẾT QUẢ HOẠT ĐỘNG KINH DOANH",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0304",
+          "page": 31
+        },
+        {
+          "source_id": "src-0330",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.7: TRÌNH BÀY THÔNG TIN TRÊN BÁO CÁO TÀI CHÍNH",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0304",
+          "page": 38
+        },
+        {
+          "source_id": "src-0331",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.8: SỰ KHÁC BIỆT GIỮA KẾ TOÁN VÀ THUẾ",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0304",
+          "page": 43
+        },
+        {
+          "source_id": "src-0332",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 0: GIỚI THIỆU MÔN HỌC",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0069",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 1: Kế toán tài sản cố định",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0069",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 2: Kế toán nợ phải trả",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0069",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 3: Kế toán vốn chủ sở hữu",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0069",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 4: Kế toán xác định kết quả hoạt động kinh doanh",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0069",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "CHƯƠNG 1: KẾ TOÁN TÀI SẢN",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0305",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.1: Khái niệm và nguyên tắc Xem video chủ đề, đọc script chủ đề (nếu cần)",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0305",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.2: Khái niệm và nguyên tắc Xem video chủ đề, đọc script chủ đề (nếu cần)",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0305",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.3: Các phương pháp tính khấu Đọc bài hướng dẫn chủ đề",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0305",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.4: Kế toán tăng TSCĐ Đọc bài hướng dẫn chủ đề",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0305",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.5: Kế toán giảm TSCĐ và Đọc bài hướng dẫn chủ đề",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0305",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.6: Kế toán chi phí phát sinh Đọc bài hướng dẫn chủ đề",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0305",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.7: Trình bày thông tin trên báo Đọc bài hướng dẫn chủ đề",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0305",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "CHƯƠNG 2: KẾ TOÁN NỢ PHẢI",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0305",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.1: Điều kiện ghi nhận và phân Xem video chủ đề, đọc script chủ đề (nếu cần)",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0305",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.2: Ghi nhận và đánh giá nợ Xem video chủ đề, đọc script chủ đề (nếu cần)",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0305",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.3: Vận dụng tài khoản – Phần Xem video chủ đề, đọc script chủ đề (nếu cần)",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0305",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.4: Vận dụng tài khoản – Phần Xem video chủ đề, đọc script chủ đề (nếu cần)",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0305",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.5 Vận dụng tài khoản – Phần 3 Xem video chủ đề, đọc script chủ đề (nếu cần)",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0305",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.6: Vận dụng tài khoản – Phần Xem video chủ đề, đọc script chủ đề (nếu cần)",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0305",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.7: Trình bày thông tin trên báo Xem video chủ đề, đọc script chủ đề (nếu cần)",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0305",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "CHƯƠNG 3: KẾ TOÁN VỐN CHỦ",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0305",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.1: Định nghĩa và phân loại Xem video chủ đề, đọc script chủ đề (nếu cần)",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0305",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.2: Kế toán vốn đầu tư của chủ Xem video chủ đề, đọc script chủ đề (nếu cần)",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0305",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.3: Kế toán cổ phiếu quỹ Xem video chủ đề, đọc script chủ đề (nếu cần)",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0305",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.4: Kế toán lợi nhuận chưa Xem video chủ đề, đọc script chủ đề (nếu cần)",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0305",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.5: Trình bày thông tin trên báo Xem video chủ đề, đọc script chủ đề (nếu cần)",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0305",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "CHƯƠNG 4: KẾ TOÁN XÁC ĐỊNH",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0305",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.1: Định nghĩa và điều kiện ghi Xem video chủ đề, đọc script chủ đề (nếu cần)",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0305",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.2: Kế toán doanh thu bán hàng Xem video chủ đề, đọc script chủ đề (nếu cần)",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0305",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.3: Kế toán hoạt động tài chính Xem video chủ đề, đọc script chủ đề (nếu cần)",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0305",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.4: Kế toán chi phí hoạt động Xem video chủ đề, đọc script chủ đề (nếu cần)",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0305",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.5: Kế toán hoạt động khác Xem video chủ đề, đọc script chủ đề (nếu cần)",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0305",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.6: Kế toán xác định kết quả Xem video chủ đề, đọc script chủ đề (nếu cần)",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0305",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.7: Trình bày thông tin trên báo Xem video chủ đề, đọc script chủ đề (nếu cần)",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0305",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.8: Sự khác biệt ghi nhận doanh Xem video chủ đề, đọc script chủ đề (nếu cần)",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0305",
+          "page": 8
+        }
+      ]
+    }
+  ],
+  "outline_titles": [
+    {
+      "source_id": "src-0069",
+      "title": "KeToanTaiChinh2_Script",
+      "page": 1
+    },
+    {
+      "source_id": "src-0069",
+      "title": "KTTC2-C1-CD1.1-Khai niem va nguyen tacTSCDHH",
+      "page": 3
+    },
+    {
+      "source_id": "src-0069",
+      "title": "KTTC2-C1-CD1.2-Khai niem va nguyen tacTSCDVH",
+      "page": 10
+    },
+    {
+      "source_id": "src-0069",
+      "title": "KTTC2-C1-CD1.3-Cacphuongphaptinhkhauhao",
+      "page": 15
+    },
+    {
+      "source_id": "src-0069",
+      "title": "KTTC2-C1-CD1.4-KetoantangTSCD",
+      "page": 20
+    },
+    {
+      "source_id": "src-0069",
+      "title": "KTTC2-C1-CD1.5-KetoangiamTSCD",
+      "page": 28
+    },
+    {
+      "source_id": "src-0069",
+      "title": "KTTC2-C1-CD1.6-Ketoanchiphisaukhighinhanbandau",
+      "page": 32
+    },
+    {
+      "source_id": "src-0069",
+      "title": "KTTC2-C1-CD1.7-TrinhbaythongtinBCTC",
+      "page": 36
+    },
+    {
+      "source_id": "src-0070",
+      "title": "KTTC2-C2-CD2.1_Khainiemvadieukienghinhan",
+      "page": 1
+    },
+    {
+      "source_id": "src-0070",
+      "title": "KTTC2-C2-CD2.2 - Ghinhanvadanhgia",
+      "page": 6
+    },
+    {
+      "source_id": "src-0070",
+      "title": "KTTC2-C2-CD2.3-TranThiVinh-Vandungtaikhoan-P1",
+      "page": 10
+    },
+    {
+      "source_id": "src-0070",
+      "title": "KTTC2-C2-CD2.4-TranThiVinh-Vandungtaikhoan-P2_V2",
+      "page": 21
+    },
+    {
+      "source_id": "src-0070",
+      "title": "KTTC2-C2-CD2.5-TranThiVinh_Vandungtaikhoan-P3",
+      "page": 32
+    },
+    {
+      "source_id": "src-0070",
+      "title": "KTTC2-C2-CD2.6-TranThiVinh_Vandungtaikhoan-P4",
+      "page": 43
+    },
+    {
+      "source_id": "src-0070",
+      "title": "KTTC2-C2-CD2.7-TranThiVinh-TrinhbaythongtinBCTC",
+      "page": 53
+    }
+  ],
+  "accounts": [
+    {
+      "account": "211",
+      "count": 163,
+      "refs": [
+        [
+          "src-0069",
+          20
+        ],
+        [
+          "src-0069",
+          21
+        ],
+        [
+          "src-0069",
+          22
+        ]
+      ]
+    },
+    {
+      "account": "111",
+      "count": 142,
+      "refs": [
+        [
+          "src-0069",
+          21
+        ],
+        [
+          "src-0069",
+          24
+        ],
+        [
+          "src-0069",
+          25
+        ]
+      ]
+    },
+    {
+      "account": "331",
+      "count": 109,
+      "refs": [
+        [
+          "src-0069",
+          21
+        ],
+        [
+          "src-0069",
+          22
+        ],
+        [
+          "src-0069",
+          23
+        ]
+      ]
+    },
+    {
+      "account": "112",
+      "count": 106,
+      "refs": [
+        [
+          "src-0069",
+          21
+        ],
+        [
+          "src-0069",
+          22
+        ],
+        [
+          "src-0069",
+          23
+        ]
+      ]
+    },
+    {
+      "account": "511",
+      "count": 104,
+      "refs": [
+        [
+          "src-0070",
+          13
+        ],
+        [
+          "src-0070",
+          22
+        ],
+        [
+          "src-0070",
+          23
+        ]
+      ]
+    },
+    {
+      "account": "334",
+      "count": 78,
+      "refs": [
+        [
+          "src-0069",
+          32
+        ],
+        [
+          "src-0070",
+          16
+        ],
+        [
+          "src-0070",
+          30
+        ]
+      ]
+    },
+    {
+      "account": "131",
+      "count": 75,
+      "refs": [
+        [
+          "src-0069",
+          26
+        ],
+        [
+          "src-0069",
+          27
+        ],
+        [
+          "src-0070",
+          23
+        ]
+      ]
+    },
+    {
+      "account": "911",
+      "count": 72,
+      "refs": [
+        [
+          "src-0303",
+          19
+        ],
+        [
+          "src-0303",
+          20
+        ],
+        [
+          "src-0304",
+          8
+        ]
+      ]
+    },
+    {
+      "account": "214",
+      "count": 68,
+      "refs": [
+        [
+          "src-0069",
+          25
+        ],
+        [
+          "src-0069",
+          26
+        ],
+        [
+          "src-0069",
+          27
+        ]
+      ]
+    },
+    {
+      "account": "3331",
+      "count": 68,
+      "refs": [
+        [
+          "src-0069",
+          26
+        ],
+        [
+          "src-0069",
+          27
+        ],
+        [
+          "src-0069",
+          29
+        ]
+      ]
+    },
+    {
+      "account": "711",
+      "count": 52,
+      "refs": [
+        [
+          "src-0069",
+          25
+        ],
+        [
+          "src-0069",
+          26
+        ],
+        [
+          "src-0069",
+          27
+        ]
+      ]
+    },
+    {
+      "account": "632",
+      "count": 52,
+      "refs": [
+        [
+          "src-0070",
+          13
+        ],
+        [
+          "src-0070",
+          23
+        ],
+        [
+          "src-0070",
+          36
+        ]
+      ]
+    },
+    {
+      "account": "3387",
+      "count": 52,
+      "refs": [
+        [
+          "src-0070",
+          48
+        ],
+        [
+          "src-0070",
+          49
+        ],
+        [
+          "src-0070",
+          50
+        ]
+      ]
+    },
+    {
+      "account": "4111",
+      "count": 52,
+      "refs": [
+        [
+          "src-0303",
+          8
+        ],
+        [
+          "src-0303",
+          9
+        ],
+        [
+          "src-0303",
+          10
+        ]
+      ]
+    },
+    {
+      "account": "133",
+      "count": 49,
+      "refs": [
+        [
+          "src-0069",
+          24
+        ],
+        [
+          "src-0069",
+          25
+        ],
+        [
+          "src-0069",
+          26
+        ]
+      ]
+    },
+    {
+      "account": "627",
+      "count": 49,
+      "refs": [
+        [
+          "src-0069",
+          30
+        ],
+        [
+          "src-0069",
+          31
+        ],
+        [
+          "src-0069",
+          32
+        ]
+      ]
+    },
+    {
+      "account": "642",
+      "count": 48,
+      "refs": [
+        [
+          "src-0069",
+          30
+        ],
+        [
+          "src-0069",
+          31
+        ],
+        [
+          "src-0070",
+          12
+        ]
+      ]
+    },
+    {
+      "account": "419",
+      "count": 47,
+      "refs": [
+        [
+          "src-0303",
+          11
+        ],
+        [
+          "src-0303",
+          13
+        ],
+        [
+          "src-0303",
+          14
+        ]
+      ]
+    },
+    {
+      "account": "1332",
+      "count": 46,
+      "refs": [
+        [
+          "src-0069",
+          21
+        ],
+        [
+          "src-0069",
+          22
+        ],
+        [
+          "src-0069",
+          23
+        ]
+      ]
+    },
+    {
+      "account": "641",
+      "count": 46,
+      "refs": [
+        [
+          "src-0069",
+          31
+        ],
+        [
+          "src-0070",
+          33
+        ],
+        [
+          "src-0070",
+          52
+        ]
+      ]
+    },
+    {
+      "account": "152",
+      "count": 46,
+      "refs": [
+        [
+          "src-0069",
+          32
+        ],
+        [
+          "src-0069",
+          33
+        ],
+        [
+          "src-0069",
+          34
+        ]
+      ]
+    },
+    {
+      "account": "2413",
+      "count": 46,
+      "refs": [
+        [
+          "src-0069",
+          33
+        ],
+        [
+          "src-0069",
+          34
+        ],
+        [
+          "src-0069",
+          35
+        ]
+      ]
+    },
+    {
+      "account": "421",
+      "count": 46,
+      "refs": [
+        [
+          "src-0070",
+          42
+        ],
+        [
+          "src-0070",
+          51
+        ],
+        [
+          "src-0303",
+          9
+        ]
+      ]
+    },
+    {
+      "account": "4112",
+      "count": 43,
+      "refs": [
+        [
+          "src-0303",
+          8
+        ],
+        [
+          "src-0303",
+          9
+        ],
+        [
+          "src-0303",
+          10
+        ]
+      ]
+    },
+    {
+      "account": "515",
+      "count": 42,
+      "refs": [
+        [
+          "src-0070",
+          14
+        ],
+        [
+          "src-0070",
+          15
+        ],
+        [
+          "src-0070",
+          49
+        ]
+      ]
+    },
+    {
+      "account": "811",
+      "count": 34,
+      "refs": [
+        [
+          "src-0069",
+          26
+        ],
+        [
+          "src-0069",
+          29
+        ],
+        [
+          "src-0304",
+          25
+        ]
+      ]
+    },
+    {
+      "account": "3411",
+      "count": 34,
+      "refs": [
+        [
+          "src-0070",
+          15
+        ],
+        [
+          "src-0070",
+          16
+        ],
+        [
+          "src-0070",
+          17
+        ]
+      ]
+    },
+    {
+      "account": "338",
+      "count": 32,
+      "refs": [
+        [
+          "src-0070",
+          35
+        ],
+        [
+          "src-0070",
+          36
+        ],
+        [
+          "src-0070",
+          37
+        ]
+      ]
+    },
+    {
+      "account": "242",
+      "count": 31,
+      "refs": [
+        [
+          "src-0069",
+          21
+        ],
+        [
+          "src-0069",
+          22
+        ],
+        [
+          "src-0069",
+          30
+        ]
+      ]
+    },
+    {
+      "account": "352",
+      "count": 28,
+      "refs": [
+        [
+          "src-0069",
+          23
+        ],
+        [
+          "src-0069",
+          33
+        ],
+        [
+          "src-0069",
+          34
+        ]
+      ]
+    },
+    {
+      "account": "155",
+      "count": 28,
+      "refs": [
+        [
+          "src-0070",
+          47
+        ],
+        [
+          "src-0304",
+          9
+        ],
+        [
+          "src-0304",
+          10
+        ]
+      ]
+    },
+    {
+      "account": "635",
+      "count": 24,
+      "refs": [
+        [
+          "src-0069",
+          21
+        ],
+        [
+          "src-0069",
+          22
+        ],
+        [
+          "src-0070",
+          19
+        ]
+      ]
+    },
+    {
+      "account": "2411",
+      "count": 23,
+      "refs": [
+        [
+          "src-0069",
+          24
+        ],
+        [
+          "src-0069",
+          25
+        ],
+        [
+          "src-0309",
+          5
+        ]
+      ]
+    },
+    {
+      "account": "414",
+      "count": 22,
+      "refs": [
+        [
+          "src-0069",
+          23
+        ],
+        [
+          "src-0303",
+          18
+        ],
+        [
+          "src-0303",
+          19
+        ]
+      ]
+    },
+    {
+      "account": "3333",
+      "count": 22,
+      "refs": [
+        [
+          "src-0069",
+          24
+        ],
+        [
+          "src-0070",
+          23
+        ],
+        [
+          "src-0070",
+          25
+        ]
+      ]
+    },
+    {
+      "account": "33311",
+      "count": 22,
+      "refs": [
+        [
+          "src-0070",
+          22
+        ],
+        [
+          "src-0070",
+          24
+        ],
+        [
+          "src-0070",
+          34
+        ]
+      ]
+    },
+    {
+      "account": "521",
+      "count": 22,
+      "refs": [
+        [
+          "src-0070",
+          24
+        ],
+        [
+          "src-0304",
+          7
+        ],
+        [
+          "src-0304",
+          9
+        ]
+      ]
+    },
+    {
+      "account": "4118",
+      "count": 22,
+      "refs": [
+        [
+          "src-0303",
+          8
+        ],
+        [
+          "src-0303",
+          9
+        ],
+        [
+          "src-0303",
+          10
+        ]
+      ]
+    },
+    {
+      "account": "333",
+      "count": 20,
+      "refs": [
+        [
+          "src-0070",
+          16
+        ],
+        [
+          "src-0070",
+          21
+        ],
+        [
+          "src-0070",
+          22
+        ]
+      ]
+    },
+    {
+      "account": "353",
+      "count": 20,
+      "refs": [
+        [
+          "src-0070",
+          33
+        ],
+        [
+          "src-0070",
+          34
+        ],
+        [
+          "src-0070",
+          41
+        ]
+      ]
+    },
+    {
+      "account": "3383",
+      "count": 20,
+      "refs": [
+        [
+          "src-0070",
+          33
+        ],
+        [
+          "src-0070",
+          34
+        ],
+        [
+          "src-0070",
+          38
+        ]
+      ]
+    },
+    {
+      "account": "3361",
+      "count": 20,
+      "refs": [
+        [
+          "src-0070",
+          44
+        ],
+        [
+          "src-0070",
+          45
+        ],
+        [
+          "src-0070",
+          46
+        ]
+      ]
+    },
+    {
+      "account": "8211",
+      "count": 18,
+      "refs": [
+        [
+          "src-0070",
+          28
+        ],
+        [
+          "src-0070",
+          29
+        ],
+        [
+          "src-0304",
+          32
+        ]
+      ]
+    },
+    {
+      "account": "411",
+      "count": 16,
+      "refs": [
+        [
+          "src-0069",
+          23
+        ],
+        [
+          "src-0069",
+          27
+        ],
+        [
+          "src-0070",
+          44
+        ]
+      ]
+    },
+    {
+      "account": "335",
+      "count": 16,
+      "refs": [
+        [
+          "src-0070",
+          18
+        ],
+        [
+          "src-0070",
+          19
+        ],
+        [
+          "src-0070",
+          55
+        ]
+      ]
+    },
+    {
+      "account": "3334",
+      "count": 16,
+      "refs": [
+        [
+          "src-0070",
+          28
+        ],
+        [
+          "src-0070",
+          29
+        ],
+        [
+          "src-0304",
+          36
+        ]
+      ]
+    },
+    {
+      "account": "3368",
+      "count": 16,
+      "refs": [
+        [
+          "src-0070",
+          45
+        ],
+        [
+          "src-0070",
+          46
+        ],
+        [
+          "src-0318",
+          3
+        ]
+      ]
+    },
+    {
+      "account": "3388",
+      "count": 16,
+      "refs": [
+        [
+          "src-0070",
+          50
+        ],
+        [
+          "src-0070",
+          51
+        ],
+        [
+          "src-0303",
+          19
+        ]
+      ]
+    },
+    {
+      "account": "418",
+      "count": 16,
+      "refs": [
+        [
+          "src-0303",
+          19
+        ],
+        [
+          "src-0303",
+          20
+        ],
+        [
+          "src-0303",
+          21
+        ]
+      ]
+    },
+    {
+      "account": "3335",
+      "count": 15,
+      "refs": [
+        [
+          "src-0070",
+          30
+        ],
+        [
+          "src-0070",
+          34
+        ],
+        [
+          "src-0070",
+          35
+        ]
+      ]
+    },
+    {
+      "account": "3533",
+      "count": 14,
+      "refs": [
+        [
+          "src-0069",
+          23
+        ],
+        [
+          "src-0069",
+          30
+        ],
+        [
+          "src-0069",
+          31
+        ]
+      ]
+    },
+    {
+      "account": "3332",
+      "count": 14,
+      "refs": [
+        [
+          "src-0069",
+          24
+        ],
+        [
+          "src-0070",
+          27
+        ],
+        [
+          "src-0070",
+          28
+        ]
+      ]
+    },
+    {
+      "account": "2141",
+      "count": 14,
+      "refs": [
+        [
+          "src-0069",
+          26
+        ],
+        [
+          "src-0069",
+          36
+        ],
+        [
+          "src-0069",
+          37
+        ]
+      ]
+    },
+    {
+      "account": "1331",
+      "count": 14,
+      "refs": [
+        [
+          "src-0070",
+          12
+        ],
+        [
+          "src-0070",
+          13
+        ],
+        [
+          "src-0070",
+          15
+        ]
+      ]
+    },
+    {
+      "account": "3381",
+      "count": 14,
+      "refs": [
+        [
+          "src-0070",
+          47
+        ],
+        [
+          "src-0070",
+          48
+        ],
+        [
+          "src-0070",
+          50
+        ]
+      ]
+    },
+    {
+      "account": "622",
+      "count": 13,
+      "refs": [
+        [
+          "src-0070",
+          33
+        ],
+        [
+          "src-0070",
+          34
+        ],
+        [
+          "src-0070",
+          39
+        ]
+      ]
+    },
+    {
+      "account": "3532",
+      "count": 12,
+      "refs": [
+        [
+          "src-0069",
+          23
+        ],
+        [
+          "src-0069",
+          30
+        ],
+        [
+          "src-0070",
+          41
+        ]
+      ]
+    },
+    {
+      "account": "2412",
+      "count": 12,
+      "refs": [
+        [
+          "src-0069",
+          25
+        ],
+        [
+          "src-0309",
+          6
+        ]
+      ]
+    },
+    {
+      "account": "156",
+      "count": 12,
+      "refs": [
+        [
+          "src-0070",
+          15
+        ],
+        [
+          "src-0070",
+          23
+        ],
+        [
+          "src-0070",
+          36
+        ]
+      ]
+    },
+    {
+      "account": "336",
+      "count": 12,
+      "refs": [
+        [
+          "src-0070",
+          36
+        ],
+        [
+          "src-0070",
+          43
+        ],
+        [
+          "src-0070",
+          44
+        ]
+      ]
+    },
+    {
+      "account": "3384",
+      "count": 12,
+      "refs": [
+        [
+          "src-0070",
+          38
+        ],
+        [
+          "src-0070",
+          39
+        ],
+        [
+          "src-0070",
+          40
+        ]
+      ]
+    },
+    {
+      "account": "3386",
+      "count": 12,
+      "refs": [
+        [
+          "src-0070",
+          38
+        ],
+        [
+          "src-0070",
+          40
+        ],
+        [
+          "src-0317",
+          7
+        ]
+      ]
+    },
+    {
+      "account": "157",
+      "count": 12,
+      "refs": [
+        [
+          "src-0304",
+          9
+        ],
+        [
+          "src-0304",
+          10
+        ],
+        [
+          "src-0304",
+          11
+        ]
+      ]
+    },
+    {
+      "account": "213",
+      "count": 10,
+      "refs": [
+        [
+          "src-0069",
+          20
+        ],
+        [
+          "src-0069",
+          25
+        ],
+        [
+          "src-0069",
+          27
+        ]
+      ]
+    },
+    {
+      "account": "153",
+      "count": 10,
+      "refs": [
+        [
+          "src-0070",
+          47
+        ],
+        [
+          "src-0304",
+          12
+        ],
+        [
+          "src-0304",
+          13
+        ]
+      ]
+    },
+    {
+      "account": "3521",
+      "count": 10,
+      "refs": [
+        [
+          "src-0070",
+          52
+        ],
+        [
+          "src-0318",
+          10
+        ]
+      ]
+    },
+    {
+      "account": "1561",
+      "count": 10,
+      "refs": [
+        [
+          "src-0304",
+          10
+        ],
+        [
+          "src-0304",
+          12
+        ],
+        [
+          "src-0304",
+          13
+        ]
+      ]
+    },
+    {
+      "account": "33312",
+      "count": 8,
+      "refs": [
+        [
+          "src-0069",
+          24
+        ],
+        [
+          "src-0070",
+          22
+        ],
+        [
+          "src-0070",
+          23
+        ]
+      ]
+    },
+    {
+      "account": "3382",
+      "count": 8,
+      "refs": [
+        [
+          "src-0070",
+          38
+        ],
+        [
+          "src-0070",
+          40
+        ],
+        [
+          "src-0317",
+          7
+        ]
+      ]
+    },
+    {
+      "account": "2293",
+      "count": 8,
+      "refs": [
+        [
+          "src-0304",
+          23
+        ],
+        [
+          "src-0328",
+          2
+        ]
+      ]
+    },
+    {
+      "account": "1534",
+      "count": 6,
+      "refs": [
+        [
+          "src-0069",
+          22
+        ],
+        [
+          "src-0309",
+          3
+        ]
+      ]
+    },
+    {
+      "account": "221",
+      "count": 6,
+      "refs": [
+        [
+          "src-0069",
+          29
+        ],
+        [
+          "src-0304",
+          26
+        ],
+        [
+          "src-0310",
+          2
+        ]
+      ]
+    },
+    {
+      "account": "138",
+      "count": 6,
+      "refs": [
+        [
+          "src-0069",
+          29
+        ],
+        [
+          "src-0070",
+          34
+        ],
+        [
+          "src-0070",
+          35
+        ]
+      ]
+    },
+    {
+      "account": "1381",
+      "count": 6,
+      "refs": [
+        [
+          "src-0069",
+          30
+        ],
+        [
+          "src-0310",
+          3
+        ]
+      ]
+    },
+    {
+      "account": "2143",
+      "count": 6,
+      "refs": [
+        [
+          "src-0069",
+          36
+        ],
+        [
+          "src-0069",
+          37
+        ],
+        [
+          "src-0312",
+          1
+        ]
+      ]
+    },
+    {
+      "account": "1211",
+      "count": 6,
+      "refs": [
+        [
+          "src-0304",
+          20
+        ],
+        [
+          "src-0304",
+          21
+        ],
+        [
+          "src-0327",
+          2
+        ]
+      ]
+    },
+    {
+      "account": "3339",
+      "count": 4,
+      "refs": [
+        [
+          "src-0069",
+          21
+        ],
+        [
+          "src-0069",
+          25
+        ],
+        [
+          "src-0309",
+          2
+        ]
+      ]
+    },
+    {
+      "account": "441",
+      "count": 4,
+      "refs": [
+        [
+          "src-0069",
+          23
+        ],
+        [
+          "src-0303",
+          23
+        ],
+        [
+          "src-0309",
+          4
+        ]
+      ]
+    },
+    {
+      "account": "141",
+      "count": 4,
+      "refs": [
+        [
+          "src-0070",
+          34
+        ],
+        [
+          "src-0070",
+          35
+        ],
+        [
+          "src-0317",
+          3
+        ]
+      ]
+    },
+    {
+      "account": "241",
+      "count": 4,
+      "refs": [
+        [
+          "src-0070",
+          38
+        ],
+        [
+          "src-0317",
+          7
+        ],
+        [
+          "src-0333",
+          2
+        ]
+      ]
+    },
+    {
+      "account": "3531",
+      "count": 4,
+      "refs": [
+        [
+          "src-0070",
+          42
+        ],
+        [
+          "src-0317",
+          11
+        ]
+      ]
+    },
+    {
+      "account": "412",
+      "count": 4,
+      "refs": [
+        [
+          "src-0303",
+          11
+        ],
+        [
+          "src-0303",
+          23
+        ],
+        [
+          "src-0321",
+          4
+        ]
+      ]
+    },
+    {
+      "account": "4211",
+      "count": 4,
+      "refs": [
+        [
+          "src-0303",
+          18
+        ],
+        [
+          "src-0303",
+          23
+        ],
+        [
+          "src-0323",
+          1
+        ]
+      ]
+    },
+    {
+      "account": "4212",
+      "count": 4,
+      "refs": [
+        [
+          "src-0303",
+          18
+        ],
+        [
+          "src-0303",
+          23
+        ],
+        [
+          "src-0323",
+          1
+        ]
+      ]
+    },
+    {
+      "account": "5212",
+      "count": 4,
+      "refs": [
+        [
+          "src-0304",
+          17
+        ],
+        [
+          "src-0304",
+          18
+        ],
+        [
+          "src-0326",
+          11
+        ]
+      ]
+    },
+    {
+      "account": "2111",
+      "count": 3,
+      "refs": [
+        [
+          "src-0069",
+          20
+        ],
+        [
+          "src-0309",
+          1
+        ],
+        [
+          "src-0333",
+          3
+        ]
+      ]
+    },
+    {
+      "account": "2112",
+      "count": 2,
+      "refs": [
+        [
+          "src-0069",
+          20
+        ],
+        [
+          "src-0309",
+          1
+        ]
+      ]
+    },
+    {
+      "account": "2113",
+      "count": 2,
+      "refs": [
+        [
+          "src-0069",
+          20
+        ],
+        [
+          "src-0309",
+          1
+        ]
+      ]
+    },
+    {
+      "account": "2114",
+      "count": 2,
+      "refs": [
+        [
+          "src-0069",
+          20
+        ],
+        [
+          "src-0309",
+          1
+        ]
+      ]
+    },
+    {
+      "account": "2115",
+      "count": 2,
+      "refs": [
+        [
+          "src-0069",
+          20
+        ],
+        [
+          "src-0309",
+          1
+        ]
+      ]
+    },
+    {
+      "account": "2118",
+      "count": 2,
+      "refs": [
+        [
+          "src-0069",
+          20
+        ],
+        [
+          "src-0309",
+          1
+        ]
+      ]
+    },
+    {
+      "account": "2131",
+      "count": 2,
+      "refs": [
+        [
+          "src-0069",
+          20
+        ],
+        [
+          "src-0309",
+          1
+        ]
+      ]
+    },
+    {
+      "account": "2132",
+      "count": 2,
+      "refs": [
+        [
+          "src-0069",
+          20
+        ],
+        [
+          "src-0309",
+          1
+        ]
+      ]
+    },
+    {
+      "account": "2133",
+      "count": 2,
+      "refs": [
+        [
+          "src-0069",
+          21
+        ],
+        [
+          "src-0309",
+          2
+        ]
+      ]
+    },
+    {
+      "account": "2134",
+      "count": 2,
+      "refs": [
+        [
+          "src-0069",
+          21
+        ],
+        [
+          "src-0309",
+          2
+        ]
+      ]
+    },
+    {
+      "account": "2135",
+      "count": 2,
+      "refs": [
+        [
+          "src-0069",
+          21
+        ],
+        [
+          "src-0309",
+          2
+        ]
+      ]
+    },
+    {
+      "account": "2136",
+      "count": 2,
+      "refs": [
+        [
+          "src-0069",
+          21
+        ],
+        [
+          "src-0309",
+          2
+        ]
+      ]
+    },
+    {
+      "account": "2138",
+      "count": 2,
+      "refs": [
+        [
+          "src-0069",
+          21
+        ],
+        [
+          "src-0309",
+          2
+        ]
+      ]
+    },
+    {
+      "account": "3352",
+      "count": 2,
+      "refs": [
+        [
+          "src-0069",
+          30
+        ],
+        [
+          "src-0310",
+          3
+        ]
+      ]
+    },
+    {
+      "account": "3341",
+      "count": 2,
+      "refs": [
+        [
+          "src-0070",
+          13
+        ],
+        [
+          "src-0315",
+          4
+        ]
+      ]
+    },
+    {
+      "account": "3412",
+      "count": 2,
+      "refs": [
+        [
+          "src-0070",
+          16
+        ],
+        [
+          "src-0315",
+          7
+        ]
+      ]
+    },
+    {
+      "account": "136",
+      "count": 2,
+      "refs": [
+        [
+          "src-0070",
+          44
+        ],
+        [
+          "src-0318",
+          2
+        ]
+      ]
+    },
+    {
+      "account": "1368",
+      "count": 2,
+      "refs": [
+        [
+          "src-0070",
+          46
+        ],
+        [
+          "src-0318",
+          4
+        ]
+      ]
+    },
+    {
+      "account": "6415",
+      "count": 2,
+      "refs": [
+        [
+          "src-0070",
+          52
+        ],
+        [
+          "src-0318",
+          10
+        ]
+      ]
+    },
+    {
+      "account": "341",
+      "count": 2,
+      "refs": [
+        [
+          "src-0070",
+          55
+        ],
+        [
+          "src-0319",
+          3
+        ]
+      ]
+    },
+    {
+      "account": "41111",
+      "count": 2,
+      "refs": [
+        [
+          "src-0303",
+          23
+        ],
+        [
+          "src-0324",
+          2
+        ]
+      ]
+    },
+    {
+      "account": "41112",
+      "count": 2,
+      "refs": [
+        [
+          "src-0303",
+          23
+        ],
+        [
+          "src-0324",
+          2
+        ]
+      ]
+    },
+    {
+      "account": "4113",
+      "count": 2,
+      "refs": [
+        [
+          "src-0303",
+          23
+        ],
+        [
+          "src-0324",
+          2
+        ]
+      ]
+    },
+    {
+      "account": "413",
+      "count": 2,
+      "refs": [
+        [
+          "src-0303",
+          23
+        ],
+        [
+          "src-0324",
+          2
+        ]
+      ]
+    },
+    {
+      "account": "5211",
+      "count": 2,
+      "refs": [
+        [
+          "src-0304",
+          17
+        ],
+        [
+          "src-0326",
+          11
+        ]
+      ]
+    },
+    {
+      "account": "5213",
+      "count": 2,
+      "refs": [
+        [
+          "src-0304",
+          17
+        ],
+        [
+          "src-0326",
+          11
+        ]
+      ]
+    },
+    {
+      "account": "222",
+      "count": 2,
+      "refs": [
+        [
+          "src-0304",
+          26
+        ],
+        [
+          "src-0329",
+          2
+        ]
+      ]
+    },
+    {
+      "account": "8212",
+      "count": 2,
+      "refs": [
+        [
+          "src-0304",
+          32
+        ],
+        [
+          "src-0330",
+          2
+        ]
+      ]
+    },
+    {
+      "account": "154",
+      "count": 1,
+      "refs": [
+        [
+          "src-0333",
+          3
+        ]
+      ]
+    },
+    {
+      "account": "621",
+      "count": 1,
+      "refs": [
+        [
+          "src-0333",
+          3
+        ]
+      ]
+    }
+  ]
+}

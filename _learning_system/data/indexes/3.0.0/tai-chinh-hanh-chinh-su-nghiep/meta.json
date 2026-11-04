@@ -1,0 +1,34 @@
+{
+  "index_version": "3.0.0",
+  "chunking_version": "2.0.0",
+  "extract_version": "3.0.0",
+  "build_date": "2026-10-11T05:01:33.747481+00:00",
+  "chunk_count": 768,
+  "vocab_size": 1431,
+  "avgdl": 105.6796875,
+  "k1": 1.5,
+  "b": 0.75,
+  "courses": [
+    "tai-chinh-hanh-chinh-su-nghiep"
+  ],
+  "source_hashes": [
+    "41dd331e2b35782905d3f2e7fb7b5dfaf37618b51911b695709b0415e2db6da4",
+    "7378e3eef9e8ba1420d04ef0c16de15dc87add9c15b03d03df627243e57200b3",
+    "89842507fb2df5ca805adc790fa1546f213bf57f5642698f20ac832efcfee57c",
+    "937d6efc23c60c1703c8ab1b36a8269e542155fcacdfc8c3e5ba757d8baa8311",
+    "9fd6168722de3305fe3c31ae3510efdcad6e9ab2a3765c81df8218f8884841ed",
+    "a715f02a9a408e75d9defbc8f2ed5718ebab3f8de21409069fb31ae36f1de695",
+    "ab003e7932b25c6e911fb6fc19fd1e91cb31b1b13dc40f918f947e80cb0eb451",
+    "b5b556c542ed20407b550715754c8d209bfa128ee06904845b2066aaa6300de4",
+    "ba153bfd5ea7c73dcc3e911f65c0616dcebc6dd090e627ac3b6192765c72e2b0",
+    "c1508a98afa3a6b5da5a3987e2aa2f678bc1e7f51ceb7591c1b84866bf84584c",
+    "c607d49912dca3ccea51ec84ddd3e43d7bbedab0233f0175c8ec1d9f96606c56",
+    "ec1ed355d722b180b2587b84440c3bb07746143edd6271cd421d6814fc3db623"
+  ],
+  "embedding": null,
+  "lexical": "bm25",
+  "semantic": "tfidf_cosine_numpy",
+  "concept_registry_version": "0.1.0",
+  "course_id": "tai-chinh-hanh-chinh-su-nghiep",
+  "concept_table_version": "ebd3531130cc"
+}

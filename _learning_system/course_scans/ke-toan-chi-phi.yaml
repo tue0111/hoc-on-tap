@@ -1,0 +1,746 @@
+# Course scan — curriculum layer only.
+# Evidence labels: OBSERVED | INFERRED | UNKNOWN
+# Concepts limited to headings / objectives / key terms actually present in extracts or PDF outlines.
+
+scan_meta:
+  scanner: course-scanner
+  scanned_at: "2026-09-07"
+  evidence_basis:
+    - inventory/files.json
+    - extracts/ke-toan-chi-phi/*.extract.md
+    - inventory/headings.json
+  extracts_dir: D:\Hoc\_learning_system\extracts\ke-toan-chi-phi
+  source_folder_observed: D:\Hoc\Kế toán chi phí
+  write_scope: D:\Hoc\_learning_system\course_scans
+  note: >
+    Chương 1.pdf extract is 8/26 pages; Chương 4.pdf extract is 8/50 pages.
+    Later chủ đề of those files are known from PDF outlines and from Chương 0
+    announcements inside Chương 1.pdf, not from full body text.
+
+course_id: ke-toan-chi-phi
+course_name:
+  value: Kế toán chi phí
+  aliases_observed: [KTCP]
+  evidence_status: OBSERVED
+  evidence: "Môn học: Kế toán chi phí — extracts/ke-toan-chi-phi/src-0042__Chương_1.pdf.extract.md PAGE 1"
+source_folder: D:\Hoc\Kế toán chi phí
+
+institution:
+  value: Trường Đại học Mở TP.HCM
+  faculty_observed: Khoa Kế toán Kiểm toán
+  evidence_status: OBSERVED
+  evidence: "Hoàng Huy Cường, giảng viên khoa Kế Toán Kiểm Toán trường Đại học Mở TP.HCM — src-0042 PAGE 1"
+
+course_code:
+  value: null
+  evidence_status: UNKNOWN
+  evidence: "No ACCO/mã học phần token in filenames or extracted pages."
+
+academic_year:
+  value: null
+  evidence_status: UNKNOWN
+
+semester:
+  value: null
+  evidence_status: UNKNOWN
+
+status: partial_vs_announced_outline
+status_note: >
+  Chương 0 (inside Chương 1.pdf) announces 7 chapters. Folder contains
+  lecture scripts for chapters 1–4 plus one thảo luận. Chapters 5–7 are
+  announced but have no files.
+
+lecturers_observed:
+  - name: Hoàng Huy Cường
+    title_observed: TS.
+    role_in_source: biên soạn; speaker of Chương 0 and Chương 1 script
+    evidence_status: OBSERVED
+    evidence: "src-0042 PAGE 1–2: 'Tôi tên Hoàng Huy Cường'; 'TS. Hoàng Huy Cường'"
+  - name: Nguyễn Bảo Châu
+    title_observed: ThS.
+    role_in_source: biên soạn (named; not observed as on-script speaker in extracted pages)
+    evidence_status: OBSERVED
+    evidence: "src-0042 PAGE 1: 'ThS. Nguyễn Bảo Châu'"
+  - name: null
+    role_in_source: speaker of Chương 2–4 scripts
+    evidence_status: UNKNOWN
+    evidence: "Extracted pages of src-0043/0044/0045 do not name the on-camera lecturer."
+
+sources:
+  - source_id: src-0042
+    relative_path: Kế toán chi phí/Chương 1.pdf
+    extract_path: extracts/ke-toan-chi-phi/src-0042__Chương_1.pdf.extract.md
+    role: lecture_note
+    role_evidence_status: INFERRED
+    role_note: "Filename 'Chương N' only; inventory confidence low. Body is video script, not a separate syllabus PDF."
+    contains_observed:
+      - "Chương 0: Giới thiệu môn học (PAGES 1–5)"
+      - "Chương 1: Tổng quan về kế toán chi phí (from PAGE 6)"
+    page_count: 26
+    pages_extracted: 8
+    extract_truncated: true
+    outline_observed:
+      - KeToanChiPhi_Script
+      - CHUONG 1 CHU DE 1 P 1
+      - CHUONG 1 CHU DE 1 P2
+      - CHUONG 1 CHU DE 2 P1
+      - CHUONG 1 CHU DE 2 P2
+  - source_id: src-0043
+    relative_path: Kế toán chi phí/Chương 2.pdf
+    extract_path: extracts/ke-toan-chi-phi/src-0043__Chương_2.pdf.extract.md
+    role: lecture_note
+    role_evidence_status: INFERRED
+    page_count: 14
+    pages_extracted: 14
+    extract_truncated: false
+    outline_observed:
+      - KTCP-C2-CD2.1.1-Khái-niệm-CP-và-phân-loại-chi-phí-theo-yếu-tố-và-mối-qh-với-đối-tượng-chịu-chi-phí
+      - KTCP-C2-CD2.1.2-Phân-loại-chi-phí-theo-cách-ứng-xử-và-thời-kỳ-XĐKQKD
+      - KTCP-C2-CD2.2-Khái-niệm-giá-thành-và-phân-loại-giá-thành
+  - source_id: src-0044
+    relative_path: Kế toán chi phí/Chương 3.pdf
+    extract_path: extracts/ke-toan-chi-phi/src-0044__Chương_3.pdf.extract.md
+    role: lecture_note
+    role_evidence_status: INFERRED
+    page_count: 19
+    pages_extracted: 15
+    extract_truncated: true
+    outline_observed:
+      - CHUONG 3 CHU DE 1 P1
+      - CHUONG 3 CHU DE 1 P2
+      - CHUONG 3 CHU DE 2 P1
+      - CHUONG 3 CHU DE 2 P2
+  - source_id: src-0045
+    relative_path: Kế toán chi phí/Chương 4.pdf
+    extract_path: extracts/ke-toan-chi-phi/src-0045__Chương_4.pdf.extract.md
+    role: lecture_note
+    role_evidence_status: INFERRED
+    page_count: 50
+    pages_extracted: 8
+    extract_truncated: true
+    outline_observed:
+      - KTCP-C4-CD4.1.1-Giới-thiệu-KTCP-theo-quy-trình
+      - KTCP-C4-CD4.1.2-KTCP-theo-quy-trình-PPTB
+      - KTCP-C4-CD4.1.3-KTCP-theo-quy-trình-PPFIFO
+      - KTCP-C4-CD4.2-KTCP-theo-quy-trình-2-giai-đoạn
+      - KTCP-C4-CD4.3.1-KTCP-theo-quy-trình-CP-kết-hợp
+      - KTCP-C4-CD4.3.2-KTCP-theo-quy-trình-Xử-lý-CL
+  - source_id: src-0046
+    relative_path: Kế toán chi phí/Thảo luận 1/Phân Loại Chi Phí Doanh Nghiệp.pdf
+    extract_path: extracts/ke-toan-chi-phi/src-0046__Phân_Loại_Chi_Phí_Doanh_Nghiệp.pdf.extract.md
+    role: assignment
+    role_evidence_status: OBSERVED
+    role_note: "Path token 'Thảo luận 1'."
+    page_count: 15
+    pages_extracted: 15
+    extract_truncated: false
+    title_observed: >
+      Nghiên Cứu Chi Phí Sản Phẩm Và Chi Phí Thời Kỳ Trong Các Loại Hình
+      Doanh Nghiệp Sản Xuất, Thương Mại Và Dịch Vụ
+
+sources_by_role:
+  syllabus:
+    present: false
+    note: "No standalone đề cương/hướng dẫn học tập file. Course intro is embedded in src-0042 as 'Chương 0'."
+  lecture_note:
+    present: true
+    source_ids: [src-0042, src-0043, src-0044, src-0045]
+  lecture_slide:
+    present: false
+  textbook:
+    present: false
+  exercise:
+    present: false
+  exam:
+    present: false
+  assignment:
+    present: true
+    source_ids: [src-0046]
+  reference:
+    present: false
+
+structure:
+  announced_chapter_count: 7
+  announced_chapter_count_evidence: "src-0042 PAGE 2: 'Kết cấu môn học của chúng ta có 7 chương'"
+  files_present_for_chapters: [1, 2, 3, 4]
+  chapters:
+    - number: 0
+      title: Giới thiệu môn học
+      present_as_file: false
+      embedded_in: src-0042
+      evidence_status: OBSERVED
+      headings_observed:
+        - Chương 0: Giới thiệu môn học
+      objectives_observed:
+        - Trình bày được mục tiêu học tập môn học
+        - Trình bày được nội dung học tập chính của môn học
+        - Giải thích được phương pháp học tập và đánh giá môn học
+      course_objectives_observed:
+        - Cung cấp kiến thức về tính giá thành, phân bổ chi phí bằng các phương pháp kế toán chi phí thông dụng
+        - Phân tích ảnh hưởng của các phương pháp tính giá thành đến báo cáo tài chính và việc ra quyết định
+        - Rèn luyện năng lực làm việc nhóm và tổ chức thực hiện công việc
+      assessment_observed:
+        - "Đánh giá quá trình: diễn đàn 10%; bài tập kiểm tra kết thúc chương (tự luận + trắc nghiệm) và video conference 30% (trực tuyến)"
+        - "Thi kết thúc môn: trắc nghiệm 60% (trực tiếp)"
+      learning_activities_observed:
+        - Tham gia video conference
+        - Xem video các chương
+        - Đọc script các chương
+        - Đọc tài liệu học tập
+        - Làm bài tập rèn luyện: trắc nghiệm và tự luận
+        - Tham gia thảo luận có tính điểm
+        - Kiểm tra cuối chương có tính điểm
+    - number: 1
+      title: Tổng quan về kế toán chi phí
+      present_as_file: true
+      source_id: src-0042
+      evidence_status: OBSERVED
+      headings_observed:
+        - "Chương 1: Tổng quan về kế toán chi phí"
+        - "Chủ đề 1: Khái niệm và vai trò của kế toán chi phí trong quản trị doanh nghiệp"
+        - "Phần 1: Khái niệm và thông tin kế toán chi phí"
+      headings_from_outline_only:
+        - CHUONG 1 CHU DE 1 P2
+        - CHUONG 1 CHU DE 2 P1
+        - CHUONG 1 CHU DE 2 P2
+      intro_contents_announced:
+        - Kế toán chi phí trong mối quan hệ với các chức năng quản trị
+        - Kế toán chi phí trong mối quan hệ với các yếu tố thành công cốt lõi
+      objectives_observed:
+        - Trình bày khái niệm kế toán chi phí
+        - Giải thích thông tin chi phí cung cấp cho kế toán tài chính và quản trị doanh nghiệp
+        - Giải thích mối quan hệ giữa kế toán chi phí và quản trị doanh nghiệp
+        - Phân tích mối quan hệ giữa kế toán chi phí và các yếu tố thành công cốt lõi của doanh nghiệp
+    - number: 2
+      title: Phân loại chi phí và giá thành
+      title_variants:
+        - variant: Phân loại chi phí
+          where: "src-0042 PAGE 2 chapter list"
+        - variant: Phân loại chi phí và giá thành
+          where: "src-0043 PAGE 1 chapter heading"
+      present_as_file: true
+      source_id: src-0043
+      evidence_status: OBSERVED
+      headings_observed:
+        - "Chương 2: Phân loại chi phí và giá thành"
+        - "Chủ đề 2.1: Khái niệm về chi phí và phân loại chi phí"
+        - "Phần 1: Khái niệm về chi phí và phân loại chi phí theo yếu tố chi phí và theo đối tượng chịu chi phí"
+        - "Phần 2: Phân loại chi phí theo cách ứng xử và mối quan hệ với thời kỳ XĐKQKD"
+        - "Chủ đề 2.2: Khái niệm giá thành và phân loại giá thành"
+      objectives_observed:
+        - Giải thích được khái niệm chi phí
+        - Phân loại chi phí theo yếu tố và theo mối quan hệ với đối tượng chịu chi phí
+        - Phân loại theo cách ứng xử của chi phí (biến phí / định phí)
+        - Phân loại theo thời kỳ xác định kết quả kinh doanh (chi phí sản phẩm / chi phí thời kỳ)
+        - Giải thích khái niệm giá thành sản phẩm
+        - Phân loại giá thành theo thời điểm xác định và theo nội dung giá thành
+    - number: 3
+      title: Kế toán chi phí theo công việc
+      present_as_file: true
+      source_id: src-0044
+      evidence_status: OBSERVED
+      headings_observed:
+        - "Chương 3: Kế toán chi phí theo công việc"
+        - "Chủ đề 1: Kế toán chi phí theo công việc tính theo chi phí thực tế"
+        - "Phần 1: Khái niệm và đặc điểm kế toán chi phí theo công việc"
+        - "Phần 2: Nội dung và trình tự kế toán chi phí theo công việc tính theo chi phí thực tế"
+        - "Chủ đề 2: Kế toán chi phí theo công việc tính theo chi phí thực tế kết hợp với ước tính"
+        - "Phần 1: Nội dung và trình tự kế toán chi phí theo công việc tính theo chi phí thực tế kết hợp ước tính"
+      headings_from_outline_only:
+        - CHUONG 3 CHU DE 2 P2
+      objectives_observed:
+        - Trình bày các khái niệm quan trọng của một hệ thống kế toán chi phí
+        - Giải thích đặc điểm kế toán chi phí theo công việc
+        - Áp dụng KTCP theo công việc tính theo chi phí thực tế để tính giá thành
+        - Áp dụng KTCP theo công việc tính theo chi phí thực tế kết hợp ước tính để tính giá thành
+        - Trình bày đặc điểm và nội dung của hệ thống thực tế kết hợp ước tính
+        - Thực hiện trình tự tính toán của hệ thống thực tế kết hợp ước tính
+    - number: 4
+      title: Kế toán chi phí theo quy trình
+      title_variants:
+        - variant: Kế toán chi phí theo quá trình
+          where: "src-0042 PAGE 2 chapter list; src-0045 PAGE 1 chủ đề line uses both 'quá trình' and 'quy trình'"
+        - variant: Kế toán chi phí theo quy trình
+          where: "src-0045 PAGE 1 chapter heading"
+      present_as_file: true
+      source_id: src-0045
+      evidence_status: OBSERVED
+      headings_observed:
+        - "Chương 4: Kế toán chi phí theo quy trình"
+        - "Chủ đề 4.1: Trình tự kế toán chi phí theo quá trình/quy trình tính theo chi phí thực tế ở quy trình công nghệ một giai đoạn"
+        - "Phần 1: Những vấn đề chung"
+        - "Phần 2: Phương pháp trung bình"
+      headings_from_outline_only:
+        - KTCP-C4-CD4.1.3-KTCP-theo-quy-trình-PPFIFO
+        - KTCP-C4-CD4.2-KTCP-theo-quy-trình-2-giai-đoạn
+        - KTCP-C4-CD4.3.1-KTCP-theo-quy-trình-CP-kết-hợp
+        - KTCP-C4-CD4.3.2-KTCP-theo-quy-trình-Xử-lý-CL
+      intro_contents_announced:
+        - Trình tự KTCP theo quá trình tính theo chi phí thực tế — một giai đoạn
+        - Trình tự KTCP theo quá trình tính theo chi phí thực tế — nhiều giai đoạn
+        - Trình tự KTCP theo quá trình theo chi phí thực tế kết hợp với ước tính
+      objectives_observed:
+        - Tính được giá thành sản phẩm theo chi phí thực tế cho DN sản xuất quy trình một giai đoạn
+        - Trình bày đặc điểm cơ bản của hệ thống KTCP theo quy trình
+        - So sánh với hệ thống KTCP theo công việc (chương 3)
+        - Trình bày khái niệm sản phẩm dở dang, sản phẩm hoàn thành tương đương, tỷ lệ hoàn thành SPDD
+        - Trình bày phương trình cân đối sản lượng và cân đối chi phí
+        - Trình bày trình tự các bước KTCP theo quy trình tính theo chi phí thực tế
+        - Xác định sản lượng hoàn thành tương đương theo phương pháp trung bình
+    - number: 5
+      title: Kế toán chi phí định mức
+      present_as_file: false
+      evidence_status: OBSERVED
+      evidence: "Announced only in src-0042 PAGE 2–3; no folder file."
+      intro_contents_announced:
+        - Những vấn đề chung về kế toán chi phí định mức
+        - Trình tự kế toán chi phí định mức
+        - Xử lý chênh lệch cuối kỳ
+    - number: 6
+      title: Phân bổ chi phí
+      present_as_file: false
+      evidence_status: OBSERVED
+      evidence: "Announced only in src-0042 PAGE 4; no folder file."
+      intro_contents_announced:
+        - Phân bổ chi phí sản xuất chung theo phương pháp truyền thống và phương pháp ABC
+        - Phân bổ chi phí bộ phận phục vụ; sản phẩm phụ và thiệt hại trong sản xuất
+        - Phân bổ chi phí trong môi trường vừa theo công việc vừa theo quá trình
+    - number: 7
+      title: Ảnh hưởng của phương pháp giá thành tới quá trình ra quyết định quản trị
+      present_as_file: false
+      evidence_status: OBSERVED
+      evidence: "Announced only in src-0042 PAGE 4; no folder file."
+      intro_contents_announced:
+        - Phương pháp giá thành khả biến (variable costing) và giá thành sản xuất (absorption costing)
+        - Phân tích sự khác biệt khi lập báo cáo thu nhập và ứng dụng ra quyết định quản trị
+
+relationships:
+  explicit:
+    - type: intra_course_sequence
+      from: chapter_3
+      to: chapter_4
+      statement: >
+        src-0045 PAGE 1: so sánh đặc điểm KTCP theo quy trình với KTCP theo
+        công việc 'đã học ở chương trước'.
+      evidence_status: OBSERVED
+    - type: information_role_not_course_prereq
+      statement: >
+        src-0042: KTCP cung cấp thông tin cho kế toán tài chính và kế toán quản trị
+        (lập BCTC / ra quyết định). This is a content relationship, not a named
+        prerequisite course.
+      evidence_status: OBSERVED
+  inferred:
+    - type: intra_course_order
+      statement: "Chapters numbered 1–7 in a single announced list."
+      evidence_status: INFERRED
+      confidence: medium
+    - type: assignment_maps_to_chapter_2
+      statement: >
+        Thảo luận 1 title/body is chi phí sản phẩm vs chi phí thời kỳ, which
+        is taught in src-0043 chủ đề 2.1 phần 2.
+      evidence_status: INFERRED
+      confidence: medium
+  not_asserted:
+    - "No source names a prior course (e.g. Nguyên lý kế toán / Kế toán tài chính) as a prerequisite."
+    - "Do not treat KTCP→KTTC information flow as a program-level course order."
+
+coverage:
+  announced_chapters: 7
+  lecture_files_present: 4
+  intro_embedded_in_chapter_1: true
+  assignments_present: 1
+  missing_vs_announcement:
+    - chapter_5_ke_toan_chi_phi_dinh_muc
+    - chapter_6_phan_bo_chi_phi
+    - chapter_7_gia_thanh_va_quyet_dinh
+    - standalone_syllabus
+    - textbook
+    - official_exercises_solutions
+    - exam
+  extract_gaps:
+    - "src-0042: 8/26 pages — chủ đề 1 phần 2 and chủ đề 2 body not in extract"
+    - "src-0044: 15/19 pages — chủ đề 2 phần 2 body not in extract"
+    - "src-0045: 8/50 pages — FIFO, 2 giai đoạn, CP kết hợp, xử lý CL body not in extract"
+
+quality:
+  parseability: pdf_text_layer_present
+  likely_scanned: false
+  source_role_confidence: low_for_chuong_files
+  title_inconsistency_observed:
+    - "Ch.2 list title vs file heading (Phân loại chi phí vs Phân loại chi phí và giá thành)"
+    - "Ch.4 'quá trình' vs 'quy trình'"
+  assignment_provenance_note: >
+    src-0046 is a thảo luận paper (Google Docs renderer in PDF metadata),
+    not lecturer slides. Keep separate from lecture definitions.
+  english_terms_in_lectures:
+    present: [variable costing, absorption costing, ABC]
+    where: "src-0042 PAGE 4 — announced for chapters 6–7, not taught in present files"
+    absent_in_extracts:
+      - job order
+      - process costing
+      - overhead
+      - cost object
+
+concepts:
+  # kind: heading | objective | key_term
+  # Only terms/headings actually present. English gloss added only when the source uses it.
+  - id: ktcp-ke-toan-chi-phi
+    kind: key_term
+    term_vi: kế toán chi phí
+    term_en: null
+    chapter: 1
+    source_ids: [src-0042]
+    evidence_status: OBSERVED
+    note: "Định nghĩa: bộ phận hệ thống kế toán ghi nhận, phân loại, tổng hợp chi phí của các đối tượng khác nhau."
+  - id: ktcp-doi-tuong-chiu-chi-phi
+    kind: key_term
+    term_vi: đối tượng chịu chi phí
+    term_en: null
+    aliases_observed: [đối tượng tính giá thành]
+    chapter: [1, 2, 3]
+    source_ids: [src-0042, src-0043, src-0044]
+    evidence_status: OBSERVED
+    note: >
+      Phrase 'đối tượng tập hợp chi phí' is NOT observed. Sources use
+      'đối tượng chịu chi phí' / 'đối tượng tính giá thành' and the verb
+      'tập hợp chi phí'.
+  - id: ktcp-chi-phi
+    kind: key_term
+    term_vi: chi phí
+    term_en: null
+    chapter: 2
+    source_ids: [src-0043]
+    evidence_status: OBSERVED
+    note: "Khoản tiêu hao nguồn lực kinh tế cho một mục đích cụ thể, biểu hiện bằng tiền."
+  - id: ktcp-phan-loai-theo-yeu-to
+    kind: key_term
+    term_vi: phân loại chi phí theo yếu tố
+    term_en: null
+    examples_observed: [nguyên vật liệu, nhân công, khấu hao, chi phí dịch vụ mua ngoài]
+    chapter: 2
+    source_ids: [src-0043]
+    evidence_status: OBSERVED
+  - id: ktcp-chi-phi-truc-tiep
+    kind: key_term
+    term_vi: chi phí trực tiếp
+    term_en: null
+    chapter: [2, 3]
+    source_ids: [src-0043, src-0044]
+    evidence_status: OBSERVED
+  - id: ktcp-chi-phi-gian-tiep
+    kind: key_term
+    term_vi: chi phí gián tiếp
+    term_en: null
+    chapter: [2, 3]
+    source_ids: [src-0043, src-0044]
+    evidence_status: OBSERVED
+  - id: ktcp-co-so-phan-bo
+    kind: key_term
+    term_vi: cơ sở phân bổ chi phí
+    term_en: null
+    chapter: 3
+    source_ids: [src-0044]
+    evidence_status: OBSERVED
+    examples_observed: [giờ lao động trực tiếp, giờ máy, chi phí NCTT, chi phí NVLTT]
+  - id: ktcp-phan-bo-chi-phi
+    kind: key_term
+    term_vi: phân bổ chi phí
+    term_en: null
+    chapter: [2, 3, 4]
+    source_ids: [src-0042, src-0043, src-0044, src-0045]
+    evidence_status: OBSERVED
+  - id: ktcp-chi-phi-sxc
+    kind: key_term
+    term_vi: chi phí sản xuất chung
+    term_en: null
+    aliases_observed: [SXC, chi phí gián tiếp trong hệ thống theo công việc]
+    chapter: 3
+    source_ids: [src-0044]
+    evidence_status: OBSERVED
+    note: "English 'overhead' is NOT in extracts."
+  - id: ktcp-bien-phi
+    kind: key_term
+    term_vi: biến phí
+    term_en: null
+    chapter: 2
+    source_ids: [src-0043]
+    evidence_status: OBSERVED
+  - id: ktcp-dinh-phi
+    kind: key_term
+    term_vi: định phí
+    term_en: null
+    chapter: 2
+    source_ids: [src-0043]
+    evidence_status: OBSERVED
+  - id: ktcp-pham-vi-phu-hop
+    kind: key_term
+    term_vi: phạm vi phù hợp
+    term_en: null
+    chapter: 2
+    source_ids: [src-0043]
+    evidence_status: OBSERVED
+  - id: ktcp-chi-phi-san-pham
+    kind: key_term
+    term_vi: chi phí sản phẩm
+    term_en: product costs
+    chapter: [2, assignment]
+    source_ids: [src-0043, src-0046]
+    evidence_status: OBSERVED
+    note: "English gloss observed in assignment src-0046, not in lecture ch.2 extract."
+  - id: ktcp-chi-phi-thoi-ky
+    kind: key_term
+    term_vi: chi phí thời kỳ
+    term_en: period costs
+    chapter: [1, 2, assignment]
+    source_ids: [src-0042, src-0043, src-0046]
+    evidence_status: OBSERVED
+  - id: ktcp-gia-thanh
+    kind: key_term
+    term_vi: giá thành sản phẩm
+    term_en: null
+    chapter: 2
+    source_ids: [src-0043]
+    evidence_status: OBSERVED
+  - id: ktcp-gia-thanh-dinh-muc
+    kind: key_term
+    term_vi: giá thành định mức
+    term_en: null
+    chapter: 2
+    source_ids: [src-0043]
+    evidence_status: OBSERVED
+  - id: ktcp-gia-thanh-ke-hoach
+    kind: key_term
+    term_vi: giá thành kế hoạch
+    term_en: null
+    chapter: 2
+    source_ids: [src-0043]
+    evidence_status: OBSERVED
+  - id: ktcp-gia-thanh-thuc-te
+    kind: key_term
+    term_vi: giá thành thực tế
+    term_en: null
+    chapter: 2
+    source_ids: [src-0043]
+    evidence_status: OBSERVED
+  - id: ktcp-gia-thanh-kha-bien
+    kind: key_term
+    term_vi: giá thành khả biến
+    term_en: variable costing
+    chapter: [2, 7]
+    source_ids: [src-0043, src-0042]
+    evidence_status: OBSERVED
+    note: "Defined in ch.2; English pair also announced for ch.7 in intro."
+  - id: ktcp-gia-thanh-san-xuat
+    kind: key_term
+    term_vi: giá thành sản xuất
+    term_en: absorption costing
+    chapter: [2, 7]
+    source_ids: [src-0043, src-0042]
+    evidence_status: OBSERVED
+  - id: ktcp-gia-thanh-toan-bo
+    kind: key_term
+    term_vi: giá thành toàn bộ
+    term_en: null
+    chapter: 2
+    source_ids: [src-0043]
+    evidence_status: OBSERVED
+  - id: ktcp-theo-cong-viec
+    kind: key_term
+    term_vi: kế toán chi phí theo công việc
+    term_en: null
+    chapter: 3
+    source_ids: [src-0044]
+    evidence_status: OBSERVED
+    note: "English 'job order' / 'job-order costing' NOT observed."
+  - id: ktcp-phieu-tinh-gia-thanh-cong-viec
+    kind: key_term
+    term_vi: phiếu tính giá thành công việc
+    term_en: null
+    chapter: 3
+    source_ids: [src-0044]
+    evidence_status: OBSERVED
+  - id: ktcp-ky-tinh-gia-thanh
+    kind: key_term
+    term_vi: kỳ tính giá thành
+    term_en: null
+    chapter: 3
+    source_ids: [src-0044]
+    evidence_status: OBSERVED
+  - id: ktcp-nvltt
+    kind: key_term
+    term_vi: chi phí nguyên vật liệu trực tiếp
+    term_en: null
+    aliases_observed: [NVLTT]
+    chapter: [3, 4]
+    source_ids: [src-0044, src-0045]
+    evidence_status: OBSERVED
+  - id: ktcp-nctt
+    kind: key_term
+    term_vi: chi phí nhân công trực tiếp
+    term_en: null
+    aliases_observed: [NCTT]
+    chapter: [3, 4]
+    source_ids: [src-0044, src-0045]
+    evidence_status: OBSERVED
+  - id: ktcp-ty-le-sxc-thuc-te
+    kind: key_term
+    term_vi: tỷ lệ chi phí sản xuất chung thực tế
+    term_en: null
+    chapter: 3
+    source_ids: [src-0044]
+    evidence_status: OBSERVED
+  - id: ktcp-ty-le-sxc-uoc-tinh
+    kind: key_term
+    term_vi: tỷ lệ chi phí sản xuất chung ước tính
+    term_en: null
+    chapter: 3
+    source_ids: [src-0044]
+    evidence_status: OBSERVED
+  - id: ktcp-theo-quy-trinh
+    kind: key_term
+    term_vi: kế toán chi phí theo quy trình
+    term_en: null
+    aliases_observed: [kế toán chi phí theo quá trình]
+    chapter: 4
+    source_ids: [src-0042, src-0045]
+    evidence_status: OBSERVED
+    note: "English 'process costing' NOT observed."
+  - id: ktcp-chi-phi-chuyen-doi
+    kind: key_term
+    term_vi: chi phí chuyển đổi
+    term_en: null
+    chapter: 4
+    source_ids: [src-0045]
+    evidence_status: OBSERVED
+    note: "NCTT + SXC."
+  - id: ktcp-san-pham-do-dang
+    kind: key_term
+    term_vi: sản phẩm dở dang
+    term_en: null
+    chapter: 4
+    source_ids: [src-0045]
+    evidence_status: OBSERVED
+  - id: ktcp-ty-le-hoan-thanh
+    kind: key_term
+    term_vi: tỷ lệ hoàn thành của sản phẩm dở dang
+    term_en: null
+    chapter: 4
+    source_ids: [src-0045]
+    evidence_status: OBSERVED
+  - id: ktcp-san-luong-tuong-duong
+    kind: key_term
+    term_vi: sản lượng hoàn thành tương đương
+    term_en: null
+    aliases_observed: [sản phẩm hoàn thành tương đương]
+    chapter: 4
+    source_ids: [src-0045]
+    evidence_status: OBSERVED
+  - id: ktcp-pp-trung-binh
+    kind: key_term
+    term_vi: phương pháp trung bình
+    term_en: null
+    aliases_observed: [PPTB]
+    chapter: 4
+    source_ids: [src-0045]
+    evidence_status: OBSERVED
+  - id: ktcp-pp-fifo
+    kind: heading
+    term_vi: KTCP theo quy trình — PPFIFO
+    term_en: FIFO
+    chapter: 4
+    source_ids: [src-0045]
+    evidence_status: OBSERVED
+    note: "Present in PDF outline only; body not in 8-page extract."
+  - id: ktcp-can-doi-san-luong
+    kind: key_term
+    term_vi: phương trình cân đối sản lượng
+    term_en: null
+    chapter: 4
+    source_ids: [src-0045]
+    evidence_status: OBSERVED
+  - id: ktcp-can-doi-chi-phi
+    kind: key_term
+    term_vi: phương trình cân đối chi phí
+    term_en: null
+    chapter: 4
+    source_ids: [src-0045]
+    evidence_status: OBSERVED
+  - id: ktcp-nguyen-tac-phu-hop
+    kind: key_term
+    term_vi: nguyên tắc phù hợp
+    term_en: matching principle
+    chapter: assignment
+    source_ids: [src-0046]
+    evidence_status: OBSERVED
+    note: "Assignment paper, not lecture script."
+  - id: ktcp-inventoriable-costs
+    kind: key_term
+    term_vi: chi phí có thể tồn kho
+    term_en: inventoriable costs
+    chapter: assignment
+    source_ids: [src-0046]
+    evidence_status: OBSERVED
+  - id: ktcp-abc-announced
+    kind: heading
+    term_vi: phương pháp ABC
+    term_en: ABC
+    chapter: 6
+    source_ids: [src-0042]
+    evidence_status: OBSERVED
+    note: "Announced for missing chapter 6 only."
+
+concept_counts:
+  key_terms_observed: 38
+  extra_headings_only: 2
+  total_concept_records: 40
+  headings_in_structure_not_double_counted_here: true
+  english_equivalents_actually_present: 8
+  requested_english_terms_absent: [cost object, overhead, job order, process costing]
+  vietnamese_requested_terms:
+    doi_tuong_tap_hop_chi_phi: not_observed_as_phrase
+    doi_tuong_chiu_chi_phi: observed
+    chi_phi_truc_tiep: observed
+    chi_phi_gian_tiep: observed
+    phan_bo: observed
+    gia_thanh: observed
+
+unknowns:
+  - course_code
+  - academic_year
+  - semester
+  - official_syllabus_pdf
+  - speakers_of_chapters_2_4
+  - body_of_chapter_1_topic_2
+  - body_of_chapter_4_FIFO_two_stage_combined_variance
+  - chapters_5_6_7_files
+  - whether_variable_costing_is_taught_before_chapter_7_beyond_ch2_classification
+
+phase_2_1:
+  retrieval_impact: NO_RETRIEVAL_IMPACT
+  production_index: not_updated
+  status: READY_FOR_FUTURE_INGESTION
+  new_canonical:
+    - source_id: src-0221
+      file: Chương 5.pdf
+      title: Kế toán chi phí theo định mức
+      pages: 31
+    - source_id: src-0222
+      file: Chương 6.pdf
+      title: Phân bổ chi phí
+      pages: 34
+    - source_id: src-0223
+      file: Chương 7.pdf
+      title: Ảnh hưởng của phương pháp giá thành trong quá trình ra quyết định
+      pages: 9
+    - source_id: src-0224
+      file: Hướng dẫn ôn tập.pdf
+      role: summary
+      pages: 3
+    - source_id: src-0254
+      file: Đề thi mẫu.pdf
+      role: exam
+      pages: 7
+  advertised_chapters_now_present: [1, 2, 3, 4, 5, 6, 7]
+  missing_advertised_chapters: []
+  resolved_unknown: chapters_5_6_7_files
+  note: _nguon unit scripts catalogued only.

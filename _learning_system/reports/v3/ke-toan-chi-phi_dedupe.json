@@ -1,0 +1,124 @@
+{
+  "course_id": "ke-toan-chi-phi",
+  "thresholds": {
+    "dup": 0.85,
+    "distinct": 0.5
+  },
+  "pairs": [
+    {
+      "upper": "src-0042",
+      "upper_file": "Chương 1.pdf",
+      "lowers": [
+        "src-0225",
+        "src-0226",
+        "src-0227",
+        "src-0228"
+      ],
+      "cov": 0.8731,
+      "back": 1.0,
+      "decision": "combined_duplicate",
+      "shingles_upper": 6125,
+      "shingles_lower": 5348,
+      "scope": "chapter 1"
+    },
+    {
+      "upper": "src-0043",
+      "upper_file": "Chương 2.pdf",
+      "lowers": [
+        "src-0243",
+        "src-0244",
+        "src-0245"
+      ],
+      "cov": 0.9988,
+      "back": 1.0,
+      "decision": "combined_duplicate",
+      "shingles_upper": 5701,
+      "shingles_lower": 5694,
+      "scope": "chapter 2"
+    },
+    {
+      "upper": "src-0044",
+      "upper_file": "Chương 3.pdf",
+      "lowers": [
+        "src-0229",
+        "src-0230",
+        "src-0231",
+        "src-0232"
+      ],
+      "cov": 0.9984,
+      "back": 1.0,
+      "decision": "combined_duplicate",
+      "shingles_upper": 4435,
+      "shingles_lower": 4428,
+      "scope": "chapter 3"
+    },
+    {
+      "upper": "src-0045",
+      "upper_file": "Chương 4.pdf",
+      "lowers": [
+        "src-0246",
+        "src-0247",
+        "src-0248",
+        "src-0249",
+        "src-0250",
+        "src-0251"
+      ],
+      "cov": 0.9984,
+      "back": 1.0,
+      "decision": "combined_duplicate",
+      "shingles_upper": 9014,
+      "shingles_lower": 9000,
+      "scope": "chapter 4"
+    },
+    {
+      "upper": "src-0221",
+      "upper_file": "Chương 5.pdf",
+      "lowers": [
+        "src-0233",
+        "src-0234",
+        "src-0235",
+        "src-0236",
+        "src-0237"
+      ],
+      "cov": 0.999,
+      "back": 1.0,
+      "decision": "combined_duplicate",
+      "shingles_upper": 7338,
+      "shingles_lower": 7331,
+      "scope": "chapter 5"
+    },
+    {
+      "upper": "src-0222",
+      "upper_file": "Chương 6.pdf",
+      "lowers": [
+        "src-0238",
+        "src-0239",
+        "src-0240",
+        "src-0241",
+        "src-0242"
+      ],
+      "cov": 0.9991,
+      "back": 1.0,
+      "decision": "combined_duplicate",
+      "shingles_upper": 7540,
+      "shingles_lower": 7533,
+      "scope": "chapter 6"
+    },
+    {
+      "upper": "src-0223",
+      "upper_file": "Chương 7.pdf",
+      "lowers": [
+        "src-0252",
+        "src-0253"
+      ],
+      "cov": 0.9979,
+      "back": 1.0,
+      "decision": "combined_duplicate",
+      "shingles_upper": 3376,
+      "shingles_lower": 3369,
+      "scope": "chapter 7"
+    }
+  ],
+  "mid_band_scopes": [],
+  "REVIEW": []
+}

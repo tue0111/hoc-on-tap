@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.pyd
+_learning_system/work/v3_deps/
+.venv/
+venv/
+.env
+*.log

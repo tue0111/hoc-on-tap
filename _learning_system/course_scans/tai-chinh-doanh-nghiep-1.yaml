@@ -1,0 +1,587 @@
+schema_version: course-scan/0.1
+scanned_at: "2026-09-07"
+layer: curriculum
+scanner: course-scanner
+course_id: tai-chinh-doanh-nghiep-1
+course_name:
+  value: Tài chính doanh nghiệp 1
+  evidence_status: OBSERVED
+  aliases_observed:
+    - "Tài chính doanh nghiệp (Phần 1)"
+    - "Tài chính doanh nghiệp 1"
+    - TCDN1
+  sources: [src-0155, src-0176]
+source_folder: "D:\\Hoc\\Tài chính doanh nghiệp 1"
+extracts_dir: "D:\\Hoc\\_learning_system\\extracts\\tai-chinh-doanh-nghiep-1"
+institution:
+  value: "Trường Đại học Mở TP.HCM"
+  evidence_status: OBSERVED
+  sources: [src-0176, src-0175]
+faculty:
+  value: "Khoa Tài chính - Ngân hàng"
+  evidence_status: OBSERVED
+  sources: [src-0176, src-0175]
+course_code:
+  value: null
+  evidence_status: UNKNOWN
+  note: "Filename token TCDN1 is an abbreviation, not an official catalog code (no FINA/ACCO-style code in extracts)."
+academic_year:
+  value: null
+  evidence_status: UNKNOWN
+semester:
+  value: null
+  evidence_status: UNKNOWN
+status: scanned
+platform_mentioned:
+  - value: ELO.lms
+    evidence_status: OBSERVED
+    source: src-0155
+    note: "Chương 0 tells students to follow the online course outline / lịch trình học tập on ELO.lms. That outline file is not in the source folder."
+
+lecturers:
+  - name: "TS Phạm Hà"
+    evidence_status: OBSERVED
+    role: giảng viên (slide byline)
+    sources: [src-0168, src-0169, src-0170, src-0171]
+  - name: "ThS Huỳnh Thái Bảo"
+    evidence_status: OBSERVED
+    role: giảng viên (slide byline); named on sample exam and answer key
+    sources: [src-0168, src-0169, src-0170, src-0171, src-0176, src-0175]
+
+assessment_observed:
+  process_weight: "40%"
+  final_weight: "60%"
+  process_components_observed:
+    - "A1.1 Video Conferences 5%"
+    - "A1.2 Thảo luận chủ đề / bài nhóm / bài tập tình huống 10%"
+    - "A1.3 Bài tập + kiểm tra kết thúc chương (trắc nghiệm) 25%"
+  final_exam:
+    form: trắc nghiệm
+    open_book: true
+    duration_conflict:
+      - value: "75 phút"
+        evidence_status: OBSERVED
+        source: src-0155
+        note: "Chương 0 / intro script"
+      - value: "90 phút"
+        evidence_status: OBSERVED
+        sources: [src-0176, src-0175, src-0173]
+        note: "Đề thi mẫu, đáp án đề thi mẫu, sổ tay thi mở"
+    item_count_sample: 40
+    sample_distribution_from_sotay:
+      evidence_status: OBSERVED
+      source: src-0173
+      note: "Sổ tay (authorship UNKNOWN) maps sample items: Q1–4 Ch1; 5–7 Ch2; 8–13 Ch3; 14–18 Ch4; 19–23 Ch5; 24–30 Ch6; 31–32 Ch7; 33–40 Ch8. States Ch9 is in the outline but not in the sample paper."
+  clos_mentioned: [CLO1.1, CLO2.1, CLO3.1, CLO3.2]
+  evidence_status: OBSERVED
+  sources: [src-0155, src-0166]
+
+named_learning_materials_not_in_folder:
+  - "[1] Tài liệu học tập lưu hành nội bộ: Tài Chính Doanh Nghiệp Căn Bản, Khoa TC-NH, Trường Đại học Mở TP.HCM (OBSERVED src-0155; file not present as a distinct document)"
+  - "[2] Video / slide / script on LMS (OBSERVED src-0155)"
+  - "[3] Ross, Westerfield, and Jaffe (2019), Corporate Finance, 11th Edition, McGrawHill (OBSERVED src-0155; not in folder)"
+  - "[4] TS Vũ Việt Quảng chủ biên dịch (2021), Tài chính doanh nghiệp (Corporate finance, tenth edition), NXB Kinh tế TP.HCM (OBSERVED src-0155; ôn tập lists 2019 — year conflict)"
+  - "[5] GS.TS Nguyễn Thị Cành & TS Nguyễn Anh Phong chủ biên dịch (2019), Quản trị tài chính, NXB Hồng Đức (OBSERVED src-0155)"
+  - "PGS.TS Nguyễn Minh Kiều (2018), Tài chính doanh nghiệp, NXB Thống Kê (OBSERVED only in src-0177 ôn tập)"
+
+sources:
+  by_role:
+    course_intro:
+      note: "No file named đề cương / syllabus. Chương 0 script + Slide Chương 0 function as intro (CLOs, chapter list, assessment, reading list)."
+      items:
+        - source_id: src-0155
+          filename: Chương 0.pdf
+          relative_path: "Tài chính doanh nghiệp 1/Chương 0.pdf"
+          extract: extracts/tai-chinh-doanh-nghiep-1/src-0155__Chương_0.pdf.extract.md
+          inventory_role: lecture_note
+          content_role: course_intro
+          content_role_status: INFERRED
+          authority_rank: 1
+          page_count: 3
+          char_count: 3093
+          extract_ok: true
+          parseability: pdf_text_layer_present
+        - source_id: src-0166
+          filename: Slide Chương 0.pdf
+          relative_path: "Tài chính doanh nghiệp 1/Slide Chương 0.pdf"
+          extract: extracts/tai-chinh-doanh-nghiep-1/src-0166__Slide_Chương_0.pdf.extract.md
+          inventory_role: lecture_slide
+          content_role: course_intro_slide
+          authority_rank: 2
+          page_count: 6
+          char_count: 1108
+          extract_ok: true
+          parseability: pdf_text_layer_present
+          quality_note: "Sparse text layer (image-heavy slides)."
+    lecture_note:
+      items:
+        - {source_id: src-0156, filename: "Chương 1.pdf", chapter: 1, page_count: 12, char_count: 11717, extract_ok: true, parseability: pdf_text_layer_present, outline_topics: ["CĐ vandecanban TCDN", "CĐ moitruong KD"]}
+        - {source_id: src-0157, filename: "Chương 2.pdf", chapter: 2, page_count: 31, char_count: 12817, extract_ok: true, parseability: pdf_text_layer_present, outline_topics: ["CĐ vandechung", "CĐ noidungPT"], pages_extracted_limit: 8}
+        - {source_id: src-0158, filename: "Chương 3.pdf", chapter: 3, page_count: 12, char_count: 12003, extract_ok: true, parseability: pdf_text_layer_present, outline_topics: ["CĐ vandelaisuat", "CĐ thoigiatiente"]}
+        - {source_id: src-0159, filename: "Chương 4.pdf", chapter: 4, page_count: 23, char_count: 13950, extract_ok: true, parseability: pdf_text_layer_present, outline_topics: ["CĐ loinhuanvaruiro", "CĐ mohinhCAPM"]}
+        - {source_id: src-0160, filename: "Chương 5.pdf", chapter: 5, page_count: 28, char_count: 10477, extract_ok: true, parseability: pdf_text_layer_present, outline_topics: ["CĐ traiphieu", "CĐ cophieu"], pages_extracted_limit: 8}
+        - {source_id: src-0161, filename: "Chương 6.pdf", chapter: 6, page_count: 26, char_count: 14081, extract_ok: true, parseability: pdf_text_layer_present, outline_topics: ["CĐ tieuchuandanhgia", "CĐ chiphivon"], pages_extracted_limit: 8}
+        - {source_id: src-0162, filename: "Chương 7.pdf", chapter: 7, page_count: 46, char_count: 12120, extract_ok: true, parseability: pdf_text_layer_present, outline_topics: ["CĐ quantritonkho", "CĐ quantritien", "CĐ quantrinophaithu"], pages_extracted_limit: 8}
+        - {source_id: src-0163, filename: "Chương 8.pdf", chapter: 8, page_count: 24, char_count: 13361, extract_ok: true, parseability: pdf_text_layer_present, outline_topics: ["CĐ donbaykinhdoanh", "CĐ donbaytaichinh"]}
+        - {source_id: src-0164, filename: "Chương 9.pdf", chapter: 9, page_count: 13, char_count: 16221, extract_ok: true, parseability: pdf_text_layer_present, outline_topics: ["CĐ cotucvahinhthuc", "CĐ cotucvagiatricongty"]}
+    lecture_slide:
+      items:
+        - {source_id: src-0167, filename: "Slide Chương 1.pdf", chapter: 1, page_count: 8, char_count: 2071, extract_ok: true}
+        - {source_id: src-0168, filename: "Slide Chương 2.pdf", chapter: 2, page_count: 26, char_count: 1463, extract_ok: true, lecturers_on_slide: "TS PHẠM HÀ & ThS HUỲNH THÁI BẢO"}
+        - {source_id: src-0169, filename: "Slide Chương 4.pdf", chapter: 4, page_count: 15, char_count: 1337, extract_ok: true, lecturers_on_slide: "TS PHẠM HÀ & ThS HUỲNH THÁI BẢO"}
+        - {source_id: src-0170, filename: "Slide Chương 5.pdf", chapter: 5, page_count: 16, char_count: 1038, extract_ok: true, lecturers_on_slide: "TS PHẠM HÀ & ThS HUỲNH THÁI BẢO"}
+        - {source_id: src-0171, filename: "Slide Chương 6.pdf", chapter: 6, page_count: 14, char_count: 1084, extract_ok: true, lecturers_on_slide: "TS PHẠM HÀ & ThS HUỲNH THÁI BẢO"}
+        - source_id: src-0172
+          filename: Slide.pdf
+          chapter: null
+          page_count: 77
+          char_count: 1108
+          extract_ok: true
+          note: "OBSERVED PDF outline is a compilation of Slide Chương 0, 2, 4, 5, 6 only. Extract truncated (6/77 pages). Not a substitute for missing Ch 3/7/8/9 slides."
+        - source_id: src-0165
+          filename: Corporate_Finance_Blueprint.pptx
+          inventory_role: lecture_slide
+          inventory_role_status: INFERRED
+          inventory_role_reason: "pptx extension only; content role not confirmed"
+          extract_ok: false
+          parseability: unknown
+          parseability_reason: "python-pptx not installed; not extracted"
+          size_bytes: 19934605
+          extract: extracts/tai-chinh-doanh-nghiep-1/src-0165__Corporate_Finance_Blueprint.pptx.extract.md
+      missing_chapter_slides:
+        evidence_status: OBSERVED
+        chapters_without_dedicated_slide_file: [3, 7, 8, 9]
+    compiled_script_pdf:
+      items:
+        - source_id: src-0178
+          filename: "Tài Chính Doanh NGhiệp.pdf"
+          inventory_role: unknown
+          content_role: compiled_lecture_scripts
+          content_role_status: INFERRED
+          reason: "PDF outline matches Chương 0–9 script bookmarks (same TCDN1-ChN-CĐ-* Script CĐ tokens). First pages duplicate Chương 0 script. Not the named internal textbook 'Tài Chính Doanh Nghiệp Căn Bản'."
+          page_count: 218
+          char_count: 8846
+          pages_extracted: 6
+          extract_ok: true
+          parseability: pdf_text_layer_present
+          quality_note: "Extract truncated (6/218 pages)."
+    exam:
+      items:
+        - source_id: src-0176
+          filename: TCDN1-Dethimau.pdf
+          inventory_role: exam
+          authority_rank: 5
+          page_count: 7
+          char_count: 12434
+          extract_ok: true
+          observed: "ĐỀ THI MẪU; 40 MCQ; 90 phút; được tham khảo tài liệu; Khoa Tài chính-Ngân hàng; giảng viên line HUỲNH THÁI BẢO"
+        - source_id: src-0175
+          filename: TCDN1-Dapandethimau.pdf
+          inventory_role: exam
+          also_contains: solutions
+          answer_token_in_filename: true
+          classification_note: "inventory: filename contains both exam and answer tokens; primary role=exam"
+          authority_rank: 5
+          page_count: 1
+          char_count: 921
+          extract_ok: true
+          observed: "ĐÁP ÁN ĐỀ THI MẪU; 40 keys (Q1 B … Q40 A); signed HUỲNH THÁI BẢO"
+    summary:
+      items:
+        - source_id: src-0177
+          filename: TCDN1-Tailieuhuongdanntap.docx
+          inventory_role: summary
+          authority_rank: 6
+          char_count: 412
+          extract_ok: true
+          note: "Very short ôn tập list of textbooks + 'Bài giảng: Slide, video, scirpt'. Not a full syllabus."
+        - source_id: src-0173
+          filename: SO_TAY_THI_MO_TCDN1.docx
+          inventory_role: summary
+          authorship: UNKNOWN
+          pdf_metadata_author: Un-named
+          authority_rank_treatment: "Do not treat as official syllabus. INFERRED unofficial/personal open-book exam handbook (exam strategy, bẫy, bản đồ 40 câu)."
+          char_count: 11432
+          extract_ok: true
+        - source_id: src-0174
+          filename: SO_TAY_THI_MO_TCDN1.pdf
+          inventory_role: summary
+          authorship: UNKNOWN
+          pdf_metadata_author: Un-named
+          creator: "LibreOffice 24.2"
+          authority_rank_treatment: "PDF counterpart of src-0173; fuller extract (50605 chars / 25 pages)."
+          page_count: 25
+          char_count: 50605
+          extract_ok: true
+
+chapters:
+  - chapter: 0
+    title: "Giới thiệu môn học"
+    title_status: OBSERVED
+    title_sources: [src-0155, src-0166]
+    kind: course_intro
+    topics: []
+    objectives_observed:
+      - "Kiến thức: Giải thích được những kiến thức cơ bản về tài chính doanh nghiệp"
+      - "Kỹ năng: Ứng dụng kiến thức TCDN để giải quyết vấn đề thuộc lĩnh vực TCDN"
+      - "Thái độ: Đạo đức nghề nghiệp liên quan đến TCDN; tổ chức công việc; học hỏi phát triển bản thân"
+    source_ids: [src-0155, src-0166]
+
+  - chapter: 1
+    title: "Tổng quan về tài chính doanh nghiệp"
+    title_status: OBSERVED
+    title_sources: [src-0155, src-0156, src-0166]
+    topics:
+      - id: ch1-cd1
+        title: "Vấn đề căn bản về tài chính doanh nghiệp"
+        title_status: OBSERVED
+        source: src-0156
+        contents_observed:
+          - "I. Các loại hình doanh nghiệp"
+          - "II. Mục tiêu cốt lõi của doanh nghiệp"
+          - "III. Các quyết định trong doanh nghiệp"
+          - "IV. Tổ chức bộ máy tài chính trong doanh nghiệp"
+        objectives_observed:
+          - "Trình bày các loại hình doanh nghiệp, chủ yếu là công ty cổ phần"
+          - "Giải thích mục tiêu cốt lõi của doanh nghiệp và các quyết định trong doanh nghiệp"
+          - "Trình bày cơ cấu tổ chức bộ máy tài chính trong doanh nghiệp"
+      - id: ch1-cd2
+        title: "Môi trường kinh doanh của doanh nghiệp"
+        title_status: OBSERVED
+        source: src-0156
+        contents_observed:
+          - "I. Môi trường thuế"
+          - "II. Hệ thống tài chính"
+        objectives_observed:
+          - "Phân tích môi trường thuế trong các hoạt động của doanh nghiệp"
+          - "Trình bày hệ thống tài chính gồm thị trường tài chính, các tổ chức tài chính trung gian và các công cụ tài chính"
+    source_ids: [src-0156, src-0167]
+    slide_present: true
+
+  - chapter: 2
+    title: "Phân tích báo cáo tài chính"
+    title_status: OBSERVED
+    title_sources: [src-0155, src-0157, src-0168]
+    topics:
+      - id: ch2-cd1
+        title: "Vấn đề chung về phân tích báo cáo tài chính"
+        title_status: OBSERVED
+        source: src-0157
+        contents_observed:
+          - "I. Khái niệm, đối tượng và các phương pháp phân tích báo cáo tài chính"
+          - "II. Tài liệu phân tích báo cáo tài chính"
+          - "III. Các bước phân tích báo cáo tài chính"
+        methods_on_slide_observed:
+          source: src-0168
+          items:
+            - "Phân tích kết cấu"
+            - "Phân tích xu hướng"
+            - "Phân tích liên hệ cân đối"
+            - "Phân tích tỷ số tài chính"
+            - "Phân tích tài chính dupont"
+        documents_on_slide_observed:
+          source: src-0168
+          items:
+            - "Bảng cân đối kế toán"
+            - "Báo cáo kết quả kinh doanh"
+            - "Báo cáo lưu chuyển tiền tệ"
+            - "Thuyết minh báo cáo tài chính"
+      - id: ch2-cd2
+        title: "Nội dung phân tích"
+        title_status: INFERRED
+        inference_from: "PDF bookmark 'TCDN1- Ch2- CĐ noidungPT- Script CĐ' / slide bookmark 'CĐ noidungphantich'"
+        note: "First 8 extracted pages of Chương 2.pdf cover only chủ đề 1. Full Vietnamese heading of chủ đề 2 not in extracted text window."
+    source_ids: [src-0157, src-0168]
+    slide_present: true
+
+  - chapter: 3
+    title: "Thời giá của tiền tệ và mô hình chiết khấu dòng tiền"
+    title_status: OBSERVED
+    title_sources: [src-0155, src-0158, src-0166]
+    topics:
+      - id: ch3-cd1
+        title: "Vấn đề lãi và lãi suất"
+        title_status: OBSERVED
+        source: src-0158
+        contents_observed:
+          - "I. Lý do tiền tệ có giá trị theo thời gian"
+          - "II. Lãi đơn và lãi kép"
+          - "III. Lãi suất danh nghĩa và lãi suất hiệu dụng"
+      - id: ch3-cd2
+        title: "Thời giá tiền tệ của một số tiền và một dòng tiền"
+        title_status: OBSERVED
+        source: src-0158
+    source_ids: [src-0158]
+    slide_present: false
+    coverage_gap: "No dedicated Slide Chương 3.pdf in the folder."
+
+  - chapter: 4
+    title: "Lợi nhuận và rủi ro, mô hình định giá tài sản vốn"
+    title_status: OBSERVED
+    title_sources: [src-0155, src-0159, src-0169]
+    title_with_acronym_observed: "Lợi nhuận và rủi ro, mô hình định giá tài sản vốn (CAPM)"
+    topics:
+      - id: ch4-cd1
+        title: "Lợi nhuận và rủi ro"
+        title_status: OBSERVED
+        source: src-0159
+        contents_observed:
+          - "I. Định nghĩa lợi nhuận và rủi ro trong tài chính"
+          - "II. Lợi nhuận và rủi ro một tài sản đầu tư riêng lẻ"
+          - "III. Lợi nhuận và rủi ro một danh mục đầu tư"
+      - id: ch4-cd2
+        title: "Mô hình CAPM"
+        title_status: INFERRED
+        inference_from: "PDF/slide bookmark 'CĐ mohinhCAPM'"
+        note: "Chapter title OBSERVED includes mô hình định giá tài sản vốn (CAPM). Dedicated chủ đề heading not in first extracted pages."
+    source_ids: [src-0159, src-0169]
+    slide_present: true
+
+  - chapter: 5
+    title: "Định giá và quyết định đầu tư chứng khoán"
+    title_status: OBSERVED
+    title_sources: [src-0155, src-0160, src-0170]
+    topics:
+      - id: ch5-cd1
+        title: "Định giá và quyết định đầu tư trái phiếu"
+        title_status: OBSERVED
+        source: src-0160
+        contents_observed:
+          - "I. Vấn đề căn bản về trái phiếu"
+          - "II. Định giá trái phiếu"
+          - "III. Lợi suất đầu tư trái phiếu"
+          - "IV. Phân tích sự biến động giá trái phiếu"
+        key_terms_on_slide_observed:
+          source: src-0170
+          items: ["YTM", "YTC"]
+      - id: ch5-cd2
+        title: "Định giá và quyết định đầu tư cổ phiếu"
+        title_status: INFERRED
+        inference_from: "PDF/slide bookmark 'CĐ cophieu' parallel to OBSERVED trái phiếu chủ đề title"
+    source_ids: [src-0160, src-0170]
+    slide_present: true
+
+  - chapter: 6
+    title: "Phân tích quyết định đầu tư tài sản dài hạn và chi phí sử dụng vốn"
+    title_status: OBSERVED
+    title_sources: [src-0155, src-0161, src-0171]
+    topics:
+      - id: ch6-cd1
+        title: "Các tiêu chuẩn đánh giá"
+        title_status: OBSERVED
+        source: src-0161
+        contents_observed:
+          - "I. Những vấn đề căn bản về phân tích quyết định đầu tư tài sản dài hạn"
+          - "II. Các tiêu chuẩn đánh giá"
+        criteria_on_slide_observed:
+          source: src-0171
+          items:
+            - "Hiện giá thuần (NPV)"
+            - "Tỷ suất sinh lời nội bộ (IRR)"
+            - "TSSL nội bộ hiệu chỉnh (MIRR)"
+        criteria_in_script_observed:
+          source: src-0161
+          items:
+            - "giá trị hiện tại thuần (NPV)"
+            - "chỉ số sinh lời (PI)"
+            - "tỷ suất sinh lời nội bộ (IRR)"
+            - "tỷ suất sinh lời nội bộ hiệu chỉnh (MIRR)"
+            - "thời gian hoàn vốn không có chiết khấu / có chiết khấu (PP / DPP) — listed in script step 6"
+        discount_rate_label_observed:
+          - term: "K_wacc"
+            evidence_status: OBSERVED
+            source: src-0161
+            note: "Script prints lãi suất chiết khấu (K) with subscript wacc. Spelled acronym WACC is not in this extracted script window."
+      - id: ch6-cd2
+        title: "Chi phí sử dụng vốn"
+        title_status: INFERRED
+        inference_from: "PDF/slide bookmark 'CĐ chiphivon' plus OBSERVED chapter title '...và chi phí sử dụng vốn'"
+    source_ids: [src-0161, src-0171]
+    slide_present: true
+
+  - chapter: 7
+    title: "Quản trị tài sản ngắn hạn"
+    title_status: OBSERVED
+    title_sources: [src-0155, src-0162]
+    topics:
+      - id: ch7-cd1
+        title: "Quản trị hàng tồn kho"
+        title_status: OBSERVED
+        source: src-0162
+      - id: ch7-cd2
+        title: "Quản trị tiền"
+        title_status: INFERRED
+        inference_from: "PDF bookmark 'CĐ quantritien'"
+      - id: ch7-cd3
+        title: "Quản trị nợ phải thu"
+        title_status: INFERRED
+        inference_from: "PDF bookmark 'CĐ quantrinophaithu'"
+    source_ids: [src-0162]
+    slide_present: false
+    coverage_gap: "No dedicated Slide Chương 7.pdf."
+
+  - chapter: 8
+    title: "Đòn bẩy kinh doanh và đòn bẩy tài chính"
+    title_status: OBSERVED
+    title_sources: [src-0155, src-0163]
+    topics:
+      - id: ch8-cd1
+        title: "Đòn bẩy kinh doanh (DOL)"
+        title_status: OBSERVED
+        source: src-0163
+      - id: ch8-cd2
+        title: "Đòn bẩy tài chính"
+        title_status: INFERRED
+        inference_from: "PDF bookmark 'CĐ donbaytaichinh' plus OBSERVED chapter title"
+        related_terms_in_extracted_formulas:
+          evidence_status: OBSERVED
+          source: src-0163
+          items: [EBIT, EPS, DOL, DFL]
+    source_ids: [src-0163]
+    slide_present: false
+    coverage_gap: "No dedicated Slide Chương 8.pdf."
+
+  - chapter: 9
+    title: "Cổ tức và chính sách cổ tức"
+    title_status: OBSERVED
+    title_sources: [src-0155, src-0164]
+    topics:
+      - id: ch9-cd1
+        title: "Hình thức chi trả cổ tức và cách thức chi trả cổ tức"
+        title_status: OBSERVED
+        source: src-0164
+        contents_observed:
+          - "I. Các hình thức chi trả cổ tức"
+          - "II. Cách thức chi trả cổ tức"
+          - "III. Nhận cổ tức so với phần lãi vốn"
+      - id: ch9-cd2
+        title: "Cổ tức và giá trị công ty"
+        title_status: INFERRED
+        inference_from: "PDF bookmark 'CĐ cotucvagiatricongty'"
+        related_headings_observed:
+          source: src-0164
+          items:
+            - "I. CÁC KHÍA CẠNH VỀ CHÍNH SÁCH CỔ TỨC"
+            - "II. THIẾT LẬP CHÍNH SÁCH CỔ TỨC"
+    source_ids: [src-0164]
+    slide_present: false
+    coverage_gap: "No dedicated Slide Chương 9.pdf. Sổ tay states Ch9 is in the outline but not in the sample exam."
+
+relationships:
+  - type: course_chapter_sequence
+    evidence_status: OBSERVED
+    source: src-0155
+    note: "Chương 0 lists chapters 0–9 in this order. Sequence is a table of contents, not a proven prerequisite graph."
+  - type: intra_course_forward_reference
+    evidence_status: OBSERVED
+    from: "Chương 1 / chủ đề môi trường thuế (lá chắn thuế, PV)"
+    to: "Chương thời giá tiền tệ / chiết khấu dòng tiền"
+    source: src-0156
+    note: "Script says discount rate K will be explained in the time-value / DCF chapter (OCR garbles the chapter number)."
+  - type: intra_course_uses
+    evidence_status: OBSERVED
+    from: "Chương 6 tiêu chuẩn NPV/IRR"
+    uses: "K_wacc as discount rate label"
+    source: src-0161
+  - type: named_but_unproven_link
+    evidence_status: UNKNOWN
+    note: "Do not invent prerequisites to Kế toán tài chính / Nguyên lý kế toán even though Ch2 uses BCTC line items. Curriculum does not state a prerequisite course."
+  - type: related_course_name_only
+    evidence_status: OBSERVED
+    note: "Folder name and intro title are 'Tài chính doanh nghiệp 1' / '(Phần 1)'. Existence or content of 'Tài chính doanh nghiệp 2' is UNKNOWN in this scan."
+
+coverage:
+  chapter_scripts: "0–9 present"
+  chapter_slides_dedicated: [0, 1, 2, 4, 5, 6]
+  chapter_slides_missing: [3, 7, 8, 9]
+  compiled_slide_pdf: "Slide.pdf = Ch 0+2+4+5+6"
+  exam_sample: true
+  exam_answer_key: true
+  official_internal_textbook_file: false
+  lms_video: false
+  pptx_unparsed: ["Corporate_Finance_Blueprint.pptx"]
+  extract_truncation:
+    - "Several chapter PDFs extracted first 8 pages only (Ch 2, 5, 6, 7, 9)."
+    - "Tài Chính Doanh NGhiệp.pdf 6/218 pages."
+    - "Slide.pdf 6/77 pages; slide char_counts are low vs page counts (image-heavy)."
+
+quality:
+  lecture_scripts: "Usable text layer; some words concatenated / OCR-like spacing."
+  lecture_slides: "Text layer present but sparse; titles and outlines recoverable; body often missing."
+  exam_and_key: "Fully extracted."
+  sotay: "docx+pdf well extracted; authorship UNKNOWN."
+  pptx: "Not extracted; parseability UNKNOWN."
+
+concepts:
+  # Only terms that appear as headings, objectives, or explicit key terms in extracts.
+  - {term: "loại hình doanh nghiệp", evidence_status: OBSERVED, found_in: heading, sources: [src-0156]}
+  - {term: "công ty cổ phần", evidence_status: OBSERVED, found_in: objective, sources: [src-0156]}
+  - {term: "mục tiêu cốt lõi của doanh nghiệp", evidence_status: OBSERVED, found_in: heading, sources: [src-0156]}
+  - {term: "tối đa hóa giá trị tài sản cho các chủ sở hữu", evidence_status: OBSERVED, found_in: exam_item, sources: [src-0176]}
+  - {term: "các quyết định trong doanh nghiệp", evidence_status: OBSERVED, found_in: heading, sources: [src-0156]}
+  - {term: "tổ chức bộ máy tài chính", evidence_status: OBSERVED, found_in: heading, sources: [src-0156]}
+  - {term: "môi trường thuế", evidence_status: OBSERVED, found_in: heading, sources: [src-0156]}
+  - {term: "lá chắn thuế khấu hao", evidence_status: OBSERVED, found_in: key_term, sources: [src-0156]}
+  - {term: "lá chắn thuế lãi vay", evidence_status: OBSERVED, found_in: key_term, sources: [src-0156]}
+  - {term: "hệ thống tài chính", evidence_status: OBSERVED, found_in: heading, sources: [src-0156]}
+  - {term: "thị trường tài chính", evidence_status: OBSERVED, found_in: objective, sources: [src-0156]}
+  - {term: "phân tích báo cáo tài chính", evidence_status: OBSERVED, found_in: heading, sources: [src-0157]}
+  - {term: "phân tích tỷ số tài chính", evidence_status: OBSERVED, found_in: heading, sources: [src-0168]}
+  - {term: "phân tích tài chính dupont", evidence_status: OBSERVED, found_in: heading, sources: [src-0168]}
+  - {term: "thời giá của tiền tệ", evidence_status: OBSERVED, found_in: heading, sources: [src-0155, src-0158]}
+  - {term: "mô hình chiết khấu dòng tiền", evidence_status: OBSERVED, found_in: heading, sources: [src-0155]}
+  - {term: "lãi đơn", evidence_status: OBSERVED, found_in: heading, sources: [src-0158]}
+  - {term: "lãi kép", evidence_status: OBSERVED, found_in: heading, sources: [src-0158]}
+  - {term: "lãi suất danh nghĩa", evidence_status: OBSERVED, found_in: heading, sources: [src-0158]}
+  - {term: "lãi suất hiệu dụng", evidence_status: OBSERVED, found_in: heading, sources: [src-0158]}
+  - {term: "giá trị hiện tại", evidence_status: OBSERVED, found_in: key_term, sources: [src-0156, src-0161]}
+  - {term: "lợi nhuận và rủi ro", evidence_status: OBSERVED, found_in: heading, sources: [src-0159]}
+  - {term: "mô hình định giá tài sản vốn (CAPM)", evidence_status: OBSERVED, found_in: heading, sources: [src-0159, src-0169]}
+  - {term: "danh mục đầu tư", evidence_status: OBSERVED, found_in: heading, sources: [src-0159]}
+  - {term: "định giá trái phiếu", evidence_status: OBSERVED, found_in: heading, sources: [src-0160]}
+  - {term: "YTM", evidence_status: OBSERVED, found_in: heading, sources: [src-0170]}
+  - {term: "YTC", evidence_status: OBSERVED, found_in: heading, sources: [src-0170]}
+  - {term: "hiện giá thuần (NPV)", evidence_status: OBSERVED, found_in: heading, sources: [src-0161, src-0171]}
+  - {term: "tỷ suất sinh lời nội bộ (IRR)", evidence_status: OBSERVED, found_in: heading, sources: [src-0161, src-0171]}
+  - {term: "TSSL nội bộ hiệu chỉnh (MIRR)", evidence_status: OBSERVED, found_in: heading, sources: [src-0171]}
+  - {term: "chỉ số sinh lời (PI)", evidence_status: OBSERVED, found_in: key_term, sources: [src-0161]}
+  - {term: "chi phí sử dụng vốn", evidence_status: OBSERVED, found_in: heading, sources: [src-0155, src-0161]}
+  - {term: "K_wacc", evidence_status: OBSERVED, found_in: formula_label, sources: [src-0161], note: "Lecturer script subscript; not the English heading 'WACC'."}
+  - {term: WACC, evidence_status: OBSERVED, found_in: key_term, sources: [src-0173, src-0174], note: "Spelled WACC appears in sổ tay thi mở (authorship UNKNOWN), not in extracted lecturer script headings."}
+  - {term: "quản trị hàng tồn kho", evidence_status: OBSERVED, found_in: heading, sources: [src-0162]}
+  - {term: "quản trị tài sản ngắn hạn", evidence_status: OBSERVED, found_in: heading, sources: [src-0155]}
+  - {term: "đòn bẩy kinh doanh (DOL)", evidence_status: OBSERVED, found_in: heading, sources: [src-0163]}
+  - {term: "đòn bẩy tài chính", evidence_status: OBSERVED, found_in: heading, sources: [src-0155]}
+  - {term: EBIT, evidence_status: OBSERVED, found_in: formula, sources: [src-0163]}
+  - {term: EPS, evidence_status: OBSERVED, found_in: formula, sources: [src-0163]}
+  - {term: DFL, evidence_status: OBSERVED, found_in: formula, sources: [src-0163]}
+  - {term: "cổ tức (dividend)", evidence_status: OBSERVED, found_in: key_term, sources: [src-0164]}
+  - {term: "chính sách cổ tức", evidence_status: OBSERVED, found_in: heading, sources: [src-0155, src-0164]}
+
+conflicts:
+  - id: final_exam_duration
+    evidence_status: OBSERVED
+    a: "Chương 0: thi kết thúc 75 phút (src-0155)"
+    b: "Đề thi mẫu / đáp án / sổ tay: 90 phút (src-0176, src-0175, src-0173)"
+    resolution: UNKNOWN
+  - id: vu_viet_quang_year
+    evidence_status: OBSERVED
+    a: "Chương 0 reading list: Vũ Việt Quảng dịch (2021)"
+    b: "TCDN1-Tailieuhuongdanntap: same work listed as 2019"
+    resolution: UNKNOWN
+  - id: chapter9_vs_sample_exam
+    evidence_status: OBSERVED
+    a: "Chương 0 lists Chương 9 in the course"
+    b: "Sổ tay says Ch9 is in the outline but not in the 40-question sample"
+    resolution: "Do not treat sổ tay as official scope. Sample paper coverage of Ch9 is UNKNOWN without full item-by-item mapping of src-0176."
+
+unknowns:
+  - official catalog course_code
+  - academic_year / semester of the learner
+  - contents of Corporate_Finance_Blueprint.pptx
+  - full text of second topics in chapters whose extracts stop at page 8
+  - whether SO_TAY_THI_MO is lecturer-issued or learner-authored
+  - location of named internal textbook 'Tài Chính Doanh Nghiệp Căn Bản'
+  - LMS videos
+  - prerequisite courses
+  - whether a 'Tài chính doanh nghiệp 2' course exists in this program

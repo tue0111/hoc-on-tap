@@ -1,0 +1,344 @@
+{
+  "course_id": "luat-kinh-doanh",
+  "unit_titles": [
+    {
+      "source_id": "src-0080",
+      "chapter": 2,
+      "topic": "2.1",
+      "title_from_filename": "LKD C2 CD. 2.1. NGA",
+      "page": 1
+    },
+    {
+      "source_id": "src-0081",
+      "chapter": 2,
+      "topic": "2.2",
+      "title_from_filename": "LKD C2 CD. 2.2. NGA",
+      "page": 1
+    },
+    {
+      "source_id": "src-0082",
+      "chapter": 2,
+      "topic": "2.3",
+      "title_from_filename": "LKD C2 CD. 2.3. ĐOAN",
+      "page": 1
+    },
+    {
+      "source_id": "src-0083",
+      "chapter": 2,
+      "topic": "2.4",
+      "title_from_filename": "LKD C2 CD. 2.4. NGA",
+      "page": 1
+    },
+    {
+      "source_id": "src-0084",
+      "chapter": 2,
+      "topic": "2.5",
+      "title_from_filename": "LKD C2 CD. 2.5. NGA",
+      "page": 1
+    },
+    {
+      "source_id": "src-0085",
+      "chapter": 3,
+      "topic": "3.1",
+      "title_from_filename": "LKD C3 CD. 3.1. HA",
+      "page": 1
+    },
+    {
+      "source_id": "src-0086",
+      "chapter": 3,
+      "topic": "3.2",
+      "title_from_filename": "LKD C3 CD. 3.2. HA",
+      "page": 1
+    },
+    {
+      "source_id": "src-0087",
+      "chapter": 3,
+      "topic": "3.3",
+      "title_from_filename": "LKD C3 CD. 3.3. HA",
+      "page": 1
+    },
+    {
+      "source_id": "src-0088",
+      "chapter": 4,
+      "topic": "4.1",
+      "title_from_filename": "LKD C4 CD. 4.1. ĐOAN",
+      "page": 1
+    },
+    {
+      "source_id": "src-0089",
+      "chapter": 4,
+      "topic": "4.2",
+      "title_from_filename": "LKD C4 CD. 4.2. ĐOAN",
+      "page": 1
+    },
+    {
+      "source_id": "src-0090",
+      "chapter": 5,
+      "topic": "5.1",
+      "title_from_filename": "LKD C5  CD. 5.1. ĐOAN",
+      "page": 1
+    },
+    {
+      "source_id": "src-0091",
+      "chapter": 5,
+      "topic": "5.2",
+      "title_from_filename": "LKD C5  CD. 5.2. ĐOAN",
+      "page": 1
+    },
+    {
+      "source_id": "src-0092",
+      "chapter": 5,
+      "topic": "5.3",
+      "title_from_filename": "LKD C5  CD. 5.3. ĐOAN",
+      "page": 1
+    }
+  ],
+  "heading_lines": [
+    {
+      "kind": "chuong",
+      "line": "Chương 2: Pháp luật về chủ thể kinh doanh",
+      "count": 4,
+      "refs": [
+        {
+          "source_id": "src-0080",
+          "page": 1
+        },
+        {
+          "source_id": "src-0081",
+          "page": 1
+        },
+        {
+          "source_id": "src-0083",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 3: PHÁP LUẬT VỀ HỢP ĐỒNG KINH DOANH, THƯƠNG MẠI",
+      "count": 3,
+      "refs": [
+        {
+          "source_id": "src-0085",
+          "page": 1
+        },
+        {
+          "source_id": "src-0086",
+          "page": 1
+        },
+        {
+          "source_id": "src-0087",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "CHƯƠNG 4: PHÁP LUẬT VỀ PHÁ SẢN",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0088",
+          "page": 1
+        },
+        {
+          "source_id": "src-0089",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "CHƯƠNG 5: GIẢI QUYẾT TRANH CHẤP KINH DOANH, THƯƠNG MẠI",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0090",
+          "page": 1
+        },
+        {
+          "source_id": "src-0091",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "CHƯƠNG 0: GIỚI THIỆU MÔN HỌC",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0077",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.1. QUY CHẾ PHÁP LÝ CHUNG VỀ DOANH NGHIỆP",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0078",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.2. CÔNG TY TRÁCH NHIỆM HỮU HẠN",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0078",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.3. CÔNG TY CỔ PHẦN",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0078",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.4. Công ty hợp danh và doanh nghiệp tư nhân",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0078",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.5. Hộ kinh doanh và hợp tác xã",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0078",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 1: TỔNG QUAN VỀ LUẬT KINH DOANH",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0079",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.1: Quy chế pháp lý chung về doanh nghiệp",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0080",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.2: Công ty trách nhiệm hữu hạn",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0081",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "CHƯƠNG 2: Pháp luật về chủ thể kinh doanh",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0082",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.4: Công ty hợp danh và doanh nghiệp tư nhân",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0083",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.5: Hộ kinh doanh và hợp tác xã",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0084",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.1. Khái quát về pháp luật hợp đồng, hợp đồng kinh doanh, thương mại",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0085",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.2. Pháp luật về hợp đồng dân sự",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0086",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.3. Pháp luật về hợp đồng trong hoạt động kinh doanh, thương mại",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0087",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "CHƯƠNG 5: PHÁP LUẬT VỀ GIẢI QUYẾT TRANH CHẤP KINH DOANH,",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0092",
+          "page": 1
+        }
+      ]
+    }
+  ],
+  "outline_titles": [],
+  "accounts": []
+}

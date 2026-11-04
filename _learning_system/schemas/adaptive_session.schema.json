@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.learning-system/schemas/adaptive_session.schema.json",
+  "title": "AdaptiveLearningSession",
+  "description": "Phase 5 Level 6 session state. Temporary. persist_to_learner_state is always false.",
+  "type": "object",
+  "required": ["session_id", "status", "persistence"],
+  "additionalProperties": false,
+  "properties": {
+    "session_id": { "type": "string" },
+    "course_context": { "type": "object" },
+    "current_task": { "type": "object" },
+    "evidence_history": { "type": "array" },
+    "diagnostic_history": { "type": "array" },
+    "decision_history": { "type": "array" },
+    "current_diagnosis": { "type": ["object", "null"] },
+    "current_decision": { "type": ["object", "null"] },
+    "open_hypotheses": { "type": "array" },
+    "resolved_hypotheses": { "type": "array" },
+    "hypothesis_records": { "type": "array" },
+    "diagnosis_transitions": { "type": "array" },
+    "decision_transitions": { "type": "array" },
+    "status": {
+      "type": "string",
+      "enum": ["ACTIVE", "NEED_MORE_EVIDENCE", "RESOLVED", "ABORTED"]
+    },
+    "resolution_kind": {
+      "type": ["string", "null"],
+      "enum": ["DIAGNOSIS_RESOLVED", "LEARNING_GAP_RESOLVED", "INCONCLUSIVE", null]
+    },
+    "discriminator_count": { "type": "integer" },
+    "pending_question": { "type": ["string", "null"] },
+    "rediagnose_count": { "type": "integer" },
+    "redecide_count": { "type": "integer" },
+    "adapted_override": { "type": ["object", "null"] },
+    "persistence": { "type": "boolean", "const": false },
+    "persist_to_learner_state": { "type": "boolean", "const": false }
+  }
+}

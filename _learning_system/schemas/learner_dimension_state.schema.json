@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.learning-system/schemas/learner_dimension_state.schema.json",
+  "title": "LearnerDimensionState",
+  "description": "Derived evidence state for one concept × one dimension. Not a competency grade.",
+  "type": "object",
+  "required": ["state", "confidence_band"],
+  "additionalProperties": false,
+  "properties": {
+    "state": {
+      "type": "string",
+      "enum": [
+        "INSUFFICIENT_EVIDENCE",
+        "SUPPORTED",
+        "TENTATIVELY_SUPPORTED",
+        "MIXED",
+        "CONCERN",
+        "TENTATIVE_CONCERN",
+        "RECOVERY_SIGNAL"
+      ]
+    },
+    "confidence_band": {
+      "type": "string",
+      "enum": ["HIGH", "MEDIUM", "LOW", "NONE"]
+    },
+    "positive_evidence_refs": { "type": "array", "items": { "type": "string" } },
+    "negative_evidence_refs": { "type": "array", "items": { "type": "string" } },
+    "contradiction_refs": { "type": "array" },
+    "independent_observation_count": { "type": "integer" },
+    "latest_observation_at": { "type": ["string", "null"] },
+    "latest_independent_outcome": { "type": ["string", "null"] },
+    "rationale_codes": { "type": "array", "items": { "type": "string" } }
+  }
+}

@@ -1,0 +1,1384 @@
+{
+  "course_id": "tai-chinh-doanh-nghiep-1",
+  "unit_titles": [],
+  "heading_lines": [
+    {
+      "kind": "chuong",
+      "line": "Chương 0: Giới thiệu môn học",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0155",
+          "page": 1
+        },
+        {
+          "source_id": "src-0178",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 1: Tổng quan về tài chính doanh nghiệp",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0155",
+          "page": 1
+        },
+        {
+          "source_id": "src-0178",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 2: Phân tích báo cáo tài chính",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0155",
+          "page": 1
+        },
+        {
+          "source_id": "src-0178",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 3: Thời giá của tiền tệ và mô hình chiết khấu dòng tiền",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0155",
+          "page": 1
+        },
+        {
+          "source_id": "src-0178",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 4: Lợi nhuận và rủi ro, mô hình định giá tài sản vốn",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0155",
+          "page": 1
+        },
+        {
+          "source_id": "src-0178",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 5: Định giá và quyết định đầu tư chứng khoán",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0155",
+          "page": 1
+        },
+        {
+          "source_id": "src-0178",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 6: Phân tích quyết định đầu tư tài sản dài hạn và chi phí sử dụng vốn",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0155",
+          "page": 1
+        },
+        {
+          "source_id": "src-0178",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 7: Quản trị tài sản ngắn hạn",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0155",
+          "page": 1
+        },
+        {
+          "source_id": "src-0178",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 8: Đòn bẩy kinh doanh và đòn bẩy tài chính",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0155",
+          "page": 1
+        },
+        {
+          "source_id": "src-0178",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 9: Cổ tức và chính sách cổ tức",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0155",
+          "page": 1
+        },
+        {
+          "source_id": "src-0178",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 3: Thời giá tiền tệ",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0173",
+          "page": 2
+        },
+        {
+          "source_id": "src-0174",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 4: Lợi nhuận – rủi ro – CAPM",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0173",
+          "page": 2
+        },
+        {
+          "source_id": "src-0174",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 5: Định giá chứng khoán",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0173",
+          "page": 2
+        },
+        {
+          "source_id": "src-0174",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 6: Dự án đầu tư & chi phí vốn",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0173",
+          "page": 3
+        },
+        {
+          "source_id": "src-0174",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 1: Tổng quan về tài chính doanh nghiệp 1.1. \tCác loại hình doanh nghiệp 1.2. \tMục tiêu cốt lõi của doanh nghiệp 1.3. Các quyết định trong doanh nghiệp 1.4.\tTổ chức bộ máy quản trị tài chính trong doanh nghiệp 1.5.\tMôi trường kinh doanh của doanh nghiệp 1.5.1.\tMôi trường thuế 1.5.2.\tHệ thống tài chính a).\tThị trường tài chính -Căn cứ theo thời gian: Thị trường tiền tệ và thị trường vốn -Căn cứ theo cấp độ: Thị trường sơ cấp và thị trường thứ cấp -Căn cứ theo quy mô: Thị trường tập trung và thị trường không tập trung -Căn cứ theo giao dịch: Thị trường giao ngay và thị trường phái sinh b).\tCác tổ chức trung gian tài chính  -Tổ chức trung gian tài chính nhận có nhận tiền gửi -Tổ chức trung gian tài chính không nhận tiền gửi c).\tCác công cụ tài chính -Công cụ tài chính ngắn hạn -Công cụ tài chính dài hạn | [1] [2] [3] [4]",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0177",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 2: Phân tích báo cáo tài chính 2.1. Những vấn đề chung liên quan đến phân tích báo cáo tài chính 2.1.1.\tKhái niệm phân tích báo cáo tài chính 2.1.2.\tĐối tượng phân tích báo cáo tài chính 2.1.3.\tCác phương pháp phân tích báo cáo tài chính 2.1.4.\tTài liệu phân tích báo cáo tài chính a).\tBảng cân đối kế toán b).\tBảng báo cáo kết quả kinh doanh c).\tBáo cáo lưu chuyển tiền tệ d).\tThuyết minh báo cáo tài chính e).\tMối quan hệ giữa các báo cáo tài chính 2.1.5.\tMột số nguyên nhân làm báo cáo tài chính bị sai lệch 2.2. Nội dung phân tích báo cáo tài chính 2.2.1. \tPhân tích tổng quan các báo cáo tài chính 2.2.2.\tPhân tích nhóm tỷ số tài chính a).\tNhóm tỷ số thanh toán (Nhóm tỷ số thanh toán nợ ngắn hạn) -Tỷ số thanh toán hiện hành -Tỷ số thanh toán nhanh b).\tNhóm tỷ số cơ cấu tài chính (Nhóm tỷ số đòn bẩy nợ) -Tỷ số nợ -Tỷ số tự tài trợ -Tỷ số đòn bẩy nợ -Tỷ số thanh toán lãi vay c).\tNhóm tỷ số hoạt động (Nhóm tỷ số hiệu quả quản lý tài sản) -Vòng quay khoản phải thu -Kỳ thu tiền bình quân -Vòng quay hàng tồn kho -Số ngày tồn kho bình quân -Vòng quay tài sản ngắn hạn -Hiệu suất sử dụng tài sản cố định -Vòng quay tổng tài sản d).\tNhóm tỷ số doanh lợi (Nhóm tỷ số tỷ suất lợi nhuận) -Doanh lợi tiêu thụ (ROS) -Doanh lợi tài sản (ROA) -Doanh lợi vốn chủ sở hữu (ROE) e).\tNhóm tỷ số thị trường (Nhóm tỷ số chứng khoán) -Thu nhập mỗi cổ phần (EPS) -Thư giá mỗi cổ phần (BV) -Tỷ số giá trên thu nhập (P/E) f).\tNhóm tỷ tăng trưởng -Tỷ số lợi nhuận giữ lại -Tỷ số tăng trưởng bền vững 2.2.3.\tPhân tích tài chính Dupont 2.3. Một số hạn chế trong phân tích báo cáo tài chính | [1] [2] [3] [4]",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0177",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 3: Thời giá của tiền tệ và mô hình chiết khấu dòng tiền 3.1. \tVấn đề lãi và lãi suất 3.1.1.\tLãi đơn và lãi kép a).\tLãi đơn b).\tLãi kép 3.1.2.\tLãi suất danh nghĩa và lãi suất hiệu dụng a).\tPhân biệt lãi suất danh nghĩa và lãi suất hiệu dụng b).\tChuyển lãi suất danh nghĩa thành lãi suất hiệu dụng 3.2. \tThời giá tiền tệ của một số tiền 3.2.1.\tGiá trị tương lai của một số tiền 3.2.2.\tGiá trị hiện tại của một số tiền 3.3. \tThời giá tiền tệ của một dòng tiền 3.3.1.\tGiá tr",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0177",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 4: Lợi nhuận và rủi ro, mô hình định giá tài sản vốn 4.1.\tKhái niệm lợi nhuận và rủi ro trong tài chính 4.2. \tLợi nhuận và rủi ro của một chứng khoán đầu tư riêng lẻ 4.2.1.\tTỷ suất sinh lời bình quân của một chứng khoán đầu tư riêng lẻ 4.2.2.\tPhương sai và độ lệch chuẩn của một chứng khoán đầu tư riêng lẻ 4.2.3.\tHệ số biến thiên của một chứng khoán đầu tư riêng lẻ 4.3. \tRủi ro hệ thống, rủi ro phi hệ thống và hệ số tương quan 4.3.1. Rủi ro hệ thống và rủi ro phi hệ thống 4.3.2. Hệ số tương quan 4.4.\tLợi nhuận và rủi ro của một danh mục đầu tư 4.4.1.\tTỷ suất sinh lời bình quân của một danh mục đầu tư 4.4.2.\tHệ số tương quan 4.4.3.\tPhương sai và độ lệch chuẩn của một danh mục đầu tư 4.4.4.\tMột số danh mục đầu tư đặc biệt 4.5.\tMô hình định giá tài sản vốn (CAPM) 4.5.1.\tGiả định của mô hình 4.5.2.\tNội dung của mô hình a).\tĐường đặc thù chứng khoán (SCL) b).\tĐường thị trường chứng khoán (SML) 4.5.3.\tHạn chế của mô hình CAPM | [1] [2] [3] [4]",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0177",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 5: Định giá và quyết định đầu tư chứng khoán 5.1. \tĐịnh giá và quyết định đầu tư trái phiếu 5.1.1.\tKhái niệm, phân loại và đặc điểm của trái phiếu thông thường a). \tKhái niệm trái phiếu b).\tPhân loại trái phiếu c).\tĐặc điểm của trái phiếu 5.1.2.\tĐịnh giá trái phiếu thông thường a).\tĐịnh giá trái phiếu hữu hạn có trả lãi hàng kỳ -Một năm trả lãi 1 lần -Sáu tháng trả lãi 1 lần b).\tĐịnh giá trái phiếu hữu hạn không trả lãi hàng kỳ 5.1.3.\tLợi suất đầu tư trái phiếu thông thường a).\tLợi suất sinh lời đầu tư lúc trái phiếu đáo hạn (YTM) b).\tLợi suất sinh lời đầu tư lúc trái phiếu được thu hồi trước hạn (YTC) 5.1.4.\tPhân tích sự biến động giá của trái phiếu thông thường 5.2. \tĐịnh giá và quyết định đầu tư cổ phiếu 5.2.1.\tKhái niệm, phân loại và đặc điểm của cổ phiếu thông thường a). \tKhái niệm cổ phiếu b).\tPhân loại cổ phiếu c).\tĐặc điểm của cổ phiếu 5.2.2.\tĐịnh giá cổ phiếu thông thường theo mô hình chiết khấu dòng tiền cổ tức a).\tXác định tốc độ tăng trưởng cổ tức cổ phần thường (g) b).\tXác định tỷ suất sinh lời yêu cầu khi đầu tư cổ phần thường c).\tĐịnh giá cổ phần thường trong trường hợp g tăng đều d).\tĐịnh giá cổ phần thường trong trường hợp g tăng zero e).\tĐịnh giá cổ phần thường trong trường hợp g tăng 2 giai đoạn 5.2.3.\tĐịnh giá cổ phiếu ưu đãi | [1] [2] [3] [4]",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0177",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 6: Phân tích quyết định đầu tư tài sản dài hạn và chi phí sử dụng vốn 6.1. Những vấn đề căn bản và tiêu chuẩn đánh giá dự án đầu tư 6.1.1. \tPhân loại dự án và quy trình phân tích quyết định đầu tư dự án 6.1.2.\tTiêu chuẩn đánh giá dự án a).\tHiện giá thuần (NPV) b).\tTỷ số sinh lời (PI) c).\tTỷ suất sinh lời nội bộ (IRR) d).\tTỷ suất sinh lời nội bộ hiệu chỉnh (MIRR) e).\tThời gian hoàn vốn không chiết khấu dòng tiền (PP) f).\tThời gian hoàn vốn có chiết khấu dòng tiền (DPP) 6.2. Hoạch định dòng tiền dự án đầu tư mở rộng 6.2.1.\tCác nguyên tắc hoạch định dòng tiền dự án đầu tư mở rộng a). Đánh giá dự án phải dựa vào dòn",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0177",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 7: Quản trị tài sản ngắn hạn 7.1. Quản trị hàng tồn kho 7.1.1.\tMục đích quản trị hàng tồn kho 7.1.2.\tPhân loại hàng tồn kho a). Nhóm tồn kho nguyên vật liệu b). Nhóm tồn kho sản phẩm dỡ dang c). Nhóm tồn kho thành phẩm 7.1.3.\tChi phí hàng tồn kho a). Chi phí lưu giữ hàng trong kho b). Chi phí đặt hàng  c). Chi phí mua hàng 7.1.4. Các mô hình quản trị hàng tồn kho a). Quản trị hàng tồn kho theo EOQ Giả định của mô hình Nội dung của mô hình: (1) Không có định mức tồn kho an toàn và không có chiết khấu hàng mua; (2) Có định mức tồn kho an toàn và không có chiết khấu hàng mua b). quản trị tồn kho theo nhu cầu -Hệ thống quản lý hàng tồn kho đúng lúc– (JIT: Just in times) -Lập kế hoạch yêu cầu vật tư – (MRP: Materials requirements planning) 7.2. \tQuản trị tiền tồn quỹ 7.2.1.\tMục đích quản trị tiền tồn quỹ 7.2.2.\tChi phí tiền tồn quỹ a). Chi phí cơ hội của tiền tồn quỹ b). Chi phí giao dịch chứng khoán 7.2.3. Các mô hình và phương pháp quản trị tiền tồn quỹ a). Quản trị tiền theo mô hình Baumol b). Quản trị tiền theo mô hình Miller-orr c). Quản trị tiền bằng lập ngân sách tiền mặt d). Kiểm soát thu chi tiền trong doanh nghiệp 7.3. \tQuản trị khoản phải thu 7.3.1.\tVấn đề căn bản về nợ phải thu 7.3.2.\tnội dung quản trị nợ phải thu (chính sách bán hàng) a). Tiêu chuẩn bán chịu  b). Điều khoản bán chịu -Thời hạn bán chịu -Điều khoản chiết khấu gồm: Thời hạn chiết khấu và tỷ lệ chiết khấu c). Quản lý và thu hồi nợ bán chịu | [1] [2] [3] [4]",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0177",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 8: Đòn bẩy kinh doanh và đòn bẩy tài chính Một số vấn đề chung: \tHoạt động kinh doanh và rủi ro kinh doanh \tHoạt động tài chính và rủi ro tài chính \tPhân loại chi phí: Biến phí & định phí 8.1. \tĐòn bẩy kinh doanh (DOL) 8.1.1.\tPhân tích mối quan hệ giữa sản lượng tiêu thụ & EBIT 8.1.2.\tPhân tích điểm hòa vốn tiêu thụ a). Khái niệm điểm hòa vốn tiêu thụ b). Sản lượng tiêu thụ hòa vốn c). Doanh thu tiêu thụ hòa vốn d). Biểu đồ tiêu thụ hòa vốn và ý nghĩa 8.1.3.\tĐòn bẩy kinh doanh 8.1.4.\tMối quan hệ giữa điểm hòa vốn và đòn bẩy kinh doanh 8.2. Đòn bẩy tài chính (DFL) 8.2.1.\tPhân tích mối quan hệ giữa EBIT & EPS 8.2.2.\tPhân tích điểm bàng quan EBIT & EPS a). Khái niệm điểm bàng quan EBIT & EPS b). Các bước tính điểm bàng quan EBIT & EPS 8.2.3.\tĐòn b",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0177",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 9: Cổ tức và chính sách cổ tức 9.1. Các hình thức chi trả cổ tức -Cổ tức bằng tiền -Cổ tức bằng cổ phiếu 9.2. Cách thức chi trả cổ tức -Ngày thông báo cổ tức -Ngày giao dịch không hưởng quyền -Ngày đăng ký cuối cùng -Ngày thanh toán cổ tức 9.3. Nhận cổ tức so với phần lãi vốn- Nhà đầu tư thích phần nào hơn -Lý thuyết về sự độc lập cổ tức của M&M -Lý do nhà đầu tư thích ưa cổ tức hơn -Lý do nhà đầu tư thích phần lãi vốn hơn 9.4. Các khía cạnh về chính sách cổ tức -Khía cạnh mang tính chiến lược -Khía cạnh mang tính pháp lý 9.5. Thiết lập chính sách cổ tức -Chính sách cổ tức trả sau đầu tư -Chính sách cổ tức ổn định -Chính sách cổ tức thỏa hiệp 9.6. Chi trả cổ tức bằng cổ phiếu và chia tách cổ phiếu 9.7. Mua lại cổ phiếu |",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0177",
+          "page": 4
+        }
+      ]
+    }
+  ],
+  "outline_titles": [
+    {
+      "source_id": "src-0156",
+      "title": "TCDN1- Ch1- CĐ vandecanban TCDN- Script CĐ",
+      "page": 1
+    },
+    {
+      "source_id": "src-0156",
+      "title": "TCDN1- Ch1- CĐ moitruong KD- Script CĐ",
+      "page": 5
+    },
+    {
+      "source_id": "src-0157",
+      "title": "TCDN1- Ch2- CĐ vandechung- Script CĐ",
+      "page": 1
+    },
+    {
+      "source_id": "src-0157",
+      "title": "TCDN1- Ch2- CĐ noidungPT- Script CĐ",
+      "page": 14
+    },
+    {
+      "source_id": "src-0158",
+      "title": "TCDN1- Ch3- CĐ vandelaisuat- Script CĐ",
+      "page": 1
+    },
+    {
+      "source_id": "src-0158",
+      "title": "TCDN1- Ch3-  CĐ thoigiatiente- Script CĐ",
+      "page": 6
+    },
+    {
+      "source_id": "src-0159",
+      "title": "TCDN1- Ch4- CĐ loinhuanvaruiro- Script CĐ",
+      "page": 1
+    },
+    {
+      "source_id": "src-0159",
+      "title": "TCDN1- Ch4- CĐ mohinhCAPM- Script CĐ",
+      "page": 16
+    },
+    {
+      "source_id": "src-0160",
+      "title": "TCDN1- Ch5- CĐ traiphieu- Script CĐ",
+      "page": 1
+    },
+    {
+      "source_id": "src-0160",
+      "title": "TCDN1- Ch5- CĐ cophieu- Script CĐ",
+      "page": 17
+    },
+    {
+      "source_id": "src-0161",
+      "title": "TCDN1- Ch6- CĐ tieuchuandanhgia- Script CĐ",
+      "page": 1
+    },
+    {
+      "source_id": "src-0161",
+      "title": "TCDN1- Ch6- CĐ chiphivon- Script CĐ",
+      "page": 16
+    },
+    {
+      "source_id": "src-0162",
+      "title": "TCDN1- Ch7- CĐ quantritonkho- Script CĐ",
+      "page": 1
+    },
+    {
+      "source_id": "src-0162",
+      "title": "TCDN1- Ch7- CĐ quantritien- Script CĐ",
+      "page": 17
+    },
+    {
+      "source_id": "src-0162",
+      "title": "TCDN1- Ch7- CĐ quantrinophaithu- Script CĐ",
+      "page": 33
+    },
+    {
+      "source_id": "src-0163",
+      "title": "TCDN1- Ch8- CĐ donbaykinhdoanh- Script CĐ",
+      "page": 1
+    },
+    {
+      "source_id": "src-0163",
+      "title": "TCDN1- Ch8- CĐ donbaytaichinh- Script CĐ",
+      "page": 13
+    },
+    {
+      "source_id": "src-0164",
+      "title": "TCDN1- Ch9- CĐ cotucvahinhthuc- Script CĐ",
+      "page": 1
+    },
+    {
+      "source_id": "src-0164",
+      "title": "TCDN1- Ch9- CĐ cotucvagiatricongty- Script CĐ",
+      "page": 6
+    },
+    {
+      "source_id": "src-0168",
+      "title": "TCDN1- Ch2- CĐ vandechung- Slide CĐ",
+      "page": 1
+    },
+    {
+      "source_id": "src-0168",
+      "title": "Slide 1 ",
+      "page": 1
+    },
+    {
+      "source_id": "src-0168",
+      "title": "Slide 2 ",
+      "page": 2
+    },
+    {
+      "source_id": "src-0168",
+      "title": "Slide 3 ",
+      "page": 3
+    },
+    {
+      "source_id": "src-0168",
+      "title": "Slide 4 ",
+      "page": 4
+    },
+    {
+      "source_id": "src-0168",
+      "title": "Slide 5 ",
+      "page": 5
+    },
+    {
+      "source_id": "src-0168",
+      "title": "Slide 6 ",
+      "page": 6
+    },
+    {
+      "source_id": "src-0168",
+      "title": "Slide 7 ",
+      "page": 7
+    },
+    {
+      "source_id": "src-0168",
+      "title": "Slide 8 ",
+      "page": 8
+    },
+    {
+      "source_id": "src-0168",
+      "title": "Slide 9 ",
+      "page": 9
+    },
+    {
+      "source_id": "src-0168",
+      "title": "Slide 10 ",
+      "page": 10
+    },
+    {
+      "source_id": "src-0168",
+      "title": "Slide 11 ",
+      "page": 11
+    },
+    {
+      "source_id": "src-0168",
+      "title": "Slide 12 ",
+      "page": 12
+    },
+    {
+      "source_id": "src-0168",
+      "title": "TCDN1- Ch2- CĐ noidungphantich- Slide CĐ",
+      "page": 13
+    },
+    {
+      "source_id": "src-0168",
+      "title": "Slide 1 ",
+      "page": 13
+    },
+    {
+      "source_id": "src-0168",
+      "title": "Slide 2 ",
+      "page": 14
+    },
+    {
+      "source_id": "src-0168",
+      "title": "Slide 3 ",
+      "page": 15
+    },
+    {
+      "source_id": "src-0168",
+      "title": "Slide 4 ",
+      "page": 16
+    },
+    {
+      "source_id": "src-0168",
+      "title": "Slide 5 ",
+      "page": 17
+    },
+    {
+      "source_id": "src-0168",
+      "title": "Slide 6 ",
+      "page": 18
+    },
+    {
+      "source_id": "src-0168",
+      "title": "Slide 7 ",
+      "page": 19
+    },
+    {
+      "source_id": "src-0168",
+      "title": "Slide 8 ",
+      "page": 20
+    },
+    {
+      "source_id": "src-0168",
+      "title": "Slide 9 ",
+      "page": 21
+    },
+    {
+      "source_id": "src-0168",
+      "title": "Slide 10 ",
+      "page": 22
+    },
+    {
+      "source_id": "src-0168",
+      "title": "Slide 11 ",
+      "page": 23
+    },
+    {
+      "source_id": "src-0168",
+      "title": "Slide 12 ",
+      "page": 24
+    },
+    {
+      "source_id": "src-0168",
+      "title": "Slide 13 ",
+      "page": 25
+    },
+    {
+      "source_id": "src-0168",
+      "title": "Slide 14 ",
+      "page": 26
+    },
+    {
+      "source_id": "src-0169",
+      "title": "TCDN1- Ch4- CĐ loinhuanvaruiro- Slide CĐ",
+      "page": 1
+    },
+    {
+      "source_id": "src-0169",
+      "title": "Slide 1 ",
+      "page": 1
+    },
+    {
+      "source_id": "src-0169",
+      "title": "Slide 2 ",
+      "page": 2
+    },
+    {
+      "source_id": "src-0169",
+      "title": "Slide 3 ",
+      "page": 3
+    },
+    {
+      "source_id": "src-0169",
+      "title": "Slide 4 ",
+      "page": 4
+    },
+    {
+      "source_id": "src-0169",
+      "title": "Slide 5 ",
+      "page": 5
+    },
+    {
+      "source_id": "src-0169",
+      "title": "Slide 6 ",
+      "page": 6
+    },
+    {
+      "source_id": "src-0169",
+      "title": "Slide 7 ",
+      "page": 7
+    },
+    {
+      "source_id": "src-0169",
+      "title": "TCDN1- Ch4- CĐ mohinhCAPM- Slide CĐ",
+      "page": 8
+    },
+    {
+      "source_id": "src-0169",
+      "title": "Slide 1 ",
+      "page": 8
+    },
+    {
+      "source_id": "src-0169",
+      "title": "Slide 2 ",
+      "page": 9
+    },
+    {
+      "source_id": "src-0169",
+      "title": "Slide 3 ",
+      "page": 10
+    },
+    {
+      "source_id": "src-0169",
+      "title": "Slide 4 ",
+      "page": 11
+    },
+    {
+      "source_id": "src-0169",
+      "title": "Slide 5 ",
+      "page": 12
+    },
+    {
+      "source_id": "src-0169",
+      "title": "Slide 6 ",
+      "page": 13
+    },
+    {
+      "source_id": "src-0169",
+      "title": "Slide 7 ",
+      "page": 14
+    },
+    {
+      "source_id": "src-0169",
+      "title": "Slide 8 ",
+      "page": 15
+    },
+    {
+      "source_id": "src-0170",
+      "title": "TCDN1- Ch5- CĐ traiphieu- Slide CĐ",
+      "page": 1
+    },
+    {
+      "source_id": "src-0170",
+      "title": "Slide 1 ",
+      "page": 1
+    },
+    {
+      "source_id": "src-0170",
+      "title": "Slide 2 ",
+      "page": 2
+    },
+    {
+      "source_id": "src-0170",
+      "title": "Slide 3 ",
+      "page": 3
+    },
+    {
+      "source_id": "src-0170",
+      "title": "Slide 4 ",
+      "page": 4
+    },
+    {
+      "source_id": "src-0170",
+      "title": "Slide 5 ",
+      "page": 5
+    },
+    {
+      "source_id": "src-0170",
+      "title": "Slide 6 ",
+      "page": 6
+    },
+    {
+      "source_id": "src-0170",
+      "title": "Slide 7 ",
+      "page": 7
+    },
+    {
+      "source_id": "src-0170",
+      "title": "Slide 8 ",
+      "page": 8
+    },
+    {
+      "source_id": "src-0170",
+      "title": "TCDN1- Ch5- CĐ cophieu- Slide CĐ",
+      "page": 9
+    },
+    {
+      "source_id": "src-0170",
+      "title": "Slide 1 ",
+      "page": 9
+    },
+    {
+      "source_id": "src-0170",
+      "title": "Slide 2 ",
+      "page": 10
+    },
+    {
+      "source_id": "src-0170",
+      "title": "Slide 3 ",
+      "page": 11
+    },
+    {
+      "source_id": "src-0170",
+      "title": "Slide 4 ",
+      "page": 12
+    },
+    {
+      "source_id": "src-0170",
+      "title": "Slide 5 ",
+      "page": 13
+    },
+    {
+      "source_id": "src-0170",
+      "title": "Slide 6 ",
+      "page": 14
+    },
+    {
+      "source_id": "src-0170",
+      "title": "Slide 7 ",
+      "page": 15
+    },
+    {
+      "source_id": "src-0170",
+      "title": "Slide 8 ",
+      "page": 16
+    },
+    {
+      "source_id": "src-0171",
+      "title": "TCDN1- Ch6- CĐ tieuchuandanhgia- Slide CĐ",
+      "page": 1
+    },
+    {
+      "source_id": "src-0171",
+      "title": "Slide 1 ",
+      "page": 1
+    },
+    {
+      "source_id": "src-0171",
+      "title": "Slide 2 ",
+      "page": 2
+    },
+    {
+      "source_id": "src-0171",
+      "title": "Slide 3 ",
+      "page": 3
+    },
+    {
+      "source_id": "src-0171",
+      "title": "Slide 4 ",
+      "page": 4
+    },
+    {
+      "source_id": "src-0171",
+      "title": "Slide 5 ",
+      "page": 5
+    },
+    {
+      "source_id": "src-0171",
+      "title": "Slide 6 ",
+      "page": 6
+    },
+    {
+      "source_id": "src-0171",
+      "title": "Slide 7 ",
+      "page": 7
+    },
+    {
+      "source_id": "src-0171",
+      "title": "TCDN1- Ch6- CĐ chiphivon- Slide CĐ",
+      "page": 8
+    },
+    {
+      "source_id": "src-0171",
+      "title": "Slide 1 ",
+      "page": 8
+    },
+    {
+      "source_id": "src-0171",
+      "title": "Slide 2 ",
+      "page": 9
+    },
+    {
+      "source_id": "src-0171",
+      "title": "Slide 3 ",
+      "page": 10
+    },
+    {
+      "source_id": "src-0171",
+      "title": "Slide 4 ",
+      "page": 11
+    },
+    {
+      "source_id": "src-0171",
+      "title": "Slide 5 ",
+      "page": 12
+    },
+    {
+      "source_id": "src-0171",
+      "title": "Slide 6 ",
+      "page": 13
+    },
+    {
+      "source_id": "src-0171",
+      "title": "Slide 7 ",
+      "page": 14
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide Chương 0",
+      "page": 1
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide Chương 2",
+      "page": 7
+    },
+    {
+      "source_id": "src-0172",
+      "title": "TCDN1- Ch2- CĐ vandechung- Slide CĐ",
+      "page": 7
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 1 ",
+      "page": 7
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 2 ",
+      "page": 8
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 3 ",
+      "page": 9
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 4 ",
+      "page": 10
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 5 ",
+      "page": 11
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 6 ",
+      "page": 12
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 7 ",
+      "page": 13
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 8 ",
+      "page": 14
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 9 ",
+      "page": 15
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 10 ",
+      "page": 16
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 11 ",
+      "page": 17
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 12 ",
+      "page": 18
+    },
+    {
+      "source_id": "src-0172",
+      "title": "TCDN1- Ch2- CĐ noidungphantich- Slide CĐ",
+      "page": 19
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 1 ",
+      "page": 19
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 2 ",
+      "page": 20
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 3 ",
+      "page": 21
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 4 ",
+      "page": 22
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 5 ",
+      "page": 23
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 6 ",
+      "page": 24
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 7 ",
+      "page": 25
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 8 ",
+      "page": 26
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 9 ",
+      "page": 27
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 10 ",
+      "page": 28
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 11 ",
+      "page": 29
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 12 ",
+      "page": 30
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 13 ",
+      "page": 31
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 14 ",
+      "page": 32
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide Chương 4",
+      "page": 33
+    },
+    {
+      "source_id": "src-0172",
+      "title": "TCDN1- Ch4- CĐ loinhuanvaruiro- Slide CĐ",
+      "page": 33
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 1 ",
+      "page": 33
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 2 ",
+      "page": 34
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 3 ",
+      "page": 35
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 4 ",
+      "page": 36
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 5 ",
+      "page": 37
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 6 ",
+      "page": 38
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 7 ",
+      "page": 39
+    },
+    {
+      "source_id": "src-0172",
+      "title": "TCDN1- Ch4- CĐ mohinhCAPM- Slide CĐ",
+      "page": 40
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 1 ",
+      "page": 40
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 2 ",
+      "page": 41
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 3 ",
+      "page": 42
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 4 ",
+      "page": 43
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 5 ",
+      "page": 44
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 6 ",
+      "page": 45
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 7 ",
+      "page": 46
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 8 ",
+      "page": 47
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide Chương 5",
+      "page": 48
+    },
+    {
+      "source_id": "src-0172",
+      "title": "TCDN1- Ch5- CĐ traiphieu- Slide CĐ",
+      "page": 48
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 1 ",
+      "page": 48
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 2 ",
+      "page": 49
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 3 ",
+      "page": 50
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 4 ",
+      "page": 51
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 5 ",
+      "page": 52
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 6 ",
+      "page": 53
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 7 ",
+      "page": 54
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 8 ",
+      "page": 55
+    },
+    {
+      "source_id": "src-0172",
+      "title": "TCDN1- Ch5- CĐ cophieu- Slide CĐ",
+      "page": 56
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 1 ",
+      "page": 56
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 2 ",
+      "page": 57
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 3 ",
+      "page": 58
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 4 ",
+      "page": 59
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 5 ",
+      "page": 60
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 6 ",
+      "page": 61
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 7 ",
+      "page": 62
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 8 ",
+      "page": 63
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide Chương 6",
+      "page": 64
+    },
+    {
+      "source_id": "src-0172",
+      "title": "TCDN1- Ch6- CĐ tieuchuandanhgia- Slide CĐ",
+      "page": 64
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 1 ",
+      "page": 64
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 2 ",
+      "page": 65
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 3 ",
+      "page": 66
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 4 ",
+      "page": 67
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 5 ",
+      "page": 68
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 6 ",
+      "page": 69
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 7 ",
+      "page": 70
+    },
+    {
+      "source_id": "src-0172",
+      "title": "TCDN1- Ch6- CĐ chiphivon- Slide CĐ",
+      "page": 71
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 1 ",
+      "page": 71
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 2 ",
+      "page": 72
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 3 ",
+      "page": 73
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 4 ",
+      "page": 74
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 5 ",
+      "page": 75
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 6 ",
+      "page": 76
+    },
+    {
+      "source_id": "src-0172",
+      "title": "Slide 7 ",
+      "page": 77
+    },
+    {
+      "source_id": "src-0178",
+      "title": "Chương 0",
+      "page": 1
+    },
+    {
+      "source_id": "src-0178",
+      "title": "Chương 1",
+      "page": 4
+    },
+    {
+      "source_id": "src-0178",
+      "title": "TCDN1- Ch1- CĐ vandecanban TCDN- Script CĐ",
+      "page": 4
+    },
+    {
+      "source_id": "src-0178",
+      "title": "TCDN1- Ch1- CĐ moitruong KD- Script CĐ",
+      "page": 8
+    },
+    {
+      "source_id": "src-0178",
+      "title": "Chương 2",
+      "page": 16
+    },
+    {
+      "source_id": "src-0178",
+      "title": "TCDN1- Ch2- CĐ vandechung- Script CĐ",
+      "page": 16
+    },
+    {
+      "source_id": "src-0178",
+      "title": "TCDN1- Ch2- CĐ noidungPT- Script CĐ",
+      "page": 29
+    },
+    {
+      "source_id": "src-0178",
+      "title": "Chương 3",
+      "page": 47
+    },
+    {
+      "source_id": "src-0178",
+      "title": "TCDN1- Ch3- CĐ vandelaisuat- Script CĐ",
+      "page": 47
+    },
+    {
+      "source_id": "src-0178",
+      "title": "TCDN1- Ch3-  CĐ thoigiatiente- Script CĐ",
+      "page": 52
+    },
+    {
+      "source_id": "src-0178",
+      "title": "Chương 4",
+      "page": 59
+    },
+    {
+      "source_id": "src-0178",
+      "title": "TCDN1- Ch4- CĐ loinhuanvaruiro- Script CĐ",
+      "page": 59
+    },
+    {
+      "source_id": "src-0178",
+      "title": "TCDN1- Ch4- CĐ mohinhCAPM- Script CĐ",
+      "page": 74
+    },
+    {
+      "source_id": "src-0178",
+      "title": "Chương 5",
+      "page": 82
+    },
+    {
+      "source_id": "src-0178",
+      "title": "TCDN1- Ch5- CĐ traiphieu- Script CĐ",
+      "page": 82
+    },
+    {
+      "source_id": "src-0178",
+      "title": "TCDN1- Ch5- CĐ cophieu- Script CĐ",
+      "page": 98
+    },
+    {
+      "source_id": "src-0178",
+      "title": "Chương 6",
+      "page": 110
+    },
+    {
+      "source_id": "src-0178",
+      "title": "TCDN1- Ch6- CĐ tieuchuandanhgia- Script CĐ",
+      "page": 110
+    },
+    {
+      "source_id": "src-0178",
+      "title": "TCDN1- Ch6- CĐ chiphivon- Script CĐ",
+      "page": 125
+    },
+    {
+      "source_id": "src-0178",
+      "title": "Chương 7",
+      "page": 136
+    },
+    {
+      "source_id": "src-0178",
+      "title": "TCDN1- Ch7- CĐ quantritonkho- Script CĐ",
+      "page": 136
+    },
+    {
+      "source_id": "src-0178",
+      "title": "TCDN1- Ch7- CĐ quantritien- Script CĐ",
+      "page": 152
+    },
+    {
+      "source_id": "src-0178",
+      "title": "TCDN1- Ch7- CĐ quantrinophaithu- Script CĐ",
+      "page": 168
+    },
+    {
+      "source_id": "src-0178",
+      "title": "Chương 8",
+      "page": 182
+    },
+    {
+      "source_id": "src-0178",
+      "title": "TCDN1- Ch8- CĐ donbaykinhdoanh- Script CĐ",
+      "page": 182
+    },
+    {
+      "source_id": "src-0178",
+      "title": "TCDN1- Ch8- CĐ donbaytaichinh- Script CĐ",
+      "page": 194
+    },
+    {
+      "source_id": "src-0178",
+      "title": "Chương 9",
+      "page": 206
+    },
+    {
+      "source_id": "src-0178",
+      "title": "TCDN1- Ch9- CĐ cotucvahinhthuc- Script CĐ",
+      "page": 206
+    },
+    {
+      "source_id": "src-0178",
+      "title": "TCDN1- Ch9- CĐ cotucvagiatricongty- Script CĐ",
+      "page": 211
+    }
+  ],
+  "accounts": [
+    {
+      "account": "100",
+      "count": 1,
+      "refs": [
+        [
+          "src-0176",
+          2
+        ]
+      ]
+    }
+  ]
+}

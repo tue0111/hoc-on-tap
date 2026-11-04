@@ -1,0 +1,655 @@
+schema_version: "0.1"
+scanner: course-scanner
+scanned_at: "2026-09-07"
+layer: curriculum
+course_id: ke-toan-ngan-hang
+course_name: Kế toán ngân hàng
+source_folder: D:\Hoc\Kế toán ngân hàng
+extracts_dir: D:\Hoc\_learning_system\extracts\ke-toan-ngan-hang
+inventory_file_count: 10
+
+institution:
+  value: null
+  evidence_status: UNKNOWN
+  note: "No institution name in extracted chapter scripts or the chart-of-accounts docx. Do not infer Đại học Mở from sibling courses."
+
+course_code:
+  value: "ACCO1331"
+  evidence_status: OBSERVED
+  evidence:
+    - source_id: src-0048
+      quote: "Môn học: KẾ TOÁN NGÂN HÀNG – ACCO1331"
+    - source_ids_also: [src-0049, src-0050, src-0051, src-0052]
+  note: "Code is in every chapter script header. Not in filenames."
+
+academic_year:
+  value: null
+  evidence_status: UNKNOWN
+
+semester:
+  value: null
+  evidence_status: UNKNOWN
+
+status:
+  materials: partial
+  completeness: incomplete
+  notes:
+    - "OBSERVED: intro inside Chương 1.pdf says the course is designed as 09 (chín) chapters."
+    - "OBSERVED: folder has Chương 1.pdf–Chương 5.pdf only; no Chương 0, 6, 7, 8, 9 files."
+    - "OBSERVED: Chương 1.pdf starts with 'Chương 0: GIỚI THIỆU MÔN HỌC' then continues into Chương 1 content."
+    - "No slides, no sample exam, no standalone syllabus in this folder."
+
+lecturers:
+  named: []
+  unnamed_group:
+    evidence_status: OBSERVED
+    label: "nhóm tác giả / nhóm biên soạn"
+    evidence:
+      - source_id: src-0048
+        quote: "Thay mặt nhóm tác giả"
+      - source_id: src-0049
+        quote: "nhóm biên soạn"
+  file_metadata_authors_not_confirmed_as_lecturers:
+    - name: "Huyen, Le Thi"
+      file: "Bảng hệ thống tài khoản kế toán ngân hàng.docx"
+      evidence_status: OBSERVED
+      note: "docx metadata author only; not stated as course lecturer."
+
+assessment:
+  evidence_status: OBSERVED
+  source_id: src-0048
+  process:
+    - item: "Thảo luận (Diễn đàn)"
+      weight_pct: 15
+    - item: "Bài tập kết thúc chương (Bài tập trắc nghiệm, Bài tập cá nhân)"
+      weight_pct: 20
+    - item: "Video conference"
+      weight_pct: 5
+  final:
+    - item: "Đánh giá cuối kỳ (trắc nghiệm)"
+      weight_pct: 60
+  sample_exam_in_folder: false
+
+sources:
+  by_role:
+    syllabus_intro:
+      note: "No separate đề cương. Intro is embedded as Chương 0 inside Chương 1.pdf."
+      items:
+        - source_id: src-0048
+          relative_path: "Kế toán ngân hàng/Chương 1.pdf"
+          inventory_role: lecture_note
+          functional_role: "syllabus_intro + chapter_1_script"
+          page_count: 28
+          pages_extracted: 8
+          char_count: 16979
+          extract_ok: true
+          truncation: true
+    lecture_note:
+      items:
+        - source_id: src-0048
+          relative_path: "Kế toán ngân hàng/Chương 1.pdf"
+          contains: ["Chương 0 intro", "Chương 1"]
+          chapter: 1
+          page_count: 28
+          pages_extracted: 8
+          char_count: 16979
+          extract_ok: true
+          truncation: true
+          outline:
+            - "KeToanNganHang_Script"
+            - "SCRIP KTNH_C1_CD1.1_Dacdiemkinhdoanhcuanganhanganhhuongdenketoan"
+            - "SCRIP KTNH_C1_CD1.2_Doituongketoannganhang"
+            - "SCRIP KTNH_C1_CD1.3_Tochuccongtacketoan"
+            - "SCRIP KTNH_C1_CD1.4_Hethongtaikhoanketoannganhang"
+            - "SCRIP KTNH_C1_CD1.5_Chungtutrongketoannganhang"
+        - source_id: src-0049
+          relative_path: "Kế toán ngân hàng/Chương 2.pdf"
+          chapter: 2
+          page_count: 15
+          pages_extracted: 8
+          char_count: 14618
+          extract_ok: true
+          truncation: true
+        - source_id: src-0050
+          relative_path: "Kế toán ngân hàng/Chương 3.pdf"
+          chapter: 3
+          page_count: 30
+          pages_extracted: 8
+          char_count: 16500
+          extract_ok: true
+          truncation: true
+        - source_id: src-0051
+          relative_path: "Kế toán ngân hàng/Chương 4.pdf"
+          chapter: 4
+          page_count: 36
+          pages_extracted: 8
+          char_count: 17347
+          extract_ok: true
+          truncation: true
+        - source_id: src-0052
+          relative_path: "Kế toán ngân hàng/Chương 5.pdf"
+          chapter: 5
+          page_count: 24
+          pages_extracted: 8
+          char_count: 16244
+          extract_ok: true
+          truncation: true
+    reference:
+      items:
+        - source_id: src-0047
+          relative_path: "Kế toán ngân hàng/Bảng hệ thống tài khoản kế toán ngân hàng.docx"
+          inventory_role: reference
+          char_count: 174
+          extract_ok: true
+          parse_quality: poor
+          note: >
+            Tables did not extract. Only heading text recovered:
+            'Sửa đổi Mục II- Hệ thống tài khoản kế toán như sau:'
+            'II. HỆ THỐNG TÀI KHOẢN KẾ TOÁN CÁC TỔ CHỨC TÍN DỤNG'
+            '(Ban hành kèm theo Thông tư 10/2014/TT-NHNN ngày 20 tháng 03 năm 2014)'.
+            Account codes in chapter scripts (e.g. TK 101) are not a substitute for this table.
+    unknown_generated_artifacts:
+      note: "tmp/ paths are unknown generated files, not curriculum. Extracts skipped."
+      items:
+        - source_id: src-0053
+          relative_path: "Kế toán ngân hàng/tmp/btl1/final_render/preview2.pdf"
+          inventory_role: unknown
+          extract_skip_reason: skipped_tmp_or_artifact
+        - source_id: src-0054
+          relative_path: "Kế toán ngân hàng/tmp/btl1/render/BTL1-preview.pdf"
+          inventory_role: unknown
+          extract_skip_reason: skipped_tmp_or_artifact
+          filename_hint: "BTL1-preview — assignment-like name, but path is tmp render; do not treat as official BTL."
+        - source_id: src-0055
+          relative_path: "Kế toán ngân hàng/tmp/pdfs/docx_word_render.pdf"
+          inventory_role: unknown
+          extract_skip_reason: skipped_tmp_or_artifact
+        - source_id: src-0056
+          relative_path: "Kế toán ngân hàng/tmp/pdfs/page_decor.pdf"
+          inventory_role: unknown
+          extract_skip_reason: skipped_tmp_or_artifact
+    lecture_slide: []
+    exam: []
+    textbook: []
+    exercise: []
+    solution: []
+    syllabus: []
+
+chapters:
+  - number: 0
+    title: "GIỚI THIỆU MÔN HỌC"
+    title_evidence_status: OBSERVED
+    title_source: src-0048
+    present_as_standalone_file: false
+    embedded_in: "Kế toán ngân hàng/Chương 1.pdf"
+    course_objectives_observed:
+      - "Phân tích được các nguyên tắc kế toán liên quan trong việc ghi nhận, đo lường và trình bày thông tin kế toán của ngân hàng thương mại"
+      - "Vận dụng các nguyên tắc và tài khoản kế toán để xử lý các giao dịch sự kiện tại ngân hàng thương mại"
+    course_learning_outcomes_observed:
+      - "Giải thích được các đặc điểm trong hoạt động kinh doanh của ngân hàng thương mại"
+      - "Phân tích các nguyên tắc kế toán và các đối tượng kế toán ngân hàng"
+      - "Vận dụng được tài khoản kế toán có liên quan để phản ánh các nghiệp vụ phát sinh chủ yếu của ngân hàng thương mại"
+      - "Trình bày được các đối tượng kế toán ngân hàng vào khoản mục thích hợp trên báo cáo tài chính"
+    designed_structure:
+      claimed_chapter_count: 9
+      evidence_status: OBSERVED
+      quote: "môn học được thiết kế 09 (chín) chương"
+      listed_titles:
+        - number: 1
+          title: "Tổng quan kế toán ngân hàng"
+        - number: 2
+          title: "Kế toán nghiệp vụ tiền mặt"
+        - number: 3
+          title: "Kế toán nghiệp vụ huy động vốn"
+        - number: 4
+          title: "Kế toán nghiệp vụ thanh toán qua ngân hàng"
+        - number: 5
+          title: "Kế toán nghiệp vụ tín dụng"
+        - number: 6
+          title: "Kế toán nghiệp vụ đầu tư và kinh doanh chứng khoản"
+          note: "Wording 'chứng khoản' is OBSERVED in intro (likely chứng khoán)."
+        - number: 7
+          title: "Kế toán kinh doanh ngoại tệ và thanh toán quốc tế"
+        - number: 8
+          title: "Kế toán thu nhập, chi phí và xác định kết quả kinh doanh"
+        - number: 9
+          title: "Báo cáo tài chính ngân hàng thương mại"
+    mentioned_materials_not_in_folder:
+      - "sách học tập và tài liệu tham khảo"
+      - "bài giảng video, slide và script"
+      - "bài tập có lời giải"
+
+  - number: 1
+    title: "TỔNG QUAN KẾ TOÁN NGÂN HÀNG"
+    title_evidence_status: OBSERVED
+    title_source: src-0048
+    present_in_folder: true
+    files: ["Chương 1.pdf"]
+    topic_count_stated_in_slide: 4
+    topic_count_in_pdf_outline: 5
+    topics:
+      - code: "1.1"
+        title: "Đặc điểm kinh doanh của ngân hàng ảnh hưởng đến kế toán"
+        evidence_status: OBSERVED
+      - code: "1.2"
+        title: "Đối tượng kế toán ngân hàng"
+        evidence_status: OBSERVED
+      - code: "1.3"
+        title: "Tổ chức công tác kế toán ngân hàng"
+        evidence_status: OBSERVED
+      - code: "1.4"
+        title: "Hệ thống tài khoản kế toán ngân hàng"
+        evidence_status: OBSERVED
+      - code: "1.5"
+        title: "Chứng từ trong kế toán ngân hàng"
+        evidence_status: OBSERVED
+        source: "PDF outline SCRIP KTNH_C1_CD1.5_Chungtutrongketoannganhang; also named in intro as chapter-1 content"
+        note: "Slide 4 of Chương 1 lists only 1.1–1.4; CĐR still includes 'Trình bày chứng từ kế toán ngân hàng'."
+    learning_objectives_observed:
+      - "Giải thích được các đặc điểm hoạt động của ngân hàng."
+      - "Phân biệt đối tượng kế toán ngân hàng"
+      - "Giải thích tổ chức bộ máy kế toán trong ngân hàng"
+      - "Hệ thống hóa hệ thống tài khoản kế toán ngân hàng"
+      - "Vận dụng hệ thống tài khoản kế toán để ghi chép các giao dịch cơ bản."
+      - "Trình bày chứng từ kế toán ngân hàng"
+    extract_note: "Body after slide 13 (legal basis) truncated; topics 1.2–1.5 bodies not in extract."
+
+  - number: 2
+    title: "KẾ TOÁN NGHIỆP VỤ NGÂN QUỸ"
+    title_evidence_status: OBSERVED
+    title_source: src-0049
+    intro_title_variant:
+      text: "Kế toán nghiệp vụ tiền mặt"
+      source_id: src-0048
+      evidence_status: OBSERVED
+      note: "Intro list uses 'tiền mặt'; chapter script title is 'ngân quỹ'."
+    present_in_folder: true
+    files: ["Chương 2.pdf"]
+    topics:
+      - code: "2.1"
+        title: "Kế toán nghiệp vụ tiền mặt"
+        evidence_status: OBSERVED
+      - code: "2.2"
+        title: "Kế toán tiền gửi tại ngân hàng nhà nước và các tổ chức tín dụng khác"
+        evidence_status: OBSERVED
+    learning_objectives_observed:
+      - "Trình bày khái niệm tiền mặt và tiền gửi tại ngân hàng nhà nước và các tổ chức tín dụng khác"
+      - "Ứng dụng hệ thống tài khoản kế toán để xử lý các nghiệp vụ kinh tế phát sinh về ngân quỹ (tiền mặt, tiền gửi tại ngân hàng nhà nước và các tổ chức tín dụng khác)"
+    scope_note_observed: "Nhóm biên soạn chỉ trình bày tài khoản / nghiệp vụ liên quan đến đồng Việt Nam."
+
+  - number: 3
+    title: "KẾ TOÁN NGHIỆP VỤ HUY ĐỘNG VỐN"
+    title_evidence_status: OBSERVED
+    title_source: src-0050
+    present_in_folder: true
+    files: ["Chương 3.pdf"]
+    topics:
+      - code: "3.1"
+        title: "Khái niệm, ghi nhận các nguồn huy động vốn"
+        evidence_status: OBSERVED
+      - code: "3.2"
+        title: "Kế toán tiền gửi và tiền gửi tiết kiệm"
+        evidence_status: OBSERVED
+        note: "Authors state they present tiền gửi thanh toán and tiền gửi tiết kiệm có kỳ hạn only."
+      - code: "3.3"
+        title: "Kế toán phát hành giấy tờ có giá"
+        evidence_status: OBSERVED
+        outline_tokens:
+          - "SCRIP KTNH_C3_CD3.3_Ketoanphathanhgiaytocogia-Video1"
+          - "SCRIP KTNH_C3_CD3.3_Ketoanphathanhgiaytocogia-Video2"
+    learning_objectives_observed:
+      - "Trình bày khái niệm, ghi nhận các nguồn huy động vốn"
+      - "Ứng dụng hệ thống tài khoản kế toán để xử lý các nghiệp vụ kinh tế phát sinh liên quan đến kế toán tiền gửi"
+      - "Ứng dụng hệ thống tài khoản kế toán để xử lý các nghiệp vụ kinh tế phát sinh liên quan đến kế toán phát hành giấy tờ có giá"
+
+  - number: 4
+    title: "KẾ TOÁN THANH TOÁN QUA NGÂN HÀNG"
+    title_evidence_status: OBSERVED
+    title_source: src-0051
+    intro_title_variant:
+      text: "Kế toán nghiệp vụ thanh toán qua ngân hàng"
+      source_id: src-0048
+      evidence_status: OBSERVED
+    present_in_folder: true
+    files: ["Chương 4.pdf"]
+    topics:
+      - code: "4.1"
+        title: "Hình thức thanh toán không dùng tiền mặt"
+        evidence_status: OBSERVED
+        alt: "Hình thức thanh toán không sử dụng tiền mặt"
+      - code: "4.2"
+        title: "Các phương thức thanh toán qua ngân hàng"
+        evidence_status: OBSERVED
+      - code: "4.3"
+        title: "Các hệ thống thanh toán qua ngân hàng"
+        evidence_status: OBSERVED
+      - code: "4.4"
+        title: "Kế toán nghiệp vụ thanh toán qua ngân hàng"
+        evidence_status: OBSERVED
+      - code: "4.5"
+        title: "Kế toán nghiệp vụ thanh toán liên ngân hàng"
+        evidence_status: OBSERVED
+        outline_tokens:
+          - "SCRIP KTNH_C4_CD4.5_Ketoannghiepvuthanhtoanliennganhang-Video1"
+          - "SCRIP KTNH_C4_CD4.5_Ketoannghiepvuthanhtoanliennganhang-Video2"
+    learning_objectives_observed:
+      - "Trình bày bản chất, điều kiện thanh toán qua ngân hàng"
+      - "Trình bày khái quát các hệ thống thanh toán qua ngân hàng"
+      - "Ứng dụng hệ thống tài khoản kế toán để xử lý các nghiệp vụ kinh tế phát sinh liên quan đến kế toán thanh toán qua ngân hàng"
+
+  - number: 5
+    title: "KẾ TOÁN NGHIỆP VỤ TÍN DỤNG"
+    title_evidence_status: OBSERVED
+    title_source: src-0052
+    present_in_folder: true
+    files: ["Chương 5.pdf"]
+    topics:
+      - code: "5.1"
+        title: "Khái quát nghiệp vụ cấp tín dụng và các nguyên tắc kế toán"
+        evidence_status: OBSERVED
+      - code: "5.2"
+        title: "Kế toán nghiệp vụ cho vay"
+        evidence_status: OBSERVED
+      - code: "5.3"
+        title: "Kế toán nghiệp vụ tín dụng khác"
+        evidence_status: OBSERVED
+        intro_examples: "chiết khấu giấy tờ có giá, bảo lãnh thanh toán"
+    learning_objectives_observed:
+      - "Trình bày nghiệp vụ cấp tín dụng"
+      - "Trình bày khái quát các nghiệp vụ tín dụng trong ngân hàng thương mại"
+      - "Ứng dụng hệ thống tài khoản kế toán để xử lý các nghiệp vụ kinh tế phát sinh liên quan đến kế toán nghiệp vụ tín dụng"
+
+  - number: 6
+    title: "Kế toán nghiệp vụ đầu tư và kinh doanh chứng khoản"
+    title_evidence_status: OBSERVED
+    title_source: src-0048
+    title_scope: designed_list_only
+    present_in_folder: false
+    intro_topics_named:
+      - "Khái quát các khoản đầu tư và kinh doanh chứng khoán"
+      - "Kế toán chứng khoán kinh doanh"
+      - "Kế toán chứng khoán giữ đến ngày đáo hạn"
+      - "Kế toán chứng khoán sẵn sàng để bán"
+
+  - number: 7
+    title: "Kế toán kinh doanh ngoại tệ và thanh toán quốc tế"
+    title_evidence_status: OBSERVED
+    title_source: src-0048
+    title_scope: designed_list_only
+    present_in_folder: false
+    intro_topics_named:
+      - "Khái quát về hoạt động kinh doanh ngoại tệ và thanh toán quốc tế"
+      - "Kế toán ngoại tệ mua bán giao ngay"
+      - "Kế toán giao dịch tiền tệ kỳ hạn"
+      - "Kế toán thanh toán quốc tế (chuyển tiền, nhờ thu, tín dụng chứng từ)"
+
+  - number: 8
+    title: "Kế toán thu nhập, chi phí và xác định kết quả kinh doanh"
+    title_evidence_status: OBSERVED
+    title_source: src-0048
+    title_scope: designed_list_only
+    present_in_folder: false
+    intro_topics_named:
+      - "Phân loại và nguyên tắc kế toán thu nhập và chi phí trong ngân hàng"
+      - "Kế toán thu nhập"
+      - "Kế toán chi phí"
+      - "Kế toán xác định kết quả kinh doanh"
+
+  - number: 9
+    title: "Báo cáo tài chính ngân hàng thương mại"
+    title_evidence_status: OBSERVED
+    title_source: src-0048
+    title_scope: designed_list_only
+    present_in_folder: false
+    intro_topics_named:
+      - "Trình bày báo cáo tài chính trong ngân hàng thương mại"
+      - "Lập Bảng cân đối kế toán"
+      - "Lập Báo cáo kết quả hoạt động kinh doanh"
+
+relationships:
+  prerequisites_observed: []
+  note: "Do not assume this course requires ngan-hang-thuong-mai. No document in this folder states a prerequisite course."
+  related_courses:
+    - course_id: ngan-hang-thuong-mai
+      relation: related_domain
+      evidence_status: INFERRED
+      confidence: low
+      reason: "KTNH intro/objectives describe accounting for ngân hàng thương mại operations (huy động vốn, tín dụng, thanh toán). That is domain overlap, not a stated prerequisite."
+    - course_id: nguyen-ly-ke-toan
+      relation: related_domain
+      evidence_status: INFERRED
+      confidence: low
+      reason: "Accounting-course family; not named in KTNH extracts."
+    - course_id: ke-toan-tai-chinh-1
+      relation: related_domain
+      evidence_status: INFERRED
+      confidence: low
+      reason: "Shared ACCO-style course-code pattern in other folders is not evidence inside this course."
+  cited_legal_sources_in_lectures:
+    evidence_status: OBSERVED
+    items:
+      - "Luật các tổ chức tín dụng số 47/2010/QH12"
+      - "Luật sửa đổi bổ sung một số điều của các tổ chức tín dụng số 17/2017/QH14"
+      - "Luật Kế toán số 88/2015/QH13 (heading 'Cơ sở pháp lý' in truncated Ch1 extract)"
+      - "Thông tư 10/2014/TT-NHNN (chart-of-accounts docx heading)"
+
+coverage:
+  advertised_chapters_missing_files: []
+  chapters_with_script_files: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+  designed_content_chapters: 9
+  present_content_chapter_files: [1, 2, 3, 4, 5]
+  present_intro: "embedded in Chương 1.pdf"
+  matching_slides: false
+  sample_exam: false
+  official_syllabus_file: false
+  chart_of_accounts_table: "file present; extract unusable"
+  missing:
+    - "Chương 6–9 scripts"
+    - "Standalone Chương 0 file"
+    - "Slides (intro says slide exists)"
+    - "Video bài giảng"
+    - "Bài tập có lời giải"
+    - "Sách học tập / textbook file"
+    - "Đề thi mẫu"
+    - "Usable extract of hệ thống tài khoản tables"
+
+quality:
+  scripts: "text_extractable but every chapter extract stops at 8 pages"
+  chart_of_accounts: "poor — 174 characters; Word tables not recovered"
+  tmp_artifacts: "not extracted; not curriculum"
+  truncation_observed:
+    - "src-0048 Chương 1.pdf: 8/28 pages (intro + start of 1.1 only)"
+    - "src-0049 Chương 2.pdf: 8/15 pages"
+    - "src-0050 Chương 3.pdf: 8/30 pages"
+    - "src-0051 Chương 4.pdf: 8/36 pages"
+    - "src-0052 Chương 5.pdf: 8/24 pages"
+  outline_quality: "PDF bookmarks useful for topic codes even when body truncated"
+
+concepts:
+  source_rule: "headings and stated learning objectives only; not body definitions"
+  items:
+    - id: ktnh-intro
+      chapter: 0
+      label: "Giới thiệu môn học Kế toán ngân hàng"
+      kind: heading
+    - id: ktnh-c1
+      chapter: 1
+      label: "Tổng quan kế toán ngân hàng"
+      kind: heading
+    - id: ktnh-c1-1
+      chapter: 1
+      label: "Đặc điểm kinh doanh của ngân hàng ảnh hưởng đến kế toán"
+      kind: heading
+    - id: ktnh-c1-2
+      chapter: 1
+      label: "Đối tượng kế toán ngân hàng"
+      kind: heading
+    - id: ktnh-c1-3
+      chapter: 1
+      label: "Tổ chức công tác kế toán ngân hàng"
+      kind: heading
+    - id: ktnh-c1-4
+      chapter: 1
+      label: "Hệ thống tài khoản kế toán ngân hàng"
+      kind: heading
+    - id: ktnh-c1-5
+      chapter: 1
+      label: "Chứng từ trong kế toán ngân hàng"
+      kind: heading
+    - id: ktnh-c2
+      chapter: 2
+      label: "Kế toán nghiệp vụ ngân quỹ"
+      kind: heading
+    - id: ktnh-c2-1
+      chapter: 2
+      label: "Kế toán tiền mặt"
+      kind: heading
+    - id: ktnh-c2-2
+      chapter: 2
+      label: "Kế toán tiền gửi tại NHNN và TCTD khác"
+      kind: heading
+    - id: ktnh-c3
+      chapter: 3
+      label: "Kế toán nghiệp vụ huy động vốn"
+      kind: heading
+    - id: ktnh-c3-1
+      chapter: 3
+      label: "Khái niệm, ghi nhận các nguồn huy động vốn"
+      kind: heading
+    - id: ktnh-c3-2
+      chapter: 3
+      label: "Kế toán tiền gửi và tiền gửi tiết kiệm"
+      kind: heading
+    - id: ktnh-c3-3
+      chapter: 3
+      label: "Kế toán phát hành giấy tờ có giá"
+      kind: heading
+    - id: ktnh-c4
+      chapter: 4
+      label: "Kế toán thanh toán qua ngân hàng"
+      kind: heading
+    - id: ktnh-c4-1
+      chapter: 4
+      label: "Hình thức thanh toán không dùng tiền mặt"
+      kind: heading
+    - id: ktnh-c4-2
+      chapter: 4
+      label: "Các phương thức thanh toán qua ngân hàng"
+      kind: heading
+    - id: ktnh-c4-3
+      chapter: 4
+      label: "Các hệ thống thanh toán qua ngân hàng"
+      kind: heading
+    - id: ktnh-c4-4
+      chapter: 4
+      label: "Kế toán nghiệp vụ thanh toán qua ngân hàng"
+      kind: heading
+    - id: ktnh-c4-5
+      chapter: 4
+      label: "Kế toán nghiệp vụ thanh toán liên ngân hàng"
+      kind: heading
+    - id: ktnh-c5
+      chapter: 5
+      label: "Kế toán nghiệp vụ tín dụng"
+      kind: heading
+    - id: ktnh-c5-1
+      chapter: 5
+      label: "Khái quát nghiệp vụ cấp tín dụng và nguyên tắc kế toán"
+      kind: heading
+    - id: ktnh-c5-2
+      chapter: 5
+      label: "Kế toán nghiệp vụ cho vay"
+      kind: heading
+    - id: ktnh-c5-3
+      chapter: 5
+      label: "Kế toán nghiệp vụ tín dụng khác"
+      kind: heading
+    - id: ktnh-c6
+      chapter: 6
+      label: "Kế toán nghiệp vụ đầu tư và kinh doanh chứng khoán"
+      kind: heading
+      presence: designed_only
+    - id: ktnh-c7
+      chapter: 7
+      label: "Kế toán kinh doanh ngoại tệ và thanh toán quốc tế"
+      kind: heading
+      presence: designed_only
+    - id: ktnh-c8
+      chapter: 8
+      label: "Kế toán thu nhập, chi phí và xác định kết quả kinh doanh"
+      kind: heading
+      presence: designed_only
+    - id: ktnh-c9
+      chapter: 9
+      label: "Báo cáo tài chính ngân hàng thương mại"
+      kind: heading
+      presence: designed_only
+
+unknowns:
+  - "Institution (not stated in extracts)"
+  - "Named lecturers"
+  - "Academic year / semester"
+  - "Whether chapters 6–9 exist outside this folder"
+  - "Whether tmp/BTL1-preview is a learner assignment draft (path says generated render; not treated as curriculum)"
+  - "Full chart of accounts content (table parse failed)"
+  - "Prerequisite courses (none stated)"
+
+mismatches:
+  - id: designed_9_vs_folder_1_to_5
+    evidence_status: OBSERVED
+    detail: "Intro lists 9 chapters; folder has Chương 1–5 only. Chapters 6–9 titles OBSERVED in intro, files absent."
+  - id: chuong0_embedded_in_chuong1
+    evidence_status: OBSERVED
+    detail: "No Chương 0.pdf; intro lives at the start of Chương 1.pdf."
+  - id: chuong2_title_tien_mat_vs_ngan_quy
+    evidence_status: OBSERVED
+    detail: "Intro names Chương 2 'Kế toán nghiệp vụ tiền mặt'; script title is 'KẾ TOÁN NGHIỆP VỤ NGÂN QUỸ'."
+  - id: chuong1_4_vs_5_topics
+    evidence_status: OBSERVED
+    detail: "Slide 4 lists 4 chủ đề (1.1–1.4); PDF outline includes CD1.5 chứng từ."
+  - id: tmp_not_curriculum
+    evidence_status: OBSERVED
+    detail: "tmp/btl1 and tmp/pdfs are generated artifacts; skipped extracts; unknown role."
+
+phase_2_1:
+  retrieval_impact: NO_RETRIEVAL_IMPACT
+  production_index: not_updated
+  status: READY_FOR_FUTURE_INGESTION
+  new_canonical:
+    - source_id: src-0255
+      file: Chương 6.pdf
+      title: Kế toán nghiệp vụ đầu tư và kinh doanh chứng khoán
+      pages: 77
+    - source_id: src-0256
+      file: Chương 7.pdf
+      title: Kế toán kinh doanh ngoại tệ và thanh toán quốc tế
+      pages: 40
+    - source_id: src-0257
+      file: Chương 8.pdf
+      title: Kế toán thu nhập, chi phí và xác định kết quả kinh doanh
+      pages: 23
+    - source_id: src-0258
+      file: Chương 9.pdf
+      title: Báo cáo tài chính ngân hàng thương mại
+      pages: 21
+    - source_id: src-0259
+      file: Hướng dẫn ôn tập.pdf
+      role: summary
+      pages: 10
+    - source_id: src-0302
+      file: Đề thi mẫu.pdf
+      role: exam
+      pages: 7
+  advertised_chapters_now_present: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+  missing_advertised_chapters: []
+  note: _nguon unit scripts catalogued only. tmp/ still not curriculum.
+
+v3:
+  tier: retrieval
+  index: 3.0.0
+  gate: G2c
+  gate_status: pass_r1
+  chunk_count: 959
+  coverage_evidence: data/normalized/ke-toan-ngan-hang.documents.jsonl
+  legacy_fields_note: Pre-V3 scan fields remain historical unless explicitly updated
+    above. V3 concepts and normalized corpus are canonical.

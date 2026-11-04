@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.learning-system/schemas/diagnostic_request.schema.json",
+  "title": "DiagnosticRequest",
+  "description": "Phase 3 Level 4 input. Session-local. Do not infer unstated learner history.",
+  "type": "object",
+  "required": ["question"],
+  "additionalProperties": false,
+  "properties": {
+    "request_id": { "type": ["string", "null"] },
+    "question": { "type": "string" },
+    "course_context": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "course_id": { "type": ["string", "null"] },
+        "chapter": { "type": ["integer", "string", "null"] },
+        "topic": { "type": ["string", "null"] }
+      }
+    },
+    "learner_response": { "type": ["string", "null"] },
+    "work_shown": { "type": ["string", "null"] },
+    "known_context": { "type": "array", "items": { "type": "string" } },
+    "allowed_scope": {
+      "type": "array",
+      "items": { "type": "string" },
+      "default": ["nguyen-ly-ke-toan", "ke-toan-tai-chinh-1", "ACCO1325", "ACCO2310"]
+    },
+    "followup_response": { "type": ["string", "null"] }
+  }
+}

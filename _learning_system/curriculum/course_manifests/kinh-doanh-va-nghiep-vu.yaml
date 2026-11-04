@@ -1,0 +1,1043 @@
+# Course scan — Kinh doanh và nghiệp vụ
+# Layer: curriculum inventory (Phase 0–1). Evidence labels: OBSERVED | INFERRED | UNKNOWN.
+# Source PDFs under D:\Hoc are read-only. This file is derived from those sources + extracts.
+
+course_id: kinh-doanh-va-nghiep-vu
+course_name:
+  value: Kinh doanh và nghiệp vụ
+  evidence_status: OBSERVED
+  evidence:
+    - source_id: src-0033
+      locator: "KDVNV-C0-Gioithieumonhoc.pdf p.1 header 'Môn học: Kinh doanh và nghiệp vụ'"
+    - source_id: src-0036
+      locator: "script giới thiệu môn học.pdf p.1"
+    - source_id: src-0035
+      locator: "KDVNV-HUONG DAN ON TAP.pdf p.1 'Môn học: KINH DOANH VÀ NGHIỆP VỤ – ACCO1305'"
+  aliases_observed:
+    - label: Kế toán và doanh nghiệp
+      evidence_status: OBSERVED
+      note: >
+        src-0036 slide 15 writes 'môn học Kế toán và doanh nghiệp' while the same
+        document's header is 'Kinh doanh và nghiệp vụ'. Do not merge into one official name.
+    - label: Kinh doanh và Nghiệp vụ
+      evidence_status: OBSERVED
+      note: Title-case variant in src-0018.
+
+source_folder: D:\Hoc\Kinh doanh và nghiệp vụ
+extracts_folder: D:\Hoc\_learning_system\extracts\kinh-doanh-va-nghiep-vu
+scan:
+  scanner: course-scanner
+  scanned_at: 2026-09-07
+  files_in_folder: 36
+  extracts_ok: 36
+  must_read_completed:
+    - KDVNV-C0-Gioithieumonhoc.pdf
+    - script giới thiệu môn học.pdf
+    - KDVNV-Dethimau.pdf
+    - KDVNV-HUONG DAN ON TAP.pdf
+    - all Chuong*/KDNV-C* topic scripts
+
+institution:
+  value: null
+  evidence_status: UNKNOWN
+  observed_phrases:
+    - text: hệ thống elolms của Nhà trường
+      source_id: src-0033
+      locator: C0 slide 5
+    - text: các cơ sở học tập của trường
+      source_id: src-0033
+      locator: C0 slide 6
+    - text: thư viện ở các cơ sở của trường
+      source_id: src-0033
+      locator: C0 slide 7
+    - text: Trung tâm đào tạo trực tuyến
+      source_id: src-0035
+      locator: "review §1.2"
+  note: >
+    School is implied (elolms, 'Nhà trường', campus test sites) but not named in KDNV
+    sources. Do not copy Trường Đại học Mở TPHCM from Luật kinh doanh into this field.
+
+course_code:
+  value: ACCO1305
+  evidence_status: OBSERVED
+  evidence:
+    - source_id: src-0035
+      locator: "KDVNV-HUONG DAN ON TAP.pdf p.1"
+  not_in:
+    - src-0033
+    - src-0036
+  note: Code appears only in the ôn tập document, not in C0 or the long intro script.
+
+credits:
+  value: null
+  evidence_status: UNKNOWN
+
+academic_year:
+  value: null
+  evidence_status: UNKNOWN
+
+semester:
+  value: null
+  evidence_status: UNKNOWN
+
+status: scanned
+delivery:
+  mode: trực tuyến
+  platform:
+    value: elolms
+    evidence_status: OBSERVED
+    source_id: src-0033
+    locator: C0 slides 5 and 7
+  evidence_status: OBSERVED
+
+program_position:
+  value: môn học khởi đầu của ngành kế toán
+  evidence_status: OBSERVED
+  quotes:
+    - source_id: src-0033
+      text: môn học khởi đầu của ngành kế toán
+      locator: C0 slide 1
+    - source_id: src-0036
+      text: Môn học Kinh doanh và nghiệp vụ là môn học khởi đầu của ngành Kế toán.
+      locator: script slide 4
+
+lecturers:
+  - name: Vũ Hữu Đức
+    evidence_status: OBSERVED
+    evidence:
+      - source_id: src-0036
+        locator: "script giới thiệu môn học.pdf p.1 'Giảng viên: Vũ Hữu Đức'"
+    not_named_in:
+      - src-0033
+      - topic_scripts
+    title: UNKNOWN
+    note: C0 does not name a lecturer. Topic scripts do not name a lecturer.
+
+sources:
+  - source_id: src-0033
+    role: syllabus
+    inventory_role: syllabus
+    filename: KDVNV-C0-Gioithieumonhoc.pdf
+    relative_path: Kinh doanh và nghiệp vụ/KDVNV-C0-Gioithieumonhoc.pdf
+    extract: extracts/kinh-doanh-va-nghiep-vu/src-0033__KDVNV-C0-Gioithieumonhoc.pdf.extract.md
+    page_count: 2
+    evidence_status: OBSERVED
+    notes:
+      - "Document self-label: BÀI GIẢNG DẠNG VĂN BẢN (SCRIPT); Chương 0: Giới thiệu môn học."
+      - Shorter of two intro scripts (8 slides on 2 pages).
+  - source_id: src-0036
+    role: syllabus
+    inventory_role: syllabus
+    filename: script giới thiệu môn học.pdf
+    relative_path: Kinh doanh và nghiệp vụ/script giới thiệu môn học.pdf
+    extract: extracts/kinh-doanh-va-nghiep-vu/src-0036__script_giới_thiệu_môn_học.pdf.extract.md
+    page_count: 7
+    evidence_status: OBSERVED
+    notes:
+      - "Longer intro: Script 0, 15 slides. Names lecturer Vũ Hữu Đức."
+      - Overlaps C0 but is not identical (7 vs 6 learning objectives; some chapter titles differ).
+  - source_id: src-0035
+    role: review
+    inventory_role: summary
+    filename: KDVNV-HUONG DAN ON TAP.pdf
+    relative_path: Kinh doanh và nghiệp vụ/KDVNV-HUONG DAN ON TAP.pdf
+    extract: extracts/kinh-doanh-va-nghiep-vu/src-0035__KDVNV-HUONG_DAN_ON_TAP.pdf.extract.md
+    page_count: 8
+    evidence_status: OBSERVED
+    notes:
+      - Official ôn tập + final-exam matrix. Course code ACCO1305.
+      - "§2.3 Tài liệu tham khảo heading present; no items listed."
+  - source_id: src-0034
+    role: exam
+    inventory_role: exam
+    filename: KDVNV-Dethimau.pdf
+    relative_path: Kinh doanh và nghiệp vụ/KDVNV-Dethimau.pdf
+    extract: extracts/kinh-doanh-va-nghiep-vu/src-0034__KDVNV-Dethimau.pdf.extract.md
+    page_count: 5
+    evidence_status: OBSERVED
+    notes:
+      - "ĐỀ THI MẪU, 40 MCQ, 60 phút, đáp án on last page."
+  - source_id: src-0001
+    role: lecture_note
+    filename: Chuong1-Chude1.1-Tochuckinhdoanhvacacbenlienquan.pdf
+    chapter: 1
+    topic_code: "1.1"
+  - source_id: src-0002
+    role: lecture_note
+    filename: Chuong1-Chude1.2-Moitruongkinhdoanh.pdf
+    chapter: 1
+    topic_code: "1.2"
+  - source_id: src-0003
+    role: lecture_note
+    filename: Chuong1-Chude1.3-Moitruongkinhdoanh - Cacyeutophaplychinhtrivaxahoi.pdf
+    chapter: 1
+    topic_code: "1.3"
+  - source_id: src-0004
+    role: lecture_note
+    filename: Chuong1-Chude1.4-Moitruongkinhdoanh - Cacyeutocongnghevamoitruong.pdf
+    chapter: 1
+    topic_code: "1.4"
+  - source_id: src-0005
+    role: lecture_note
+    filename: Chuong1-Chude1.5-Moitruongkinhdoanh - Cacmohinhphantichcanhtranh.pdf
+    chapter: 1
+    topic_code: "1.5"
+  - source_id: src-0006
+    role: lecture_note
+    filename: Chuong1-Chude1.6-Moitruongkinhtevimo - Cacvandecoban.pdf
+    chapter: 1
+    topic_code: "1.6"
+  - source_id: src-0007
+    role: lecture_note
+    filename: Chuong1-Chude1.7-Moitruongkinhtevimo - Cacchinhsachvimo.pdf
+    chapter: 1
+    topic_code: "1.7"
+  - source_id: src-0008
+    role: lecture_note
+    filename: Chuong1-Chude1.8-Moitruongkinhtevimo - Cacvandecoban.pdf
+    chapter: 1
+    topic_code: "1.8"
+  - source_id: src-0009
+    role: lecture_note
+    filename: Chuong1-Chude1.9-Moitruongkinhtevimo - Phantichcungcau.pdf
+    chapter: 1
+    topic_code: "1.9"
+  - source_id: src-0010
+    role: lecture_note
+    filename: Chuong2-Chude 2.1-Cautrucdoanhnghiepvachienluockinhdoanh.pdf
+    chapter: 2
+    topic_code: "2.1"
+  - source_id: src-0011
+    role: lecture_note
+    filename: Chuong2-Chude 2.2-Vanhoatochuc.pdf
+    chapter: 2
+    topic_code: "2.2"
+  - source_id: src-0012
+    role: lecture_note
+    filename: Chuong2-Chude 2.3-Quantridoanhnghiep.pdf
+    chapter: 2
+    topic_code: "2.3"
+  - source_id: src-0013
+    role: lecture_note
+    filename: Chuong2-Chude 2.4-Trachnhiemxahoicuadoanhnghiep.pdf
+    chapter: 2
+    topic_code: "2.4"
+  - source_id: src-0016
+    role: lecture_note
+    filename: KDNV-C3-CD3.1-P1-Khainiem,vaitrovacacloai hinhke toantrongdoanhnghiep.pdf
+    chapter: 3
+    topic_code: "3.1"
+    part: "P1"
+  - source_id: src-0017
+    role: lecture_note
+    filename: KDNV-C3-CD3.1-P2-Chuanmucketoanvakhungphaply.pdf
+    chapter: 3
+    topic_code: "3.1"
+    part: "P2"
+  - source_id: src-0018
+    role: lecture_note
+    filename: KDNV-C3-CD3.1-P3-Ketoantaichinh.pdf
+    chapter: 3
+    topic_code: "3.1"
+    part: "P3"
+  - source_id: src-0019
+    role: lecture_note
+    filename: KDNV-C3-CD3.1-P4-Ketoanquantri.pdf
+    chapter: 3
+    topic_code: "3.1"
+    part: "P4"
+  - source_id: src-0020
+    role: lecture_note
+    filename: KDNV-C3-CD3.1-P5-Muahangvatienluong.pdf
+    chapter: 3
+    topic_code: "3.1"
+    part: "P5"
+  - source_id: src-0021
+    role: lecture_note
+    filename: KDNV-C3-CD3.2-P1-Kiemsoatnoibo.pdf
+    chapter: 3
+    topic_code: "3.2"
+    part: "P1"
+  - source_id: src-0022
+    role: lecture_note
+    filename: KDNV-C3-CD3.2-P2-Kiemtoanvadichvubaodam.pdf
+    chapter: 3
+    topic_code: "3.2"
+    part: "P2"
+  - source_id: src-0023
+    role: lecture_note
+    filename: KDNV-C3-CD3.3-Gianlan.pdf
+    chapter: 3
+    topic_code: "3.3"
+  - source_id: src-0024
+    role: lecture_note
+    filename: KDNV-C3-CD3.4-Fintech.pdf
+    chapter: 3
+    topic_code: "3.4"
+  - source_id: src-0025
+    role: lecture_note
+    filename: KDNV-C4-CD4.1_Lanhdaoquanly.pdf
+    chapter: 4
+    topic_code: "4.1"
+    extract_note: "inventory page_count 15; extract pages_extracted 8 — truncated"
+  - source_id: src-0026
+    role: lecture_note
+    filename: KDNV-C4-CD4.2_Tuyendungvtuyenchon.pdf
+    chapter: 4
+    topic_code: "4.2"
+  - source_id: src-0027
+    role: lecture_note
+    filename: KDNV-C4-CD4.3-P1_Canhandoinhom.pdf
+    chapter: 4
+    topic_code: "4.3"
+    part: "P1"
+  - source_id: src-0028
+    role: lecture_note
+    filename: KDNV-C4-CD4.3-P2_Dongluclamviecchocanhannhom.pdf
+    chapter: 4
+    topic_code: "4.3"
+    part: "P2"
+  - source_id: src-0029
+    role: lecture_note
+    filename: KDNV-C4-CD4.4-P1_DaotaoPhattrien.pdf
+    chapter: 4
+    topic_code: "4.4"
+    part: "P1"
+  - source_id: src-0030
+    role: lecture_note
+    filename: KDNV-C4-CD4.4-P2_Danhgiathanhqua.pdf
+    chapter: 4
+    topic_code: "4.4"
+    part: "P2"
+  - source_id: src-0031
+    role: lecture_note
+    filename: KDNV-C5-CD5.1_QuanlythoigianTinhhieuquatrongcongviec.pdf
+    chapter: 5
+    topic_code: "5.1"
+  - source_id: src-0032
+    role: lecture_note
+    filename: KDNV-C5-CD5.2_Truyenthongtrongdoanhnghiep.pdf
+    chapter: 5
+    topic_code: "5.2"
+    extract_note: "inventory page_count 15; extract pages_extracted 8 — truncated"
+  - source_id: src-0014
+    role: lecture_note
+    filename: Chuong6-Chude6.1-Hanhvidaoducvadaoductrongkinhdoanh.pdf
+    chapter: 6
+    topic_code: "6.1"
+  - source_id: src-0015
+    role: lecture_note
+    filename: Chuong6-Chude6.2-Daoducnghenghiepketoan.pdf
+    chapter: 6
+    topic_code: "6.2"
+
+cited_but_not_in_folder:
+  - item: Đề cương môn học
+    evidence_status: OBSERVED
+    cited_in: src-0033 slide 4
+  - item: Lịch trình học tập
+    evidence_status: OBSERVED
+    cited_in: src-0033 slides 4–5
+  - item: Video bài giảng / slides trên elolms
+    evidence_status: OBSERVED
+    cited_in: [src-0033, src-0035]
+    note: Folder contains scripts only, not video or slide files.
+  - item: "ACCA Business Technology (https://www.accaglobal.com/)"
+    evidence_status: OBSERVED
+    cited_in: src-0033 slide 7
+    note: Named as online học liệu. Not stored in this folder. Not a license to import ACCA content as curriculum truth.
+  - item: "ACCA Education Hub (https://educationhub.accaglobal.com/)"
+    evidence_status: OBSERVED
+    cited_in: src-0035 §1.1
+    note: URL differs from C0. Same publisher family; do not merge URLs.
+  - item: Bài tập tự đánh giá sau mỗi chủ đề / bài kiểm tra sau mỗi chương
+    evidence_status: OBSERVED
+    cited_in: [src-0033, src-0035]
+    note: Prompts/quizzes themselves are not in the folder.
+  - item: Thảo luận chương 1, 3, 5
+    evidence_status: OBSERVED
+    cited_in: src-0033 slide 6
+  - item: Video conference tuần 2, 6, 10
+    evidence_status: OBSERVED
+    cited_in: src-0033 slide 6
+
+learning_objectives_course_level:
+  source_c0_six:
+    evidence_status: OBSERVED
+    source_id: src-0033
+    locator: C0 slide 2
+    items:
+      - Trang bị hiểu biết về mục tiêu, các loại hình tổ chức kinh doanh, các bên liên quan và các yếu tố môi trường ảnh hưởng đến hoạt động của tổ chức kinh doanh.
+      - Cung cấp kiến thức cơ bản về cấu trúc doanh nghiệp, vai trò của quản trị doanh nghiệp và trách nhiệm xã hội của doanh nghiệp.
+      - Trang bị kiến thức về nhiệm vụ, vai trò, chức năng của kế toán, các hoạt động đảm bảo và kiểm soát hệ thống thông tin cũng như ảnh hưởng của công nghệ tài chính đến hệ thống kế toán trong môi trường doanh nghiệp.
+      - Giới thiệu các nội dung cơ bản và cách thức ứng dụng các lý thuyết quản lý và lãnh đạo trong doanh nghiệp.
+      - Giới thiệu về các kỹ năng làm việc hiệu quả và truyền thông trong doanh nghiệp.
+      - Xây dựng ý thức tuân thủ đạo đức nghề nghiệp của người hành nghề kế toán và kiểm toán cũng như hiểu biết về đạo đức trong kinh doanh.
+  source_script_seven:
+    evidence_status: OBSERVED
+    source_id: src-0036
+    locator: slides 5–12
+    items:
+      - Trang bị hiểu biết về mục tiêu, loại hình và các yếu tố môi trường ảnh hưởng của doanh nghiệp. (Ch.1)
+      - Cung cấp kiến thức cơ bản về cấu trúc doanh nghiệp, vai trò của quản trị doanh nghiệp và trách nhiệm xã hội của doanh nghiệp. (Ch.2)
+      - Trang bị kiến thức về nhiệm vụ, vai trò, chức năng của kế toán, kiểm toán và kiểm soát trong môi trường doanh nghiệp. (maps to Ch.3; Fintech not named here)
+      - Giới thiệu các nội dung cơ bản và cách thức ứng dụng các lý thuyết quản lý và lãnh đạo trong doanh nghiệp. (Ch.4)
+      - Giới thiệu về truyền thông và giải quyết mâu thuẫn trong doanh nghiệp. (maps to Ch.5)
+      - Xây dựng ý thức tuân thủ đạo đức nghề nghiệp của người hành nghề kế toán và kiểm toán. (Ch.6)
+      - Rèn luyện năng lực làm việc độc lập / Xây dựng định hướng phát triển nghề nghiệp của bản thân. (whole-course; not a numbered chapter)
+    conflict_with_c0: >
+      C0 lists 6 objectives aligned to 6 chapters. Script lists 7 (adds independent-work /
+      career-orientation) and omits Fintech / đạo đức trong kinh doanh wording present in C0.
+
+assessment:
+  process_and_final_split:
+    numeric_weights: UNKNOWN
+    evidence_status: OBSERVED
+    note: "C0 slide 6: 'tỷ lệ mỗi phần như trên màn hình' — numbers not in the script text."
+  process:
+    evidence_status: OBSERVED
+    source_id: src-0033
+    items:
+      - discussions: chapters [1, 3, 5]
+      - chapter_tests: "chương 1 đến chương 6 dưới dạng trắc nghiệm (C0)"
+      - video_conference_weeks: [2, 6, 10]
+  chapter_tests_review:
+    evidence_status: OBSERVED
+    source_id: src-0035
+    items:
+      - {chapter: 1, form: trắc nghiệm, n: 10}
+      - {chapter: 2, form: tự luận, n: 1}
+      - {chapter: 3, form: tự luận, n: 1}
+      - {chapter: 4, form: trắc nghiệm, n: 10}
+      - {chapter: 5, form: trắc nghiệm, n: 10}
+      - {chapter: 6, form: trắc nghiệm, n: 10}
+    conflict_with_c0: >
+      C0 says all chapter-end tests are MCQ. Review says chapters 2 and 3 are 1 essay each.
+      Keep both; do not pick a winner.
+  final:
+    evidence_status: OBSERVED
+    from_c0:
+      source_id: src-0033
+      form: 1 bài kiểm tra trắc nghiệm
+      venue: trực tiếp tại các cơ sở học tập của trường
+      materials: được sử dụng tài liệu giấy
+    from_review:
+      source_id: src-0035
+      form: trắc nghiệm
+      venue: trực tiếp
+      duration_minutes: 60
+      n_questions: 40
+      materials: Được phép sử dụng tài liệu cá nhân khi làm bài
+    from_exam:
+      source_id: src-0034
+      title: ĐỀ THI MẪU MÔN KINH DOANH VÀ NGHIỆP VỤ
+      duration_minutes: 60
+      n_questions: 40
+      has_answer_key: true
+  clo_matrix:
+    evidence_status: OBSERVED
+    source_id: src-0035
+    locator: "review §III.b"
+    codes_observed: [CLO1.1, CLO1.2, CLO2.1, CLO3.1]
+    clo_definitions: UNKNOWN
+    note: Matrix gives question/point weights only; CLO statements are not in these files.
+    totals:
+      questions: 40
+      points: 10
+      level_mix_percent: {cap1: 40, cap2: 40, cap3: 20}
+      clo_point_percent: {CLO1.1: 30, CLO1.2: 30, CLO2.1: 25, CLO3.1: 15}
+
+chapters:
+  - number: 0
+    title: Giới thiệu môn học
+    title_evidence_status: OBSERVED
+    sources: [src-0033, src-0036]
+    topics: []
+  - number: 1
+    title: Tổ chức kinh doanh, các bên liên quan và môi trường kinh doanh
+    title_evidence_status: OBSERVED
+    title_sources:
+      - source_id: src-0033
+        text: Tổ chức kinh doanh, các bên liên quan và môi trường kinh doanh
+      - source_id: src-0035
+        text: "CHƯƠNG 1: Tổ chức kinh doanh, các bên liên quan và môi trường kinh doanh"
+      - source_id: src-0001
+        text: "Chương 1: Tổ chức kinh doanh, các bên liên quan và môi trường kinh doanh"
+    title_variant:
+      source_id: src-0036
+      text: "Chương 1: Tổ chức doanh nghiệp, các bên liên quan và môi trường bên ngoài"
+      evidence_status: OBSERVED
+    n_topics_declared_in_c1_overview: 9
+    topics:
+      - code: "1.1"
+        filename: Chuong1-Chude1.1-Tochuckinhdoanhvacacbenlienquan.pdf
+        source_id: src-0001
+        heading: "Chủ đề 1.1: Tổ chức kinh doanh và các bên liên quan"
+        heading_evidence_status: OBSERVED
+        objectives:
+          - Phân biệt các loại hình tổ chức kinh doanh
+          - Trình bày được vai trò quan trọng của tổ chức kinh doanh trong nền kinh tế
+          - Giải thích các đặc điểm chung của các tổ chức kinh doanh
+          - Trình bày các bên có lợi ích liên quan với tổ chức kinh doanh
+          - Giải thích quan hệ giữa các bên liên quan với tổ chức kinh doanh
+        content_headings:
+          - Khái niệm tổ chức kinh doanh
+          - Đặc điểm tổ chức kinh doanh
+          - Vai trò của tổ chức kinh doanh
+          - Phân loại tổ chức kinh doanh
+          - "Các bên liên quan (Stakeholders)"
+      - code: "1.2"
+        filename: Chuong1-Chude1.2-Moitruongkinhdoanh.pdf
+        source_id: src-0002
+        heading: "Chủ đề 1.2: Môi trường kinh doanh"
+        heading_evidence_status: OBSERVED
+        objectives:
+          - Trình bày ảnh hưởng của môi trường kinh doanh đến tổ chức kinh doanh
+          - Kể ra những nhóm yếu tố chủ yếu của môi trường kinh doanh
+          - Giải thích cách thức phân tích môi trường kinh doanh
+        content_headings:
+          - Môi trường kinh doanh
+          - Phân tích môi trường kinh doanh
+          - "môi trường nội bộ (internal environment)"
+          - "môi trường bên ngoài (external environment)"
+      - code: "1.3"
+        filename: Chuong1-Chude1.3-Moitruongkinhdoanh - Cacyeutophaplychinhtrivaxahoi.pdf
+        source_id: src-0003
+        heading: "Chủ đề 1.3: Môi trường kinh doanh- Các yếu tố chính trị, pháp lý và xã hội"
+        heading_evidence_status: OBSERVED
+        objectives:
+          - Mô tả ảnh hưởng của các yếu tố chính trị tác động đến doanh nghiệp
+          - Giải thích ảnh hưởng của các yếu tố pháp lý đến doanh nghiệp
+          - Giải thích ảnh hưởng của các xu hướng nhân khẩu học đến doanh nghiệp
+          - Mô tả ảnh hưởng của xu hướng xã hội và văn hóa đến hoạt động của doanh nghiệp
+        content_headings:
+          - Các yếu tố chính trị, pháp lý
+          - Các yếu tố xã hội
+      - code: "1.4"
+        filename: Chuong1-Chude1.4-Moitruongkinhdoanh - Cacyeutocongnghevamoitruong.pdf
+        source_id: src-0004
+        heading: "Chủ đề 1.4: Môi trường kinh doanh – Các yếu tố công nghệ và môi trường"
+        heading_evidence_status: OBSERVED
+        objectives:
+          - Giải thích ảnh hưởng của công nghệ đến cơ cấu tổ chức của doanh nghiệp
+          - Nhận dạng và giải thích ảnh hưởng khác của công nghệ thông tin đến doanh nghiệp
+          - Nêu các tác động của yếu tố môi trường đến hoạt động của doanh nghiệp
+          - Giải thích cách thức doanh nghiệp triển khai hoạt động hiệu quả để hạn chế các tác động của vấn đề môi trường
+        content_headings:
+          - Các yếu tố công nghệ
+          - Các yếu tố môi trường
+          - "giảm tầng nấc tổ chức (delayering)"
+      - code: "1.5"
+        filename: Chuong1-Chude1.5-Moitruongkinhdoanh - Cacmohinhphantichcanhtranh.pdf
+        source_id: src-0005
+        heading: "Chủ đề 1.5: Môi trường kinh doanh – Các mô hình phân tích cạnh tranh"
+        heading_evidence_status: OBSERVED
+        objectives:
+          - Mô tả phương pháp phân tích SWOT
+          - Trình bày mô hình phân tích cạnh tranh chuỗi giá trị
+          - Giải thích mô hình 5 nhân tố cạnh tranh của Porter
+        content_headings:
+          - Phân tích SWOT
+          - Phân tích chuỗi giá trị
+          - Phân tích lợi thế cạnh tranh
+      - code: "1.6"
+        filename: Chuong1-Chude1.6-Moitruongkinhtevimo - Cacvandecoban.pdf
+        source_id: src-0006
+        heading: "Chủ đề 1.6: Môi trường kinh tế vĩ mô – Các vấn đề cơ bản"
+        heading_evidence_status: OBSERVED
+        objectives:
+          - Mô tả các yếu tố của nền kinh tế quốc dân
+          - Trình bày các khái niệm cơ bản về chính sách kinh tế vĩ mô
+        content_headings:
+          - Nền kinh tế quốc dân
+          - Các chính sách kinh tế vĩ mô
+          - "Tổng cầu (Aggregate Demand – AD)"
+          - "Tổng cung (Aggregate Supply – AS)"
+          - Thu nhập quốc dân cân bằng
+      - code: "1.7"
+        filename: Chuong1-Chude1.7-Moitruongkinhtevimo - Cacchinhsachvimo.pdf
+        source_id: src-0007
+        heading: "Chủ đề 1.7: Môi trường kinh tế vĩ mô – Các chính sách vĩ mô"
+        heading_evidence_status: OBSERVED
+        objectives:
+          - Mô tả chính sách tài khóa ảnh hưởng đến doanh nghiệp
+          - Giải thích chính sách tiền tệ ảnh hưởng đến doanh nghiệp
+        content_headings:
+          - Chính sách tài khóa
+          - Chính sách tiền tệ
+      - code: "1.8"
+        filename: Chuong1-Chude1.8-Moitruongkinhtevimo - Cacvandecoban.pdf
+        source_id: src-0008
+        heading: "Chủ đề 1.8: Môi trường kinh tế vi mô – Các vấn đề cơ bản"
+        heading_evidence_status: OBSERVED
+        objectives:
+          - Mô tả các yếu tố của môi trường vi mô
+          - Trình bày các khái niệm cơ bản của môi trường vi mô
+        content_headings:
+          - Môi trường vi mô
+          - Các khái niệm cơ bản
+          - Khách hàng
+          - Nhà cung cấp
+          - Đối thủ cạnh tranh
+          - Các bên trung gian
+      - code: "1.9"
+        filename: Chuong1-Chude1.9-Moitruongkinhtevimo - Phantichcungcau.pdf
+        source_id: src-0009
+        heading: "Chủ đề 1.9: Môi trường kinh tế vi mô – Phân tích cung cầu"
+        heading_evidence_status: OBSERVED
+        heading_conflict:
+          listed_in_src-0001_overview: "Chủ đề 1.9: Môi trường kinh tế vi mô – Các chính sách vi mô"
+          file_and_review: Phân tích cung cầu
+        objectives:
+          - Giải thích giá cân bằng và cơ chế giá
+          - Mô tả các loại thị trường cạnh tranh
+        content_headings:
+          - Giá cân bằng và cơ chế giá
+          - Các loại thị trường cạnh tranh
+  - number: 2
+    title: Cấu trúc, chiến lược và quản trị doanh nghiệp
+    title_evidence_status: OBSERVED
+    title_sources: [src-0033, src-0035, src-0010]
+    title_variant:
+      source_id: src-0036
+      text: "Chương 2: Cấu trúc và quản trị doanh nghiệp"
+    topics:
+      - code: "2.1"
+        filename: Chuong2-Chude 2.1-Cautrucdoanhnghiepvachienluockinhdoanh.pdf
+        source_id: src-0010
+        heading: "Chủ đề 2.1: Cấu trúc doanh nghiệp và chiến lược kinh doanh"
+        heading_evidence_status: OBSERVED
+        objectives:
+          - Mô tả các mô hình cơ cấu tổ chức của doanh nghiệp
+          - Giải thích sự lựa chọn khi thiết kế cơ cấu tổ chức
+          - Trình bày các cấp độ chiến lược dựa trên cơ cấu tổ chức doanh nghiệp
+        content_headings:
+          - Cơ cấu tổ chức khởi nghiệp
+          - Cơ cấu tổ chức theo chức năng
+          - Cơ cấu tổ chức theo bộ phận
+          - Cơ cấu tổ chức theo ma trận
+          - Cơ cấu tổ chức phi tập trung
+          - Các cấp độ chiến lược trong tổ chức
+      - code: "2.2"
+        filename: Chuong2-Chude 2.2-Vanhoatochuc.pdf
+        source_id: src-0011
+        heading: "Chủ đề 2.2: Văn hóa tổ chức"
+        heading_evidence_status: OBSERVED
+        objectives:
+          - Trình bày khái niệm về văn hóa tổ chức
+          - Giải thích việc định hình văn hóa tổ chức
+          - Giải thích ảnh hưởng của văn hóa tổ chức đến hoạt động doanh nghiệp
+        content_headings:
+          - Văn hóa tổ chức
+          - Các yếu tố hình thành văn hóa tổ chức
+          - Ảnh hưởng của văn hóa tổ chức đến hoạt động doanh nghiệp
+      - code: "2.3"
+        filename: Chuong2-Chude 2.3-Quantridoanhnghiep.pdf
+        source_id: src-0012
+        heading: "Chủ đề 2.3: Quản trị doanh nghiệp"
+        heading_evidence_status: OBSERVED
+        objectives:
+          - Giải thích bản chất và vai trò của quản trị doanh nghiệp
+          - Trình bày các nguyên tắc của quản trị doanh nghiệp
+        content_headings:
+          - Tách biệt giữa quyền sở hữu và quyền kiểm soát
+          - Bản chất và vai trò của quản trị doanh nghiệp
+          - Các khuyến nghị giúp quản trị doanh nghiệp hiệu quả
+          - Các nguyên tắc của quản trị doanh nghiệp
+      - code: "2.4"
+        filename: Chuong2-Chude 2.4-Trachnhiemxahoicuadoanhnghiep.pdf
+        source_id: src-0013
+        heading: "Chủ đề 2.4: Trách nhiệm xã hội của doanh nghiệp"
+        heading_evidence_status: OBSERVED
+        objectives:
+          - Giải thích mối quan hệ giữa trách nhiệm xã hội doanh nghiệp với luật pháp và đạo đức
+        content_headings:
+          - Khái niệm trách nhiệm xã hội doanh nghiệp
+          - Tầm quan trọng của trách nhiệm xã hội doanh nghiệp
+          - Mối quan hệ giữa trách nhiệm xã hội của doanh nghiệp với luật pháp và đạo đức
+  - number: 3
+    title: Kế toán, hệ thống báo cáo, kiểm soát và tuân thủ
+    title_evidence_status: OBSERVED
+    title_sources: [src-0033, src-0035, src-0016]
+    n_topics_declared: 4
+    topics:
+      - code: "3.1"
+        heading: "Chủ đề 3.1: Những vấn đề chung về kế toán"
+        heading_evidence_status: OBSERVED
+        review_objectives:
+          - Trình bày khái niệm và sự cần thiết của kế toán
+          - Mô tả hệ thống quy định, thông tin tài chính bên trong và bên ngoài
+          - Mô tả việc kiểm soát quy trình hoạt động của doanh nghiệp
+        parts:
+          - part: "P1"
+            filename: KDNV-C3-CD3.1-P1-Khainiem,vaitrovacacloai hinhke toantrongdoanhnghiep.pdf
+            source_id: src-0016
+            heading: "Phần 1: Khái niệm, vai trò và các loại hình kế toán trong doanh nghiệp"
+            content_headings:
+              - Khái niệm kế toán trong doanh nghiệp
+              - Kế toán thương mại
+              - Kế toán sản xuất
+              - Kế toán dịch vụ
+              - "Value for Money / mô hình 3E (Economy, Efficiency, Effectiveness)"
+          - part: "P2"
+            filename: KDNV-C3-CD3.1-P2-Chuanmucketoanvakhungphaply.pdf
+            source_id: src-0017
+            heading: "Phần 2: Chuẩn mực kế toán và khung pháp lý"
+            content_headings:
+              - Các yêu cầu pháp lý
+              - Chuẩn mực kế toán
+              - So sánh giữa chuẩn mực quốc gia và quốc tế
+              - Hậu quả khi không tuân thủ
+              - Cơ chế giám sát ở các quốc gia
+              - Chuẩn mực IFRS và xu hướng toàn cầu
+          - part: "P3"
+            filename: KDNV-C3-CD3.1-P3-Ketoantaichinh.pdf
+            source_id: src-0018
+            heading: "Phần 3: Kế toán tài chính"
+            content_headings:
+              - Chức năng kế toán tài chính
+              - Tài khoản và sổ cái
+              - Quy trình lập báo cáo tài chính
+          - part: "P4"
+            filename: KDNV-C3-CD3.1-P4-Ketoanquantri.pdf
+            source_id: src-0019
+            heading: "Phần 4: Kế toán quản trị"
+            content_headings:
+              - Chức năng của kế toán quản trị
+              - Dự toán và kiểm soát dự toán
+              - So sánh kế toán tài chính và kế toán quản trị
+          - part: "P5"
+            filename: KDNV-C3-CD3.1-P5-Muahangvatienluong.pdf
+            source_id: src-0020
+            heading: "Phần 5: Chính sách, quy trình, quy trình mua hàng và tiền lương"
+            heading_in_body: "Chính sách, quy trình và quy trình mua hàng và hệ thống tiền lương trong doanh nghiệp"
+            content_headings:
+              - Chính sách vs quy trình
+              - Chính sách và quy trình mua hàng
+              - Quy trình lập hóa đơn bán hàng
+              - Hệ thống tiền lương
+      - code: "3.2"
+        heading: "Chủ đề 3.2: Kiểm soát nội bộ và kiểm toán"
+        heading_evidence_status: OBSERVED
+        parts:
+          - part: "P1"
+            filename: KDNV-C3-CD3.2-P1-Kiemsoatnoibo.pdf
+            source_id: src-0021
+            heading: "Phần 1: Kiểm soát nội bộ"
+            content_headings:
+              - Khái niệm và mục tiêu kiểm soát nội bộ
+              - Kiểm tra nội bộ vs kiểm soát nội bộ
+              - Hạn chế của kiểm soát nội bộ
+              - "5 yếu tố COSO: môi trường kiểm soát; đánh giá rủi ro; thông tin và truyền thông; hoạt động kiểm soát; giám sát"
+          - part: "P2"
+            filename: KDNV-C3-CD3.2-P2-Kiemtoanvadichvubaodam.pdf
+            source_id: src-0022
+            heading: "Phần 2: Kiểm toán và dịch vụ bảo đảm"
+            content_headings:
+              - Khái niệm và đặc điểm dịch vụ đảm bảo
+              - Kiểm toán và các cấp độ đảm bảo
+              - Kiểm toán nội bộ
+              - Kiểm toán độc lập
+      - code: "3.3"
+        filename: KDNV-C3-CD3.3-Gianlan.pdf
+        source_id: src-0023
+        heading: "Chủ đề 3.3: Phát hiện và ngăn chặn gian lận"
+        heading_evidence_status: OBSERVED
+        content_headings:
+          - Khái niệm gian lận
+          - Phân loại gian lận
+          - Biển thủ tài sản
+          - Trình bày sai lệch thông tin tài chính
+          - "Tam giác gian lận (động cơ, cơ hội, thái độ)"
+          - Biện pháp giảm thiểu rủi ro gian lận
+      - code: "3.4"
+        filename: KDNV-C3-CD3.4-Fintech.pdf
+        source_id: src-0024
+        heading: "Chủ đề 3.4: Kiểm soát hệ thống thông tin và ảnh hưởng của công nghệ tài chính (Fintech) đến hệ thống kế toán"
+        heading_evidence_status: OBSERVED
+        content_headings:
+          - Rủi ro công nghệ thông tin trong kế toán
+          - "Kiểm soát tổng quát (system-level control)"
+          - "Kiểm soát ứng dụng (application-level control)"
+          - "Audit trail"
+          - "Fintech (ví điện tử, robot tư vấn, P2P lending, STO)"
+          - Ảnh hưởng của Fintech đến hệ thống kế toán
+  - number: 4
+    title: Lãnh đạo và quản lý
+    title_evidence_status: OBSERVED
+    title_sources:
+      - {source_id: src-0033, text: quản lý và lãnh đạo}
+      - {source_id: src-0035, text: "CHƯƠNG 4: Lãnh đạo và quản lý"}
+      - {source_id: src-0025, text: "Chương 4: Lãnh Đạo và Quản Lý"}
+    topics:
+      - code: "4.1"
+        filename: KDNV-C4-CD4.1_Lanhdaoquanly.pdf
+        source_id: src-0025
+        heading: "Chủ đề 4.1: Lãnh đạo và quản lý"
+        heading_evidence_status: OBSERVED
+        objectives:
+          - Giải thích bản chất của việc quản lý
+          - Mô tả sự phát triển của các lý thuyết quản trị
+          - Phân biệt lãnh đạo và quản lý
+          - Mô tả các kỹ năng và phong cách lãnh đạo
+        content_headings:
+          - Khái niệm quản lý
+          - Lý thuyết quản trị
+          - Lãnh đạo vs quản lý
+          - Kỹ năng và phong cách lãnh đạo
+      - code: "4.2"
+        filename: KDNV-C4-CD4.2_Tuyendungvtuyenchon.pdf
+        source_id: src-0026
+        heading: "Chủ đề 4.2: Tuyển dụng nhân sự"
+        heading_evidence_status: OBSERVED
+        filename_tokens: [Tuyendung, tuyenchon]
+        objectives:
+          - Giải thích vai trò tuyển dụng nhân sự
+          - Mô tả nhiệm vụ các bên trong quá trình tuyển dụng nhân sự
+          - Giải thích quy trình và các phương pháp sử dụng trong tuyển dụng nhân sự
+          - Giải thích lợi ích của chính sách đa dạng và tạo cơ hội bình đẳng trong quản lý nguồn nhân lực và cách thức áp dụng
+        content_headings:
+          - "Tuyển dụng (recruitment)"
+          - "Tuyển chọn (selection)"
+          - "Quản lý nguồn nhân lực (HRM)"
+          - Chính sách đa dạng và cơ hội bình đẳng
+      - code: "4.3"
+        heading: "Chủ đề 4.3: Cá nhân, đội và nhóm và việc tạo động lực làm việc"
+        heading_evidence_status: OBSERVED
+        heading_variants:
+          - {source_id: src-0027, text: "Cá nhân, nhóm và đội và việc tạo động lực làm việc"}
+          - {source_id: src-0028, text: "Cá nhân, đội và nhóm và việc tạo động lực làm việc"}
+        parts:
+          - part: "P1"
+            filename: KDNV-C4-CD4.3-P1_Canhandoinhom.pdf
+            source_id: src-0027
+            heading: "Phần 4.3.1: Cá nhân, nhóm và đội"
+            content_headings:
+              - "Hành vi cá nhân: tính cách, nhận thức, thái độ, trí thông minh"
+              - Hành vi nhóm
+              - Xây dựng đội làm việc hiệu quả
+          - part: "P2"
+            filename: KDNV-C4-CD4.3-P2_Dongluclamviecchocanhannhom.pdf
+            source_id: src-0028
+            heading: "Phần 4.3.2: Tạo động lực làm việc cho cá nhân và nhóm"
+            content_headings:
+              - Định nghĩa động lực
+              - "Lý thuyết Maslow, Herberg, McGregor, Vroom"
+              - Khen thưởng và khuyến khích
+      - code: "4.4"
+        heading: "Chủ đề 4.4: Đào tạo, phát triển và đánh giá thành quả"
+        heading_evidence_status: OBSERVED
+        parts:
+          - part: "P1"
+            filename: KDNV-C4-CD4.4-P1_DaotaoPhattrien.pdf
+            source_id: src-0029
+            heading: "Phần 4.4.1: Học tập, đào tạo và phát triển nguồn nhân lực"
+            content_headings:
+              - Bản chất học tập (kiến thức, kỹ năng, thái độ)
+              - Học tập chính thức / phi chính thức / ngẫu nhiên
+              - Quy trình đào tạo và phát triển tại nơi làm việc
+          - part: "P2"
+            filename: KDNV-C4-CD4.4-P2_Danhgiathanhqua.pdf
+            source_id: src-0030
+            heading: "Phần 4.4.2: Đánh giá thành quả công việc"
+            content_headings:
+              - "Đánh giá hiệu suất (Performance appraisal)"
+              - "Quản lý hiệu suất (Performance management)"
+              - Quy trình đánh giá hoạt động
+              - Thách thức và cải thiện đánh giá
+  - number: 5
+    title: Kỹ năng làm việc hiệu quả và truyền thông trong doanh nghiệp
+    title_evidence_status: OBSERVED
+    title_sources: [src-0033, src-0035, src-0031]
+    topics:
+      - code: "5.1"
+        filename: KDNV-C5-CD5.1_QuanlythoigianTinhhieuquatrongcongviec.pdf
+        source_id: src-0031
+        heading: "Chủ Đề 5.1: Quản Lý Thời Gian Và Tính Hiệu Quả Trong Công Việc"
+        heading_evidence_status: OBSERVED
+        objectives:
+          - Giải thích được tầm quan trọng của việc quản lý thời gian hiệu quả
+          - Giải thích cách thức triển khai nhu cầu phát triển cá nhân của người lao động
+          - Giải thích vai trò của công nghệ thông tin trong việc cải tiến kỹ năng làm việc hiệu quả
+          - Mô tả mâu thuẫn có thể xảy ra giữa các cá nhân trong doanh nghiệp
+          - Xác định cách thức quản lý xung đột trong doanh nghiệp
+        content_headings:
+          - Quản lý thời gian
+          - Kế hoạch phát triển cá nhân
+          - Mâu thuẫn / xung đột trong tổ chức
+      - code: "5.2"
+        filename: KDNV-C5-CD5.2_Truyenthongtrongdoanhnghiep.pdf
+        source_id: src-0032
+        heading: "Chủ Đề 5.2: Truyền Thông Trong Doanh Nghiệp"
+        heading_evidence_status: OBSERVED
+        objectives:
+          - Trình bày định nghĩa truyền thông và các phương pháp truyền thông sử dụng trong doanh nghiệp
+          - Phân biệt các loại thông tin khác nhau và mục đích sử dụng trong quyết định chiến lược, chiến thuật và tác nghiệp
+          - Nêu các đặc điểm chất lượng của thông tin
+          - Giải thích các mô hình truyền thông đơn giản
+        content_headings:
+          - Định nghĩa truyền thông (hai chiều)
+          - Hình thức truyền thông (hướng dẫn, …)
+          - Loại thông tin và cấp quyết định
+          - Đặc điểm chất lượng thông tin
+          - Mô hình truyền thông
+  - number: 6
+    title: Đạo đức kinh doanh và đạo đức nghề nghiệp kế toán
+    title_evidence_status: OBSERVED
+    title_sources: [src-0033, src-0035, src-0014]
+    title_variant:
+      source_id: src-0036
+      text: "Chương 6: Đạo đức trong kinh doanh và đạo đức nghề nghiệp kế toán"
+    topics:
+      - code: "6.1"
+        filename: Chuong6-Chude6.1-Hanhvidaoducvadaoductrongkinhdoanh.pdf
+        source_id: src-0014
+        heading: "Chủ đề 6.1: Hành vi đạo đức và đạo đức trong kinh doanh"
+        heading_evidence_status: OBSERVED
+        objectives:
+          - Mô tả vai trò đạo đức trong các định chế xã hội
+          - Trình bày đạo đức dưới góc độ quản trị doanh nghiệp và trách nhiệm giải trình của nhà quản lý
+          - Giải thích nguyên nhân của mâu thuẫn về đạo đức
+          - Trình bày các giải pháp đối với các tình huống mâu thuẫn về đạo đức
+        content_headings:
+          - Hệ thống quy tắc đạo đức
+          - Đạo đức trong kinh doanh
+          - Mâu thuẫn đạo đức
+      - code: "6.2"
+        filename: Chuong6-Chude6.2-Daoducnghenghiepketoan.pdf
+        source_id: src-0015
+        heading: "Chủ đề 6.2: Đạo đức nghề nghiệp kế toán"
+        heading_evidence_status: OBSERVED
+        objectives:
+          - Trình bày các nguyên tắc nền tảng của quy định đạo đức nghề nghiệp kế toán
+          - Mô tả các xung đột lợi ích và biện pháp kiểm soát của kế toán viên, kiểm toán viên hành nghề
+        content_headings:
+          - Quy định đạo đức nghề nghiệp
+          - Các xung đột lợi ích
+          - "IFAC / IESBA Code / ISA / IES (named in script; do not expand from external research)"
+
+relationships:
+  prerequisites:
+    named: []
+    evidence_status: UNKNOWN
+    note: No prerequisite course is named in C0, script, review, or exam.
+  successors:
+    named: []
+    evidence_status: OBSERVED
+    quotes:
+      - source_id: src-0033
+        locator: C0 slide 8
+        text: đầy đủ cho việc học ở các môn tiếp theo cũng như bước vào môi trường kinh doanh thực tế
+      - source_id: src-0036
+        locator: script after slide 5
+        text: Là môn khởi đầu, chúng ta không đặt mục tiêu đào sâu vào những kiến thức chuyên sâu sẽ được trình bày trong những môn học khác.
+    note: >
+      C0/script say this course prepares for later courses but do NOT name them.
+      Do not invent a successors list beyond these quotes.
+  related_external_material:
+    - ACCA Business Technology (cited, not stored)
+
+coverage:
+  advertised_chapters_missing_files: []
+  chapters_with_script_files: [1, 2, 3, 4, 5, 6]
+  chapters_declared: 6
+  chapters_with_topic_files: [1, 2, 3, 4, 5, 6]
+  topic_files_present: 32
+  intro_exam_review_present: true
+  missing_in_folder:
+    - đề cương môn học
+    - lịch trình học tập
+    - video / slides
+    - ACCA online materials
+    - chapter quizzes and discussion prompts
+    - official syllabus PDF distinct from C0 scripts
+  extract_truncation:
+    - {source_id: src-0025, page_count: 15, pages_extracted: 8}
+    - {source_id: src-0032, page_count: 15, pages_extracted: 8}
+
+quality:
+  filename_prefix_mix: [Chuong1, Chuong2, Chuong6, KDNV-C3, KDNV-C4, KDNV-C5, KDVNV-C0]
+  two_intro_scripts: true
+  conflicts:
+    - id: intro-objective-count
+      a: "C0 six objectives / six chapters"
+      b: "script seven objectives"
+    - id: ch1-title
+      a: "C0/topics: Tổ chức kinh doanh … môi trường kinh doanh"
+      b: "script: Tổ chức doanh nghiệp … môi trường bên ngoài"
+    - id: topic-1.9-title
+      a: "src-0001 overview list: Các chính sách vi mô"
+      b: "src-0009 heading + review + filename: Phân tích cung cầu"
+    - id: chapter-test-form
+      a: "C0: chapter tests ch1–6 are MCQ"
+      b: "review: ch2 and ch3 are 1 tự luận each"
+    - id: acca-url
+      a: "https://www.accaglobal.com/"
+      b: "https://educationhub.accaglobal.com/"
+    - id: course-alias-in-script
+      a: header Kinh doanh và nghiệp vụ
+      b: "slide 15 'môn học Kế toán và doanh nghiệp'"
+  empty_sections:
+    - "review §2.3 Tài liệu tham khảo (heading only)"
+
+concepts:
+  # Candidates from headings/objectives only. Not a concept_registry merge.
+  - {id_candidate: to-chuc-kinh-doanh, label: Tổ chức kinh doanh, from: heading, evidence_status: OBSERVED}
+  - {id_candidate: cac-ben-lien-quan, label: Các bên liên quan (stakeholders), from: heading, evidence_status: OBSERVED}
+  - {id_candidate: moi-truong-kinh-doanh, label: Môi trường kinh doanh, from: heading, evidence_status: OBSERVED}
+  - {id_candidate: pest-factors, label: Yếu tố chính trị, pháp lý, xã hội, from: heading, evidence_status: OBSERVED}
+  - {id_candidate: cong-nghe-va-moi-truong, label: Yếu tố công nghệ và môi trường, from: heading, evidence_status: OBSERVED}
+  - {id_candidate: swot, label: Phân tích SWOT, from: heading, evidence_status: OBSERVED}
+  - {id_candidate: chuoi-gia-tri, label: Chuỗi giá trị, from: heading, evidence_status: OBSERVED}
+  - {id_candidate: porter-5-forces, label: Mô hình 5 nhân tố cạnh tranh của Porter, from: heading, evidence_status: OBSERVED}
+  - {id_candidate: kinh-te-vi-mo, label: Môi trường kinh tế vĩ mô, from: heading, evidence_status: OBSERVED}
+  - {id_candidate: chinh-sach-tai-khoa, label: Chính sách tài khóa, from: objective, evidence_status: OBSERVED}
+  - {id_candidate: chinh-sach-tien-te, label: Chính sách tiền tệ, from: objective, evidence_status: OBSERVED}
+  - {id_candidate: kinh-te-vi-mo-micro, label: Môi trường kinh tế vi mô, from: heading, evidence_status: OBSERVED}
+  - {id_candidate: cung-cau, label: Phân tích cung cầu / giá cân bằng, from: heading, evidence_status: OBSERVED}
+  - {id_candidate: cau-truc-to-chuc, label: Cơ cấu tổ chức doanh nghiệp, from: heading, evidence_status: OBSERVED}
+  - {id_candidate: chien-luoc-kinh-doanh, label: Chiến lược kinh doanh, from: heading, evidence_status: OBSERVED}
+  - {id_candidate: van-hoa-to-chuc, label: Văn hóa tổ chức, from: heading, evidence_status: OBSERVED}
+  - {id_candidate: quan-tri-doanh-nghiep, label: Quản trị doanh nghiệp, from: heading, evidence_status: OBSERVED}
+  - {id_candidate: csr, label: Trách nhiệm xã hội của doanh nghiệp, from: heading, evidence_status: OBSERVED}
+  - {id_candidate: ke-toan, label: Kế toán (khái niệm, loại hình), from: heading, evidence_status: OBSERVED}
+  - {id_candidate: chuan-muc-ke-toan, label: Chuẩn mực kế toán và khung pháp lý, from: heading, evidence_status: OBSERVED}
+  - {id_candidate: ke-toan-tai-chinh, label: Kế toán tài chính, from: heading, evidence_status: OBSERVED}
+  - {id_candidate: ke-toan-quan-tri, label: Kế toán quản trị, from: heading, evidence_status: OBSERVED}
+  - {id_candidate: quy-trinh-mua-hang-tien-luong, label: Quy trình mua hàng và tiền lương, from: heading, evidence_status: OBSERVED}
+  - {id_candidate: kiem-soat-noi-bo, label: Kiểm soát nội bộ, from: heading, evidence_status: OBSERVED}
+  - {id_candidate: kiem-toan-dich-vu-bao-dam, label: Kiểm toán và dịch vụ bảo đảm, from: heading, evidence_status: OBSERVED}
+  - {id_candidate: gian-lan, label: Phát hiện và ngăn chặn gian lận, from: heading, evidence_status: OBSERVED}
+  - {id_candidate: fintech-kt, label: Fintech và kiểm soát hệ thống thông tin, from: heading, evidence_status: OBSERVED}
+  - {id_candidate: lanh-dao-quan-ly, label: Lãnh đạo và quản lý, from: heading, evidence_status: OBSERVED}
+  - {id_candidate: tuyen-dung, label: Tuyển dụng và tuyển chọn, from: heading, evidence_status: OBSERVED}
+  - {id_candidate: dong-luc-lam-viec, label: Động lực làm việc (cá nhân/nhóm), from: heading, evidence_status: OBSERVED}
+  - {id_candidate: dao-tao-phat-trien, label: Đào tạo, phát triển nguồn nhân lực, from: heading, evidence_status: OBSERVED}
+  - {id_candidate: danh-gia-thanh-qua, label: Đánh giá thành quả, from: heading, evidence_status: OBSERVED}
+  - {id_candidate: quan-ly-thoi-gian, label: Quản lý thời gian và hiệu quả công việc, from: heading, evidence_status: OBSERVED}
+  - {id_candidate: mau-thuan-to-chuc, label: Mâu thuẫn / xung đột trong tổ chức, from: objective, evidence_status: OBSERVED}
+  - {id_candidate: truyen-thong-dn, label: Truyền thông trong doanh nghiệp, from: heading, evidence_status: OBSERVED}
+  - {id_candidate: dao-duc-kinh-doanh, label: Đạo đức trong kinh doanh, from: heading, evidence_status: OBSERVED}
+  - {id_candidate: dao-duc-nghe-nghiep-ke-toan, label: Đạo đức nghề nghiệp kế toán, from: heading, evidence_status: OBSERVED}
+
+unknowns:
+  - institution legal name
+  - academic year
+  - semester
+  - credit count
+  - C0 process/final numeric weights
+  - CLO1.1 / CLO1.2 / CLO2.1 / CLO3.1 statements
+  - named successor courses
+  - named prerequisite courses
+  - lecturer title for Vũ Hữu Đức
+  - contents of missing đề cương / lịch trình / ACCA pages / quizzes
+
+v3:
+  tier: retrieval
+  index: 3.0.0
+  gate: G3a
+  gate_status: pass
+  chunk_count: 521
+  coverage_evidence: data/normalized/kinh-doanh-va-nghiep-vu.documents.jsonl
+  legacy_fields_note: Pre-V3 scan fields remain historical unless explicitly updated
+    above. V3 concepts and normalized corpus are canonical.

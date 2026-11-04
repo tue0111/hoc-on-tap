@@ -1,0 +1,373 @@
+course_id: thi-truong-tai-chinh
+version: 0.1.0
+id_prefix: tttc
+concepts:
+- concept_id: tttc-tong-quan-ve-thi-truong-tai-chinh
+  canonical_name: Tổng quan về Thị trường tài chính
+  aliases: []
+  same_as: null
+  chapter: 1
+  topic: '1'
+  source_refs:
+  - source_id: src-0141
+    page: 1
+  - source_id: src-0148
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: tttc-tong-quan-ve-thi-truong-tai-chinh-1-1
+  canonical_name: Tổng quan về Thị trường tài chính
+  aliases: []
+  same_as: null
+  chapter: 1
+  topic: '1.1'
+  source_refs:
+  - source_id: src-0141
+    page: 1
+  - source_id: src-0148
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: tttc-to-chuc-tai-chinh
+  canonical_name: Tổ chức tài chính
+  aliases: []
+  same_as: null
+  chapter: 1
+  topic: '1.2'
+  source_refs:
+  - source_id: src-0141
+    page: 1
+  - source_id: src-0141
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: tttc-vai-tro-va-nguyen-tac-hoat-dong-cua-cac-loai-hinh-to-chuc-tai-chinh
+  canonical_name: Vai trò và nguyên tắc hoạt động của các loại hình tổ chức tài chính
+  aliases: []
+  same_as: null
+  chapter: 1
+  topic: '1.3'
+  source_refs:
+  - source_id: src-0141
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: tttc-thi-truong-tien-te-tttt
+  canonical_name: Thị trường tiền tệ (TTTT)
+  aliases:
+  - thị trường tiền tệ
+  - TTTT
+  same_as: null
+  chapter: 2
+  topic: '2'
+  source_refs:
+  - source_id: src-0142
+    page: 1
+  - source_id: src-0149
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: tttc-tong-quan-ve-tttt
+  canonical_name: Tổng quan về TTTT
+  aliases: []
+  same_as: null
+  chapter: 2
+  topic: '2.1'
+  source_refs:
+  - source_id: src-0142
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: tttc-cong-dung-cac-san-pham-tren-tttt
+  canonical_name: Công dụng các sản phẩm trên TTTT
+  aliases: []
+  same_as: null
+  chapter: 2
+  topic: '2.2'
+  source_refs:
+  - source_id: src-0149
+    page: 2
+  - source_id: src-0142
+    page: 3
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: tttc-cac-loai-lai-suat-tren-tttt
+  canonical_name: Các loại lãi suất trên TTTT
+  aliases:
+  - phương trình Fisher
+  same_as: null
+  chapter: 2
+  topic: '2.3'
+  source_refs:
+  - source_id: src-0149
+    page: 2
+  - source_id: src-0142
+    page: 7
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: tttc-thi-truong-trai-phieu
+  canonical_name: Thị trường trái phiếu
+  aliases:
+  - TTTP
+  same_as: null
+  chapter: 3
+  topic: '3'
+  source_refs:
+  - source_id: src-0143
+    page: 1
+  - source_id: src-0150
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: tttc-tong-quan-ve-thi-truong-trai-phieu
+  canonical_name: Tổng quan về thị trường trái phiếu
+  aliases: []
+  same_as: null
+  chapter: 3
+  topic: '3.1'
+  source_refs:
+  - source_id: src-0143
+    page: 1
+  - source_id: src-0150
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: tttc-vai-tro-tttp-doi-voi-cac-chu-the
+  canonical_name: Vai trò TTTP đối với các chủ thể
+  aliases: []
+  same_as: null
+  chapter: 3
+  topic: '3.2'
+  source_refs:
+  - source_id: src-0143
+    page: 8
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: tttc-anh-huong-cua-lai-suat-thi-truong-doi-voi-gia-trai-phieu
+  canonical_name: Ảnh hưởng của lãi suất thị trường đối với giá trái phiếu
+  aliases: []
+  same_as: null
+  chapter: 3
+  topic: '3.3'
+  source_refs:
+  - source_id: src-0143
+    page: 1
+  - source_id: src-0150
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: tttc-thi-truong-co-phieu
+  canonical_name: Thị trường cổ phiếu
+  aliases:
+  - TTCP
+  same_as: null
+  chapter: 4
+  topic: '4'
+  source_refs:
+  - source_id: src-0144
+    page: 1
+  - source_id: src-0151
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: tttc-tong-quan-ve-thi-truong-co-phieu
+  canonical_name: Tổng quan về thị trường cổ phiếu
+  aliases: []
+  same_as: null
+  chapter: 4
+  topic: '4.1'
+  source_refs:
+  - source_id: src-0144
+    page: 1
+  - source_id: src-0151
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: tttc-vai-tro-cua-ttcp
+  canonical_name: Vai trò của TTCP
+  aliases: []
+  same_as: null
+  chapter: 4
+  topic: '4.2'
+  source_refs:
+  - source_id: src-0144
+    page: 1
+  - source_id: src-0151
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: tttc-quy-trinh-giao-dich-co-phieu-tren-san-giao-dich
+  canonical_name: Quy trình giao dịch cổ phiếu trên sàn giao dịch
+  aliases: []
+  same_as: null
+  chapter: 4
+  topic: '4.3'
+  source_refs:
+  - source_id: src-0151
+    page: 2
+  - source_id: src-0144
+    page: 8
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: tttc-thi-truong-ngoai-hoi
+  canonical_name: Thị trường ngoại hối
+  aliases: []
+  same_as: null
+  chapter: 5
+  topic: '5'
+  source_refs:
+  - source_id: src-0145
+    page: 1
+  - source_id: src-0152
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: tttc-tong-quan-ve-thi-truong-ngoai-hoi
+  canonical_name: Tổng quan về thị trường ngoại hối
+  aliases: []
+  same_as: null
+  chapter: 5
+  topic: '5.1'
+  source_refs:
+  - source_id: src-0145
+    page: 1
+  - source_id: src-0152
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: tttc-vai-tro-thi-truong-ngoai-hoi
+  canonical_name: Vai trò Thị trường Ngoại hối
+  aliases: []
+  same_as: null
+  chapter: 5
+  topic: '5.2'
+  source_refs:
+  - source_id: src-0145
+    page: 5
+  - source_id: src-0152
+    page: 17
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: tttc-su-tuong-tac-giua-lam-phat-lai-suat-voi-ty-gia
+  canonical_name: Sự tương tác giữa lạm phát, lãi suất với tỷ giá
+  aliases:
+  - quy luật ngang bằng sức mua
+  - quy luật ngang bằng lãi suất
+  same_as: null
+  chapter: 5
+  topic: '5.3'
+  source_refs:
+  - source_id: src-0145
+    page: 1
+  - source_id: src-0145
+    page: 5
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: tttc-thi-truong-tai-chinh-phai-sinh
+  canonical_name: Thị trường tài chính phái sinh
+  aliases:
+  - TTTCPS
+  same_as: null
+  chapter: 6
+  topic: '6'
+  source_refs:
+  - source_id: src-0146
+    page: 1
+  - source_id: src-0153
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: tttc-tong-quan-ve-tttcps
+  canonical_name: Tổng quan về TTTCPS
+  aliases: []
+  same_as: null
+  chapter: 6
+  topic: '6.1'
+  source_refs:
+  - source_id: src-0146
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: tttc-cac-loai-cong-cu-tcps
+  canonical_name: Các loại công cụ TCPS
+  aliases:
+  - hợp đồng kỳ hạn
+  - hợp đồng hoán đổi
+  - hợp đồng tương lai
+  - hợp đồng quyền chọn
+  same_as: null
+  chapter: 6
+  topic: '6.2'
+  source_refs:
+  - source_id: src-0146
+    page: 4
+  - source_id: src-0146
+    page: 5
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: tttc-cong-dung-tttcps
+  canonical_name: Công dụng TTTCPS
+  aliases: []
+  same_as: null
+  chapter: 6
+  topic: '6.3'
+  source_refs:
+  - source_id: src-0146
+    page: 9
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: tttc-thi-truong-chung-khoan-the-chap-bat-dong-san
+  canonical_name: THỊ TRƯỜNG CHỨNG KHOÁN THẾ CHẤP BẤT ĐỘNG SẢN
+  aliases:
+  - TTCK TCBĐS
+  same_as: null
+  chapter: 7
+  topic: '7'
+  source_refs:
+  - source_id: src-0147
+    page: 1
+  - source_id: src-0154
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: tttc-tong-quan-ve-chung-khoan-the-chap-bds
+  canonical_name: Tổng quan về chứng khoán thế chấp BĐS
+  aliases:
+  - Mortgage-backed securities
+  same_as: null
+  chapter: 7
+  topic: '7.1'
+  source_refs:
+  - source_id: src-0147
+    page: 1
+  - source_id: src-0154
+    page: 3
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: tttc-thi-truong-chung-khoan-the-chap-bat-dong-san-so-cap
+  canonical_name: Thị trường chứng khoán thế chấp bất động sản sơ cấp
+  aliases:
+  - secondary mortgage market
+  same_as: null
+  chapter: 7
+  topic: '7.2'
+  source_refs:
+  - source_id: src-0147
+    page: 4
+  evidence_status: OBSERVED
+  confidence: high
+account_map: {}
+edges: []
+conflicts:
+- type: COURSE_SEQUENCE_CONFLICT
+  note: Chương 6 tự gọi là chương cuối cùng, nhưng nguồn vẫn có đầy đủ Chương 7. Giữ cả hai và không tự suy đoán Chương 7
+    ngoài phạm vi.
+  observations:
+  - claim: Chương 6 là chương cuối cùng
+    source_id: src-0146
+    page: 1
+  - claim: Chương 7 hiện diện
+    source_id: src-0147
+    page: 1
+  evidence_status: OBSERVED
+  resolution: UNKNOWN

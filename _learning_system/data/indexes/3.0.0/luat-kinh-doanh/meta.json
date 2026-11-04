@@ -1,0 +1,39 @@
+{
+  "index_version": "3.0.0",
+  "chunking_version": "2.0.0",
+  "extract_version": "3.0.0",
+  "build_date": "2026-10-11T04:43:10.429344+00:00",
+  "chunk_count": 177,
+  "vocab_size": 1017,
+  "avgdl": 130.75141242937852,
+  "k1": 1.5,
+  "b": 0.75,
+  "courses": [
+    "luat-kinh-doanh"
+  ],
+  "source_hashes": [
+    "3a181c5f6cc55bb461619da2ebbca90178d388098f99ab35943c19d1ebd5c270",
+    "47ccb70422b65ce8ebfe6efa364a4b75e8c2f6031c3f2fab3410d6ad611e6402",
+    "518c371fc908e62033de58e39a391fb1d8260fc5d62aba2a28fadd0de28aa70e",
+    "699c47093c45708690dbe5c90a8ea462ac6de13732e7a0f4890ec6c04b13fccf",
+    "6c923418b1affc1aeb144c9f889a01647874f970949b707db007d15255c6c652",
+    "75aff9c62f5ad42440c5bf326dd61c08dbd276fed2dc8a7405313323f36bc5e8",
+    "8aeaed3029750f3e52de527a59d0b35113b50e7a56f62bb5679205ab9d7604de",
+    "9a83998a35b67b880d4894f6891159f4121ef7ab6258318c75291ecef0d2e3d4",
+    "ad6c7a47ebb8f67bd5a49f61f109f7d725cd550340266b709445f93f788a57af",
+    "b08326592310e21e2a87ce4f32078aa007cddf35019011fb32cf4547d936c902",
+    "e4ed27a9e821509497ef020d33bcb17ac947615f7b65d27e966be586bc35fecd",
+    "e9bb5e9d1a2a428c5537e51f02cc3be4d2bbbb2fa3a2c09d2d979f6accc136b3",
+    "ec542303badd361be5c4ddd12ed8e14b2ca56667fc6ae7dee29ea292caa5dd4f",
+    "fbcb5ab22a7ba8a582e573c501dd474bd7ac4b81bac7f01cff2fbdaeac3fad4d",
+    "fe0578dae20c57ee2b46793e34ba90eb76a44c1f179be305091a375ff984becc",
+    "fe76175cc3731ce5cb5d09cd9a4fbe1d2b37fcede5d0e788b6081579ee78516b",
+    "ffb263c0b13e9cc14f787003d6b82ab3c68aa337d9bb7879487bf24097f5ddf8"
+  ],
+  "embedding": null,
+  "lexical": "bm25",
+  "semantic": "tfidf_cosine_numpy",
+  "concept_registry_version": "0.1.0",
+  "course_id": "luat-kinh-doanh",
+  "concept_table_version": "7765f6bdae13"
+}

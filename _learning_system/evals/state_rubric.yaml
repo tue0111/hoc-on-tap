@@ -1,0 +1,13 @@
+rubric_id: learner-state-phase-7
+version: "7.0.0"
+pass_if:
+  - insufficient_not_zero: absence is INSUFFICIENT_EVIDENCE not 0.0
+  - no_global_score: no overall_mastery field
+  - no_dimension_leak: recall does not set application
+  - retries_ignored: SAME_TASK_RETRY does not create SUPPORTED
+  - history_kept: recovery keeps negative_evidence_refs
+fail_if:
+  - MASTERED
+  - WEAK
+  - learner_score
+  - forgetting decay

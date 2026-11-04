@@ -1,0 +1,465 @@
+{
+  "course_id": "thi-truong-tai-chinh",
+  "unit_titles": [],
+  "heading_lines": [
+    {
+      "kind": "chuong",
+      "line": "Chương 2: Thị trường tiền tệ (TTTT)",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0142",
+          "page": 1
+        },
+        {
+          "source_id": "src-0142",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 3: Thị trường trái phiếu",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0143",
+          "page": 1
+        },
+        {
+          "source_id": "src-0143",
+          "page": 8
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 4: Thị trường cổ phiếu",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0144",
+          "page": 1
+        },
+        {
+          "source_id": "src-0144",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 5: Thị trường ngoại hối",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0145",
+          "page": 1
+        },
+        {
+          "source_id": "src-0145",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 6: Thị trường tài chính phái sinh",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0146",
+          "page": 1
+        },
+        {
+          "source_id": "src-0146",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "CHƯƠNG 7: THỊ TRƯỜNG CHỨNG KHOÁN THẾ CHẤP BẤT ĐỘNG SẢN",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0147",
+          "page": 1
+        },
+        {
+          "source_id": "src-0147",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 1: Tổng quan về Thị trường tài chính",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0141",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.1: Tổng quan về Thị trường tài chính",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0141",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.2: Tổ chức tài chính",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0141",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.1: Tổng quan về TTTT",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0142",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.2: Công dụng các sản phẩm trên TTTT",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0142",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3: Các loại lãi suất trên thị trường tiền tệ",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0142",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.3: Các loại lãi suất trên TTTT",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0142",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1: Tổng quan về thị trường trái phiếu",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0143",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.1: Tổng quan về thị trường trái phiếu",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0143",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.2: Vai trò TTTP đối với các chủ thể",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0143",
+          "page": 8
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.3: Ảnh hưởng của lãi suất thị trường đối với giá trái phiếu",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0143",
+          "page": 9
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1: Tổng quan về thị trường cổ phiếu",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0144",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.1: Tổng quan về thị trường cổ phiếu",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0144",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.2: Vai trò của TTCP",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0144",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.3: Quy trình giao dịch cổ phiếu trên sàn giao dịch",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0144",
+          "page": 8
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1: Tổng quan thị trường ngoại hối",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0145",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 5.1: Tổng quan về thị trường ngoại hối",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0145",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 5.2: Vai trò Thị trường Ngoại hối",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0145",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 5.3: Sự tương tác giữa lạm phát, lãi suất với tỷ giá",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0145",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1: Tổng quan về thị trường tài chính phái sinh",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0146",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 6.1: Tổng quan về TTTCPS",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0146",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 6.2: Các loại công cụ TCPS",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0146",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 6.3: Công dụng TTTCPS",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0146",
+          "page": 9
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 7.1: Tổng quan về chứng khoán thế chấp BĐS",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0147",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 7.2: Thị trường chứng khoán thế chấp bất động sản sơ cấp (primary",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0147",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "CHỦ ĐỀ 1.2:",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0148",
+          "page": 12
+        }
+      ]
+    }
+  ],
+  "outline_titles": [
+    {
+      "source_id": "src-0142",
+      "title": "c2_cd1cd2 (1)",
+      "page": 1
+    },
+    {
+      "source_id": "src-0142",
+      "title": "c2_cd3 (1)",
+      "page": 7
+    },
+    {
+      "source_id": "src-0143",
+      "title": "c3_cd1 (1)",
+      "page": 1
+    },
+    {
+      "source_id": "src-0143",
+      "title": "c3_cd2cd3 (1)",
+      "page": 8
+    },
+    {
+      "source_id": "src-0144",
+      "title": "c4_cd1 (1)",
+      "page": 1
+    },
+    {
+      "source_id": "src-0144",
+      "title": "c4_cd2cd3 (1)",
+      "page": 6
+    },
+    {
+      "source_id": "src-0145",
+      "title": "tttc_c5_thi_tr__ong_ngoai_hoi_video_1_2_3 (1)",
+      "page": 1
+    },
+    {
+      "source_id": "src-0145",
+      "title": "c5_cd2cd3 (1)",
+      "page": 5
+    },
+    {
+      "source_id": "src-0146",
+      "title": "c6_cd1 (1)",
+      "page": 1
+    },
+    {
+      "source_id": "src-0146",
+      "title": "c6_cd23 (1)",
+      "page": 4
+    },
+    {
+      "source_id": "src-0147",
+      "title": "TTTC-C7.1-VuBichNgoc (1)",
+      "page": 1
+    },
+    {
+      "source_id": "src-0147",
+      "title": "TTTC-C7.2-VuBichNgoc (1)",
+      "page": 4
+    },
+    {
+      "source_id": "src-0151",
+      "title": "c4_cd1 (1)",
+      "page": 1
+    },
+    {
+      "source_id": "src-0151",
+      "title": "c4_cd2cd3 (1)",
+      "page": 22
+    },
+    {
+      "source_id": "src-0152",
+      "title": "c5_cd1 (1)",
+      "page": 1
+    },
+    {
+      "source_id": "src-0152",
+      "title": "c5_cd23 (1)",
+      "page": 15
+    }
+  ],
+  "accounts": []
+}

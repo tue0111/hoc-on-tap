@@ -1,0 +1,344 @@
+schema_version: course-scan/0.1
+scanned_at: "2026-09-07"
+layer: curriculum
+scanner: course-scanner
+course_id: thi-truong-tai-chinh
+course_name:
+  value: Thị trường tài chính
+  evidence_status: OBSERVED
+  aliases_observed:
+    - "Thị trường Tài chính"
+    - TTTC
+  sources: [src-0141]
+source_folder: "D:\\Hoc\\Thị trường tài chính"
+extracts_dir: "D:\\Hoc\\_learning_system\\extracts\\thi-truong-tai-chinh"
+institution:
+  value: "Trường Đại học Mở Thành phố Hồ Chí Minh"
+  evidence_status: OBSERVED
+  sources: [src-0141]
+  header_observed: "CHƯƠNG TRÌNH ĐÀO TẠO TRỰC TUYẾN"
+faculty:
+  value: null
+  evidence_status: UNKNOWN
+  note: "No khoa line on chapter scripts. Not inferred from other courses."
+course_code:
+  value: null
+  evidence_status: UNKNOWN
+academic_year:
+  value: null
+  evidence_status: UNKNOWN
+semester:
+  value: null
+  evidence_status: UNKNOWN
+status: scanned
+
+lecturers:
+  - name: null
+    evidence_status: UNKNOWN
+    note: "Chương 1–6 scripts do not name a lecturer. Chương 7 PDF bookmarks are 'TTTC-C7.1-VuBichNgoc' / 'TTTC-C7.2-VuBichNgoc' — possible person-name token, not an explicit 'Giảng viên:' byline."
+  - name: "Vũ Bích Ngọc"
+    evidence_status: INFERRED
+    inference_from: "PDF outline token VuBichNgoc on src-0147 only"
+    confidence: low
+
+assessment_observed:
+  evidence_status: UNKNOWN
+  note: "No syllabus, đề thi, đáp án, or ôn tập file in the folder. Chương 1 is a chapter intro, not a course intro (no CLO table, no grading weights)."
+
+named_learning_materials_not_in_folder:
+  - "Chương 1: chủ đề 3 'Vai trò và nguyên tắc hoạt động của các loại hình tổ chức tài chính' is assigned as self-study tài liệu (OBSERVED src-0141; that tài liệu is not a separate file in the folder)."
+  - "Chương 3: learners told to read mô hình chiết khấu giá trái phiếu (định giá trái phiếu) in 'tài liệu học tập được cung cấp' (OBSERVED src-0143; file not identified)."
+
+sources:
+  by_role:
+    syllabus:
+      items: []
+      note: "No obvious syllabus filename. Chương 1 extract is chapter content (tổng quan TTTC), not a môn-học intro with CLOs/assessment."
+    lecture_note:
+      items:
+        - {source_id: src-0141, filename: "Chương 1.pdf", chapter: 1, page_count: 6, char_count: 10464, extract_ok: true, parseability: pdf_text_layer_present}
+        - {source_id: src-0142, filename: "Chương 2.pdf", chapter: 2, page_count: 10, char_count: 13092, extract_ok: true, parseability: pdf_text_layer_present}
+        - {source_id: src-0143, filename: "Chương 3.pdf", chapter: 3, page_count: 10, char_count: 12242, extract_ok: true, parseability: pdf_text_layer_present}
+        - {source_id: src-0144, filename: "Chương 4.pdf", chapter: 4, page_count: 10, char_count: 14461, extract_ok: true, parseability: pdf_text_layer_present}
+        - {source_id: src-0145, filename: "Chương 5.pdf", chapter: 5, page_count: 10, char_count: 11789, extract_ok: true, parseability: pdf_text_layer_present}
+        - {source_id: src-0146, filename: "Chương 6.pdf", chapter: 6, page_count: 10, char_count: 12581, extract_ok: true, parseability: pdf_text_layer_present}
+        - {source_id: src-0147, filename: "Chương 7.pdf", chapter: 7, page_count: 5, char_count: 5986, extract_ok: true, parseability: pdf_text_layer_present}
+    lecture_slide:
+      items:
+        - {source_id: src-0148, filename: "Slide Chương 1.pdf", chapter: 1, page_count: 37, char_count: 2051, extract_ok: true, pages_extracted: 8}
+        - {source_id: src-0149, filename: "Slide Chương 2.pdf", chapter: 2, page_count: 42, char_count: 1701, extract_ok: true, pages_extracted: 8}
+        - {source_id: src-0150, filename: "Slide chương 3.pdf", chapter: 3, page_count: 37, char_count: 2511, extract_ok: true, pages_extracted: 8}
+        - {source_id: src-0151, filename: "Slide chương 4.pdf", chapter: 4, page_count: 36, char_count: 1834, extract_ok: true, pages_extracted: 8}
+        - {source_id: src-0152, filename: "Slide chương 5.pdf", chapter: 5, page_count: 33, char_count: 2106, extract_ok: true, pages_extracted: 8}
+        - {source_id: src-0153, filename: "Slide Chương 6.pdf", chapter: 6, page_count: 39, char_count: 2526, extract_ok: true, pages_extracted: 8}
+        - {source_id: src-0154, filename: "Slide Chương 7.pdf", chapter: 7, page_count: 33, char_count: 2832, extract_ok: true, pages_extracted: 8}
+    exam:
+      items: []
+    textbook:
+      items: []
+
+chapters:
+  - chapter: 1
+    title: "Tổng quan về Thị trường tài chính"
+    title_status: OBSERVED
+    title_sources: [src-0141, src-0148]
+    note: "This is the first chapter of the course, not a separate Chương 0 intro."
+    topics:
+      - id: cd1.1
+        title: "Tổng quan về Thị trường tài chính"
+        title_status: OBSERVED
+        source: src-0141
+        contents_on_slide_observed:
+          source: src-0148
+          items:
+            - "Khái niệm Thị trường tài chính"
+            - "Chức năng và vai trò thị trường tài chính"
+            - "Phân loại thị trường tài chính"
+      - id: cd1.2
+        title: "Tổ chức tài chính"
+        title_status: OBSERVED
+        source: src-0141
+        alt_wording_observed: "Tổng quan về tổ chức tài chính"
+      - id: cd1.3
+        title: "Vai trò và nguyên tắc hoạt động của các loại hình tổ chức tài chính"
+        title_status: OBSERVED
+        source: src-0141
+        delivery: "Self-study (script: chủ đề 3 supplied as tài liệu, not lectured live)"
+    source_ids: [src-0141, src-0148]
+
+  - chapter: 2
+    title: "Thị trường tiền tệ (TTTT)"
+    title_status: OBSERVED
+    title_sources: [src-0142, src-0149]
+    topics:
+      - id: cd2.1
+        title: "Tổng quan về TTTT"
+        title_status: OBSERVED
+        source: src-0142
+      - id: cd2.2
+        title: "Công dụng các sản phẩm trên TTTT"
+        title_status: OBSERVED
+        source: src-0142
+      - id: cd2.3
+        title: "Các loại lãi suất trên TTTT"
+        title_status: OBSERVED
+        sources: [src-0142, src-0149]
+        key_terms_observed:
+          - "lãi suất cơ bản"
+          - "lãi suất chiết khấu / tái chiết khấu"
+          - "lãi suất tái cấp vốn"
+          - "lãi suất liên NH"
+          - "lãi suất tiền gửi"
+          - "lãi suất tín dụng"
+          - "lãi suất danh nghĩa (nominal interest rate)"
+          - "lãi suất thực (real interest rate)"
+          - "phương trình Fisher"
+    source_ids: [src-0142, src-0149]
+
+  - chapter: 3
+    title: "Thị trường trái phiếu"
+    title_status: OBSERVED
+    title_sources: [src-0143, src-0150]
+    topics:
+      - id: cd3.1
+        title: "Tổng quan về thị trường trái phiếu"
+        title_status: OBSERVED
+        source: src-0143
+      - id: cd3.2
+        title: "Vai trò của TTTP đối với các chủ thể"
+        title_status: OBSERVED
+        source: src-0143
+      - id: cd3.3
+        title: "Ảnh hưởng của lãi suất thị trường đối với giá trái phiếu"
+        title_status: OBSERVED
+        sources: [src-0143, src-0150]
+    self_study_mentioned:
+      - "mô hình chiết khấu giá trái phiếu (định giá trái phiếu) — read in tài liệu học tập (src-0143)"
+    source_ids: [src-0143, src-0150]
+
+  - chapter: 4
+    title: "Thị trường cổ phiếu"
+    title_status: OBSERVED
+    title_sources: [src-0144, src-0151]
+    topics:
+      - id: cd4.1
+        title: "Tổng quan về thị trường cổ phiếu"
+        title_status: OBSERVED
+        source: src-0144
+      - id: cd4.2
+        title: "Vai trò của TTCP"
+        title_status: OBSERVED
+        source: src-0144
+        slide_wording: "Vai trò của TTCP đối với các chủ thể tham gia"
+      - id: cd4.3
+        title: "Quy trình giao dịch cổ phiếu trên sàn giao dịch"
+        title_status: OBSERVED
+        sources: [src-0144, src-0151]
+    source_ids: [src-0144, src-0151]
+
+  - chapter: 5
+    title: "Thị trường ngoại hối"
+    title_status: OBSERVED
+    title_sources: [src-0145, src-0152]
+    topics:
+      - id: cd5.1
+        title: "Tổng quan về thị trường ngoại hối"
+        title_status: OBSERVED
+        source: src-0145
+      - id: cd5.2
+        title: "Vai trò Thị trường Ngoại hối"
+        title_status: OBSERVED
+        source: src-0145
+      - id: cd5.3
+        title: "Sự tương tác giữa lạm phát, lãi suất với tỷ giá"
+        title_status: OBSERVED
+        sources: [src-0145, src-0152]
+        key_terms_observed:
+          - "quy luật ngang bằng sức mua"
+          - "quy luật ngang bằng lãi suất"
+    source_ids: [src-0145, src-0152]
+
+  - chapter: 6
+    title: "Thị trường tài chính phái sinh"
+    title_status: OBSERVED
+    title_sources: [src-0146, src-0153]
+    topics:
+      - id: cd6.1
+        title: "Tổng quan về TTTCPS"
+        title_status: OBSERVED
+        source: src-0146
+      - id: cd6.2
+        title: "Các loại công cụ TCPS"
+        title_status: OBSERVED
+        sources: [src-0146, src-0153]
+        instruments_on_slide_observed:
+          source: src-0153
+          items:
+            - "Hợp đồng kỳ hạn"
+            - "Hợp đồng hoán đổi"
+            - "Hợp đồng tương lai"
+            - "Hợp đồng quyền chọn"
+      - id: cd6.3
+        title: "Công dụng của thị trường tài chính phái sinh"
+        title_status: OBSERVED
+        sources: [src-0146, src-0153]
+    source_ids: [src-0146, src-0153]
+    script_calls_this_last_chapter: true
+
+  - chapter: 7
+    title: "Thị trường chứng khoán thế chấp bất động sản"
+    title_status: OBSERVED
+    title_sources: [src-0147, src-0154]
+    topics:
+      - id: cd7.1
+        title: "Tổng quan về chứng khoán thế chấp BĐS"
+        title_status: OBSERVED
+        source: src-0147
+      - id: cd7.2
+        title: "Thị trường chứng khoán thế chấp bất động sản sơ cấp (primary"
+        title_status: OBSERVED
+        source: src-0147
+        note: "Extract heading truncated after 'primary'. Slide list also covers thứ cấp, vai trò, and amortization schedule."
+      - id: cd7-slide-outline
+        title_status: OBSERVED
+        source: src-0154
+        contents_on_slide_observed:
+          - "Tổng quan về chứng khoán thế chấp bất động sản (TCBĐS) và công dụng"
+          - "Nguyên tắc hoạt động và giao dịch của thị trường chứng khoán TCBĐS sơ cấp và thứ cấp"
+          - "Vai trò của thị trường chứng khoán TCBĐS"
+          - "Xác định lịch trình trả nợ gốc và lãi của khoản vay thế chấp BĐS"
+    source_ids: [src-0147, src-0154]
+
+relationships:
+  - type: course_chapter_sequence
+    evidence_status: OBSERVED
+    note: "Chapters 1–7 exist as paired script+slide files. Chương 1 frames later market-type chapters ('nguyên tắc hoạt động … sẽ được giới thiệu trong những chương tiếp theo')."
+  - type: intra_course_conflict
+    evidence_status: OBSERVED
+    a: "Chương 6 script: 'chương cuối cùng của môn học … Thị trường tài chính phái sinh' (src-0146)"
+    b: "Chương 7 script+slide exist: Thị trường chứng khoán thế chấp bất động sản (src-0147, src-0154)"
+    resolution: UNKNOWN
+    do_not_drop: "Ch7 is present in the source folder; do not treat Ch6's 'last chapter' sentence as proof that Ch7 is out of scope."
+  - type: classification_used_later
+    evidence_status: OBSERVED
+    from: "Ch1 phân loại TTTC (nợ/vốn CP; tiền tệ/vốn; sơ cấp/thứ cấp; tập trung/OTC)"
+    to: "Ch2 TTTT; Ch3–4 capital-market instruments; Ch4–7 trading venues"
+    note: "Observed conceptual overlap only. Not a formal prerequisite edge."
+  - type: no_invented_cross_course_prereq
+    evidence_status: UNKNOWN
+    note: "Do not invent a prerequisite to Tài chính doanh nghiệp 1 despite overlapping bond/stock vocabulary."
+
+coverage:
+  advertised_chapters_missing_files: []
+  chapters_with_script_files: [1, 2, 3, 4, 5, 6, 7]
+  chapter_scripts: "1–7 present (no Chương 0)"
+  chapter_slides: "1–7 present"
+  syllabus_file: false
+  exam_file: false
+  ontap_file: false
+  textbook_file: false
+  extract_truncation: "Slides extracted first 8 pages of 33–42; char_counts low vs page counts (image-heavy)."
+
+quality:
+  lecture_scripts: "Readable text; Chương 1–2 carry full university header; later chapters drop the header but remain scripts."
+  lecture_slides: "Titles and 'Nội dung trình bày' recoverable; body mostly not in extract window."
+  missing_assessment_layer: true
+
+concepts:
+  - {term: "thị trường tài chính", evidence_status: OBSERVED, found_in: heading, sources: [src-0141]}
+  - {term: "tài sản tài chính / chứng khoán (securities)", evidence_status: OBSERVED, found_in: key_term, sources: [src-0141]}
+  - {term: "thị trường nợ (debt markets)", evidence_status: OBSERVED, found_in: heading, sources: [src-0141, src-0148]}
+  - {term: "thị trường vốn cổ phần (equity markets)", evidence_status: OBSERVED, found_in: heading, sources: [src-0141, src-0148]}
+  - {term: "thị trường tiền tệ (money market)", evidence_status: OBSERVED, found_in: heading, sources: [src-0141, src-0142]}
+  - {term: "thị trường vốn (capital markets)", evidence_status: OBSERVED, found_in: heading, sources: [src-0141]}
+  - {term: "thị trường sơ cấp (primary market)", evidence_status: OBSERVED, found_in: heading, sources: [src-0141]}
+  - {term: "thị trường thứ cấp (secondary market)", evidence_status: OBSERVED, found_in: heading, sources: [src-0141]}
+  - {term: "thị trường tập trung (organized market)", evidence_status: OBSERVED, found_in: heading, sources: [src-0141]}
+  - {term: "thị trường phi tập trung (OTC)", evidence_status: OBSERVED, found_in: heading, sources: [src-0141]}
+  - {term: "tổ chức tài chính (financial institutions)", evidence_status: OBSERVED, found_in: heading, sources: [src-0141]}
+  - {term: "tổ chức nhận tiền gửi (depository institutions)", evidence_status: OBSERVED, found_in: key_term, sources: [src-0141]}
+  - {term: "tổ chức không nhận tiền gửi (non-depositary institutions)", evidence_status: OBSERVED, found_in: key_term, sources: [src-0141]}
+  - {term: "tín phiếu kho bạc", evidence_status: OBSERVED, found_in: key_term, sources: [src-0142, src-0149]}
+  - {term: "lãi suất danh nghĩa", evidence_status: OBSERVED, found_in: key_term, sources: [src-0142]}
+  - {term: "lãi suất thực", evidence_status: OBSERVED, found_in: key_term, sources: [src-0142]}
+  - {term: "phương trình Fisher", evidence_status: OBSERVED, found_in: key_term, sources: [src-0142]}
+  - {term: "thị trường trái phiếu", evidence_status: OBSERVED, found_in: heading, sources: [src-0143]}
+  - {term: "thị trường cổ phiếu", evidence_status: OBSERVED, found_in: heading, sources: [src-0144]}
+  - {term: "thị trường ngoại hối", evidence_status: OBSERVED, found_in: heading, sources: [src-0145]}
+  - {term: "quy luật ngang bằng sức mua", evidence_status: OBSERVED, found_in: key_term, sources: [src-0145]}
+  - {term: "quy luật ngang bằng lãi suất", evidence_status: OBSERVED, found_in: key_term, sources: [src-0145]}
+  - {term: "chứng khoán phái sinh (derivative)", evidence_status: OBSERVED, found_in: key_term, sources: [src-0146]}
+  - {term: "tài sản cơ sở (underlying asset)", evidence_status: OBSERVED, found_in: key_term, sources: [src-0146]}
+  - {term: "hợp đồng kỳ hạn", evidence_status: OBSERVED, found_in: heading, sources: [src-0153]}
+  - {term: "hợp đồng tương lai", evidence_status: OBSERVED, found_in: heading, sources: [src-0153]}
+  - {term: "hợp đồng hoán đổi", evidence_status: OBSERVED, found_in: heading, sources: [src-0153]}
+  - {term: "hợp đồng quyền chọn", evidence_status: OBSERVED, found_in: heading, sources: [src-0153]}
+  - {term: "chứng khoán thế chấp bất động sản (Mortgage-backed securities)", evidence_status: OBSERVED, found_in: heading, sources: [src-0147, src-0154]}
+
+conflicts:
+  - id: last_chapter_vs_chuong_7
+    evidence_status: OBSERVED
+    a: "src-0146 calls Ch6 the last chapter"
+    b: "src-0147 / src-0154 are a full Ch7 unit"
+    resolution: UNKNOWN
+
+unknowns:
+  - official catalog course_code
+  - academic_year / semester
+  - faculty
+  - named lecturers (except low-confidence VuBichNgoc bookmark)
+  - CLOs / grading scheme
+  - exam format
+  - required textbook file
+  - whether Ch7 was added after the Ch6 script was written
+  - prerequisite courses
+
+v3:
+  tier: retrieval
+  index: 3.0.0
+  gate: G3e
+  gate_status: pass
+  chunk_count: 196
+  coverage_evidence: data/normalized/thi-truong-tai-chinh.documents.jsonl
+  legacy_fields_note: Pre-V3 scan fields remain historical unless explicitly updated
+    above. V3 concepts and normalized corpus are canonical.

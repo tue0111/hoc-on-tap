@@ -1,0 +1,13 @@
+rubric_id: diagnostic-question-phase-3
+version: "0.1.0"
+pass_if:
+  - relevance: question targets remaining hypotheses
+  - discrimination: answer would eliminate at least one hypothesis
+  - curriculum_grounding: uses NLKT/KTTC1 terms (Nợ/Có, FIFO, TK)
+  - minimality: one question, not a lecture
+  - no_answer_leak: does not state the full correct journal
+fail_if:
+  - "Bạn có hiểu Nợ/Có không?"
+  - "Explain everything you know"
+  - asks more than 3 questions
+  - writes mastery scores

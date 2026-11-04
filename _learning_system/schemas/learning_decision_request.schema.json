@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.learning-system/schemas/learning_decision_request.schema.json",
+  "title": "LearningDecisionRequest",
+  "description": "Phase 4 Level 5 input. Session-local. DiagnosticResult is the primary input. Learner history is not required.",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "request_id": { "type": ["string", "null"] },
+    "diagnostic_result": { "type": ["object", "null"] },
+    "question": { "type": ["string", "null"] },
+    "learner_response": { "type": ["string", "null"] },
+    "work_shown": { "type": ["string", "null"] },
+    "followup_response": { "type": ["string", "null"] },
+    "session_context": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "course_id": { "type": ["string", "null"] },
+        "chapter": { "type": ["integer", "string", "null"] },
+        "topic": { "type": ["string", "null"] },
+        "current_task": { "type": ["string", "null"] }
+      }
+    },
+    "constraints": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "max_actions": { "type": "integer", "minimum": 1, "default": 1 },
+        "allow_prerequisite_backfill": { "type": "boolean", "default": true }
+      }
+    }
+  }
+}

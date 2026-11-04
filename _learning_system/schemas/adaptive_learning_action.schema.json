@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.learning-system/schemas/adaptive_learning_action.schema.json",
+  "title": "AdaptiveLearningAction",
+  "description": "Phase 8 one next action. persistence false. Not a study calendar.",
+  "type": "object",
+  "required": ["status", "persistence"],
+  "additionalProperties": false,
+  "properties": {
+    "action_id": { "type": "string" },
+    "status": {
+      "type": "string",
+      "enum": ["ACTION_SELECTED", "VERIFY_MORE", "CONTINUE", "NO_ACTION"]
+    },
+    "target": {
+      "type": "object",
+      "properties": {
+        "concept_id": { "type": ["string", "null"] },
+        "dimension": { "type": ["string", "null"] },
+        "course_id": { "type": ["string", "null"] },
+        "is_prerequisite": { "type": "boolean" }
+      }
+    },
+    "action": {
+      "type": "object",
+      "properties": {
+        "type": { "type": "string" },
+        "depth": { "type": "string", "enum": ["MICRO", "SHORT", "NORMAL"] },
+        "reason": { "type": "string" },
+        "goal": { "type": "string" }
+      }
+    },
+    "state_basis": { "type": "object" },
+    "curriculum_basis": { "type": "array" },
+    "alternatives_rejected": { "type": "array" },
+    "priority_reason_codes": { "type": "array", "items": { "type": "string" } },
+    "persistence": { "type": "boolean", "const": false },
+    "do_not_infer": { "type": "array", "items": { "type": "string" } },
+    "policy_version": { "type": "string" }
+  }
+}

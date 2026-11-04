@@ -1,0 +1,452 @@
+course_id: ke-toan-chi-phi
+version: 0.1.0
+id_prefix: ktcp
+concepts:
+- concept_id: ktcp-khai-niem-va-vai-tro-cua-ke-toan-chi-phi
+  canonical_name: Khái niệm và vai trò của kế toán chi phí
+  aliases:
+  - kế toán quản trị
+  - kế toán tài chính
+  same_as: null
+  chapter: 1
+  topic: '1.1'
+  source_refs:
+  - source_id: src-0225
+    page: 1
+  - source_id: src-0226
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: ktcp-yeu-to-thanh-cong-cot-loi
+  canonical_name: Yếu tố thành công cốt lõi
+  aliases:
+  - yếu tố thành công
+  same_as: null
+  chapter: 1
+  topic: '1.2'
+  source_refs:
+  - source_id: src-0227
+    page: 1
+  - source_id: src-0228
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: ktcp-phan-tich-chuoi-gia-tri
+  canonical_name: Phân tích chuỗi giá trị
+  aliases:
+  - chuỗi giá trị
+  - hoạt động tạo ra giá trị
+  same_as: null
+  chapter: 1
+  topic: '1.2'
+  source_refs:
+  - source_id: src-0227
+    page: 1
+  - source_id: src-0228
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: ktcp-chi-phi-san-xuat-chung
+  canonical_name: Chi phí sản xuất chung
+  aliases: []
+  same_as: null
+  chapter: 2
+  topic: 2.1.1
+  source_refs:
+  - source_id: src-0222
+    page: 1
+  - source_id: src-0232
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: ktcp-doi-tuong-chiu-chi-phi
+  canonical_name: Đối tượng chịu chi phí
+  aliases:
+  - đối tượng tính giá thành
+  same_as: doi-tuong-chiu-chi-phi
+  chapter: 2
+  topic: 2.1.1
+  source_refs:
+  - source_id: src-0243
+    page: 1
+  - source_id: src-0243
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: ktcp-chi-phi-truc-tiep
+  canonical_name: Chi phí trực tiếp
+  aliases: []
+  same_as: chi-phi-truc-tiep
+  chapter: 2
+  topic: 2.1.1
+  source_refs:
+  - source_id: src-0243
+    page: 2
+  - source_id: src-0243
+    page: 3
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: ktcp-chi-phi-gian-tiep
+  canonical_name: Chi phí gián tiếp
+  aliases: []
+  same_as: chi-phi-gian-tiep
+  chapter: 2
+  topic: 2.1.1
+  source_refs:
+  - source_id: src-0243
+    page: 2
+  - source_id: src-0243
+    page: 3
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: ktcp-bien-phi-va-dinh-phi
+  canonical_name: Biến phí và định phí
+  aliases:
+  - biến phí
+  - định phí
+  - chi phí hỗn hợp
+  - ứng xử của chi phí
+  - mức độ hoạt động
+  same_as: null
+  chapter: 2
+  topic: 2.1.2
+  source_refs:
+  - source_id: src-0244
+    page: 1
+  - source_id: src-0244
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: ktcp-chi-phi-san-pham-va-chi-phi-thoi-ky
+  canonical_name: Chi phí sản phẩm và chi phí thời kỳ
+  aliases:
+  - chi phí sản phẩm
+  - chi phí thời kỳ
+  - chi phí ngoài sản xuất
+  same_as: null
+  chapter: 2
+  topic: 2.1.2
+  source_refs:
+  - source_id: src-0244
+    page: 1
+  - source_id: src-0244
+    page: 3
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: ktcp-chi-phi-chuyen-doi
+  canonical_name: Chi phí chuyển đổi
+  aliases: []
+  same_as: null
+  chapter: 2
+  topic: 2.1.2
+  chapters:
+  - 4
+  - 6
+  source_refs:
+  - source_id: src-0244
+    page: 1
+  - source_id: src-0254
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: ktcp-gia-thanh-san-pham
+  canonical_name: Giá thành sản phẩm
+  aliases:
+  - giá thành toàn bộ
+  same_as: gia-thanh
+  chapter: 2
+  topic: '2.2'
+  chapters:
+  - 7
+  source_refs:
+  - source_id: src-0245
+    page: 1
+  - source_id: src-0245
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: ktcp-ke-toan-chi-phi-theo-cong-viec
+  canonical_name: Kế toán chi phí theo công việc
+  aliases:
+  - kỳ tính giá thành
+  same_as: ktcp-theo-cong-viec
+  chapter: 3
+  topic: '3.1'
+  source_refs:
+  - source_id: src-0229
+    page: 1
+  - source_id: src-0230
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: ktcp-chi-phi-thuc-te-ket-hop-voi-chi-phi-uoc-tinh
+  canonical_name: Chi phí thực tế kết hợp với chi phí ước tính
+  aliases:
+  - chi phí thực tế kết hợp
+  - phân bổ thiếu
+  same_as: null
+  chapter: 3
+  topic: '3.2'
+  source_refs:
+  - source_id: src-0231
+    page: 1
+  - source_id: src-0232
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: ktcp-ke-toan-chi-phi-theo-quy-trinh
+  canonical_name: Kế toán chi phí theo quy trình
+  aliases:
+  - báo cáo chi phí sản xuất
+  - quy trình sản xuất liên tục
+  same_as: ktcp-theo-quy-trinh
+  chapter: 4
+  topic: 4.1.1
+  source_refs:
+  - source_id: src-0246
+    page: 1
+  - source_id: src-0246
+    page: 3
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: ktcp-san-pham-do-dang-cuoi-ky
+  canonical_name: Sản phẩm dở dang cuối kỳ
+  aliases:
+  - sản phẩm dở dang
+  same_as: null
+  chapter: 4
+  topic: 4.1.1
+  chapters:
+  - 5
+  - 6
+  source_refs:
+  - source_id: src-0246
+    page: 4
+  - source_id: src-0246
+    page: 5
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: ktcp-san-luong-tuong-duong
+  canonical_name: Sản lượng tương đương
+  aliases:
+  - sản lượng tương đương
+  same_as: null
+  chapter: 4
+  topic: 4.1.1
+  source_refs:
+  - source_id: src-0248
+    page: 5
+  - source_id: src-0045
+    page: 23
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: ktcp-phuong-phap-trung-binh
+  canonical_name: Phương pháp trung bình
+  aliases: []
+  same_as: null
+  chapter: 4
+  topic: 4.1.2
+  source_refs:
+  - source_id: src-0247
+    page: 1
+  - source_id: src-0247
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: ktcp-phuong-phap-fifo
+  canonical_name: Phương pháp FIFO
+  aliases:
+  - FIFO
+  - nhập trước xuất trước
+  same_as: null
+  chapter: 4
+  topic: 4.1.3
+  source_refs:
+  - source_id: src-0248
+    page: 1
+  - source_id: src-0248
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: ktcp-2-giai-doan
+  canonical_name: 2 giai đoạn
+  aliases:
+  - hai giai đoạn
+  same_as: null
+  chapter: 4
+  topic: '4.2'
+  source_refs:
+  - source_id: src-0249
+    page: 3
+  - source_id: src-0239
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: ktcp-chi-phi-san-xuat-chung-uoc-tinh
+  canonical_name: Chi phí sản xuất chung ước tính
+  aliases: []
+  same_as: null
+  chapter: 4
+  topic: 4.3.1
+  source_refs:
+  - source_id: src-0250
+    page: 2
+  - source_id: src-0251
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: ktcp-xu-ly-chenh-lech
+  canonical_name: Xử lý chênh lệch
+  aliases: []
+  same_as: null
+  chapter: 4
+  topic: 4.3.2
+  source_refs:
+  - source_id: src-0251
+    page: 1
+  - source_id: src-0251
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: ktcp-ke-toan-chi-phi-dinh-muc
+  canonical_name: Kế toán chi phí định mức
+  aliases:
+  - chi phí định mức
+  - định mức chi phí
+  same_as: ktcp-dinh-muc
+  chapter: 5
+  topic: '5.1'
+  source_refs:
+  - source_id: src-0233
+    page: 1
+  - source_id: src-0234
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: ktcp-trinh-tu-ke-toan-chi-phi-dinh-muc
+  canonical_name: Trình tự kế toán chi phí định mức
+  aliases: []
+  same_as: null
+  chapter: 5
+  topic: '5.2'
+  source_refs:
+  - source_id: src-0235
+    page: 1
+  - source_id: src-0236
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: ktcp-phan-bo-chi-phi-san-xuat-chung
+  canonical_name: Phân bổ chi phí sản xuất chung
+  aliases: []
+  same_as: phan-bo-chi-phi
+  chapter: 6
+  topic: '6.1'
+  source_refs:
+  - source_id: src-0238
+    page: 1
+  - source_id: src-0239
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: ktcp-phuong-phap-abc
+  canonical_name: Phương pháp ABC
+  aliases:
+  - phương pháp ABC
+  - nhân tố phát sinh chi phí
+  - cost driver
+  same_as: null
+  chapter: 6
+  topic: '6.1'
+  source_refs:
+  - source_id: src-0239
+    page: 1
+  - source_id: src-0239
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: ktcp-phan-bo-chi-phi-bo-phan-phuc-vu
+  canonical_name: Phân bổ chi phí bộ phận phục vụ
+  aliases:
+  - bộ phận phục vụ
+  - phương pháp trực tiếp
+  - phương pháp bậc thang
+  same_as: null
+  chapter: 6
+  topic: '6.2'
+  source_refs:
+  - source_id: src-0240
+    page: 1
+  - source_id: src-0241
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: ktcp-thiet-hai-trong-san-xuat
+  canonical_name: Thiệt hại trong sản xuất
+  aliases:
+  - thiệt hại trong sản xuất
+  - sản phẩm hỏng
+  - phế liệu
+  - hỏng ngoài định mức
+  same_as: null
+  chapter: 6
+  topic: '6.2'
+  source_refs:
+  - source_id: src-0240
+    page: 1
+  - source_id: src-0241
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: ktcp-moi-truong-vua-theo-cong-viec
+  canonical_name: Môi trường vừa theo công việc
+  aliases: []
+  same_as: null
+  chapter: 6
+  topic: '6.3'
+  source_refs:
+  - source_id: src-0242
+    page: 1
+  - source_id: src-0242
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: ktcp-phuong-phap-gia-thanh-kha-bien-va-gia-thanh-san-xuat
+  canonical_name: Phương pháp giá thành khả biến và giá thành sản xuất
+  aliases:
+  - giá thành khả biến
+  - giá thành sản xuất
+  same_as: ktcp-gia-thanh-quyet-dinh
+  chapter: 7
+  topic: '7.1'
+  source_refs:
+  - source_id: src-0252
+    page: 1
+  - source_id: src-0252
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: ktcp-bao-cao-thu-nhap
+  canonical_name: Báo cáo thu nhập
+  aliases:
+  - điểm hòa vốn
+  same_as: null
+  chapter: 7
+  topic: '7.2'
+  source_refs:
+  - source_id: src-0253
+    page: 1
+  - source_id: src-0253
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+account_map:
+  '154': ktcp-ke-toan-chi-phi-theo-cong-viec
+  '621': ktcp-chi-phi-san-xuat-chung
+  '622': ktcp-chi-phi-san-xuat-chung
+  '627': ktcp-chi-phi-san-xuat-chung
+  '155': ktcp-gia-thanh-san-pham
+  '632': ktcp-gia-thanh-san-pham
+  '152': ktcp-ke-toan-chi-phi-dinh-muc
+edges: []
+conflicts: []

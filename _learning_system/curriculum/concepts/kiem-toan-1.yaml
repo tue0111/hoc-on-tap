@@ -1,0 +1,560 @@
+course_id: kiem-toan-1
+version: 0.1.0
+id_prefix: kt1
+concepts:
+- concept_id: kt1-gia-dinh-hoat-dong-lien-tuc
+  canonical_name: Giả định hoạt động liên tục
+  aliases: []
+  same_as: null
+  chapter: 1
+  topic: '1.1'
+  chapters:
+  - 6
+  source_refs:
+  - source_id: src-0219
+    page: 1
+  - source_id: src-0197
+    page: 11
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kt1-co-so-don-tich
+  canonical_name: Cơ sở dồn tích
+  aliases: []
+  same_as: co-so-don-tich
+  chapter: 1
+  topic: '1.1'
+  source_refs:
+  - source_id: src-0196
+    page: 1
+  - source_id: src-0197
+    page: 10
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kt1-dac-diem-chat-luong
+  canonical_name: Đặc điểm chất lượng
+  aliases: []
+  same_as: null
+  chapter: 1
+  topic: '1.2'
+  source_refs:
+  - source_id: src-0197
+    page: 1
+  - source_id: src-0198
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kt1-trung-thuc-va-hop-ly
+  canonical_name: Trung thực và hợp lý
+  aliases:
+  - trung thực hợp lý
+  same_as: null
+  chapter: 1
+  topic: '1.2'
+  chapters:
+  - 2
+  - 4
+  - 6
+  source_refs:
+  - source_id: src-0197
+    page: 1
+  - source_id: src-0198
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kt1-ghi-nhan-va-danh-gia-cac-yeu-to
+  canonical_name: Ghi nhận và đánh giá các yếu tố
+  aliases:
+  - ghi nhận và đánh giá
+  same_as: null
+  chapter: 1
+  topic: '1.3'
+  source_refs:
+  - source_id: src-0196
+    page: 1
+  - source_id: src-0197
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kt1-khai-niem-kiem-toan
+  canonical_name: Khái niệm kiểm toán
+  aliases:
+  - phân loại kiểm toán
+  same_as: kiem-toan
+  chapter: 2
+  topic: '2.1'
+  source_refs:
+  - source_id: src-0038
+    page: 1
+  - source_id: src-0200
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kt1-kiem-toan-nha-nuoc
+  canonical_name: Kiểm toán nhà nước
+  aliases: []
+  same_as: null
+  chapter: 2
+  topic: '2.1'
+  source_refs:
+  - source_id: src-0038
+    page: 2
+  - source_id: src-0196
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kt1-kiem-toan-noi-bo
+  canonical_name: Kiểm toán nội bộ
+  aliases: []
+  same_as: null
+  chapter: 2
+  topic: '2.1'
+  source_refs:
+  - source_id: src-0196
+    page: 2
+  - source_id: src-0214
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kt1-kiem-toan-doc-lap
+  canonical_name: Kiểm toán độc lập
+  aliases: []
+  same_as: null
+  chapter: 2
+  topic: '2.1'
+  source_refs:
+  - source_id: src-0038
+    page: 1
+  - source_id: src-0193
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kt1-kiem-toan-bao-cao-tai-chinh
+  canonical_name: Kiểm toán báo cáo tài chính
+  aliases: []
+  same_as: null
+  chapter: 2
+  topic: '2.1'
+  source_refs:
+  - source_id: src-0202
+    page: 1
+  - source_id: src-0037
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kt1-kiem-toan-hoat-dong
+  canonical_name: Kiểm toán hoạt động
+  aliases: []
+  same_as: null
+  chapter: 2
+  topic: '2.1'
+  source_refs:
+  - source_id: src-0219
+    page: 1
+  - source_id: src-0196
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kt1-kiem-toan-tuan-thu
+  canonical_name: Kiểm toán tuân thủ
+  aliases: []
+  same_as: null
+  chapter: 2
+  topic: '2.1'
+  source_refs:
+  - source_id: src-0196
+    page: 2
+  - source_id: src-0220
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kt1-quy-trinh-kiem-toan
+  canonical_name: Quy trình kiểm toán
+  aliases: []
+  same_as: null
+  chapter: 2
+  topic: '2.2'
+  source_refs:
+  - source_id: src-0038
+    page: 1
+  - source_id: src-0039
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kt1-moi-truong-kiem-toan
+  canonical_name: Môi trường kiểm toán
+  aliases: []
+  same_as: null
+  chapter: 2
+  topic: '2.3'
+  source_refs:
+  - source_id: src-0038
+    page: 1
+  - source_id: src-0200
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kt1-chuan-muc-kiem-toan
+  canonical_name: Chuẩn mực kiểm toán
+  aliases: []
+  same_as: null
+  chapter: 2
+  topic: '2.3'
+  source_refs:
+  - source_id: src-0194
+    page: 1
+  - source_id: src-0201
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kt1-dao-duc-nghe-nghiep
+  canonical_name: Đạo đức nghề nghiệp
+  aliases:
+  - tính độc lập
+  - tính khách quan
+  same_as: dao-duc-nghe-nghiep-ke-toan
+  chapter: 2
+  topic: '2.3'
+  source_refs:
+  - source_id: src-0196
+    page: 1
+  - source_id: src-0202
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kt1-kiem-soat-noi-bo
+  canonical_name: Kiểm soát nội bộ
+  aliases: []
+  same_as: kiem-soat-noi-bo
+  chapter: 3
+  topic: '3.1'
+  source_refs:
+  - source_id: src-0203
+    page: 1
+  - source_id: src-0203
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kt1-moi-truong-kiem-soat
+  canonical_name: Môi trường kiểm soát
+  aliases: []
+  same_as: null
+  chapter: 3
+  topic: '3.2'
+  source_refs:
+  - source_id: src-0204
+    page: 1
+  - source_id: src-0204
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kt1-hoat-dong-kiem-soat
+  canonical_name: Hoạt động kiểm soát
+  aliases: []
+  same_as: null
+  chapter: 3
+  topic: '3.2'
+  source_refs:
+  - source_id: src-0204
+    page: 1
+  - source_id: src-0205
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kt1-thong-tin-va-truyen-thong
+  canonical_name: Thông tin và truyền thông
+  aliases: []
+  same_as: null
+  chapter: 3
+  topic: '3.2'
+  source_refs:
+  - source_id: src-0205
+    page: 6
+  - source_id: src-0205
+    page: 9
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kt1-coso
+  canonical_name: COSO
+  aliases: []
+  same_as: null
+  chapter: 3
+  topic: '3.2'
+  source_refs:
+  - source_id: src-0204
+    page: 1
+  - source_id: src-0204
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kt1-tim-hieu-va-danh-gia
+  canonical_name: Tìm hiểu và đánh giá
+  aliases: []
+  same_as: null
+  chapter: 3
+  topic: '3.3'
+  source_refs:
+  - source_id: src-0206
+    page: 1
+  - source_id: src-0206
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kt1-trong-yeu
+  canonical_name: Trọng yếu
+  aliases:
+  - mức trọng yếu
+  same_as: trong-yeu-kiem-toan
+  chapter: 4
+  topic: '4.1'
+  source_refs:
+  - source_id: src-0207
+    page: 1
+  - source_id: src-0208
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kt1-trong-yeu-thuc-hien
+  canonical_name: Trọng yếu thực hiện
+  aliases: []
+  same_as: null
+  chapter: 4
+  topic: '4.1'
+  source_refs:
+  - source_id: src-0208
+    page: 1
+  - source_id: src-0208
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kt1-rui-ro-kiem-toan
+  canonical_name: Rủi ro kiểm toán
+  aliases:
+  - mô hình rủi ro
+  same_as: rui-ro-kiem-toan
+  chapter: 4
+  topic: '4.2'
+  source_refs:
+  - source_id: src-0209
+    page: 1
+  - source_id: src-0210
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kt1-rui-ro-tiem-tang
+  canonical_name: Rủi ro tiềm tàng
+  aliases: []
+  same_as: null
+  chapter: 4
+  topic: '4.2'
+  source_refs:
+  - source_id: src-0210
+    page: 1
+  - source_id: src-0210
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kt1-rui-ro-kiem-soat
+  canonical_name: Rủi ro kiểm soát
+  aliases: []
+  same_as: null
+  chapter: 4
+  topic: '4.2'
+  source_refs:
+  - source_id: src-0210
+    page: 1
+  - source_id: src-0210
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kt1-rui-ro-phat-hien
+  canonical_name: Rủi ro phát hiện
+  aliases: []
+  same_as: null
+  chapter: 4
+  topic: '4.2'
+  source_refs:
+  - source_id: src-0209
+    page: 2
+  - source_id: src-0210
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kt1-tien-ke-hoach
+  canonical_name: Tiền kế hoạch
+  aliases: []
+  same_as: null
+  chapter: 4
+  topic: '4.3'
+  source_refs:
+  - source_id: src-0211
+    page: 1
+  - source_id: src-0211
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kt1-lap-ke-hoach-kiem-toan
+  canonical_name: Lập kế hoạch kiểm toán
+  aliases:
+  - chiến lược kiểm toán
+  same_as: null
+  chapter: 4
+  topic: '4.3'
+  source_refs:
+  - source_id: src-0211
+    page: 1
+  - source_id: src-0212
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kt1-hop-dong-kiem-toan
+  canonical_name: Hợp đồng kiểm toán
+  aliases: []
+  same_as: null
+  chapter: 4
+  topic: '4.3'
+  source_refs:
+  - source_id: src-0211
+    page: 1
+  - source_id: src-0212
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kt1-bang-chung-kiem-toan
+  canonical_name: Bằng chứng kiểm toán
+  aliases:
+  - thu thập bằng chứng
+  same_as: bang-chung-kiem-toan
+  chapter: 5
+  topic: '5.1'
+  source_refs:
+  - source_id: src-0213
+    page: 1
+  - source_id: src-0213
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kt1-co-so-dan-lieu
+  canonical_name: Cơ sở dẫn liệu
+  aliases: []
+  same_as: null
+  chapter: 5
+  topic: '5.2'
+  source_refs:
+  - source_id: src-0215
+    page: 1
+  - source_id: src-0209
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kt1-ky-thuat-thu-thap-bang-chung-kiem-toan
+  canonical_name: Kỹ thuật thu thập bằng chứng kiểm toán
+  aliases:
+  - tính toán lại
+  - thực hiện lại
+  - kiểm tra tài liệu
+  same_as: null
+  chapter: 5
+  topic: '5.3'
+  source_refs:
+  - source_id: src-0215
+    page: 1
+  - source_id: src-0215
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kt1-thu-tuc-phan-tich
+  canonical_name: Thủ tục phân tích
+  aliases: []
+  same_as: null
+  chapter: 5
+  topic: '5.3'
+  source_refs:
+  - source_id: src-0215
+    page: 1
+  - source_id: src-0215
+    page: 5
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kt1-kiem-tra-chi-tiet
+  canonical_name: Kiểm tra chi tiết
+  aliases: []
+  same_as: null
+  chapter: 5
+  topic: '5.3'
+  source_refs:
+  - source_id: src-0215
+    page: 1
+  - source_id: src-0195
+    page: 3
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kt1-danh-gia-tong-the
+  canonical_name: Đánh giá tổng thể
+  aliases: []
+  same_as: null
+  chapter: 6
+  topic: '6.1'
+  source_refs:
+  - source_id: src-0216
+    page: 1
+  - source_id: src-0216
+    page: 6
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kt1-hoan-thanh-kiem-toan
+  canonical_name: Hoàn thành kiểm toán
+  aliases:
+  - báo cáo kiểm toán
+  same_as: hoan-thanh-kiem-toan
+  chapter: 6
+  topic: '6.2'
+  source_refs:
+  - source_id: src-0217
+    page: 1
+  - source_id: src-0217
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kt1-y-kien-kiem-toan
+  canonical_name: Ý kiến kiểm toán
+  aliases:
+  - ý kiến chấp nhận toàn phần
+  - từ chối đưa ra ý kiến
+  same_as: null
+  chapter: 6
+  topic: '6.3'
+  source_refs:
+  - source_id: src-0218
+    page: 1
+  - source_id: src-0219
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kt1-gian-lan
+  canonical_name: Gian lận
+  aliases: []
+  same_as: gian-lan-bctc
+  chapter: 3
+  topic: '3.1'
+  chapters:
+  - 1
+  - 2
+  - 4
+  - 6
+  source_refs:
+  - source_id: src-0203
+    page: 4
+  - source_id: src-0203
+    page: 6
+  evidence_status: OBSERVED
+  confidence: high
+account_map: {}
+edges: []
+conflicts:
+- type: TITLE_VARIANT
+  note: 'Chương 6: script/slide "Hoàn thành kiểm toán" vs hướng dẫn ôn tập/outline "Báo cáo kiểm toán"; both kept as names
+    of the same chapter concept'
+  source_ids:
+  - src-0195
+  - src-0196
+  evidence_status: OBSERVED

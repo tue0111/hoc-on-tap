@@ -1,0 +1,413 @@
+# Course scan — Kế toán tài chính 2
+# Layer: curriculum inventory only. No learner mastery. No invented semester.
+# Do not treat tmp/ render artifacts as curriculum.
+# Evidence: OBSERVED / INFERRED / UNKNOWN.
+
+scan:
+  scanner: course-scanner
+  scanned_at: "2026-09-07"
+  extract_root: D:\Hoc\_learning_system\extracts\ke-toan-tai-chinh-2
+  evidence_discipline: OBSERVED/INFERRED/UNKNOWN
+
+course_id: ke-toan-tai-chinh-2
+course_name: Kế toán tài chính 2
+source_folder: D:\Hoc\Kế toán tài chính 2
+institution:
+  value: Trường Đại học Mở TP.HCM
+  evidence_status: OBSERVED
+  evidence:
+    - source_id: src-0069
+      quote: "Môn học Kế toán tài chính 2 được biên soạn bởi các giảng viên của Khoa Kế toán-Kiểm toán trường Đại học Mở TP.HCM"
+course_code:
+  primary_observed: ACCO1334
+  conflict_observed: ACCO2315
+  evidence_status: OBSERVED
+  evidence:
+    - source_id: src-0069
+      location: "Chương 0 block inside Chương 1.pdf"
+      quote: "Môn học: KẾ TOÁN TÀI CHÍNH 2 – ACCO2315"
+    - source_id: src-0069
+      location: "Chương 1 body"
+      quote: "Môn học: KẾ TOÁN TÀI CHÍNH 2 - ACCO1334"
+    - source_id: src-0070
+      quote: "Môn học: KẾ TOÁN TÀI CHÍNH 2 – ACCO1334"
+    - source_id: src-0075
+      quote: "Môn học: KẾ TOÁN TÀI CHÍNH 2 - ACCO1334"
+  note: ACCO1334 appears on Ch1 body, Ch2, and Đề 2. ACCO2315 appears only on the embedded Chương 0 intro. Which code is catalog-official is UNKNOWN.
+academic_year:
+  value: null
+  evidence_status: UNKNOWN
+semester:
+  value: null
+  evidence_status: UNKNOWN
+status:
+  value: unknown
+  note: No catalog/syllabus stating current vs historical.
+
+lecturers_observed:
+  - name: Nguyễn Thị Ngọc Điệp
+    role_in_document: đại diện nhóm thực hiện môn học / biên soạn
+    evidence_status: OBSERVED
+    source: src-0069
+    quote: "tôi là Nguyễn Thị Ngọc Điệp, đại diện nhóm thực hiện môn học"
+  - name: Trần Thị Vinh
+    role_in_document: biên soạn; PDF bookmarks CD2.3–CD2.7 carry this name
+    evidence_status: OBSERVED
+    sources: [src-0069, src-0070]
+  - name: Ngô Hoàng Điệp
+    role_in_document: biên soạn
+    evidence_status: OBSERVED
+    source: src-0069
+  - name: Trần Tuyết Thanh
+    role_in_document: biên soạn
+    evidence_status: OBSERVED
+    source: src-0069
+lecturers_quote_group: "Cô Nguyễn Thị Ngọc Điệp; Cô Trần Thị Vinh, thầy Ngô Hoàng Điệp và cô Trần Tuyết Thanh"
+
+sources:
+  syllabus: []
+  lecture_note:
+    - source_id: src-0069
+      filename: Chương 1.pdf
+      inventory_role: lecture_note
+      pages: 39
+      pages_extracted: 8
+      extract_ok: true
+      extract_truncated: true
+      contains:
+        - title: "Chương 0: GIỚI THIỆU MÔN HỌC"
+          evidence_status: OBSERVED
+        - title: "Chương 1: KẾ TOÁN TÀI SẢN CỐ ĐỊNH"
+          evidence_status: OBSERVED
+      note: Single PDF holds course intro plus Chapter 1 scripts. Outline starts KeToanTaiChinh2_Script then C1-CD1.1–1.7.
+    - source_id: src-0070
+      filename: Chương 2.pdf
+      inventory_role: lecture_note
+      content_title_observed: "Chương 2: KẾ TOÁN NỢ PHẢI TRẢ"
+      pages: 57
+      pages_extracted: 8
+      extract_ok: true
+      extract_truncated: true
+  lecture_slide: []
+  exam: []
+  exercise:
+    - source_id: src-0075
+      filename: Đề 2.pdf
+      inventory_role: unknown
+      content_role_after_inspection: exercise
+      content_role_evidence_status: OBSERVED
+      note: "Not a timed exam. Header is course+chapter; body is Bài 3 and Bài 5 (TSCĐ journal entries and depreciation table). Requires TT 200; straight-line vs declining-balance."
+      pages: 2
+      pages_extracted: 2
+      extract_ok: true
+      course_code_on_doc: ACCO1334
+  textbook: []
+  unknown_not_curriculum:
+    - source_id: src-0071
+      filename: redo_docx_proxy.pdf
+      path: Kế toán tài chính 2/tmp/redo_docx_proxy/redo_docx_proxy.pdf
+      inventory_role: unknown
+      classification_reason: generated render/tmp/proxy artifact
+      extract_ok: false
+      extract_skip_reason: skipped_tmp_or_artifact
+      treat_as_curriculum: false
+    - source_id: src-0072
+      filename: redo_docx_proxy_final.pdf
+      path: Kế toán tài chính 2/tmp/redo_docx_proxy/redo_docx_proxy_final.pdf
+      inventory_role: unknown
+      extract_ok: false
+      extract_skip_reason: skipped_tmp_or_artifact
+      treat_as_curriculum: false
+    - source_id: src-0073
+      filename: de2_proxy.pdf
+      path: Kế toán tài chính 2/tmp/render_proxy/de2_proxy.pdf
+      inventory_role: unknown
+      extract_ok: false
+      extract_skip_reason: skipped_tmp_or_artifact
+      treat_as_curriculum: false
+    - source_id: src-0074
+      filename: de2_proxy_final.pdf
+      path: Kế toán tài chính 2/tmp/render_proxy/de2_proxy_final.pdf
+      inventory_role: unknown
+      extract_ok: false
+      extract_skip_reason: skipped_tmp_or_artifact
+      treat_as_curriculum: false
+
+structure:
+  advertised_chapter_count: 4
+  advertised_chapter_count_evidence: src-0069
+  quote: "Nội dung học tập của môn học được kết cấu thành 4 chương"
+  chapters:
+    - number: 0
+      title: Giới thiệu môn học
+      evidence_status: OBSERVED
+      sources: [src-0069]
+      file: Chương 1.pdf (embedded, not a separate Chương 0.pdf)
+      in_four_chapter_list: false
+      topics_observed:
+        - Mục tiêu — TSCĐ, nợ phải trả, vốn chủ sở hữu, doanh thu, chi phí, KQKD
+        - Đánh giá 40% quá trình / 60% cuối kỳ (cuối kỳ trắc nghiệm)
+        - Tài nguyên — video, slide, script, tài liệu học tập, bài tập có hướng dẫn
+    - number: 1
+      title: Kế toán tài sản cố định
+      evidence_status: OBSERVED
+      sources: [src-0069, src-0075]
+      files_in_folder: true
+      topics:
+        - code: C1-CD1.1
+          title: Khái niệm và nguyên tắc TSCĐ hữu hình
+          evidence_status: OBSERVED
+          sources: [src-0069]
+        - code: C1-CD1.2
+          title: Khái niệm và nguyên tắc TSCĐ vô hình
+          evidence_status: OBSERVED
+          evidence_type: pdf_outline_and_script_topic_list
+        - code: C1-CD1.3
+          title: Các phương pháp tính khấu hao TSCĐ
+          evidence_status: OBSERVED
+          evidence_type: pdf_outline_and_script_topic_list
+        - code: C1-CD1.4
+          title: Kế toán tăng TSCĐ
+          evidence_status: OBSERVED
+          evidence_type: pdf_outline_and_script_topic_list
+        - code: C1-CD1.5
+          title: Kế toán giảm TSCĐ và trích khấu hao
+          evidence_status: OBSERVED
+          note: Script topic list “Kế toán giảm TSCĐ và trích khấu hao”; outline bookmark “KetoangiamTSCD”.
+        - code: C1-CD1.6
+          title: Kế toán chi phí phát sinh sau khi ghi nhận ban đầu
+          evidence_status: OBSERVED
+          evidence_type: pdf_outline_and_script_topic_list
+        - code: C1-CD1.7
+          title: Trình bày thông tin trên BCTC
+          evidence_status: OBSERVED
+          evidence_type: pdf_outline_and_script_topic_list
+      accounts_taught:
+        value: null
+        evidence_status: UNKNOWN
+        note: Extracted pages of CD1.1 discuss VAS 03 and nguyên giá; no account numbers (211/214/…) in extracted text. Do not invent.
+    - number: 2
+      title: Kế toán nợ phải trả
+      evidence_status: OBSERVED
+      sources: [src-0070]
+      files_in_folder: true
+      topics:
+        - code: C2-CD2.1
+          title: Khái niệm, điều kiện ghi nhận và phân loại nợ phải trả
+          evidence_status: OBSERVED
+          sources: [src-0070]
+        - code: C2-CD2.2
+          title: Ghi nhận và đánh giá nợ phải trả
+          evidence_status: OBSERVED
+          sources: [src-0070]
+        - code: C2-CD2.3
+          title: Vận dụng tài khoản — phần 1
+          evidence_status: OBSERVED
+          evidence_type: pdf_outline
+          outline: KTTC2-C2-CD2.3-TranThiVinh-Vandungtaikhoan-P1
+        - code: C2-CD2.4
+          title: Vận dụng tài khoản — phần 2
+          evidence_status: OBSERVED
+          evidence_type: pdf_outline
+          outline: KTTC2-C2-CD2.4-TranThiVinh-Vandungtaikhoan-P2_V2
+        - code: C2-CD2.5
+          title: Vận dụng tài khoản — phần 3
+          evidence_status: OBSERVED
+          evidence_type: pdf_outline
+          outline: KTTC2-C2-CD2.5-TranThiVinh_Vandungtaikhoan-P3
+        - code: C2-CD2.6
+          title: Vận dụng tài khoản — phần 4
+          evidence_status: OBSERVED
+          evidence_type: pdf_outline
+          outline: KTTC2-C2-CD2.6-TranThiVinh_Vandungtaikhoan-P4
+        - code: C2-CD2.7
+          title: Trình bày thông tin BCTC
+          evidence_status: OBSERVED
+          evidence_type: pdf_outline
+          outline: KTTC2-C2-CD2.7-TranThiVinh-TrinhbaythongtinBCTC
+      accounts_taught:
+        value: null
+        evidence_status: UNKNOWN
+        note: CD2.3–2.6 are “vận dụng tài khoản” but those pages were not extracted.
+    - number: 3
+      title: Kế toán vốn chủ sở hữu
+      evidence_status: OBSERVED
+      sources: [src-0069]
+      files_in_folder: true
+      note: V3 observed full Chapter 3 document and unit scripts; see normalized corpus.
+    - number: 4
+      title: Kế toán xác định kết quả hoạt động kinh doanh
+      evidence_status: OBSERVED
+      sources: [src-0069]
+      files_in_folder: true
+      note: V3 observed full Chapter 4 document and unit scripts; see normalized corpus.
+
+relationships:
+  explicit_prerequisites:
+    - course_name: Kế toán tài chính 1 (KTTC1)
+      evidence_status: OBSERVED
+      source: src-0070
+      quote: "Từ môn KTTC1 đến chương 1 của môn KTTC2, các anh chị được giảng viên giới thiệu các đối tượng thuộc phần tài sản trên bảng cân đối kế toán."
+      note: Document text, not inferred from folder name “2”.
+  inferred_prerequisites:
+    - course_name: Nguyên lý kế toán
+      evidence_status: INFERRED
+      note: Named as prereq of KTTC1 in KTTC1 HUONG DAN. KTTC2 extracts do not themselves name NLKT. Do not promote to explicit.
+  successor_courses:
+    - course_name: Kế toán tài chính 3 (KTTC3)
+      evidence_status: OBSERVED
+      source: src-0070
+      quote: "Nợ phải trả ngoại tệ phải được đánh giá lại theo tỷ giá giao dịch thực tế tại ngày lập BCTC. Việc đánh giá lại nợ phải trả ngoại tệ sẽ được hướng dẫn với các anh chị trong môn học KTTC3."
+  related_courses: []
+  filename_only_signals:
+    - signal: folder/filename contains "2"
+      evidence_status: INFERRED
+      note: Sequence after KTTC1 is also stated in KTTC2 Ch2 text (explicit). Filename is not the sole evidence.
+
+coverage:
+  has_study_guide_or_syllabus: false
+  has_course_intro: true
+  course_intro_location: embedded_in_Chương_1.pdf
+  has_chapter_scripts: true
+  chapters_with_script_files: [1, 2, 3, 4]
+  advertised_chapters_missing_files: []
+  has_slides: false
+  slides_mentioned_in_intro: true
+  has_sample_exam: false
+  has_exercise_file: true
+  exercise_scope: chapter_1_TSCD_Bài_3_and_Bài_5_only
+  has_textbook_file_in_folder: false
+  textbook_mentioned_in_intro: true
+  tmp_artifacts_present: true
+  tmp_artifacts_treated_as_curriculum: false
+
+quality:
+  extract_ok_curriculum_pdfs: [src-0069, src-0070, src-0075]
+  tmp_extracts_skipped: [src-0071, src-0072, src-0073, src-0074]
+  likely_scanned: false
+  extract_truncation:
+    - {source_id: src-0069, pages: 39, pages_extracted: 8}
+    - {source_id: src-0070, pages: 57, pages_extracted: 8}
+  course_code_conflict: ACCO2315_vs_ACCO1334
+  missing_materials_vs_intro: [slides, tài_liệu_học_tập_chính, bài_tập_có_hướng_dẫn_đầy_đủ]
+  near_duplicate_filename_signal:
+    note: Inventory flagged KTTC2/Chương 1.pdf size within 2% of Tài chính hành chính sự nghiệp/Chương 1.pdf. Content here is KTTC2 TSCĐ — not treated as same course.
+
+concepts:
+  - id: kttc2-tscd-huu-hinh
+    label: TSCĐ hữu hình — định nghĩa, phân loại, 4 tiêu chuẩn ghi nhận (VAS 03)
+    chapter: 1
+    evidence_status: OBSERVED
+    source: src-0069
+    legal_refs: ["VAS 03 đoạn 5–6", "Thông tư 45/2013/TT-BTC ngưỡng 30.000.000 đồng"]
+  - id: kttc2-nguyen-gia-tscdhh
+    label: Nguyên giá TSCĐ HH (mua sắm, XDCB, tự chế, góp vốn, biếu tặng, trao đổi)
+    chapter: 1
+    evidence_status: OBSERVED
+    source: src-0069
+    legal_refs: ["VAS 03 đoạn 3, 5", "Thông tư 200/2014/TT-BTC Điều 35 (lãi vay)"]
+  - id: kttc2-von-hoa-sau-ghi-nhan
+    label: Chi phí sau ghi nhận ban đầu — vốn hóa vs ghi chi phí
+    chapter: 1
+    evidence_status: OBSERVED
+    source: src-0069
+  - id: kttc2-tscd-vo-hinh
+    label: TSCĐ vô hình — khái niệm và nguyên tắc
+    chapter: 1
+    evidence_status: OBSERVED
+    note: Title/topic list only in extracted pages.
+  - id: kttc2-khau-hao
+    label: Phương pháp tính khấu hao TSCĐ
+    chapter: 1
+    evidence_status: OBSERVED
+    note: Topic listed in Ch1. Đề 2 requires đường thẳng and phương pháp giảm dần.
+    sources: [src-0069, src-0075]
+  - id: kttc2-tang-giam-tscd
+    label: Kế toán tăng/giảm TSCĐ
+    chapter: 1
+    evidence_status: OBSERVED
+    note: Topic list + Đề 2 (thiếu TSCĐ, nhượng bán, trao đổi không tương tự, nâng cấp).
+    sources: [src-0069, src-0075]
+  - id: kttc2-no-phai-tra
+    label: Nợ phải trả — khái niệm VAS 01, 2 điều kiện ghi nhận
+    chapter: 2
+    evidence_status: OBSERVED
+    source: src-0070
+  - id: kttc2-npt-dp-no-tiem-tang
+    label: Nợ phải trả vs dự phòng phải trả vs nợ tiềm tàng
+    chapter: 2
+    evidence_status: OBSERVED
+    source: src-0070
+  - id: kttc2-npt-ngan-dai-han
+    label: Phân loại nợ ngắn hạn / dài hạn
+    chapter: 2
+    evidence_status: OBSERVED
+    source: src-0070
+  - id: kttc2-thoi-diem-ghi-nhan-npt
+    label: Thời điểm ghi nhận NPT (người bán, ứng trước, NLĐ, vay, thuế, trích trước/dự phòng, phải trả khác)
+    chapter: 2
+    evidence_status: OBSERVED
+    source: src-0070
+  - id: kttc2-danh-gia-npt
+    label: Đánh giá NPT theo giá gốc; NPT ngoại tệ chuyển sang KTTC3
+    chapter: 2
+    evidence_status: OBSERVED
+    source: src-0070
+  - id: kttc2-vcsh
+    label: Kế toán vốn chủ sở hữu
+    chapter: 3
+    evidence_status: OBSERVED
+    note: Advertised in intro only; no chapter file.
+  - id: kttc2-kqkd
+    label: Kế toán xác định kết quả hoạt động kinh doanh (doanh thu, chi phí)
+    chapter: 4
+    evidence_status: OBSERVED
+    note: Advertised in intro only; no chapter file.
+
+unknowns:
+  - academic_year
+  - semester
+  - official_course_code_ACCO1334_vs_ACCO2315
+  - account_numbers_taught_for_TSCD_and_liabilities
+  - body_of_C1_CD1.2_to_CD1.7
+  - body_of_C2_CD2.3_to_CD2.7
+  - materials_for_chapters_3_and_4
+  - slides_and_main_study_text
+  - official_syllabus_or_huong_dan
+  - whether_folder_is_incomplete_offering_or_partial_download
+
+phase_2_1:
+  retrieval_impact: NO_RETRIEVAL_IMPACT
+  production_index: not_updated
+  status: READY_FOR_FUTURE_INGESTION
+  new_canonical:
+    - source_id: src-0303
+      file: Chương 3.pdf
+      title: Kế toán vốn chủ sở hữu
+      pages: 25
+    - source_id: src-0304
+      file: Chương 4.pdf
+      title: Kế toán xác định kết quả hoạt động kinh doanh
+      pages: 47
+    - source_id: src-0305
+      file: Hướng dẫn ôn tập.pdf
+      role: summary
+      pages: 8
+    - source_id: src-0333
+      file: Đề thi mẫu.pdf
+      role: exam
+      pages: 5
+  advertised_chapters_now_present: [1, 2, 3, 4]
+  missing_advertised_chapters: []
+  course_code_on_new_ch3: ACCO1334
+  note: Chương 3 explicitly sequences after Chương 2 nợ phải trả. _nguon unit scripts catalogued only.
+
+v3:
+  tier: retrieval
+  index: 3.0.0
+  gate: G1
+  gate_status: pass
+  chunk_count: 464
+  coverage_evidence: data/normalized/ke-toan-tai-chinh-2.documents.jsonl
+  legacy_fields_note: Pre-V3 scan fields remain historical unless explicitly updated
+    above. V3 concepts and normalized corpus are canonical.

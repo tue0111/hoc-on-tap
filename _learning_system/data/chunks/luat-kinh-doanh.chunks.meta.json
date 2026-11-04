@@ -1,0 +1,11 @@
+{
+  "chunking_version": "2.0.0",
+  "chunk_count": 177,
+  "course_id": "luat-kinh-doanh",
+  "dup_groups": 0,
+  "by_source_type": {
+    "exam": 14,
+    "syllabus": 19,
+    "lecture_note": 144
+  }
+}

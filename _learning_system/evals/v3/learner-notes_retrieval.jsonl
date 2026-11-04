@@ -1,0 +1,5 @@
+{"id":"ln-01","family":"kiem-toan-thao-luan","question":"Bài thảo luận của tao về bản chất và đạo đức nghề kiểm toán độc lập viết những gì?","expected_source_ids":["src-0040"]}
+{"id":"ln-02","family":"ke-toan-chi-phi-thao-luan-1","question":"Bài của tao về chi phí sản phẩm và chi phí thời kỳ trong doanh nghiệp sản xuất, thương mại, dịch vụ trình bày thế nào?","expected_source_ids":["src-0046"]}
+{"id":"ln-03","family":"ngan-hang-thuong-mai-so-tay","question":"Sổ tay Ngân hàng thương mại của tao tổng hợp các dạng bài tính và trọng tâm đề ra sao?","expected_source_ids":["src-0139","src-0140"]}
+{"id":"ln-04","family":"tai-chinh-doanh-nghiep-1","question":"Sổ tay Tài chính doanh nghiệp 1 của tao giải thích công thức và logic làm bài thế nào?","expected_source_ids":["src-0165","src-0173","src-0174"]}
+{"id":"ln-05","family":"ke-toan-chi-phi-nguyen-duc-tue","question":"Bài làm của tao về kế toán chi phí định mức, chi phí đầu tư ban đầu và phân bổ chi phí sản xuất chung gồm gì?","expected_source_ids":["src-0334","src-0335","src-0336","src-0337","src-0338","src-0339"]}

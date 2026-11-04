@@ -1,0 +1,8 @@
+{
+  "derivation_policy_version": "7.0.0",
+  "derived_at": "2026-09-07T16:34:53.574029+00:00",
+  "concept_count": 0,
+  "invalid_input_count": 0,
+  "source": "learner/evidence/admitted.jsonl",
+  "note": "Derived state is disposable. Admitted evidence is durable."
+}

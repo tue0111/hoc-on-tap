@@ -1,0 +1,563 @@
+{
+  "course_id": "tai-chinh-doanh-nghiep-1",
+  "tag": "_run3",
+  "eval_sha256": "215d84accd2b20fd242fda49fa5021666b37b7d025edf5185977b109c1073e6d",
+  "n": 20,
+  "metrics": {
+    "direct_must_include": 0.9166666666666666,
+    "direct_chapter_at1": 0.3333333333333333,
+    "source_bound": 0.6666666666666666,
+    "insufficient": 1.0,
+    "collision_contamination": 0,
+    "account": null,
+    "topic_owner": null
+  },
+  "gates": {
+    "direct_must_include": true,
+    "direct_chapter_at1": false,
+    "source_bound": true,
+    "insufficient": true,
+    "collision_contamination": true,
+    "account": true,
+    "topic_owner": true
+  },
+  "all_pass": false,
+  "results": [
+    {
+      "id": "td-d01",
+      "category": "direct",
+      "question": "Tài chính doanh nghiệp 1: môi trường kinh doanh của doanh nghiệp gồm những yếu tố nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0177",
+        "src-0156",
+        "src-0156",
+        "src-0168",
+        "src-0157"
+      ],
+      "top_chapters": [
+        null,
+        1,
+        1,
+        2,
+        2
+      ],
+      "partition": "tai-chinh-doanh-nghiep-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": false,
+      "contaminated": false,
+      "pass": false
+    },
+    {
+      "id": "td-d02",
+      "category": "direct",
+      "question": "Tài chính doanh nghiệp 1: các nhóm tỷ số dùng để phân tích báo cáo tài chính là gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0177",
+        "src-0157",
+        "src-0168",
+        "src-0168",
+        "src-0168"
+      ],
+      "top_chapters": [
+        null,
+        2,
+        2,
+        2,
+        2
+      ],
+      "partition": "tai-chinh-doanh-nghiep-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": false,
+      "contaminated": false,
+      "pass": false
+    },
+    {
+      "id": "td-d03",
+      "category": "direct",
+      "question": "Tài chính doanh nghiệp 1: thời giá tiền tệ của một dòng tiền được tính thế nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0155",
+        "src-0177",
+        "src-0166",
+        "src-0158",
+        "src-0157"
+      ],
+      "top_chapters": [
+        0,
+        null,
+        0,
+        3,
+        2
+      ],
+      "partition": "tai-chinh-doanh-nghiep-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": false,
+      "contaminated": false,
+      "pass": false
+    },
+    {
+      "id": "td-d04",
+      "category": "direct",
+      "question": "Tài chính doanh nghiệp 1: mô hình định giá tài sản vốn CAPM giải thích quan hệ lợi nhuận và rủi ro ra sao?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0177",
+        "src-0169",
+        "src-0169",
+        "src-0159",
+        "src-0155"
+      ],
+      "top_chapters": [
+        null,
+        4,
+        4,
+        4,
+        0
+      ],
+      "partition": "tai-chinh-doanh-nghiep-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": false,
+      "contaminated": false,
+      "pass": false
+    },
+    {
+      "id": "td-d05",
+      "category": "direct",
+      "question": "Tài chính doanh nghiệp 1: định giá trái phiếu thông thường như thế nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0177",
+        "src-0170",
+        "src-0160",
+        "src-0160",
+        "src-0160"
+      ],
+      "top_chapters": [
+        null,
+        5,
+        5,
+        5,
+        5
+      ],
+      "partition": "tai-chinh-doanh-nghiep-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": false,
+      "contaminated": false,
+      "pass": false
+    },
+    {
+      "id": "td-d06",
+      "category": "direct",
+      "question": "Tài chính doanh nghiệp 1: định giá cổ phiếu thường theo dòng tiền cổ tức ra sao?",
+      "coverage": "partial",
+      "top_sources": [
+        "src-0170",
+        "src-0177",
+        "src-0155",
+        "src-0166",
+        "src-0156"
+      ],
+      "top_chapters": [
+        5,
+        null,
+        0,
+        0,
+        1
+      ],
+      "partition": "tai-chinh-doanh-nghiep-1",
+      "unknowns": [
+        "no_course_concept_match"
+      ],
+      "must_include": false,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": false
+    },
+    {
+      "id": "td-d07",
+      "category": "direct",
+      "question": "Tài chính doanh nghiệp 1: tiêu chuẩn NPV và IRR đánh giá dự án đầu tư thế nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0161",
+        "src-0171",
+        "src-0161",
+        "src-0177",
+        "src-0161"
+      ],
+      "top_chapters": [
+        6,
+        6,
+        6,
+        null,
+        6
+      ],
+      "partition": "tai-chinh-doanh-nghiep-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "td-d08",
+      "category": "direct",
+      "question": "Tài chính doanh nghiệp 1: chi phí sử dụng vốn bình quân gia quyền WACC được xác định thế nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0171",
+        "src-0161",
+        "src-0177",
+        "src-0161",
+        "src-0161"
+      ],
+      "top_chapters": [
+        6,
+        6,
+        null,
+        6,
+        6
+      ],
+      "partition": "tai-chinh-doanh-nghiep-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "td-d09",
+      "category": "direct",
+      "question": "Tài chính doanh nghiệp 1: mô hình EOQ dùng để quản trị hàng tồn kho thế nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0177",
+        "src-0162",
+        "src-0162",
+        "src-0162",
+        "src-0162"
+      ],
+      "top_chapters": [
+        null,
+        7,
+        7,
+        7,
+        7
+      ],
+      "partition": "tai-chinh-doanh-nghiep-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": false,
+      "contaminated": false,
+      "pass": false
+    },
+    {
+      "id": "td-d10",
+      "category": "direct",
+      "question": "Tài chính doanh nghiệp 1: quản trị khoản phải thu và tiêu chuẩn bán chịu gồm gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0162",
+        "src-0177",
+        "src-0162",
+        "src-0162",
+        "src-0162"
+      ],
+      "top_chapters": [
+        7,
+        null,
+        7,
+        7,
+        7
+      ],
+      "partition": "tai-chinh-doanh-nghiep-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "td-d11",
+      "category": "direct",
+      "question": "Tài chính doanh nghiệp 1: đòn bẩy kinh doanh và đòn bẩy tài chính khác nhau thế nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0155",
+        "src-0177",
+        "src-0166",
+        "src-0163",
+        "src-0163"
+      ],
+      "top_chapters": [
+        0,
+        null,
+        0,
+        8,
+        8
+      ],
+      "partition": "tai-chinh-doanh-nghiep-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": false,
+      "contaminated": false,
+      "pass": false
+    },
+    {
+      "id": "td-d12",
+      "category": "direct",
+      "question": "Tài chính doanh nghiệp 1: các hình thức chi trả cổ tức và chính sách cổ tức gồm gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0177",
+        "src-0166",
+        "src-0164",
+        "src-0156",
+        "src-0164"
+      ],
+      "top_chapters": [
+        null,
+        0,
+        9,
+        1,
+        9
+      ],
+      "partition": "tai-chinh-doanh-nghiep-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": false,
+      "contaminated": false,
+      "pass": false
+    },
+    {
+      "id": "td-s01",
+      "category": "source_bound",
+      "question": "Theo chương 4 của Tài chính doanh nghiệp 1, lợi nhuận và rủi ro được trình bày thế nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0169",
+        "src-0159",
+        "src-0159",
+        "src-0159",
+        "src-0159"
+      ],
+      "top_chapters": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "partition": "tai-chinh-doanh-nghiep-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "td-s02",
+      "category": "source_bound",
+      "question": "Đề thi mẫu Tài chính doanh nghiệp 1 có những dạng câu hỏi nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0161",
+        "src-0156",
+        "src-0175",
+        "src-0155",
+        "src-0166"
+      ],
+      "top_chapters": [
+        6,
+        1,
+        null,
+        0,
+        0
+      ],
+      "partition": "tai-chinh-doanh-nghiep-1",
+      "unknowns": [],
+      "must_include": false,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": false
+    },
+    {
+      "id": "td-s03",
+      "category": "source_bound",
+      "question": "Tài liệu hướng dẫn ôn tập Tài chính doanh nghiệp 1 yêu cầu học những gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0177",
+        "src-0155",
+        "src-0157",
+        "src-0162",
+        "src-0155"
+      ],
+      "top_chapters": [
+        null,
+        0,
+        2,
+        7,
+        0
+      ],
+      "partition": "tai-chinh-doanh-nghiep-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "td-i01",
+      "category": "insufficient",
+      "question": "Tài chính doanh nghiệp 1 quy định thủ tục phá sản doanh nghiệp thế nào?",
+      "coverage": "insufficient",
+      "top_sources": [
+        "src-0162",
+        "src-0157",
+        "src-0163",
+        "src-0161",
+        "src-0162"
+      ],
+      "top_chapters": [
+        7,
+        2,
+        8,
+        6,
+        7
+      ],
+      "partition": "tai-chinh-doanh-nghiep-1",
+      "unknowns": [
+        "no_course_concept_match",
+        "topic_in_other_course:luat-kinh-doanh",
+        "insufficient_curriculum_evidence"
+      ],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "td-i02",
+      "category": "insufficient",
+      "question": "Tài chính doanh nghiệp 1 hướng dẫn giao kết hợp đồng dân sự ra sao?",
+      "coverage": "insufficient",
+      "top_sources": [
+        "src-0177",
+        "src-0162",
+        "src-0156",
+        "src-0168",
+        "src-0168"
+      ],
+      "top_chapters": [
+        null,
+        7,
+        1,
+        2,
+        2
+      ],
+      "partition": "tai-chinh-doanh-nghiep-1",
+      "unknowns": [
+        "topic_in_other_course:luat-kinh-doanh",
+        "no_course_concept_match",
+        "term_not_in_course_corpus:dân",
+        "insufficient_curriculum_evidence"
+      ],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "td-i03",
+      "category": "insufficient",
+      "question": "Tài chính doanh nghiệp 1 giải thích cơ sở dẫn liệu kiểm toán thế nào?",
+      "coverage": "insufficient",
+      "top_sources": [
+        "src-0155",
+        "src-0157",
+        "src-0156",
+        "src-0162",
+        "src-0157"
+      ],
+      "top_chapters": [
+        0,
+        2,
+        1,
+        7,
+        2
+      ],
+      "partition": "tai-chinh-doanh-nghiep-1",
+      "unknowns": [
+        "topic_in_other_course:kiem-toan-1",
+        "no_course_concept_match",
+        "topic_owner_hint:kinh-doanh-va-nghiep-vu",
+        "insufficient_curriculum_evidence"
+      ],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "td-c01",
+      "category": "collision",
+      "question": "Chương 1 của Tài chính doanh nghiệp 1 nói về gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0156",
+        "src-0167",
+        "src-0156",
+        "src-0156",
+        "src-0156"
+      ],
+      "top_chapters": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "partition": "tai-chinh-doanh-nghiep-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "td-c02",
+      "category": "collision",
+      "question": "Chương 9 của Tài chính doanh nghiệp 1 nói về gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0164",
+        "src-0164",
+        "src-0164",
+        "src-0164",
+        "src-0164"
+      ],
+      "top_chapters": [
+        9,
+        9,
+        9,
+        9,
+        9
+      ],
+      "partition": "tai-chinh-doanh-nghiep-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    }
+  ]
+}

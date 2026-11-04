@@ -1,0 +1,96 @@
+# Layer C: EXTERNAL KNOWLEDGE. Research Agent interface only.
+# The Research Agent must never overwrite curriculum/*.
+# Phase 0–1: schema only. No live web research.
+
+schema_id: research-evidence
+schema_version: "0.1.0"
+status: v3_external_records
+owner: external_research_plane
+boundary:
+  may_do:
+    - find new sources
+    - check freshness
+    - prefer authoritative sources
+    - track IFRS / IAS / VAS / regulators / professional bodies
+    - find supplementary materials
+    - compare external claims with curriculum
+    - return an EvidencePackage
+  must_not:
+    - overwrite curriculum manifests or source files
+    - silently “correct” lecturer materials
+    - merge external definition into canonical_name without a conflict record
+    - populate learner mastery
+
+evidence_package:
+  package_id: string
+  created_at: datetime
+  topic: string
+  concept_ids: [string]
+  course_ids: [string]
+  query: string
+  jurisdiction:
+    enum: [VN, IFRS, IAS, VAS, other, unknown]
+  source:
+    title: string
+    url: string
+    publisher: string
+    document_type:
+      enum: [standard, law, circular, textbook, article, regulator_faq, professional_body, unknown]
+    authority:
+      enum:
+        - primary_standard_setter
+        - regulator
+        - professional_body
+        - academic
+        - commercial
+        - unknown
+      rank_note: Higher authority does not replace curriculum; it is a parallel layer.
+    publication_date: date
+    retrieved_at: datetime
+    language: string
+  freshness:
+    status:
+      enum: [current, superseded, unknown]
+    as_of: date
+    superseded_by: string
+  claims:
+    - claim_id: string
+      text: string
+      evidence_excerpt: string
+      confidence:
+        enum: [high, medium, low]
+  relationship_to_curriculum:
+    supports: [{concept_id: string, source_id: string, note: string}]
+    extends: [{concept_id: string, source_id: string, note: string}]
+    conflicts: [{concept_id: string, source_id: string, curriculum_excerpt: string, external_excerpt: string}]
+    no_curriculum_coverage:
+      type: boolean
+      description: Topic is outside the inventoried program. Do not insert it into concept_graph as a taught prerequisite.
+  recommended_action:
+    enum:
+      - ignore
+      - attach_as_external_note
+      - flag_curriculum_conflict
+      - propose_new_concept_external_only
+      - request_human_review
+    never: overwrite_curriculum
+  provenance:
+    agent: research_agent
+    raw_capture_ref: string
+    hash: string
+
+comparison_rule:
+  if_conflict: keep both lecturer_definition and external_definition under the same concept_id
+  canonical_name: remains the curriculum name when one exists
+
+# Additive V3 record contract. Original evidence_package interface remains valid.
+regulation_record:
+  required: [ref, status, effective_from, scope, key_changes, cited_in_courses, sources, evidence_status, layer, checked_at]
+  status_enum: [in_force, amended, replaced, expired, unknown]
+  layer: external
+  source_required: [url, publisher, retrieved_at, authority]
+  authority_enum: [official, secondary]
+  key_changes_max_items: 8
+  key_change_required: [text, source_url]
+  unknown_requires: unknown_reason
+  note: effective_from describes the documented change; preserve exceptions, transition rules and freshness limits.

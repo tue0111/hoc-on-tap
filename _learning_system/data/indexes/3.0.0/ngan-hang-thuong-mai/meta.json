@@ -1,0 +1,38 @@
+{
+  "index_version": "3.0.0",
+  "chunking_version": "2.0.0",
+  "extract_version": "3.0.0",
+  "build_date": "2026-10-11T04:53:11.170263+00:00",
+  "chunk_count": 357,
+  "vocab_size": 1602,
+  "avgdl": 145.09803921568627,
+  "k1": 1.5,
+  "b": 0.75,
+  "courses": [
+    "ngan-hang-thuong-mai"
+  ],
+  "source_hashes": [
+    "11a6f9e588ac4daa9709f3ca797e9211e77be7fa5ba5a39543997abc0025638e",
+    "1765bb020f29519eda513930f652f37db4686be6050a17770543b27dfd6b6392",
+    "1b80d904d93ea9833dd38d29f7571dde13fa8651b8aa07d695eae286178b4b5f",
+    "2b26c6bd54e8b16ac08ab639e4711a27c3aa97701fec14f136fab614a4873969",
+    "3acae7bda65ddcb5cf4365be404c0e3bb174712a399db616c50d333a00786a4b",
+    "43aa07ba3e7ccbfbe3a5291961d89f1dad8d3d1bc75588b007d96c12705b20eb",
+    "48b55434bf6c37030b514254b3d24c572966412f5857a821713e0340acd00a83",
+    "7004bb1dd267604f569708ccb39234b9332ffdfcec02a1e15509ac8d8206b4fa",
+    "78b945fec1df2df59c1189c19c0593407c70e9dff473ec7ce60f40cfb3fe50fd",
+    "8769bba946959bcc3965933375c046986c3b33872dcbbe6e1f7e471572acda86",
+    "8f1debe6f8be2100d451e5831b610e3a635a7dc0d69d4499ac51ac96f1f4fbc2",
+    "9a55354cda055071d6c48f13804ea9b39de39977d88a60feaa5fee9358bd1861",
+    "a6019c19a4dbb9ab4bae9b73acb1cb60bb42761a8edf7bd1950340539aeadf68",
+    "d1ca9c02b075b49121eca688326f2cac04437ea87934d261c095478402c69876",
+    "e6eb09e7e217ef1d2b77669987dd2ba8696ddc07468711a7bb178398c406780a",
+    "e826dce56b33909b0da3a24789a6bc0080008b4e6b31829ea60523e2120cab73"
+  ],
+  "embedding": null,
+  "lexical": "bm25",
+  "semantic": "tfidf_cosine_numpy",
+  "concept_registry_version": "0.1.0",
+  "course_id": "ngan-hang-thuong-mai",
+  "concept_table_version": "0af6df3ef5e0"
+}

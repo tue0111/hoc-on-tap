@@ -1,0 +1,937 @@
+{
+  "course_id": "kiem-toan-1",
+  "unit_titles": [
+    {
+      "source_id": "src-0197",
+      "chapter": 1,
+      "topic": "clip 1",
+      "title_from_filename": "23 Script Ch1 Clip 1",
+      "page": 1
+    },
+    {
+      "source_id": "src-0198",
+      "chapter": 1,
+      "topic": "clip 2",
+      "title_from_filename": "24 Script Ch1 CliP 2",
+      "page": 1
+    },
+    {
+      "source_id": "src-0199",
+      "chapter": 1,
+      "topic": "clip 3",
+      "title_from_filename": "25 Script Ch1 CliP 3",
+      "page": 1
+    },
+    {
+      "source_id": "src-0200",
+      "chapter": 2,
+      "topic": "clip 1",
+      "title_from_filename": "26 Script Ch2 Clip 1",
+      "page": 1
+    },
+    {
+      "source_id": "src-0201",
+      "chapter": 2,
+      "topic": "clip 2",
+      "title_from_filename": "27 Script Ch2 Clip 2",
+      "page": 1
+    },
+    {
+      "source_id": "src-0202",
+      "chapter": 2,
+      "topic": "clip 3",
+      "title_from_filename": "28 Script Ch2 Clip 3",
+      "page": 1
+    },
+    {
+      "source_id": "src-0203",
+      "chapter": 3,
+      "topic": "3.1",
+      "title_from_filename": "29 Script Ch3 CD 3.1",
+      "page": 1
+    },
+    {
+      "source_id": "src-0204",
+      "chapter": 3,
+      "topic": "3.2",
+      "title_from_filename": "30 Script Ch3 CD 3.2 P1",
+      "page": 1
+    },
+    {
+      "source_id": "src-0205",
+      "chapter": 3,
+      "topic": "3.2",
+      "title_from_filename": "30 Script Ch3 CD 3.2 P2",
+      "page": 1
+    },
+    {
+      "source_id": "src-0206",
+      "chapter": 3,
+      "topic": "3.3",
+      "title_from_filename": "31 Script Ch3 CD 3.3",
+      "page": 1
+    },
+    {
+      "source_id": "src-0207",
+      "chapter": 4,
+      "topic": "4.1",
+      "title_from_filename": "32 Script Ch4 CD 4.1 P1",
+      "page": 1
+    },
+    {
+      "source_id": "src-0208",
+      "chapter": 4,
+      "topic": "4.1",
+      "title_from_filename": "32 Script Ch4 CD 4.1 P2",
+      "page": 1
+    },
+    {
+      "source_id": "src-0209",
+      "chapter": 4,
+      "topic": "4.2",
+      "title_from_filename": "33 Script Ch4 CD 4.2 P1",
+      "page": 1
+    },
+    {
+      "source_id": "src-0210",
+      "chapter": 4,
+      "topic": "4.2",
+      "title_from_filename": "33 Script Ch4 CD 4.2 P2",
+      "page": 1
+    },
+    {
+      "source_id": "src-0211",
+      "chapter": 4,
+      "topic": "4.3",
+      "title_from_filename": "34 Script Ch4 CD 4.3 P1",
+      "page": 1
+    },
+    {
+      "source_id": "src-0212",
+      "chapter": 4,
+      "topic": "4.3",
+      "title_from_filename": "34 Script Ch4 CD 4.3 P2",
+      "page": 1
+    },
+    {
+      "source_id": "src-0213",
+      "chapter": 5,
+      "topic": "5.1",
+      "title_from_filename": "35 Script Ch5 CD5.1",
+      "page": 1
+    },
+    {
+      "source_id": "src-0214",
+      "chapter": 5,
+      "topic": "5.2",
+      "title_from_filename": "36 Script Ch5 CD5.2",
+      "page": 1
+    },
+    {
+      "source_id": "src-0215",
+      "chapter": 5,
+      "topic": "5.3",
+      "title_from_filename": "37 Script Ch5 CD5.3",
+      "page": 1
+    },
+    {
+      "source_id": "src-0216",
+      "chapter": 6,
+      "topic": "6.1",
+      "title_from_filename": "38 Script Ch6 CD6.1",
+      "page": 1
+    },
+    {
+      "source_id": "src-0217",
+      "chapter": 6,
+      "topic": "6.2",
+      "title_from_filename": "39 Script Ch6 CD6.2",
+      "page": 1
+    },
+    {
+      "source_id": "src-0218",
+      "chapter": 6,
+      "topic": "6.3",
+      "title_from_filename": "40 Script Ch6 CD6.3",
+      "page": 1
+    },
+    {
+      "source_id": "src-0219",
+      "chapter": 6,
+      "topic": "6.3",
+      "title_from_filename": "59 TLTK BCKiT CD 6.3",
+      "page": 1
+    }
+  ],
+  "heading_lines": [
+    {
+      "kind": "chuong",
+      "line": "Chương 4: Chuẩn bị kiểm toán",
+      "count": 13,
+      "refs": [
+        {
+          "source_id": "src-0193",
+          "page": 1
+        },
+        {
+          "source_id": "src-0193",
+          "page": 6
+        },
+        {
+          "source_id": "src-0193",
+          "page": 14
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 3: Kiểm soát nội bộ",
+      "count": 9,
+      "refs": [
+        {
+          "source_id": "src-0039",
+          "page": 1
+        },
+        {
+          "source_id": "src-0039",
+          "page": 8
+        },
+        {
+          "source_id": "src-0039",
+          "page": 16
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 1: TỔNG QUAN VỀ BÁO CÁO TÀI CHÍNH",
+      "count": 6,
+      "refs": [
+        {
+          "source_id": "src-0037",
+          "page": 7
+        },
+        {
+          "source_id": "src-0037",
+          "page": 19
+        },
+        {
+          "source_id": "src-0037",
+          "page": 25
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 2: TỔNG QUAN VỀ KIỂM TOÁN",
+      "count": 6,
+      "refs": [
+        {
+          "source_id": "src-0038",
+          "page": 1
+        },
+        {
+          "source_id": "src-0038",
+          "page": 14
+        },
+        {
+          "source_id": "src-0038",
+          "page": 18
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "CHƯƠNG 5: BẰNG CHỨNG KIỂM TOÁN",
+      "count": 6,
+      "refs": [
+        {
+          "source_id": "src-0194",
+          "page": 1
+        },
+        {
+          "source_id": "src-0194",
+          "page": 5
+        },
+        {
+          "source_id": "src-0194",
+          "page": 9
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "CHƯƠNG 6: HOÀN THÀNH KIỂM TOÁN",
+      "count": 6,
+      "refs": [
+        {
+          "source_id": "src-0195",
+          "page": 1
+        },
+        {
+          "source_id": "src-0195",
+          "page": 7
+        },
+        {
+          "source_id": "src-0195",
+          "page": 14
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 5.1: Khái niệm và vai trò của bằng chứng kiểm toán",
+      "count": 4,
+      "refs": [
+        {
+          "source_id": "src-0194",
+          "page": 1
+        },
+        {
+          "source_id": "src-0194",
+          "page": 1
+        },
+        {
+          "source_id": "src-0213",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 5.2: Yêu cầu của bằng chứng kiểm toán",
+      "count": 4,
+      "refs": [
+        {
+          "source_id": "src-0194",
+          "page": 1
+        },
+        {
+          "source_id": "src-0194",
+          "page": 5
+        },
+        {
+          "source_id": "src-0213",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 5.3: Các kỹ thuật thu thập bằng chứng kiểm toán",
+      "count": 4,
+      "refs": [
+        {
+          "source_id": "src-0194",
+          "page": 1
+        },
+        {
+          "source_id": "src-0194",
+          "page": 9
+        },
+        {
+          "source_id": "src-0213",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 6.2: Báo cáo kiểm toán",
+      "count": 4,
+      "refs": [
+        {
+          "source_id": "src-0195",
+          "page": 1
+        },
+        {
+          "source_id": "src-0195",
+          "page": 7
+        },
+        {
+          "source_id": "src-0216",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.1: Mục đích của báo cáo tài chính",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0037",
+          "page": 7
+        },
+        {
+          "source_id": "src-0197",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.1 – Trình bày được bản chất và Giải thích được các giả định của báo cáo",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0037",
+          "page": 7
+        },
+        {
+          "source_id": "src-0197",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.2 – Phân tích được các đặc điểm chất lượng và yêu cầu trung thực hợp lý",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0037",
+          "page": 8
+        },
+        {
+          "source_id": "src-0197",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.3 – Phân tích được các khái niệm, nguyên tắc ghi nhận và đánh giá các",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0037",
+          "page": 8
+        },
+        {
+          "source_id": "src-0197",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.2: Yêu cầu chất lượng báo cáo tài chính:",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0037",
+          "page": 19
+        },
+        {
+          "source_id": "src-0198",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.3: Ghi nhận và đánh giá các yếu tố trên báo cáo tài chính",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0037",
+          "page": 25
+        },
+        {
+          "source_id": "src-0199",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.1: Khái niệm kiểm toán và phân loại kiểm toán",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0038",
+          "page": 1
+        },
+        {
+          "source_id": "src-0200",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.2 là Trình bày cơ bản về quy trình kiểm toán và môi trường kiểm toán",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0038",
+          "page": 1
+        },
+        {
+          "source_id": "src-0200",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.2: Quy trình kiểm toán",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0038",
+          "page": 14
+        },
+        {
+          "source_id": "src-0201",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.3: Môi trường của hoạt động kiểm toán",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0038",
+          "page": 18
+        },
+        {
+          "source_id": "src-0202",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.1: Khái niệm kiểm soát nội bộ",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0039",
+          "page": 1
+        },
+        {
+          "source_id": "src-0203",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.2: Các bộ phận hợp thành hệ thống KSNB (Phần 1)",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0039",
+          "page": 8
+        },
+        {
+          "source_id": "src-0204",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.2: Các bộ phận hợp thành hệ thống KSNB (Phần 2)",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0039",
+          "page": 16
+        },
+        {
+          "source_id": "src-0205",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.3: Tìm hiểu và đánh giá KSNB",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0039",
+          "page": 25
+        },
+        {
+          "source_id": "src-0206",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.1: Trọng yếu (Phần 1)",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0193",
+          "page": 1
+        },
+        {
+          "source_id": "src-0207",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.1: Trọng yếu (Phần 2)",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0193",
+          "page": 6
+        },
+        {
+          "source_id": "src-0208",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.2: Rủi ro kiểm toán (Phần 1)",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0193",
+          "page": 14
+        },
+        {
+          "source_id": "src-0209",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.2: Rủi ro kiểm toán (Phần 2)",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0193",
+          "page": 23
+        },
+        {
+          "source_id": "src-0210",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.2: Tiền kế hoạch và lập kế hoạch kiểm toán (phần 1)",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0193",
+          "page": 27
+        },
+        {
+          "source_id": "src-0211",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.2: TKH&LKH (phần 2)",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0193",
+          "page": 32
+        },
+        {
+          "source_id": "src-0212",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 6.1: Đánh giá tổng thể trước khi lập báo cáo kiểm toán",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0195",
+          "page": 1
+        },
+        {
+          "source_id": "src-0216",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 6.3: Ý kiến kiểm toán",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0195",
+          "page": 1
+        },
+        {
+          "source_id": "src-0216",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 6.3: Các loại ý kiến kiểm toán",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0195",
+          "page": 14
+        },
+        {
+          "source_id": "src-0218",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 0: Giới thiệu môn học",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0037",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 3: Kiểm soát nội bộ).",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0041",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 1: Tổng quan về báo cáo tài chính",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0196",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 2: Tổng quan về kiểm toán",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0196",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 5: Bằng chứng kiểm toán",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0196",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 6: Báo cáo kiểm toán",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0196",
+          "page": 3
+        }
+      ]
+    }
+  ],
+  "outline_titles": [
+    {
+      "source_id": "src-0037",
+      "title": "KiemToan1_Script",
+      "page": 1
+    },
+    {
+      "source_id": "src-0037",
+      "title": "23_Script_Ch1_Clip 1",
+      "page": 7
+    },
+    {
+      "source_id": "src-0037",
+      "title": "24_Script_Ch1_CliP 2",
+      "page": 19
+    },
+    {
+      "source_id": "src-0037",
+      "title": "25_Script_Ch1_CliP 3",
+      "page": 25
+    },
+    {
+      "source_id": "src-0038",
+      "title": "26_Script_Ch2_Clip 1",
+      "page": 1
+    },
+    {
+      "source_id": "src-0038",
+      "title": "27_Script_Ch2_Clip 2",
+      "page": 14
+    },
+    {
+      "source_id": "src-0038",
+      "title": "28_Script_Ch2_Clip 3",
+      "page": 18
+    },
+    {
+      "source_id": "src-0039",
+      "title": "29_Script_Ch3_CD 3.1",
+      "page": 1
+    },
+    {
+      "source_id": "src-0039",
+      "title": "30_Script_Ch3_CD 3.2_P1",
+      "page": 8
+    },
+    {
+      "source_id": "src-0039",
+      "title": "30_Script_Ch3_CD 3.2_P2",
+      "page": 16
+    },
+    {
+      "source_id": "src-0039",
+      "title": "Cần tuân thủ quy định pháp luật về thời gian lưu trữ sổ sách kế toán và thời hạn lưu trữ chứng từ kế toán.",
+      "page": 19
+    },
+    {
+      "source_id": "src-0039",
+      "title": "Đối với chứng từ hư hỏng và hết hạn lưu trữ, đơn vị phải lập hội đồng xử lý theo quy định của pháp luật.",
+      "page": 19
+    },
+    {
+      "source_id": "src-0039",
+      "title": "31_Script_Ch3_CD 3.3",
+      "page": 25
+    },
+    {
+      "source_id": "src-0040",
+      "title": "BẢN CHẤT CỦA NGHỀ KIỂM TOÁN ĐỘC LẬP VÀ YẾU TỐ QUYẾT ĐỊNH SỰ TỒN TẠI, PHÁT TRIỂN CỦA DOANH NGHIỆP KIỂM TOÁN ",
+      "page": 1
+    },
+    {
+      "source_id": "src-0040",
+      "title": "Đặt vấn đề và phân tích quan điểm ",
+      "page": 1
+    },
+    {
+      "source_id": "src-0040",
+      "title": "Bản chất hai mặt của hoạt động kiểm toán độc lập: Dịch vụ thương mại và Trách nhiệm xã hội ",
+      "page": 1
+    },
+    {
+      "source_id": "src-0040",
+      "title": "Các định chế và nguyên tắc đạo đức chi phối hoạt động kiểm toán độc lập ",
+      "page": 3
+    },
+    {
+      "source_id": "src-0040",
+      "title": "Yếu tố thực sự quyết định sự tồn tại và phát triển của công ty kiểm toán ",
+      "page": 3
+    },
+    {
+      "source_id": "src-0040",
+      "title": "Định vị đúng đắn mối quan hệ đối tác giữa kiểm toán viên và doanh nghiệp ",
+      "page": 4
+    },
+    {
+      "source_id": "src-0040",
+      "title": "Kết luận và khuyến nghị ",
+      "page": 5
+    },
+    {
+      "source_id": "src-0040",
+      "title": "Nguồn trích dẫn ",
+      "page": 6
+    },
+    {
+      "source_id": "src-0195",
+      "title": "Các trường hợp mà kiểm toán viên có thể cần trình bày đoạn “Vấn đề khác” gồm:",
+      "page": 20
+    },
+    {
+      "source_id": "src-0195",
+      "title": "“Vấn đề khác” thích hợp để người sử dụng hiểu rõ hơn về cuộc kiểm toán",
+      "page": 20
+    },
+    {
+      "source_id": "src-0195",
+      "title": "“Vấn đề khác” thích hợp để người sử dụng hiểu rõ hơn về trách nhiệm của kiểm toán viên hoặc về báo cáo kiểm toán",
+      "page": 20
+    },
+    {
+      "source_id": "src-0195",
+      "title": "Báo cáo kiểm toán về hai báo cáo tài chính trở lên",
+      "page": 20
+    },
+    {
+      "source_id": "src-0195",
+      "title": "Hạn chế việc cung cấp hoặc sử dụng báo cáo kiểm toán",
+      "page": 20
+    },
+    {
+      "source_id": "src-0205",
+      "title": "Cần tuân thủ quy định pháp luật về thời gian lưu trữ sổ sách kế toán và thời hạn lưu trữ chứng từ kế toán.",
+      "page": 4
+    },
+    {
+      "source_id": "src-0205",
+      "title": "Đối với chứng từ hư hỏng và hết hạn lưu trữ, đơn vị phải lập hội đồng xử lý theo quy định của pháp luật.",
+      "page": 4
+    },
+    {
+      "source_id": "src-0218",
+      "title": "Các trường hợp mà kiểm toán viên có thể cần trình bày đoạn “Vấn đề khác” gồm:",
+      "page": 7
+    },
+    {
+      "source_id": "src-0218",
+      "title": "“Vấn đề khác” thích hợp để người sử dụng hiểu rõ hơn về cuộc kiểm toán",
+      "page": 7
+    },
+    {
+      "source_id": "src-0218",
+      "title": "“Vấn đề khác” thích hợp để người sử dụng hiểu rõ hơn về trách nhiệm của kiểm toán viên hoặc về báo cáo kiểm toán",
+      "page": 7
+    },
+    {
+      "source_id": "src-0218",
+      "title": "Báo cáo kiểm toán về hai báo cáo tài chính trở lên",
+      "page": 7
+    },
+    {
+      "source_id": "src-0218",
+      "title": "Hạn chế việc cung cấp hoặc sử dụng báo cáo kiểm toán",
+      "page": 7
+    }
+  ],
+  "accounts": []
+}

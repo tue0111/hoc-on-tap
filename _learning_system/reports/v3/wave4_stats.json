@@ -1,0 +1,245 @@
+[
+  {
+    "id": "ke-toan-tai-chinh-2",
+    "tier": "retrieval",
+    "sources": 34,
+    "pages": 349,
+    "chars": 662767,
+    "chunks": 464,
+    "concepts": 33,
+    "metrics": {
+      "direct_must_include": 1.0,
+      "direct_chapter_at1": 0.9,
+      "source_bound": 1.0,
+      "insufficient": 1.0,
+      "collision_contamination": 0,
+      "account": 1.0,
+      "topic_owner": 1.0
+    },
+    "eval_report": "reports/v3/ke-toan-tai-chinh-2_eval_g3x_fixed.json",
+    "gate": "G1",
+    "gate_status": "pass",
+    "thin": []
+  },
+  {
+    "id": "ke-toan-chi-phi",
+    "tier": "catalog",
+    "sources": 45,
+    "pages": 405,
+    "chars": 685189,
+    "chunks": 362,
+    "concepts": 30,
+    "metrics": {
+      "direct_must_include": 0.9,
+      "direct_chapter_at1": 0.7,
+      "source_bound": 1.0,
+      "insufficient": 1.0,
+      "collision_contamination": 0,
+      "account": 1.0,
+      "topic_owner": 0.0
+    },
+    "eval_report": "reports/v3/ke-toan-chi-phi_eval_run3.json",
+    "gate": "G2a",
+    "gate_status": "fail",
+    "thin": []
+  },
+  {
+    "id": "kiem-toan-1",
+    "tier": "retrieval",
+    "sources": 33,
+    "pages": 368,
+    "chars": 642218,
+    "chunks": 358,
+    "concepts": 40,
+    "metrics": {
+      "direct_must_include": 1.0,
+      "direct_chapter_at1": 1.0,
+      "source_bound": 1.0,
+      "insufficient": 1.0,
+      "collision_contamination": 0,
+      "account": null,
+      "topic_owner": null
+    },
+    "eval_report": "reports/v3/kiem-toan-1_eval_g3x_fixed.json",
+    "gate": "G2b",
+    "gate_status": "pass",
+    "thin": []
+  },
+  {
+    "id": "ke-toan-ngan-hang",
+    "tier": "catalog",
+    "sources": 54,
+    "pages": 630,
+    "chars": 1073853,
+    "chunks": 959,
+    "concepts": 30,
+    "metrics": {
+      "direct_must_include": 0.9166666666666666,
+      "direct_chapter_at1": 0.75,
+      "source_bound": 1.0,
+      "insufficient": 1.0,
+      "collision_contamination": 0,
+      "account": 1.0,
+      "topic_owner": null
+    },
+    "eval_report": "reports/v3/ke-toan-ngan-hang_eval_run3.json",
+    "gate": "G2c",
+    "gate_status": "fail",
+    "thin": []
+  },
+  {
+    "id": "kinh-doanh-va-nghiep-vu",
+    "tier": "retrieval",
+    "sources": 36,
+    "pages": 225,
+    "chars": 436837,
+    "chunks": 521,
+    "concepts": 25,
+    "metrics": {
+      "direct_must_include": 1.0,
+      "direct_chapter_at1": 1.0,
+      "source_bound": 1.0,
+      "insufficient": 1.0,
+      "collision_contamination": 0,
+      "account": null,
+      "topic_owner": null
+    },
+    "eval_report": "reports/v3/kinh-doanh-va-nghiep-vu_eval_g3x_fixed.json",
+    "gate": "G3a",
+    "gate_status": "pass",
+    "thin": []
+  },
+  {
+    "id": "luat-kinh-doanh",
+    "tier": "retrieval",
+    "sources": 17,
+    "pages": 95,
+    "chars": 142860,
+    "chunks": 177,
+    "concepts": 18,
+    "metrics": {
+      "direct_must_include": 1.0,
+      "direct_chapter_at1": 0.9166666666666666,
+      "source_bound": 1.0,
+      "insufficient": 1.0,
+      "collision_contamination": 0,
+      "account": null,
+      "topic_owner": null
+    },
+    "eval_report": "reports/v3/luat-kinh-doanh_eval_g3x_fixed.json",
+    "gate": "G3b",
+    "gate_status": "pass",
+    "thin": []
+  },
+  {
+    "id": "tai-chinh-doanh-nghiep-1",
+    "tier": "catalog",
+    "sources": 24,
+    "pages": 653,
+    "chars": 797548,
+    "chunks": 392,
+    "concepts": 29,
+    "metrics": {
+      "direct_must_include": 0.9166666666666666,
+      "direct_chapter_at1": 0.3333333333333333,
+      "source_bound": 0.6666666666666666,
+      "insufficient": 1.0,
+      "collision_contamination": 0,
+      "account": null,
+      "topic_owner": null
+    },
+    "eval_report": "reports/v3/tai-chinh-doanh-nghiep-1_eval_run3.json",
+    "gate": "G3c",
+    "gate_status": "fail",
+    "thin": []
+  },
+  {
+    "id": "ngan-hang-thuong-mai",
+    "tier": "retrieval",
+    "sources": 20,
+    "pages": 986,
+    "chars": 692683,
+    "chunks": 357,
+    "concepts": 23,
+    "metrics": {
+      "direct_must_include": 0.9166666666666666,
+      "direct_chapter_at1": 0.8333333333333334,
+      "source_bound": 1.0,
+      "insufficient": 1.0,
+      "collision_contamination": 0,
+      "account": null,
+      "topic_owner": null
+    },
+    "eval_report": "reports/v3/ngan-hang-thuong-mai_eval_g3x_fixed.json",
+    "gate": "G3d",
+    "gate_status": "pass",
+    "thin": []
+  },
+  {
+    "id": "thi-truong-tai-chinh",
+    "tier": "retrieval",
+    "sources": 14,
+    "pages": 318,
+    "chars": 167990,
+    "chunks": 196,
+    "concepts": 27,
+    "metrics": {
+      "direct_must_include": 1.0,
+      "direct_chapter_at1": 1.0,
+      "source_bound": 1.0,
+      "insufficient": 1.0,
+      "collision_contamination": 0,
+      "account": null,
+      "topic_owner": null
+    },
+    "eval_report": "reports/v3/thi-truong-tai-chinh_eval_g3x_fixed.json",
+    "gate": "G3e",
+    "gate_status": "pass",
+    "thin": []
+  },
+  {
+    "id": "tai-chinh-hanh-chinh-su-nghiep",
+    "tier": "retrieval",
+    "sources": 14,
+    "pages": 1191,
+    "chars": 888967,
+    "chunks": 768,
+    "concepts": 26,
+    "metrics": {
+      "direct_must_include": 1.0,
+      "direct_chapter_at1": 0.8333333333333334,
+      "source_bound": 0.6666666666666666,
+      "insufficient": 1.0,
+      "collision_contamination": 0,
+      "account": null,
+      "topic_owner": null
+    },
+    "eval_report": "reports/v3/tai-chinh-hanh-chinh-su-nghiep_eval_g3x_fixed.json",
+    "gate": "G3f",
+    "gate_status": "pass",
+    "thin": []
+  },
+  {
+    "id": "learner-notes",
+    "tier": "retrieval",
+    "sources": 14,
+    "pages": 132,
+    "chars": 276921,
+    "chunks": 307,
+    "concepts": 0,
+    "metrics": {
+      "top3": 1.0,
+      "implicit_routing": 1.0,
+      "coverage_contract": 1.0,
+      "unknowns_contract": 1.0,
+      "metadata_contract": 1.0,
+      "explicit_route": 1.0
+    },
+    "eval_report": "reports/v3/learner-notes_eval_g3x_fixed.json",
+    "gate": "G3g",
+    "gate_status": "pass",
+    "thin": [
+      "src-0165"
+    ]
+  }
+]

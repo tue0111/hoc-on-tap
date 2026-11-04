@@ -1,0 +1,36 @@
+{
+  "index_version": "3.0.0",
+  "chunking_version": "2.0.0",
+  "extract_version": "3.0.0",
+  "build_date": "2026-10-11T04:57:02.789273+00:00",
+  "chunk_count": 196,
+  "vocab_size": 1317,
+  "avgdl": 144.87755102040816,
+  "k1": 1.5,
+  "b": 0.75,
+  "courses": [
+    "thi-truong-tai-chinh"
+  ],
+  "source_hashes": [
+    "12a37f159eee1cb95ee3680a53f949642f006db335e5092d1252df3a60c37d59",
+    "1be433c7cff00f7780373e88232ec7a5707848355da291407ef876f765051158",
+    "2aee72f740b2e1d83942216e22ef3c2ef59ffbc61d51c91e5f78d3f4b6da40db",
+    "4e7ec01efebe1abc2e4f3ca6c1b4664a853181a9ac243190990409919feb21eb",
+    "a2f87d05f1aa1bdd3e571ab37384e4be904d346e1077b19a5d8298758d0920a0",
+    "bb6a4fcb84905da60f7af050ff62e6aeba44a7e236b7ab667820a59e7867a254",
+    "c10b6cc9173fdee1ee82a886efe7145676e13f7e7af17a7fc7efc4f8b25881a8",
+    "c2ba61e1aa1f5021ffd7de0067150785eb1ef638787b31e871d9b70076e8d46a",
+    "cb824729e563f4f20cd3113d5e4654351afd2dcc080c9bba4388ca68676f2622",
+    "cf8a1351717f1e38e93013700d53d47bba6f78d823729b21aa034a2f942fa63a",
+    "e2c4215675afb75c48cc05edb6f82dea775f7ac23cbca4ec041eb27d35936a44",
+    "e2f3af825ba937c29e6258d12dd267715497a35e3a42949b9c860e4adf996164",
+    "f5d8c54c5b7d2303ddcb4e32c7cc10256e49aca51ed635f59f089bee8781dc39",
+    "f78841cb7209ffc39ac57bd747dbb0cff6bfd5bde18f99901c050a654e6a127a"
+  ],
+  "embedding": null,
+  "lexical": "bm25",
+  "semantic": "tfidf_cosine_numpy",
+  "concept_registry_version": "0.1.0",
+  "course_id": "thi-truong-tai-chinh",
+  "concept_table_version": "2a15ed94bfdb"
+}

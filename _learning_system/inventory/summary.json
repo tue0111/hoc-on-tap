@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-09-07T14:18:59.436421+00:00",
+  "source_root": "D:\\\\Hoc",
+  "file_count": 333,
+  "phase_2_1_added": 141,
+  "by_extension": {
+    ".pdf": 328,
+    ".docx": 4,
+    ".pptx": 1
+  },
+  "by_role": {
+    "lecture_note": 254,
+    "syllabus": 5,
+    "exam": 11,
+    "summary": 12,
+    "assignment": 3,
+    "reference": 1,
+    "unknown": 12,
+    "lecture_slide": 33,
+    "textbook": 2
+  },
+  "by_course": {
+    "kinh-doanh-va-nghiep-vu": 36,
+    "kiem-toan-1": 33,
+    "ke-toan-chi-phi": 39,
+    "ke-toan-ngan-hang": 58,
+    "ke-toan-tai-chinh-1": 12,
+    "ke-toan-tai-chinh-2": 38,
+    "luat-kinh-doanh": 17,
+    "nguyen-ly-ke-toan": 28,
+    "ngan-hang-thuong-mai": 20,
+    "thi-truong-tai-chinh": 14,
+    "tai-chinh-doanh-nghiep-1": 24,
+    "tai-chinh-hanh-chinh-su-nghiep": 14
+  },
+  "note": "Phase 2.1 incremental: 141 NEW files appended as src-0193..src-0333. No hashes changed for src-0001..src-0192."
+}

@@ -1,0 +1,72 @@
+# Manually checked official sources, 2026-10-11. Scope limitations are mandatory.
+records:
+  - ref: Thông tư 200/2014/TT-BTC
+    status: replaced
+    replaced_by: Thông tư 99/2025/TT-BTC
+    effective_from: '2026-01-01'
+    scope: Áp dụng cho năm tài chính bắt đầu từ hoặc sau 01/01/2026; ngoại lệ phần kế toán cổ phần hóa doanh nghiệp nhà nước. Không tự đổi đáp án giáo trình.
+    note: TT99 thay chế độ kế toán doanh nghiệp TT200 trong phạm vi nêu trên.
+    urls:
+      - https://www.mof.gov.vn/tin-tuc-tai-chinh/tin-chinh-sach-tai-chinh/tap-huan-trien-khai-thong-tu-so-992025tt-btc
+      - https://congbao.chinhphu.vn/van-ban/thong-tu-so-99-2025-tt-btc-46529.htm
+      - https://portal.mof.gov.vn/hoidapcstc/home/cthoidap/159102
+  - ref: Thông tư 107/2017/TT-BTC
+    status: replaced
+    replaced_by: Thông tư 24/2024/TT-BTC
+    effective_from: '2025-01-01'
+    scope: Chế độ kế toán hành chính sự nghiệp; TT24 đã có sửa đổi, cần kiểm tra bản đang áp dụng theo thời điểm nghiệp vụ.
+    note: TT107 hết hiệu lực từ 01/01/2025; chuyển sang TT24 trong phạm vi điều chỉnh của văn bản.
+    urls:
+      - https://ttcg.mof.gov.vn/hoidapcstc/home/cthoidap/152093
+      - https://vbpl.vn/botaichinh/Pages/vbpq-toanvan.aspx?ItemID=166774
+  - ref: Luật 47/2010/QH12
+    status: replaced
+    replaced_by: Luật 32/2024/QH15
+    effective_from: '2024-07-01'
+    scope: Luật Các tổ chức tín dụng; giữ ngoại lệ chuyển tiếp tại Điều 210. Luật 32/2024 đã được sửa đổi, không coi bản gốc là bản hợp nhất hiện hành.
+    note: Luật năm 2010 được thay thế theo Điều 209, có ngoại lệ chuyển tiếp.
+    urls:
+      - https://xaydungchinhsach.chinhphu.vn/toan-van-luat-cac-to-chuc-tin-dung-119240405135841794.htm
+  - ref: Luật 17/2017/QH14
+    status: replaced
+    replaced_by: Luật 32/2024/QH15
+    effective_from: '2024-07-01'
+    scope: Luật sửa đổi Luật Các tổ chức tín dụng 2010; áp dụng ngoại lệ chuyển tiếp của Luật 32/2024.
+    note: Khung luật 2010 đã sửa đổi năm 2017 được thay thế, không loại bỏ các quy định chuyển tiếp.
+    urls:
+      - https://xaydungchinhsach.chinhphu.vn/toan-van-luat-cac-to-chuc-tin-dung-119240405135841794.htm
+  - ref: Luật 32/2024/QH15
+    status: amended
+    amended_by: [Luật 43/2024/QH15, Luật 96/2025/QH15]
+    effective_from: '2025-10-15'
+    scope: Ngày này là hiệu lực sửa đổi theo Luật 96/2025; luật gốc có hiệu lực chính từ 01/07/2024. Danh sách sửa đổi không bảo đảm đầy đủ mọi thay đổi sau này.
+    note: Khi tra quy định hiện hành cần đọc cùng các luật sửa đổi, không chỉ bản gốc năm 2024.
+    urls:
+      - https://chinhphu.vn/?classid=1&docid=214588&orggroupid=1&pageid=27160
+      - https://vbpl.vn/boxaydung/Pages/vbpq-thuoctinh-hopnhat.aspx?ItemID=170533
+  - ref: Quyết định 479/2004/QĐ-NHNN
+    status: amended
+    amended_by: [Thông tư 10/2014/TT-NHNN, Thông tư 70/2025/TT-NHNN]
+    effective_from: '2026-01-01'
+    scope: Ngày hiệu lực sửa đổi của TT70/2025; quyết định gốc từ 01/10/2004. Danh sách sửa đổi ở đây không đầy đủ, không được thay toàn bộ hệ thống tài khoản ngân hàng bằng TT99.
+    note: TT70/2025 sửa một số nội dung của QĐ479, gồm hướng dẫn nguyên tắc kế toán đối với nghiệp vụ chưa được hướng dẫn riêng.
+    urls:
+      - https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=185768
+      - https://congbao.chinhphu.vn/van-ban/thong-tu-so-10-2014-tt-nhnn-5157.htm
+  - ref: Luật 59/2020/QH14
+    status: amended
+    amended_by: [Luật 3/2022/QH15, Luật 76/2025/QH15]
+    effective_from: '2025-07-01'
+    scope: Luật Doanh nghiệp 2020; ngày hiệu lực sửa đổi theo Luật 76/2025. Không tự gán trích dẫn thiếu năm trong giáo trình sang phiên bản này.
+    note: Luật 76/2025 sửa Luật Doanh nghiệp, gồm quy định về chủ sở hữu hưởng lợi.
+    urls:
+      - https://chinhphu.vn/?docid=214562&pageid=27160
+      - https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/76-2025-qh15.pdf
+  - ref: Quyết định 345/QĐ-BTC năm 2020
+    status: unknown
+    effective_from: null
+    scope: Lộ trình áp dụng IFRS; không đồng nghĩa tất cả doanh nghiệp bắt buộc IFRS từ 2026.
+    note: Đã thấy văn bản chính thức dẫn chiếu đề án và hồ sơ dự thảo năm 2026; chưa xác minh đủ văn bản cuối cùng hoặc văn bản kế nhiệm đang có hiệu lực. Không coi dự thảo là quy định hiện hành.
+    urls:
+      - https://datafiles.chinhphu.vn/cpp/files/vbpq/2022/06/689-ttg.signed.pdf
+      - https://mof.gov.vn/bo-tai-chinh/dong-gop-y-kien-du-thao-van-ban/bang-tong-hop-y-kien-tiep-thu-giai-trinh-y-kien-gop-y-du-thao-thong-tu-huong-dan-doi-tuong-pham-vi-va-the-thuc-ap-dung-chuan-muc-quoc-te-ve-ke-toan-tai-viet-nam

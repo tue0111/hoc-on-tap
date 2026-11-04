@@ -1,0 +1,161 @@
+{
+  "course_id": "ke-toan-ngan-hang",
+  "thresholds": {
+    "dup": 0.85,
+    "distinct": 0.5
+  },
+  "pairs": [
+    {
+      "upper": "src-0048",
+      "upper_file": "Chương 1.pdf",
+      "lowers": [
+        "src-0260",
+        "src-0261",
+        "src-0262",
+        "src-0263",
+        "src-0264"
+      ],
+      "cov": 0.8995,
+      "back": 1.0,
+      "decision": "combined_duplicate",
+      "shingles_upper": 9668,
+      "shingles_lower": 8696,
+      "scope": "chapter 1"
+    },
+    {
+      "upper": "src-0049",
+      "upper_file": "Chương 2.pdf",
+      "lowers": [
+        "src-0265",
+        "src-0266"
+      ],
+      "cov": 0.9982,
+      "back": 1.0,
+      "decision": "combined_duplicate",
+      "shingles_upper": 3795,
+      "shingles_lower": 3788,
+      "scope": "chapter 2"
+    },
+    {
+      "upper": "src-0050",
+      "upper_file": "Chương 3.pdf",
+      "lowers": [
+        "src-0267",
+        "src-0268",
+        "src-0269",
+        "src-0270"
+      ],
+      "cov": 0.9963,
+      "back": 1.0,
+      "decision": "combined_duplicate",
+      "shingles_upper": 5687,
+      "shingles_lower": 5666,
+      "scope": "chapter 3"
+    },
+    {
+      "upper": "src-0051",
+      "upper_file": "Chương 4.pdf",
+      "lowers": [
+        "src-0271",
+        "src-0272",
+        "src-0273",
+        "src-0274",
+        "src-0275",
+        "src-0276"
+      ],
+      "cov": 0.9972,
+      "back": 1.0,
+      "decision": "combined_duplicate",
+      "shingles_upper": 10367,
+      "shingles_lower": 10338,
+      "scope": "chapter 4"
+    },
+    {
+      "upper": "src-0052",
+      "upper_file": "Chương 5.pdf",
+      "lowers": [
+        "src-0277",
+        "src-0278",
+        "src-0279"
+      ],
+      "cov": 0.9977,
+      "back": 1.0,
+      "decision": "combined_duplicate",
+      "shingles_upper": 6036,
+      "shingles_lower": 6022,
+      "scope": "chapter 5"
+    },
+    {
+      "upper": "src-0255",
+      "upper_file": "Chương 6.pdf",
+      "lowers": [
+        "src-0280",
+        "src-0281",
+        "src-0282",
+        "src-0283",
+        "src-0284",
+        "src-0285",
+        "src-0286",
+        "src-0287"
+      ],
+      "cov": 0.9943,
+      "back": 1.0,
+      "decision": "combined_duplicate",
+      "shingles_upper": 5643,
+      "shingles_lower": 5611,
+      "scope": "chapter 6"
+    },
+    {
+      "upper": "src-0256",
+      "upper_file": "Chương 7.pdf",
+      "lowers": [
+        "src-0288",
+        "src-0289",
+        "src-0290",
+        "src-0291",
+        "src-0292",
+        "src-0293",
+        "src-0294"
+      ],
+      "cov": 0.9959,
+      "back": 1.0,
+      "decision": "combined_duplicate",
+      "shingles_upper": 9079,
+      "shingles_lower": 9042,
+      "scope": "chapter 7"
+    },
+    {
+      "upper": "src-0257",
+      "upper_file": "Chương 8.pdf",
+      "lowers": [
+        "src-0295",
+        "src-0296",
+        "src-0297",
+        "src-0298"
+      ],
+      "cov": 0.9968,
+      "back": 1.0,
+      "decision": "combined_duplicate",
+      "shingles_upper": 5935,
+      "shingles_lower": 5916,
+      "scope": "chapter 8"
+    },
+    {
+      "upper": "src-0258",
+      "upper_file": "Chương 9.pdf",
+      "lowers": [
+        "src-0299",
+        "src-0300",
+        "src-0301"
+      ],
+      "cov": 0.998,
+      "back": 1.0,
+      "decision": "combined_duplicate",
+      "shingles_upper": 7039,
+      "shingles_lower": 7025,
+      "scope": "chapter 9"
+    }
+  ],
+  "mid_band_scopes": [],
+  "REVIEW": []
+}

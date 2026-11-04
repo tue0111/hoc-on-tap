@@ -1,0 +1,86 @@
+{
+  "course_id": "ke-toan-tai-chinh-2",
+  "thresholds": {
+    "dup": 0.85,
+    "distinct": 0.5
+  },
+  "pairs": [
+    {
+      "upper": "src-0069",
+      "upper_file": "Chương 1.pdf",
+      "lowers": [
+        "src-0306",
+        "src-0307",
+        "src-0308",
+        "src-0309",
+        "src-0310",
+        "src-0311",
+        "src-0312"
+      ],
+      "cov": 0.9711,
+      "back": 1.0,
+      "decision": "combined_duplicate",
+      "shingles_upper": 14605,
+      "shingles_lower": 14183,
+      "scope": "chapter 1"
+    },
+    {
+      "upper": "src-0070",
+      "upper_file": "Chương 2.pdf",
+      "lowers": [
+        "src-0313",
+        "src-0314",
+        "src-0315",
+        "src-0316",
+        "src-0317",
+        "src-0318",
+        "src-0319"
+      ],
+      "cov": 0.999,
+      "back": 1.0,
+      "decision": "combined_duplicate",
+      "shingles_upper": 16093,
+      "shingles_lower": 16077,
+      "scope": "chapter 2"
+    },
+    {
+      "upper": "src-0303",
+      "upper_file": "Chương 3.pdf",
+      "lowers": [
+        "src-0320",
+        "src-0321",
+        "src-0322",
+        "src-0323",
+        "src-0324"
+      ],
+      "cov": 0.9984,
+      "back": 1.0,
+      "decision": "combined_duplicate",
+      "shingles_upper": 8142,
+      "shingles_lower": 8129,
+      "scope": "chapter 3"
+    },
+    {
+      "upper": "src-0304",
+      "upper_file": "Chương 4.pdf",
+      "lowers": [
+        "src-0325",
+        "src-0326",
+        "src-0327",
+        "src-0328",
+        "src-0329",
+        "src-0330",
+        "src-0331",
+        "src-0332"
+      ],
+      "cov": 0.996,
+      "back": 1.0,
+      "decision": "combined_duplicate",
+      "shingles_upper": 11209,
+      "shingles_lower": 11164,
+      "scope": "chapter 4"
+    }
+  ],
+  "mid_band_scopes": [],
+  "REVIEW": []
+}

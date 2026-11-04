@@ -1,0 +1,11 @@
+{
+  "chunking_version": "2.0.0",
+  "chunk_count": 362,
+  "course_id": "ke-toan-chi-phi",
+  "dup_groups": 0,
+  "by_source_type": {
+    "summary": 10,
+    "lecture_note": 335,
+    "exam": 17
+  }
+}

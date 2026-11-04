@@ -1,0 +1,450 @@
+# Course scan — Kế toán tài chính 1
+# Layer: curriculum inventory only. No learner mastery. No invented semester.
+# Evidence: OBSERVED / INFERRED / UNKNOWN. Quotes are from extracts, not D:\Hoc source edits.
+
+scan:
+  scanner: course-scanner
+  scanned_at: "2026-09-07"
+  extract_root: D:\Hoc\_learning_system\extracts\ke-toan-tai-chinh-1
+  evidence_discipline: OBSERVED/INFERRED/UNKNOWN
+
+course_id: ke-toan-tai-chinh-1
+course_name: Kế toán tài chính 1
+source_folder: D:\Hoc\Kế toán tài chính 1
+institution:
+  value: Trường Đại học Mở Thành phố Hồ Chí Minh
+  evidence_status: OBSERVED
+  evidence:
+    - source_id: src-0057
+      quote: "BỘ GIÁO DỤC VÀ ĐÀO TẠO ĐỀ THI MẪU / TRƯỜNG ĐẠI HỌC MỞ / THÀNH PHỐ HỒ CHÍ MINH / MÔN THI: KẾ TOÁN TÀI CHÍNH 1"
+    - source_id: src-0059
+      quote: "TS Ngô Hoàng Điệp, giảng viên của Khoa kế toán kiểm toán trường ĐH Mở TP HCM"
+course_code:
+  value: ACCO2310
+  evidence_status: OBSERVED
+  evidence:
+    - filename: ACCO2310_HUONG DAN HOC TAP_KTTC1.pdf
+    - filename: ACCO2310_DE THI MAU_KTTC1.pdf
+    - source_id: src-0058
+      quote: "MÔN HỌC KẾ TOÁN TÀI CHÍNH 1 / MÃ MÔN HỌC: ACCO2310"
+    - source_id: src-0059
+      quote: "Môn học:KẾTOÁNTÀICHÍNH 1-ACCO2310"
+academic_year:
+  value: null
+  evidence_status: UNKNOWN
+semester:
+  value: null
+  evidence_status: UNKNOWN
+status:
+  value: unknown
+  note: Folder and extracts do not state whether the offering is current or historical. File last-write timestamps are not academic-year evidence.
+
+lecturers_observed:
+  - name: TS. Ngô Hoàng Điệp
+    role_in_document: thành viên biên soạn / giảng viên Khoa Kế toán–Kiểm toán
+    evidence_status: OBSERVED
+    sources: [src-0059, src-0064]
+    quote: "TS. NGÔ HOÀNG ĐIỆP"
+  - name: ThS. Phạm Thị Phương Thảo
+    role_in_document: thành viên biên soạn / giảng viên Khoa Kế toán–Kiểm toán
+    evidence_status: OBSERVED
+    sources: [src-0059, src-0064]
+    quote: "THS. PHẠM THỊ PHƯƠNG THẢO"
+lecturers_note: Names are authors/biên soạn on Chương 0 script and Slide Chương 0. Semester teaching assignment is UNKNOWN.
+
+sources:
+  syllabus:
+    - source_id: src-0058
+      filename: ACCO2310_HUONG DAN HOC TAP_KTTC1.pdf
+      inventory_role: syllabus
+      content_title_observed: HƯỚNG DẪN ÔN TẬP
+      pages: 3
+      pages_extracted: 3
+      extract_ok: true
+      note: Filename is học tập; body is ôn tập. States 3 chapters, course code, and explicit prereq Nguyên lý kế toán.
+  lecture_note:
+    - source_id: src-0059
+      filename: Chương 0.pdf
+      inventory_role: lecture_note
+      content_title_observed: "Chương 0: GIỚI THIỆU MÔN KTTC1"
+      pages: 3
+      pages_extracted: 3
+      extract_ok: true
+    - source_id: src-0060
+      filename: Chương 1.pdf
+      inventory_role: lecture_note
+      content_title_observed: "Chương 1: TỔNG QUAN VỀ KẾ TOÁN TÀI CHÍNH"
+      pages: 40
+      pages_extracted: 8
+      extract_ok: true
+      extract_truncated: true
+    - source_id: src-0061
+      filename: Chương 2.pdf
+      inventory_role: lecture_note
+      content_title_observed: "Chương 2: Kế toán tiền và nợ phải thu"
+      pages: 60
+      pages_extracted: 8
+      extract_ok: true
+      extract_truncated: true
+    - source_id: src-0062
+      filename: Chương 3.pdf
+      inventory_role: lecture_note
+      content_title_observed: "Chương 3: KẾ TOÁN HÀNG TỒN KHO"
+      pages: 55
+      pages_extracted: 6
+      extract_ok: true
+      extract_truncated: true
+    - source_id: src-0063
+      filename: KTTC 1.pdf
+      inventory_role: unknown
+      content_role_after_inspection: lecture_note_combined
+      content_role_evidence_status: OBSERVED
+      note: Combined SCRIPT of Chương 0–3 (same bookmarks as individual chapter scripts). Not a bound textbook. 158 pages; extract 6/158.
+      pages: 158
+      pages_extracted: 6
+      extract_ok: true
+      extract_truncated: true
+  lecture_slide:
+    - source_id: src-0064
+      filename: Slide Chương 0.pdf
+      pages: 11
+      pages_extracted: 11
+      extract_ok: true
+    - source_id: src-0065
+      filename: Slide Chương 1.pdf
+      pages: 116
+      pages_extracted: 6
+      extract_ok: true
+      extract_truncated: true
+      note: Image-heavy; extracted text is thin.
+    - source_id: src-0066
+      filename: Slide Chương 2.pdf
+      pages: 196
+      pages_extracted: 6
+      extract_ok: true
+      extract_truncated: true
+      note: PDF outline is rich (TK111/112/113/133/136 headings). Body extract thin.
+    - source_id: src-0067
+      filename: Slide Chương 3.pdf
+      pages: 153
+      pages_extracted: 6
+      extract_ok: true
+      extract_truncated: true
+      note: PDF outline covers HTK methods, TK 156, kiểm kê, dự phòng.
+    - source_id: src-0068
+      filename: Slide KTTC 1.pdf
+      inventory_role: lecture_slide
+      content_role_after_inspection: lecture_slide_combined
+      note: Combined slides Chương 0–3 (476 pages). Duplicate of per-chapter slide PDFs.
+      pages: 476
+      pages_extracted: 6
+      extract_ok: true
+      extract_truncated: true
+  exam:
+    - source_id: src-0057
+      filename: ACCO2310_DE THI MAU_KTTC1.pdf
+      inventory_role: exam
+      content_title_observed: ĐỀ THI MẪU — MÔN THI KẾ TOÁN TÀI CHÍNH 1
+      pages: 3
+      pages_extracted: 3
+      extract_ok: true
+      format_observed: "30 câu trắc nghiệm; 75 phút; sinh viên CHỈ ĐƯỢC SỬ DỤNG TÀI LIỆU GIẤY; mã đề 139; đáp án in ở cuối"
+  textbook: []
+  exercise: []
+  unknown: []
+
+structure:
+  advertised_chapter_count: 3
+  advertised_chapter_count_evidence: src-0058
+  chapters:
+    - number: 0
+      title: Giới thiệu môn KTTC1
+      evidence_status: OBSERVED
+      sources: [src-0059, src-0064, src-0063]
+      in_huong_dan_three_chapter_list: false
+      note: Intro/orientation. Not counted in the 3-chapter course design.
+      topics_observed:
+        - Mục tiêu môn học (VAS chung; tiền, phải thu, HTK; đạo đức nghề nghiệp)
+        - 5 chuẩn đầu ra
+        - Nội dung 3 chương
+        - Đánh giá 40% quá trình / 60% cuối kỳ (trắc nghiệm)
+        - Tài liệu: sách học tập, slides, scripts, bài tập có lời giải
+    - number: 1
+      title: Tổng quan về kế toán tài chính
+      evidence_status: OBSERVED
+      quote_src_0058: "1. Chương 1 – Tổng quan về kế toán tài chính"
+      sources: [src-0058, src-0059, src-0060, src-0064, src-0065]
+      topics:
+        - code: C1-CD1
+          title: Thông tin kế toán và vấn đề ra quyết định
+          evidence_status: OBSERVED
+          sources: [src-0060, src-0065]
+        - code: C1-CD2
+          title: Khung pháp lý của hệ thống kế toán Việt Nam
+          evidence_status: OBSERVED
+          sources: [src-0060]
+          legal_refs_observed: ["Luật kế toán số 88/2015/QH13", "Nghị định 174 năm 2016", "Hệ thống chuẩn mực kế toán", "Chế độ kế toán"]
+        - code: C1-CD3
+          title: Nguyên tắc kế toán
+          evidence_status: INFERRED
+          note: Slide Chương 0 lists “Nguyên tắc kế toán” as Ch1 content; HUONG DAN requires nguyên tắc trong chuẩn mực chung. Script bookmark CD3 exists; title not in extracted pages (8/40).
+        - code: C1-CD4
+          title: Yếu tố của Báo cáo tài chính
+          evidence_status: INFERRED
+          note: Slide Chương 0 “Yếu tố của Báo cáo tài chính”; HUONG DAN lists TS, nợ phải trả, VCSH, DT, TN, CP, 03 dòng tiền BCLCTT. Bookmark CD4 not titled in extract.
+        - code: C1-CD5
+          title: Hệ thống tài khoản kế toán
+          evidence_status: INFERRED
+          note: Slide Chương 0 “Hệ thống tài khoản kế toán”; HUONG DAN cites Thông tư 200/2014/TT-BTC. Bookmark CD5 not titled in extract.
+        - code: C1-CD6
+          title: Sổ kế toán / hình thức nhật ký chung
+          evidence_status: INFERRED
+          note: HUONG DAN last Ch1 block is quy trình ghi sổ tổng hợp và chi tiết hình thức nhật ký chung. Bookmark CD6 exists; title not in extracted pages.
+    - number: 2
+      title: Kế toán tiền và nợ phải thu
+      evidence_status: OBSERVED
+      quote_src_0058: "2. Chương 2 - Kế toán tiền và nợ phải thu"
+      sources: [src-0058, src-0061, src-0066]
+      note: Script also says “Kế toán vốn bằng tiền và nợ phải thu” (same chapter).
+      topics:
+        - code: C2-CD2.1
+          title: Khái niệm, nguyên tắc ghi nhận, đánh giá tiền, tương đương tiền và các khoản phải thu
+          evidence_status: OBSERVED
+          sources: [src-0061, src-0066]
+        - code: C2-CD2.2
+          title: Hạch toán tiền và tương đương tiền
+          evidence_status: OBSERVED
+          sources: [src-0061, src-0066]
+        - code: C2-CD2.3
+          title: Hạch toán phải thu khách hàng, thuế GTGT được khấu trừ và tạm ứng
+          evidence_status: OBSERVED
+          sources: [src-0061, src-0066]
+        - code: C2-CD2.4
+          title: Hạch toán nợ phải thu — phải thu nội bộ, phải thu khác
+          evidence_status: OBSERVED
+          sources: [src-0061, src-0066]
+        - code: C2-CD2.5
+          title: Chứng từ và sổ kế toán
+          evidence_status: OBSERVED
+          sources: [src-0061, src-0066]
+        - code: C2-CD2.6
+          title: Trình bày thông tin trên báo cáo tài chính
+          evidence_status: OBSERVED
+          sources: [src-0061, src-0066]
+      accounts_taught_observed: ["111", "112", "113", "131", "133", "136", "138", "141", "2293"]
+      accounts_source: src-0058
+    - number: 3
+      title: Kế toán hàng tồn kho
+      evidence_status: OBSERVED
+      quote_src_0058: "3. Chương 3 - Kế toán hàng tồn kho"
+      sources: [src-0058, src-0062, src-0067]
+      topics:
+        - code: C3-CD1
+          title: Khái niệm, ghi nhận và đánh giá hàng tồn kho
+          evidence_status: OBSERVED
+          sources: [src-0062, src-0067]
+        - code: C3-CD2
+          title: Phương pháp tính giá xuất kho
+          evidence_status: INFERRED
+          note: Outline bookmark CD2 untitled in extract. Slide outline OBSERVED headings after CD1 block — BQGQ cuối kỳ, BQGQ liên hoàn, FIFO, giá thực tế đích danh.
+        - code: C3-CD3
+          title: Hàng mua đang đi đường; NVL; CCDC
+          evidence_status: INFERRED
+          note: Slide outline headings “Khái niệm hàng mua đang đi đường”, “Khái niệm NVL, CCDC”. Bookmark CD3.
+        - code: C3-CD4
+          title: Thành phẩm; hàng hóa; hàng gửi đi bán
+          evidence_status: INFERRED
+          note: Slide outline “Khái niệm thành phẩm”, “Khái niệm hàng hóa”, “Khái niệm Hàng gửi đi bán”, TK 1561/1562. Bookmark CD4.
+        - code: C3-CD5
+          title: Kiểm kê HTK và dự phòng giảm giá hàng tồn kho
+          evidence_status: INFERRED
+          note: Slide outline “Khái niệm kiểm kê tài sản”, “Dự phòng giảm giá hàng tồn kho”. Bookmark CD5.
+        - code: C3-CD6
+          title: Chứng từ và sổ kế toán HTK
+          evidence_status: INFERRED
+          note: Slide outline “Chứng từ sử dụng”, “Qui trình ghi sổ”, “SỔ CÁI TK 156”. Bookmark CD6.
+        - code: C3-CD7
+          title: Trình bày HTK trên BCTC
+          evidence_status: INFERRED
+          note: Slide outline “Bảng cân đối kế toán”, “Bản TMBCTC”. Bookmark CD7.
+      accounts_taught_observed: ["151", "152", "153", "154", "155", "156", "157", "2294"]
+      accounts_source:
+        - src-0058 lists 152, 153, 154, 155, 156, 157, 2294
+        - src-0062 quote: "Tương ứng với Tk từ 151 đến Tk 157."
+
+relationships:
+  explicit_prerequisites:
+    - course_name: Nguyên lý kế toán
+      evidence_status: OBSERVED
+      quote_src_0058: "Đây là môn học chuyển tiếp sau môn cơ sở ngành là môn Nguyên lý kế toán."
+      quote_src_0059: "Sau khi hoàn tất nghiên cứu môn Nguyên lý kế toán, các anh chị tiếp tục học các học phần môn Kế toán tài chính."
+  inferred_prerequisites: []
+  successor_courses:
+    - course_name: Kế toán tài chính 2 (KTTC2)
+      evidence_status: OBSERVED
+      quote_src_0059: "Môn kế toán tài chính chia ra thành 4 học phần gồm KTTC1,KTTC2,KTTC3 và KTTC4. TôixingiớithiệuvớicácanhchịmônhọcđầutiênđólàmônKếtoántàichính1."
+    - course_name: Kế toán tài chính 3 (KTTC3)
+      evidence_status: OBSERVED
+      same_quote_as: KTTC2
+    - course_name: Kế toán tài chính 4 (KTTC4)
+      evidence_status: OBSERVED
+      same_quote_as: KTTC2
+  related_courses:
+    - names: [Kiểm toán, Kế toán quản trị, Kế toán chi phí, Kế toán thuế]
+      evidence_status: OBSERVED
+      quote_src_0059: "Học tốt môn học này sẽ tạo điều kiện thuận lợi cho các anh chị nghiên cứu các môn học sau như môn kiểm toán, kế toán quản trị,kếtoánchiphí,kếtoánthuế…"
+      relation: later_courses_named_in_intro_not_formal_prereq_chain
+
+coverage:
+  has_study_guide_or_syllabus: true
+  has_course_intro: true
+  has_chapter_scripts: true
+  has_slides: true
+  has_combined_script_pdf: true
+  has_combined_slide_pdf: true
+  has_sample_exam: true
+  has_sample_exam_answer_key: true
+  has_exercise_file_in_folder: false
+  exercises_mentioned_in_intro: true
+  has_textbook_file_in_folder: false
+  textbook_mentioned_in_intro: true
+  textbook_mention_quote: "Sách họctậpvàthamkhảo:QuyểntàiliệuhọctậpmônKTTC1."
+  advertised_chapters_present_as_files: [0, 1, 2, 3]
+  missing_advertised_chapter_files: []
+
+quality:
+  extract_ok_all_curriculum_pdfs: true
+  likely_scanned: false
+  slide_text_thin: true
+  combined_files_duplicate_chapter_pdfs: [src-0063, src-0068]
+  extract_truncation:
+    - {source_id: src-0060, pages: 40, pages_extracted: 8}
+    - {source_id: src-0061, pages: 60, pages_extracted: 8}
+    - {source_id: src-0062, pages: 55, pages_extracted: 6}
+    - {source_id: src-0063, pages: 158, pages_extracted: 6}
+    - {source_id: src-0065, pages: 116, pages_extracted: 6}
+    - {source_id: src-0066, pages: 196, pages_extracted: 6}
+    - {source_id: src-0067, pages: 153, pages_extracted: 6}
+    - {source_id: src-0068, pages: 476, pages_extracted: 6}
+  document_glitches_observed:
+    - source_id: src-0058
+      note: "Under Chương 3 heading, text says “Với chương kế toán nợ phải thu”; last bullet still says trình bày thông tin tiền và nợ phải thu."
+  inventory_filename_course_code: empty_on_files_json_despite_ACCO2310_in_filename
+
+concepts:
+  - id: kttc1-ke-toan-tai-chinh
+    label: Kế toán tài chính (định nghĩa)
+    chapter: 1
+    evidence_status: OBSERVED
+    source: src-0060
+  - id: kttc1-he-thong-thong-tin-ke-toan
+    label: Hệ thống thông tin kế toán và ra quyết định
+    chapter: 1
+    evidence_status: OBSERVED
+    source: src-0060
+  - id: kttc1-nguoi-su-dung-bctc
+    label: Người sử dụng thông tin BCTC (quản trị / lợi ích trực tiếp / gián tiếp)
+    chapter: 1
+    evidence_status: OBSERVED
+    source: src-0060
+  - id: kttc1-bcdkt
+    label: Bảng cân đối kế toán — tài sản, nợ phải trả, vốn chủ sở hữu
+    chapter: 1
+    evidence_status: OBSERVED
+    sources: [src-0058, src-0060]
+  - id: kttc1-bckqhdkd
+    label: Báo cáo kết quả hoạt động kinh doanh — doanh thu, thu nhập, chi phí
+    chapter: 1
+    evidence_status: OBSERVED
+    sources: [src-0058, src-0060]
+  - id: kttc1-bclctt
+    label: Báo cáo lưu chuyển tiền tệ — 03 dòng tiền (HĐKD, đầu tư, tài chính)
+    chapter: 1
+    evidence_status: OBSERVED
+    sources: [src-0058, src-0060]
+  - id: kttc1-thuyet-minh-bctc
+    label: Bản thuyết minh BCTC
+    chapter: 1
+    evidence_status: OBSERVED
+    source: src-0060
+  - id: kttc1-khung-phap-ly
+    label: Khung pháp lý KT VN (Luật 88/2015, NĐ 174/2016, VAS, chế độ KT)
+    chapter: 1
+    evidence_status: OBSERVED
+    source: src-0060
+  - id: kttc1-tt200
+    label: Hệ thống tài khoản theo Thông tư 200/2014/TT-BTC
+    chapter: 1
+    evidence_status: OBSERVED
+    source: src-0058
+  - id: kttc1-nguyen-tac-ke-toan
+    label: Nguyên tắc kế toán (chuẩn mực chung)
+    chapter: 1
+    evidence_status: OBSERVED
+    note: HUONG DAN requires them; sample exam tests dồn tích, giá gốc, trọng yếu, nhất quán, thận trọng, phù hợp, hoạt động liên tục.
+    sources: [src-0058, src-0057]
+  - id: kttc1-nhat-ky-chung
+    label: Hình thức kế toán nhật ký chung
+    chapter: 1
+    evidence_status: OBSERVED
+    sources: [src-0058, src-0061]
+  - id: kttc1-tien
+    label: Tiền (tiền mặt, tiền gửi không kỳ hạn, tiền đang chuyển)
+    chapter: 2
+    accounts: ["111", "112", "113"]
+    evidence_status: OBSERVED
+    sources: [src-0058, src-0061, src-0066]
+  - id: kttc1-tuong-duong-tien
+    label: Tương đương tiền (VAS 24 — đầu tư ngắn hạn ≤ 3 tháng)
+    chapter: 2
+    evidence_status: OBSERVED
+    sources: [src-0057, src-0061]
+  - id: kttc1-no-phai-thu
+    label: Nợ phải thu — ghi nhận, đánh giá, NRV
+    chapter: 2
+    accounts: ["131", "133", "136", "138", "141"]
+    evidence_status: OBSERVED
+    sources: [src-0058, src-0061]
+  - id: kttc1-dp-phai-thu-kho-doi
+    label: Dự phòng phải thu khó đòi
+    chapter: 2
+    accounts: ["2293"]
+    evidence_status: OBSERVED
+    sources: [src-0058, src-0057]
+  - id: kttc1-htk
+    label: Hàng tồn kho (VAS 02)
+    chapter: 3
+    accounts: ["151", "152", "153", "154", "155", "156", "157"]
+    evidence_status: OBSERVED
+    sources: [src-0062, src-0067]
+  - id: kttc1-kktx-kkdk
+    label: Phương pháp kê khai thường xuyên vs kiểm kê định kỳ
+    chapter: 3
+    evidence_status: OBSERVED
+    sources: [src-0058, src-0062]
+  - id: kttc1-gia-goc-nrv-htk
+    label: Đánh giá HTK theo giá gốc và giá trị thuần có thể thực hiện được
+    chapter: 3
+    evidence_status: OBSERVED
+    source: src-0058
+  - id: kttc1-pp-tinh-gia-xuat-kho
+    label: Tính giá xuất kho — BQGQ, FIFO, giá thực tế đích danh
+    chapter: 3
+    evidence_status: OBSERVED
+    sources: [src-0058, src-0067]
+  - id: kttc1-dp-giam-gia-htk
+    label: Dự phòng giảm giá hàng tồn kho
+    chapter: 3
+    accounts: ["2294"]
+    evidence_status: OBSERVED
+    sources: [src-0058, src-0067]
+
+unknowns:
+  - academic_year
+  - semester
+  - current_vs_historical_offering
+  - titles_of_Ch1_CD3_to_CD6_as_printed_on_script_pages
+  - titles_of_Ch3_CD2_to_CD7_as_printed_on_script_pages
+  - whether_Quyển_tài_liệu_học_tập_KTTC1_exists_outside_this_folder
+  - official_credit_hours_and_catalog_prereq_code
+  - who_taught_which_semester

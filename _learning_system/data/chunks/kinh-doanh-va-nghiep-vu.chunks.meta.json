@@ -1,0 +1,12 @@
+{
+  "chunking_version": "2.0.0",
+  "chunk_count": 521,
+  "course_id": "kinh-doanh-va-nghiep-vu",
+  "dup_groups": 0,
+  "by_source_type": {
+    "lecture_note": 458,
+    "syllabus": 20,
+    "exam": 15,
+    "summary": 28
+  }
+}

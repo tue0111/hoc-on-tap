@@ -1,0 +1,323 @@
+{
+  "ke-toan-tai-chinh-2": {
+    "file": "evals/v3/ke-toan-tai-chinh-2_retrieval.jsonl",
+    "sha256": "0c9e52c16751b0829376570b2828e74389b02a820b79b2ce2728c87fb62e1750",
+    "first_run_metrics": {
+      "direct_must_include": 1.0,
+      "direct_chapter_at1": 0.9,
+      "source_bound": 1.0,
+      "insufficient": 0.0,
+      "collision_contamination": 0,
+      "account": 1.0,
+      "topic_owner": 1.0
+    },
+    "first_run_gates": {
+      "direct_must_include": true,
+      "direct_chapter_at1": true,
+      "source_bound": true,
+      "insufficient": false,
+      "collision_contamination": true,
+      "account": true,
+      "topic_owner": true
+    },
+    "frozen_at": "2026-10-11"
+  },
+  "ke-toan-chi-phi": {
+    "file": "evals/v3/ke-toan-chi-phi_retrieval.jsonl",
+    "sha256": "c93ad30bdef0cb1cded0b84dc817b40d7b42e8c12f816d40974bc61659472cca",
+    "first_run_metrics": {
+      "direct_must_include": 0.9,
+      "direct_chapter_at1": 0.7,
+      "source_bound": 1.0,
+      "insufficient": 1.0,
+      "collision_contamination": 0,
+      "account": 1.0,
+      "topic_owner": 0.0
+    },
+    "first_run_gates": {
+      "direct_must_include": true,
+      "direct_chapter_at1": false,
+      "source_bound": true,
+      "insufficient": true,
+      "collision_contamination": true,
+      "account": true,
+      "topic_owner": false
+    },
+    "frozen_at": "2026-10-11"
+  },
+  "kiem-toan-1": {
+    "file": "evals/v3/kiem-toan-1_retrieval.jsonl",
+    "sha256": "8e1df7c48a6fe2b99f0b6eaa78c1f2e8c16da74d1647a1d45f8ab8700547c34b",
+    "first_run_metrics": {
+      "direct_must_include": 1.0,
+      "direct_chapter_at1": 1.0,
+      "source_bound": 1.0,
+      "insufficient": 0.6666666666666666,
+      "collision_contamination": 0,
+      "account": null,
+      "topic_owner": null
+    },
+    "first_run_gates": {
+      "direct_must_include": true,
+      "direct_chapter_at1": true,
+      "source_bound": true,
+      "insufficient": false,
+      "collision_contamination": true,
+      "account": true,
+      "topic_owner": true
+    },
+    "frozen_at": "2026-10-11"
+  },
+  "ke-toan-ngan-hang": {
+    "file": "evals/v3/ke-toan-ngan-hang_retrieval.jsonl",
+    "sha256": "07d8958ebd6610048cf631970dffa69f039051ab3198eb9f4508c3f073d283b2",
+    "first_run_metrics": {
+      "direct_must_include": 0.9166666666666666,
+      "direct_chapter_at1": 0.75,
+      "source_bound": 1.0,
+      "insufficient": 1.0,
+      "collision_contamination": 0,
+      "account": 1.0,
+      "topic_owner": null
+    },
+    "first_run_gates": {
+      "direct_must_include": true,
+      "direct_chapter_at1": false,
+      "source_bound": true,
+      "insufficient": true,
+      "collision_contamination": true,
+      "account": true,
+      "topic_owner": true
+    },
+    "frozen_at": "2026-10-11"
+  },
+  "kinh-doanh-va-nghiep-vu": {
+    "file": "evals/v3/kinh-doanh-va-nghiep-vu_retrieval.jsonl",
+    "sha256": "892eeb3f66ca29e2f4d96613767f2854386c42a039b9b8f4a436c6b3fb381e38",
+    "first_run_metrics": {
+      "direct_must_include": 1.0,
+      "direct_chapter_at1": 1.0,
+      "source_bound": 1.0,
+      "insufficient": 0.6666666666666666,
+      "collision_contamination": 0,
+      "account": null,
+      "topic_owner": null
+    },
+    "first_run_gates": {
+      "direct_must_include": true,
+      "direct_chapter_at1": true,
+      "source_bound": true,
+      "insufficient": false,
+      "collision_contamination": true,
+      "account": true,
+      "topic_owner": true
+    },
+    "frozen_at": "2026-10-11"
+  },
+  "luat-kinh-doanh": {
+    "file": "evals/v3/luat-kinh-doanh_retrieval.jsonl",
+    "sha256": "1d66c7351b6d868e3f9282645f85fc3ec2b32e75b77d62db6af391a8e8263045",
+    "first_run_metrics": {
+      "direct_must_include": 1.0,
+      "direct_chapter_at1": 0.9166666666666666,
+      "source_bound": 1.0,
+      "insufficient": 1.0,
+      "collision_contamination": 0,
+      "account": null,
+      "topic_owner": null
+    },
+    "first_run_gates": {
+      "direct_must_include": true,
+      "direct_chapter_at1": true,
+      "source_bound": true,
+      "insufficient": true,
+      "collision_contamination": true,
+      "account": true,
+      "topic_owner": true
+    },
+    "frozen_at": "2026-10-11"
+  },
+  "tai-chinh-doanh-nghiep-1": {
+    "file": "evals/v3/tai-chinh-doanh-nghiep-1_retrieval.jsonl",
+    "sha256": "215d84accd2b20fd242fda49fa5021666b37b7d025edf5185977b109c1073e6d",
+    "first_run_metrics": {
+      "direct_must_include": 0.9166666666666666,
+      "direct_chapter_at1": 0.3333333333333333,
+      "source_bound": 0.6666666666666666,
+      "insufficient": 1.0,
+      "collision_contamination": 0,
+      "account": null,
+      "topic_owner": null
+    },
+    "first_run_gates": {
+      "direct_must_include": true,
+      "direct_chapter_at1": false,
+      "source_bound": true,
+      "insufficient": true,
+      "collision_contamination": true,
+      "account": true,
+      "topic_owner": true
+    },
+    "frozen_at": "2026-10-11"
+  },
+  "ngan-hang-thuong-mai": {
+    "file": "evals/v3/ngan-hang-thuong-mai_retrieval.jsonl",
+    "sha256": "3d3dbe4bccd66897c6c84ce0c7f8e74951a8b7c687f297486f538372670fcb9b",
+    "first_run_metrics": {
+      "direct_must_include": 0.9166666666666666,
+      "direct_chapter_at1": 0.8333333333333334,
+      "source_bound": 1.0,
+      "insufficient": 1.0,
+      "collision_contamination": 0,
+      "account": null,
+      "topic_owner": null
+    },
+    "first_run_gates": {
+      "direct_must_include": true,
+      "direct_chapter_at1": true,
+      "source_bound": true,
+      "insufficient": true,
+      "collision_contamination": true,
+      "account": true,
+      "topic_owner": true
+    },
+    "frozen_at": "2026-10-11"
+  },
+  "thi-truong-tai-chinh": {
+    "file": "evals/v3/thi-truong-tai-chinh_retrieval.jsonl",
+    "sha256": "2fcdb4464517dde4735bab3556afa5df6a223dfbf443d5ae48c9c0cf9fd20dea",
+    "first_run_metrics": {
+      "direct_must_include": 1.0,
+      "direct_chapter_at1": 1.0,
+      "source_bound": 1.0,
+      "insufficient": 1.0,
+      "collision_contamination": 0,
+      "account": null,
+      "topic_owner": null
+    },
+    "first_run_gates": {
+      "direct_must_include": true,
+      "direct_chapter_at1": true,
+      "source_bound": true,
+      "insufficient": true,
+      "collision_contamination": true,
+      "account": true,
+      "topic_owner": true
+    },
+    "frozen_at": "2026-10-11"
+  },
+  "tai-chinh-hanh-chinh-su-nghiep": {
+    "file": "evals/v3/tai-chinh-hanh-chinh-su-nghiep_retrieval.jsonl",
+    "sha256": "6365ddfa557dd2caeee16bb2ffa75173e1fc78ce208d74a9998dde4452689b24",
+    "first_run_metrics": {
+      "direct_must_include": 1.0,
+      "direct_chapter_at1": 0.8333333333333334,
+      "source_bound": 0.6666666666666666,
+      "insufficient": 0.6666666666666666,
+      "collision_contamination": 0,
+      "account": null,
+      "topic_owner": null
+    },
+    "first_run_gates": {
+      "direct_must_include": true,
+      "direct_chapter_at1": true,
+      "source_bound": true,
+      "insufficient": false,
+      "collision_contamination": true,
+      "account": true,
+      "topic_owner": true
+    },
+    "frozen_at": "2026-10-11"
+  },
+  "learner-notes": {
+    "file": "evals/v3/learner-notes_retrieval.jsonl",
+    "sha256": "90827db034bb78c377eeebaf47e037da58e5158be176fcd63789b036a989d3f6",
+    "first_run_metrics": {
+      "top3": 1.0,
+      "implicit_routing": 1.0,
+      "coverage_contract": 1.0,
+      "unknowns_contract": 1.0,
+      "metadata_contract": 1.0,
+      "explicit_route": 1.0
+    },
+    "first_run_gates": {
+      "top3": true,
+      "implicit_routing": true,
+      "coverage_contract": true,
+      "unknowns_contract": true,
+      "metadata_contract": true,
+      "explicit_route": true
+    },
+    "frozen_at": "2026-10-11"
+  },
+  "external": {
+    "file": "evals/v3/external_retrieval.jsonl",
+    "sha256": "85837e1a32a49fba93df73dd7d2dec2afad3c709da1adc88baeda1b227f1cc2e",
+    "first_run_results": [
+      {
+        "id": "ext-01",
+        "pass": true,
+        "layer": "curriculum",
+        "coverage": "sufficient",
+        "updates": [
+          "Thông tư 200/2014/TT-BTC"
+        ],
+        "source_ids": [
+          "src-0065",
+          "src-0060",
+          "src-0065",
+          "src-0058",
+          "src-0060",
+          "src-0060",
+          "src-0060",
+          "src-0060"
+        ]
+      },
+      {
+        "id": "ext-02",
+        "pass": true,
+        "layer": "curriculum",
+        "coverage": "sufficient",
+        "updates": [],
+        "source_ids": [
+          "src-0106",
+          "src-0106",
+          "src-0107",
+          "src-0108",
+          "src-0107",
+          "src-0107",
+          "src-0108",
+          "src-0106"
+        ]
+      },
+      {
+        "id": "ext-03",
+        "pass": true,
+        "layer": "external",
+        "coverage": "partial",
+        "updates": [],
+        "source_ids": [
+          "ext-thong-tu-200-2014-tt-btc"
+        ]
+      },
+      {
+        "id": "ext-04",
+        "pass": true,
+        "layer": "external",
+        "coverage": "partial",
+        "updates": [],
+        "source_ids": [
+          "ext-quyet-dinh-479-2004-qd-nhnn"
+        ]
+      },
+      {
+        "id": "ext-05",
+        "pass": true,
+        "layer": "external",
+        "coverage": "insufficient",
+        "updates": [],
+        "source_ids": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,151 @@
+ref: Luật các tổ chức tín dụng
+status: unknown
+replaced_by: null
+amended_by: []
+effective_from: null
+effective_date_meaning: effective date of cited change, not necessarily original instrument
+scope: UNKNOWN
+key_changes: []
+cited_in_courses:
+- ke-toan-ngan-hang
+- ngan-hang-thuong-mai
+curriculum_occurrences:
+- source_id: src-0048
+  page: 5
+  layer: curriculum
+- source_id: src-0048
+  page: 6
+  layer: curriculum
+- source_id: src-0048
+  page: 7
+  layer: curriculum
+- source_id: src-0048
+  page: 9
+  layer: curriculum
+- source_id: src-0050
+  page: 2
+  layer: curriculum
+- source_id: src-0052
+  page: 1
+  layer: curriculum
+- source_id: src-0122
+  page: 2
+  layer: curriculum
+- source_id: src-0124
+  page: 2
+  layer: curriculum
+- source_id: src-0124
+  page: 4
+  layer: curriculum
+- source_id: src-0126
+  page: 2
+  layer: curriculum
+- source_id: src-0126
+  page: 3
+  layer: curriculum
+- source_id: src-0126
+  page: 34
+  layer: curriculum
+- source_id: src-0128
+  page: 7
+  layer: curriculum
+- source_id: src-0128
+  page: 8
+  layer: curriculum
+- source_id: src-0130
+  page: 8
+  layer: curriculum
+- source_id: src-0130
+  page: 35
+  layer: curriculum
+- source_id: src-0130
+  page: 37
+  layer: curriculum
+- source_id: src-0130
+  page: 66
+  layer: curriculum
+- source_id: src-0130
+  page: 67
+  layer: curriculum
+- source_id: src-0130
+  page: 98
+  layer: curriculum
+- source_id: src-0130
+  page: 140
+  layer: curriculum
+- source_id: src-0130
+  page: 141
+  layer: curriculum
+- source_id: src-0132
+  page: 7
+  layer: curriculum
+- source_id: src-0134
+  page: 4
+  layer: curriculum
+- source_id: src-0134
+  page: 5
+  layer: curriculum
+- source_id: src-0136
+  page: 7
+  layer: curriculum
+- source_id: src-0136
+  page: 33
+  layer: curriculum
+- source_id: src-0138
+  page: 18
+  layer: curriculum
+- source_id: src-0138
+  page: 77
+  layer: curriculum
+- source_id: src-0138
+  page: 78
+  layer: curriculum
+- source_id: src-0138
+  page: 172
+  layer: curriculum
+- source_id: src-0138
+  page: 198
+  layer: curriculum
+- source_id: src-0260
+  page: 1
+  layer: curriculum
+- source_id: src-0260
+  page: 2
+  layer: curriculum
+- source_id: src-0260
+  page: 3
+  layer: curriculum
+- source_id: src-0260
+  page: 5
+  layer: curriculum
+- source_id: src-0267
+  page: 2
+  layer: curriculum
+- source_id: src-0277
+  page: 1
+  layer: curriculum
+variants:
+- 'Luật
+
+  Các tổ chức tín dụng'
+- 'Luật
+
+  các tổ chức tín dụng'
+- Luật Các tổ chức tín dụng
+- Luật các Tổ chức tín dụng
+- 'Luật các tổ
+
+  chức tín dụng'
+- Luật các tổ chức tín dụng
+sources: []
+evidence_status: UNKNOWN
+layer: external
+checked_at: '2026-10-11'
+unknown_reason: Trích dẫn thiếu số hiệu/năm hoặc chỉ tên chuẩn mực; chưa định danh
+  chắc chắn văn bản và phiên bản. Chưa đủ bằng chứng đã kiểm tra để kết luận trạng
+  thái và chuỗi sửa đổi hiện hành. Xem nhật ký tìm kiếm; không suy ra còn hiệu lực
+  từ việc chưa thấy văn bản thay thế.
+search_log: research/search_logs/ref_015.json
+record_kind: unverified_reference
+freshness_limit: Snapshot of sources checked on the stated date; not a guarantee that
+  every later amendment has been found.

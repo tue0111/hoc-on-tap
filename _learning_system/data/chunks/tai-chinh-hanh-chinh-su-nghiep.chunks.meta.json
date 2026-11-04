@@ -1,0 +1,12 @@
+{
+  "chunking_version": "2.0.0",
+  "chunk_count": 768,
+  "course_id": "tai-chinh-hanh-chinh-su-nghiep",
+  "dup_groups": 0,
+  "by_source_type": {
+    "lecture_note": 609,
+    "exam": 15,
+    "lecture_slide": 126,
+    "summary": 18
+  }
+}

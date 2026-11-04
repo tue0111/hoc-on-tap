@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.learning-system/schemas/learning_decision.schema.json",
+  "title": "LearningDecision",
+  "description": "Phase 4 Level 5 output. One next action. Does not write mastery. Does not execute the lesson.",
+  "type": "object",
+  "required": ["decision_id", "status", "persistence"],
+  "additionalProperties": false,
+  "properties": {
+    "decision_id": { "type": "string" },
+    "diagnostic_id": { "type": ["string", "null"] },
+    "status": {
+      "type": "string",
+      "enum": ["DECIDED", "VERIFY_MORE", "NO_INTERVENTION"]
+    },
+    "primary_gap": {
+      "type": "object",
+      "properties": {
+        "error_type": { "type": ["string", "null"] },
+        "concept_id": { "type": ["string", "null"] },
+        "course_id": { "type": ["string", "null"] },
+        "is_prerequisite": { "type": "boolean" }
+      }
+    },
+    "decision": {
+      "type": "object",
+      "properties": {
+        "action_type": { "type": "string" },
+        "target_concept": { "type": ["string", "null"] },
+        "reason": { "type": "string" },
+        "expected_learning_effect": { "type": "string" },
+        "depth": { "type": "string", "enum": ["MICRO", "SHORT", "NORMAL"] },
+        "preview": { "type": ["string", "null"] }
+      }
+    },
+    "scope": {
+      "type": "object",
+      "properties": {
+        "course": { "type": ["string", "null"] },
+        "chapter": { "type": ["integer", "string", "null"] },
+        "prerequisite_course": { "type": ["string", "null"] }
+      }
+    },
+    "candidates": { "type": "array" },
+    "evidence_refs": { "type": "array" },
+    "alternatives_rejected": { "type": "array" },
+    "confidence_band": {
+      "type": "string",
+      "enum": ["HIGH", "MEDIUM", "LOW"]
+    },
+    "do_not_do": { "type": "array", "items": { "type": "string" } },
+    "persistence": { "type": "boolean", "const": false },
+    "grounded": { "type": "boolean" },
+    "unknowns": { "type": "array", "items": { "type": "string" } },
+    "created_at": { "type": ["string", "null"] }
+  }
+}

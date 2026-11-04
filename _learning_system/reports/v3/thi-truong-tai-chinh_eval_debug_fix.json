@@ -1,0 +1,564 @@
+{
+  "course_id": "thi-truong-tai-chinh",
+  "tag": "_debug_fix",
+  "eval_sha256": "2fcdb4464517dde4735bab3556afa5df6a223dfbf443d5ae48c9c0cf9fd20dea",
+  "n": 20,
+  "metrics": {
+    "direct_must_include": 1.0,
+    "direct_chapter_at1": 1.0,
+    "source_bound": 1.0,
+    "insufficient": 1.0,
+    "collision_contamination": 0,
+    "account": null,
+    "topic_owner": null
+  },
+  "gates": {
+    "direct_must_include": true,
+    "direct_chapter_at1": true,
+    "source_bound": true,
+    "insufficient": true,
+    "collision_contamination": true,
+    "account": true,
+    "topic_owner": true
+  },
+  "all_pass": true,
+  "results": [
+    {
+      "id": "tt-d01",
+      "category": "direct",
+      "question": "Thị trường tài chính: thị trường nợ khác thị trường vốn cổ phần như thế nào?",
+      "coverage": "partial",
+      "top_sources": [
+        "src-0141",
+        "src-0141",
+        "src-0141",
+        "src-0151",
+        "src-0148"
+      ],
+      "top_chapters": [
+        1,
+        1,
+        1,
+        4,
+        1
+      ],
+      "partition": "thi-truong-tai-chinh",
+      "unknowns": [
+        "no_course_concept_match"
+      ],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "tt-d02",
+      "category": "direct",
+      "question": "Thị trường tài chính: tổ chức tài chính nhận tiền gửi và không nhận tiền gửi khác nhau ra sao?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0141",
+        "src-0148",
+        "src-0148",
+        "src-0141",
+        "src-0141"
+      ],
+      "top_chapters": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "partition": "thi-truong-tai-chinh",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "tt-d03",
+      "category": "direct",
+      "question": "Thị trường tài chính: tín phiếu kho bạc có công dụng gì trên thị trường tiền tệ?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0142",
+        "src-0149",
+        "src-0149",
+        "src-0142",
+        "src-0142"
+      ],
+      "top_chapters": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "partition": "thi-truong-tai-chinh",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "tt-d04",
+      "category": "direct",
+      "question": "Thị trường tài chính: lãi suất danh nghĩa, lãi suất thực và phương trình Fisher liên hệ thế nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0149",
+        "src-0142",
+        "src-0142",
+        "src-0149",
+        "src-0149"
+      ],
+      "top_chapters": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "partition": "thi-truong-tai-chinh",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "tt-d05",
+      "category": "direct",
+      "question": "Thị trường tài chính: thị trường trái phiếu có vai trò gì đối với các chủ thể?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0143",
+        "src-0143",
+        "src-0150",
+        "src-0143",
+        "src-0150"
+      ],
+      "top_chapters": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "partition": "thi-truong-tai-chinh",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "tt-d06",
+      "category": "direct",
+      "question": "Thị trường tài chính: lãi suất thị trường ảnh hưởng đến giá trái phiếu như thế nào?",
+      "coverage": "partial",
+      "top_sources": [
+        "src-0143",
+        "src-0143",
+        "src-0150",
+        "src-0143",
+        "src-0150"
+      ],
+      "top_chapters": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "partition": "thi-truong-tai-chinh",
+      "unknowns": [
+        "no_course_concept_match"
+      ],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "tt-d07",
+      "category": "direct",
+      "question": "Thị trường tài chính: quy trình giao dịch cổ phiếu trên sàn giao dịch diễn ra ra sao?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0151",
+        "src-0144",
+        "src-0144",
+        "src-0143",
+        "src-0152"
+      ],
+      "top_chapters": [
+        4,
+        4,
+        4,
+        3,
+        5
+      ],
+      "partition": "thi-truong-tai-chinh",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "tt-d08",
+      "category": "direct",
+      "question": "Thị trường tài chính: thị trường cổ phiếu có vai trò gì với các chủ thể tham gia?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0144",
+        "src-0144",
+        "src-0151",
+        "src-0146",
+        "src-0143"
+      ],
+      "top_chapters": [
+        4,
+        4,
+        4,
+        6,
+        3
+      ],
+      "partition": "thi-truong-tai-chinh",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "tt-d09",
+      "category": "direct",
+      "question": "Thị trường tài chính: quy luật ngang bằng sức mua và ngang bằng lãi suất giải thích tỷ giá thế nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0145",
+        "src-0145",
+        "src-0152",
+        "src-0145",
+        "src-0146"
+      ],
+      "top_chapters": [
+        5,
+        5,
+        5,
+        5,
+        6
+      ],
+      "partition": "thi-truong-tai-chinh",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "tt-d10",
+      "category": "direct",
+      "question": "Thị trường tài chính: hợp đồng kỳ hạn, tương lai, hoán đổi và quyền chọn khác nhau thế nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0153",
+        "src-0146",
+        "src-0153",
+        "src-0145",
+        "src-0146"
+      ],
+      "top_chapters": [
+        6,
+        6,
+        6,
+        5,
+        6
+      ],
+      "partition": "thi-truong-tai-chinh",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "tt-d11",
+      "category": "direct",
+      "question": "Thị trường tài chính: công dụng của thị trường tài chính phái sinh là gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0146",
+        "src-0146",
+        "src-0146",
+        "src-0153",
+        "src-0146"
+      ],
+      "top_chapters": [
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "partition": "thi-truong-tai-chinh",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "tt-d12",
+      "category": "direct",
+      "question": "Thị trường tài chính: thị trường chứng khoán thế chấp bất động sản sơ cấp và thứ cấp hoạt động thế nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0147",
+        "src-0147",
+        "src-0154",
+        "src-0154",
+        "src-0147"
+      ],
+      "top_chapters": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "partition": "thi-truong-tai-chinh",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "tt-s01",
+      "category": "source_bound",
+      "question": "Theo Slide Chương 1 môn Thị trường tài chính, các cách phân loại thị trường tài chính gồm gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0141",
+        "src-0141",
+        "src-0141",
+        "src-0141",
+        "src-0148"
+      ],
+      "top_chapters": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "partition": "thi-truong-tai-chinh",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "tt-s02",
+      "category": "source_bound",
+      "question": "Theo Slide chương 5 môn Thị trường tài chính, lạm phát và lãi suất tương tác với tỷ giá thế nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0145",
+        "src-0152",
+        "src-0152",
+        "src-0145",
+        "src-0145"
+      ],
+      "top_chapters": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "partition": "thi-truong-tai-chinh",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "tt-s03",
+      "category": "source_bound",
+      "question": "Theo Slide Chương 7 môn Thị trường tài chính, lập lịch trình trả nợ khoản vay thế chấp BĐS ra sao?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0154",
+        "src-0154",
+        "src-0154",
+        "src-0154",
+        "src-0147"
+      ],
+      "top_chapters": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "partition": "thi-truong-tai-chinh",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "tt-i01",
+      "category": "insufficient",
+      "question": "Thị trường tài chính hướng dẫn định khoản chi phí sản xuất dở dang như thế nào?",
+      "coverage": "insufficient",
+      "top_sources": [
+        "src-0143",
+        "src-0148",
+        "src-0141",
+        "src-0141",
+        "src-0150"
+      ],
+      "top_chapters": [
+        3,
+        1,
+        1,
+        1,
+        3
+      ],
+      "partition": "thi-truong-tai-chinh",
+      "unknowns": [
+        "no_course_concept_match",
+        "term_not_in_course_corpus:dở",
+        "term_not_in_course_corpus:dang",
+        "insufficient_curriculum_evidence"
+      ],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "tt-i02",
+      "category": "insufficient",
+      "question": "Thị trường tài chính quy định trình tự giao kết hợp đồng lao động ra sao?",
+      "coverage": "insufficient",
+      "top_sources": [
+        "src-0153",
+        "src-0144",
+        "src-0141",
+        "src-0144",
+        "src-0146"
+      ],
+      "top_chapters": [
+        6,
+        4,
+        1,
+        4,
+        6
+      ],
+      "partition": "thi-truong-tai-chinh",
+      "unknowns": [
+        "no_course_concept_match",
+        "topic_in_other_course:luat-kinh-doanh",
+        "insufficient_curriculum_evidence"
+      ],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "tt-i03",
+      "category": "insufficient",
+      "question": "Thị trường tài chính giải thích thủ tục kiểm kê quỹ tiền mặt cuối kỳ thế nào?",
+      "coverage": "insufficient",
+      "top_sources": [
+        "src-0143",
+        "src-0152",
+        "src-0153",
+        "src-0152",
+        "src-0154"
+      ],
+      "top_chapters": [
+        3,
+        5,
+        6,
+        5,
+        7
+      ],
+      "partition": "thi-truong-tai-chinh",
+      "unknowns": [
+        "no_course_concept_match",
+        "topic_in_other_course:kiem-toan-1",
+        "insufficient_curriculum_evidence"
+      ],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "tt-c01",
+      "category": "collision",
+      "question": "Chương 2 của môn Thị trường tài chính nói về gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0142",
+        "src-0142",
+        "src-0142",
+        "src-0149",
+        "src-0142"
+      ],
+      "top_chapters": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "partition": "thi-truong-tai-chinh",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "tt-c02",
+      "category": "collision",
+      "question": "Chương 7 của môn Thị trường tài chính nói về gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0147",
+        "src-0147",
+        "src-0154",
+        "src-0147",
+        "src-0147"
+      ],
+      "top_chapters": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "partition": "thi-truong-tai-chinh",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    }
+  ]
+}

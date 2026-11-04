@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.learning-system/schemas/diagnostic_result.schema.json",
+  "title": "DiagnosticResult",
+  "description": "Phase 3 Level 4 output. Session-local. Does not write mastery.",
+  "type": "object",
+  "required": ["diagnostic_id", "status", "evidence_status"],
+  "additionalProperties": false,
+  "properties": {
+    "diagnostic_id": { "type": "string" },
+    "attempt_id": { "type": ["string", "null"] },
+    "session_id": { "type": ["string", "null"] },
+    "learner_id": { "type": ["string", "null"] },
+    "status": {
+      "type": "string",
+      "enum": ["DIAGNOSED", "PARTIAL", "INCONCLUSIVE"]
+    },
+    "target_concept": { "type": ["string", "null"] },
+    "course_id": { "type": ["string", "null"] },
+    "concept_ids": { "type": "array", "items": { "type": "string" } },
+    "observed_failure": { "type": ["string", "null"] },
+    "task_type": { "type": ["string", "null"] },
+    "primary_error_code": { "type": ["string", "null"] },
+    "secondary_error_codes": { "type": "array", "items": { "type": "string" } },
+    "root_cause": {
+      "type": "object",
+      "properties": {
+        "error_type": { "type": ["string", "null"] },
+        "concept_id": { "type": ["string", "null"] },
+        "prerequisite_gap": { "type": "boolean" },
+        "prerequisite_concept_id": { "type": ["string", "null"] },
+        "prerequisite_confirmed": {
+          "type": "string",
+          "enum": ["confirmed", "unconfirmed", "rejected"]
+        },
+        "confidence": { "type": "string", "enum": ["high", "medium", "low", "inconclusive"] },
+        "why": { "type": "string" }
+      }
+    },
+    "prerequisite_gaps": { "type": "array" },
+    "evidence": { "type": "array" },
+    "hypotheses_considered": { "type": "array" },
+    "hypotheses_rejected": { "type": "array" },
+    "diagnostic_questions": { "type": "array" },
+    "curriculum_sources": { "type": "array" },
+    "unknowns": { "type": "array", "items": { "type": "string" } },
+    "next_action_class": {
+      "type": "string",
+      "enum": ["NONE", "REVIEW_CURRENT", "REVIEW_PREREQUISITE", "PRACTICE_APPLICATION", "VERIFY_MORE"]
+    },
+    "why": { "type": ["string", "null"] },
+    "suggested_review": { "type": "array" },
+    "decide_hook": { "type": "object" },
+    "adapt_hook": { "type": "object" },
+    "evidence_status": {
+      "type": "string",
+      "enum": ["OBSERVED", "INFERRED", "UNKNOWN"]
+    },
+    "confidence": {
+      "type": "string",
+      "enum": ["high", "medium", "low", "inconclusive"]
+    },
+    "persist_to_learner_state": { "type": "boolean", "const": false },
+    "retrieval_coverage": { "type": ["string", "null"] },
+    "signals": { "type": "object" },
+    "session": { "type": "object" },
+    "created_at": { "type": ["string", "null"] },
+    "needs_followup": { "type": "boolean" },
+    "followup_question": { "type": ["string", "null"] },
+    "baseline": { "type": ["string", "null"] }
+  }
+}

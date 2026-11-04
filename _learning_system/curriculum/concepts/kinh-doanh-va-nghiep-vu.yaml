@@ -1,0 +1,354 @@
+course_id: kinh-doanh-va-nghiep-vu
+version: 0.1.0
+id_prefix: kdnv
+concepts:
+- concept_id: kdnv-to-chuc-kinh-doanh-va-cac-ben-lien-quan
+  canonical_name: Tổ chức kinh doanh và các bên liên quan
+  aliases:
+  - các bên liên quan
+  same_as: null
+  chapter: 1
+  topic: '1.1'
+  source_refs:
+  - source_id: src-0001
+    page: 1
+  - source_id: src-0001
+    page: 5
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kdnv-moi-truong-kinh-doanh
+  canonical_name: Môi trường kinh doanh
+  aliases:
+  - phân tích môi trường kinh doanh
+  same_as: null
+  chapter: 1
+  topic: '1.2'
+  source_refs:
+  - source_id: src-0002
+    page: 1
+  - source_id: src-0002
+    page: 3
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kdnv-moi-truong-kinh-doanh-cac-yeu-to-chinh-tri-phap-ly-va-xa-hoi
+  canonical_name: Môi trường kinh doanh- Các yếu tố chính trị, pháp lý và xã hội
+  aliases:
+  - các yếu tố chính trị, pháp lý và xã hội
+  same_as: null
+  chapter: 1
+  topic: '1.3'
+  source_refs:
+  - source_id: src-0003
+    page: 1
+  - source_id: src-0003
+    page: 5
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kdnv-moi-truong-kinh-doanh-cac-yeu-to-cong-nghe-va-moi-truong
+  canonical_name: Môi trường kinh doanh – Các yếu tố công nghệ và môi trường
+  aliases:
+  - các yếu tố công nghệ và môi trường
+  same_as: null
+  chapter: 1
+  topic: '1.4'
+  source_refs:
+  - source_id: src-0004
+    page: 1
+  - source_id: src-0004
+    page: 6
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kdnv-moi-truong-kinh-doanh-cac-mo-hinh-phan-tich-canh-tranh
+  canonical_name: Môi trường kinh doanh – Các mô hình phân tích cạnh tranh
+  aliases:
+  - các mô hình phân tích cạnh tranh
+  same_as: null
+  chapter: 1
+  topic: '1.5'
+  source_refs:
+  - source_id: src-0005
+    page: 1
+  - source_id: src-0005
+    page: 6
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kdnv-moi-truong-kinh-te-vi-mo-cac-van-de-co-ban
+  canonical_name: Môi trường kinh tế vĩ mô – Các vấn đề cơ bản
+  aliases: []
+  same_as: null
+  chapter: 1
+  topic: '1.6'
+  source_refs:
+  - source_id: src-0006
+    page: 1
+  - source_id: src-0001
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kdnv-moi-truong-kinh-te-vi-mo-cac-chinh-sach-vi-mo
+  canonical_name: Môi trường kinh tế vĩ mô – Các chính sách vĩ mô
+  aliases:
+  - các chính sách vĩ mô
+  same_as: null
+  chapter: 1
+  topic: '1.7'
+  source_refs:
+  - source_id: src-0007
+    page: 1
+  - source_id: src-0007
+    page: 3
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kdnv-moi-truong-kinh-te-vi-mo-cac-van-de-co-ban-1-8
+  canonical_name: Môi trường kinh tế vi mô – Các vấn đề cơ bản
+  aliases:
+  - kinh tế vi mô
+  same_as: null
+  chapter: 1
+  topic: '1.8'
+  source_refs:
+  - source_id: src-0008
+    page: 1
+  - source_id: src-0008
+    page: 5
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kdnv-moi-truong-kinh-te-vi-mo-phan-tich-cung-cau
+  canonical_name: Môi trường kinh tế vi mô – Phân tích cung cầu
+  aliases:
+  - phân tích cung cầu
+  same_as: null
+  chapter: 1
+  topic: '1.9'
+  source_refs:
+  - source_id: src-0009
+    page: 1
+  - source_id: src-0009
+    page: 5
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kdnv-cau-truc-doanh-nghiep-va-chien-luoc-kinh-doanh
+  canonical_name: Cấu trúc doanh nghiệp và chiến lược kinh doanh
+  aliases:
+  - chiến lược kinh doanh
+  same_as: null
+  chapter: 2
+  topic: '2.1'
+  source_refs:
+  - source_id: src-0010
+    page: 1
+  - source_id: src-0010
+    page: 3
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kdnv-van-hoa-to-chuc
+  canonical_name: Văn hóa tổ chức
+  aliases: []
+  same_as: null
+  chapter: 2
+  topic: '2.2'
+  source_refs:
+  - source_id: src-0011
+    page: 1
+  - source_id: src-0011
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kdnv-quan-tri-doanh-nghiep
+  canonical_name: Quản trị doanh nghiệp
+  aliases: []
+  same_as: null
+  chapter: 2
+  topic: '2.3'
+  source_refs:
+  - source_id: src-0012
+    page: 1
+  - source_id: src-0012
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kdnv-trach-nhiem-xa-hoi-cua-doanh-nghiep
+  canonical_name: Trách nhiệm xã hội của doanh nghiệp
+  aliases:
+  - trách nhiệm xã hội doanh nghiệp
+  same_as: null
+  chapter: 2
+  topic: '2.4'
+  source_refs:
+  - source_id: src-0013
+    page: 1
+  - source_id: src-0013
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kdnv-nhung-van-de-chung-ve-ke-toan
+  canonical_name: Những vấn đề chung về kế toán
+  aliases: []
+  same_as: null
+  chapter: 3
+  topic: '3.1'
+  source_refs:
+  - source_id: src-0016
+    page: 1
+  - source_id: src-0017
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kdnv-kiem-soat-noi-bo-va-kiem-toan
+  canonical_name: Kiểm soát nội bộ và kiểm toán
+  aliases:
+  - dịch vụ bảo đảm
+  same_as: null
+  chapter: 3
+  topic: '3.2'
+  source_refs:
+  - source_id: src-0021
+    page: 1
+  - source_id: src-0022
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kdnv-phat-hien-va-ngan-chan-gian-lan
+  canonical_name: Phát hiện và ngăn chặn gian lận
+  aliases:
+  - gian lận
+  same_as: null
+  chapter: 3
+  topic: '3.3'
+  source_refs:
+  - source_id: src-0023
+    page: 1
+  - source_id: src-0023
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kdnv-kiem-soat-he-thong-thong-tin-va-anh-huong-cua-cong-nghe-tai-chinh-fintech
+  canonical_name: Kiểm soát hệ thống thông tin và ảnh hưởng của công nghệ tài chính (Fintech)
+  aliases:
+  - công nghệ tài chính
+  - Fintech
+  same_as: null
+  chapter: 3
+  topic: '3.4'
+  source_refs:
+  - source_id: src-0024
+    page: 1
+  - source_id: src-0024
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kdnv-lanh-dao-va-quan-ly
+  canonical_name: Lãnh đạo và quản lý
+  aliases:
+  - phong cách lãnh đạo
+  same_as: null
+  chapter: 4
+  topic: '4.1'
+  source_refs:
+  - source_id: src-0025
+    page: 1
+  - source_id: src-0025
+    page: 7
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kdnv-tuyen-dung-nhan-su
+  canonical_name: Tuyển dụng nhân sự
+  aliases:
+  - tuyển chọn nhân sự
+  same_as: null
+  chapter: 4
+  topic: '4.2'
+  source_refs:
+  - source_id: src-0026
+    page: 1
+  - source_id: src-0026
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kdnv-ca-nhan-nhom-va-doi-va-viec-tao-dong-luc-lam-viec
+  canonical_name: Cá nhân, nhóm và đội và việc tạo động lực làm việc
+  aliases:
+  - động lực làm việc
+  same_as: null
+  chapter: 4
+  topic: '4.3'
+  source_refs:
+  - source_id: src-0027
+    page: 1
+  - source_id: src-0028
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kdnv-dao-tao-phat-trien-va-danh-gia-thanh-qua
+  canonical_name: Đào tạo, Phát triển và Đánh giá Thành quả
+  aliases:
+  - đánh giá thành quả
+  same_as: null
+  chapter: 4
+  topic: '4.4'
+  source_refs:
+  - source_id: src-0029
+    page: 1
+  - source_id: src-0030
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kdnv-quan-ly-thoi-gian-va-tinh-hieu-qua-trong-cong-viec
+  canonical_name: Quản Lý Thời Gian Và Tính Hiệu Quả Trong Công Việc
+  aliases:
+  - quản lý thời gian
+  same_as: null
+  chapter: 5
+  topic: '5.1'
+  source_refs:
+  - source_id: src-0031
+    page: 1
+  - source_id: src-0031
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kdnv-truyen-thong-trong-doanh-nghiep
+  canonical_name: Truyền Thông Trong Doanh Nghiệp
+  aliases:
+  - truyền thông
+  same_as: null
+  chapter: 5
+  topic: '5.2'
+  source_refs:
+  - source_id: src-0032
+    page: 1
+  - source_id: src-0032
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kdnv-hanh-vi-dao-duc-va-dao-duc-trong-kinh-doanh
+  canonical_name: Hành vi đạo đức và đạo đức trong kinh doanh
+  aliases:
+  - đạo đức kinh doanh
+  same_as: null
+  chapter: 6
+  topic: '6.1'
+  source_refs:
+  - source_id: src-0014
+    page: 1
+  - source_id: src-0014
+    page: 7
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kdnv-dao-duc-nghe-nghiep-ke-toan
+  canonical_name: Đạo đức nghề nghiệp kế toán
+  aliases:
+  - đạo đức nghề nghiệp
+  same_as: dao-duc-nghe-nghiep-ke-toan
+  chapter: 6
+  topic: '6.2'
+  source_refs:
+  - source_id: src-0015
+    page: 1
+  - source_id: src-0015
+    page: 5
+  evidence_status: OBSERVED
+  confidence: high
+account_map: {}
+edges: []
+conflicts: []

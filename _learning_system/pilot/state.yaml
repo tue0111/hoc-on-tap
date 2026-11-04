@@ -1,0 +1,6 @@
+meaningful_sessions: 0
+substantive_turns: 0
+high_severity_open: 0
+instrumentation: pass
+real_traffic: false
+note: Instrumentation tests must not increment these counters.

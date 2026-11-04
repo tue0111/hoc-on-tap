@@ -1,0 +1,33 @@
+{
+  "extract_version": "3.0.0",
+  "partition": "learner-notes",
+  "document_count": 14,
+  "page_count": 132,
+  "total_chars": 276921,
+  "indexed_documents": 13,
+  "thin_documents": [
+    "src-0165"
+  ],
+  "errors": [],
+  "page_count_mismatch": [],
+  "source_ids": [
+    "src-0040",
+    "src-0041",
+    "src-0046",
+    "src-0139",
+    "src-0140",
+    "src-0165",
+    "src-0173",
+    "src-0174",
+    "src-0334",
+    "src-0335",
+    "src-0336",
+    "src-0337",
+    "src-0338",
+    "src-0339"
+  ],
+  "coverage": "learner_material",
+  "unknowns": [
+    "not_curriculum_source"
+  ]
+}

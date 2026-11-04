@@ -1,0 +1,644 @@
+{
+  "course_id": "ke-toan-chi-phi",
+  "tag": "_r1_owner_repair",
+  "eval_sha256": "c93ad30bdef0cb1cded0b84dc817b40d7b42e8c12f816d40974bc61659472cca",
+  "n": 23,
+  "metrics": {
+    "direct_must_include": 0.9,
+    "direct_chapter_at1": 0.8,
+    "source_bound": 1.0,
+    "insufficient": 1.0,
+    "collision_contamination": 0,
+    "account": 1.0,
+    "topic_owner": 0.0
+  },
+  "gates": {
+    "direct_must_include": true,
+    "direct_chapter_at1": true,
+    "source_bound": true,
+    "insufficient": true,
+    "collision_contamination": true,
+    "account": true,
+    "topic_owner": false
+  },
+  "all_pass": false,
+  "results": [
+    {
+      "id": "kp-d01",
+      "category": "direct",
+      "question": "Kế toán chi phí: chi phí trực tiếp và chi phí gián tiếp khác nhau thế nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0243",
+        "src-0229",
+        "src-0239",
+        "src-0229",
+        "src-0239"
+      ],
+      "top_chapters": [
+        2,
+        3,
+        6,
+        3,
+        6
+      ],
+      "partition": "ke-toan-chi-phi",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kp-d02",
+      "category": "direct",
+      "question": "Trong Kế toán chi phí, biến phí và định phí là gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0234",
+        "src-0233",
+        "src-0245",
+        "src-0229",
+        "src-0233"
+      ],
+      "top_chapters": [
+        5,
+        5,
+        2,
+        3,
+        5
+      ],
+      "partition": "ke-toan-chi-phi",
+      "unknowns": [],
+      "must_include": false,
+      "chapter_at1": false,
+      "contaminated": false,
+      "pass": false
+    },
+    {
+      "id": "kp-d03",
+      "category": "direct",
+      "question": "Kế toán chi phí: giá thành sản xuất khác giá thành toàn bộ ở điểm nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0245",
+        "src-0224",
+        "src-0245",
+        "src-0252",
+        "src-0254"
+      ],
+      "top_chapters": [
+        2,
+        null,
+        2,
+        7,
+        null
+      ],
+      "partition": "ke-toan-chi-phi",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kp-d04",
+      "category": "direct",
+      "question": "KTCP kế toán chi phí theo công việc tính theo chi phí thực tế hạch toán thế nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0230",
+        "src-0230",
+        "src-0231",
+        "src-0231",
+        "src-0231"
+      ],
+      "top_chapters": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "partition": "ke-toan-chi-phi",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kp-d05",
+      "category": "direct",
+      "question": "Kế toán chi phí: chi phí sản xuất chung ước tính được phân bổ ra sao khi tính chi phí theo công việc?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0231",
+        "src-0250",
+        "src-0254",
+        "src-0231",
+        "src-0251"
+      ],
+      "top_chapters": [
+        3,
+        4,
+        null,
+        3,
+        4
+      ],
+      "partition": "ke-toan-chi-phi",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kp-d06",
+      "category": "direct",
+      "question": "KTCP theo quy trình: phương pháp trung bình tính sản lượng tương đương thế nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0247",
+        "src-0250",
+        "src-0248",
+        "src-0247",
+        "src-0250"
+      ],
+      "top_chapters": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "partition": "ke-toan-chi-phi",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kp-d07",
+      "category": "direct",
+      "question": "Kế toán chi phí theo quy trình theo phương pháp FIFO khác gì phương pháp trung bình?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0250",
+        "src-0248",
+        "src-0248",
+        "src-0249",
+        "src-0248"
+      ],
+      "top_chapters": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "partition": "ke-toan-chi-phi",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kp-d08",
+      "category": "direct",
+      "question": "Kế toán chi phí định mức: trình tự hạch toán gồm những bước nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0235",
+        "src-0235",
+        "src-0236",
+        "src-0235",
+        "src-0235"
+      ],
+      "top_chapters": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "partition": "ke-toan-chi-phi",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kp-d09",
+      "category": "direct",
+      "question": "Kế toán chi phí: phân bổ chi phí bộ phận phục vụ theo phương pháp bậc thang là gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0240",
+        "src-0240",
+        "src-0240",
+        "src-0240",
+        "src-0240"
+      ],
+      "top_chapters": [
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "partition": "ke-toan-chi-phi",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kp-d10",
+      "category": "direct",
+      "question": "Kế toán chi phí: giá thành khả biến ảnh hưởng thế nào đến báo cáo thu nhập?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0224",
+        "src-0252",
+        "src-0252",
+        "src-0253",
+        "src-0252"
+      ],
+      "top_chapters": [
+        null,
+        7,
+        7,
+        7,
+        7
+      ],
+      "partition": "ke-toan-chi-phi",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": false,
+      "contaminated": false,
+      "pass": false
+    },
+    {
+      "id": "kp-s01",
+      "category": "source_bound",
+      "question": "Theo chương 6 của Kế toán chi phí, phân bổ chi phí gồm những chủ đề nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0240",
+        "src-0239",
+        "src-0238",
+        "src-0239",
+        "src-0238"
+      ],
+      "top_chapters": [
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "partition": "ke-toan-chi-phi",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kp-s02",
+      "category": "source_bound",
+      "question": "Đề thi mẫu Kế toán chi phí gồm những dạng câu hỏi nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0254",
+        "src-0237",
+        "src-0233",
+        "src-0238",
+        "src-0250"
+      ],
+      "top_chapters": [
+        null,
+        5,
+        5,
+        6,
+        4
+      ],
+      "partition": "ke-toan-chi-phi",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kp-s03",
+      "category": "source_bound",
+      "question": "Hướng dẫn ôn tập Kế toán chi phí yêu cầu học những gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0224",
+        "src-0237",
+        "src-0253",
+        "src-0227",
+        "src-0237"
+      ],
+      "top_chapters": [
+        null,
+        5,
+        7,
+        1,
+        5
+      ],
+      "partition": "ke-toan-chi-phi",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kp-i01",
+      "category": "insufficient",
+      "question": "Mô hình CAPM trong Kế toán chi phí được tính như thế nào?",
+      "coverage": "insufficient",
+      "top_sources": [
+        "src-0249",
+        "src-0249",
+        "src-0226",
+        "src-0243",
+        "src-0244"
+      ],
+      "top_chapters": [
+        4,
+        4,
+        1,
+        2,
+        2
+      ],
+      "partition": "ke-toan-chi-phi",
+      "unknowns": [
+        "no_course_concept_match",
+        "term_not_in_course_corpus:capm",
+        "topic_in_other_course:tai-chinh-doanh-nghiep-1",
+        "insufficient_curriculum_evidence"
+      ],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kp-i02",
+      "category": "insufficient",
+      "question": "Kế toán chi phí hướng dẫn xếp hạng tín dụng khách hàng vay ngân hàng thế nào?",
+      "coverage": "insufficient",
+      "top_sources": [
+        "src-0254",
+        "src-0224",
+        "src-0240",
+        "src-0253",
+        "src-0228"
+      ],
+      "top_chapters": [
+        null,
+        null,
+        6,
+        7,
+        1
+      ],
+      "partition": "ke-toan-chi-phi",
+      "unknowns": [
+        "no_course_concept_match",
+        "term_not_in_course_corpus:hạng",
+        "term_not_in_course_corpus:tín",
+        "term_not_in_course_corpus:vay",
+        "topic_in_other_course:ngan-hang-thuong-mai",
+        "insufficient_curriculum_evidence"
+      ],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kp-i03",
+      "category": "insufficient",
+      "question": "Kế toán chi phí: tài sản cố định hữu hình được ghi nhận khi nào?",
+      "coverage": "insufficient",
+      "top_sources": [
+        "src-0244",
+        "src-0244",
+        "src-0244",
+        "src-0224",
+        "src-0244"
+      ],
+      "top_chapters": [
+        2,
+        2,
+        2,
+        null,
+        2
+      ],
+      "partition": "ke-toan-chi-phi",
+      "unknowns": [
+        "topic_in_other_course:ke-toan-tai-chinh-2",
+        "no_course_concept_match",
+        "insufficient_curriculum_evidence"
+      ],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kp-c01",
+      "category": "collision",
+      "question": "Chương 4 của Kế toán chi phí nói về gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0247",
+        "src-0248",
+        "src-0247",
+        "src-0247",
+        "src-0248"
+      ],
+      "top_chapters": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "partition": "ke-toan-chi-phi",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kp-c02",
+      "category": "collision",
+      "question": "Chương 5 của KTCP nói về gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0236",
+        "src-0234",
+        "src-0237",
+        "src-0237",
+        "src-0237"
+      ],
+      "top_chapters": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "partition": "ke-toan-chi-phi",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kp-a01",
+      "category": "account",
+      "question": "Tài khoản 154 trong Kế toán chi phí dùng để làm gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0244",
+        "src-0251",
+        "src-0247",
+        "src-0251",
+        "src-0248"
+      ],
+      "top_chapters": [
+        2,
+        4,
+        4,
+        4,
+        4
+      ],
+      "partition": "ke-toan-chi-phi",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kp-a02",
+      "category": "account",
+      "question": "TK 627 trong KTCP phản ánh gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0242",
+        "src-0251",
+        "src-0251",
+        "src-0241",
+        "src-0241"
+      ],
+      "top_chapters": [
+        6,
+        4,
+        4,
+        6,
+        6
+      ],
+      "partition": "ke-toan-chi-phi",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "kp-t01",
+      "category": "topic_owner",
+      "question": "Sản lượng tương đương tính thế nào trong KTTC1?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0061",
+        "src-0061",
+        "src-0062",
+        "src-0061",
+        "src-0061"
+      ],
+      "top_chapters": [
+        2,
+        2,
+        3,
+        2,
+        2
+      ],
+      "partition": null,
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "suggestions": [],
+      "pass": false
+    },
+    {
+      "id": "kp-t02",
+      "category": "topic_owner",
+      "question": "Phương pháp ABC trong KTTC1 là gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0062",
+        "src-0062",
+        "src-0062",
+        "src-0062",
+        "src-0067"
+      ],
+      "top_chapters": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "partition": null,
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "suggestions": [],
+      "pass": false
+    },
+    {
+      "id": "kp-t03",
+      "category": "topic_owner",
+      "question": "Giá thành khả biến trong KTTC1 là gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0059",
+        "src-0062",
+        "src-0060",
+        "src-0062",
+        "src-0062"
+      ],
+      "top_chapters": [
+        0,
+        3,
+        1,
+        3,
+        3
+      ],
+      "partition": null,
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "suggestions": [],
+      "pass": false
+    }
+  ]
+}

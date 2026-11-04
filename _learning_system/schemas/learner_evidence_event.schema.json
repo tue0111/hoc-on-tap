@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.learning-system/schemas/learner_evidence_event.schema.json",
+  "title": "LearnerEvidenceEvent",
+  "description": "Phase 5 session-local evidence. Not mastery. Self-report is weak.",
+  "type": "object",
+  "required": ["event_id", "event_type", "content"],
+  "additionalProperties": false,
+  "properties": {
+    "event_id": { "type": "string" },
+    "event_type": {
+      "type": "string",
+      "enum": [
+        "DIAGNOSTIC_ANSWER",
+        "RETRY_ANSWER",
+        "WORKED_STEP",
+        "EXPLANATION",
+        "CALCULATION",
+        "CLASSIFICATION_CHOICE",
+        "JOURNAL_ENTRY",
+        "CORRECTION",
+        "SELF_REPORT",
+        "NO_RESPONSE",
+        "AMBIGUOUS_RESPONSE"
+      ]
+    },
+    "content": { "type": "string" },
+    "task_context": { "type": ["object", "null"] },
+    "source": { "type": ["string", "null"] },
+    "order": { "type": "integer" },
+    "related_question": { "type": ["string", "null"] },
+    "related_hypothesis": { "type": ["string", "null"] },
+    "parse_confidence": { "type": "string", "enum": ["STRONG", "MEDIUM", "WEAK"] },
+    "strength": { "type": "string", "enum": ["STRONG", "MEDIUM", "WEAK"] }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "course_id": "ngan-hang-thuong-mai",
+  "thresholds": {
+    "dup": 0.85,
+    "distinct": 0.5
+  },
+  "pairs": [
+    {
+      "upper": "src-0130",
+      "upper_file": "Ngân hàng Thương Mại.pdf",
+      "lowers": [
+        "src-0121",
+        "src-0122",
+        "src-0123",
+        "src-0124",
+        "src-0125",
+        "src-0126",
+        "src-0127",
+        "src-0131",
+        "src-0132",
+        "src-0133",
+        "src-0134",
+        "src-0135",
+        "src-0136",
+        "src-0137",
+        "src-0138"
+      ],
+      "cov": 0.9034,
+      "back": 0.7812,
+      "decision": "combined_duplicate",
+      "shingles_upper": 35750,
+      "shingles_lower": 41342,
+      "scope": "course-wide combined"
+    },
+    {
+      "upper": "src-0138",
+      "upper_file": "Slide Ngân hàng Thương Mại.pdf",
+      "lowers": [
+        "src-0121",
+        "src-0122",
+        "src-0123",
+        "src-0124",
+        "src-0125",
+        "src-0126",
+        "src-0127",
+        "src-0131",
+        "src-0132",
+        "src-0133",
+        "src-0134",
+        "src-0135",
+        "src-0136",
+        "src-0137"
+      ],
+      "cov": 0.9972,
+      "back": 0.3121,
+      "decision": "combined_duplicate",
+      "shingles_upper": 12928,
+      "shingles_lower": 41306,
+      "scope": "course-wide slides"
+    }
+  ],
+  "mid_band_scopes": [],
+  "REVIEW": []
+}

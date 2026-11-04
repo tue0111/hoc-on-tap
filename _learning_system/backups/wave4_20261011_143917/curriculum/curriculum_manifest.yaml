@@ -1,0 +1,323 @@
+program:
+  id: hoc-accounting-finance-ou-hcm
+  title: Personal accounting and finance corpus
+  source_root: D:/Hoc
+  inventory_date: "2026-09-07"
+  inventory_refresh: "2026-09-07-phase2.1"
+  layer: curriculum
+  evidence_discipline: OBSERVED / INFERRED / UNKNOWN
+  institution:
+    value: Trường Đại học Mở Thành phố Hồ Chí Minh
+    evidence_status: OBSERVED
+    observed_in_courses:
+      - ke-toan-tai-chinh-1
+      - ke-toan-tai-chinh-2
+      - ke-toan-chi-phi
+      - kiem-toan-1
+      - luat-kinh-doanh
+      - ngan-hang-thuong-mai
+      - tai-chinh-doanh-nghiep-1
+      - tai-chinh-hanh-chinh-su-nghiep
+      - thi-truong-tai-chinh
+    not_named_in_folder:
+      - nguyen-ly-ke-toan
+      - kinh-doanh-va-nghiep-vu
+      - ke-toan-ngan-hang
+    note: Do not copy the institution into folders that do not name it.
+  delivery:
+    value: Chương trình đào tạo trực tuyến (elolms / ELO.lms)
+    evidence_status: OBSERVED
+    evidence: Multiple Chương 0 scripts (KDNV, NHTM, TCDN1, LKD).
+  domain:
+    - accounting
+    - finance
+    - banking
+    - auditing
+    - business_law
+    - business_operations
+  named_but_absent_from_source_root:
+    evidence_status: OBSERVED
+    items:
+      - name: Kế toán tài chính 3
+        mentioned_in: ke-toan-tai-chinh-1 (src-0059)
+      - name: Kế toán tài chính 4
+        mentioned_in: ke-toan-tai-chinh-1 (src-0059)
+      - name: Kế toán quản trị
+        mentioned_in: ke-toan-tai-chinh-1 (src-0059)
+      - name: Kế toán thuế
+        mentioned_in: ke-toan-tai-chinh-1 (src-0059)
+      - name: Hệ thống thông tin kế toán
+        mentioned_in: nguyen-ly-ke-toan (src-0120)
+    note: These are missing corpus courses, not invented. Do not build them as if present.
+
+timeline:
+  known: []
+  inferred: []
+  unknown:
+    - academic_semester_for_every_course
+    - enrollment_year_of_the_learner
+    - program_catalog_order_as_an_official_map
+  year_tokens_in_documents:
+    - token: "2025"
+      files: ["Ngân hàng thương mại/DE THI MAU NHTM 2025 (1).pdf"]
+      evidence_status: OBSERVED
+      meaning: sample-exam filename year; not proven as learner cohort year
+    - token: "2022"
+      files:
+        - "Tài chính hành chính sự nghiệp/DE THI MAU TCHCSN NĂM 2022.pdf"
+        - "Tài chính hành chính sự nghiệp/TAI LIEU ON TAP TCHCSN NĂM 2022.pdf"
+      evidence_status: OBSERVED
+      meaning: document year; not proven as learner cohort year
+  do_not:
+    - invent a year-1 / year-2 / year-3 ladder
+    - treat filename year as the learner's academic year
+
+courses:
+  - course_id: kinh-doanh-va-nghiep-vu
+    name: Kinh doanh và nghiệp vụ
+    source_folder: Kinh doanh và nghiệp vụ
+    course_code:
+      value: ACCO1305
+      evidence_status: OBSERVED
+      source: KDVNV-HUONG DAN ON TAP.pdf
+    timeline_status: unknown
+    prerequisite_status: none_named
+    role_in_program:
+      evidence_status: OBSERVED
+      quote: "môn học khởi đầu của ngành kế toán"
+      source: src-0033
+    advertised_chapters: 6
+    files_present_for_chapters: [1, 2, 3, 4, 5, 6]
+    coverage_summary: intro + topic scripts + sample exam + ôn tập; no named textbook PDF
+
+  - course_id: nguyen-ly-ke-toan
+    name: Nguyên lý kế toán
+    source_folder: Nguyên lý kế toán
+    course_code:
+      value: ACCO1325
+      evidence_status: OBSERVED
+    timeline_status: unknown
+    prerequisite_status: none_named_in_folder
+    role_in_program:
+      evidence_status: OBSERVED
+      quote_from_other_course: "môn cơ sở ngành" then KTTC1
+      source: src-0058
+    advertised_chapters: 6
+    files_present_for_chapters: [1, 2, 3, 4, 5, 6]
+    coverage_summary: full topic scripts; compiled PDF is a merge; no syllabus/exam in folder
+
+  - course_id: ke-toan-tai-chinh-1
+    name: Kế toán tài chính 1
+    source_folder: Kế toán tài chính 1
+    course_code:
+      value: ACCO2310
+      evidence_status: OBSERVED
+    timeline_status: unknown
+    prerequisite_status: explicit
+    explicit_prerequisites:
+      - course_id: nguyen-ly-ke-toan
+        evidence_status: OBSERVED
+        sources: [src-0058, src-0059]
+    advertised_chapters: 3
+    files_present_for_chapters: [0, 1, 2, 3]
+    coverage_summary: study guide, scripts, slides, sample exam with answer key
+
+  - course_id: ke-toan-tai-chinh-2
+    name: Kế toán tài chính 2
+    source_folder: Kế toán tài chính 2
+    course_code:
+      values_observed: [ACCO1334, ACCO2315]
+      conflict: true
+      evidence_status: OBSERVED
+      official: UNKNOWN
+    timeline_status: unknown
+    prerequisite_status: explicit_to_kttc1
+    explicit_prerequisites:
+      - course_id: ke-toan-tai-chinh-1
+        evidence_status: OBSERVED
+        note: Document states sequence from KTTC1 into KTTC2 chapter 1.
+    advertised_chapters: 4
+    files_present_for_chapters: [1, 2, 3, 4]
+    missing_advertised_chapters: []
+    coverage_summary: >
+      Phase 2.1: Ch3 VCSH and Ch4 KQKD scripts now present, plus ôn tập and đề thi mẫu.
+      _nguon unit scripts catalogued. tmp/ still not curriculum. READY_FOR_FUTURE_INGESTION
+      into Learning Director (not in Phase 2 production index).
+    phase_2_1:
+      retrieval_impact: NO_RETRIEVAL_IMPACT
+      production_scope: not_in_nlkt_kttc1_slice
+
+  - course_id: ke-toan-chi-phi
+    name: Kế toán chi phí
+    source_folder: Kế toán chi phí
+    course_code:
+      value: null
+      evidence_status: UNKNOWN
+    timeline_status: unknown
+    prerequisite_status: none_named
+    related_from_kttc1_intro:
+      evidence_status: OBSERVED
+      note: KTTC1 intro lists kế toán chi phí among later courses; not a formal prereq statement in the cost folder.
+    advertised_chapters: 7
+    files_present_for_chapters: [1, 2, 3, 4, 5, 6, 7]
+    missing_advertised_chapters: []
+    coverage_summary: >
+      Phase 2.1: Ch5 định mức, Ch6 phân bổ, Ch7 giá thành & quyết định now present,
+      plus ôn tập and đề thi mẫu. READY_FOR_FUTURE_INGESTION (not Phase 2 index).
+    phase_2_1:
+      retrieval_impact: NO_RETRIEVAL_IMPACT
+      production_scope: not_in_nlkt_kttc1_slice
+
+  - course_id: kiem-toan-1
+    name: Kiểm toán 1
+    source_folder: Kiểm toán 1
+    course_code:
+      value: null
+      evidence_status: UNKNOWN
+    timeline_status: unknown
+    prerequisite_status: explicit_family_not_specific_course
+    explicit_prerequisites:
+      - course_family: ke-toan-tai-chinh
+        evidence_status: OBSERVED
+        quote: "Môn học này được học sau môn môn kế toán tài chính"
+        source: src-0037
+        which_kttc_part: UNKNOWN
+    advertised_chapters: 6
+    files_present_for_chapters: [1, 2, 3, 4, 5, 6]
+    missing_advertised_chapters: []
+    coverage_summary: >
+      Phase 2.1: Ch4 chuẩn bị kiểm toán, Ch5 bằng chứng, Ch6 hoàn thành kiểm toán,
+      plus ôn tập and đề thi mẫu. READY_FOR_FUTURE_INGESTION (not Phase 2 index).
+    phase_2_1:
+      retrieval_impact: NO_RETRIEVAL_IMPACT
+      production_scope: not_in_nlkt_kttc1_slice
+
+  - course_id: ke-toan-ngan-hang
+    name: Kế toán ngân hàng
+    source_folder: Kế toán ngân hàng
+    course_code:
+      value: ACCO1331
+      evidence_status: OBSERVED
+    timeline_status: unknown
+    prerequisite_status: none_named
+    advertised_chapters: 9
+    files_present_for_chapters: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+    missing_advertised_chapters: []
+    coverage_summary: >
+      Phase 2.1: Ch6 đầu tư CK, Ch7 ngoại tệ, Ch8 thu nhập/chi phí, Ch9 BCTC NHTM,
+      plus ôn tập and đề thi mẫu. tmp/ still not curriculum. READY_FOR_FUTURE_INGESTION.
+    phase_2_1:
+      retrieval_impact: NO_RETRIEVAL_IMPACT
+      production_scope: not_in_nlkt_kttc1_slice
+
+  - course_id: ngan-hang-thuong-mai
+    name: Ngân hàng thương mại
+    source_folder: Ngân hàng thương mại
+    course_code:
+      value: null
+      evidence_status: UNKNOWN
+    timeline_status: unknown
+    prerequisite_status: none_named
+    advertised_chapters:
+      claimed_in_intro: 7
+      enumerated_content_chapters: [1, 2, 3, 4, 5, 6]
+      evidence_status: OBSERVED
+      mismatch: intro says 7 then lists 1–6
+    files_present_for_chapters: [0, 1, 2, 3, 4, 5, 6]
+    coverage_summary: intro, scripts, slides, ôn tập, 2025 sample exam with answers; cited textbooks not in folder
+
+  - course_id: tai-chinh-doanh-nghiep-1
+    name: Tài chính doanh nghiệp 1
+    source_folder: Tài chính doanh nghiệp 1
+    course_code:
+      value: null
+      evidence_status: UNKNOWN
+    timeline_status: unknown
+    prerequisite_status: none_named
+    advertised_chapters: 9
+    files_present_for_chapters: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+    coverage_summary: full chapter scripts; some slides missing (3,7,8,9); exam + answer key + sổ tay; pptx not extracted
+
+  - course_id: thi-truong-tai-chinh
+    name: Thị trường tài chính
+    source_folder: Thị trường tài chính
+    course_code:
+      value: null
+      evidence_status: UNKNOWN
+    timeline_status: unknown
+    prerequisite_status: none_named
+    advertised_chapters: UNKNOWN
+    files_present_for_chapters: [1, 2, 3, 4, 5, 6, 7]
+    coverage_summary: chapter scripts + slides; no syllabus/exam in folder
+
+  - course_id: tai-chinh-hanh-chinh-su-nghiep
+    name: Tài chính hành chính sự nghiệp
+    source_folder: Tài chính hành chính sự nghiệp
+    course_code:
+      value: null
+      evidence_status: UNKNOWN
+    timeline_status: unknown
+    prerequisite_status: none_named
+    advertised_chapters: UNKNOWN
+    files_present_for_chapters: [1, 2, 3, 4, 5, 6]
+    coverage_summary: scripts + slides + 2022 sample exam + ôn tập; cited textbook not in folder as a separate identifiable file
+
+  - course_id: luat-kinh-doanh
+    name: Luật kinh doanh
+    source_folder: Luật kinh doanh
+    course_code:
+      value: null
+      evidence_status: UNKNOWN
+    timeline_status: unknown
+    prerequisite_status: none_named
+    advertised_chapters: 5
+    files_present_for_chapters: [1, 2, 3, 4, 5]
+    coverage_summary: intro, hướng dẫn học/thi, topic scripts, exam with answers; internal luật kinh tế textbook cited but not in folder
+
+source_authority: curriculum/source_authority.yaml
+course_manifests_dir: curriculum/course_manifests/
+concept_registry: curriculum/concept_registry.yaml
+concept_graph: curriculum/concept_graph.yaml
+inventory: inventory/files.json
+
+relationships_summary:
+  explicit_course_edges:
+    - from: nguyen-ly-ke-toan
+      to: ke-toan-tai-chinh-1
+      type: prerequisite_course
+      evidence_status: OBSERVED
+    - from: ke-toan-tai-chinh-1
+      to: ke-toan-tai-chinh-2
+      type: sequence_in_kttc_series
+      evidence_status: OBSERVED
+    - from: ke-toan-tai-chinh-1
+      to: ke-toan-tai-chinh-3
+      type: named_successor_absent_from_corpus
+      evidence_status: OBSERVED
+    - from: ke-toan-tai-chinh-1
+      to: ke-toan-tai-chinh-4
+      type: named_successor_absent_from_corpus
+      evidence_status: OBSERVED
+    - from: ke-toan-tai-chinh
+      to: kiem-toan-1
+      type: prerequisite_family
+      evidence_status: OBSERVED
+      note: Source does not say KTTC1 vs KTTC2 vs all four parts.
+  inferred_course_edges:
+    - from: kinh-doanh-va-nghiep-vu
+      to: later_accounting_courses
+      type: foundational_intro
+      confidence: medium
+      evidence_status: INFERRED
+      note: C0 calls it the starting course and preparation for later courses without naming them.
+    - from: ngan-hang-thuong-mai
+      to: ke-toan-ngan-hang
+      type: domain_related
+      confidence: low
+      evidence_status: INFERRED
+      note: Shared banking domain only. No document states a prereq.
+  unknown_course_edges:
+    - ke-toan-chi-phi vs ke-toan-tai-chinh-1
+    - thi-truong-tai-chinh vs tai-chinh-doanh-nghiep-1
+    - luat-kinh-doanh vs kinh-doanh-va-nghiep-vu
+    - tai-chinh-hanh-chinh-su-nghiep vs any accounting course

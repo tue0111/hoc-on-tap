@@ -1,0 +1,73 @@
+{
+  "results": [
+    {
+      "id": "ext-01",
+      "pass": true,
+      "layer": "curriculum",
+      "coverage": "sufficient",
+      "updates": [
+        "Thông tư 200/2014/TT-BTC"
+      ],
+      "source_ids": [
+        "src-0065",
+        "src-0060",
+        "src-0065",
+        "src-0058",
+        "src-0060",
+        "src-0060",
+        "src-0060",
+        "src-0060"
+      ]
+    },
+    {
+      "id": "ext-02",
+      "pass": true,
+      "layer": "curriculum",
+      "coverage": "sufficient",
+      "updates": [],
+      "source_ids": [
+        "src-0106",
+        "src-0106",
+        "src-0107",
+        "src-0108",
+        "src-0107",
+        "src-0107",
+        "src-0108",
+        "src-0106"
+      ]
+    },
+    {
+      "id": "ext-03",
+      "pass": true,
+      "layer": "external",
+      "coverage": "partial",
+      "updates": [],
+      "source_ids": [
+        "ext-thong-tu-200-2014-tt-btc"
+      ]
+    },
+    {
+      "id": "ext-04",
+      "pass": true,
+      "layer": "external",
+      "coverage": "partial",
+      "updates": [],
+      "source_ids": [
+        "ext-quyet-dinh-479-2004-qd-nhnn"
+      ]
+    },
+    {
+      "id": "ext-05",
+      "pass": true,
+      "layer": "external",
+      "coverage": "insufficient",
+      "updates": [],
+      "source_ids": []
+    }
+  ],
+  "all_pass": true,
+  "sha256": "85837e1a32a49fba93df73dd7d2dec2afad3c709da1adc88baeda1b227f1cc2e",
+  "records": 69,
+  "record_contracts": "PASS",
+  "additive_isolation": "PASS"
+}

@@ -1,0 +1,22 @@
+{
+  "derived_at": "2026-09-07T16:34:53.574029+00:00",
+  "derivation_policy_version": "7.0.0",
+  "state_version": "7.0.0",
+  "source": "learner/evidence/admitted.jsonl",
+  "concept_count": 0,
+  "invalid_input_count": 0,
+  "invalid_inputs": [],
+  "concepts": {},
+  "coverage": {
+    "dimension_slot_counts": {},
+    "note": "This is evidence coverage, not course mastery percentage."
+  },
+  "forbidden": [
+    "learner_score",
+    "overall_mastery",
+    "accounting_mastery_percent",
+    "course_mastery_percent",
+    "mastery"
+  ],
+  "note": "Evidence coverage only. Not a course grade or learner ability score."
+}

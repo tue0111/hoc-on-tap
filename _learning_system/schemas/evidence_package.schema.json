@@ -1,0 +1,100 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.learning-system/schemas/evidence_package.schema.json",
+  "title": "EvidencePackage",
+  "description": "Auditable evidence returned by retrieval or research. Curriculum and external items must be tagged, never merged.",
+  "type": "object",
+  "required": ["package_id", "layer", "items"],
+  "additionalProperties": false,
+  "properties": {
+    "partition": { "type": "string" },
+    "tier": { "type": "string", "enum": ["core", "retrieval", "catalog"] },
+    "index_version": { "type": "string" },
+    "v3": { "type": "object" },
+    "regulation_updates": { "type": "array", "items": {"type": "object"} },
+    "other_course_suggestions": { "type": "array", "items": {"type": "object"} },
+    "package_id": { "type": "string" },
+    "request_id": { "type": ["string", "null"] },
+    "query": { "type": ["string", "null"] },
+    "system": { "type": ["string", "null"] },
+    "mode": { "type": ["string", "null"] },
+    "current_course": { "type": ["string", "null"] },
+    "intent": { "type": ["string", "null"] },
+    "detected_concepts": { "type": "array", "items": { "type": "string" } },
+    "chapter": { "type": ["integer", "string", "null"] },
+    "coverage": { "type": "string", "enum": ["sufficient", "partial", "insufficient", "learner_material"] },
+    "prerequisite_concepts": { "type": "array", "items": { "type": "string" } },
+    "prerequisite_evidence": { "type": "array" },
+    "evidence": { "type": "array" },
+    "analysis": { "type": "object" },
+    "created_at": { "type": ["string", "null"] },
+    "layer": {
+      "type": "string",
+      "enum": ["curriculum", "learner", "learner_notes", "external"]
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["item_id", "source_id", "excerpt", "evidence_status"],
+        "additionalProperties": false,
+        "properties": {
+          "chunk_id": { "type": "string" },
+          "course_code": { "type": ["string", "null"] },
+          "section": { "type": ["string", "null"] },
+          "authority": { "type": ["integer", "null"] },
+          "page_range": { "type": ["string", "null"] },
+          "relevance_score": { "type": "number" },
+          "reason_selected": { "type": "string" },
+          "text": { "type": "string" },
+          "parse_quality": { "type": ["string", "null"] },
+          "source": { "type": ["string", "null"] },
+          "item_id": { "type": "string" },
+          "source_id": { "type": "string" },
+          "relative_path": { "type": ["string", "null"] },
+          "course_id": { "type": ["string", "null"] },
+          "source_type": { "type": ["string", "null"] },
+          "authority_rank": { "type": ["integer", "null"] },
+          "chapter": { "type": ["integer", "string", "null"] },
+          "topic": { "type": ["string", "null"] },
+          "concept_ids": { "type": "array", "items": { "type": "string" } },
+          "locator": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "page": { "type": ["integer", "null"] },
+              "heading": { "type": ["string", "null"] },
+              "char_start": { "type": ["integer", "null"] },
+              "char_end": { "type": ["integer", "null"] }
+            }
+          },
+          "excerpt": { "type": "string" },
+          "definition_variant": {
+            "type": ["string", "null"],
+            "enum": ["lecturer_definition", "textbook_definition", "syllabus_definition", "external_definition", null]
+          },
+          "evidence_status": {
+            "type": "string",
+            "enum": ["OBSERVED", "INFERRED", "UNKNOWN"]
+          },
+          "confidence": {
+            "type": "string",
+            "enum": ["high", "medium", "low"]
+          }
+        }
+      }
+    },
+    "conflicts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "concept_id": { "type": "string" },
+          "item_ids": { "type": "array", "items": { "type": "string" } },
+          "note": { "type": "string" }
+        }
+      }
+    },
+    "unknowns": { "type": "array", "items": { "type": "string" } }
+  }
+}

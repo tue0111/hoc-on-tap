@@ -1,0 +1,453 @@
+schema_version: course-scan/0.1
+scanned_at: "2026-09-07"
+layer: curriculum
+scanner: course-scanner
+course_id: tai-chinh-hanh-chinh-su-nghiep
+course_name:
+  value: Tài chính hành chính sự nghiệp
+  evidence_status: OBSERVED
+  aliases_observed:
+    - "Tài chính Hành chính Sự nghiệp"
+    - TCHCSN
+  sources: [src-0179, src-0185, src-0187]
+source_folder: "D:\\Hoc\\Tài chính hành chính sự nghiệp"
+extracts_dir: "D:\\Hoc\\_learning_system\\extracts\\tai-chinh-hanh-chinh-su-nghiep"
+institution:
+  value: "Trường Đại học Mở TP.HCM"
+  evidence_status: OBSERVED
+  sources: [src-0179, src-0185, src-0192]
+faculty:
+  value: "Khoa Kế toán – Kiểm toán"
+  evidence_status: OBSERVED
+  sources: [src-0179, src-0185, src-0192]
+course_code:
+  value: null
+  evidence_status: UNKNOWN
+  note: "Filename token TCHCSN is an abbreviation, not an official catalog code."
+academic_year:
+  value: null
+  evidence_status: UNKNOWN
+  document_year_observed:
+    value: 2022
+    evidence_status: OBSERVED
+    sources: [src-0185, src-0192]
+    filenames:
+      - "DE THI MAU TCHCSN NĂM 2022.pdf"
+      - "TAI LIEU ON TAP TCHCSN NĂM 2022.pdf"
+    note: "2022 is the year printed on the sample exam / ôn tập documents. It does NOT prove the learner enrolled or sat the exam in 2022."
+semester:
+  value: null
+  evidence_status: UNKNOWN
+status: scanned
+
+lecturers:
+  - name: "Phan Thị Thuý Ngọc"
+    evidence_status: OBSERVED
+    title_observed: "Thạc sỹ, Giảng viên chính Khoa Kế toán kiểm toán"
+    chapters_presented: [1, 2]
+    sources: [src-0179, src-0180]
+  - name: "Trần Thị Vinh"
+    evidence_status: OBSERVED
+    title_observed: "Giảng viên Khoa Kế toán - Kiểm toán"
+    chapters_presented: [3, 4]
+    sources: [src-0181, src-0182]
+  - name: "Hồ Thị Bích Nhơn"
+    evidence_status: OBSERVED
+    title_observed: "giảng viên Khoa Kế toán – Kiểm toán"
+    chapters_presented: [5, 6]
+    sources: [src-0183, src-0184]
+
+assessment_observed:
+  from_slide_intro:
+    source: src-0187
+    evidence_status: OBSERVED
+    process_weight: "40%"
+    final_weight: "60%"
+    process_components:
+      - "A1.1 Tham gia diễn đàn 15% (CLO1–CLO2)"
+      - "A1.2 Bài kiểm tra kết thúc chương tự luận 20% (CLO1–CLO4)"
+      - "A1.3 Video conference 5% (CLO1–CLO2)"
+    final_exam:
+      form: "trắc nghiệm"
+      duration: "75 phút"
+      clos: "CLO1–CLO5"
+  from_ontap_2022:
+    source: src-0192
+    evidence_status: OBSERVED
+    final_exam:
+      form: "Tự luận"
+      duration: "75 phút"
+      open_book: true
+      structure: "Mỗi đề 1 đến 2 câu"
+      content_note: "Câu hỏi tự luận các chương 1,2,4,5,6 và bài tập thực hành các chương 2,3 và 6"
+  from_sample_exam_2022:
+    source: src-0185
+    evidence_status: OBSERVED
+    header: "ĐỀ THI CUỐI KỲ"
+    form: "40 câu trắc nghiệm"
+    duration: "75 phút"
+    ma_de_observed: 200
+    pages: "7 trang đề + đáp án table in same PDF"
+  duration_agreement: "75 phút is OBSERVED in intro slide, ôn tập, and sample exam."
+  form_conflict: "Intro slide + 2022 sample = trắc nghiệm; ôn tập 2022 Phần 3 = tự luận 1–2 câu."
+
+named_learning_materials_not_in_folder:
+  - "Hồ Hữu Thụy và các thành viên, Tài chính hành chính sự nghiệp, NXB Thông tin và Truyền thông, 2021 (OBSERVED src-0192 as TLHT; not present as a distinct book file)"
+  - "Legal references pointed to mof.gov.vn / thuvienphapluat.vn / congbao.chinhphu.vn (OBSERVED src-0192)"
+
+sources:
+  by_role:
+    course_intro:
+      note: "No file named đề cương. Slide Chương 1 opens with môn-học description, objectives, chapter list, CLOs, assessment, then Chapter 1 content."
+      items:
+        - source_id: src-0187
+          filename: Slide Chương 1.pdf
+          inventory_role: lecture_slide
+          content_role: course_intro_plus_chapter_1_slides
+          authority_rank: 1
+          page_count: 84
+          char_count: 2561
+          pages_extracted: 6
+          extract_ok: true
+          parseability: pdf_text_layer_present
+          quality_note: "Intro pages extracted; remaining ~78 slides not in extract window."
+    lecture_note:
+      items:
+        - {source_id: src-0179, filename: "Chương 1.pdf", chapter: 1, page_count: 39, char_count: 14517, extract_ok: true, outline_topics: ["CD1.1.1","CD1.1.2","CD1.1.3","CD1.2","CD1.3"]}
+        - {source_id: src-0180, filename: "Chương 2.pdf", chapter: 2, page_count: 52, char_count: 14676, extract_ok: true, outline_topics: ["CD2.1.1–2.1.3","CD2.2.1–2.2.2","CD2.3.1–2.3.3"]}
+        - {source_id: src-0181, filename: "Chương 3.pdf", chapter: 3, page_count: 26, char_count: 13656, extract_ok: true, outline_topics: ["CD3.1.1","CD3.1.2","CD3.2"]}
+        - {source_id: src-0182, filename: "Chương 4.pdf", chapter: 4, page_count: 41, char_count: 15105, extract_ok: true, outline_topics: ["CD4.1","CD4.2.1–4.2.3","CD4.3"]}
+        - {source_id: src-0183, filename: "Chương 5.pdf", chapter: 5, page_count: 44, char_count: 11965, extract_ok: true, outline_topics: ["CD5.1.1","CD5.1.2","CD5.2.1","CD5.2.2","CD5.3","CD5.4"]}
+        - {source_id: src-0184, filename: "Chương 6.pdf", chapter: 6, page_count: 57, char_count: 11079, extract_ok: true, outline_topics: ["CD6.1","CD6.2"]}
+    lecture_slide:
+      items:
+        - {source_id: src-0187, filename: "Slide Chương 1.pdf", chapter: 1, page_count: 84, char_count: 2561, extract_ok: true}
+        - {source_id: src-0188, filename: "Slide Chương 2.pdf", chapter: 2, page_count: 114, char_count: 1286, extract_ok: true}
+        - {source_id: src-0189, filename: "Slide Chương 3.pdf", chapter: 3, page_count: 48, char_count: 3127, extract_ok: true}
+        - {source_id: src-0190, filename: "Slide Chương 4.pdf", chapter: 4, page_count: 80, char_count: 974, extract_ok: true}
+        - source_id: src-0191
+          filename: "SlideHành chính và sự nghiệp.pdf"
+          chapter: null
+          page_count: 326
+          char_count: 2561
+          pages_extracted: 6
+          extract_ok: true
+          note: "Compilation starting at Slide Chương 1 intro (same first-page text as src-0187). Extract truncated 6/326."
+      missing_dedicated_slides:
+        evidence_status: OBSERVED
+        chapters_without_dedicated_slide_file: [5, 6]
+    compiled_script_pdf:
+      items:
+        - source_id: src-0186
+          filename: "Hành chính và sự nghiệp.pdf"
+          inventory_role: unknown
+          content_role: compiled_lecture_scripts
+          content_role_status: INFERRED
+          reason: "Outline matches Chương 1–6 script bookmarks (TCHCSN-C1-… through CD6.2). First pages duplicate Chương 1 script. Not the 2021 Hồ Hữu Thụy textbook named in ôn tập."
+          page_count: 259
+          char_count: 10527
+          pages_extracted: 6
+          extract_ok: true
+    exam:
+      items:
+        - source_id: src-0185
+          filename: "DE THI MAU TCHCSN NĂM 2022.pdf"
+          inventory_role: exam
+          authority_rank: 5
+          page_count: 9
+          char_count: 13547
+          extract_ok: true
+          year_in_filename: 2022
+          also_contains: "BẢNG ĐÁP ÁN starting page 8 (answer token in body, not filename)"
+          observed_header: "TRƯỜNG ĐẠI HỌC MỞ TP.HCM / KHOA KẾ TOÁN – KIỂM TOÁN / ĐỀ THI CUỐI KỲ / MÔN THI: TÀI CHÍNH HÀNH CHÍNH SỰ NGHIỆP / 75 PHÚT / 40 câu trắc nghiệm / MÃ ĐỀ 200"
+    summary:
+      items:
+        - source_id: src-0192
+          filename: "TAI LIEU ON TAP TCHCSN NĂM 2022.pdf"
+          inventory_role: summary
+          authority_rank: 1
+          authority_note: "Official-looking internal ôn tập (Khoa Kế toán – Kiểm toán, lưu hành nội bộ). Rank as study-guide, not a substitute for lecture scripts."
+          page_count: 12
+          char_count: 8266
+          extract_ok: true
+          year_in_filename: 2022
+
+chapters:
+  - chapter: 1
+    title: "Tổng quan về tài chính hành chính sự nghiệp"
+    title_status: OBSERVED
+    title_sources: [src-0179, src-0187, src-0192]
+    course_intro_embedded_in_slide: true
+    chapter_structure_observed:
+      source: src-0179
+      items:
+        - "Một số vấn đề chung về NSNN"
+        - "Khái niệm, đặc điểm, phân loại ĐVHCSN"
+        - "Nhiệm vụ, quyền hạn của các đơn vị trong công tác quản lý tài chính"
+        - "Hình thức cấp phát kinh phí của NSNN"
+        - "Phương pháp quản lý tài chính"
+        - "Quy trình quản lý tài chính"
+    topics:
+      - id: cd1.1
+        title: "Phương pháp quản lý tài chính"
+        title_status: OBSERVED
+        source: src-0179
+        part_observed: "Phần 1: Một số vần đề chung về ngân sách nhà nước"
+      - id: cd1.2
+        title: "Quy trình quản lý tài chính"
+        title_status: OBSERVED
+        source: src-0179
+      - id: cd1.3
+        title: "Nhiệm vụ, quyền hạn của các đơn vị trong công tác quản lý tài chính"
+        title_status: OBSERVED
+        source: src-0179
+    objectives_observed:
+      source: src-0179
+      items:
+        - "Trình bày các phương pháp quản lý tài chính nhà nước trong đơn vị hành chính sự nghiệp"
+        - "Phân tích nội dung các phương pháp quản lý tài chính tại đơn vị hành chính sự nghiệp"
+        - "Giải thích được quy trình quản lý tài chính trong đơn vị hành chính sự nghiệp"
+    ontap_focus_observed:
+      source: src-0192
+      items:
+        - "Phân cấp quản lý ngân sách nhà nước"
+        - "Điều kiện thực hiện thu chi ngân sách nhà nước"
+        - "Phân loại cơ quan hành chính và đơn vị sự nghiệp công lập"
+        - "Hình thức cấp phát kinh phí của NSNN"
+        - "Phương pháp quản lý tài chính"
+    source_ids: [src-0179, src-0187]
+
+  - chapter: 2
+    title: "Quản lý tài chính theo cơ chế tự chủ, tự chịu trách nhiệm"
+    title_status: OBSERVED
+    title_sources: [src-0180, src-0187]
+    title_on_ontap: "Quản lý tài chính theo cơ chế tự chủ"
+    title_on_ontap_status: OBSERVED
+    note: "Ôn tập shortens the title (drops 'tự chịu trách nhiệm'). Do not merge into one canonical title."
+    topics:
+      - id: cd2.1
+        title: "Một số vấn đề cơ bản về cơ chế tự chủ tài chính"
+        title_status: OBSERVED
+        source: src-0180
+      - id: cd2.2
+        title: "Quản lý tài chính theo cơ chế tự chủ cơ quan Hành chính nhà nước"
+        title_status: OBSERVED
+        source: src-0188
+        found_in: slide_bookmark
+      - id: cd2.3
+        title: "Quản lý tài chính theo cơ chế tự chủ đơn vị Sự nghiệp công lập"
+        title_status: OBSERVED
+        source: src-0188
+        found_in: slide_bookmark
+    ontap_numbering_observed:
+      source: src-0192
+      note: "Ôn tập uses 2.1 Phí, lệ phí / 2.2 CQHC / 2.3 ĐVSN — different numbering from lecture CD2.1–2.3."
+      items:
+        - "2.1 Phí, lệ phí"
+        - "2.2 Nội dung cơ bản của quản lý tài chính trong cơ quan hành chính"
+        - "2.3 Nội dung cơ bản của quản lý tài chính trong đơn vị sự nghiệp công lập"
+    relationship_to_ch1:
+      evidence_status: OBSERVED
+      source: src-0180
+      quote_gist: "Tiếp theo các phương pháp quản lý tài chính đã giới thiệu trong chương 1, chương 2 trình bày cơ chế tự chủ về tài chính."
+    source_ids: [src-0180, src-0188]
+
+  - chapter: 3
+    title: "Quản lý quỹ tiền lương"
+    title_status: OBSERVED
+    title_sources: [src-0181, src-0187, src-0192]
+    topics:
+      - id: cd3.1
+        title: "Một số vấn đề chung về quỹ tiền lương và các khoản nộp theo lương"
+        title_status: OBSERVED
+        source: src-0181
+      - id: cd3.2
+        title: "Lập dự toán quỹ tiền lương và các khoản nộp theo lương"
+        title_status: OBSERVED
+        source: src-0192
+        note: "Wording from ôn tập. Lecture outline has TCHCSN-C3-CD3.2-Script; extracted script window is chủ đề 3.1."
+    source_ids: [src-0181, src-0189]
+
+  - chapter: 4
+    title: "Quản lý tài chính dự án đầu tư công"
+    title_status: OBSERVED
+    title_sources: [src-0182, src-0187, src-0192]
+    topics:
+      - id: cd4.1
+        title: "Các lĩnh vực đầu tư công và phân loại dự án đầu tư công"
+        title_status: OBSERVED
+        source: src-0192
+        lecture_extract_heading: "Chủ đề 4.2: Phân loại dự án đầu tư công (OBSERVED src-0182; numbering vs ôn tập not aligned)"
+      - id: cd4.2
+        title: "Tạm ứng và thanh toán vốn đầu tư công"
+        title_status: OBSERVED
+        source: src-0192
+      - id: cd4.3
+        title: "Quyết toán vốn đầu tư công"
+        title_status: OBSERVED
+        source: src-0192
+      - id: cd4.4
+        title: "Quản lý tài chính chi phí quản lý dự án đầu tư công"
+        title_status: OBSERVED
+        source: src-0192
+    source_ids: [src-0182, src-0190]
+
+  - chapter: 5
+    title: "Quản lý sử dụng tài sản công"
+    title_status: OBSERVED
+    title_sources: [src-0183, src-0192]
+    slide_intro_wording: "Quản lý, sử dụng tài sản công"
+    topics:
+      - id: cd5.1
+        title: "Một số vấn đề cơ bản trong quản lý, sử dụng tài sản công"
+        title_status: OBSERVED
+        source: src-0183
+        parts_observed:
+          - "Phần 1: Khái niệm và phân loại tài sản công"
+          - "Phần 2: Nguyên tắc và tiêu chuẩn quản lý và sử dụng tài sản công"
+      - id: ontap-5.2_to_5.6
+        title_status: OBSERVED
+        source: src-0192
+        items:
+          - "5.2 Nguyên tắc quản lý, sử dụng tài sản công"
+          - "5.3 Quản lý, sử dụng tài sản công trong cơ quan hành chính"
+          - "5.4 Quản lý, sử dụng tài sản công trong đơn vị sự nghiệp công lập"
+          - "5.5 Các phương thức mua sắm tài sản công"
+          - "5.6 Các hình thức lựa chọn nhà thầu"
+    objectives_observed:
+      source: src-0183
+      items:
+        - "Giải thích các nguyên tắc quản lý, sử dụng tài sản công"
+        - "Khẳng định một số tiêu chuẩn, định mức sử dụng tài sản công"
+        - "Phân biệt quản lý, sử dụng tài sản công trong cơ quan Hành chính và đơn vị Sự nghiệp công lập"
+        - "Tổ chức lựa chọn nhà thầu trong việc mua sắm tài sản, hàng hóa, dịch vụ"
+    source_ids: [src-0183]
+    slide_present_dedicated: false
+
+  - chapter: 6
+    title: "Kế hoạch tài chính và kế hoạch tài chính ngân sách nhà nước"
+    title_status: OBSERVED
+    title_sources: [src-0184, src-0192]
+    slide_intro_wording: "Kế hoạch tài chính 5 năm và kế hoạch tài chính ngân sách 3 năm"
+    slide_intro_source: src-0187
+    topics:
+      - id: cd6.1
+        title: "Kế hoạch tài chính 5 năm"
+        title_status: OBSERVED
+        source: src-0184
+      - id: cd6.2
+        title: "Kế hoạch tài chính ngân sách nhà nước 3 năm"
+        title_status: OBSERVED
+        source: src-0184
+    ontap_numbering_observed:
+      source: src-0192
+      items:
+        - "6.1 Những vấn đề chung về kế hoạch tài chính"
+        - "6.2 Xác định các chỉ tiêu cơ sở"
+        - "6.3 Xác định nhu cầu chi tiêu mới"
+    objectives_observed:
+      source: src-0184
+      items:
+        - "Phân biệt kế hoạch tài chính 05 năm, kế hoạch tài chính-ngân sách nhà nước 03 năm và dự toán ngân sách nhà nước hằng năm"
+        - "Giải thích trình tự thủ tục lập kế hoạch tài chính 5 năm"
+        - "Xác định các chỉ tiêu chi đầu tư phát triển và chi thường xuyên"
+        - "Giải thích trình tự thủ tục lập kế hoạch tài chính ngân sách nhà nước 03 năm"
+    source_ids: [src-0184]
+    slide_present_dedicated: false
+
+relationships:
+  - type: course_chapter_sequence
+    evidence_status: OBSERVED
+    source: src-0187
+    order:
+      - "Ch1 Tổng quan về tài chính hành chính sự nghiệp"
+      - "Ch2 Quản lý tài chính theo cơ chế tự chủ, tự chịu trách nhiệm"
+      - "Ch3 Quản lý quỹ tiền lương"
+      - "Ch4 Quản lý tài chính dự án đầu tư công"
+      - "Ch5 Quản lý, sử dụng tài sản công"
+      - "Ch6 Kế hoạch tài chính 5 năm và kế hoạch tài chính ngân sách 3 năm"
+  - type: intra_course_continues
+    evidence_status: OBSERVED
+    from: chapter_1
+    to: chapter_2
+    source: src-0180
+    note: "Ch2 script explicitly continues Ch1 phương pháp quản lý tài chính, then focuses on tự chủ."
+  - type: no_invented_prereq
+    evidence_status: UNKNOWN
+    note: "Do not invent prerequisites to Luật / Kế toán hành chính sự nghiệp. Not stated in extracts."
+
+coverage:
+  advertised_chapters_missing_files: []
+  chapters_with_script_files: [1, 2, 3, 4, 5, 6]
+  chapter_scripts: "1–6 present (no Chương 0 file; intro lives on Slide Chương 1)"
+  dedicated_slides: [1, 2, 3, 4]
+  compiled_slide_pdf: "SlideHành chính và sự nghiệp.pdf (326 pp, extract 6 pp)"
+  dedicated_slides_missing: [5, 6]
+  exam_sample: true
+  exam_year_on_filename: 2022
+  ontap: true
+  named_textbook_file_present: false
+  extract_truncation:
+    - "Slide Chương 1: 6/84 pages"
+    - "SlideHành chính và sự nghiệp.pdf: 6/326 pages"
+    - "Hành chính và sự nghiệp.pdf: 6/259 pages"
+    - "Several chapter scripts extract first 8 pages only"
+
+quality:
+  lecture_scripts: "Usable text; lecturer self-introductions recoverable."
+  lecture_slides: "Intro of Slide Chương 1 is the best syllabus-like evidence. Later slides image-heavy / truncated."
+  exam_2022: "Fully extracted including some keys."
+  ontap_2022: "Fully extracted; numbering sometimes diverges from lecture chủ đề codes."
+
+concepts:
+  - {term: "ngân sách nhà nước (NSNN)", evidence_status: OBSERVED, found_in: heading, sources: [src-0179]}
+  - {term: "đơn vị hành chính sự nghiệp (ĐVHCSN)", evidence_status: OBSERVED, found_in: heading, sources: [src-0179]}
+  - {term: "phương pháp quản lý tài chính", evidence_status: OBSERVED, found_in: heading, sources: [src-0179]}
+  - {term: "quy trình quản lý tài chính", evidence_status: OBSERVED, found_in: heading, sources: [src-0179]}
+  - {term: "hình thức cấp phát kinh phí của NSNN", evidence_status: OBSERVED, found_in: heading, sources: [src-0179, src-0192]}
+  - {term: "cơ chế tự chủ, tự chịu trách nhiệm", evidence_status: OBSERVED, found_in: heading, sources: [src-0180, src-0187]}
+  - {term: "phí, lệ phí", evidence_status: OBSERVED, found_in: heading, sources: [src-0192]}
+  - {term: "quỹ tiền lương", evidence_status: OBSERVED, found_in: heading, sources: [src-0181]}
+  - {term: "các khoản nộp theo lương", evidence_status: OBSERVED, found_in: heading, sources: [src-0181]}
+  - {term: "dự án đầu tư công", evidence_status: OBSERVED, found_in: heading, sources: [src-0182]}
+  - {term: "tài sản công", evidence_status: OBSERVED, found_in: heading, sources: [src-0183]}
+  - {term: "lựa chọn nhà thầu", evidence_status: OBSERVED, found_in: objective, sources: [src-0183, src-0192]}
+  - {term: "kế hoạch tài chính 5 năm", evidence_status: OBSERVED, found_in: heading, sources: [src-0184]}
+  - {term: "kế hoạch tài chính ngân sách nhà nước 3 năm", evidence_status: OBSERVED, found_in: heading, sources: [src-0184]}
+  - {term: "dự toán ngân sách nhà nước hằng năm", evidence_status: OBSERVED, found_in: objective, sources: [src-0184]}
+  - {term: "chi đầu tư phát triển", evidence_status: OBSERVED, found_in: objective, sources: [src-0184]}
+  - {term: "chi thường xuyên", evidence_status: OBSERVED, found_in: objective, sources: [src-0184]}
+
+conflicts:
+  - id: final_exam_form
+    evidence_status: OBSERVED
+    a: "Slide Chương 1 intro: thi cuối kỳ trắc nghiệm 75 phút (src-0187)"
+    b: "Đề thi mẫu 2022: 40 câu trắc nghiệm 75 phút, header ĐỀ THI CUỐI KỲ (src-0185)"
+    c: "Tài liệu ôn tập 2022 Phần 3: hình thức tự luận, 1–2 câu, 75 phút (src-0192)"
+    resolution: UNKNOWN
+    note: "Do not collapse these into one exam format. Sample paper matches the intro slide, not the ôn tập prose."
+  - id: chapter_title_shortening
+    evidence_status: OBSERVED
+    a: "Lecture/slide Ch2: '...tự chủ, tự chịu trách nhiệm'"
+    b: "Ôn tập Ch2: 'Quản lý tài chính theo cơ chế tự chủ'"
+  - id: topic_numbering_ch4_ch2
+    evidence_status: OBSERVED
+    note: "Lecture scripts and ôn tập do not use the same chủ đề numbers (e.g. lecture Ch4 opens at Chủ đề 4.2 in the extracted window; ôn tập lists 4.1–4.4)."
+
+unknowns:
+  - official catalog course_code
+  - academic_year / semester of the learner (2022 is document year only)
+  - contents of Slide Chương 5/6 if they exist only inside the 326-page compilation (not extracted)
+  - the 2021 Hồ Hữu Thụy textbook text
+  - which exam format applied to the learner
+  - prerequisite courses
+
+v3:
+  tier: retrieval
+  index: 3.0.0
+  gate: G3f
+  gate_status: pass
+  chunk_count: 768
+  coverage_evidence: data/normalized/tai-chinh-hanh-chinh-su-nghiep.documents.jsonl
+  legacy_fields_note: Pre-V3 scan fields remain historical unless explicitly updated
+    above. V3 concepts and normalized corpus are canonical.

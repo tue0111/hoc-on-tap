@@ -1,0 +1,17 @@
+{
+  "tests": 8,
+  "failures": 0,
+  "errors": 0,
+  "all_pass": true,
+  "simulation": {
+    "source_id": "src-0225",
+    "source_sha256": "4deea6be81bea62a2b94e20e9d4f8f15df9f36f882c77369125e99c302df93f1",
+    "pages": 4,
+    "chunks": 8,
+    "simulated_new_detected": true,
+    "indexed_and_retrievable": true,
+    "removed_from_ram": true,
+    "source_files_written": 0,
+    "limit": "RAM transport test; not a disk-publication or concurrent-reader acceptance test"
+  }
+}

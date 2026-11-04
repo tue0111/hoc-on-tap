@@ -1,0 +1,12 @@
+{
+  "chunking_version": "2.0.0",
+  "chunk_count": 959,
+  "course_id": "ke-toan-ngan-hang",
+  "dup_groups": 0,
+  "by_source_type": {
+    "reference": 92,
+    "summary": 46,
+    "lecture_note": 806,
+    "exam": 15
+  }
+}

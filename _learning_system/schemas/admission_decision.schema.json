@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.learning-system/schemas/admission_decision.schema.json",
+  "title": "AdmissionDecision",
+  "description": "Phase 6 gate. ADMIT writes observations only. Never a mastery score.",
+  "type": "object",
+  "required": ["candidate_id", "decision", "admission_scope"],
+  "additionalProperties": false,
+  "properties": {
+    "decision_id": { "type": "string" },
+    "candidate_id": { "type": "string" },
+    "decision": { "type": "string", "enum": ["ADMIT", "HOLD", "REJECT"] },
+    "reason_codes": { "type": "array", "items": { "type": "string" } },
+    "concept_id": { "type": ["string", "null"] },
+    "dimension": { "type": ["string", "null"] },
+    "evidence_quality": { "type": ["string", "null"] },
+    "independence": { "type": ["string", "null"] },
+    "contradictions": { "type": "array" },
+    "duplicate_of": { "type": "array", "items": { "type": "string" } },
+    "admission_scope": { "type": "string", "enum": ["OBSERVATION_ONLY"] },
+    "confidence_band": { "type": "string", "enum": ["HIGH", "MEDIUM", "LOW"] },
+    "policy_version": { "type": "string" },
+    "stored_artifact_id": { "type": ["string", "null"] },
+    "observation": { "type": ["string", "null"] },
+    "do_not_infer": { "type": "array", "items": { "type": "string" } }
+  }
+}

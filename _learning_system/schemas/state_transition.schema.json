@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.learning-system/schemas/state_transition.schema.json",
+  "title": "StateTransition",
+  "description": "Append-only derived-state transition. Does not mutate admitted evidence.",
+  "type": "object",
+  "required": ["concept_id", "dimension", "old_state", "new_state", "policy_version"],
+  "additionalProperties": false,
+  "properties": {
+    "concept_id": { "type": "string" },
+    "dimension": { "type": "string" },
+    "old_state": { "type": ["string", "null"] },
+    "new_state": { "type": "string" },
+    "trigger_evidence_refs": { "type": "array", "items": { "type": "string" } },
+    "policy_version": { "type": "string" },
+    "timestamp": { "type": "string" },
+    "reason_codes": { "type": "array", "items": { "type": "string" } }
+  }
+}

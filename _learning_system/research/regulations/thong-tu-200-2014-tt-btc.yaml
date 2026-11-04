@@ -1,0 +1,73 @@
+ref: Thông tư 200/2014/TT-BTC
+status: replaced
+replaced_by: Thông tư 99/2025/TT-BTC
+amended_by: []
+effective_from: '2026-01-01'
+effective_date_meaning: effective date of cited change, not necessarily original instrument
+scope: Áp dụng cho năm tài chính bắt đầu từ hoặc sau 01/01/2026; ngoại lệ phần kế
+  toán cổ phần hóa doanh nghiệp nhà nước. Không tự đổi đáp án giáo trình.
+key_changes:
+- text: TT99 thay chế độ kế toán doanh nghiệp TT200 trong phạm vi nêu trên.
+  source_url: https://www.mof.gov.vn/tin-tuc-tai-chinh/tin-chinh-sach-tai-chinh/tap-huan-trien-khai-thong-tu-so-992025tt-btc
+cited_in_courses:
+- ke-toan-tai-chinh-1
+- ke-toan-tai-chinh-2
+- nguyen-ly-ke-toan
+curriculum_occurrences:
+- source_id: src-0060
+  page: 10
+  layer: curriculum
+- source_id: src-0060
+  page: 33
+  layer: curriculum
+- source_id: src-0063
+  page: 13
+  layer: curriculum
+- source_id: src-0063
+  page: 36
+  layer: curriculum
+- source_id: src-0065
+  page: 25
+  layer: curriculum
+- source_id: src-0068
+  page: 36
+  layer: curriculum
+- source_id: src-0093
+  page: 9
+  layer: curriculum
+- source_id: src-0096
+  page: 3
+  layer: curriculum
+- source_id: src-0304
+  page: 2
+  layer: curriculum
+- source_id: src-0325
+  page: 2
+  layer: curriculum
+variants:
+- 'Thông tư
+
+  200/2014/TT-BTC'
+- Thông tư 200/2014/TT-BTC
+- thông tư 200/2014/TT-BTC
+sources:
+- url: https://www.mof.gov.vn/tin-tuc-tai-chinh/tin-chinh-sach-tai-chinh/tap-huan-trien-khai-thong-tu-so-992025tt-btc
+  publisher: www.mof.gov.vn
+  retrieved_at: '2026-10-11'
+  authority: official
+- url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-99-2025-tt-btc-46529.htm
+  publisher: congbao.chinhphu.vn
+  retrieved_at: '2026-10-11'
+  authority: official
+- url: https://portal.mof.gov.vn/hoidapcstc/home/cthoidap/159102
+  publisher: portal.mof.gov.vn
+  retrieved_at: '2026-10-11'
+  authority: official
+evidence_status: OBSERVED
+layer: external
+checked_at: '2026-10-11'
+unknown_reason: null
+search_log: research/search_logs/ref_047.json
+record_kind: verified_status
+freshness_limit: Snapshot of sources checked on the stated date; not a guarantee that
+  every later amendment has been found.

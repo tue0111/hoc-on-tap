@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.learning-system/schemas/learner_concept_state.schema.json",
+  "title": "LearnerConceptState",
+  "description": "Derived per-concept state. Recomputable from admitted evidence. No overall mastery field.",
+  "type": "object",
+  "required": ["concept_id", "dimensions", "derivation_policy_version"],
+  "additionalProperties": false,
+  "properties": {
+    "concept_id": { "type": "string" },
+    "course_appearances": { "type": "array", "items": { "type": "string" } },
+    "dimensions": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "recall": { "type": "object" },
+        "conceptual": { "type": "object" },
+        "procedural": { "type": "object" },
+        "application": { "type": "object" },
+        "transfer": { "type": "object" }
+      }
+    },
+    "last_updated_from_evidence": { "type": ["string", "null"] },
+    "evidence_count": {
+      "type": "object",
+      "properties": {
+        "positive": { "type": "integer" },
+        "negative": { "type": "integer" },
+        "unused_retries": { "type": "integer" },
+        "invalid": { "type": "integer" }
+      }
+    },
+    "state_version": { "type": "string" },
+    "derivation_policy_version": { "type": "string" },
+    "provenance_refs": { "type": "array", "items": { "type": "string" } }
+  }
+}

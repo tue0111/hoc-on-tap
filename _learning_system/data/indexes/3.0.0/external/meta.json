@@ -1,0 +1,30 @@
+{
+  "index_version": "3.0.0",
+  "chunking_version": "2.0.0",
+  "extract_version": "3.0.0",
+  "build_date": "2026-10-11T15:50:20.169054+00:00",
+  "chunk_count": 23,
+  "vocab_size": 464,
+  "avgdl": 124.73913043478261,
+  "k1": 1.5,
+  "b": 0.75,
+  "courses": [
+    "external"
+  ],
+  "source_hashes": [
+    "0bf12bf274c098fc00436baa83327ec54320724a4ab2fb473fec7ba751c653e5",
+    "396a458902c55ec271d95de0a9c9c0d55bfc205e505dbddfff9c24e4f7f73a0c",
+    "3ba4fe089de0c3ecbd51ca6690e0ecc17648035ec3b84799ce84275310562b21",
+    "5a80bf2dc398c24f693f4c843a269d647c727911933ec87920637c9cc1549400",
+    "73ca295397f3d485a567347f196bf114a16667c4a26bdcf630507abe2bc1cfb5",
+    "e69d7b8a435867a504f2d2cf0c5b4369117c9fea16a6ca587ec69acd1bf08284",
+    "eee661e5dae5f3b553bc61873e6fbeebf4df7782b845640edaa1285a1bef3456",
+    "f01283c3c53768c3f4dee4749121ecfeea7604d81d09b0dec81440fefbca3fc2"
+  ],
+  "embedding": null,
+  "lexical": "bm25",
+  "semantic": "tfidf_cosine_numpy",
+  "concept_registry_version": "0.1.0",
+  "course_id": "external",
+  "layer": "external"
+}

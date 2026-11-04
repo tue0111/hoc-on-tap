@@ -1,0 +1,24 @@
+rubric_id: learning-policy-phase-8
+version: "8.0.0"
+pass_if:
+  - next_action_accuracy: ">= 0.90"
+  - target_concept_accuracy: ">= 0.95"
+  - target_dimension_accuracy: ">= 0.95"
+  - prerequisite_backfill_precision: ">= 0.97"
+  - false_prerequisite_backfill: "<= 0.02"
+  - irrelevant_remediation: "<= 0.03"
+  - unknown_as_failure: 0
+  - supported_as_mastered: 0
+  - recovery_handling: ">= 0.90"
+  - minimal_intervention: ">= 0.95"
+  - current_diagnostic_override: ">= 0.95"
+  - prior_phase_regression: none_material
+fail_if:
+  - next_review_date
+  - interval_days
+  - ease_factor
+  - forgetting_probability
+  - review_due
+  - overall_mastery
+  - MASTERED
+  - WEAK_STUDENT

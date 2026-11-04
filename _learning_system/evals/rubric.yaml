@@ -1,0 +1,25 @@
+rubric_id: learning-system-phase-0-1
+version: "0.1.0"
+purpose: Evaluate retrieval and explanation against curriculum evidence. Not a mastery exam.
+
+dimensions:
+  - id: groundedness
+    question: Does the answer cite source_id / path from this corpus?
+    fail_if: generic accounting prose with no source
+  - id: layer_separation
+    question: Are curriculum, learner state, and external knowledge kept apart?
+    fail_if: IFRS update presented as taught content
+  - id: evidence_status
+    question: Are OBSERVED / INFERRED / UNKNOWN labeled?
+    fail_if: inferred semester stated as fact
+  - id: no_fake_mastery
+    question: Are numeric mastery scores absent unless attempts exist?
+  - id: prerequisite_discipline
+    question: Are graph edges sourced?
+    fail_if: Accounting Equation chain added without corpus support
+  - id: conflict_preservation
+    question: If two sources disagree, are both kept?
+
+scoring:
+  pass: all dimensions pass
+  note: Golden questions in golden_questions.jsonl; retrieval cases in retrieval_tests.jsonl

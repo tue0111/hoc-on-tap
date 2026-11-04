@@ -1,0 +1,3850 @@
+{
+  "course_id": "ngan-hang-thuong-mai",
+  "unit_titles": [],
+  "heading_lines": [
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2: Dịch vụ ngân hàng điện tử",
+      "count": 8,
+      "refs": [
+        {
+          "source_id": "src-0137",
+          "page": 1
+        },
+        {
+          "source_id": "src-0137",
+          "page": 23
+        },
+        {
+          "source_id": "src-0137",
+          "page": 24
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 1: TỔNG QUAN VỀ NGÂN HÀNG THƯƠNG MẠI",
+      "count": 6,
+      "refs": [
+        {
+          "source_id": "src-0122",
+          "page": 1
+        },
+        {
+          "source_id": "src-0122",
+          "page": 4
+        },
+        {
+          "source_id": "src-0122",
+          "page": 10
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 3: TỔNG QUAN VỀ NGHIỆP VỤ CẤP TÍN DỤNG CỦA NGÂN HÀNG",
+      "count": 6,
+      "refs": [
+        {
+          "source_id": "src-0124",
+          "page": 1
+        },
+        {
+          "source_id": "src-0124",
+          "page": 8
+        },
+        {
+          "source_id": "src-0124",
+          "page": 19
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 5: Các nghiệp vụ tín dụng khác",
+      "count": 6,
+      "refs": [
+        {
+          "source_id": "src-0126",
+          "page": 1
+        },
+        {
+          "source_id": "src-0126",
+          "page": 14
+        },
+        {
+          "source_id": "src-0126",
+          "page": 46
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 6: DỊCH VỤ NGÂN HÀNG",
+      "count": 6,
+      "refs": [
+        {
+          "source_id": "src-0127",
+          "page": 1
+        },
+        {
+          "source_id": "src-0127",
+          "page": 5
+        },
+        {
+          "source_id": "src-0127",
+          "page": 11
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1: Dịch vụ thanh toán",
+      "count": 6,
+      "refs": [
+        {
+          "source_id": "src-0137",
+          "page": 1
+        },
+        {
+          "source_id": "src-0137",
+          "page": 24
+        },
+        {
+          "source_id": "src-0137",
+          "page": 44
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3: Dịch vụ ủy thác và Dịch vụ phân phối",
+      "count": 6,
+      "refs": [
+        {
+          "source_id": "src-0137",
+          "page": 1
+        },
+        {
+          "source_id": "src-0137",
+          "page": 24
+        },
+        {
+          "source_id": "src-0137",
+          "page": 44
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 2: NGHIỆP VỤ HUY ĐỘNG VỐN CỦA NGÂN HÀNG THƯƠNG MẠI",
+      "count": 4,
+      "refs": [
+        {
+          "source_id": "src-0123",
+          "page": 1
+        },
+        {
+          "source_id": "src-0123",
+          "page": 5
+        },
+        {
+          "source_id": "src-0130",
+          "page": 22
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 4: NGHIỆP VỤ CHO VAY",
+      "count": 4,
+      "refs": [
+        {
+          "source_id": "src-0125",
+          "page": 1
+        },
+        {
+          "source_id": "src-0125",
+          "page": 5
+        },
+        {
+          "source_id": "src-0130",
+          "page": 58
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 0: Giới thiệu môn học",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0121",
+          "page": 1
+        },
+        {
+          "source_id": "src-0130",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.1: Khái quát về ngân hàng thương mại",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0122",
+          "page": 1
+        },
+        {
+          "source_id": "src-0130",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1: Khái quát về ngân hàng thương mại",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0122",
+          "page": 1
+        },
+        {
+          "source_id": "src-0130",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2: Chức năng của ngân hàng thương mại",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0122",
+          "page": 1
+        },
+        {
+          "source_id": "src-0130",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3: Nghiệp vụ của ngân hàng thương mại",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0122",
+          "page": 1
+        },
+        {
+          "source_id": "src-0130",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.2: Chức năng của Ngân hàng thương mại",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0122",
+          "page": 4
+        },
+        {
+          "source_id": "src-0130",
+          "page": 10
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.3: Nghiệp vụ của Ngân hàng thương mại",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0122",
+          "page": 10
+        },
+        {
+          "source_id": "src-0130",
+          "page": 16
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.1: Khái niệm về nghiệp vụ huy động vốn của NHTM",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0123",
+          "page": 1
+        },
+        {
+          "source_id": "src-0130",
+          "page": 22
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2: Các hình thức huy động vốn của NHTM.",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0123",
+          "page": 1
+        },
+        {
+          "source_id": "src-0130",
+          "page": 22
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.2: Hình thức huy động vốn của NHTM",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0123",
+          "page": 5
+        },
+        {
+          "source_id": "src-0130",
+          "page": 26
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.1: Khái quát về nghiệp vụ cấp tín dụng",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0124",
+          "page": 1
+        },
+        {
+          "source_id": "src-0130",
+          "page": 34
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 3: Tổng quan về hoạt động cấp tín dụng của Ngân hàng thương mại.",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0124",
+          "page": 1
+        },
+        {
+          "source_id": "src-0130",
+          "page": 34
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1: Khái quát về nghiệp vụ cấp tín dụng của ngân hàng thương mại",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0124",
+          "page": 1
+        },
+        {
+          "source_id": "src-0130",
+          "page": 34
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2: Quy trình tín dụng",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0124",
+          "page": 1
+        },
+        {
+          "source_id": "src-0130",
+          "page": 34
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3: Đảm bảo tín dụng",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0124",
+          "page": 1
+        },
+        {
+          "source_id": "src-0130",
+          "page": 34
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.2: Quy trình tín dụng",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0124",
+          "page": 8
+        },
+        {
+          "source_id": "src-0130",
+          "page": 41
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.3: Đảm bảo tín dụng",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0124",
+          "page": 19
+        },
+        {
+          "source_id": "src-0130",
+          "page": 52
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.1: Cho vay ngắn hạn",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0125",
+          "page": 1
+        },
+        {
+          "source_id": "src-0130",
+          "page": 58
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.2: Cho vay trung dài hạn",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0125",
+          "page": 5
+        },
+        {
+          "source_id": "src-0130",
+          "page": 62
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 5.1: Nghiệp vụ chiết khấu giấy tờ có giá",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0126",
+          "page": 1
+        },
+        {
+          "source_id": "src-0130",
+          "page": 65
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 5.2: Nghiệp vụ cho thuê tài chính",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0126",
+          "page": 14
+        },
+        {
+          "source_id": "src-0130",
+          "page": 78
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 5: CÁC NGHIỆP VỤ TÍN DỤNG KHÁC",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0126",
+          "page": 33
+        },
+        {
+          "source_id": "src-0130",
+          "page": 97
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 5.3: Nghiệp vụ bao thanh toán",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0126",
+          "page": 33
+        },
+        {
+          "source_id": "src-0130",
+          "page": 97
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 5.4: Nghiệp vụ bảo lãnh ngân hàng",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0126",
+          "page": 46
+        },
+        {
+          "source_id": "src-0130",
+          "page": 110
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 6.1: Dịch vụ thanh toán",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0127",
+          "page": 1
+        },
+        {
+          "source_id": "src-0130",
+          "page": 117
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 6.2: Dịch vụ ngân hàng điện tử",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0127",
+          "page": 5
+        },
+        {
+          "source_id": "src-0130",
+          "page": 121
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 6.3: Dịch vụ ủy thác và Dịch vụ phân phối bảo hiểm qua kênh ngân hàng",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0127",
+          "page": 11
+        },
+        {
+          "source_id": "src-0130",
+          "page": 127
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 5.1 Chủ đề 5.2",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0136",
+          "page": 2
+        },
+        {
+          "source_id": "src-0138",
+          "page": 167
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 5.3 Chủ đề 5.4",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0136",
+          "page": 2
+        },
+        {
+          "source_id": "src-0138",
+          "page": 167
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3: Dịch vụ ủy thác và Dịch vụ",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0137",
+          "page": 43
+        },
+        {
+          "source_id": "src-0138",
+          "page": 314
+        }
+      ]
+    }
+  ],
+  "outline_titles": [
+    {
+      "source_id": "src-0122",
+      "title": "NHTM-C1-CD1.1-KhaiquatveNHTM",
+      "page": 1
+    },
+    {
+      "source_id": "src-0122",
+      "title": "NHTM-C1-CD1.2-ChucnangNHTM",
+      "page": 4
+    },
+    {
+      "source_id": "src-0122",
+      "title": "NHTM-C1-CD1.3-NghiepvuNHTM",
+      "page": 10
+    },
+    {
+      "source_id": "src-0123",
+      "title": "NHTM-C2-CD2.1-Khainiemvehuydongvon",
+      "page": 1
+    },
+    {
+      "source_id": "src-0123",
+      "title": "NHTM-C2-CD2.2-HInhthuchuydongvon",
+      "page": 5
+    },
+    {
+      "source_id": "src-0124",
+      "title": "NHTM-C3-CD3.1-Khaiquattindungnganhang",
+      "page": 1
+    },
+    {
+      "source_id": "src-0124",
+      "title": "NHTM-C3-CD3.2-Quytrinhtindung",
+      "page": 8
+    },
+    {
+      "source_id": "src-0124",
+      "title": "NHTM-C3-CD3.3-Dambaotindung",
+      "page": 19
+    },
+    {
+      "source_id": "src-0125",
+      "title": "NHTM-C4-CD4.1-CHO VAY NGAN HAN",
+      "page": 1
+    },
+    {
+      "source_id": "src-0125",
+      "title": "NHTM-C4-CD4.2-CHO VAY TRUNG DAI HAN",
+      "page": 5
+    },
+    {
+      "source_id": "src-0126",
+      "title": "NHTM-C5-CD5.1-Nghiepvuchietkhaugiaytocogia",
+      "page": 1
+    },
+    {
+      "source_id": "src-0126",
+      "title": "NHTM-C5-CD5.2-Nghiepvuchothuetaichinh",
+      "page": 14
+    },
+    {
+      "source_id": "src-0126",
+      "title": "NHTM-C5-CD5.3-Baothanhtoan",
+      "page": 33
+    },
+    {
+      "source_id": "src-0126",
+      "title": "NHTM-C5-CD5.4_Nghiepvubaolanhnganhang",
+      "page": 46
+    },
+    {
+      "source_id": "src-0127",
+      "title": "NHTM-C6-CD6.1-DICH VU THANH TOAN",
+      "page": 1
+    },
+    {
+      "source_id": "src-0127",
+      "title": "NHTM-C6-CD6.2-DICH VU NGAN HANG DIEN TU",
+      "page": 5
+    },
+    {
+      "source_id": "src-0127",
+      "title": "NHTM-C6-CD6.3-DICH VU UY THAC",
+      "page": 11
+    },
+    {
+      "source_id": "src-0130",
+      "title": "Chương 0",
+      "page": 1
+    },
+    {
+      "source_id": "src-0130",
+      "title": "Chương 1",
+      "page": 7
+    },
+    {
+      "source_id": "src-0130",
+      "title": "NHTM-C1-CD1.1-KhaiquatveNHTM",
+      "page": 7
+    },
+    {
+      "source_id": "src-0130",
+      "title": "NHTM-C1-CD1.2-ChucnangNHTM",
+      "page": 10
+    },
+    {
+      "source_id": "src-0130",
+      "title": "NHTM-C1-CD1.3-NghiepvuNHTM",
+      "page": 16
+    },
+    {
+      "source_id": "src-0130",
+      "title": "Chương 2",
+      "page": 22
+    },
+    {
+      "source_id": "src-0130",
+      "title": "NHTM-C2-CD2.1-Khainiemvehuydongvon",
+      "page": 22
+    },
+    {
+      "source_id": "src-0130",
+      "title": "NHTM-C2-CD2.2-HInhthuchuydongvon",
+      "page": 26
+    },
+    {
+      "source_id": "src-0130",
+      "title": "Chương 3",
+      "page": 34
+    },
+    {
+      "source_id": "src-0130",
+      "title": "NHTM-C3-CD3.1-Khaiquattindungnganhang",
+      "page": 34
+    },
+    {
+      "source_id": "src-0130",
+      "title": "NHTM-C3-CD3.2-Quytrinhtindung",
+      "page": 41
+    },
+    {
+      "source_id": "src-0130",
+      "title": "NHTM-C3-CD3.3-Dambaotindung",
+      "page": 52
+    },
+    {
+      "source_id": "src-0130",
+      "title": "Chương 4",
+      "page": 58
+    },
+    {
+      "source_id": "src-0130",
+      "title": "NHTM-C4-CD4.1-CHO VAY NGAN HAN",
+      "page": 58
+    },
+    {
+      "source_id": "src-0130",
+      "title": "NHTM-C4-CD4.2-CHO VAY TRUNG DAI HAN",
+      "page": 62
+    },
+    {
+      "source_id": "src-0130",
+      "title": "Chương 5",
+      "page": 65
+    },
+    {
+      "source_id": "src-0130",
+      "title": "NHTM-C5-CD5.1-Nghiepvuchietkhaugiaytocogia",
+      "page": 65
+    },
+    {
+      "source_id": "src-0130",
+      "title": "NHTM-C5-CD5.2-Nghiepvuchothuetaichinh",
+      "page": 78
+    },
+    {
+      "source_id": "src-0130",
+      "title": "NHTM-C5-CD5.3-Baothanhtoan",
+      "page": 97
+    },
+    {
+      "source_id": "src-0130",
+      "title": "NHTM-C5-CD5.4_Nghiepvubaolanhnganhang",
+      "page": 110
+    },
+    {
+      "source_id": "src-0130",
+      "title": "Chương 6",
+      "page": 117
+    },
+    {
+      "source_id": "src-0130",
+      "title": "NHTM-C6-CD6.1-DICH VU THANH TOAN",
+      "page": 117
+    },
+    {
+      "source_id": "src-0130",
+      "title": "NHTM-C6-CD6.2-DICH VU NGAN HANG DIEN TU",
+      "page": 121
+    },
+    {
+      "source_id": "src-0130",
+      "title": "NHTM-C6-CD6.3-DICH VU UY THAC",
+      "page": 127
+    },
+    {
+      "source_id": "src-0130",
+      "title": "huongdan ontap va kiemtra (1)",
+      "page": 132
+    },
+    {
+      "source_id": "src-0130",
+      "title": "DE THI MAU NHTM 2025 (1)",
+      "page": 134
+    },
+    {
+      "source_id": "src-0132",
+      "title": "NHTM-C1-CD1.1-KhaiquatNHTM",
+      "page": 1
+    },
+    {
+      "source_id": "src-0132",
+      "title": "NHTM-C1-CD1.2-ChucnangNHTM",
+      "page": 11
+    },
+    {
+      "source_id": "src-0132",
+      "title": "NHTM-C1-CD1.3-NghiepvuNHTM",
+      "page": 22
+    },
+    {
+      "source_id": "src-0133",
+      "title": "NHTM-C2-CD2.1-Khainiemvehuydongvon",
+      "page": 1
+    },
+    {
+      "source_id": "src-0133",
+      "title": "CHƯƠNG 2",
+      "page": 1
+    },
+    {
+      "source_id": "src-0133",
+      "title": "Slide 2 ",
+      "page": 2
+    },
+    {
+      "source_id": "src-0133",
+      "title": "Slide 3 ",
+      "page": 3
+    },
+    {
+      "source_id": "src-0133",
+      "title": "Slide 4 ",
+      "page": 4
+    },
+    {
+      "source_id": "src-0133",
+      "title": "Slide 5 ",
+      "page": 5
+    },
+    {
+      "source_id": "src-0133",
+      "title": "Slide 6 ",
+      "page": 6
+    },
+    {
+      "source_id": "src-0133",
+      "title": "Slide 7 ",
+      "page": 7
+    },
+    {
+      "source_id": "src-0133",
+      "title": "Slide 8 ",
+      "page": 8
+    },
+    {
+      "source_id": "src-0133",
+      "title": "NHTM-C2-CD2.2-Hinhthuchuydongvon",
+      "page": 9
+    },
+    {
+      "source_id": "src-0133",
+      "title": "CHƯƠNG 2",
+      "page": 9
+    },
+    {
+      "source_id": "src-0133",
+      "title": "     HÌNH THỨC HUY ĐỘNG VỐN",
+      "page": 10
+    },
+    {
+      "source_id": "src-0133",
+      "title": "Slide 3 ",
+      "page": 11
+    },
+    {
+      "source_id": "src-0133",
+      "title": "Slide 4 ",
+      "page": 12
+    },
+    {
+      "source_id": "src-0133",
+      "title": "Slide 5 ",
+      "page": 13
+    },
+    {
+      "source_id": "src-0133",
+      "title": "Slide 6 ",
+      "page": 14
+    },
+    {
+      "source_id": "src-0133",
+      "title": "Slide 7 ",
+      "page": 15
+    },
+    {
+      "source_id": "src-0133",
+      "title": "Slide 8 ",
+      "page": 16
+    },
+    {
+      "source_id": "src-0133",
+      "title": "Slide 9 ",
+      "page": 17
+    },
+    {
+      "source_id": "src-0133",
+      "title": "Slide 10 ",
+      "page": 18
+    },
+    {
+      "source_id": "src-0133",
+      "title": "Slide 11 ",
+      "page": 19
+    },
+    {
+      "source_id": "src-0133",
+      "title": "     HÌNH THỨC HUY ĐỘNG VỐN",
+      "page": 20
+    },
+    {
+      "source_id": "src-0133",
+      "title": "     HÌNH THỨC PHÁT HÀNH GTCG",
+      "page": 21
+    },
+    {
+      "source_id": "src-0133",
+      "title": "Slide 14 ",
+      "page": 22
+    },
+    {
+      "source_id": "src-0134",
+      "title": "Slide NHTM-C3-CD3.1-Khaiquattindungnganhang",
+      "page": 1
+    },
+    {
+      "source_id": "src-0134",
+      "title": "CHƯƠNG 3",
+      "page": 1
+    },
+    {
+      "source_id": "src-0134",
+      "title": "Slide 2 ",
+      "page": 2
+    },
+    {
+      "source_id": "src-0134",
+      "title": "Slide 3 ",
+      "page": 3
+    },
+    {
+      "source_id": "src-0134",
+      "title": "Slide 4 ",
+      "page": 4
+    },
+    {
+      "source_id": "src-0134",
+      "title": "Slide 5 ",
+      "page": 5
+    },
+    {
+      "source_id": "src-0134",
+      "title": "Phân loại hoạt động cấp tín dụng",
+      "page": 6
+    },
+    {
+      "source_id": "src-0134",
+      "title": "Phân loại hoạt động cấp tín dụng",
+      "page": 7
+    },
+    {
+      "source_id": "src-0134",
+      "title": "Phân loại hoạt động cấp tín dụng",
+      "page": 8
+    },
+    {
+      "source_id": "src-0134",
+      "title": "Phân loại hoạt động cấp tín dụng",
+      "page": 9
+    },
+    {
+      "source_id": "src-0134",
+      "title": "Một số khái niệm trong hoạt động cấp tín dụng",
+      "page": 10
+    },
+    {
+      "source_id": "src-0134",
+      "title": "Slide 11 ",
+      "page": 11
+    },
+    {
+      "source_id": "src-0134",
+      "title": "Slide 12 ",
+      "page": 12
+    },
+    {
+      "source_id": "src-0134",
+      "title": "Slide 13 ",
+      "page": 13
+    },
+    {
+      "source_id": "src-0134",
+      "title": "Slide 14 ",
+      "page": 14
+    },
+    {
+      "source_id": "src-0134",
+      "title": "Slide 15 ",
+      "page": 15
+    },
+    {
+      "source_id": "src-0134",
+      "title": "Slide NHTM-C3-CD3.2-Quytrinhtindung",
+      "page": 16
+    },
+    {
+      "source_id": "src-0134",
+      "title": "CHỦ ĐỀ  ",
+      "page": 16
+    },
+    {
+      "source_id": "src-0134",
+      "title": "Slide 2 ",
+      "page": 17
+    },
+    {
+      "source_id": "src-0134",
+      "title": "Slide 3 ",
+      "page": 18
+    },
+    {
+      "source_id": "src-0134",
+      "title": "Slide 4 ",
+      "page": 19
+    },
+    {
+      "source_id": "src-0134",
+      "title": "Slide 5 ",
+      "page": 20
+    },
+    {
+      "source_id": "src-0134",
+      "title": "Slide 6 ",
+      "page": 21
+    },
+    {
+      "source_id": "src-0134",
+      "title": "Slide 7 ",
+      "page": 22
+    },
+    {
+      "source_id": "src-0134",
+      "title": "Slide 8 ",
+      "page": 23
+    },
+    {
+      "source_id": "src-0134",
+      "title": "Slide 9 ",
+      "page": 24
+    },
+    {
+      "source_id": "src-0134",
+      "title": "Slide 10 ",
+      "page": 25
+    },
+    {
+      "source_id": "src-0134",
+      "title": "Slide 11 ",
+      "page": 26
+    },
+    {
+      "source_id": "src-0134",
+      "title": "Slide 12 ",
+      "page": 27
+    },
+    {
+      "source_id": "src-0134",
+      "title": "Slide 13 ",
+      "page": 28
+    },
+    {
+      "source_id": "src-0134",
+      "title": "Slide 14 ",
+      "page": 29
+    },
+    {
+      "source_id": "src-0134",
+      "title": "Slide 15 ",
+      "page": 30
+    },
+    {
+      "source_id": "src-0134",
+      "title": "Slide 16 ",
+      "page": 31
+    },
+    {
+      "source_id": "src-0134",
+      "title": "Slide 17 ",
+      "page": 32
+    },
+    {
+      "source_id": "src-0134",
+      "title": "Slide 18 ",
+      "page": 33
+    },
+    {
+      "source_id": "src-0134",
+      "title": "Slide 19 ",
+      "page": 34
+    },
+    {
+      "source_id": "src-0134",
+      "title": "Slide 20 ",
+      "page": 35
+    },
+    {
+      "source_id": "src-0134",
+      "title": "Slide 21 ",
+      "page": 36
+    },
+    {
+      "source_id": "src-0134",
+      "title": "Slide 22 ",
+      "page": 37
+    },
+    {
+      "source_id": "src-0134",
+      "title": "Slide NHTM-C3-CD3.3-Dambaotindung",
+      "page": 38
+    },
+    {
+      "source_id": "src-0134",
+      "title": "CHỦ ĐỀ  ",
+      "page": 38
+    },
+    {
+      "source_id": "src-0134",
+      "title": "Slide 2 ",
+      "page": 39
+    },
+    {
+      "source_id": "src-0134",
+      "title": "Slide 3 ",
+      "page": 40
+    },
+    {
+      "source_id": "src-0134",
+      "title": "Slide 4 ",
+      "page": 41
+    },
+    {
+      "source_id": "src-0134",
+      "title": "Slide 5 ",
+      "page": 42
+    },
+    {
+      "source_id": "src-0134",
+      "title": "Slide 6 ",
+      "page": 43
+    },
+    {
+      "source_id": "src-0134",
+      "title": "Slide 7 ",
+      "page": 44
+    },
+    {
+      "source_id": "src-0134",
+      "title": "Slide 8 ",
+      "page": 45
+    },
+    {
+      "source_id": "src-0134",
+      "title": "Slide 9 ",
+      "page": 46
+    },
+    {
+      "source_id": "src-0134",
+      "title": "Slide 10 ",
+      "page": 47
+    },
+    {
+      "source_id": "src-0134",
+      "title": "Slide 11 ",
+      "page": 48
+    },
+    {
+      "source_id": "src-0135",
+      "title": "NHTM-C4-CD4.1-CHO VAY NGAN HAN",
+      "page": 1
+    },
+    {
+      "source_id": "src-0135",
+      "title": "NGHIỆP VỤ CHO VAY",
+      "page": 1
+    },
+    {
+      "source_id": "src-0135",
+      "title": "NGHIỆP VỤ CHO VAY",
+      "page": 2
+    },
+    {
+      "source_id": "src-0135",
+      "title": "Khái niệm",
+      "page": 3
+    },
+    {
+      "source_id": "src-0135",
+      "title": "Slide 4 ",
+      "page": 4
+    },
+    {
+      "source_id": "src-0135",
+      "title": "Slide 5 ",
+      "page": 5
+    },
+    {
+      "source_id": "src-0135",
+      "title": "Cho vay theo hạn mức tín dụng là phương thức cho vay mà trong đó ngân hàng và khách hàng xác định và thoả thuận một hạn mức tín dụng (mức dư nợ vay tối đa) duy trì trong một khoảng thời gian nhất định.",
+      "page": 6
+    },
+    {
+      "source_id": "src-0135",
+      "title": "Slide 7 ",
+      "page": 7
+    },
+    {
+      "source_id": "src-0135",
+      "title": "Cách xác định HMTD",
+      "page": 8
+    },
+    {
+      "source_id": "src-0135",
+      "title": "Nhu cầu vốn ngắn hạn dùng cho SXKD kỳ kế hoạch",
+      "page": 9
+    },
+    {
+      "source_id": "src-0135",
+      "title": "Slide 10 ",
+      "page": 10
+    },
+    {
+      "source_id": "src-0135",
+      "title": "Slide 11 ",
+      "page": 11
+    },
+    {
+      "source_id": "src-0135",
+      "title": "Slide 12 ",
+      "page": 12
+    },
+    {
+      "source_id": "src-0135",
+      "title": "Slide 13 ",
+      "page": 13
+    },
+    {
+      "source_id": "src-0135",
+      "title": "Slide 14 ",
+      "page": 14
+    },
+    {
+      "source_id": "src-0135",
+      "title": "Slide 15 ",
+      "page": 15
+    },
+    {
+      "source_id": "src-0135",
+      "title": "Slide 16 ",
+      "page": 16
+    },
+    {
+      "source_id": "src-0135",
+      "title": "Slide 17 ",
+      "page": 17
+    },
+    {
+      "source_id": "src-0135",
+      "title": "Slide 18 ",
+      "page": 18
+    },
+    {
+      "source_id": "src-0135",
+      "title": "Slide 19 ",
+      "page": 19
+    },
+    {
+      "source_id": "src-0135",
+      "title": "Slide 20 ",
+      "page": 20
+    },
+    {
+      "source_id": "src-0135",
+      "title": "Slide 21 ",
+      "page": 21
+    },
+    {
+      "source_id": "src-0135",
+      "title": "Slide 22 ",
+      "page": 22
+    },
+    {
+      "source_id": "src-0135",
+      "title": "Slide 23 ",
+      "page": 23
+    },
+    {
+      "source_id": "src-0135",
+      "title": "Slide 24 ",
+      "page": 24
+    },
+    {
+      "source_id": "src-0135",
+      "title": "NGHIỆP VỤ CHO VAY",
+      "page": 25
+    },
+    {
+      "source_id": "src-0135",
+      "title": "NHTM-C4-CD4.2-CHO VAY TRUNG DAI HAN",
+      "page": 26
+    },
+    {
+      "source_id": "src-0135",
+      "title": "NGHIỆP VỤ CHO VAY",
+      "page": 26
+    },
+    {
+      "source_id": "src-0135",
+      "title": "Slide 2 ",
+      "page": 27
+    },
+    {
+      "source_id": "src-0135",
+      "title": "Slide 3 ",
+      "page": 28
+    },
+    {
+      "source_id": "src-0135",
+      "title": "Slide 4 ",
+      "page": 29
+    },
+    {
+      "source_id": "src-0135",
+      "title": "Slide 5 ",
+      "page": 30
+    },
+    {
+      "source_id": "src-0135",
+      "title": "Slide 6 ",
+      "page": 31
+    },
+    {
+      "source_id": "src-0135",
+      "title": "Slide 7 ",
+      "page": 32
+    },
+    {
+      "source_id": "src-0135",
+      "title": "Slide 8 ",
+      "page": 33
+    },
+    {
+      "source_id": "src-0135",
+      "title": "Slide 9 ",
+      "page": 34
+    },
+    {
+      "source_id": "src-0135",
+      "title": "Slide 10 ",
+      "page": 35
+    },
+    {
+      "source_id": "src-0135",
+      "title": "Slide 11 ",
+      "page": 36
+    },
+    {
+      "source_id": "src-0135",
+      "title": "Slide 12 ",
+      "page": 37
+    },
+    {
+      "source_id": "src-0135",
+      "title": "Slide 13 ",
+      "page": 38
+    },
+    {
+      "source_id": "src-0135",
+      "title": "Slide 14 ",
+      "page": 39
+    },
+    {
+      "source_id": "src-0135",
+      "title": "Slide 15 ",
+      "page": 40
+    },
+    {
+      "source_id": "src-0135",
+      "title": "Slide 16 ",
+      "page": 41
+    },
+    {
+      "source_id": "src-0135",
+      "title": "Slide 17 ",
+      "page": 42
+    },
+    {
+      "source_id": "src-0135",
+      "title": "Slide 18 ",
+      "page": 43
+    },
+    {
+      "source_id": "src-0135",
+      "title": "Slide 19 ",
+      "page": 44
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Chương 5 – CÁC NGHIỆP VỤ TÍN DỤNG KHÁC",
+      "page": 1
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Nội dung chương",
+      "page": 2
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Nghiệp vụ  Chiết khấu giấy tờ có giá",
+      "page": 3
+    },
+    {
+      "source_id": "src-0136",
+      "title": "I - Những Vấn Đề Cơ Bản Về Chiết Khấu",
+      "page": 4
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Khái niệm Chiết khấu giấy tờ có giá",
+      "page": 5
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Luật các công cụ chuyển nhượng (2005):",
+      "page": 6
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Khái niệm Chiết khấu giấy tờ có giá",
+      "page": 7
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Trong hoạt động chiết khấu giấy tờ có giá:",
+      "page": 8
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Đối tượng chiết khấu",
+      "page": 9
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Slide 10 ",
+      "page": 10
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Slide 11 ",
+      "page": 11
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Slide 12 ",
+      "page": 12
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Slide 13 ",
+      "page": 13
+    },
+    {
+      "source_id": "src-0136",
+      "title": "II – Quy Trình Chiết Khấu",
+      "page": 14
+    },
+    {
+      "source_id": "src-0136",
+      "title": "III – Kỹ Thuật Chiết Khấu",
+      "page": 15
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Thời hạn chiết khấu",
+      "page": 16
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Thời hạn chiết khấu",
+      "page": 17
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Giá chiết khấu",
+      "page": 18
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Xác định FT:",
+      "page": 19
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Phí chiết khấu (P)",
+      "page": 20
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Giá trị còn lại",
+      "page": 21
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Giá mua lại",
+      "page": 22
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Ví dụ minh họa",
+      "page": 23
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Ví dụ minh họa",
+      "page": 24
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Ví dụ minh họa",
+      "page": 25
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Ví dụ minh họa",
+      "page": 26
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Ví dụ minh họa",
+      "page": 27
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Cảm ơn  phần theo dõi của các bạn",
+      "page": 28
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Chương 5 – CÁC NGHIỆP VỤ TÍN DỤNG KHÁC",
+      "page": 29
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Nghiệp vụ  Cho thuê tài chính",
+      "page": 30
+    },
+    {
+      "source_id": "src-0136",
+      "title": "I - Những Vấn Đề Cơ Bản Về Cho Thuê Tài Chính",
+      "page": 31
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Lịch sử hình thành",
+      "page": 32
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Khái niệm Cho thuê tài chính",
+      "page": 33
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Khái niệm Cho thuê tài chính",
+      "page": 34
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Khái niệm Cho thuê tài chính",
+      "page": 35
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Đặc điểm Cho thuê tài chính",
+      "page": 36
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Slide 37 ",
+      "page": 37
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Slide 38 ",
+      "page": 38
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Slide 39 ",
+      "page": 39
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Slide 40 ",
+      "page": 40
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Cho thuê tài chính 2 bên",
+      "page": 41
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Cho thuê tài chính 3 bên",
+      "page": 42
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Slide 43 ",
+      "page": 43
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Slide 44 ",
+      "page": 44
+    },
+    {
+      "source_id": "src-0136",
+      "title": "II – Quy Trình Cho Thuê Tài Chính",
+      "page": 45
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Hồ sơ cho thuê tài chính:",
+      "page": 46
+    },
+    {
+      "source_id": "src-0136",
+      "title": "III – Kỹ Thuật Tài Trợ Cho Thuê Tài Chính",
+      "page": 47
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Giá trị cho thuê tài chính (P0)",
+      "page": 48
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Lưu ý điều khoản trong Hợp đồng cho thuê:",
+      "page": 49
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Slide 50 ",
+      "page": 50
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Kỳ hạn thanh toán tiền thuê",
+      "page": 51
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Lãi suất cho thuê",
+      "page": 52
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Số tiền thanh toán mỗi kỳ (Ti)",
+      "page": 53
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Cần lưu ý:",
+      "page": 54
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Ví dụ minh họa",
+      "page": 55
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Ví dụ minh họa",
+      "page": 56
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Kỹ thuật xác định tiền thuê phải trả",
+      "page": 57
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Thời điểm thanh toán tiền thuê là:",
+      "page": 58
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Hệ số thanh toán K:",
+      "page": 59
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Ví dụ minh họa",
+      "page": 60
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Ví dụ minh họa",
+      "page": 61
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Ví dụ minh họa",
+      "page": 62
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Ví dụ minh họa",
+      "page": 63
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Ví dụ minh họa",
+      "page": 64
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Ví dụ minh họa",
+      "page": 65
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Cảm ơn  phần theo dõi của các bạn",
+      "page": 66
+    },
+    {
+      "source_id": "src-0136",
+      "title": "CHƯƠNG 5",
+      "page": 67
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Slide 68 ",
+      "page": 68
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Slide 69 ",
+      "page": 69
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Slide 70 ",
+      "page": 70
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Slide 71 ",
+      "page": 71
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Slide 72 ",
+      "page": 72
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Slide 73 ",
+      "page": 73
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Slide 74 ",
+      "page": 74
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Slide 75 ",
+      "page": 75
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Slide 76 ",
+      "page": 76
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Slide 77 ",
+      "page": 77
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Slide 78 ",
+      "page": 78
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Slide 79 ",
+      "page": 79
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Slide 80 ",
+      "page": 80
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Slide 81 ",
+      "page": 81
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Slide 82 ",
+      "page": 82
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Slide 83 ",
+      "page": 83
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Slide 84 ",
+      "page": 84
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Slide 85 ",
+      "page": 85
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Slide 86 ",
+      "page": 86
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Slide 87 ",
+      "page": 87
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Slide 88 ",
+      "page": 88
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Slide 89 ",
+      "page": 89
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Slide 90 ",
+      "page": 90
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Chương 5 – CÁC NGHIỆP VỤ TÍN DỤNG KHÁC",
+      "page": 91
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Nghiệp vụ  Bảo lãnh ngân hàng",
+      "page": 92
+    },
+    {
+      "source_id": "src-0136",
+      "title": "I - Những Vấn Đề Cơ Bản Về Bảo Lãnh Ngân Hàng",
+      "page": 93
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Khái niệm Bảo lãnh ngân hàng",
+      "page": 94
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Slide 95 ",
+      "page": 95
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Sơ đồ mô tả mối quan hệ giữa các chủ thể",
+      "page": 96
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Slide 97 ",
+      "page": 97
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Slide 98 ",
+      "page": 98
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Slide 99 ",
+      "page": 99
+    },
+    {
+      "source_id": "src-0136",
+      "title": "II – Quy Trình Bảo Lãnh Ngân hàng",
+      "page": 100
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Hồ sơ đề nghị bảo lãnh:",
+      "page": 101
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Trình tự thực hiện nghĩa vụ bảo lãnh",
+      "page": 102
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Slide 103 ",
+      "page": 103
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Phí phát hành bảo lãnh",
+      "page": 104
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Phí sửa đổi bảo lãnh",
+      "page": 105
+    },
+    {
+      "source_id": "src-0136",
+      "title": "Cảm ơn  phần theo dõi của các bạn",
+      "page": 106
+    },
+    {
+      "source_id": "src-0137",
+      "title": "NHTM-C6-CD6.1 DICH VU THANH TOAN",
+      "page": 1
+    },
+    {
+      "source_id": "src-0137",
+      "title": "Slide 1 ",
+      "page": 1
+    },
+    {
+      "source_id": "src-0137",
+      "title": "Slide 2 ",
+      "page": 2
+    },
+    {
+      "source_id": "src-0137",
+      "title": "KHÁI NIỆM",
+      "page": 3
+    },
+    {
+      "source_id": "src-0137",
+      "title": "Slide 4 ",
+      "page": 4
+    },
+    {
+      "source_id": "src-0137",
+      "title": "Slide 5 ",
+      "page": 5
+    },
+    {
+      "source_id": "src-0137",
+      "title": "Slide 6 ",
+      "page": 6
+    },
+    {
+      "source_id": "src-0137",
+      "title": "Slide 7 ",
+      "page": 7
+    },
+    {
+      "source_id": "src-0137",
+      "title": "Slide 8 ",
+      "page": 8
+    },
+    {
+      "source_id": "src-0137",
+      "title": "Slide 9 ",
+      "page": 9
+    },
+    {
+      "source_id": "src-0137",
+      "title": "Slide 10 ",
+      "page": 10
+    },
+    {
+      "source_id": "src-0137",
+      "title": "Slide 11 ",
+      "page": 11
+    },
+    {
+      "source_id": "src-0137",
+      "title": "Slide 12 ",
+      "page": 12
+    },
+    {
+      "source_id": "src-0137",
+      "title": "Slide 13 ",
+      "page": 13
+    },
+    {
+      "source_id": "src-0137",
+      "title": "Slide 14 ",
+      "page": 14
+    },
+    {
+      "source_id": "src-0137",
+      "title": "Slide 15 ",
+      "page": 15
+    },
+    {
+      "source_id": "src-0137",
+      "title": "Slide 16 ",
+      "page": 16
+    },
+    {
+      "source_id": "src-0137",
+      "title": "Slide 17 ",
+      "page": 17
+    },
+    {
+      "source_id": "src-0137",
+      "title": "Slide 18 ",
+      "page": 18
+    },
+    {
+      "source_id": "src-0137",
+      "title": "Slide 19 ",
+      "page": 19
+    },
+    {
+      "source_id": "src-0137",
+      "title": "Slide 20 ",
+      "page": 20
+    },
+    {
+      "source_id": "src-0137",
+      "title": "Slide 21 ",
+      "page": 21
+    },
+    {
+      "source_id": "src-0137",
+      "title": "Slide 22 ",
+      "page": 22
+    },
+    {
+      "source_id": "src-0137",
+      "title": "Slide 23 ",
+      "page": 23
+    },
+    {
+      "source_id": "src-0137",
+      "title": "NHTM-C6-CD6.2 DICH VU NGAN HANG DIEN TU",
+      "page": 24
+    },
+    {
+      "source_id": "src-0137",
+      "title": "Slide 1 ",
+      "page": 24
+    },
+    {
+      "source_id": "src-0137",
+      "title": "Slide 2 ",
+      "page": 25
+    },
+    {
+      "source_id": "src-0137",
+      "title": "KHÁI NIỆM",
+      "page": 26
+    },
+    {
+      "source_id": "src-0137",
+      "title": "Slide 4 ",
+      "page": 27
+    },
+    {
+      "source_id": "src-0137",
+      "title": "Slide 5 ",
+      "page": 28
+    },
+    {
+      "source_id": "src-0137",
+      "title": "LỢI ÍCH",
+      "page": 29
+    },
+    {
+      "source_id": "src-0137",
+      "title": "LỢI ÍCH",
+      "page": 30
+    },
+    {
+      "source_id": "src-0137",
+      "title": "CÁC DỊCH VỤ NGÂN HÀNG ĐIỆN TỬ PHỔ BIẾN",
+      "page": 31
+    },
+    {
+      "source_id": "src-0137",
+      "title": "Call centre",
+      "page": 32
+    },
+    {
+      "source_id": "src-0137",
+      "title": "Call centre",
+      "page": 33
+    },
+    {
+      "source_id": "src-0137",
+      "title": "Call centre",
+      "page": 34
+    },
+    {
+      "source_id": "src-0137",
+      "title": "Phone banking",
+      "page": 35
+    },
+    {
+      "source_id": "src-0137",
+      "title": "Phone banking",
+      "page": 36
+    },
+    {
+      "source_id": "src-0137",
+      "title": "SMS banking",
+      "page": 37
+    },
+    {
+      "source_id": "src-0137",
+      "title": "SMS banking",
+      "page": 38
+    },
+    {
+      "source_id": "src-0137",
+      "title": "Internet banking",
+      "page": 39
+    },
+    {
+      "source_id": "src-0137",
+      "title": "Internet banking",
+      "page": 40
+    },
+    {
+      "source_id": "src-0137",
+      "title": "Mobile banking",
+      "page": 41
+    },
+    {
+      "source_id": "src-0137",
+      "title": "Mobile banking",
+      "page": 42
+    },
+    {
+      "source_id": "src-0137",
+      "title": "Slide 20 ",
+      "page": 43
+    },
+    {
+      "source_id": "src-0137",
+      "title": "NHTM-C6-CD6.3 DICH VU  UY THAC VA BANCASURRANCE",
+      "page": 44
+    },
+    {
+      "source_id": "src-0137",
+      "title": "Slide 1 ",
+      "page": 44
+    },
+    {
+      "source_id": "src-0137",
+      "title": "Slide 2 ",
+      "page": 45
+    },
+    {
+      "source_id": "src-0137",
+      "title": "Dịch vụ ủy thác",
+      "page": 46
+    },
+    {
+      "source_id": "src-0137",
+      "title": "Dịch vụ ủy thác",
+      "page": 47
+    },
+    {
+      "source_id": "src-0137",
+      "title": "Dịch vụ ủy thác",
+      "page": 48
+    },
+    {
+      "source_id": "src-0137",
+      "title": "Dịch vụ ủy thác",
+      "page": 49
+    },
+    {
+      "source_id": "src-0137",
+      "title": "Ủy thác cho vay",
+      "page": 50
+    },
+    {
+      "source_id": "src-0137",
+      "title": "Ủy thác cho vay",
+      "page": 51
+    },
+    {
+      "source_id": "src-0137",
+      "title": "Ủy thác cho vay",
+      "page": 52
+    },
+    {
+      "source_id": "src-0137",
+      "title": "Ủy thác đầu tư",
+      "page": 53
+    },
+    {
+      "source_id": "src-0137",
+      "title": "Ủy thác đầu tư",
+      "page": 54
+    },
+    {
+      "source_id": "src-0137",
+      "title": "Slide 12 ",
+      "page": 55
+    },
+    {
+      "source_id": "src-0137",
+      "title": "Slide 13 ",
+      "page": 56
+    },
+    {
+      "source_id": "src-0137",
+      "title": "Slide 14 ",
+      "page": 57
+    },
+    {
+      "source_id": "src-0137",
+      "title": "Slide 15 ",
+      "page": 58
+    },
+    {
+      "source_id": "src-0137",
+      "title": "Slide 16 ",
+      "page": 59
+    },
+    {
+      "source_id": "src-0137",
+      "title": "Slide 17 ",
+      "page": 60
+    },
+    {
+      "source_id": "src-0137",
+      "title": "Slide 18 ",
+      "page": 61
+    },
+    {
+      "source_id": "src-0137",
+      "title": "Slide 19 ",
+      "page": 62
+    },
+    {
+      "source_id": "src-0137",
+      "title": "Slide 20 ",
+      "page": 63
+    },
+    {
+      "source_id": "src-0137",
+      "title": "Slide 21 ",
+      "page": 64
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide Chương 0",
+      "page": 1
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide Chương 1",
+      "page": 12
+    },
+    {
+      "source_id": "src-0138",
+      "title": "NHTM-C1-CD1.1-KhaiquatNHTM",
+      "page": 12
+    },
+    {
+      "source_id": "src-0138",
+      "title": "NHTM-C1-CD1.2-ChucnangNHTM",
+      "page": 22
+    },
+    {
+      "source_id": "src-0138",
+      "title": "NHTM-C1-CD1.3-NghiepvuNHTM",
+      "page": 33
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide Chương 2",
+      "page": 52
+    },
+    {
+      "source_id": "src-0138",
+      "title": "NHTM-C2-CD2.1-Khainiemvehuydongvon",
+      "page": 52
+    },
+    {
+      "source_id": "src-0138",
+      "title": "CHƯƠNG 2",
+      "page": 52
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 2 ",
+      "page": 53
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 3 ",
+      "page": 54
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 4 ",
+      "page": 55
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 5 ",
+      "page": 56
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 6 ",
+      "page": 57
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 7 ",
+      "page": 58
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 8 ",
+      "page": 59
+    },
+    {
+      "source_id": "src-0138",
+      "title": "NHTM-C2-CD2.2-Hinhthuchuydongvon",
+      "page": 60
+    },
+    {
+      "source_id": "src-0138",
+      "title": "CHƯƠNG 2",
+      "page": 60
+    },
+    {
+      "source_id": "src-0138",
+      "title": "     HÌNH THỨC HUY ĐỘNG VỐN",
+      "page": 61
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 3 ",
+      "page": 62
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 4 ",
+      "page": 63
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 5 ",
+      "page": 64
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 6 ",
+      "page": 65
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 7 ",
+      "page": 66
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 8 ",
+      "page": 67
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 9 ",
+      "page": 68
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 10 ",
+      "page": 69
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 11 ",
+      "page": 70
+    },
+    {
+      "source_id": "src-0138",
+      "title": "     HÌNH THỨC HUY ĐỘNG VỐN",
+      "page": 71
+    },
+    {
+      "source_id": "src-0138",
+      "title": "     HÌNH THỨC PHÁT HÀNH GTCG",
+      "page": 72
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 14 ",
+      "page": 73
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide Chương 3",
+      "page": 74
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide NHTM-C3-CD3.1-Khaiquattindungnganhang",
+      "page": 74
+    },
+    {
+      "source_id": "src-0138",
+      "title": "CHƯƠNG 3",
+      "page": 74
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 2 ",
+      "page": 75
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 3 ",
+      "page": 76
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 4 ",
+      "page": 77
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 5 ",
+      "page": 78
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Phân loại hoạt động cấp tín dụng",
+      "page": 79
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Phân loại hoạt động cấp tín dụng",
+      "page": 80
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Phân loại hoạt động cấp tín dụng",
+      "page": 81
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Phân loại hoạt động cấp tín dụng",
+      "page": 82
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Một số khái niệm trong hoạt động cấp tín dụng",
+      "page": 83
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 11 ",
+      "page": 84
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 12 ",
+      "page": 85
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 13 ",
+      "page": 86
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 14 ",
+      "page": 87
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 15 ",
+      "page": 88
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide NHTM-C3-CD3.2-Quytrinhtindung",
+      "page": 89
+    },
+    {
+      "source_id": "src-0138",
+      "title": "CHỦ ĐỀ  ",
+      "page": 89
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 2 ",
+      "page": 90
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 3 ",
+      "page": 91
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 4 ",
+      "page": 92
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 5 ",
+      "page": 93
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 6 ",
+      "page": 94
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 7 ",
+      "page": 95
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 8 ",
+      "page": 96
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 9 ",
+      "page": 97
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 10 ",
+      "page": 98
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 11 ",
+      "page": 99
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 12 ",
+      "page": 100
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 13 ",
+      "page": 101
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 14 ",
+      "page": 102
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 15 ",
+      "page": 103
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 16 ",
+      "page": 104
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 17 ",
+      "page": 105
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 18 ",
+      "page": 106
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 19 ",
+      "page": 107
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 20 ",
+      "page": 108
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 21 ",
+      "page": 109
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 22 ",
+      "page": 110
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide NHTM-C3-CD3.3-Dambaotindung",
+      "page": 111
+    },
+    {
+      "source_id": "src-0138",
+      "title": "CHỦ ĐỀ  ",
+      "page": 111
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 2 ",
+      "page": 112
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 3 ",
+      "page": 113
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 4 ",
+      "page": 114
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 5 ",
+      "page": 115
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 6 ",
+      "page": 116
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 7 ",
+      "page": 117
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 8 ",
+      "page": 118
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 9 ",
+      "page": 119
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 10 ",
+      "page": 120
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 11 ",
+      "page": 121
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide Chương 4",
+      "page": 122
+    },
+    {
+      "source_id": "src-0138",
+      "title": "NHTM-C4-CD4.1-CHO VAY NGAN HAN",
+      "page": 122
+    },
+    {
+      "source_id": "src-0138",
+      "title": "NGHIỆP VỤ CHO VAY",
+      "page": 122
+    },
+    {
+      "source_id": "src-0138",
+      "title": "NGHIỆP VỤ CHO VAY",
+      "page": 123
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Khái niệm",
+      "page": 124
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 4 ",
+      "page": 125
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 5 ",
+      "page": 126
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Cho vay theo hạn mức tín dụng là phương thức cho vay mà trong đó ngân hàng và khách hàng xác định và thoả thuận một hạn mức tín dụng (mức dư nợ vay tối đa) duy trì trong một khoảng thời gian nhất định.",
+      "page": 127
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 7 ",
+      "page": 128
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Cách xác định HMTD",
+      "page": 129
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Nhu cầu vốn ngắn hạn dùng cho SXKD kỳ kế hoạch",
+      "page": 130
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 10 ",
+      "page": 131
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 11 ",
+      "page": 132
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 12 ",
+      "page": 133
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 13 ",
+      "page": 134
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 14 ",
+      "page": 135
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 15 ",
+      "page": 136
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 16 ",
+      "page": 137
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 17 ",
+      "page": 138
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 18 ",
+      "page": 139
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 19 ",
+      "page": 140
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 20 ",
+      "page": 141
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 21 ",
+      "page": 142
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 22 ",
+      "page": 143
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 23 ",
+      "page": 144
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 24 ",
+      "page": 145
+    },
+    {
+      "source_id": "src-0138",
+      "title": "NGHIỆP VỤ CHO VAY",
+      "page": 146
+    },
+    {
+      "source_id": "src-0138",
+      "title": "NHTM-C4-CD4.2-CHO VAY TRUNG DAI HAN",
+      "page": 147
+    },
+    {
+      "source_id": "src-0138",
+      "title": "NGHIỆP VỤ CHO VAY",
+      "page": 147
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 2 ",
+      "page": 148
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 3 ",
+      "page": 149
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 4 ",
+      "page": 150
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 5 ",
+      "page": 151
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 6 ",
+      "page": 152
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 7 ",
+      "page": 153
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 8 ",
+      "page": 154
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 9 ",
+      "page": 155
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 10 ",
+      "page": 156
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 11 ",
+      "page": 157
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 12 ",
+      "page": 158
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 13 ",
+      "page": 159
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 14 ",
+      "page": 160
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 15 ",
+      "page": 161
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 16 ",
+      "page": 162
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 17 ",
+      "page": 163
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 18 ",
+      "page": 164
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 19 ",
+      "page": 165
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide Chương 5",
+      "page": 166
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Chương 5 – CÁC NGHIỆP VỤ TÍN DỤNG KHÁC",
+      "page": 166
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Nội dung chương",
+      "page": 167
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Nghiệp vụ  Chiết khấu giấy tờ có giá",
+      "page": 168
+    },
+    {
+      "source_id": "src-0138",
+      "title": "I - Những Vấn Đề Cơ Bản Về Chiết Khấu",
+      "page": 169
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Khái niệm Chiết khấu giấy tờ có giá",
+      "page": 170
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Luật các công cụ chuyển nhượng (2005):",
+      "page": 171
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Khái niệm Chiết khấu giấy tờ có giá",
+      "page": 172
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Trong hoạt động chiết khấu giấy tờ có giá:",
+      "page": 173
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Đối tượng chiết khấu",
+      "page": 174
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 10 ",
+      "page": 175
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 11 ",
+      "page": 176
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 12 ",
+      "page": 177
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 13 ",
+      "page": 178
+    },
+    {
+      "source_id": "src-0138",
+      "title": "II – Quy Trình Chiết Khấu",
+      "page": 179
+    },
+    {
+      "source_id": "src-0138",
+      "title": "III – Kỹ Thuật Chiết Khấu",
+      "page": 180
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Thời hạn chiết khấu",
+      "page": 181
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Thời hạn chiết khấu",
+      "page": 182
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Giá chiết khấu",
+      "page": 183
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Xác định FT:",
+      "page": 184
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Phí chiết khấu (P)",
+      "page": 185
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Giá trị còn lại",
+      "page": 186
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Giá mua lại",
+      "page": 187
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Ví dụ minh họa",
+      "page": 188
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Ví dụ minh họa",
+      "page": 189
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Ví dụ minh họa",
+      "page": 190
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Ví dụ minh họa",
+      "page": 191
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Ví dụ minh họa",
+      "page": 192
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Cảm ơn  phần theo dõi của các bạn",
+      "page": 193
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Chương 5 – CÁC NGHIỆP VỤ TÍN DỤNG KHÁC",
+      "page": 194
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Nghiệp vụ  Cho thuê tài chính",
+      "page": 195
+    },
+    {
+      "source_id": "src-0138",
+      "title": "I - Những Vấn Đề Cơ Bản Về Cho Thuê Tài Chính",
+      "page": 196
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Lịch sử hình thành",
+      "page": 197
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Khái niệm Cho thuê tài chính",
+      "page": 198
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Khái niệm Cho thuê tài chính",
+      "page": 199
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Khái niệm Cho thuê tài chính",
+      "page": 200
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Đặc điểm Cho thuê tài chính",
+      "page": 201
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 37 ",
+      "page": 202
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 38 ",
+      "page": 203
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 39 ",
+      "page": 204
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 40 ",
+      "page": 205
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Cho thuê tài chính 2 bên",
+      "page": 206
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Cho thuê tài chính 3 bên",
+      "page": 207
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 43 ",
+      "page": 208
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 44 ",
+      "page": 209
+    },
+    {
+      "source_id": "src-0138",
+      "title": "II – Quy Trình Cho Thuê Tài Chính",
+      "page": 210
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Hồ sơ cho thuê tài chính:",
+      "page": 211
+    },
+    {
+      "source_id": "src-0138",
+      "title": "III – Kỹ Thuật Tài Trợ Cho Thuê Tài Chính",
+      "page": 212
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Giá trị cho thuê tài chính (P0)",
+      "page": 213
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Lưu ý điều khoản trong Hợp đồng cho thuê:",
+      "page": 214
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 50 ",
+      "page": 215
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Kỳ hạn thanh toán tiền thuê",
+      "page": 216
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Lãi suất cho thuê",
+      "page": 217
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Số tiền thanh toán mỗi kỳ (Ti)",
+      "page": 218
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Cần lưu ý:",
+      "page": 219
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Ví dụ minh họa",
+      "page": 220
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Ví dụ minh họa",
+      "page": 221
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Kỹ thuật xác định tiền thuê phải trả",
+      "page": 222
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Thời điểm thanh toán tiền thuê là:",
+      "page": 223
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Hệ số thanh toán K:",
+      "page": 224
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Ví dụ minh họa",
+      "page": 225
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Ví dụ minh họa",
+      "page": 226
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Ví dụ minh họa",
+      "page": 227
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Ví dụ minh họa",
+      "page": 228
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Ví dụ minh họa",
+      "page": 229
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Ví dụ minh họa",
+      "page": 230
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Cảm ơn  phần theo dõi của các bạn",
+      "page": 231
+    },
+    {
+      "source_id": "src-0138",
+      "title": "CHƯƠNG 5",
+      "page": 232
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 68 ",
+      "page": 233
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 69 ",
+      "page": 234
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 70 ",
+      "page": 235
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 71 ",
+      "page": 236
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 72 ",
+      "page": 237
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 73 ",
+      "page": 238
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 74 ",
+      "page": 239
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 75 ",
+      "page": 240
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 76 ",
+      "page": 241
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 77 ",
+      "page": 242
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 78 ",
+      "page": 243
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 79 ",
+      "page": 244
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 80 ",
+      "page": 245
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 81 ",
+      "page": 246
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 82 ",
+      "page": 247
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 83 ",
+      "page": 248
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 84 ",
+      "page": 249
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 85 ",
+      "page": 250
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 86 ",
+      "page": 251
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 87 ",
+      "page": 252
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 88 ",
+      "page": 253
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 89 ",
+      "page": 254
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 90 ",
+      "page": 255
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Chương 5 – CÁC NGHIỆP VỤ TÍN DỤNG KHÁC",
+      "page": 256
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Nghiệp vụ  Bảo lãnh ngân hàng",
+      "page": 257
+    },
+    {
+      "source_id": "src-0138",
+      "title": "I - Những Vấn Đề Cơ Bản Về Bảo Lãnh Ngân Hàng",
+      "page": 258
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Khái niệm Bảo lãnh ngân hàng",
+      "page": 259
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 95 ",
+      "page": 260
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Sơ đồ mô tả mối quan hệ giữa các chủ thể",
+      "page": 261
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 97 ",
+      "page": 262
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 98 ",
+      "page": 263
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 99 ",
+      "page": 264
+    },
+    {
+      "source_id": "src-0138",
+      "title": "II – Quy Trình Bảo Lãnh Ngân hàng",
+      "page": 265
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Hồ sơ đề nghị bảo lãnh:",
+      "page": 266
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Trình tự thực hiện nghĩa vụ bảo lãnh",
+      "page": 267
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 103 ",
+      "page": 268
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Phí phát hành bảo lãnh",
+      "page": 269
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Phí sửa đổi bảo lãnh",
+      "page": 270
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Cảm ơn  phần theo dõi của các bạn",
+      "page": 271
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide Chương 6",
+      "page": 272
+    },
+    {
+      "source_id": "src-0138",
+      "title": "NHTM-C6-CD6.1 DICH VU THANH TOAN",
+      "page": 272
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 1 ",
+      "page": 272
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 2 ",
+      "page": 273
+    },
+    {
+      "source_id": "src-0138",
+      "title": "KHÁI NIỆM",
+      "page": 274
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 4 ",
+      "page": 275
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 5 ",
+      "page": 276
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 6 ",
+      "page": 277
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 7 ",
+      "page": 278
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 8 ",
+      "page": 279
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 9 ",
+      "page": 280
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 10 ",
+      "page": 281
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 11 ",
+      "page": 282
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 12 ",
+      "page": 283
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 13 ",
+      "page": 284
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 14 ",
+      "page": 285
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 15 ",
+      "page": 286
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 16 ",
+      "page": 287
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 17 ",
+      "page": 288
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 18 ",
+      "page": 289
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 19 ",
+      "page": 290
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 20 ",
+      "page": 291
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 21 ",
+      "page": 292
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 22 ",
+      "page": 293
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 23 ",
+      "page": 294
+    },
+    {
+      "source_id": "src-0138",
+      "title": "NHTM-C6-CD6.2 DICH VU NGAN HANG DIEN TU",
+      "page": 295
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 1 ",
+      "page": 295
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 2 ",
+      "page": 296
+    },
+    {
+      "source_id": "src-0138",
+      "title": "KHÁI NIỆM",
+      "page": 297
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 4 ",
+      "page": 298
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 5 ",
+      "page": 299
+    },
+    {
+      "source_id": "src-0138",
+      "title": "LỢI ÍCH",
+      "page": 300
+    },
+    {
+      "source_id": "src-0138",
+      "title": "LỢI ÍCH",
+      "page": 301
+    },
+    {
+      "source_id": "src-0138",
+      "title": "CÁC DỊCH VỤ NGÂN HÀNG ĐIỆN TỬ PHỔ BIẾN",
+      "page": 302
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Call centre",
+      "page": 303
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Call centre",
+      "page": 304
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Call centre",
+      "page": 305
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Phone banking",
+      "page": 306
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Phone banking",
+      "page": 307
+    },
+    {
+      "source_id": "src-0138",
+      "title": "SMS banking",
+      "page": 308
+    },
+    {
+      "source_id": "src-0138",
+      "title": "SMS banking",
+      "page": 309
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Internet banking",
+      "page": 310
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Internet banking",
+      "page": 311
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Mobile banking",
+      "page": 312
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Mobile banking",
+      "page": 313
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 20 ",
+      "page": 314
+    },
+    {
+      "source_id": "src-0138",
+      "title": "NHTM-C6-CD6.3 DICH VU  UY THAC VA BANCASURRANCE",
+      "page": 315
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 1 ",
+      "page": 315
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 2 ",
+      "page": 316
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Dịch vụ ủy thác",
+      "page": 317
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Dịch vụ ủy thác",
+      "page": 318
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Dịch vụ ủy thác",
+      "page": 319
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Dịch vụ ủy thác",
+      "page": 320
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Ủy thác cho vay",
+      "page": 321
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Ủy thác cho vay",
+      "page": 322
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Ủy thác cho vay",
+      "page": 323
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Ủy thác đầu tư",
+      "page": 324
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Ủy thác đầu tư",
+      "page": 325
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 12 ",
+      "page": 326
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 13 ",
+      "page": 327
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 14 ",
+      "page": 328
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 15 ",
+      "page": 329
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 16 ",
+      "page": 330
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 17 ",
+      "page": 331
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 18 ",
+      "page": 332
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 19 ",
+      "page": 333
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 20 ",
+      "page": 334
+    },
+    {
+      "source_id": "src-0138",
+      "title": "Slide 21 ",
+      "page": 335
+    }
+  ],
+  "accounts": []
+}
