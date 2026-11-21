@@ -8,6 +8,7 @@ scope: UNKNOWN
 key_changes: []
 cited_in_courses:
 - ke-toan-ngan-hang
+- ke-toan-thue-1
 - ngan-hang-thuong-mai
 curriculum_occurrences:
 - source_id: src-0048
@@ -123,6 +124,9 @@ curriculum_occurrences:
   layer: curriculum
 - source_id: src-0277
   page: 1
+  layer: curriculum
+- source_id: src-0500
+  page: 3
   layer: curriculum
 variants:
 - 'Luật

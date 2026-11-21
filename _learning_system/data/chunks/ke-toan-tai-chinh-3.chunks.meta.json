@@ -1,0 +1,12 @@
+{
+  "chunking_version": "2.0.0",
+  "chunk_count": 379,
+  "course_id": "ke-toan-tai-chinh-3",
+  "dup_groups": 0,
+  "by_source_type": {
+    "exercise": 4,
+    "lecture_note": 334,
+    "exam": 13,
+    "summary": 28
+  }
+}

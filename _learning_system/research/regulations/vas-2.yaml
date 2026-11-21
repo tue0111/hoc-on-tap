@@ -8,6 +8,7 @@ scope: UNKNOWN
 key_changes: []
 cited_in_courses:
 - ke-toan-tai-chinh-1
+- ke-toan-tai-chinh-3
 curriculum_occurrences:
 - source_id: src-0062
   page: 1
@@ -27,8 +28,21 @@ curriculum_occurrences:
 - source_id: src-0068
   page: 328
   layer: curriculum
+- source_id: src-0554
+  page: 2
+  layer: curriculum
+- source_id: src-0555
+  page: 7
+  layer: curriculum
+- source_id: src-0564
+  page: 5
+  layer: curriculum
 variants:
+- Chuẩn mực kế toán số 02
 - VAS 02
+- 'chuẩn mực
+
+  kế toán số 02'
 - chuẩn mực kế toán số 02
 sources: []
 evidence_status: UNKNOWN

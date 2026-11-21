@@ -11,6 +11,7 @@ key_changes:
     của văn bản.
   source_url: https://ttcg.mof.gov.vn/hoidapcstc/home/cthoidap/152093
 cited_in_courses:
+- ke-toan-hanh-chinh-su-nghiep
 - nguyen-ly-ke-toan
 curriculum_occurrences:
 - source_id: src-0093
@@ -19,8 +20,12 @@ curriculum_occurrences:
 - source_id: src-0096
   page: 3
   layer: curriculum
+- source_id: src-0409
+  page: 2
+  layer: curriculum
 variants:
 - Thông tư 107/2017/TT-BTC
+- thông tư 107/2017/TT-BTC
 sources:
 - url: https://ttcg.mof.gov.vn/hoidapcstc/home/cthoidap/152093
   publisher: ttcg.mof.gov.vn

@@ -1,0 +1,40 @@
+ref: Thông tư 39/2014/TT-BTC
+status: expired
+replaced_by: Thông tư 78/2021/TT-BTC
+amended_by: []
+effective_from: '2022-07-01'
+effective_date_meaning: effective date of cited change, not necessarily original instrument
+scope: TT 39/2014 về hóa đơn (đã sửa nhiều lần, có TT 119/2014, 26/2015…) hết hiệu
+  lực từ 01/07/2022 theo TT 78/2021 và NĐ 123/2020; một số nội dung đã mất hiệu lực
+  từ 01/11/2020 theo TT 84/2019. TT 78/2021 sau đó bị TT 32/2025 thay thế.
+key_changes:
+- text: TT 78/2021 (hiệu lực 01/07/2022) liệt kê TT 39/2014 (đã sửa bởi TT 119/2014…)
+    trong các văn bản hết hiệu lực.
+  source_url: https://www.gdt.gov.vn/wps/wcm/connect/gdt+content/sa_gdt/sa-faq-news/a53fb9a7-1733-41ea-88e6-e375cec10e7e
+cited_in_courses:
+- ke-toan-thue-1
+curriculum_occurrences:
+- source_id: src-0538
+  page: 3
+  layer: curriculum
+variants:
+- 'TT
+
+  39/2014/TT-BTC'
+sources:
+- url: https://www.gdt.gov.vn/wps/wcm/connect/gdt+content/sa_gdt/sa-faq-news/a53fb9a7-1733-41ea-88e6-e375cec10e7e
+  publisher: www.gdt.gov.vn
+  retrieved_at: '2026-11-21'
+  authority: official
+- url: https://nif.mof.gov.vn/hoidapcstc/home/cthoidap/151621
+  publisher: nif.mof.gov.vn
+  retrieved_at: '2026-11-21'
+  authority: official
+evidence_status: OBSERVED
+layer: external
+checked_at: '2026-11-21'
+unknown_reason: null
+search_log: research/search_logs/ref_121.json
+record_kind: verified_status
+freshness_limit: Snapshot of sources checked on the stated date; not a guarantee that
+  every later amendment has been found.

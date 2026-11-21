@@ -7,6 +7,7 @@ effective_date_meaning: effective date of cited change, not necessarily original
 scope: UNKNOWN
 key_changes: []
 cited_in_courses:
+- ke-toan-hanh-chinh-su-nghiep
 - tai-chinh-hanh-chinh-su-nghiep
 curriculum_occurrences:
 - source_id: src-0179
@@ -32,6 +33,9 @@ curriculum_occurrences:
   layer: curriculum
 - source_id: src-0186
   page: 225
+  layer: curriculum
+- source_id: src-0407
+  page: 2
   layer: curriculum
 variants:
 - 83/2015/QH13

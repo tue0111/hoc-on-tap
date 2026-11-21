@@ -1,0 +1,46 @@
+ref: Luật 13/2008/QH12
+status: replaced
+replaced_by: Luật 48/2024/QH15
+amended_by: []
+effective_from: '2025-07-01'
+effective_date_meaning: effective date of cited change, not necessarily original instrument
+scope: Luật Thuế GTGT 2008 (đã sửa bởi Luật 31/2013, 71/2014, 106/2016) hết hiệu lực
+  từ 01/07/2025 theo khoản 3 Điều 18 Luật 48/2024/QH15. Luật 48/2024 sau đó đã được
+  sửa bởi Luật 90/2025/QH15, Luật 149/2025/QH15 và luật sửa đổi 4 luật thuế thông
+  qua 24/04/2026; cần đọc văn bản hợp nhất mới nhất.
+key_changes:
+- text: Luật 13/2008/QH12 đã sửa đổi theo Luật 31/2013, 71/2014, 106/2016 hết hiệu
+    lực kể từ 01/07/2025 (khoản 3 Điều 18 Luật 48/2024/QH15).
+  source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/01/luat48.pdf
+- text: Luật 48/2024/QH15 tiếp tục được sửa đổi (Luật 90/2025, 149/2025, luật sửa
+    đổi 4 luật thuế 24/04/2026).
+  source_url: https://xaydungchinhsach.chinhphu.vn/thong-qua-luat-sua-doi-bo-sung-4-luat-thue-thu-nhap-ca-nhan-thue-gia-tri-gia-tang-thue-thu-nhap-doanh-nghiep-thue-tieu-thu-dac-biet-119260424140703304.htm
+cited_in_courses:
+- ke-toan-thue-1
+curriculum_occurrences:
+- source_id: src-0538
+  page: 3
+  layer: curriculum
+variants:
+- Luật số 13/2008/QH12
+sources:
+- url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/01/luat48.pdf
+  publisher: datafiles.chinhphu.vn
+  retrieved_at: '2026-11-21'
+  authority: official
+- url: https://vanban.chinhphu.vn/?pageid=27160&docid=212476
+  publisher: vanban.chinhphu.vn
+  retrieved_at: '2026-11-21'
+  authority: official
+- url: https://xaydungchinhsach.chinhphu.vn/thong-qua-luat-sua-doi-bo-sung-4-luat-thue-thu-nhap-ca-nhan-thue-gia-tri-gia-tang-thue-thu-nhap-doanh-nghiep-thue-tieu-thu-dac-biet-119260424140703304.htm
+  publisher: xaydungchinhsach.chinhphu.vn
+  retrieved_at: '2026-11-21'
+  authority: official
+evidence_status: OBSERVED
+layer: external
+checked_at: '2026-11-21'
+unknown_reason: null
+search_log: research/search_logs/ref_069.json
+record_kind: verified_status
+freshness_limit: Snapshot of sources checked on the stated date; not a guarantee that
+  every later amendment has been found.

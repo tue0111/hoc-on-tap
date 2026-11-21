@@ -1,0 +1,37 @@
+ref: Luật 31/2013/QH13
+status: expired
+replaced_by: Luật 48/2024/QH15
+amended_by: []
+effective_from: '2025-07-01'
+effective_date_meaning: effective date of cited change, not necessarily original instrument
+scope: Luật sửa đổi Luật Thuế GTGT 2008; hết hiệu lực cùng Luật 13/2008/QH12 từ 01/07/2025
+  theo khoản 3 Điều 18 Luật 48/2024/QH15.
+key_changes:
+- text: Luật 13/2008/QH12 "đã được sửa đổi, bổ sung một số điều theo Luật số 31/2013/QH13…"
+    hết hiệu lực từ 01/07/2025.
+  source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/01/luat48.pdf
+cited_in_courses:
+- ke-toan-thue-1
+curriculum_occurrences:
+- source_id: src-0538
+  page: 3
+  layer: curriculum
+variants:
+- 31/2013/QH13
+sources:
+- url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/01/luat48.pdf
+  publisher: datafiles.chinhphu.vn
+  retrieved_at: '2026-11-21'
+  authority: official
+- url: https://vanban.chinhphu.vn/?pageid=27160&docid=212476
+  publisher: vanban.chinhphu.vn
+  retrieved_at: '2026-11-21'
+  authority: official
+evidence_status: OBSERVED
+layer: external
+checked_at: '2026-11-21'
+unknown_reason: null
+search_log: research/search_logs/ref_073.json
+record_kind: verified_status
+freshness_limit: Snapshot of sources checked on the stated date; not a guarantee that
+  every later amendment has been found.

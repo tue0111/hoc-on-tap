@@ -1,0 +1,11 @@
+{
+  "chunking_version": "2.0.0",
+  "chunk_count": 569,
+  "course_id": "ke-toan-hanh-chinh-su-nghiep",
+  "dup_groups": 0,
+  "by_source_type": {
+    "lecture_note": 526,
+    "summary": 28,
+    "exam": 15
+  }
+}

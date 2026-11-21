@@ -1,0 +1,28 @@
+ref: Thông tư 6/2021/TT-BTC
+status: unknown
+replaced_by: null
+amended_by: []
+effective_from: null
+effective_date_meaning: effective date of cited change, not necessarily original instrument
+scope: UNKNOWN
+key_changes: []
+cited_in_courses:
+- ke-toan-thue-1
+curriculum_occurrences:
+- source_id: src-0500
+  page: 2
+  layer: curriculum
+variants:
+- Thông tư 06/2021/TT-BTC
+sources: []
+evidence_status: UNKNOWN
+layer: external
+checked_at: '2026-11-21'
+unknown_reason: TT 06/2021/TT-BTC hướng dẫn Luật QLT về quản lý thuế đối với hàng
+  hóa XK-NK. Luật QLT 38/2019 đã hết hiệu lực từ 01/07/2026, nhưng chưa có nguồn chính
+  thức về việc TT 06/2021 bị thay thế hay còn áp dụng. Không suy ra "còn hiệu lực"
+  chỉ vì chưa thấy văn bản thay thế.
+search_log: research/search_logs/ref_122.json
+record_kind: unverified_reference
+freshness_limit: Snapshot of sources checked on the stated date; not a guarantee that
+  every later amendment has been found.

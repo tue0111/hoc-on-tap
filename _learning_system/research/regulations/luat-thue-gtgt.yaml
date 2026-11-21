@@ -1,4 +1,4 @@
-ref: Luật thuế gtgt…
+ref: Luật thuế gtgt
 status: unknown
 replaced_by: null
 amended_by: []
@@ -7,6 +7,7 @@ effective_date_meaning: effective date of cited change, not necessarily original
 scope: UNKNOWN
 key_changes: []
 cited_in_courses:
+- ke-toan-hanh-chinh-su-nghiep
 - kiem-toan-1
 curriculum_occurrences:
 - source_id: src-0038
@@ -15,7 +16,11 @@ curriculum_occurrences:
 - source_id: src-0200
   page: 3
   layer: curriculum
+- source_id: src-0431
+  page: 2
+  layer: curriculum
 variants:
+- Luật Thuế GTGT
 - Luật thuế GTGT…
 sources: []
 evidence_status: UNKNOWN

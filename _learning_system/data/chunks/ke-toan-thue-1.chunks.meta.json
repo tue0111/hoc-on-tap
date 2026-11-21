@@ -1,0 +1,11 @@
+{
+  "chunking_version": "2.0.0",
+  "chunk_count": 673,
+  "course_id": "ke-toan-thue-1",
+  "dup_groups": 0,
+  "by_source_type": {
+    "lecture_note": 638,
+    "exam": 10,
+    "summary": 25
+  }
+}

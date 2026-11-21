@@ -22,6 +22,55 @@
     ]
   },
   {
+    "ref_normalized": "Luật 106/2016/QH13",
+    "variants": [
+      "Luật Quản lý thuế số 106/2016/QH13",
+      "Luật số 106/2016/QH13"
+    ],
+    "courses": [
+      "ke-toan-thue-1"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0498",
+        "page": 6,
+        "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0510",
+        "page": 1,
+        "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0538",
+        "page": 3,
+        "layer": "curriculum"
+      }
+    ]
+  },
+  {
+    "ref_normalized": "Luật 107/2016/QH13",
+    "variants": [
+      "Luật 107/2016/QH13",
+      "Luật thuế xuất khẩu – nhập khẩu số 107/2016/QH13"
+    ],
+    "courses": [
+      "ke-toan-thue-1"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0500",
+        "page": 1,
+        "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0500",
+        "page": 6,
+        "layer": "curriculum"
+      }
+    ]
+  },
+  {
     "ref_normalized": "Luật 11/2012/QH13",
     "variants": [
       "Luật Giá số 11/2012/QH13"
@@ -38,6 +87,22 @@
       {
         "source_id": "src-0186",
         "page": 42,
+        "layer": "curriculum"
+      }
+    ]
+  },
+  {
+    "ref_normalized": "Luật 13/2008/QH12",
+    "variants": [
+      "Luật số 13/2008/QH12"
+    ],
+    "courses": [
+      "ke-toan-thue-1"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0538",
+        "page": 3,
         "layer": "curriculum"
       }
     ]
@@ -74,6 +139,22 @@
     ]
   },
   {
+    "ref_normalized": "Luật 16/2023/QH15",
+    "variants": [
+      "Luật giá số 16/2023/QH15"
+    ],
+    "courses": [
+      "ke-toan-hanh-chinh-su-nghiep"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0461",
+        "page": 2,
+        "layer": "curriculum"
+      }
+    ]
+  },
+  {
     "ref_normalized": "Luật 17/2017/QH14",
     "variants": [
       "17/2017/QH14",
@@ -101,6 +182,60 @@
       {
         "source_id": "src-0260",
         "page": 5,
+        "layer": "curriculum"
+      }
+    ]
+  },
+  {
+    "ref_normalized": "Luật 21/2012/QH12",
+    "variants": [
+      "Luật\nsố 21/2012/QH12"
+    ],
+    "courses": [
+      "ke-toan-thue-1"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0538",
+        "page": 3,
+        "layer": "curriculum"
+      }
+    ]
+  },
+  {
+    "ref_normalized": "Luật 27/2008/QH12",
+    "variants": [
+      "27/2008/QH12",
+      "Luật thuế TTĐB số 27/2008/QH12"
+    ],
+    "courses": [
+      "ke-toan-thue-1"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0510",
+        "page": 1,
+        "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0510",
+        "page": 2,
+        "layer": "curriculum"
+      }
+    ]
+  },
+  {
+    "ref_normalized": "Luật 31/2013/QH13",
+    "variants": [
+      "31/2013/QH13"
+    ],
+    "courses": [
+      "ke-toan-thue-1"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0538",
+        "page": 3,
         "layer": "curriculum"
       }
     ]
@@ -145,6 +280,22 @@
         "source_id": "src-0140",
         "page": 4,
         "layer": "learner_notes"
+      }
+    ]
+  },
+  {
+    "ref_normalized": "Luật 38/2019/QH14",
+    "variants": [
+      "Luật Quản lý thuế số 38/2019/QH14"
+    ],
+    "courses": [
+      "ke-toan-thue-1"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0492",
+        "page": 1,
+        "layer": "curriculum"
       }
     ]
   },
@@ -298,6 +449,38 @@
     ]
   },
   {
+    "ref_normalized": "Luật 51/2005/QH11",
+    "variants": [
+      "Luật Giao dịch điện tử số 51/2005/QH11"
+    ],
+    "courses": [
+      "ke-toan-thue-1"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0538",
+        "page": 3,
+        "layer": "curriculum"
+      }
+    ]
+  },
+  {
+    "ref_normalized": "Luật 57/2010/QH12",
+    "variants": [
+      "57/2010/QH12"
+    ],
+    "courses": [
+      "ke-toan-thue-1"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0520",
+        "page": 1,
+        "layer": "curriculum"
+      }
+    ]
+  },
+  {
     "ref_normalized": "Luật 67/2011/QH12",
     "variants": [
       "Luật Kiểm toán độc lập số 67/2011/QH12",
@@ -330,6 +513,54 @@
     ]
   },
   {
+    "ref_normalized": "Luật 70/2014/QH13",
+    "variants": [
+      "Luật số 70/2014/QH13"
+    ],
+    "courses": [
+      "ke-toan-thue-1"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0510",
+        "page": 1,
+        "layer": "curriculum"
+      }
+    ]
+  },
+  {
+    "ref_normalized": "Luật 71/2014/QH13",
+    "variants": [
+      "Luật số 71/2014/QH13"
+    ],
+    "courses": [
+      "ke-toan-thue-1"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0538",
+        "page": 3,
+        "layer": "curriculum"
+      }
+    ]
+  },
+  {
+    "ref_normalized": "Luật 78/2006/QH11",
+    "variants": [
+      "Luật 78/2006/QH11"
+    ],
+    "courses": [
+      "ke-toan-thue-1"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0538",
+        "page": 3,
+        "layer": "curriculum"
+      }
+    ]
+  },
+  {
     "ref_normalized": "Luật 83/2015/QH13",
     "variants": [
       "83/2015/QH13",
@@ -337,6 +568,7 @@
       "Luật Ngân sách nhà nước số 83/2015/QH13"
     ],
     "courses": [
+      "ke-toan-hanh-chinh-su-nghiep",
       "tai-chinh-hanh-chinh-su-nghiep"
     ],
     "occurrences": [
@@ -379,18 +611,26 @@
         "source_id": "src-0186",
         "page": 225,
         "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0407",
+        "page": 2,
+        "layer": "curriculum"
       }
     ]
   },
   {
     "ref_normalized": "Luật 88/2015/QH13",
     "variants": [
+      "88/2015/QH13",
       "Luật Kế toán số 88/2015/QH13",
       "Luật kế toán số 88/2015/QH13"
     ],
     "courses": [
+      "ke-toan-hanh-chinh-su-nghiep",
       "ke-toan-ngan-hang",
-      "ke-toan-tai-chinh-1"
+      "ke-toan-tai-chinh-1",
+      "ke-toan-thue-1"
     ],
     "occurrences": [
       {
@@ -421,6 +661,21 @@
       {
         "source_id": "src-0260",
         "page": 4,
+        "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0407",
+        "page": 2,
+        "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0498",
+        "page": 4,
+        "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0498",
+        "page": 5,
         "layer": "curriculum"
       }
     ]
@@ -470,10 +725,12 @@
     "ref_normalized": "Luật 97/2015/QH13",
     "variants": [
       "97/2015/QH13",
+      "Luật Phí và Lệ phí (Luật số 97/2015/QH13",
       "Luật Phí và lệ phí số 97/2015/\nQH13",
       "Luật Phí và lệ phí số 97/2015/QH13"
     ],
     "courses": [
+      "ke-toan-hanh-chinh-su-nghiep",
       "tai-chinh-hanh-chinh-su-nghiep"
     ],
     "occurrences": [
@@ -516,6 +773,11 @@
         "source_id": "src-0186",
         "page": 59,
         "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0431",
+        "page": 2,
+        "layer": "curriculum"
       }
     ]
   },
@@ -552,6 +814,7 @@
     ],
     "courses": [
       "ke-toan-ngan-hang",
+      "ke-toan-thue-1",
       "ngan-hang-thuong-mai"
     ],
     "occurrences": [
@@ -743,6 +1006,11 @@
       {
         "source_id": "src-0277",
         "page": 1,
+        "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0500",
+        "page": 3,
         "layer": "curriculum"
       }
     ]
@@ -949,13 +1217,17 @@
   {
     "ref_normalized": "Luật kế toán",
     "variants": [
+      "Luật Kế\ntoán",
       "Luật Kế toán",
       "Luật kế toán",
       "luật kế toán"
     ],
     "courses": [
+      "ke-toan-hanh-chinh-su-nghiep",
       "ke-toan-ngan-hang",
       "ke-toan-tai-chinh-1",
+      "ke-toan-tai-chinh-3",
+      "ke-toan-thue-1",
       "kinh-doanh-va-nghiep-vu",
       "nguyen-ly-ke-toan"
     ],
@@ -1049,6 +1321,56 @@
         "source_id": "src-0260",
         "page": 4,
         "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0407",
+        "page": 1,
+        "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0407",
+        "page": 2,
+        "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0407",
+        "page": 3,
+        "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0409",
+        "page": 1,
+        "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0409",
+        "page": 2,
+        "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0413",
+        "page": 2,
+        "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0494",
+        "page": 1,
+        "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0498",
+        "page": 4,
+        "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0498",
+        "page": 5,
+        "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0580",
+        "page": 5,
+        "layer": "curriculum"
       }
     ]
   },
@@ -1088,11 +1410,13 @@
     "ref_normalized": "Luật ngân sách nhà nước",
     "variants": [
       "Luật\nNgân sách nhà nước",
+      "Luật Ngân sách nhà\nnước",
       "Luật Ngân sách nhà nước",
       "Luật ngân\nsách nhà nước",
       "Luật ngân sách nhà nước"
     ],
     "courses": [
+      "ke-toan-hanh-chinh-su-nghiep",
       "tai-chinh-hanh-chinh-su-nghiep"
     ],
     "occurrences": [
@@ -1170,6 +1494,11 @@
         "source_id": "src-0192",
         "page": 3,
         "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0407",
+        "page": 2,
+        "layer": "curriculum"
       }
     ]
   },
@@ -1190,6 +1519,38 @@
     ]
   },
   {
+    "ref_normalized": "Luật thuế bảo",
+    "variants": [
+      "Luật thuế Bảo"
+    ],
+    "courses": [
+      "ke-toan-thue-1"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0522",
+        "page": 1,
+        "layer": "curriculum"
+      }
+    ]
+  },
+  {
+    "ref_normalized": "Luật thuế bảo vệ môi",
+    "variants": [
+      "Luật thuế Bảo vệ môi"
+    ],
+    "courses": [
+      "ke-toan-thue-1"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0520",
+        "page": 1,
+        "layer": "curriculum"
+      }
+    ]
+  },
+  {
     "ref_normalized": "Luật thuế d",
     "variants": [
       "Luật thuế D"
@@ -1201,6 +1562,135 @@
       {
         "source_id": "src-0034",
         "page": 1,
+        "layer": "curriculum"
+      }
+    ]
+  },
+  {
+    "ref_normalized": "Luật thuế do quốc hội ban hành",
+    "variants": [
+      "luật thuế do Quốc hội ban hành"
+    ],
+    "courses": [
+      "ke-toan-thue-1"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0498",
+        "page": 6,
+        "layer": "curriculum"
+      }
+    ]
+  },
+  {
+    "ref_normalized": "Luật thuế giá trị gia tăng",
+    "variants": [
+      "Luật thuế Giá trị gia tăng"
+    ],
+    "courses": [
+      "ke-toan-thue-1"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0530",
+        "page": 1,
+        "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0530",
+        "page": 6,
+        "layer": "curriculum"
+      }
+    ]
+  },
+  {
+    "ref_normalized": "Luật thuế giá trị gia tăng do quốc hội",
+    "variants": [
+      "Luật thuế Giá trị gia tăng do Quốc hội "
+    ],
+    "courses": [
+      "ke-toan-thue-1"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0530",
+        "page": 1,
+        "layer": "curriculum"
+      }
+    ]
+  },
+  {
+    "ref_normalized": "Luật thuế giá trị gia tăng ngày",
+    "variants": [
+      "Luật Thuế giá trị gia tăng ngày"
+    ],
+    "courses": [
+      "ke-toan-thue-1"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0498",
+        "page": 6,
+        "layer": "curriculum"
+      }
+    ]
+  },
+  {
+    "ref_normalized": "Luật thuế giá trị gia tăng và các văn b",
+    "variants": [
+      "Luật Thuế giá trị gia tăng và các văn b"
+    ],
+    "courses": [
+      "ke-toan-hanh-chinh-su-nghiep"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0431",
+        "page": 2,
+        "layer": "curriculum"
+      }
+    ]
+  },
+  {
+    "ref_normalized": "Luật thuế giá trị gia tăng và luật",
+    "variants": [
+      "Luật thuế Giá trị gia tăng và Luật"
+    ],
+    "courses": [
+      "ke-toan-thue-1"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0534",
+        "page": 5,
+        "layer": "curriculum"
+      }
+    ]
+  },
+  {
+    "ref_normalized": "Luật thuế gtgt",
+    "variants": [
+      "Luật Thuế GTGT",
+      "Luật thuế GTGT…"
+    ],
+    "courses": [
+      "ke-toan-hanh-chinh-su-nghiep",
+      "kiem-toan-1"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0038",
+        "page": 3,
+        "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0200",
+        "page": 3,
+        "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0431",
+        "page": 2,
         "layer": "curriculum"
       }
     ]
@@ -1248,27 +1738,6 @@
     ]
   },
   {
-    "ref_normalized": "Luật thuế gtgt…",
-    "variants": [
-      "Luật thuế GTGT…"
-    ],
-    "courses": [
-      "kiem-toan-1"
-    ],
-    "occurrences": [
-      {
-        "source_id": "src-0038",
-        "page": 3,
-        "layer": "curriculum"
-      },
-      {
-        "source_id": "src-0200",
-        "page": 3,
-        "layer": "curriculum"
-      }
-    ]
-  },
-  {
     "ref_normalized": "Luật thuế hay không",
     "variants": [
       "luật thuế hay không"
@@ -1290,6 +1759,54 @@
     ]
   },
   {
+    "ref_normalized": "Luật thuế hiện hành",
+    "variants": [
+      "luật thuế hiện hành"
+    ],
+    "courses": [
+      "ke-toan-hanh-chinh-su-nghiep"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0431",
+        "page": 2,
+        "layer": "curriculum"
+      }
+    ]
+  },
+  {
+    "ref_normalized": "Luật thuế hiện hành nên việc xác định c",
+    "variants": [
+      "Luật thuế hiện hành nên việc xác định c"
+    ],
+    "courses": [
+      "ke-toan-tai-chinh-3"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0580",
+        "page": 1,
+        "layer": "curriculum"
+      }
+    ]
+  },
+  {
+    "ref_normalized": "Luật thuế luật thuế bảo vệ môi trường l",
+    "variants": [
+      "Luật thuế Luật thuế Bảo vệ môi trường l"
+    ],
+    "courses": [
+      "ke-toan-thue-1"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0520",
+        "page": 1,
+        "layer": "curriculum"
+      }
+    ]
+  },
+  {
     "ref_normalized": "Luật thuế thay đổi",
     "variants": [
       "luật thuế thay đổi"
@@ -1301,6 +1818,22 @@
       {
         "source_id": "src-0003",
         "page": 1,
+        "layer": "curriculum"
+      }
+    ]
+  },
+  {
+    "ref_normalized": "Luật thuế thu nhập cá nhân",
+    "variants": [
+      "Luật thuế thu nhập cá nhân"
+    ],
+    "courses": [
+      "ke-toan-hanh-chinh-su-nghiep"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0431",
+        "page": 3,
         "layer": "curriculum"
       }
     ]
@@ -1327,6 +1860,70 @@
     ]
   },
   {
+    "ref_normalized": "Luật thuế thu nhập doanh nghiệp",
+    "variants": [
+      "Luật thuế thu nhập doanh nghiệp"
+    ],
+    "courses": [
+      "ke-toan-hanh-chinh-su-nghiep"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0459",
+        "page": 5,
+        "layer": "curriculum"
+      }
+    ]
+  },
+  {
+    "ref_normalized": "Luật thuế thì có thể phân thành nhiều l",
+    "variants": [
+      "luật thuế thì có thể phân thành nhiều l"
+    ],
+    "courses": [
+      "ke-toan-thue-1"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0498",
+        "page": 2,
+        "layer": "curriculum"
+      }
+    ]
+  },
+  {
+    "ref_normalized": "Luật thuế tiêu thụ đặc",
+    "variants": [
+      "Luật thuế Tiêu thụ đặc"
+    ],
+    "courses": [
+      "ke-toan-thue-1"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0510",
+        "page": 1,
+        "layer": "curriculum"
+      }
+    ]
+  },
+  {
+    "ref_normalized": "Luật thuế tiêu thụ đặc biệt",
+    "variants": [
+      "Luật Thuế Tiêu thụ đặc biệt"
+    ],
+    "courses": [
+      "ke-toan-thue-1"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0512",
+        "page": 1,
+        "layer": "curriculum"
+      }
+    ]
+  },
+  {
     "ref_normalized": "Luật thuế tndn",
     "variants": [
       "Luật thuế TNDN"
@@ -1343,6 +1940,59 @@
       {
         "source_id": "src-0200",
         "page": 3,
+        "layer": "curriculum"
+      }
+    ]
+  },
+  {
+    "ref_normalized": "Luật thuế tndn hiện hành",
+    "variants": [
+      "Luật thuế TNDN hiện hành"
+    ],
+    "courses": [
+      "ke-toan-tai-chinh-3"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0580",
+        "page": 2,
+        "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0590",
+        "page": 5,
+        "layer": "curriculum"
+      }
+    ]
+  },
+  {
+    "ref_normalized": "Luật thuế trong các trường",
+    "variants": [
+      "luật thuế trong các trường"
+    ],
+    "courses": [
+      "ke-toan-thue-1"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0492",
+        "page": 6,
+        "layer": "curriculum"
+      }
+    ]
+  },
+  {
+    "ref_normalized": "Luật thuế ttđb số 27/2008/qh12 ngày 14/",
+    "variants": [
+      "Luật thuế TTĐB số 27/2008/QH12 ngày 14/"
+    ],
+    "courses": [
+      "ke-toan-thue-1"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0510",
+        "page": 1,
         "layer": "curriculum"
       }
     ]
@@ -1390,6 +2040,60 @@
     ]
   },
   {
+    "ref_normalized": "Luật thuế xk",
+    "variants": [
+      "Luật Thuế XK",
+      "luật thuế XK"
+    ],
+    "courses": [
+      "ke-toan-thue-1"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0500",
+        "page": 1,
+        "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0500",
+        "page": 2,
+        "layer": "curriculum"
+      }
+    ]
+  },
+  {
+    "ref_normalized": "Luật thuế xuất khẩu – nhập khẩu số 107/",
+    "variants": [
+      "Luật thuế xuất khẩu – nhập khẩu số 107/"
+    ],
+    "courses": [
+      "ke-toan-thue-1"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0500",
+        "page": 1,
+        "layer": "curriculum"
+      }
+    ]
+  },
+  {
+    "ref_normalized": "Luật thuế đã được ban hành",
+    "variants": [
+      "Luật thuế đã được ban hành"
+    ],
+    "courses": [
+      "ke-toan-thue-1"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0498",
+        "page": 3,
+        "layer": "curriculum"
+      }
+    ]
+  },
+  {
     "ref_normalized": "Nghị định 1/2021/NĐ-CP",
     "variants": [
       "Nghị Định 01/2021/NĐ-CP",
@@ -1407,6 +2111,54 @@
       {
         "source_id": "src-0078",
         "page": 3,
+        "layer": "curriculum"
+      }
+    ]
+  },
+  {
+    "ref_normalized": "Nghị định 100/2016/NĐ-CP",
+    "variants": [
+      "Nghị định 100/2016/NĐ-CP"
+    ],
+    "courses": [
+      "ke-toan-thue-1"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0538",
+        "page": 3,
+        "layer": "curriculum"
+      }
+    ]
+  },
+  {
+    "ref_normalized": "Nghị định 123/2020/NĐ-CP",
+    "variants": [
+      "Nghị định 123/2020/NĐ-CP"
+    ],
+    "courses": [
+      "ke-toan-thue-1"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0534",
+        "page": 5,
+        "layer": "curriculum"
+      }
+    ]
+  },
+  {
+    "ref_normalized": "Nghị định 134/2016/NĐ-CP",
+    "variants": [
+      "Nghị định 134/2016/NĐ-CP"
+    ],
+    "courses": [
+      "ke-toan-thue-1"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0500",
+        "page": 1,
         "layer": "curriculum"
       }
     ]
@@ -1470,6 +2222,22 @@
       {
         "source_id": "src-0068",
         "page": 31,
+        "layer": "curriculum"
+      }
+    ]
+  },
+  {
+    "ref_normalized": "Nghị định 18/2021/NĐ-CP",
+    "variants": [
+      "Nghị định 18/2021/NĐ-CP"
+    ],
+    "courses": [
+      "ke-toan-thue-1"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0500",
+        "page": 1,
         "layer": "curriculum"
       }
     ]
@@ -1586,6 +2354,23 @@
     ]
   },
   {
+    "ref_normalized": "Nghị định 60/2021/NĐ-CP",
+    "variants": [
+      "Nghị\nđịnh 60/2021/NĐ-CP",
+      "nghị định 60/2021/NĐ-CP"
+    ],
+    "courses": [
+      "ke-toan-hanh-chinh-su-nghiep"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0461",
+        "page": 2,
+        "layer": "curriculum"
+      }
+    ]
+  },
+  {
     "ref_normalized": "Quyết định 479/2004/QĐ-NHNN",
     "variants": [
       "Quyết định 479/2004/QĐ-NHNN"
@@ -1620,9 +2405,11 @@
   {
     "ref_normalized": "Thông tư 107/2017/TT-BTC",
     "variants": [
-      "Thông tư 107/2017/TT-BTC"
+      "Thông tư 107/2017/TT-BTC",
+      "thông tư 107/2017/TT-BTC"
     ],
     "courses": [
+      "ke-toan-hanh-chinh-su-nghiep",
       "nguyen-ly-ke-toan"
     ],
     "occurrences": [
@@ -1633,6 +2420,27 @@
       },
       {
         "source_id": "src-0096",
+        "page": 3,
+        "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0409",
+        "page": 2,
+        "layer": "curriculum"
+      }
+    ]
+  },
+  {
+    "ref_normalized": "Thông tư 119/2014/TT-BTC",
+    "variants": [
+      "TT 119/2014/TT-BTC"
+    ],
+    "courses": [
+      "ke-toan-thue-1"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0538",
         "page": 3,
         "layer": "curriculum"
       }
@@ -1655,6 +2463,27 @@
       {
         "source_id": "src-0138",
         "page": 259,
+        "layer": "curriculum"
+      }
+    ]
+  },
+  {
+    "ref_normalized": "Thông tư 130/2016/TT-BTC",
+    "variants": [
+      "Thông tư 130/2016/TT-BTC"
+    ],
+    "courses": [
+      "ke-toan-thue-1"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0510",
+        "page": 1,
+        "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0538",
+        "page": 3,
         "layer": "curriculum"
       }
     ]
@@ -1683,11 +2512,13 @@
   {
     "ref_normalized": "Thông tư 133/2016/TT-BTC",
     "variants": [
+      "Thông tư 133/2016/TT-BTC",
       "thông tư\n133/2016/TT-BTC",
       "thông tư 133/2016/TT-BTC"
     ],
     "courses": [
       "ke-toan-tai-chinh-1",
+      "ke-toan-thue-1",
       "nguyen-ly-ke-toan"
     ],
     "occurrences": [
@@ -1708,6 +2539,87 @@
       },
       {
         "source_id": "src-0096",
+        "page": 3,
+        "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0498",
+        "page": 6,
+        "layer": "curriculum"
+      }
+    ]
+  },
+  {
+    "ref_normalized": "Thông tư 151/2014/TT-BTC",
+    "variants": [
+      "TT\n151/2014/TT-BTC",
+      "TT 151/2014/TT-BTC"
+    ],
+    "courses": [
+      "ke-toan-thue-1"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0498",
+        "page": 6,
+        "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0538",
+        "page": 3,
+        "layer": "curriculum"
+      }
+    ]
+  },
+  {
+    "ref_normalized": "Thông tư 152/2011/TT-BTC",
+    "variants": [
+      "Thông tư 152/2011/TT-BTC"
+    ],
+    "courses": [
+      "ke-toan-thue-1"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0520",
+        "page": 1,
+        "layer": "curriculum"
+      }
+    ]
+  },
+  {
+    "ref_normalized": "Thông tư 156/2013/TT-BTC",
+    "variants": [
+      "TT 156/2013/TT-BTC"
+    ],
+    "courses": [
+      "ke-toan-thue-1"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0538",
+        "page": 3,
+        "layer": "curriculum"
+      }
+    ]
+  },
+  {
+    "ref_normalized": "Thông tư 195/2015",
+    "variants": [
+      "TT\n195/2015",
+      "TT 195/2015"
+    ],
+    "courses": [
+      "ke-toan-thue-1"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0510",
+        "page": 1,
+        "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0510",
         "page": 3,
         "layer": "curriculum"
       }
@@ -1754,6 +2666,7 @@
     "courses": [
       "ke-toan-tai-chinh-1",
       "ke-toan-tai-chinh-2",
+      "ke-toan-thue-1",
       "nguyen-ly-ke-toan"
     ],
     "occurrences": [
@@ -1806,6 +2719,16 @@
         "source_id": "src-0325",
         "page": 2,
         "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0498",
+        "page": 6,
+        "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0506",
+        "page": 2,
+        "layer": "curriculum"
       }
     ]
   },
@@ -1836,6 +2759,167 @@
       {
         "source_id": "src-0138",
         "page": 174,
+        "layer": "curriculum"
+      }
+    ]
+  },
+  {
+    "ref_normalized": "Thông tư 219/2013/TT-BTC",
+    "variants": [
+      "TT 219/2013/TT-BTC",
+      "Thông tư 219/2013/TT-BTC"
+    ],
+    "courses": [
+      "ke-toan-thue-1"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0498",
+        "page": 6,
+        "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0534",
+        "page": 5,
+        "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0538",
+        "page": 3,
+        "layer": "curriculum"
+      }
+    ]
+  },
+  {
+    "ref_normalized": "Thông tư 228/2009",
+    "variants": [
+      "thông tư 228/2009"
+    ],
+    "courses": [
+      "ke-toan-tai-chinh-3"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0543",
+        "page": 1,
+        "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0543",
+        "page": 2,
+        "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0590",
+        "page": 1,
+        "layer": "curriculum"
+      }
+    ]
+  },
+  {
+    "ref_normalized": "Thông tư 23/2023/TT-BTC",
+    "variants": [
+      "Thông tư 23/2023/TT-BTC"
+    ],
+    "courses": [
+      "ke-toan-hanh-chinh-su-nghiep"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0487",
+        "page": 2,
+        "layer": "curriculum"
+      }
+    ]
+  },
+  {
+    "ref_normalized": "Thông tư 24/2017/TT-BTC",
+    "variants": [
+      "Thông tư 24/2017/TT-BTC"
+    ],
+    "courses": [
+      "ke-toan-thue-1"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0498",
+        "page": 6,
+        "layer": "curriculum"
+      }
+    ]
+  },
+  {
+    "ref_normalized": "Thông tư 24/2024/TT-BTC",
+    "variants": [
+      "TT 24/2024/TT-BTC",
+      "TT24/2024/TT-BTC",
+      "Thông tư 24/2024/TT-BTC",
+      "thông tư 24/2024/TT-BTC"
+    ],
+    "courses": [
+      "ke-toan-hanh-chinh-su-nghiep"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0409",
+        "page": 2,
+        "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0457",
+        "page": 3,
+        "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0459",
+        "page": 3,
+        "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0459",
+        "page": 5,
+        "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0478",
+        "page": 2,
+        "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0487",
+        "page": 2,
+        "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0489",
+        "page": 11,
+        "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0490",
+        "page": 1,
+        "layer": "curriculum"
+      }
+    ]
+  },
+  {
+    "ref_normalized": "Thông tư 26/2015/TT-BTC",
+    "variants": [
+      "TT\n26/2015/TT-BTC",
+      "TT 26/2015/TT-BTC"
+    ],
+    "courses": [
+      "ke-toan-thue-1"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0498",
+        "page": 6,
+        "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0538",
+        "page": 3,
         "layer": "curriculum"
       }
     ]
@@ -1888,6 +2972,54 @@
       {
         "source_id": "src-0138",
         "page": 317,
+        "layer": "curriculum"
+      }
+    ]
+  },
+  {
+    "ref_normalized": "Thông tư 37/2017/TT-BTC",
+    "variants": [
+      "Thông tư 37/2017/TT-BTC"
+    ],
+    "courses": [
+      "ke-toan-thue-1"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0538",
+        "page": 3,
+        "layer": "curriculum"
+      }
+    ]
+  },
+  {
+    "ref_normalized": "Thông tư 38/2015/TT-BTC",
+    "variants": [
+      "Thông tư 38/2015/TT-BTC"
+    ],
+    "courses": [
+      "ke-toan-thue-1"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0500",
+        "page": 1,
+        "layer": "curriculum"
+      }
+    ]
+  },
+  {
+    "ref_normalized": "Thông tư 39/2014/TT-BTC",
+    "variants": [
+      "TT\n39/2014/TT-BTC"
+    ],
+    "courses": [
+      "ke-toan-thue-1"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0538",
+        "page": 3,
         "layer": "curriculum"
       }
     ]
@@ -1952,6 +3084,7 @@
       "thông tư 45/2013/TT-BTC"
     ],
     "courses": [
+      "ke-toan-hanh-chinh-su-nghiep",
       "ke-toan-tai-chinh-2",
       "ngan-hang-thuong-mai"
     ],
@@ -1994,6 +3127,11 @@
       {
         "source_id": "src-0308",
         "page": 3,
+        "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0487",
+        "page": 2,
         "layer": "curriculum"
       }
     ]
@@ -2070,6 +3208,22 @@
     ]
   },
   {
+    "ref_normalized": "Thông tư 6/2021/TT-BTC",
+    "variants": [
+      "Thông tư 06/2021/TT-BTC"
+    ],
+    "courses": [
+      "ke-toan-thue-1"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0500",
+        "page": 2,
+        "layer": "curriculum"
+      }
+    ]
+  },
+  {
     "ref_normalized": "Thông tư 7/2015/TT-NHNN",
     "variants": [
       "Thông tư 07/2015/TT-NHNN"
@@ -2137,6 +3291,114 @@
       {
         "source_id": "src-0202",
         "page": 5,
+        "layer": "curriculum"
+      }
+    ]
+  },
+  {
+    "ref_normalized": "Thông tư 78/2014/TT-BTC",
+    "variants": [
+      "thông tư 78/2014/TT-BTC"
+    ],
+    "courses": [
+      "ke-toan-tai-chinh-3"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0580",
+        "page": 2,
+        "layer": "curriculum"
+      }
+    ]
+  },
+  {
+    "ref_normalized": "Thông tư 78/2021/TT-BTC",
+    "variants": [
+      "Thông tư 78/2021/TT-BTC",
+      "thông tư 78/2021/TT-BTC"
+    ],
+    "courses": [
+      "ke-toan-thue-1"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0534",
+        "page": 3,
+        "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0534",
+        "page": 5,
+        "layer": "curriculum"
+      }
+    ]
+  },
+  {
+    "ref_normalized": "Thông tư 80/2021",
+    "variants": [
+      "TT 80/2021",
+      "TT80/2021",
+      "Thông\ntư 80/2021",
+      "Thông tư 80/2021"
+    ],
+    "courses": [
+      "ke-toan-thue-1"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0496",
+        "page": 1,
+        "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0496",
+        "page": 2,
+        "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0516",
+        "page": 1,
+        "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0516",
+        "page": 2,
+        "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0516",
+        "page": 4,
+        "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0526",
+        "page": 2,
+        "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0526",
+        "page": 3,
+        "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0536",
+        "page": 6,
+        "layer": "curriculum"
+      }
+    ]
+  },
+  {
+    "ref_normalized": "Thông tư 80/2021/TT-BTC",
+    "variants": [
+      "Thông tư 80/2021/TT-BTC"
+    ],
+    "courses": [
+      "ke-toan-thue-1"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0492",
+        "page": 1,
         "layer": "curriculum"
       }
     ]
@@ -2301,6 +3563,22 @@
     ]
   },
   {
+    "ref_normalized": "VAS 10",
+    "variants": [
+      "VAS 10"
+    ],
+    "courses": [
+      "ke-toan-tai-chinh-3"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0546",
+        "page": 1,
+        "layer": "curriculum"
+      }
+    ]
+  },
+  {
     "ref_normalized": "VAS 14",
     "variants": [
       "VAS 14",
@@ -2334,13 +3612,48 @@
     ]
   },
   {
+    "ref_normalized": "VAS 17",
+    "variants": [
+      "VAS 17",
+      "chuẩn mực kế toán số 17"
+    ],
+    "courses": [
+      "ke-toan-tai-chinh-3"
+    ],
+    "occurrences": [
+      {
+        "source_id": "src-0580",
+        "page": 1,
+        "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0580",
+        "page": 2,
+        "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0586",
+        "page": 1,
+        "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0588",
+        "page": 1,
+        "layer": "curriculum"
+      }
+    ]
+  },
+  {
     "ref_normalized": "VAS 2",
     "variants": [
+      "Chuẩn mực kế toán số 02",
       "VAS 02",
+      "chuẩn mực\nkế toán số 02",
       "chuẩn mực kế toán số 02"
     ],
     "courses": [
-      "ke-toan-tai-chinh-1"
+      "ke-toan-tai-chinh-1",
+      "ke-toan-tai-chinh-3"
     ],
     "occurrences": [
       {
@@ -2371,6 +3684,21 @@
       {
         "source_id": "src-0068",
         "page": 328,
+        "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0554",
+        "page": 2,
+        "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0555",
+        "page": 7,
+        "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0564",
+        "page": 5,
         "layer": "curriculum"
       }
     ]
@@ -2522,10 +3850,12 @@
     "ref_normalized": "VAS 3",
     "variants": [
       "VAS 03",
-      "chuẩn mực kế toán Việt Nam số 03"
+      "chuẩn mực kế toán Việt Nam số 03",
+      "chuẩn mực kế toán số 03"
     ],
     "courses": [
-      "ke-toan-tai-chinh-2"
+      "ke-toan-tai-chinh-2",
+      "ke-toan-tai-chinh-3"
     ],
     "occurrences": [
       {
@@ -2577,16 +3907,33 @@
         "source_id": "src-0308",
         "page": 1,
         "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0554",
+        "page": 2,
+        "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0555",
+        "page": 2,
+        "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0564",
+        "page": 1,
+        "layer": "curriculum"
       }
     ]
   },
   {
     "ref_normalized": "VAS 4",
     "variants": [
-      "VAS 04"
+      "VAS 04",
+      "chuẩn mực kế toán số 04"
     ],
     "courses": [
-      "ke-toan-tai-chinh-2"
+      "ke-toan-tai-chinh-2",
+      "ke-toan-tai-chinh-3"
     ],
     "occurrences": [
       {
@@ -2637,6 +3984,11 @@
       {
         "source_id": "src-0308",
         "page": 5,
+        "layer": "curriculum"
+      },
+      {
+        "source_id": "src-0555",
+        "page": 2,
         "layer": "curriculum"
       }
     ]

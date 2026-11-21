@@ -12,6 +12,7 @@ key_changes:
 cited_in_courses:
 - ke-toan-tai-chinh-1
 - ke-toan-tai-chinh-2
+- ke-toan-thue-1
 - nguyen-ly-ke-toan
 curriculum_occurrences:
 - source_id: src-0060
@@ -42,6 +43,12 @@ curriculum_occurrences:
   page: 2
   layer: curriculum
 - source_id: src-0325
+  page: 2
+  layer: curriculum
+- source_id: src-0498
+  page: 6
+  layer: curriculum
+- source_id: src-0506
   page: 2
   layer: curriculum
 variants:

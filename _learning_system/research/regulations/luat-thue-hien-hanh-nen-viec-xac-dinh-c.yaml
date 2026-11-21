@@ -1,0 +1,27 @@
+ref: Luật thuế hiện hành nên việc xác định c
+status: unknown
+replaced_by: null
+amended_by: []
+effective_from: null
+effective_date_meaning: effective date of cited change, not necessarily original instrument
+scope: UNKNOWN
+key_changes: []
+cited_in_courses:
+- ke-toan-tai-chinh-3
+curriculum_occurrences:
+- source_id: src-0580
+  page: 1
+  layer: curriculum
+variants:
+- Luật thuế hiện hành nên việc xác định c
+sources: []
+evidence_status: UNKNOWN
+layer: external
+checked_at: '2026-11-21'
+unknown_reason: Mảnh câu do regex harvest bắt từ cụm "Luật thuế…" trong giáo trình,
+  không phải số hiệu văn bản; không định danh được văn bản/phiên bản cụ thể và không
+  dùng làm căn cứ pháp lý. Không chỉ rõ một luật cụ thể.
+search_log: research/search_logs/ref_089.json
+record_kind: not_an_instrument
+freshness_limit: Snapshot of sources checked on the stated date; not a guarantee that
+  every later amendment has been found.

@@ -7,6 +7,7 @@ effective_date_meaning: effective date of cited change, not necessarily original
 scope: UNKNOWN
 key_changes: []
 cited_in_courses:
+- ke-toan-hanh-chinh-su-nghiep
 - ke-toan-tai-chinh-2
 - ngan-hang-thuong-mai
 curriculum_occurrences:
@@ -33,6 +34,9 @@ curriculum_occurrences:
   layer: curriculum
 - source_id: src-0308
   page: 3
+  layer: curriculum
+- source_id: src-0487
+  page: 2
   layer: curriculum
 variants:
 - 'Thông tư

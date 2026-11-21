@@ -7,6 +7,7 @@ effective_date_meaning: effective date of cited change, not necessarily original
 scope: UNKNOWN
 key_changes: []
 cited_in_courses:
+- ke-toan-hanh-chinh-su-nghiep
 - tai-chinh-hanh-chinh-su-nghiep
 curriculum_occurrences:
 - source_id: src-0180
@@ -33,8 +34,12 @@ curriculum_occurrences:
 - source_id: src-0186
   page: 59
   layer: curriculum
+- source_id: src-0431
+  page: 2
+  layer: curriculum
 variants:
 - 97/2015/QH13
+- Luật Phí và Lệ phí (Luật số 97/2015/QH13
 - 'Luật Phí và lệ phí số 97/2015/
 
   QH13'

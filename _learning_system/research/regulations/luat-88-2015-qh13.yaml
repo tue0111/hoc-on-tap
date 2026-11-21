@@ -7,8 +7,10 @@ effective_date_meaning: effective date of cited change, not necessarily original
 scope: UNKNOWN
 key_changes: []
 cited_in_courses:
+- ke-toan-hanh-chinh-su-nghiep
 - ke-toan-ngan-hang
 - ke-toan-tai-chinh-1
+- ke-toan-thue-1
 curriculum_occurrences:
 - source_id: src-0048
   page: 8
@@ -28,7 +30,17 @@ curriculum_occurrences:
 - source_id: src-0260
   page: 4
   layer: curriculum
+- source_id: src-0407
+  page: 2
+  layer: curriculum
+- source_id: src-0498
+  page: 4
+  layer: curriculum
+- source_id: src-0498
+  page: 5
+  layer: curriculum
 variants:
+- 88/2015/QH13
 - Luật Kế toán số 88/2015/QH13
 - Luật kế toán số 88/2015/QH13
 sources: []

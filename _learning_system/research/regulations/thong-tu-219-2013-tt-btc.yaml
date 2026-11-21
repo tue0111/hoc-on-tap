@@ -1,0 +1,48 @@
+ref: Thông tư 219/2013/TT-BTC
+status: replaced
+replaced_by: Thông tư 69/2025/TT-BTC
+amended_by: []
+effective_from: '2025-07-01'
+effective_date_meaning: effective date of cited change, not necessarily original instrument
+scope: TT 219/2013 hướng dẫn Luật GTGT 2008 và NĐ 209/2013; nguồn phụ và trích hỏi
+  đáp Bộ Tài chính nói đã được thay bởi TT 69/2025 (hướng dẫn Luật 48/2024 và NĐ 181/2025,
+  hiệu lực 01/07/2025). vbpl.vn ghi "hết hiệu lực một phần" → phạm vi bãi bỏ chưa
+  thống nhất.
+key_changes:
+- text: TT 69/2025/TT-BTC quy định chi tiết Luật Thuế GTGT và hướng dẫn NĐ 181/2025;
+    ban hành và hiệu lực 01/07/2025.
+  source_url: https://vanban.chinhphu.vn/?pageid=27160&docid=214417
+- text: 'Nguồn phụ: TT 219/2013 không còn áp dụng, được thay bởi TT 69/2025.'
+  source_url: https://thuvienphapluat.vn/ma-so-thue/phap-luat-thue/thong-tu-219-thue-gtgt-con-ap-dung-nam-2026-khong-22578-223395.html
+cited_in_courses:
+- ke-toan-thue-1
+curriculum_occurrences:
+- source_id: src-0498
+  page: 6
+  layer: curriculum
+- source_id: src-0534
+  page: 5
+  layer: curriculum
+- source_id: src-0538
+  page: 3
+  layer: curriculum
+variants:
+- TT 219/2013/TT-BTC
+- Thông tư 219/2013/TT-BTC
+sources:
+- url: https://vanban.chinhphu.vn/?pageid=27160&docid=214417
+  publisher: vanban.chinhphu.vn
+  retrieved_at: '2026-11-21'
+  authority: official
+- url: https://thuvienphapluat.vn/ma-so-thue/phap-luat-thue/thong-tu-219-thue-gtgt-con-ap-dung-nam-2026-khong-22578-223395.html
+  publisher: thuvienphapluat.vn
+  retrieved_at: '2026-11-21'
+  authority: secondary
+evidence_status: INFERRED
+layer: external
+checked_at: '2026-11-21'
+unknown_reason: null
+search_log: research/search_logs/ref_113.json
+record_kind: verified_status
+freshness_limit: Snapshot of sources checked on the stated date; not a guarantee that
+  every later amendment has been found.

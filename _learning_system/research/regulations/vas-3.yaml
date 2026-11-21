@@ -8,6 +8,7 @@ scope: UNKNOWN
 key_changes: []
 cited_in_courses:
 - ke-toan-tai-chinh-2
+- ke-toan-tai-chinh-3
 curriculum_occurrences:
 - source_id: src-0069
   page: 3
@@ -39,9 +40,19 @@ curriculum_occurrences:
 - source_id: src-0308
   page: 1
   layer: curriculum
+- source_id: src-0554
+  page: 2
+  layer: curriculum
+- source_id: src-0555
+  page: 2
+  layer: curriculum
+- source_id: src-0564
+  page: 1
+  layer: curriculum
 variants:
 - VAS 03
 - chuẩn mực kế toán Việt Nam số 03
+- chuẩn mực kế toán số 03
 sources: []
 evidence_status: UNKNOWN
 layer: external

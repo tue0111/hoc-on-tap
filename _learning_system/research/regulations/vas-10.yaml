@@ -1,0 +1,32 @@
+ref: VAS 10
+status: unknown
+replaced_by: null
+amended_by: []
+effective_from: null
+effective_date_meaning: effective date of cited change, not necessarily original instrument
+scope: UNKNOWN
+key_changes: []
+cited_in_courses:
+- ke-toan-tai-chinh-3
+curriculum_occurrences:
+- source_id: src-0546
+  page: 1
+  layer: curriculum
+variants:
+- VAS 10
+sources:
+- url: https://www.crowe.com/vn/vi-vn/news/ministry-of-finance-officially-launches-development-of-42-vfrs
+  publisher: www.crowe.com
+  retrieved_at: '2026-11-21'
+  authority: secondary
+evidence_status: UNKNOWN
+layer: external
+checked_at: '2026-11-21'
+unknown_reason: VAS 10 (Ảnh hưởng của thay đổi tỷ giá hối đoái) chưa thấy văn bản
+  sửa đổi/thay thế; Bộ Tài chính đang xây dựng 42 chuẩn mực VFRS (2026-2029, theo
+  nguồn phụ) nhưng chưa xác nhận lộ trình thay thế VAS 10. Trích dẫn không ghi quyết
+  định ban hành. Không suy ra "còn hiệu lực" chỉ vì chưa thấy văn bản thay thế.
+search_log: research/search_logs/ref_127.json
+record_kind: unverified_reference
+freshness_limit: Snapshot of sources checked on the stated date; not a guarantee that
+  every later amendment has been found.

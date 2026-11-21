@@ -8,6 +8,7 @@ scope: UNKNOWN
 key_changes: []
 cited_in_courses:
 - ke-toan-tai-chinh-1
+- ke-toan-thue-1
 - nguyen-ly-ke-toan
 curriculum_occurrences:
 - source_id: src-0060
@@ -22,7 +23,11 @@ curriculum_occurrences:
 - source_id: src-0096
   page: 3
   layer: curriculum
+- source_id: src-0498
+  page: 6
+  layer: curriculum
 variants:
+- Thông tư 133/2016/TT-BTC
 - 'thông tư
 
   133/2016/TT-BTC'

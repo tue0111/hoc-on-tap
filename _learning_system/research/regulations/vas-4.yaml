@@ -8,6 +8,7 @@ scope: UNKNOWN
 key_changes: []
 cited_in_courses:
 - ke-toan-tai-chinh-2
+- ke-toan-tai-chinh-3
 curriculum_occurrences:
 - source_id: src-0069
   page: 10
@@ -39,8 +40,12 @@ curriculum_occurrences:
 - source_id: src-0308
   page: 5
   layer: curriculum
+- source_id: src-0555
+  page: 2
+  layer: curriculum
 variants:
 - VAS 04
+- chuẩn mực kế toán số 04
 sources: []
 evidence_status: UNKNOWN
 layer: external

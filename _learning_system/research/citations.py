@@ -21,6 +21,8 @@ def references(text):
             elif i==4: ref=f'VAS {int(m[1])}'
             elif i==5: ref=f'{m[1].upper()} {int(m[2])}'
             else: ref='Luật '+' '.join(m[1].lower().split())+(f' năm {m[2]}' if m[2] else '')
+            # W6b G17: drop harvest truncation marks (ellipsis) so truncated variants merge; raw match kept as variant.
+            ref=re.sub(r'[\s….]+$','',ref)
             out.append((ref,m[0]))
     return out
 def slug(ref):

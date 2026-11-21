@@ -1,0 +1,42 @@
+ref: VAS 17
+status: unknown
+replaced_by: null
+amended_by: []
+effective_from: null
+effective_date_meaning: effective date of cited change, not necessarily original instrument
+scope: UNKNOWN
+key_changes: []
+cited_in_courses:
+- ke-toan-tai-chinh-3
+curriculum_occurrences:
+- source_id: src-0580
+  page: 1
+  layer: curriculum
+- source_id: src-0580
+  page: 2
+  layer: curriculum
+- source_id: src-0586
+  page: 1
+  layer: curriculum
+- source_id: src-0588
+  page: 1
+  layer: curriculum
+variants:
+- VAS 17
+- chuẩn mực kế toán số 17
+sources:
+- url: https://www.crowe.com/vn/vi-vn/news/ministry-of-finance-officially-launches-development-of-42-vfrs
+  publisher: www.crowe.com
+  retrieved_at: '2026-11-21'
+  authority: secondary
+evidence_status: UNKNOWN
+layer: external
+checked_at: '2026-11-21'
+unknown_reason: VAS 17 (Thuế thu nhập doanh nghiệp) chưa thấy văn bản sửa đổi/thay
+  thế từ nguồn chính thức; KPMG (10/2026) nhận xét VAS chưa được cập nhật từ khi ban
+  hành, Bộ Tài chính đang xây dựng VFRS (nguồn phụ). Chưa xác nhận trạng thái chính
+  thức. Không suy ra "còn hiệu lực" chỉ vì chưa thấy văn bản thay thế.
+search_log: research/search_logs/ref_128.json
+record_kind: unverified_reference
+freshness_limit: Snapshot of sources checked on the stated date; not a guarantee that
+  every later amendment has been found.

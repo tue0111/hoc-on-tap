@@ -1,0 +1,12 @@
+{
+  "chunking_version": "2.0.0",
+  "chunk_count": 1081,
+  "course_id": "he-thong-thong-tin-ke-toan-1",
+  "dup_groups": 0,
+  "by_source_type": {
+    "reference": 824,
+    "lecture_note": 232,
+    "exam": 3,
+    "summary": 22
+  }
+}

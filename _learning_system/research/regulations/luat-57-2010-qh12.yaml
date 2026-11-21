@@ -1,0 +1,34 @@
+ref: Luật 57/2010/QH12
+status: unknown
+replaced_by: null
+amended_by: []
+effective_from: null
+effective_date_meaning: effective date of cited change, not necessarily original instrument
+scope: UNKNOWN
+key_changes: []
+cited_in_courses:
+- ke-toan-thue-1
+curriculum_occurrences:
+- source_id: src-0520
+  page: 1
+  layer: curriculum
+variants:
+- 57/2010/QH12
+sources:
+- url: https://vanban.chinhphu.vn/?classid=1&docid=218005&orggroupid=1&pageid=27160
+  publisher: vanban.chinhphu.vn
+  retrieved_at: '2026-11-21'
+  authority: official
+evidence_status: UNKNOWN
+layer: external
+checked_at: '2026-11-21'
+unknown_reason: Không tìm thấy luật thay thế Luật Thuế BVMT 2010; Luật sửa đổi Luật
+  Thuế BVMT có trong chương trình lập pháp 2026 nhưng chưa xác nhận đã thông qua;
+  mức thuế xăng dầu đang được điều chỉnh bằng nghị quyết (ví dụ NQ 19/2026/QH16, 0
+  đồng/lít từ 16/04 đến 30/06/2026). Chưa có nguồn chính thức xác nhận tình trạng
+  hiện hành của luật gốc và chuỗi sửa đổi. Không suy ra "còn hiệu lực" chỉ vì chưa
+  thấy văn bản thay thế.
+search_log: research/search_logs/ref_076.json
+record_kind: unverified_reference
+freshness_limit: Snapshot of sources checked on the stated date; not a guarantee that
+  every later amendment has been found.

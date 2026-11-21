@@ -1,0 +1,28 @@
+ref: Nghị định 100/2016/NĐ-CP
+status: unknown
+replaced_by: null
+amended_by: []
+effective_from: null
+effective_date_meaning: effective date of cited change, not necessarily original instrument
+scope: UNKNOWN
+key_changes: []
+cited_in_courses:
+- ke-toan-thue-1
+curriculum_occurrences:
+- source_id: src-0538
+  page: 3
+  layer: curriculum
+variants:
+- Nghị định 100/2016/NĐ-CP
+sources: []
+evidence_status: UNKNOWN
+layer: external
+checked_at: '2026-11-21'
+unknown_reason: Nghị định 100/2016 sửa các nghị định hướng dẫn Luật GTGT/TTĐB/QLT.
+  Luật GTGT 2008 đã bị thay thế (01/07/2025) và có NĐ 181/2025 hướng dẫn luật mới,
+  nhưng chưa thấy nguồn chính thức nêu NĐ 181/2025 hay văn bản khác bãi bỏ NĐ 100/2016.
+  Không suy ra "còn hiệu lực" chỉ vì chưa thấy văn bản thay thế.
+search_log: research/search_logs/ref_102.json
+record_kind: unverified_reference
+freshness_limit: Snapshot of sources checked on the stated date; not a guarantee that
+  every later amendment has been found.
