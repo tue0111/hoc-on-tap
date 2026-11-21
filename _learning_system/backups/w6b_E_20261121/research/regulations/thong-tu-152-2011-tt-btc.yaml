@@ -1,0 +1,27 @@
+ref: Thông tư 152/2011/TT-BTC
+status: unknown
+replaced_by: null
+amended_by: []
+effective_from: null
+effective_date_meaning: effective date of cited change, not necessarily original instrument
+scope: UNKNOWN
+key_changes: []
+cited_in_courses:
+- ke-toan-thue-1
+curriculum_occurrences:
+- source_id: src-0520
+  page: 1
+  layer: curriculum
+variants:
+- Thông tư 152/2011/TT-BTC
+sources: []
+evidence_status: UNKNOWN
+layer: external
+checked_at: '2026-11-21'
+unknown_reason: TT 152/2011 hướng dẫn NĐ 67/2011 về thuế BVMT, đã sửa bởi TT 159/2012,
+  TT 60/2015, TT 106/2018. Không tìm được nguồn chính thức nêu trạng thái hiện hành.
+  Không suy ra "còn hiệu lực" chỉ vì chưa thấy văn bản thay thế.
+search_log: research/search_logs/ref_110.json
+record_kind: unverified_reference
+freshness_limit: Snapshot of sources checked on the stated date; not a guarantee that
+  every later amendment has been found.

@@ -1,0 +1,28 @@
+{
+ "ke-toan-tai-chinh-3": {
+  "file": "evals/v3/ke-toan-tai-chinh-3_retrieval.jsonl",
+  "sha256": "fbcbcacfa23ce207dbea697065e4ba6be901d92c10a1a27a2cb2ca26ea797868",
+  "first_run_metrics": {
+   "direct_must_include": 0.9166666666666666,
+   "direct_chapter_at1": 1.0,
+   "source_bound": 1.0,
+   "insufficient": 1.0,
+   "collision_contamination": 0,
+   "account": 1.0,
+   "topic_owner": null
+  },
+  "first_run_gates": {
+   "direct_must_include": true,
+   "direct_chapter_at1": true,
+   "source_bound": true,
+   "insufficient": true,
+   "collision_contamination": true,
+   "account": true,
+   "topic_owner": true
+  },
+  "frozen_at": "2026-11-21",
+  "first_run_report": "reports/v3/ke-toan-tai-chinh-3_eval_run1.json",
+  "n": 23,
+  "note": "first run with KTTC3 tier=retrieval in memory only (work/ke-toan-tai-chinh-3/run_eval.py); registry unchanged"
+ }
+}

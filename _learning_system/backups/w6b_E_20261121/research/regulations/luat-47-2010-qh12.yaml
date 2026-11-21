@@ -1,0 +1,78 @@
+ref: Luật 47/2010/QH12
+status: replaced
+replaced_by: Luật 32/2024/QH15
+amended_by: []
+effective_from: '2024-07-01'
+effective_date_meaning: effective date of cited change, not necessarily original instrument
+scope: Luật Các tổ chức tín dụng; giữ ngoại lệ chuyển tiếp tại Điều 210. Luật 32/2024
+  đã được sửa đổi, không coi bản gốc là bản hợp nhất hiện hành.
+key_changes:
+- text: Luật năm 2010 được thay thế theo Điều 209, có ngoại lệ chuyển tiếp.
+  source_url: https://xaydungchinhsach.chinhphu.vn/toan-van-luat-cac-to-chuc-tin-dung-119240405135841794.htm
+cited_in_courses:
+- ke-toan-ngan-hang
+- ngan-hang-thuong-mai
+curriculum_occurrences:
+- source_id: src-0048
+  page: 5
+  layer: curriculum
+- source_id: src-0048
+  page: 9
+  layer: curriculum
+- source_id: src-0124
+  page: 2
+  layer: curriculum
+- source_id: src-0130
+  page: 35
+  layer: curriculum
+- source_id: src-0132
+  page: 6
+  layer: curriculum
+- source_id: src-0132
+  page: 7
+  layer: curriculum
+- source_id: src-0134
+  page: 4
+  layer: curriculum
+- source_id: src-0134
+  page: 5
+  layer: curriculum
+- source_id: src-0138
+  page: 17
+  layer: curriculum
+- source_id: src-0138
+  page: 18
+  layer: curriculum
+- source_id: src-0138
+  page: 77
+  layer: curriculum
+- source_id: src-0138
+  page: 78
+  layer: curriculum
+- source_id: src-0260
+  page: 1
+  layer: curriculum
+- source_id: src-0260
+  page: 5
+  layer: curriculum
+variants:
+- 47/2010/QH12
+- 'Luật
+
+  Các tổ chức tín dụng số 47/2010/QH12'
+- 'Luật các Tổ chức tín dụng số: 47/2010/QH12'
+- Luật các tổ chức tín dụng” (số 47/2010/QH12
+- 'Luật số: 47/2010/QH12'
+sources:
+- url: https://xaydungchinhsach.chinhphu.vn/toan-van-luat-cac-to-chuc-tin-dung-119240405135841794.htm
+  publisher: xaydungchinhsach.chinhphu.vn
+  retrieved_at: '2026-10-11'
+  authority: official
+evidence_status: OBSERVED
+layer: external
+checked_at: '2026-10-11'
+unknown_reason: null
+search_log: research/search_logs/ref_007.json
+record_kind: verified_status
+freshness_limit: Snapshot of sources checked on the stated date; not a guarantee that
+  every later amendment has been found.

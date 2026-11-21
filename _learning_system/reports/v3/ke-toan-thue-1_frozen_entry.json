@@ -1,0 +1,27 @@
+{
+  "ke-toan-thue-1": {
+    "file": "evals/v3/ke-toan-thue-1_retrieval.jsonl",
+    "sha256": "3d9eb60aae42b12939cf3a22fb90a9c03e2ba504c196cc29161bad5a7c8a3024",
+    "first_run_metrics": {
+      "direct_must_include": 1.0,
+      "direct_chapter_at1": 0.8,
+      "source_bound": 1.0,
+      "insufficient": 1.0,
+      "collision_contamination": 0,
+      "account": 1.0,
+      "topic_owner": null
+    },
+    "first_run_gates": {
+      "direct_must_include": true,
+      "direct_chapter_at1": true,
+      "source_bound": true,
+      "insufficient": true,
+      "collision_contamination": true,
+      "account": true,
+      "topic_owner": true
+    },
+    "frozen_at": "2026-11-21",
+    "first_run_report": "reports/v3/ke-toan-thue-1_eval_run1.json",
+    "note": "first run with tier=retrieval set in memory only (work/ke-toan-thue-1/run_eval.py); registry still catalog until Pha C"
+  }
+}

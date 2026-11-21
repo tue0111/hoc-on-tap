@@ -1,0 +1,40 @@
+ref: Quyết định 479/2004/QĐ-NHNN
+status: amended
+replaced_by: null
+amended_by:
+- Thông tư 10/2014/TT-NHNN
+- Thông tư 70/2025/TT-NHNN
+effective_from: '2026-01-01'
+effective_date_meaning: effective date of cited change, not necessarily original instrument
+scope: Ngày hiệu lực sửa đổi của TT70/2025; quyết định gốc từ 01/10/2004. Danh sách
+  sửa đổi ở đây không đầy đủ, không được thay toàn bộ hệ thống tài khoản ngân hàng
+  bằng TT99.
+key_changes:
+- text: TT70/2025 sửa một số nội dung của QĐ479, gồm hướng dẫn nguyên tắc kế toán
+    đối với nghiệp vụ chưa được hướng dẫn riêng.
+  source_url: https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=185768
+cited_in_courses:
+- ke-toan-ngan-hang
+curriculum_occurrences:
+- source_id: src-0047
+  page: 1
+  layer: curriculum
+variants:
+- Quyết định 479/2004/QĐ-NHNN
+sources:
+- url: https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=185768
+  publisher: vbpl.vn
+  retrieved_at: '2026-10-11'
+  authority: official
+- url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-10-2014-tt-nhnn-5157.htm
+  publisher: congbao.chinhphu.vn
+  retrieved_at: '2026-10-11'
+  authority: official
+evidence_status: OBSERVED
+layer: external
+checked_at: '2026-10-11'
+unknown_reason: null
+search_log: research/search_logs/ref_040.json
+record_kind: verified_status
+freshness_limit: Snapshot of sources checked on the stated date; not a guarantee that
+  every later amendment has been found.

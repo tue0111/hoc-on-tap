@@ -1,0 +1,30 @@
+ref: Luật 11/2012/QH13
+status: unknown
+replaced_by: null
+amended_by: []
+effective_from: null
+effective_date_meaning: effective date of cited change, not necessarily original instrument
+scope: UNKNOWN
+key_changes: []
+cited_in_courses:
+- tai-chinh-hanh-chinh-su-nghiep
+curriculum_occurrences:
+- source_id: src-0180
+  page: 3
+  layer: curriculum
+- source_id: src-0186
+  page: 42
+  layer: curriculum
+variants:
+- Luật Giá số 11/2012/QH13
+sources: []
+evidence_status: UNKNOWN
+layer: external
+checked_at: '2026-10-11'
+unknown_reason: Chưa đủ bằng chứng đã kiểm tra để kết luận trạng thái và chuỗi sửa
+  đổi hiện hành. Xem nhật ký tìm kiếm; không suy ra còn hiệu lực từ việc chưa thấy
+  văn bản thay thế.
+search_log: research/search_logs/ref_001.json
+record_kind: unverified_reference
+freshness_limit: Snapshot of sources checked on the stated date; not a guarantee that
+  every later amendment has been found.

@@ -1,0 +1,73 @@
+ref: Thông tư 24/2024/TT-BTC
+status: amended
+replaced_by: null
+amended_by:
+- Thông tư 46/2025/TT-BTC
+effective_from: '2025-07-01'
+effective_date_meaning: effective date of cited change, not necessarily original instrument
+scope: Chế độ kế toán HCSN, hiệu lực 01/01/2025, áp dụng từ năm tài chính 2025, thay
+  TT 107/2017. TT 46/2025 (hiệu lực 01/07/2025) sửa điểm a khoản 1 Điều 2 (bỏ ngoại
+  lệ UBND xã) để phù hợp chính quyền 2 cấp. Chưa thấy văn bản thay thế; danh sách
+  sửa đổi có thể chưa đủ.
+key_changes:
+- text: TT 46/2025/TT-BTC sửa đổi, bổ sung, bãi bỏ các thông tư kế toán, kiểm toán
+    theo chính quyền địa phương 2 cấp; hiệu lực 01/07/2025.
+  source_url: https://chinhphu.vn/?docid=214192&pageid=27160
+- text: 'Hỏi đáp BTC: khoản 1 Điều 2 TT 46/2025 bỏ cụm "trừ Ủy ban nhân dân xã" tại
+    điểm a khoản 1 Điều 2 TT 24/2024.'
+  source_url: https://portal.mof.gov.vn/hoidapcstc/home/cthoidap/156408
+- text: TT 24/2024 hiệu lực từ 01/01/2025, áp dụng từ năm tài chính 2025.
+  source_url: https://xaydungchinhsach.chinhphu.vn/che-do-ke-toan-hanh-chinh-su-nghiep-quy-dinh-ve-tai-khoan-ke-toan-tu-1-1-2025-119240426093206591.htm
+cited_in_courses:
+- ke-toan-hanh-chinh-su-nghiep
+curriculum_occurrences:
+- source_id: src-0409
+  page: 2
+  layer: curriculum
+- source_id: src-0457
+  page: 3
+  layer: curriculum
+- source_id: src-0459
+  page: 3
+  layer: curriculum
+- source_id: src-0459
+  page: 5
+  layer: curriculum
+- source_id: src-0478
+  page: 2
+  layer: curriculum
+- source_id: src-0487
+  page: 2
+  layer: curriculum
+- source_id: src-0489
+  page: 11
+  layer: curriculum
+- source_id: src-0490
+  page: 1
+  layer: curriculum
+variants:
+- TT 24/2024/TT-BTC
+- TT24/2024/TT-BTC
+- Thông tư 24/2024/TT-BTC
+- thông tư 24/2024/TT-BTC
+sources:
+- url: https://chinhphu.vn/?docid=214192&pageid=27160
+  publisher: chinhphu.vn
+  retrieved_at: '2026-11-21'
+  authority: official
+- url: https://portal.mof.gov.vn/hoidapcstc/home/cthoidap/156408
+  publisher: portal.mof.gov.vn
+  retrieved_at: '2026-11-21'
+  authority: official
+- url: https://xaydungchinhsach.chinhphu.vn/che-do-ke-toan-hanh-chinh-su-nghiep-quy-dinh-ve-tai-khoan-ke-toan-tu-1-1-2025-119240426093206591.htm
+  publisher: xaydungchinhsach.chinhphu.vn
+  retrieved_at: '2026-11-21'
+  authority: official
+evidence_status: OBSERVED
+layer: external
+checked_at: '2026-11-21'
+unknown_reason: null
+search_log: research/search_logs/ref_117.json
+record_kind: verified_status
+freshness_limit: Snapshot of sources checked on the stated date; not a guarantee that
+  every later amendment has been found.

@@ -1,0 +1,40 @@
+ref: Luật 51/2005/QH11
+status: replaced
+replaced_by: Luật 20/2023/QH15
+amended_by: []
+effective_from: '2024-07-01'
+effective_date_meaning: effective date of cited change, not necessarily original instrument
+scope: Luật Giao dịch điện tử 2005 hết hiệu lực từ 01/07/2024, trừ chuyển tiếp tại
+  Điều 53 Luật 20/2023 (giao dịch xác lập trước, chứng thư số/giấy phép đã cấp). Luật
+  20/2023 đã được sửa bởi Luật Dữ liệu 60/2024, Luật An ninh mạng 116/2025, Luật Chuyển
+  đổi số 148/2025.
+key_changes:
+- text: 'Khoản 2 Điều 52 Luật 20/2023: "Luật Giao dịch điện tử số 51/2005/QH11 hết
+    hiệu lực kể từ ngày Luật này có hiệu lực thi hành, trừ trường hợp quy định tại
+    Điều 53".'
+  source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/36-vbhn-vpqh.pdf
+cited_in_courses:
+- ke-toan-thue-1
+curriculum_occurrences:
+- source_id: src-0538
+  page: 3
+  layer: curriculum
+variants:
+- Luật Giao dịch điện tử số 51/2005/QH11
+sources:
+- url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/36-vbhn-vpqh.pdf
+  publisher: datafiles.chinhphu.vn
+  retrieved_at: '2026-11-21'
+  authority: official
+- url: https://vanban.chinhphu.vn/?pageid=27160&docid=208421
+  publisher: vanban.chinhphu.vn
+  retrieved_at: '2026-11-21'
+  authority: official
+evidence_status: OBSERVED
+layer: external
+checked_at: '2026-11-21'
+unknown_reason: null
+search_log: research/search_logs/ref_075.json
+record_kind: verified_status
+freshness_limit: Snapshot of sources checked on the stated date; not a guarantee that
+  every later amendment has been found.

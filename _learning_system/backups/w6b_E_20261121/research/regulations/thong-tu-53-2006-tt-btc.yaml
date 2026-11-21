@@ -1,0 +1,60 @@
+ref: Thông tư 53/2006/TT-BTC
+status: unknown
+replaced_by: null
+amended_by: []
+effective_from: null
+effective_date_meaning: effective date of cited change, not necessarily original instrument
+scope: UNKNOWN
+key_changes: []
+cited_in_courses:
+- ke-toan-chi-phi
+curriculum_occurrences:
+- source_id: src-0337
+  page: 1
+  layer: curriculum
+- source_id: src-0337
+  page: 1
+  layer: learner_notes
+- source_id: src-0337
+  page: 2
+  layer: curriculum
+- source_id: src-0337
+  page: 2
+  layer: learner_notes
+- source_id: src-0338
+  page: 1
+  layer: curriculum
+- source_id: src-0338
+  page: 1
+  layer: learner_notes
+- source_id: src-0338
+  page: 2
+  layer: curriculum
+- source_id: src-0338
+  page: 2
+  layer: learner_notes
+- source_id: src-0339
+  page: 1
+  layer: curriculum
+- source_id: src-0339
+  page: 1
+  layer: learner_notes
+- source_id: src-0339
+  page: 2
+  layer: curriculum
+- source_id: src-0339
+  page: 2
+  layer: learner_notes
+variants:
+- Thông tư 53/2006/TT-BTC
+sources: []
+evidence_status: UNKNOWN
+layer: external
+checked_at: '2026-10-11'
+unknown_reason: Chưa đủ bằng chứng đã kiểm tra để kết luận trạng thái và chuỗi sửa
+  đổi hiện hành. Xem nhật ký tìm kiếm; không suy ra còn hiệu lực từ việc chưa thấy
+  văn bản thay thế.
+search_log: research/search_logs/ref_054.json
+record_kind: unverified_reference
+freshness_limit: Snapshot of sources checked on the stated date; not a guarantee that
+  every later amendment has been found.

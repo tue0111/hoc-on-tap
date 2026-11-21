@@ -1,0 +1,84 @@
+ref: Luật ngân sách nhà nước
+status: unknown
+replaced_by: null
+amended_by: []
+effective_from: null
+effective_date_meaning: effective date of cited change, not necessarily original instrument
+scope: UNKNOWN
+key_changes: []
+cited_in_courses:
+- ke-toan-hanh-chinh-su-nghiep
+- tai-chinh-hanh-chinh-su-nghiep
+curriculum_occurrences:
+- source_id: src-0180
+  page: 11
+  layer: curriculum
+- source_id: src-0181
+  page: 1
+  layer: curriculum
+- source_id: src-0181
+  page: 11
+  layer: curriculum
+- source_id: src-0182
+  page: 25
+  layer: curriculum
+- source_id: src-0184
+  page: 2
+  layer: curriculum
+- source_id: src-0184
+  page: 15
+  layer: curriculum
+- source_id: src-0184
+  page: 23
+  layer: curriculum
+- source_id: src-0186
+  page: 50
+  layer: curriculum
+- source_id: src-0186
+  page: 92
+  layer: curriculum
+- source_id: src-0186
+  page: 102
+  layer: curriculum
+- source_id: src-0186
+  page: 142
+  layer: curriculum
+- source_id: src-0186
+  page: 204
+  layer: curriculum
+- source_id: src-0186
+  page: 217
+  layer: curriculum
+- source_id: src-0186
+  page: 225
+  layer: curriculum
+- source_id: src-0192
+  page: 3
+  layer: curriculum
+- source_id: src-0407
+  page: 2
+  layer: curriculum
+variants:
+- 'Luật
+
+  Ngân sách nhà nước'
+- 'Luật Ngân sách nhà
+
+  nước'
+- Luật Ngân sách nhà nước
+- 'Luật ngân
+
+  sách nhà nước'
+- Luật ngân sách nhà nước
+sources: []
+evidence_status: UNKNOWN
+layer: external
+checked_at: '2026-10-11'
+unknown_reason: Trích dẫn thiếu số hiệu/năm hoặc chỉ tên chuẩn mực; chưa định danh
+  chắc chắn văn bản và phiên bản. Chưa đủ bằng chứng đã kiểm tra để kết luận trạng
+  thái và chuỗi sửa đổi hiện hành. Xem nhật ký tìm kiếm; không suy ra còn hiệu lực
+  từ việc chưa thấy văn bản thay thế.
+search_log: research/search_logs/ref_021.json
+record_kind: unverified_reference
+freshness_limit: Snapshot of sources checked on the stated date; not a guarantee that
+  every later amendment has been found.

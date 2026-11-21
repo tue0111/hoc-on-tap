@@ -1,0 +1,32 @@
+# Proposals only (Pha B must not edit source_registry_overrides.yaml). For Pha C / learner review.
+course_id: ke-toan-thue-1
+proposed_at: "2026-11-21"
+proposals:
+  - source_id: src-0539
+    file: "Kế toán thuế 1/Chương mở đầu/KeToanThue1_Script.docx"
+    current: {source_role: unknown, authority: 8, index_include: true}
+    proposed: {content_role: lecture_note}
+    reason: >
+      Page 1 header reads "BÀI GIẢNG DẠNG VĂN BẢN (SCRIPT) / Môn học: Kế toán thuế 1 / Chương 0: Giới thiệu môn học",
+      same format as the chapter 1-5 script PDFs (lecture_note, authority 2). Inventory role 'unknown' comes from the docx
+      extension, not the content.
+    evidence: {page: 1, evidence_status: OBSERVED}
+    gate_impact: none observed (gate passes with current role)
+  - source_id: src-0542
+    file: "Kế toán thuế 1/Tài liệu ôn tập và Đề thi mẫu/ACCO2311_HUONG DAN HOC TAP_KT Thue 1.pdf"
+    current: {source_role: syllabus, authority: 1, chapter: null}
+    proposed: {content_role: summary}
+    reason: >
+      Study guide listing per chủ đề "Xem video chủ đề, đọc script chủ đề" and quiz tasks (pages 1-6); other courses map
+      "Hướng dẫn ôn tập/học tập" to summary. With authority 1 and chapter null it can outrank chapter scripts for generic
+      questions (seen in th-s02 top-2). Low priority: no eval row fails because of it.
+    evidence: {page: 1, evidence_status: INFERRED}
+    gate_impact: none observed
+not_extracted:
+  reason: "pptx extractor not wired (non-learner pptx); enabling it is an engine change (escalate, not done)"
+  coverage_note: >
+    24 topic slide decks (src-0491..src-0537, odd ids) each have a script PDF for the same chủ đề (next src id), and
+    KeToanThue1_Slide.pptx (src-0540, Chương mở đầu) has the DOCX script src-0539. No PPTX-only topic exists.
+  source_ids: [src-0491, src-0493, src-0495, src-0497, src-0499, src-0501, src-0503, src-0505, src-0507, src-0509, src-0511,
+               src-0513, src-0515, src-0517, src-0519, src-0521, src-0523, src-0525, src-0527, src-0529, src-0531, src-0533,
+               src-0535, src-0537, src-0540]

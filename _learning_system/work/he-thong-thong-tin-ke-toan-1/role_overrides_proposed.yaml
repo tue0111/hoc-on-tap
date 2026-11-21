@@ -1,0 +1,54 @@
+# Proposals only (W6b phase B). Not applied: curriculum/source_registry_overrides.yaml is shared.
+# Phase C decides. Current build uses the inventory roles unchanged.
+course_id: he-thong-thong-tin-ke-toan-1
+proposed_at: "2026-11-21"
+proposals:
+  - source_id: src-0341
+    file: "Chia sẻ tài liệu/Owen G. - Using Microsoft Excel for Accounting.pdf"
+    current: {source_role: unknown, authority: 8, index_include: true}
+    proposed: {content_role: reference, authority: 6, index_include: true}
+    reason: >
+      English reference textbook (Glenn Owen, Using Microsoft Excel & Access for Accounting, Cengage).
+      The course study guide lists it as supplementary material, not main material:
+      "1.2 Học liệu bổ trợ (tài liệu tham khảo) [2] Glenn Owen (2017), Using Microsoft Excel & Access 2016 for Accounting."
+    evidence: [{source_id: src-0406, page: 1}, {source_id: src-0341, page: 2}]
+    evidence_status: OBSERVED
+    dilution_check: >
+      386 pages, 767,909 chars (81% of course chars), 804 of 1036 chunks. In the first eval run (24 rows)
+      src-0341 appears in 0 of 24 top-5 lists (Vietnamese queries do not match English text), so no
+      measured dilution. index_include: false is NOT proposed now. Revisit if English queries are
+      added or if chunk volume affects IDF for other rows.
+  - source_id: src-0343
+    file: "Chương 1/ba__i______c_Ch____ng_1.pdf"
+    current: {source_role: unknown, authority: 8}
+    proposed: {content_role: reference, authority: 6}
+    reason: >
+      External student research paper, not course material: "Tuyển tập Báo cáo Hội nghị Sinh viên Nghiên cứu
+      Khoa học lần thứ 8 Đại học Đà Nẵng năm 2012 / ỨNG DỤNG EXCEL TRONG CÔNG TÁC KẾ TOÁN VỐN BẰNG TIỀN".
+    evidence: [{source_id: src-0343, page: 1}]
+    evidence_status: OBSERVED
+  - source_id: [src-0352, src-0362, src-0376, src-0388, src-0399]
+    file: "Chương N/Tailieuthamkhao_ChuongN.pdf"
+    current: {source_role: unknown, authority: 8}
+    proposed: {content_role: reference, authority: 6}
+    reason: >
+      One-to-two page reading guides per chapter, header "HƯỚNG DẪN – TÀI LIỆU THAM KHẢO", pointing to
+      textbook pages ("Đọc sách giáo trình: trang 5-8, trang 20-22").
+    evidence: [{source_id: src-0352, page: 1}]
+    evidence_status: OBSERVED
+  - source_id: [src-0340, src-0345, src-0346, src-0347, src-0348, src-0356, src-0357, src-0358, src-0366, src-0367,
+                src-0368, src-0369, src-0380, src-0381, src-0382, src-0383, src-0393, src-0394, src-0395]
+    proposed: no change (already index_include false via unsupported_extension .xls/.xlsm; not converted)
+registry_proposals:
+  - field: explicit_prerequisites_family
+    value: ke-toan-tai-chinh
+    which_part: UNKNOWN
+    quote: "Môn học HTTTKT 1 là môn chuyên ngành; được học sau môn kế toán tài chính."
+    source_id: src-0404
+    page: 2
+    evidence_status: OBSERVED
+    note: "NLKT is not named; no explicit_prerequisites entry is proposed for NLKT or KTTC1 specifically."
+script_proposals:
+  - file: scripts/v3_validate_concepts.py
+    change: 'add "he-thong-thong-tin-ke-toan-1": "httt1" to PREFIX (validator crashes on a course missing from PREFIX).'
+    workaround_used: work/he-thong-thong-tin-ke-toan-1/validate.py patches PREFIX in memory only.

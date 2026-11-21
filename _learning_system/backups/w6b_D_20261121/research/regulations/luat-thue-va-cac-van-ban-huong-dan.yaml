@@ -1,0 +1,29 @@
+ref: Luật thuế và các văn bản hướng dẫn
+status: unknown
+replaced_by: null
+amended_by: []
+effective_from: null
+effective_date_meaning: effective date of cited change, not necessarily original instrument
+scope: UNKNOWN
+key_changes: []
+cited_in_courses:
+- ke-toan-tai-chinh-2
+curriculum_occurrences:
+- source_id: src-0304
+  page: 43
+  layer: curriculum
+- source_id: src-0332
+  page: 1
+  layer: curriculum
+variants:
+- luật thuế và các văn bản hướng dẫn
+sources: []
+evidence_status: UNKNOWN
+layer: external
+checked_at: '2026-10-11'
+unknown_reason: Ứng viên regex chưa được xác nhận là tên văn bản; giữ nguyên dấu vết
+  nguồn để rà soát, không dùng làm căn cứ pháp lý.
+search_log: research/search_logs/ref_032.json
+record_kind: unverified_reference
+freshness_limit: Snapshot of sources checked on the stated date; not a guarantee that
+  every later amendment has been found.

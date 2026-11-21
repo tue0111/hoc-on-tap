@@ -1,0 +1,37 @@
+ref: Luật 67/2011/QH12
+status: unknown
+replaced_by: null
+amended_by: []
+effective_from: null
+effective_date_meaning: effective date of cited change, not necessarily original instrument
+scope: UNKNOWN
+key_changes: []
+cited_in_courses:
+- kiem-toan-1
+curriculum_occurrences:
+- source_id: src-0040
+  page: 3
+  layer: curriculum
+- source_id: src-0040
+  page: 3
+  layer: learner_notes
+- source_id: src-0040
+  page: 6
+  layer: curriculum
+- source_id: src-0040
+  page: 6
+  layer: learner_notes
+variants:
+- Luật Kiểm toán độc lập số 67/2011/QH12
+- Luật số 67/2011/QH12
+sources: []
+evidence_status: UNKNOWN
+layer: external
+checked_at: '2026-10-11'
+unknown_reason: Chưa đủ bằng chứng đã kiểm tra để kết luận trạng thái và chuỗi sửa
+  đổi hiện hành. Xem nhật ký tìm kiếm; không suy ra còn hiệu lực từ việc chưa thấy
+  văn bản thay thế.
+search_log: research/search_logs/ref_009.json
+record_kind: unverified_reference
+freshness_limit: Snapshot of sources checked on the stated date; not a guarantee that
+  every later amendment has been found.

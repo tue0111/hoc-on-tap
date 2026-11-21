@@ -1,0 +1,10 @@
+{
+  "course_id": "ke-toan-hanh-chinh-su-nghiep",
+  "thresholds": {
+    "dup": 0.85,
+    "distinct": 0.5
+  },
+  "pairs": [],
+  "mid_band_scopes": [],
+  "REVIEW": []
+}

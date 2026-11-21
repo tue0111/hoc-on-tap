@@ -1,0 +1,476 @@
+{
+ "checked": 67,
+ "bad": [],
+ "not_in_inventory": [],
+ "rows": [
+  {
+   "source_id": "src-0340",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chia sẻ tài liệu/FileExcel_BCTC songngu.xlsm",
+   "sha256": "85c00cc91f3e8a9281ea11f2c5ffcc9b5425afaff2688b6d40cf913855f0ca6c",
+   "size": 2429119,
+   "match": true
+  },
+  {
+   "source_id": "src-0341",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chia sẻ tài liệu/Owen G. - Using Microsoft Excel for Accounting.pdf",
+   "sha256": "112976c8bacb38c17ba532fddf1e59ff86185e20d57732770f0e38861404f6bd",
+   "size": 20077081,
+   "match": true
+  },
+  {
+   "source_id": "src-0342",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương 1/HTTTKT1___Chuong1___TongQuan____VuQuocThong___TC.pptx",
+   "sha256": "fa1a86706d0e8bc854c5c96e43d6c0d69c274523b6d0fef074b5646a95c77d07",
+   "size": 2031285,
+   "match": true
+  },
+  {
+   "source_id": "src-0343",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương 1/ba__i______c_Ch____ng_1.pdf",
+   "sha256": "4452026ece2dddd2d02bbfbb73c04228bb41da31432b1b889818d0984a0df50f",
+   "size": 612323,
+   "match": true
+  },
+  {
+   "source_id": "src-0344",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương 1/script.pdf",
+   "sha256": "5069a5092e04211228424f1e7869f81735d43e15ef6411d586e70cf475e443d8",
+   "size": 555643,
+   "match": true
+  },
+  {
+   "source_id": "src-0345",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương 2/Baitap_Chuong2 (1).xls",
+   "sha256": "902b336045ddff6ae2c9ddc7b85f92ae73101860671a35b3139e451758b4540c",
+   "size": 233984,
+   "match": true
+  },
+  {
+   "source_id": "src-0346",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương 2/Baitap_Chuong2 (2).xls",
+   "sha256": "902b336045ddff6ae2c9ddc7b85f92ae73101860671a35b3139e451758b4540c",
+   "size": 233984,
+   "match": true
+  },
+  {
+   "source_id": "src-0347",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương 2/Baitap_Chuong2 (3).xls",
+   "sha256": "902b336045ddff6ae2c9ddc7b85f92ae73101860671a35b3139e451758b4540c",
+   "size": 233984,
+   "match": true
+  },
+  {
+   "source_id": "src-0348",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương 2/Baitap_Chuong2.xls",
+   "sha256": "902b336045ddff6ae2c9ddc7b85f92ae73101860671a35b3139e451758b4540c",
+   "size": 233984,
+   "match": true
+  },
+  {
+   "source_id": "src-0349",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương 2/HTTTKT1___Chuong2___ToChucDuLieuKeToan___VuQuocThong___TC___video1.pptx",
+   "sha256": "009455ba2cbda74f076e2043d6511c00dc4ced9678c07cb819260d66bfda3254",
+   "size": 158262,
+   "match": true
+  },
+  {
+   "source_id": "src-0350",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương 2/HTTTKT1___Chuong2___ToChucDuLieuKeToan___VuQuocThong___TC___video2.pptx",
+   "sha256": "382e83c541678694032337b4b1b8cfe2d828d966ba9cd7fd19f5a05889592748",
+   "size": 95445,
+   "match": true
+  },
+  {
+   "source_id": "src-0351",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương 2/HTTTKT1___Chuong2___ToChucDuLieuKeToan___VuQuocThong___TC___video3.pptx",
+   "sha256": "1061aac2f85f94ce648372e532f5700ac8570b7dc4205bb10904a55f945db284",
+   "size": 385458,
+   "match": true
+  },
+  {
+   "source_id": "src-0352",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương 2/Tailieuthamkhao_Chuong2.pdf",
+   "sha256": "18354effcf4111f02ee652f2e0cf67e5555fa3b96b2eb6369c56fb30f3efdb2e",
+   "size": 273257,
+   "match": true
+  },
+  {
+   "source_id": "src-0353",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương 2/script (1).pdf",
+   "sha256": "2f60a08a192e85db165b73c2402065e12cf88aec8f58edcdd20d8a9bdddb0ede",
+   "size": 471728,
+   "match": true
+  },
+  {
+   "source_id": "src-0354",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương 2/script (2).pdf",
+   "sha256": "2b205267899b63ed26dbf0ce467544714688aea9b818072cf79d6ec138b435a2",
+   "size": 468380,
+   "match": true
+  },
+  {
+   "source_id": "src-0355",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương 2/script.pdf",
+   "sha256": "2ee5d1c8223ff73ca2739644dbe262c3de3827aa744deeecc701ae9a813f20dc",
+   "size": 546074,
+   "match": true
+  },
+  {
+   "source_id": "src-0356",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương 3/Baitap_Coloigiai_Chuong3 (1).xls",
+   "sha256": "4fd5ad89d2c63eafb5b7818eb05770b89541d41c26adeeff0db872bea44130b5",
+   "size": 377856,
+   "match": true
+  },
+  {
+   "source_id": "src-0357",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương 3/Baitap_Coloigiai_Chuong3 (2).xls",
+   "sha256": "4fd5ad89d2c63eafb5b7818eb05770b89541d41c26adeeff0db872bea44130b5",
+   "size": 377856,
+   "match": true
+  },
+  {
+   "source_id": "src-0358",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương 3/Baitap_Coloigiai_Chuong3.xls",
+   "sha256": "4fd5ad89d2c63eafb5b7818eb05770b89541d41c26adeeff0db872bea44130b5",
+   "size": 377856,
+   "match": true
+  },
+  {
+   "source_id": "src-0359",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương 3/HTTTKT1__Chuong3.1___NKTT_NKCT.pptx",
+   "sha256": "76292ef6c1c5936c909192b22f8b024a50768bd96284d2a1522c127f29a4f4cd",
+   "size": 517021,
+   "match": true
+  },
+  {
+   "source_id": "src-0360",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương 3/HTTTKT1__Chuong3.2___NKMH_NKBH.pptx",
+   "sha256": "73c873514266c7e90a7a830154f8984e4aa0a7b39d59b54465d139a902169818",
+   "size": 280462,
+   "match": true
+  },
+  {
+   "source_id": "src-0361",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương 3/HTTTKT1__Chuong3.3___NhatKyChung.pptx",
+   "sha256": "128277851910db9fda0db80903714f4a815d2fb04f165cc46b39c2c37a4d8295",
+   "size": 214144,
+   "match": true
+  },
+  {
+   "source_id": "src-0362",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương 3/Tailieuthamkhao_Chuong3.pdf",
+   "sha256": "1f154a289e09551d8f94ff77f2569f9aa2fa5787d067eb5279ceb06837abce96",
+   "size": 385152,
+   "match": true
+  },
+  {
+   "source_id": "src-0363",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương 3/script (1).pdf",
+   "sha256": "2aa185a18f1ad46e7aa6010bdc3d4d367863ef1c4c4387fae3e4e912ce24bbff",
+   "size": 521149,
+   "match": true
+  },
+  {
+   "source_id": "src-0364",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương 3/script (2).pdf",
+   "sha256": "d76b4db1628687bceea0a1d31aa69d2e1ec528f1f1db31902df85cf1df7a11cf",
+   "size": 503301,
+   "match": true
+  },
+  {
+   "source_id": "src-0365",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương 3/script.pdf",
+   "sha256": "651052be9d3db32a5e4a70651eb9c0fc13d658c37f9c5b2be34c92fd582ff9a3",
+   "size": 511620,
+   "match": true
+  },
+  {
+   "source_id": "src-0366",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương 4/Baitap_Chuong4 (1).xls",
+   "sha256": "60c2bbf6f20ea48bb0bc3ff6e84e9f26d851095d6a2295bf27bd716acf73520a",
+   "size": 285696,
+   "match": true
+  },
+  {
+   "source_id": "src-0367",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương 4/Baitap_Chuong4 (2).xls",
+   "sha256": "60c2bbf6f20ea48bb0bc3ff6e84e9f26d851095d6a2295bf27bd716acf73520a",
+   "size": 285696,
+   "match": true
+  },
+  {
+   "source_id": "src-0368",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương 4/Baitap_Chuong4 (3).xls",
+   "sha256": "60c2bbf6f20ea48bb0bc3ff6e84e9f26d851095d6a2295bf27bd716acf73520a",
+   "size": 285696,
+   "match": true
+  },
+  {
+   "source_id": "src-0369",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương 4/Baitap_Chuong4.xls",
+   "sha256": "60c2bbf6f20ea48bb0bc3ff6e84e9f26d851095d6a2295bf27bd716acf73520a",
+   "size": 285696,
+   "match": true
+  },
+  {
+   "source_id": "src-0370",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương 4/HTTTKT1___Chuong4___Clip1___SoChiTietThanhToan.pptx",
+   "sha256": "f71c63ca0bb6b833e4453b8f5f95f3bceafb2a831f79e1e38ed4332b5b985985",
+   "size": 251815,
+   "match": true
+  },
+  {
+   "source_id": "src-0371",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương 4/HeThongThongTinKeToan1___Chuong4___Clip2___SoChiTietTienMat.pptx",
+   "sha256": "8388b2cde174891a1d47a92a38c88ec382daa3fc8cc99870dca4ecf5c3aad9b0",
+   "size": 172290,
+   "match": true
+  },
+  {
+   "source_id": "src-0372",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương 4/HeThongThongTinKeToan1___Chuong4___Clip3___SoChiTietHangTonKho.pptx",
+   "sha256": "2854263488c4f6f13d63b86195d74316c20472ee1b9d8c52e2a8c2f5c4ff362e",
+   "size": 198903,
+   "match": true
+  },
+  {
+   "source_id": "src-0373",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương 4/HeThongThongTinKeToan1___Chuong4___Clip4___SoChiPhiSanXuatKinhDoanh.pptx",
+   "sha256": "ec71692c4177b5905a93e4fb22ea22996060b42eb121263ec648b3d4bc53f7d7",
+   "size": 184349,
+   "match": true
+  },
+  {
+   "source_id": "src-0374",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương 4/HeThongThongTinKeToan1___Chuong4___Clip5___TheTinhGiaThanhSanPham.pptx",
+   "sha256": "4b281d6580a71f77abef910bb934218abc1ba31f09776222f959d4af5bb05c04",
+   "size": 146030,
+   "match": true
+  },
+  {
+   "source_id": "src-0375",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương 4/HeThongThongTinKeToan1___Chuong4___Clip6___SoCaiTaiKhoanTongHop.pptx",
+   "sha256": "7d034c9029e155b833374bb2c0ca03fa31acb32defd3eb5de92d820a759d13e1",
+   "size": 186140,
+   "match": true
+  },
+  {
+   "source_id": "src-0376",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương 4/Tailieuthamkhao_Chuong4.pdf",
+   "sha256": "2f7cdebc4816f81aed8359c6e372de7386d8dcb11e902339371b639ab742f19a",
+   "size": 381392,
+   "match": true
+  },
+  {
+   "source_id": "src-0377",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương 4/script (1).pdf",
+   "sha256": "15c6e1750754095985aa28f37f63db8f448790d6df41a4b5c3535289ab95c8dd",
+   "size": 477301,
+   "match": true
+  },
+  {
+   "source_id": "src-0378",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương 4/script (2).pdf",
+   "sha256": "cd678a2e8012e236c0baca25710619895dbf4d326e1e7788266e0c7243f0e095",
+   "size": 492133,
+   "match": true
+  },
+  {
+   "source_id": "src-0379",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương 4/script.pdf",
+   "sha256": "6e4f2f6fc8646c7f1b3d2cc15334a16d25f5c88eabcee44ee6f1fb03ab8106a3",
+   "size": 468939,
+   "match": true
+  },
+  {
+   "source_id": "src-0380",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương 5/Baitap_Chuong5 (1).xls",
+   "sha256": "c54d954b56bdb2fa7a6ffb19fa91fcd19a6e43386a95895a40a45dff2edd43c7",
+   "size": 284672,
+   "match": true
+  },
+  {
+   "source_id": "src-0381",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương 5/Baitap_Chuong5 (2).xls",
+   "sha256": "c54d954b56bdb2fa7a6ffb19fa91fcd19a6e43386a95895a40a45dff2edd43c7",
+   "size": 284672,
+   "match": true
+  },
+  {
+   "source_id": "src-0382",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương 5/Baitap_Chuong5 (3).xls",
+   "sha256": "c54d954b56bdb2fa7a6ffb19fa91fcd19a6e43386a95895a40a45dff2edd43c7",
+   "size": 284672,
+   "match": true
+  },
+  {
+   "source_id": "src-0383",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương 5/Baitap_Chuong5.xls",
+   "sha256": "c54d954b56bdb2fa7a6ffb19fa91fcd19a6e43386a95895a40a45dff2edd43c7",
+   "size": 284672,
+   "match": true
+  },
+  {
+   "source_id": "src-0384",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương 5/HTTTKT1___Chuong5___Clip2___BangTongHopChiTietHangTonKho.pptx",
+   "sha256": "60c5b06dc39cadc60443aae9db8d60dd3f7ad3dc6ec59654d0714214c8b62b4e",
+   "size": 139192,
+   "match": true
+  },
+  {
+   "source_id": "src-0385",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương 5/HTTTKT1___Chuong5___Clip3___BangTongHopChiTietCongNo.pptx",
+   "sha256": "0bf330fbaf775d5aa4530d111bdfac4bb60c07771b5f947ad7d3d4b7be7b5c46",
+   "size": 182165,
+   "match": true
+  },
+  {
+   "source_id": "src-0386",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương 5/HTTTKT1___Chuong5___Clip4___BangTHCT_CacTaiKhoanKhac.pptx",
+   "sha256": "4e4233cae2c1142812f37240ed5bba05c5963a6b11ba69024a7f41b180aeaac6",
+   "size": 190282,
+   "match": true
+  },
+  {
+   "source_id": "src-0387",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương 5/HeThongThongTinKeToan1___Chuong5___Clip1___BangCanDoiSoPhatSinh.pptx",
+   "sha256": "0e99617be950f9c4d55c50b2bf5e376608b07abd793f5ea7b7f7c05f4e0c8595",
+   "size": 236594,
+   "match": true
+  },
+  {
+   "source_id": "src-0388",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương 5/Tailieuthamkhao_Chuong5.pdf",
+   "sha256": "882c7bac1324daad52f75cb7395695e62a11a013f61dfeff63dba972a180e000",
+   "size": 386566,
+   "match": true
+  },
+  {
+   "source_id": "src-0389",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương 5/script (1).pdf",
+   "sha256": "1307aeaf06d181d3a3815443a6910d8715a20a5925da72275b47d03e6096b39b",
+   "size": 463098,
+   "match": true
+  },
+  {
+   "source_id": "src-0390",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương 5/script (2).pdf",
+   "sha256": "555b1fbc3034e3eedd09cd1a137957b0b955e3a72deb3f1d71368ec44d0b9d14",
+   "size": 478780,
+   "match": true
+  },
+  {
+   "source_id": "src-0391",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương 5/script (3).pdf",
+   "sha256": "8bd10069a0e9c4198a74fb28d509482c54e029b3f5a81dbd5b72168a499fc272",
+   "size": 465519,
+   "match": true
+  },
+  {
+   "source_id": "src-0392",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương 5/script.pdf",
+   "sha256": "2409398836f99b8f18e2de9f8e49a97c87c63429b5eea7435ba1a78ba19232d0",
+   "size": 481217,
+   "match": true
+  },
+  {
+   "source_id": "src-0393",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương 6/Baitap_Chuong6 (1).xls",
+   "sha256": "478a3e47cc962d85cd8973ec3605a56f1dd4b0384f8e121f838b206e3864b566",
+   "size": 326144,
+   "match": true
+  },
+  {
+   "source_id": "src-0394",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương 6/Baitap_Chuong6 (2).xls",
+   "sha256": "478a3e47cc962d85cd8973ec3605a56f1dd4b0384f8e121f838b206e3864b566",
+   "size": 326144,
+   "match": true
+  },
+  {
+   "source_id": "src-0395",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương 6/Baitap_Chuong6.xls",
+   "sha256": "478a3e47cc962d85cd8973ec3605a56f1dd4b0384f8e121f838b206e3864b566",
+   "size": 326144,
+   "match": true
+  },
+  {
+   "source_id": "src-0396",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương 6/HTTTKT1___Chuong6___LapBCTCtrenBangTinh___P1___TC.pptx",
+   "sha256": "1d75222d249d3eb2d098340976afc7123b976727aa86d360ab8ee083e8089d6f",
+   "size": 456467,
+   "match": true
+  },
+  {
+   "source_id": "src-0397",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương 6/HTTTKT1___Chuong6___LapBCTCtrenBangTinh___P2___TC.pptx",
+   "sha256": "b76b85c38feacd3041ea67f3b49fef3e6ca0dff41dce3f7fd40bd8d9b82091cc",
+   "size": 204277,
+   "match": true
+  },
+  {
+   "source_id": "src-0398",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương 6/HTTTKT1___Chuong6___LapBCTCtrenBangTinh___P3___TC.pptx",
+   "sha256": "1b8c21f825c38438ac8ba1f0eb5d3594a01c44a1086a401a7e69e768dc3db5f5",
+   "size": 283793,
+   "match": true
+  },
+  {
+   "source_id": "src-0399",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương 6/Tailieuthamkhao_Chuong6.pdf",
+   "sha256": "d93487f730dd5f9aabf9490deafbcc69630f1fecd792fead550f98d6c1ad91da",
+   "size": 390506,
+   "match": true
+  },
+  {
+   "source_id": "src-0400",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương 6/script (1).pdf",
+   "sha256": "752614acd6922180f5c2288344a5f45368a9b1d786f0d69ce382c0c85a0b0599",
+   "size": 462799,
+   "match": true
+  },
+  {
+   "source_id": "src-0401",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương 6/script (2).pdf",
+   "sha256": "7216c4b76678d5cd6bd8a0b928bda0290433da4e94ade6424be7294dfdba6588",
+   "size": 467460,
+   "match": true
+  },
+  {
+   "source_id": "src-0402",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương 6/script.pdf",
+   "sha256": "cc795a49e88445db02cb759bf51bd94953429a47bcbfb0ffb9bb017293f59ea4",
+   "size": 491043,
+   "match": true
+  },
+  {
+   "source_id": "src-0403",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương mở đầu/HTTTKT1___Chuong0___GioiThieu____VuQuocThong___TC.pptx",
+   "sha256": "1eca3013c17bc5d12487bbfa456e10a50d4981b6dcf789f89ec511af8095bc3c",
+   "size": 2611938,
+   "match": true
+  },
+  {
+   "source_id": "src-0404",
+   "relative_path": "Hệ thống thông tin kế toán 1/Chương mở đầu/script.pdf",
+   "sha256": "16b4a6d48ff91bed3bdaebe707142ca4925a26dad6f6f6c880d5a8efcfa4689b",
+   "size": 483533,
+   "match": true
+  },
+  {
+   "source_id": "src-0405",
+   "relative_path": "Hệ thống thông tin kế toán 1/TÀI LIỆU HƯỚNG DẪN ÔN TẬP - ĐỀ THI MẪU/ACCO3315_HTTTKT1_De thi giay_MAU.pdf",
+   "sha256": "492718cd7936618a60da4bf72f6f35a5c500cc652b6ef84bfeea37f94cafac07",
+   "size": 309555,
+   "match": true
+  },
+  {
+   "source_id": "src-0406",
+   "relative_path": "Hệ thống thông tin kế toán 1/TÀI LIỆU HƯỚNG DẪN ÔN TẬP - ĐỀ THI MẪU/ACCO3315_HgdanOntap-HTTTKT1_TMNgoc.pdf",
+   "sha256": "e4da1a0d7719d97aa08f1a0f4885cd4bc4e310e0467494de77f38962dc18041b",
+   "size": 245923,
+   "match": true
+  }
+ ]
+}

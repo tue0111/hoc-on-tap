@@ -1,0 +1,45 @@
+ref: Thông tư 228/2009
+status: replaced
+replaced_by: Thông tư 48/2019/TT-BTC
+amended_by: []
+effective_from: null
+effective_date_meaning: effective date of cited change, not necessarily original instrument
+scope: Trích dẫn "thông tư 228/2009" (không đuôi) được hiểu là TT 228/2009/TT-BTC
+  về trích lập dự phòng; quy định dự phòng hiện do TT 48/2019/TT-BTC (sửa bởi TT 24/2022/TT-BTC)
+  điều chỉnh. Chưa đọc được điều khoản bãi bỏ và ngày hiệu lực chính xác của sự thay
+  thế.
+key_changes:
+- text: Hỏi đáp BTC so sánh quy định cũ của TT 228 với TT 48/2019 về dự phòng đầu
+    tư.
+  source_url: https://portal.mof.gov.vn/hoidapcstc/home/cthoidap/102186
+cited_in_courses:
+- ke-toan-tai-chinh-3
+curriculum_occurrences:
+- source_id: src-0543
+  page: 1
+  layer: curriculum
+- source_id: src-0543
+  page: 2
+  layer: curriculum
+- source_id: src-0590
+  page: 1
+  layer: curriculum
+variants:
+- thông tư 228/2009
+sources:
+- url: https://portal.mof.gov.vn/hoidapcstc/home/cthoidap/102186
+  publisher: portal.mof.gov.vn
+  retrieved_at: '2026-11-21'
+  authority: official
+- url: https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-48-2019-tt-btc-huong-dan-viec-trich-lap-va-xu-ly-cac-khoan-du-phong-giam-gia-hang-ton-kho-ton-that-cac-khoan-dau-tu-no-phai-thu-kho-doi-va-bao-hanh-san-pham-hang-hoa-dich-vu-cong-trinh-xay-dung-tai-doanh-nghiep--137176
+  publisher: vbpl.vn
+  retrieved_at: '2026-11-21'
+  authority: official
+evidence_status: INFERRED
+layer: external
+checked_at: '2026-11-21'
+unknown_reason: null
+search_log: research/search_logs/ref_114.json
+record_kind: verified_status
+freshness_limit: Snapshot of sources checked on the stated date; not a guarantee that
+  every later amendment has been found.

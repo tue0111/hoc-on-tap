@@ -1,9 +1,9 @@
 {
-  "references": 67,
-  "records": 69,
-  "verified": 7,
-  "unknown": 62,
-  "chunks": 23,
+  "references": 129,
+  "records": 131,
+  "verified": 31,
+  "unknown": 100,
+  "chunks": 47,
   "downloaded_pdfs": 1,
   "download_unavailable": 10
 }

@@ -1,0 +1,56 @@
+ref: Luật 27/2008/QH12
+status: replaced
+replaced_by: Luật 66/2025/QH15
+amended_by: []
+effective_from: '2026-01-01'
+effective_date_meaning: effective date of cited change, not necessarily original instrument
+scope: Luật Thuế TTĐB 2008 (đã sửa bởi Luật 70/2014, 71/2014, 106/2016, 03/2022) được
+  thay bằng Luật Thuế TTĐB 66/2025/QH15, hiệu lực 01/01/2026. Luật 66/2025 đã được
+  sửa bởi luật sửa đổi 4 luật thuế thông qua 24/04/2026 (thuế suất xe chạy pin). Điều
+  khoản bãi bỏ chưa đọc được trên bản chính thức (PDF quét).
+key_changes:
+- text: Luật Thuế TTĐB 66/2025/QH15 ban hành 14/06/2025, hiệu lực 01/01/2026.
+  source_url: https://vanban.chinhphu.vn/?pageid=27160&docid=214598&classid=1&typegroupid=3
+- text: 'Điều 11 Luật 66/2025 (theo nguồn phụ): Luật 27/2008 đã sửa bởi 70/2014, 71/2014,
+    106/2016, 03/2022 hết hiệu lực từ ngày luật mới có hiệu lực.'
+  source_url: https://thuvienphapluat.vn/ma-so-thue/phap-luat-thue/luat-thue-tieu-thu-dac-biet-2008-co-con-hieu-luc-khong-651508-207984.html
+- text: Luật sửa đổi 4 luật thuế (24/04/2026) sửa biểu thuế xe chạy pin tại Điều 8
+    Luật 66/2025.
+  source_url: https://xaydungchinhsach.chinhphu.vn/thong-qua-luat-sua-doi-bo-sung-4-luat-thue-thu-nhap-ca-nhan-thue-gia-tri-gia-tang-thue-thu-nhap-doanh-nghiep-thue-tieu-thu-dac-biet-119260424140703304.htm
+cited_in_courses:
+- ke-toan-thue-1
+curriculum_occurrences:
+- source_id: src-0510
+  page: 1
+  layer: curriculum
+- source_id: src-0510
+  page: 2
+  layer: curriculum
+variants:
+- 27/2008/QH12
+- Luật thuế TTĐB số 27/2008/QH12
+sources:
+- url: https://vanban.chinhphu.vn/?pageid=27160&docid=214598&classid=1&typegroupid=3
+  publisher: vanban.chinhphu.vn
+  retrieved_at: '2026-11-21'
+  authority: official
+- url: https://congbao.chinhphu.vn/van-ban/luat-so-66-2025-qh15-45587.htm
+  publisher: congbao.chinhphu.vn
+  retrieved_at: '2026-11-21'
+  authority: official
+- url: https://xaydungchinhsach.chinhphu.vn/thong-qua-luat-sua-doi-bo-sung-4-luat-thue-thu-nhap-ca-nhan-thue-gia-tri-gia-tang-thue-thu-nhap-doanh-nghiep-thue-tieu-thu-dac-biet-119260424140703304.htm
+  publisher: xaydungchinhsach.chinhphu.vn
+  retrieved_at: '2026-11-21'
+  authority: official
+- url: https://thuvienphapluat.vn/ma-so-thue/phap-luat-thue/luat-thue-tieu-thu-dac-biet-2008-co-con-hieu-luc-khong-651508-207984.html
+  publisher: thuvienphapluat.vn
+  retrieved_at: '2026-11-21'
+  authority: secondary
+evidence_status: INFERRED
+layer: external
+checked_at: '2026-11-21'
+unknown_reason: null
+search_log: research/search_logs/ref_072.json
+record_kind: verified_status
+freshness_limit: Snapshot of sources checked on the stated date; not a guarantee that
+  every later amendment has been found.

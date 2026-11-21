@@ -1,0 +1,50 @@
+ref: Luật 38/2019/QH14
+status: replaced
+replaced_by: Luật 108/2025/QH15
+amended_by:
+- Luật 56/2024/QH15
+effective_from: '2026-07-01'
+effective_date_meaning: effective date of cited change, not necessarily original instrument
+scope: Luật QLT 2019 (đã sửa bởi Luật 56/2024) hết hiệu lực từ 01/07/2026, trừ khoản
+  1 và 3 Điều 53 Luật 108/2025; riêng Điều 51 (thuế khoán) hết hiệu lực từ 01/01/2026.
+  Miễn, giảm, không thu phát sinh trước 01/07/2026 tiếp tục xử lý theo Luật 38/2019.
+  Điều 13 và hóa đơn điện tử của hộ, cá nhân kinh doanh (Điều 26) Luật 108 hiệu lực
+  từ 01/01/2026.
+key_changes:
+- text: 'Khoản 3 Điều 52 Luật 108/2025: Luật 38/2019 đã sửa theo Luật 56/2024 hết
+    hiệu lực từ 01/07/2026, trừ khoản 1, 3 Điều 53; Điều 51 hết hiệu lực từ 01/01/2026.'
+  source_url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/3/31/469126-1774925150_v1_1774926294_signed.pdf
+- text: Luật 108/2025/QH15 ban hành 10/12/2025, hiệu lực 01/07/2026.
+  source_url: https://vanban.chinhphu.vn/?pageid=27160&docid=216541&classid=1&orggroupid=1
+- text: 'Chuyển tiếp: miễn, giảm, không thu phát sinh trước 01/07/2026 xử lý theo
+    Luật 38/2019; nợ thuế đến 30/06/2026 xử lý theo Luật 108.'
+  source_url: https://xaydungchinhsach.chinhphu.vn/nhung-diem-moi-noi-dung-trong-tam-cua-luat-quan-ly-thue-so-108-2025-qh15-119260713105610538.htm
+cited_in_courses:
+- ke-toan-thue-1
+curriculum_occurrences:
+- source_id: src-0492
+  page: 1
+  layer: curriculum
+variants:
+- Luật Quản lý thuế số 38/2019/QH14
+sources:
+- url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/3/31/469126-1774925150_v1_1774926294_signed.pdf
+  publisher: congbaocdn.chinhphu.vn
+  retrieved_at: '2026-11-21'
+  authority: official
+- url: https://vanban.chinhphu.vn/?pageid=27160&docid=216541&classid=1&orggroupid=1
+  publisher: vanban.chinhphu.vn
+  retrieved_at: '2026-11-21'
+  authority: official
+- url: https://xaydungchinhsach.chinhphu.vn/nhung-diem-moi-noi-dung-trong-tam-cua-luat-quan-ly-thue-so-108-2025-qh15-119260713105610538.htm
+  publisher: xaydungchinhsach.chinhphu.vn
+  retrieved_at: '2026-11-21'
+  authority: official
+evidence_status: OBSERVED
+layer: external
+checked_at: '2026-11-21'
+unknown_reason: null
+search_log: research/search_logs/ref_074.json
+record_kind: verified_status
+freshness_limit: Snapshot of sources checked on the stated date; not a guarantee that
+  every later amendment has been found.

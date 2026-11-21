@@ -1,0 +1,26 @@
+{
+  "ke-toan-hanh-chinh-su-nghiep": {
+    "file": "evals/v3/ke-toan-hanh-chinh-su-nghiep_retrieval.jsonl",
+    "sha256": "03e575bc1ac60ea770a362c0c7b5b50308b355972dac5184feac2b5e1c7d201d",
+    "first_run_metrics": {
+      "direct_must_include": 1.0,
+      "direct_chapter_at1": 0.9,
+      "source_bound": 1.0,
+      "insufficient": 1.0,
+      "collision_contamination": 0,
+      "account": 1.0,
+      "topic_owner": null
+    },
+    "first_run_gates": {
+      "direct_must_include": true,
+      "direct_chapter_at1": true,
+      "source_bound": true,
+      "insufficient": true,
+      "collision_contamination": true,
+      "account": true,
+      "topic_owner": true
+    },
+    "frozen_at": "2026-11-21",
+    "note": "First run via work/ke-toan-hanh-chinh-su-nghiep/overlay_run.py (in-memory tier=retrieval for this course only; registry on disk still catalog). No tuning rounds used."
+  }
+}

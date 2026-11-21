@@ -1,0 +1,42 @@
+ref: Thông tư 78/2021/TT-BTC
+status: replaced
+replaced_by: Thông tư 32/2025/TT-BTC
+amended_by: []
+effective_from: '2025-06-01'
+effective_date_meaning: effective date of cited change, not necessarily original instrument
+scope: 'TT 78/2021 về hóa đơn, chứng từ được thay bằng TT 32/2025/TT-BTC từ 01/06/2025.
+  Lưu ý: từ 01/07/2026 khung hóa đơn điện tử chuyển sang NĐ 254/2026 và TT 91/2026/TT-BTC
+  (chưa kiểm quan hệ của TT 91 với TT 32).'
+key_changes:
+- text: 'Khoản 1 Điều 12 TT 32/2025: "có hiệu lực thi hành kể từ ngày 01 tháng 6 năm
+    2025 và thay thế Thông tư số 78/2021/TT-BTC".'
+  source_url: https://xaydungchinhsach.chinhphu.vn/mot-so-noi-dung-moi-cua-thong-tu-so-32-2025-tt-btc-ve-hoa-don-chung-tu-119250608110422544.htm
+cited_in_courses:
+- ke-toan-thue-1
+curriculum_occurrences:
+- source_id: src-0534
+  page: 3
+  layer: curriculum
+- source_id: src-0534
+  page: 5
+  layer: curriculum
+variants:
+- Thông tư 78/2021/TT-BTC
+- thông tư 78/2021/TT-BTC
+sources:
+- url: https://xaydungchinhsach.chinhphu.vn/mot-so-noi-dung-moi-cua-thong-tu-so-32-2025-tt-btc-ve-hoa-don-chung-tu-119250608110422544.htm
+  publisher: xaydungchinhsach.chinhphu.vn
+  retrieved_at: '2026-11-21'
+  authority: official
+- url: https://vanban.chinhphu.vn/?pageid=27160&docid=213855
+  publisher: vanban.chinhphu.vn
+  retrieved_at: '2026-11-21'
+  authority: official
+evidence_status: OBSERVED
+layer: external
+checked_at: '2026-11-21'
+unknown_reason: null
+search_log: research/search_logs/ref_124.json
+record_kind: verified_status
+freshness_limit: Snapshot of sources checked on the stated date; not a guarantee that
+  every later amendment has been found.

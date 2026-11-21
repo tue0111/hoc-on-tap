@@ -1,0 +1,45 @@
+ref: Thông tư 107/2017/TT-BTC
+status: replaced
+replaced_by: Thông tư 24/2024/TT-BTC
+amended_by: []
+effective_from: '2025-01-01'
+effective_date_meaning: effective date of cited change, not necessarily original instrument
+scope: Chế độ kế toán hành chính sự nghiệp; TT24 đã có sửa đổi, cần kiểm tra bản đang
+  áp dụng theo thời điểm nghiệp vụ.
+key_changes:
+- text: TT107 hết hiệu lực từ 01/01/2025; chuyển sang TT24 trong phạm vi điều chỉnh
+    của văn bản.
+  source_url: https://ttcg.mof.gov.vn/hoidapcstc/home/cthoidap/152093
+cited_in_courses:
+- ke-toan-hanh-chinh-su-nghiep
+- nguyen-ly-ke-toan
+curriculum_occurrences:
+- source_id: src-0093
+  page: 9
+  layer: curriculum
+- source_id: src-0096
+  page: 3
+  layer: curriculum
+- source_id: src-0409
+  page: 2
+  layer: curriculum
+variants:
+- Thông tư 107/2017/TT-BTC
+- thông tư 107/2017/TT-BTC
+sources:
+- url: https://ttcg.mof.gov.vn/hoidapcstc/home/cthoidap/152093
+  publisher: ttcg.mof.gov.vn
+  retrieved_at: '2026-10-11'
+  authority: official
+- url: https://vbpl.vn/botaichinh/Pages/vbpq-toanvan.aspx?ItemID=166774
+  publisher: vbpl.vn
+  retrieved_at: '2026-10-11'
+  authority: official
+evidence_status: OBSERVED
+layer: external
+checked_at: '2026-10-11'
+unknown_reason: null
+search_log: research/search_logs/ref_042.json
+record_kind: verified_status
+freshness_limit: Snapshot of sources checked on the stated date; not a guarantee that
+  every later amendment has been found.

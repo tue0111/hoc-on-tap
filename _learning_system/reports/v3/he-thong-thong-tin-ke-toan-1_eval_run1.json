@@ -1,0 +1,675 @@
+{
+  "course_id": "he-thong-thong-tin-ke-toan-1",
+  "tag": "_run1",
+  "eval_sha256": "dee08790290945add182df20591b77d24c1bb00df58a84661e4f6e81bb890792",
+  "n": 24,
+  "metrics": {
+    "direct_must_include": 1.0,
+    "direct_chapter_at1": 0.9285714285714286,
+    "source_bound": 0.6666666666666666,
+    "insufficient": 1.0,
+    "collision_contamination": 0,
+    "account": 1.0,
+    "topic_owner": null
+  },
+  "gates": {
+    "direct_must_include": true,
+    "direct_chapter_at1": true,
+    "source_bound": true,
+    "insufficient": true,
+    "collision_contamination": true,
+    "account": true,
+    "topic_owner": true
+  },
+  "all_pass": true,
+  "results": [
+    {
+      "id": "ht-d01",
+      "category": "direct",
+      "question": "Hệ thống thông tin kế toán 1: hệ thống thông tin kế toán gồm những thành phần nào?",
+      "coverage": "partial",
+      "top_sources": [
+        "src-0344",
+        "src-0344",
+        "src-0355",
+        "src-0353",
+        "src-0354"
+      ],
+      "top_chapters": [
+        1,
+        1,
+        2,
+        2,
+        2
+      ],
+      "partition": "he-thong-thong-tin-ke-toan-1",
+      "unknowns": [
+        "no_course_concept_match"
+      ],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "ht-d02",
+      "category": "direct",
+      "question": "HTTTKT1: các nhóm hàm Excel thường dùng trong kế toán gồm những nhóm nào?",
+      "coverage": "partial",
+      "top_sources": [
+        "src-0355",
+        "src-0355",
+        "src-0406",
+        "src-0344",
+        "src-0355"
+      ],
+      "top_chapters": [
+        2,
+        2,
+        null,
+        1,
+        2
+      ],
+      "partition": "he-thong-thong-tin-ke-toan-1",
+      "unknowns": [
+        "no_course_concept_match"
+      ],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "ht-d03",
+      "category": "direct",
+      "question": "HTTTKT1: dữ liệu kế toán được tổ chức trên sheet BDMTK và sheet SOKTMAY như thế nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0353",
+        "src-0402",
+        "src-0352",
+        "src-0365",
+        "src-0364"
+      ],
+      "top_chapters": [
+        2,
+        6,
+        2,
+        3,
+        3
+      ],
+      "partition": "he-thong-thong-tin-ke-toan-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "ht-d04",
+      "category": "direct",
+      "question": "HTTTKT1: thao tác kết chuyển số liệu kế toán cho hoạt động sản xuất trên bảng tính làm thế nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0354",
+        "src-0354",
+        "src-0404",
+        "src-0354",
+        "src-0355"
+      ],
+      "top_chapters": [
+        2,
+        2,
+        0,
+        2,
+        2
+      ],
+      "partition": "he-thong-thong-tin-ke-toan-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "ht-d05",
+      "category": "direct",
+      "question": "Hệ thống thông tin kế toán 1: cách lập sổ nhật ký thu tiền trên Excel?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0365",
+        "src-0365",
+        "src-0365",
+        "src-0362",
+        "src-0406"
+      ],
+      "top_chapters": [
+        3,
+        3,
+        3,
+        3,
+        null
+      ],
+      "partition": "he-thong-thong-tin-ke-toan-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "ht-d06",
+      "category": "direct",
+      "question": "HTTTKT1: sổ nhật ký mua hàng dùng để theo dõi gì và lập ra sao?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0363",
+        "src-0363",
+        "src-0363",
+        "src-0363",
+        "src-0365"
+      ],
+      "top_chapters": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "partition": "he-thong-thong-tin-ke-toan-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "ht-d07",
+      "category": "direct",
+      "question": "HTTTKT1: những nghiệp vụ nào được ghi vào sổ nhật ký chung?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0364",
+        "src-0364",
+        "src-0364",
+        "src-0364",
+        "src-0364"
+      ],
+      "top_chapters": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "partition": "he-thong-thong-tin-ke-toan-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "ht-d08",
+      "category": "direct",
+      "question": "HTTTKT1: lập thẻ tính giá thành sản phẩm bằng hàm DSUM như thế nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0377",
+        "src-0406",
+        "src-0377",
+        "src-0405",
+        "src-0377"
+      ],
+      "top_chapters": [
+        4,
+        null,
+        4,
+        null,
+        4
+      ],
+      "partition": "he-thong-thong-tin-ke-toan-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "ht-d09",
+      "category": "direct",
+      "question": "Hệ thống thông tin kế toán 1: lập sổ cái tài khoản tổng hợp trên bảng tính thế nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0390",
+        "src-0343",
+        "src-0389",
+        "src-0406",
+        "src-0378"
+      ],
+      "top_chapters": [
+        5,
+        1,
+        5,
+        null,
+        4
+      ],
+      "partition": "he-thong-thong-tin-ke-toan-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": false,
+      "contaminated": false,
+      "pass": false
+    },
+    {
+      "id": "ht-d10",
+      "category": "direct",
+      "question": "HTTTKT1: sổ chi phí sản xuất kinh doanh dùng để làm gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0379",
+        "src-0379",
+        "src-0406",
+        "src-0377",
+        "src-0379"
+      ],
+      "top_chapters": [
+        4,
+        4,
+        null,
+        4,
+        4
+      ],
+      "partition": "he-thong-thong-tin-ke-toan-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "ht-d11",
+      "category": "direct",
+      "question": "HTTTKT1: bảng cân đối số phát sinh các tài khoản tổng hợp lập bằng công thức nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0392",
+        "src-0406",
+        "src-0392",
+        "src-0392",
+        "src-0388"
+      ],
+      "top_chapters": [
+        5,
+        null,
+        5,
+        5,
+        5
+      ],
+      "partition": "he-thong-thong-tin-ke-toan-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "ht-d12",
+      "category": "direct",
+      "question": "HTTTKT1: bảng tổng hợp chi tiết công nợ phải thu, phải trả lập thế nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0390",
+        "src-0388",
+        "src-0391",
+        "src-0390",
+        "src-0406"
+      ],
+      "top_chapters": [
+        5,
+        5,
+        5,
+        5,
+        null
+      ],
+      "partition": "he-thong-thong-tin-ke-toan-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "ht-d13",
+      "category": "direct",
+      "question": "Hệ thống thông tin kế toán 1: lập bảng cân đối kế toán trên bảng tính Excel như thế nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0402",
+        "src-0406",
+        "src-0344",
+        "src-0399",
+        "src-0400"
+      ],
+      "top_chapters": [
+        6,
+        null,
+        1,
+        6,
+        6
+      ],
+      "partition": "he-thong-thong-tin-ke-toan-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "ht-d14",
+      "category": "direct",
+      "question": "HTTTKT1: lập báo cáo lưu chuyển tiền tệ theo phương pháp trực tiếp trên bảng tính ra sao?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0401",
+        "src-0399",
+        "src-0404",
+        "src-0399",
+        "src-0406"
+      ],
+      "top_chapters": [
+        6,
+        6,
+        0,
+        6,
+        null
+      ],
+      "partition": "he-thong-thong-tin-ke-toan-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "ht-s01",
+      "category": "source_bound",
+      "question": "Theo chương 3 của Hệ thống thông tin kế toán 1, có những sổ nhật ký nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0364",
+        "src-0365",
+        "src-0363",
+        "src-0365",
+        "src-0364"
+      ],
+      "top_chapters": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "partition": "he-thong-thong-tin-ke-toan-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "ht-s02",
+      "category": "source_bound",
+      "question": "Đề thi mẫu HTTTKT1 gồm những câu hỏi nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0406",
+        "src-0344",
+        "src-0365",
+        "src-0364",
+        "src-0363"
+      ],
+      "top_chapters": [
+        null,
+        1,
+        3,
+        3,
+        3
+      ],
+      "partition": "he-thong-thong-tin-ke-toan-1",
+      "unknowns": [],
+      "must_include": false,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": false
+    },
+    {
+      "id": "ht-s03",
+      "category": "source_bound",
+      "question": "Hướng dẫn ôn tập HTTTKT1 yêu cầu học những gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0406",
+        "src-0352",
+        "src-0388",
+        "src-0376",
+        "src-0362"
+      ],
+      "top_chapters": [
+        null,
+        2,
+        5,
+        4,
+        3
+      ],
+      "partition": "he-thong-thong-tin-ke-toan-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "ht-i01",
+      "category": "insufficient",
+      "question": "Hệ thống thông tin kế toán 1: quy trình kiểm toán gồm những giai đoạn nào?",
+      "coverage": "insufficient",
+      "top_sources": [
+        "src-0344",
+        "src-0344",
+        "src-0344",
+        "src-0406",
+        "src-0355"
+      ],
+      "top_chapters": [
+        1,
+        1,
+        1,
+        null,
+        2
+      ],
+      "partition": "he-thong-thong-tin-ke-toan-1",
+      "unknowns": [
+        "topic_in_other_course:kiem-toan-1",
+        "no_course_concept_match",
+        "topic_owner_hint:kinh-doanh-va-nghiep-vu",
+        "insufficient_curriculum_evidence"
+      ],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "ht-i02",
+      "category": "insufficient",
+      "question": "HTTTKT1: lãi suất tái chiết khấu của ngân hàng trung ương là gì?",
+      "coverage": "insufficient",
+      "top_sources": [
+        "src-0365",
+        "src-0365",
+        "src-0343",
+        "src-0354",
+        "src-0401"
+      ],
+      "top_chapters": [
+        3,
+        3,
+        1,
+        2,
+        6
+      ],
+      "partition": "he-thong-thong-tin-ke-toan-1",
+      "unknowns": [
+        "no_course_concept_match",
+        "term_not_in_course_corpus:tái",
+        "term_not_in_course_corpus:chiết",
+        "term_not_in_course_corpus:khấu",
+        "term_not_in_course_corpus:ương",
+        "topic_in_other_course:ke-toan-ngan-hang",
+        "insufficient_curriculum_evidence"
+      ],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "ht-i03",
+      "category": "insufficient",
+      "question": "Trong HTTTKT1, hợp đồng thương mại vô hiệu khi nào?",
+      "coverage": "insufficient",
+      "top_sources": [
+        "src-0391",
+        "src-0363",
+        "src-0402",
+        "src-0392",
+        "src-0391"
+      ],
+      "top_chapters": [
+        5,
+        3,
+        6,
+        5,
+        5
+      ],
+      "partition": "he-thong-thong-tin-ke-toan-1",
+      "unknowns": [
+        "no_course_concept_match",
+        "term_not_in_course_corpus:thương",
+        "term_not_in_course_corpus:mại",
+        "term_not_in_course_corpus:vô",
+        "topic_in_other_course:luat-kinh-doanh",
+        "insufficient_curriculum_evidence"
+      ],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "ht-c01",
+      "category": "collision",
+      "question": "Chương 1 của Hệ thống thông tin kế toán 1 nói về gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0344",
+        "src-0344",
+        "src-0344",
+        "src-0344",
+        "src-0343"
+      ],
+      "top_chapters": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "partition": "he-thong-thong-tin-ke-toan-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "ht-c02",
+      "category": "collision",
+      "question": "Chương 6 của HTTTKT1 nói về gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0402",
+        "src-0402",
+        "src-0402",
+        "src-0402",
+        "src-0402"
+      ],
+      "top_chapters": [
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "partition": "he-thong-thong-tin-ke-toan-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "ht-a01",
+      "category": "account",
+      "question": "HTTTKT1: tài khoản 621 được theo dõi trên sổ nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0379",
+        "src-0379",
+        "src-0379",
+        "src-0379",
+        "src-0379"
+      ],
+      "top_chapters": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "partition": "he-thong-thong-tin-ke-toan-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "ht-a02",
+      "category": "account",
+      "question": "HTTTKT1: TK 6279 được phân bổ thế nào khi kết chuyển?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0354",
+        "src-0354",
+        "src-0354",
+        "src-0404",
+        "src-0406"
+      ],
+      "top_chapters": [
+        2,
+        2,
+        2,
+        0,
+        null
+      ],
+      "partition": "he-thong-thong-tin-ke-toan-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    }
+  ]
+}

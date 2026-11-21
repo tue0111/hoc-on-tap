@@ -1,0 +1,43 @@
+ref: Luật 17/2017/QH14
+status: replaced
+replaced_by: Luật 32/2024/QH15
+amended_by: []
+effective_from: '2024-07-01'
+effective_date_meaning: effective date of cited change, not necessarily original instrument
+scope: Luật sửa đổi Luật Các tổ chức tín dụng 2010; áp dụng ngoại lệ chuyển tiếp của
+  Luật 32/2024.
+key_changes:
+- text: Khung luật 2010 đã sửa đổi năm 2017 được thay thế, không loại bỏ các quy định
+    chuyển tiếp.
+  source_url: https://xaydungchinhsach.chinhphu.vn/toan-van-luat-cac-to-chuc-tin-dung-119240405135841794.htm
+cited_in_courses:
+- ke-toan-ngan-hang
+curriculum_occurrences:
+- source_id: src-0048
+  page: 5
+  layer: curriculum
+- source_id: src-0048
+  page: 9
+  layer: curriculum
+- source_id: src-0260
+  page: 1
+  layer: curriculum
+- source_id: src-0260
+  page: 5
+  layer: curriculum
+variants:
+- 17/2017/QH14
+- Luật các tổ chức tín dụng số 17/2017/QH14
+sources:
+- url: https://xaydungchinhsach.chinhphu.vn/toan-van-luat-cac-to-chuc-tin-dung-119240405135841794.htm
+  publisher: xaydungchinhsach.chinhphu.vn
+  retrieved_at: '2026-10-11'
+  authority: official
+evidence_status: OBSERVED
+layer: external
+checked_at: '2026-10-11'
+unknown_reason: null
+search_log: research/search_logs/ref_003.json
+record_kind: verified_status
+freshness_limit: Snapshot of sources checked on the stated date; not a guarantee that
+  every later amendment has been found.

@@ -1,0 +1,41 @@
+ref: Thông tư 23/2023/TT-BTC
+status: replaced
+replaced_by: Thông tư 141/2025/TT-BTC
+amended_by: []
+effective_from: '2026-01-01'
+effective_date_meaning: effective date of cited change, not necessarily original instrument
+scope: Chế độ quản lý, tính hao mòn, khấu hao TSCĐ tại cơ quan, tổ chức, đơn vị; TT
+  141/2025 cùng phạm vi, ban hành 31/12/2025, hiệu lực 01/01/2026, có quy định chuyển
+  tiếp tính hao mòn từ số dư 31/12/2025. Chưa đọc nguyên văn điều khoản thay thế.
+key_changes:
+- text: TT 141/2025/TT-BTC hướng dẫn chế độ quản lý, tính hao mòn, khấu hao TSCĐ;
+    hiệu lực 01/01/2026.
+  source_url: https://vanban.chinhphu.vn/?pageid=27160&docid=216466
+- text: Hỏi đáp BTC hướng dẫn chuyển tiếp theo khoản 1 Điều 18 TT 141/2025 (HMLK đến
+    31/12/2025).
+  source_url: https://isa.mof.gov.vn/hoidapcstc/home/cthoidap/160215
+cited_in_courses:
+- ke-toan-hanh-chinh-su-nghiep
+curriculum_occurrences:
+- source_id: src-0487
+  page: 2
+  layer: curriculum
+variants:
+- Thông tư 23/2023/TT-BTC
+sources:
+- url: https://vanban.chinhphu.vn/?pageid=27160&docid=216466
+  publisher: vanban.chinhphu.vn
+  retrieved_at: '2026-11-21'
+  authority: official
+- url: https://isa.mof.gov.vn/hoidapcstc/home/cthoidap/160215
+  publisher: isa.mof.gov.vn
+  retrieved_at: '2026-11-21'
+  authority: official
+evidence_status: INFERRED
+layer: external
+checked_at: '2026-11-21'
+unknown_reason: null
+search_log: research/search_logs/ref_115.json
+record_kind: verified_status
+freshness_limit: Snapshot of sources checked on the stated date; not a guarantee that
+  every later amendment has been found.

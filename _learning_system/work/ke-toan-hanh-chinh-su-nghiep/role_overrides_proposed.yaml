@@ -1,0 +1,17 @@
+# Đề xuất cho phiên chính (Pha C) — KHÔNG tự áp dụng. Phiên B không sửa source_registry_overrides.yaml.
+course_id: ke-toan-hanh-chinh-su-nghiep
+proposed_at: "2026-11-21"
+proposals:
+  - source_id: src-0487
+    file: "Kế toán hành chính sự nghiệp/Chương mở đầu/KeToanHanhChinhSuNghiep_Script.docx"
+    current: {source_role: unknown, authority: 8, index_include: true}
+    proposed: {content_role: lecture_note}
+    reason: >-
+      Trang 1 ghi "BÀI GIẢNG DẠNG VĂN BẢN (SCRIPT) / Môn học: KẾ TOÁN HÀNH CHÍNH SỰ NGHIỆP /
+      Chương mở đầu: Giới thiệu môn học" — cùng loại với các script PDF (lecture_note, authority 2).
+      Role 'unknown' làm authority = 8.
+    page: 1
+    evidence_status: OBSERVED
+    effect_if_applied: "authority 8 -> 2 cho 3 trang synthetic; cần rebuild partition và chạy lại eval (eval đã đóng băng, không sửa)."
+# Không đề xuất thay đổi index_include nào. 41 PPTX (slide) đều có script PDF cùng chủ đề,
+# trừ src-0488 (slide chương mở đầu) đã có docx script src-0487 cùng nội dung.

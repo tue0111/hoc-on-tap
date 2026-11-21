@@ -1,0 +1,42 @@
+ref: Luật 16/2023/QH15
+status: amended
+replaced_by: null
+amended_by:
+- Luật 44/2024/QH15
+- Luật 61/2024/QH15
+- Luật 95/2025/QH15
+effective_from: '2026-01-01'
+effective_date_meaning: effective date of cited change, not necessarily original instrument
+scope: Luật Giá 2023 (hiệu lực 01/07/2024, thay Luật Giá 11/2012). Đã được sửa bởi
+  Luật 44/2024 (từ 01/07/2025), Luật Điện lực 61/2024 (từ 01/02/2025), Luật Đường
+  sắt 95/2025 (từ 01/01/2026) theo VBHN 157/VBHN-VPQH. Có dự thảo luật sửa đổi Luật
+  Giá năm 2025 chưa xác nhận đã thông qua.
+key_changes:
+- text: 'VBHN 157/VBHN-VPQH: Luật Giá 16/2023 được sửa đổi, bổ sung bởi Luật 44/2024/QH15,
+    Luật Điện lực 61/2024/QH15, Luật Đường sắt 95/2025/QH15.'
+  source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/157-vbhn-vpqh.pdf
+cited_in_courses:
+- ke-toan-hanh-chinh-su-nghiep
+curriculum_occurrences:
+- source_id: src-0461
+  page: 2
+  layer: curriculum
+variants:
+- Luật giá số 16/2023/QH15
+sources:
+- url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/157-vbhn-vpqh.pdf
+  publisher: datafiles.chinhphu.vn
+  retrieved_at: '2026-11-21'
+  authority: official
+- url: https://vanban.chinhphu.vn/?pageid=27160&docid=208367
+  publisher: vanban.chinhphu.vn
+  retrieved_at: '2026-11-21'
+  authority: official
+evidence_status: OBSERVED
+layer: external
+checked_at: '2026-11-21'
+unknown_reason: null
+search_log: research/search_logs/ref_070.json
+record_kind: verified_status
+freshness_limit: Snapshot of sources checked on the stated date; not a guarantee that
+  every later amendment has been found.

@@ -1,0 +1,15 @@
+# Tiên quyết cho ke-toan-hanh-chinh-su-nghiep — chỉ ghi khi trích được câu nguyên văn.
+course_id: ke-toan-hanh-chinh-su-nghiep
+checked_at: "2026-11-21"
+explicit_prerequisites: []
+search:
+  method: >-
+    Quét toàn bộ 199 trang đã trích (43 tài liệu) với các cụm "tiên quyết", "học phần ... trước",
+    "Nguyên lý kế toán", "Tài chính hành chính sự nghiệp", "Tài chính công", "Mã học phần", "ACCO".
+  result: "Không có câu nào nêu môn tiên quyết. Chương mở đầu (src-0487) chỉ nói môn học 'thuộc chương trình đào tạo chuyên ngành Kế toán'."
+  candidates_not_recorded:
+    - course: tai-chinh-hanh-chinh-su-nghiep
+      reason: "Chỉ gần chủ đề (INFERRED); không có câu trích -> không ghi."
+    - course: nguyen-ly-ke-toan
+      reason: "Không có câu trích -> không ghi."
+evidence_status: UNKNOWN

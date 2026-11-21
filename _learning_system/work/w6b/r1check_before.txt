@@ -1,0 +1,2 @@
+usage: v3_r1_check.py [-h] --phase PHASE [--candidates]
+v3_r1_check.py: error: the following arguments are required: --phase

@@ -1,0 +1,37 @@
+ref: Luật 71/2014/QH13
+status: unknown
+replaced_by: null
+amended_by: []
+effective_from: null
+effective_date_meaning: effective date of cited change, not necessarily original instrument
+scope: UNKNOWN
+key_changes: []
+cited_in_courses:
+- ke-toan-thue-1
+curriculum_occurrences:
+- source_id: src-0538
+  page: 3
+  layer: curriculum
+variants:
+- Luật số 71/2014/QH13
+sources:
+- url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/01/luat48.pdf
+  publisher: datafiles.chinhphu.vn
+  retrieved_at: '2026-11-21'
+  authority: official
+- url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/3/31/469126-1774925150_v1_1774926294_signed.pdf
+  publisher: congbaocdn.chinhphu.vn
+  retrieved_at: '2026-11-21'
+  authority: official
+evidence_status: UNKNOWN
+layer: external
+checked_at: '2026-11-21'
+unknown_reason: Luật 71/2014 sửa nhiều luật thuế cùng lúc (GTGT, TNDN, TTĐB, QLT,
+  TNCN, tài nguyên…). Đã thấy nguồn chính thức cho phần GTGT (hết 01/07/2025) và QLT
+  (hết 01/07/2020), nhưng chưa kiểm hết các luật khác mà nó sửa (ví dụ Luật Thuế TNCN,
+  Luật Thuế tài nguyên) nên chưa kết luận trạng thái toàn bộ văn bản. Không suy ra
+  "còn hiệu lực" chỉ vì chưa thấy văn bản thay thế.
+search_log: research/search_logs/ref_078.json
+record_kind: unverified_reference
+freshness_limit: Snapshot of sources checked on the stated date; not a guarantee that
+  every later amendment has been found.

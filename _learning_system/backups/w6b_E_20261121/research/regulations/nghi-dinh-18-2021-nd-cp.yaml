@@ -1,0 +1,32 @@
+ref: Nghị định 18/2021/NĐ-CP
+status: unknown
+replaced_by: null
+amended_by: []
+effective_from: null
+effective_date_meaning: effective date of cited change, not necessarily original instrument
+scope: UNKNOWN
+key_changes: []
+cited_in_courses:
+- ke-toan-thue-1
+curriculum_occurrences:
+- source_id: src-0500
+  page: 1
+  layer: curriculum
+variants:
+- Nghị định 18/2021/NĐ-CP
+sources:
+- url: https://chinhphu.vn/?classid=1&docid=214329&pageid=27160
+  publisher: chinhphu.vn
+  retrieved_at: '2026-11-21'
+  authority: official
+evidence_status: UNKNOWN
+layer: external
+checked_at: '2026-11-21'
+unknown_reason: NĐ 18/2021 là nghị định sửa đổi NĐ 134/2016; nội dung đã nhập vào
+  NĐ 134/2016 và tiếp tục bị NĐ 182/2025 sửa. Chưa có nguồn chính thức nêu trạng thái
+  riêng của NĐ 18/2021 (còn/hết hiệu lực từng điều). Không suy ra "còn hiệu lực" chỉ
+  vì chưa thấy văn bản thay thế.
+search_log: research/search_logs/ref_105.json
+record_kind: unverified_reference
+freshness_limit: Snapshot of sources checked on the stated date; not a guarantee that
+  every later amendment has been found.

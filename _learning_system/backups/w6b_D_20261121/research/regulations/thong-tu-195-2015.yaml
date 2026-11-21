@@ -1,0 +1,34 @@
+ref: Thông tư 195/2015
+status: unknown
+replaced_by: null
+amended_by: []
+effective_from: null
+effective_date_meaning: effective date of cited change, not necessarily original instrument
+scope: UNKNOWN
+key_changes: []
+cited_in_courses:
+- ke-toan-thue-1
+curriculum_occurrences:
+- source_id: src-0510
+  page: 1
+  layer: curriculum
+- source_id: src-0510
+  page: 3
+  layer: curriculum
+variants:
+- 'TT
+
+  195/2015'
+- TT 195/2015
+sources: []
+evidence_status: UNKNOWN
+layer: external
+checked_at: '2026-11-21'
+unknown_reason: Trích dẫn "TT 195/2015" không đuôi; theo ngữ cảnh kế toán thuế là
+  TT 195/2015/TT-BTC hướng dẫn NĐ 108/2015 về TTĐB. Nguồn phụ nói TT 158/2025/TT-BTC
+  thay thế từ 01/01/2026 nhưng chưa thấy điều khoản bãi bỏ trên nguồn chính thức.
+  Không suy ra "còn hiệu lực" chỉ vì chưa thấy văn bản thay thế.
+search_log: research/search_logs/ref_112.json
+record_kind: unverified_reference
+freshness_limit: Snapshot of sources checked on the stated date; not a guarantee that
+  every later amendment has been found.

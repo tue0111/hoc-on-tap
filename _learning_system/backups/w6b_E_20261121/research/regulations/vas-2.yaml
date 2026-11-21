@@ -1,0 +1,58 @@
+ref: VAS 2
+status: unknown
+replaced_by: null
+amended_by: []
+effective_from: null
+effective_date_meaning: effective date of cited change, not necessarily original instrument
+scope: UNKNOWN
+key_changes: []
+cited_in_courses:
+- ke-toan-tai-chinh-1
+- ke-toan-tai-chinh-3
+curriculum_occurrences:
+- source_id: src-0062
+  page: 1
+  layer: curriculum
+- source_id: src-0063
+  page: 104
+  layer: curriculum
+- source_id: src-0067
+  page: 4
+  layer: curriculum
+- source_id: src-0067
+  page: 5
+  layer: curriculum
+- source_id: src-0068
+  page: 327
+  layer: curriculum
+- source_id: src-0068
+  page: 328
+  layer: curriculum
+- source_id: src-0554
+  page: 2
+  layer: curriculum
+- source_id: src-0555
+  page: 7
+  layer: curriculum
+- source_id: src-0564
+  page: 5
+  layer: curriculum
+variants:
+- Chuẩn mực kế toán số 02
+- VAS 02
+- 'chuẩn mực
+
+  kế toán số 02'
+- chuẩn mực kế toán số 02
+sources: []
+evidence_status: UNKNOWN
+layer: external
+checked_at: '2026-10-11'
+unknown_reason: Trích dẫn thiếu số hiệu/năm hoặc chỉ tên chuẩn mực; chưa định danh
+  chắc chắn văn bản và phiên bản. Chưa đủ bằng chứng đã kiểm tra để kết luận trạng
+  thái và chuỗi sửa đổi hiện hành. Xem nhật ký tìm kiếm; không suy ra còn hiệu lực
+  từ việc chưa thấy văn bản thay thế.
+search_log: research/search_logs/ref_060.json
+record_kind: unverified_reference
+freshness_limit: Snapshot of sources checked on the stated date; not a guarantee that
+  every later amendment has been found.

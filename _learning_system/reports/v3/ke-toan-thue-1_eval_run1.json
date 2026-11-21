@@ -1,0 +1,565 @@
+{
+  "course_id": "ke-toan-thue-1",
+  "tag": "_run1",
+  "eval_sha256": "3d9eb60aae42b12939cf3a22fb90a9c03e2ba504c196cc29161bad5a7c8a3024",
+  "n": 20,
+  "metrics": {
+    "direct_must_include": 1.0,
+    "direct_chapter_at1": 0.8,
+    "source_bound": 1.0,
+    "insufficient": 1.0,
+    "collision_contamination": 0,
+    "account": 1.0,
+    "topic_owner": null
+  },
+  "gates": {
+    "direct_must_include": true,
+    "direct_chapter_at1": true,
+    "source_bound": true,
+    "insufficient": true,
+    "collision_contamination": true,
+    "account": true,
+    "topic_owner": true
+  },
+  "all_pass": true,
+  "results": [
+    {
+      "id": "th-d01",
+      "category": "direct",
+      "question": "Kế toán thuế 1: Luật quản lý thuế có vai trò gì và nguyên tắc quản lý thuế gồm những gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0492",
+        "src-0492",
+        "src-0492",
+        "src-0492",
+        "src-0542"
+      ],
+      "top_chapters": [
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "partition": "ke-toan-thue-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "th-d02",
+      "category": "direct",
+      "question": "Kế toán thuế 1: số liệu kế toán và số liệu tính thuế giống và khác nhau ở điểm nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0494",
+        "src-0494",
+        "src-0494",
+        "src-0494",
+        "src-0494"
+      ],
+      "top_chapters": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "partition": "ke-toan-thue-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "th-d03",
+      "category": "direct",
+      "question": "Kế toán thuế 1: dùng phần mềm HTKK để lập tờ khai thuế như thế nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0516",
+        "src-0536",
+        "src-0541",
+        "src-0526",
+        "src-0496"
+      ],
+      "top_chapters": [
+        3,
+        5,
+        null,
+        4,
+        1
+      ],
+      "partition": "ke-toan-thue-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": false,
+      "contaminated": false,
+      "pass": false
+    },
+    {
+      "id": "th-d04",
+      "category": "direct",
+      "question": "Kế toán thuế 1: xác định số thuế nhập khẩu phải nộp của doanh nghiệp như thế nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0502",
+        "src-0504",
+        "src-0504",
+        "src-0508",
+        "src-0524"
+      ],
+      "top_chapters": [
+        2,
+        2,
+        2,
+        2,
+        4
+      ],
+      "partition": "ke-toan-thue-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "th-d05",
+      "category": "direct",
+      "question": "Kế toán thuế 1: hạch toán thuế nhập khẩu phải nộp khi nhập khẩu hàng hóa ghi sổ thế nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0504",
+        "src-0504",
+        "src-0500",
+        "src-0504",
+        "src-0504"
+      ],
+      "top_chapters": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "partition": "ke-toan-thue-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "th-d06",
+      "category": "direct",
+      "question": "Kế toán thuế 1: đối tượng chịu thuế tiêu thụ đặc biệt gồm những hàng hóa, dịch vụ nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0510",
+        "src-0510",
+        "src-0541",
+        "src-0510",
+        "src-0516"
+      ],
+      "top_chapters": [
+        3,
+        3,
+        null,
+        3,
+        3
+      ],
+      "partition": "ke-toan-thue-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "th-d07",
+      "category": "direct",
+      "question": "Kế toán thuế 1: chứng từ và cách hạch toán thuế tiêu thụ đặc biệt phải nộp khi bán hàng chịu thuế?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0514",
+        "src-0512",
+        "src-0514",
+        "src-0510",
+        "src-0512"
+      ],
+      "top_chapters": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "partition": "ke-toan-thue-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "th-d08",
+      "category": "direct",
+      "question": "Kế toán thuế 1: đối tượng chịu thuế bảo vệ môi trường gồm những loại hàng hóa nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0520",
+        "src-0520",
+        "src-0510",
+        "src-0520",
+        "src-0520"
+      ],
+      "top_chapters": [
+        4,
+        4,
+        3,
+        4,
+        4
+      ],
+      "partition": "ke-toan-thue-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "th-d09",
+      "category": "direct",
+      "question": "Kế toán thuế 1: tính thuế GTGT theo phương pháp khấu trừ và phương pháp trực tiếp khác nhau thế nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0496",
+        "src-0532",
+        "src-0532",
+        "src-0536",
+        "src-0541"
+      ],
+      "top_chapters": [
+        1,
+        5,
+        5,
+        5,
+        null
+      ],
+      "partition": "ke-toan-thue-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": false,
+      "contaminated": false,
+      "pass": false
+    },
+    {
+      "id": "th-d10",
+      "category": "direct",
+      "question": "Kế toán thuế 1: trình bày thuế GTGT trên báo cáo tài chính và lập tờ khai thuế GTGT như thế nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0536",
+        "src-0530",
+        "src-0536",
+        "src-0506",
+        "src-0536"
+      ],
+      "top_chapters": [
+        5,
+        5,
+        5,
+        2,
+        5
+      ],
+      "partition": "ke-toan-thue-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "th-s01",
+      "category": "source_bound",
+      "question": "Theo chương 2 của Kế toán thuế 1, kế toán thuế xuất khẩu nhập khẩu gồm những chủ đề nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0504",
+        "src-0504",
+        "src-0500",
+        "src-0504",
+        "src-0504"
+      ],
+      "top_chapters": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "partition": "ke-toan-thue-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "th-s02",
+      "category": "source_bound",
+      "question": "Đề thi mẫu Kế toán thuế 1 gồm những dạng câu hỏi nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0541",
+        "src-0542",
+        "src-0506",
+        "src-0542",
+        "src-0542"
+      ],
+      "top_chapters": [
+        null,
+        null,
+        2,
+        null,
+        null
+      ],
+      "partition": "ke-toan-thue-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "th-s03",
+      "category": "source_bound",
+      "question": "Hướng dẫn học tập môn Kế toán thuế 1 yêu cầu chuẩn bị và học những gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0542",
+        "src-0542",
+        "src-0542",
+        "src-0542",
+        "src-0542"
+      ],
+      "top_chapters": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "partition": "ke-toan-thue-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "th-i01",
+      "category": "insufficient",
+      "question": "WACC trong Kế toán thuế 1 được tính như thế nào?",
+      "coverage": "insufficient",
+      "top_sources": [
+        "src-0526",
+        "src-0504",
+        "src-0541",
+        "src-0541",
+        "src-0530"
+      ],
+      "top_chapters": [
+        4,
+        2,
+        null,
+        null,
+        5
+      ],
+      "partition": "ke-toan-thue-1",
+      "unknowns": [
+        "no_course_concept_match",
+        "term_not_in_course_corpus:wacc",
+        "insufficient_curriculum_evidence"
+      ],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "th-i02",
+      "category": "insufficient",
+      "question": "Kế toán thuế 1 hướng dẫn xử lý chênh lệch tỷ giá hối đoái cuối kỳ thế nào?",
+      "coverage": "insufficient",
+      "top_sources": [
+        "src-0508",
+        "src-0526",
+        "src-0530",
+        "src-0542",
+        "src-0542"
+      ],
+      "top_chapters": [
+        2,
+        4,
+        5,
+        null,
+        null
+      ],
+      "partition": "ke-toan-thue-1",
+      "unknowns": [
+        "no_course_concept_match",
+        "term_not_in_course_corpus:hối",
+        "term_not_in_course_corpus:đoái",
+        "topic_in_other_course:ke-toan-tai-chinh-2",
+        "topic_in_other_course:ke-toan-ngan-hang",
+        "topic_in_other_course:ke-toan-tai-chinh-3",
+        "topic_in_other_course:ke-toan-hanh-chinh-su-nghiep",
+        "insufficient_curriculum_evidence"
+      ],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "th-i03",
+      "category": "insufficient",
+      "question": "Kế toán thuế 1: khi nào kiểm toán viên đưa ra ý kiến kiểm toán ngoại trừ?",
+      "coverage": "insufficient",
+      "top_sources": [
+        "src-0504",
+        "src-0539",
+        "src-0492",
+        "src-0534",
+        "src-0541"
+      ],
+      "top_chapters": [
+        2,
+        0,
+        1,
+        5,
+        null
+      ],
+      "partition": "ke-toan-thue-1",
+      "unknowns": [
+        "topic_in_other_course:kiem-toan-1",
+        "no_course_concept_match",
+        "topic_owner_hint:kinh-doanh-va-nghiep-vu",
+        "insufficient_curriculum_evidence"
+      ],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "th-c01",
+      "category": "collision",
+      "question": "Chương 1 của Kế toán thuế 1 nói về gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0496",
+        "src-0496",
+        "src-0492",
+        "src-0498",
+        "src-0496"
+      ],
+      "top_chapters": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "partition": "ke-toan-thue-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "th-c02",
+      "category": "collision",
+      "question": "Chương 3 của Kế toán thuế 1 nói về gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0516",
+        "src-0510",
+        "src-0510",
+        "src-0514",
+        "src-0514"
+      ],
+      "top_chapters": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "partition": "ke-toan-thue-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "th-a01",
+      "category": "account",
+      "question": "Kế toán thuế 1: tài khoản 3333 dùng để hạch toán gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0504",
+        "src-0504",
+        "src-0506",
+        "src-0506",
+        "src-0504"
+      ],
+      "top_chapters": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "partition": "ke-toan-thue-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "th-a02",
+      "category": "account",
+      "question": "Kế toán thuế 1: TK 3332 phản ánh nội dung gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0514",
+        "src-0514",
+        "src-0514",
+        "src-0514",
+        "src-0504"
+      ],
+      "top_chapters": [
+        3,
+        3,
+        3,
+        3,
+        2
+      ],
+      "partition": "ke-toan-thue-1",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    }
+  ]
+}

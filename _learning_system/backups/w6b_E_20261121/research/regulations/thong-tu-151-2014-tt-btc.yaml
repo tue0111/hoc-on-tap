@@ -1,0 +1,33 @@
+ref: Thông tư 151/2014/TT-BTC
+status: unknown
+replaced_by: null
+amended_by: []
+effective_from: null
+effective_date_meaning: effective date of cited change, not necessarily original instrument
+scope: UNKNOWN
+key_changes: []
+cited_in_courses:
+- ke-toan-thue-1
+curriculum_occurrences:
+- source_id: src-0498
+  page: 6
+  layer: curriculum
+- source_id: src-0538
+  page: 3
+  layer: curriculum
+variants:
+- 'TT
+
+  151/2014/TT-BTC'
+- TT 151/2014/TT-BTC
+sources: []
+evidence_status: UNKNOWN
+layer: external
+checked_at: '2026-11-21'
+unknown_reason: TT 151/2014 sửa nhiều thông tư (TNDN, GTGT, QLT…). Nguồn phụ (RSM)
+  nêu TT 20/2026 bãi bỏ một phần; chưa có nguồn chính thức xác định trạng thái toàn
+  bộ. Không suy ra "còn hiệu lực" chỉ vì chưa thấy văn bản thay thế.
+search_log: research/search_logs/ref_109.json
+record_kind: unverified_reference
+freshness_limit: Snapshot of sources checked on the stated date; not a guarantee that
+  every later amendment has been found.

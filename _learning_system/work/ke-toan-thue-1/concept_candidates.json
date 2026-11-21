@@ -1,0 +1,1475 @@
+{
+  "course_id": "ke-toan-thue-1",
+  "unit_titles": [
+    {
+      "source_id": "src-0491",
+      "chapter": 1,
+      "topic": "1.2",
+      "title_from_filename": "10. C1. chủ đề 1.2",
+      "page": 1
+    },
+    {
+      "source_id": "src-0492",
+      "chapter": 1,
+      "topic": "1.2",
+      "title_from_filename": "11. C1.Scrip CHUONG 1.2",
+      "page": 1
+    },
+    {
+      "source_id": "src-0493",
+      "chapter": 1,
+      "topic": "1.3",
+      "title_from_filename": "13. C1. chủ đề 1.3",
+      "page": 1
+    },
+    {
+      "source_id": "src-0494",
+      "chapter": 1,
+      "topic": "1.3",
+      "title_from_filename": "14. C1.Scrip CHUONG 1.3",
+      "page": 1
+    },
+    {
+      "source_id": "src-0495",
+      "chapter": 1,
+      "topic": "1.4",
+      "title_from_filename": "16. C1. chủ đề 1.4",
+      "page": 1
+    },
+    {
+      "source_id": "src-0496",
+      "chapter": 1,
+      "topic": "1.4",
+      "title_from_filename": "17. C1.Scrip CHUONG 1.4",
+      "page": 1
+    },
+    {
+      "source_id": "src-0497",
+      "chapter": 1,
+      "topic": "1.1",
+      "title_from_filename": "7. C1 chủ đề 1.1",
+      "page": 1
+    },
+    {
+      "source_id": "src-0498",
+      "chapter": 1,
+      "topic": "1.1",
+      "title_from_filename": "8. C1. Scrip CHUONG 1.1",
+      "page": 1
+    },
+    {
+      "source_id": "src-0499",
+      "chapter": 2,
+      "topic": "2.1",
+      "title_from_filename": "20. C2. chủ đề 2.1",
+      "page": 1
+    },
+    {
+      "source_id": "src-0500",
+      "chapter": 2,
+      "topic": "2.1",
+      "title_from_filename": "21. C2. Scrip CHUONG 2.1",
+      "page": 1
+    },
+    {
+      "source_id": "src-0501",
+      "chapter": 2,
+      "topic": "2.2",
+      "title_from_filename": "23. C2. chủ đề 2.2",
+      "page": 1
+    },
+    {
+      "source_id": "src-0502",
+      "chapter": 2,
+      "topic": "2.2",
+      "title_from_filename": "24. C2. Scrip CHUONG 2.2",
+      "page": 1
+    },
+    {
+      "source_id": "src-0503",
+      "chapter": 2,
+      "topic": "2.3",
+      "title_from_filename": "26. C2. chủ đề 2.3",
+      "page": 1
+    },
+    {
+      "source_id": "src-0504",
+      "chapter": 2,
+      "topic": "2.3",
+      "title_from_filename": "27. C2. Scrip CHUONG 2.3",
+      "page": 1
+    },
+    {
+      "source_id": "src-0505",
+      "chapter": 2,
+      "topic": "2.4",
+      "title_from_filename": "29. C2. chủ đề 2.4",
+      "page": 1
+    },
+    {
+      "source_id": "src-0506",
+      "chapter": 2,
+      "topic": "2.4",
+      "title_from_filename": "30. C2. Scrip CHUONG 2.4",
+      "page": 1
+    },
+    {
+      "source_id": "src-0507",
+      "chapter": 2,
+      "topic": "2.5",
+      "title_from_filename": "32. C2. chủ đề 2.5",
+      "page": 1
+    },
+    {
+      "source_id": "src-0508",
+      "chapter": 2,
+      "topic": "2.5",
+      "title_from_filename": "33. C2. Scrip CHUONG 2.5",
+      "page": 1
+    },
+    {
+      "source_id": "src-0509",
+      "chapter": 3,
+      "topic": "3.1",
+      "title_from_filename": "36. C3. chủ đề 3.1",
+      "page": 1
+    },
+    {
+      "source_id": "src-0510",
+      "chapter": 3,
+      "topic": "3.1",
+      "title_from_filename": "37. C3. Scrip CHUONG 3.1",
+      "page": 1
+    },
+    {
+      "source_id": "src-0511",
+      "chapter": 3,
+      "topic": "3.2",
+      "title_from_filename": "39. C3. chủ đề 3.2",
+      "page": 1
+    },
+    {
+      "source_id": "src-0512",
+      "chapter": 3,
+      "topic": "3.2",
+      "title_from_filename": "40. C3. Scrip CHUONG 3.2",
+      "page": 1
+    },
+    {
+      "source_id": "src-0513",
+      "chapter": 3,
+      "topic": "3.3",
+      "title_from_filename": "42. C3. chủ đề 3.3",
+      "page": 1
+    },
+    {
+      "source_id": "src-0514",
+      "chapter": 3,
+      "topic": "3.3",
+      "title_from_filename": "43. C3. Scrip CHUONG 3.3",
+      "page": 1
+    },
+    {
+      "source_id": "src-0515",
+      "chapter": 3,
+      "topic": "3.4",
+      "title_from_filename": "45. C3. chủ đề 3.4",
+      "page": 1
+    },
+    {
+      "source_id": "src-0516",
+      "chapter": 3,
+      "topic": "3.4",
+      "title_from_filename": "46. C3. Scrip CHUONG 3.4",
+      "page": 1
+    },
+    {
+      "source_id": "src-0517",
+      "chapter": 3,
+      "topic": "3.5",
+      "title_from_filename": "48. C3. chủ đề 3.5",
+      "page": 1
+    },
+    {
+      "source_id": "src-0518",
+      "chapter": 3,
+      "topic": "3.5",
+      "title_from_filename": "49. C3. Scrip CHUONG 3.5",
+      "page": 1
+    },
+    {
+      "source_id": "src-0519",
+      "chapter": 4,
+      "topic": "4.1",
+      "title_from_filename": "52. C4. chủ đề 4.1",
+      "page": 1
+    },
+    {
+      "source_id": "src-0520",
+      "chapter": 4,
+      "topic": "4.1",
+      "title_from_filename": "53. C4. Scrip CHUONG 4.1",
+      "page": 1
+    },
+    {
+      "source_id": "src-0521",
+      "chapter": 4,
+      "topic": "4.2",
+      "title_from_filename": "55. C4. chủ đề 4.2",
+      "page": 1
+    },
+    {
+      "source_id": "src-0522",
+      "chapter": 4,
+      "topic": "4.2",
+      "title_from_filename": "56. C4. Scrip CHUONG 4.2",
+      "page": 1
+    },
+    {
+      "source_id": "src-0523",
+      "chapter": 4,
+      "topic": "4.3",
+      "title_from_filename": "58. C4. chủ đề 4.3",
+      "page": 1
+    },
+    {
+      "source_id": "src-0524",
+      "chapter": 4,
+      "topic": "4.3",
+      "title_from_filename": "59. C4. Scrip CHUONG 4.3",
+      "page": 1
+    },
+    {
+      "source_id": "src-0525",
+      "chapter": 4,
+      "topic": "4.4",
+      "title_from_filename": "61. C4. chủ đề 4.4",
+      "page": 1
+    },
+    {
+      "source_id": "src-0526",
+      "chapter": 4,
+      "topic": "4.4",
+      "title_from_filename": "62. C4. Scrip CHUONG 4.4",
+      "page": 1
+    },
+    {
+      "source_id": "src-0527",
+      "chapter": 4,
+      "topic": "4.5",
+      "title_from_filename": "64. C4. chủ đề 4.5",
+      "page": 1
+    },
+    {
+      "source_id": "src-0528",
+      "chapter": 4,
+      "topic": "4.5",
+      "title_from_filename": "65. C4. Scrip CHUONG 4.5",
+      "page": 1
+    },
+    {
+      "source_id": "src-0529",
+      "chapter": 5,
+      "topic": "5.1",
+      "title_from_filename": "68. C5. chủ đề 5.1",
+      "page": 1
+    },
+    {
+      "source_id": "src-0530",
+      "chapter": 5,
+      "topic": "5.1",
+      "title_from_filename": "69. C5. Scrip CHUONG 5.1",
+      "page": 1
+    },
+    {
+      "source_id": "src-0531",
+      "chapter": 5,
+      "topic": "5.2",
+      "title_from_filename": "71. C5. chủ đề 5.2",
+      "page": 1
+    },
+    {
+      "source_id": "src-0532",
+      "chapter": 5,
+      "topic": "5.2",
+      "title_from_filename": "72. C5. Scrip CHUONG 5.2",
+      "page": 1
+    },
+    {
+      "source_id": "src-0533",
+      "chapter": 5,
+      "topic": "5.3",
+      "title_from_filename": "74. C5. chủ đề 5.3",
+      "page": 1
+    },
+    {
+      "source_id": "src-0534",
+      "chapter": 5,
+      "topic": "5.3",
+      "title_from_filename": "75. C5. Script CHUONG 5.3",
+      "page": 1
+    },
+    {
+      "source_id": "src-0535",
+      "chapter": 5,
+      "topic": "5.4",
+      "title_from_filename": "77. C5. chủ đề 5.4",
+      "page": 1
+    },
+    {
+      "source_id": "src-0536",
+      "chapter": 5,
+      "topic": "5.4",
+      "title_from_filename": "78. C5. Scrip CHUONG 5.4",
+      "page": 1
+    },
+    {
+      "source_id": "src-0537",
+      "chapter": 5,
+      "topic": "5.5",
+      "title_from_filename": "80. C5. chủ đề 5.5",
+      "page": 1
+    },
+    {
+      "source_id": "src-0538",
+      "chapter": 5,
+      "topic": "5.5",
+      "title_from_filename": "82. C5. Scrip CHUONG 5.5",
+      "page": 1
+    }
+  ],
+  "heading_lines": [
+    {
+      "kind": "chuong",
+      "line": "Chương 2: Kế toán thuế xuất khẩu – nhập khẩu",
+      "count": 5,
+      "refs": [
+        {
+          "source_id": "src-0500",
+          "page": 1
+        },
+        {
+          "source_id": "src-0502",
+          "page": 1
+        },
+        {
+          "source_id": "src-0504",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 3: Kế toán thuế Tiêu thụ đặc biệt",
+      "count": 5,
+      "refs": [
+        {
+          "source_id": "src-0510",
+          "page": 1
+        },
+        {
+          "source_id": "src-0512",
+          "page": 1
+        },
+        {
+          "source_id": "src-0514",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 4: Kế toán thuế Bảo vệ mội trường",
+      "count": 5,
+      "refs": [
+        {
+          "source_id": "src-0520",
+          "page": 1
+        },
+        {
+          "source_id": "src-0522",
+          "page": 1
+        },
+        {
+          "source_id": "src-0524",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 1: Tổng quan về kế toán & thuế",
+      "count": 4,
+      "refs": [
+        {
+          "source_id": "src-0492",
+          "page": 1
+        },
+        {
+          "source_id": "src-0494",
+          "page": 1
+        },
+        {
+          "source_id": "src-0496",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 5: Kế toán thuế Giá trị gia tăng",
+      "count": 4,
+      "refs": [
+        {
+          "source_id": "src-0530",
+          "page": 1
+        },
+        {
+          "source_id": "src-0532",
+          "page": 1
+        },
+        {
+          "source_id": "src-0536",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.2: Giới thiệu hệ thống các quy định cơ bản của Luật quản lý thuế",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0492",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.3: Sử dụng số liệu kế toán để lập các báo cáo thuế",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0494",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.4: Sử dụng các công cụ để lập báo cáo thuế",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0496",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.1: Hệ thống các quy định về kế toán và chính sách thuế",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0498",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.1: Các nội dung cơ bản liên quan đến thuế XK – NK",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0500",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.2: Xác định nghĩa vụ thuế XK - NK tại doanh nghiệp",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0502",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.3: Tổ chức chứng từ và ghi nhận thuế XK - NK trên sổ kế toán",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0504",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.4: Trình bày và lập báo cáo thuế XK- NK",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0506",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.5: Nhận diện rủi ro và cơ hội về thuế XK - NK tại doanh nghiệp",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0508",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.1: Các nội dung cơ bản liên quan đến thuế TTĐB",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0510",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.2: Xác định nghĩa vụ thuế TTĐB tại doanh nghiệp",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0512",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.3: Tổ chức chứng từ và ghi nhận thuế TTĐB trên sổ kế toán",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0514",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.4: Trình bày và lập báo cáo thuế TTĐB",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0516",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.5: Nhận diện những rủi ro và cơ hội về thuế TTĐB tại doanh nghiệp",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0518",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.1: Các nội dung cơ bản liên quan đến thuế BVMT",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0520",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.2: Xác định nghĩa vụ thuế BVMT tại doanh nghiệp",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0522",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.3: Tổ chức chứng từ và ghi nhận thuế BVMT trên sổ kế toán",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0524",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.4: Trình bày và lập báo cáo thuế BVMT",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0526",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.5: Nhận diện những rủi ro và cơ hội về thuế BVMT tại doanh nghiệp",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0528",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 5.1: Các nội dung cơ bản liên quan đến thuế GTGT",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0530",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 5.2: Xác định nghĩa vụ thuế GTGT của doanh nghiệp",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0532",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 5.3: Tổ chức hóa đơn, chứng từ",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0534",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 5.4: Trình bày và lập báo cáo thuế GTGT",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0536",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 5.5: Nhận diện rủi ro và cơ hội về thuế GTGT",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0538",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 0: Giới thiệu môn học",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0539",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "CHƯƠNG 1: TỔNG QUAN VỀ KẾ",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0542",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.1: Hệ thống các quy định về kế Xem video chủ đề, đọc script chủ đề",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0542",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.2: Giới thiệu hệ thống các quy Xem video chủ đề, đọc script chủ đề",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0542",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.3: Sử dụng số liệu kế toán để Xem video chủ đề, đọc script chủ đề",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0542",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.4: Sử dụng các công cụ để lập Xem video chủ đề, đọc script chủ đề",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0542",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "CHƯƠNG 2: KẾ TOÁN THUẾ",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0542",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.1: Các nội dung cơ bản liên Xem video chủ đề, đọc script chủ đề",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0542",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.2: Xác định nghĩa vụ thuế XK Xem video chủ đề, đọc script chủ đề",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0542",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.3: Tổ chức chứng từ và ghi Xem video chủ đề, đọc script chủ đề",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0542",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.4: Trình bày và lập báo cáo Xem video chủ đề, đọc script chủ đề",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0542",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.5 Nhận diện rủi ro và cơ hội Xem video chủ đề, đọc script chủ đề",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0542",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "CHƯƠNG 3: KẾ TOÁN THUẾ TIÊU",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0542",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.1: Các nội dung cơ bản liên Xem video chủ đề, đọc script chủ đề",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0542",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.2: Xác định nghĩa vụ thuế Xem video chủ đề, đọc script chủ đề",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0542",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.3: Tổ chức chứng từ và ghi Xem video chủ đề, đọc script chủ đề",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0542",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.4: Trình bày và lập báo cáo Xem video chủ đề, đọc script chủ đề",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0542",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.5: Nhận diện những rủi ro và Xem video chủ đề, đọc script chủ đề",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0542",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "CHƯƠNG 4: KẾ TOÁN THUẾ BẢO",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0542",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.1: Các nội dung cơ bản liên Xem video chủ đề, đọc script chủ đề",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0542",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.2: Xác định nghĩa vụ thuế Xem video chủ đề, đọc script chủ đề",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0542",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.3: Tổ chức chứng từ và ghi Xem video chủ đề, đọc script chủ đề",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0542",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.4: Trình bày và lập báo cáo Xem video chủ đề, đọc script chủ đề",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0542",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.5: Nhận diện những rủi ro và Xem video chủ đề, đọc script chủ đề",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0542",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "CHƯƠNG 5: KẾ TOÁN THUẾ GIÁ",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0542",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 5.1: Các nội dung cơ bản liên Xem video chủ đề, đọc script chủ đề",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0542",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 5.2: Xác định nghĩa vụ thuế Xem video chủ đề, đọc script chủ đề",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0542",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 5.3: Tổ chức hóa đơn, chứng từ Xem video chủ đề, đọc script chủ đề",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0542",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 5.4: Trình bày và lập báo cáo Xem video chủ đề, đọc script chủ đề",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0542",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 5.5: Nhận diện rủi ro và cơ hội Xem video chủ đề, đọc script chủ đề",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0542",
+          "page": 6
+        }
+      ]
+    }
+  ],
+  "outline_titles": [],
+  "accounts": [
+    {
+      "account": "3333",
+      "count": 40,
+      "refs": [
+        [
+          "src-0504",
+          2
+        ],
+        [
+          "src-0504",
+          3
+        ],
+        [
+          "src-0504",
+          4
+        ]
+      ]
+    },
+    {
+      "account": "3332",
+      "count": 34,
+      "refs": [
+        [
+          "src-0514",
+          2
+        ],
+        [
+          "src-0514",
+          3
+        ],
+        [
+          "src-0516",
+          1
+        ]
+      ]
+    },
+    {
+      "account": "511",
+      "count": 32,
+      "refs": [
+        [
+          "src-0504",
+          3
+        ],
+        [
+          "src-0504",
+          5
+        ],
+        [
+          "src-0514",
+          2
+        ]
+      ]
+    },
+    {
+      "account": "33381",
+      "count": 27,
+      "refs": [
+        [
+          "src-0524",
+          3
+        ],
+        [
+          "src-0524",
+          4
+        ],
+        [
+          "src-0524",
+          5
+        ]
+      ]
+    },
+    {
+      "account": "333",
+      "count": 23,
+      "refs": [
+        [
+          "src-0504",
+          3
+        ],
+        [
+          "src-0506",
+          1
+        ],
+        [
+          "src-0506",
+          2
+        ]
+      ]
+    },
+    {
+      "account": "111",
+      "count": 17,
+      "refs": [
+        [
+          "src-0504",
+          3
+        ],
+        [
+          "src-0504",
+          4
+        ],
+        [
+          "src-0504",
+          5
+        ]
+      ]
+    },
+    {
+      "account": "112",
+      "count": 15,
+      "refs": [
+        [
+          "src-0504",
+          3
+        ],
+        [
+          "src-0504",
+          4
+        ],
+        [
+          "src-0504",
+          5
+        ]
+      ]
+    },
+    {
+      "account": "33311",
+      "count": 14,
+      "refs": [
+        [
+          "src-0524",
+          4
+        ],
+        [
+          "src-0524",
+          5
+        ],
+        [
+          "src-0524",
+          6
+        ]
+      ]
+    },
+    {
+      "account": "133",
+      "count": 10,
+      "refs": [
+        [
+          "src-0536",
+          2
+        ],
+        [
+          "src-0536",
+          3
+        ],
+        [
+          "src-0536",
+          5
+        ]
+      ]
+    },
+    {
+      "account": "152",
+      "count": 7,
+      "refs": [
+        [
+          "src-0504",
+          3
+        ],
+        [
+          "src-0504",
+          4
+        ],
+        [
+          "src-0514",
+          3
+        ]
+      ]
+    },
+    {
+      "account": "3331",
+      "count": 7,
+      "refs": [
+        [
+          "src-0506",
+          1
+        ],
+        [
+          "src-0536",
+          3
+        ],
+        [
+          "src-0536",
+          5
+        ]
+      ]
+    },
+    {
+      "account": "156",
+      "count": 7,
+      "refs": [
+        [
+          "src-0516",
+          1
+        ],
+        [
+          "src-0516",
+          2
+        ],
+        [
+          "src-0524",
+          6
+        ]
+      ]
+    },
+    {
+      "account": "1331",
+      "count": 7,
+      "refs": [
+        [
+          "src-0536",
+          2
+        ],
+        [
+          "src-0536",
+          3
+        ],
+        [
+          "src-0536",
+          4
+        ]
+      ]
+    },
+    {
+      "account": "632",
+      "count": 6,
+      "refs": [
+        [
+          "src-0524",
+          5
+        ],
+        [
+          "src-0524",
+          6
+        ],
+        [
+          "src-0536",
+          3
+        ]
+      ]
+    },
+    {
+      "account": "131",
+      "count": 5,
+      "refs": [
+        [
+          "src-0504",
+          3
+        ],
+        [
+          "src-0524",
+          5
+        ],
+        [
+          "src-0524",
+          6
+        ]
+      ]
+    },
+    {
+      "account": "1561",
+      "count": 4,
+      "refs": [
+        [
+          "src-0504",
+          4
+        ],
+        [
+          "src-0514",
+          3
+        ],
+        [
+          "src-0524",
+          6
+        ]
+      ]
+    },
+    {
+      "account": "211",
+      "count": 4,
+      "refs": [
+        [
+          "src-0516",
+          1
+        ],
+        [
+          "src-0516",
+          2
+        ],
+        [
+          "src-0524",
+          6
+        ]
+      ]
+    },
+    {
+      "account": "521",
+      "count": 4,
+      "refs": [
+        [
+          "src-0524",
+          5
+        ],
+        [
+          "src-0524",
+          6
+        ],
+        [
+          "src-0536",
+          4
+        ]
+      ]
+    },
+    {
+      "account": "711",
+      "count": 3,
+      "refs": [
+        [
+          "src-0504",
+          3
+        ],
+        [
+          "src-0536",
+          11
+        ],
+        [
+          "src-0541",
+          4
+        ]
+      ]
+    },
+    {
+      "account": "33312",
+      "count": 3,
+      "refs": [
+        [
+          "src-0536",
+          3
+        ],
+        [
+          "src-0536",
+          4
+        ],
+        [
+          "src-0536",
+          8
+        ]
+      ]
+    },
+    {
+      "account": "1388",
+      "count": 2,
+      "refs": [
+        [
+          "src-0536",
+          3
+        ]
+      ]
+    },
+    {
+      "account": "33331",
+      "count": 1,
+      "refs": [
+        [
+          "src-0504",
+          3
+        ]
+      ]
+    },
+    {
+      "account": "33332",
+      "count": 1,
+      "refs": [
+        [
+          "src-0504",
+          3
+        ]
+      ]
+    },
+    {
+      "account": "153",
+      "count": 1,
+      "refs": [
+        [
+          "src-0516",
+          2
+        ]
+      ]
+    },
+    {
+      "account": "155",
+      "count": 1,
+      "refs": [
+        [
+          "src-0524",
+          5
+        ]
+      ]
+    },
+    {
+      "account": "811",
+      "count": 1,
+      "refs": [
+        [
+          "src-0524",
+          6
+        ]
+      ]
+    },
+    {
+      "account": "1332",
+      "count": 1,
+      "refs": [
+        [
+          "src-0536",
+          3
+        ]
+      ]
+    },
+    {
+      "account": "138",
+      "count": 1,
+      "refs": [
+        [
+          "src-0541",
+          4
+        ]
+      ]
+    }
+  ]
+}

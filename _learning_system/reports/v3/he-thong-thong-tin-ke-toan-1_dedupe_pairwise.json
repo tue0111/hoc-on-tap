@@ -1,0 +1,609 @@
+{
+  "course_id": "he-thong-thong-tin-ke-toan-1",
+  "note": "Supplementary dedupe evidence (spec 7.3 metric, read-only on documents).\nv3_dedupe.py compares chapter docs vs _nguon unit scripts; this course has no _nguon folder,\nso it yields 0 pairs. Here every pair of extracted docs in the same chapter (and the summary /\nexam / Tailieuthamkhao vs the scripts) is scored with the SAME compare() (8-shingle cov/back).\nWrites reports/v3/he-thong-thong-tin-ke-toan-1_dedupe_pairwise.json. Changes no document.\n",
+  "pairs_scored": 220,
+  "non_distinct": [],
+  "max_cov": 0.2967,
+  "pairs": [
+    {
+      "upper": "src-0389",
+      "upper_file": "script (1).pdf",
+      "lowers": [
+        "src-0390"
+      ],
+      "cov": 0.2967,
+      "back": 0.2788,
+      "decision": "both_canonical",
+      "shingles_upper": 856,
+      "shingles_lower": 911,
+      "scope": "pair ch5|ch5",
+      "upper_path": "Hệ thống thông tin kế toán 1/Chương 5/script (1).pdf",
+      "lower_path": "Hệ thống thông tin kế toán 1/Chương 5/script (2).pdf"
+    },
+    {
+      "upper": "src-0379",
+      "upper_file": "script.pdf",
+      "lowers": [
+        "src-0378"
+      ],
+      "cov": 0.294,
+      "back": 0.2051,
+      "decision": "both_canonical",
+      "shingles_upper": 1126,
+      "shingles_lower": 1614,
+      "scope": "pair ch4|ch4",
+      "upper_path": "Hệ thống thông tin kế toán 1/Chương 4/script.pdf",
+      "lower_path": "Hệ thống thông tin kế toán 1/Chương 4/script (2).pdf"
+    },
+    {
+      "upper": "src-0390",
+      "upper_file": "script (2).pdf",
+      "lowers": [
+        "src-0389"
+      ],
+      "cov": 0.2788,
+      "back": 0.2967,
+      "decision": "both_canonical",
+      "shingles_upper": 911,
+      "shingles_lower": 856,
+      "scope": "pair ch5|ch5",
+      "upper_path": "Hệ thống thông tin kế toán 1/Chương 5/script (2).pdf",
+      "lower_path": "Hệ thống thông tin kế toán 1/Chương 5/script (1).pdf"
+    },
+    {
+      "upper": "src-0363",
+      "upper_file": "script (1).pdf",
+      "lowers": [
+        "src-0365"
+      ],
+      "cov": 0.2489,
+      "back": 0.2332,
+      "decision": "both_canonical",
+      "shingles_upper": 2250,
+      "shingles_lower": 2401,
+      "scope": "pair ch3|ch3",
+      "upper_path": "Hệ thống thông tin kế toán 1/Chương 3/script (1).pdf",
+      "lower_path": "Hệ thống thông tin kế toán 1/Chương 3/script.pdf"
+    },
+    {
+      "upper": "src-0365",
+      "upper_file": "script.pdf",
+      "lowers": [
+        "src-0363"
+      ],
+      "cov": 0.2332,
+      "back": 0.2489,
+      "decision": "both_canonical",
+      "shingles_upper": 2401,
+      "shingles_lower": 2250,
+      "scope": "pair ch3|ch3",
+      "upper_path": "Hệ thống thông tin kế toán 1/Chương 3/script.pdf",
+      "lower_path": "Hệ thống thông tin kế toán 1/Chương 3/script (1).pdf"
+    },
+    {
+      "upper": "src-0378",
+      "upper_file": "script (2).pdf",
+      "lowers": [
+        "src-0379"
+      ],
+      "cov": 0.2051,
+      "back": 0.294,
+      "decision": "both_canonical",
+      "shingles_upper": 1614,
+      "shingles_lower": 1126,
+      "scope": "pair ch4|ch4",
+      "upper_path": "Hệ thống thông tin kế toán 1/Chương 4/script (2).pdf",
+      "lower_path": "Hệ thống thông tin kế toán 1/Chương 4/script.pdf"
+    },
+    {
+      "upper": "src-0364",
+      "upper_file": "script (2).pdf",
+      "lowers": [
+        "src-0363"
+      ],
+      "cov": 0.1859,
+      "back": 0.124,
+      "decision": "both_canonical",
+      "shingles_upper": 1501,
+      "shingles_lower": 2250,
+      "scope": "pair ch3|ch3",
+      "upper_path": "Hệ thống thông tin kế toán 1/Chương 3/script (2).pdf",
+      "lower_path": "Hệ thống thông tin kế toán 1/Chương 3/script (1).pdf"
+    },
+    {
+      "upper": "src-0364",
+      "upper_file": "script (2).pdf",
+      "lowers": [
+        "src-0365"
+      ],
+      "cov": 0.1646,
+      "back": 0.1029,
+      "decision": "both_canonical",
+      "shingles_upper": 1501,
+      "shingles_lower": 2401,
+      "scope": "pair ch3|ch3",
+      "upper_path": "Hệ thống thông tin kế toán 1/Chương 3/script (2).pdf",
+      "lower_path": "Hệ thống thông tin kế toán 1/Chương 3/script.pdf"
+    },
+    {
+      "upper": "src-0363",
+      "upper_file": "script (1).pdf",
+      "lowers": [
+        "src-0364"
+      ],
+      "cov": 0.124,
+      "back": 0.1859,
+      "decision": "both_canonical",
+      "shingles_upper": 2250,
+      "shingles_lower": 1501,
+      "scope": "pair ch3|ch3",
+      "upper_path": "Hệ thống thông tin kế toán 1/Chương 3/script (1).pdf",
+      "lower_path": "Hệ thống thông tin kế toán 1/Chương 3/script (2).pdf"
+    },
+    {
+      "upper": "src-0390",
+      "upper_file": "script (2).pdf",
+      "lowers": [
+        "src-0391"
+      ],
+      "cov": 0.1218,
+      "back": 0.1106,
+      "decision": "both_canonical",
+      "shingles_upper": 911,
+      "shingles_lower": 1004,
+      "scope": "pair ch5|ch5",
+      "upper_path": "Hệ thống thông tin kế toán 1/Chương 5/script (2).pdf",
+      "lower_path": "Hệ thống thông tin kế toán 1/Chương 5/script (3).pdf"
+    },
+    {
+      "upper": "src-0391",
+      "upper_file": "script (3).pdf",
+      "lowers": [
+        "src-0390"
+      ],
+      "cov": 0.1106,
+      "back": 0.1218,
+      "decision": "both_canonical",
+      "shingles_upper": 1004,
+      "shingles_lower": 911,
+      "scope": "pair ch5|ch5",
+      "upper_path": "Hệ thống thông tin kế toán 1/Chương 5/script (3).pdf",
+      "lower_path": "Hệ thống thông tin kế toán 1/Chương 5/script (2).pdf"
+    },
+    {
+      "upper": "src-0365",
+      "upper_file": "script.pdf",
+      "lowers": [
+        "src-0364"
+      ],
+      "cov": 0.1029,
+      "back": 0.1646,
+      "decision": "both_canonical",
+      "shingles_upper": 2401,
+      "shingles_lower": 1501,
+      "scope": "pair ch3|ch3",
+      "upper_path": "Hệ thống thông tin kế toán 1/Chương 3/script.pdf",
+      "lower_path": "Hệ thống thông tin kế toán 1/Chương 3/script (2).pdf"
+    },
+    {
+      "upper": "src-0400",
+      "upper_file": "script (1).pdf",
+      "lowers": [
+        "src-0401"
+      ],
+      "cov": 0.0962,
+      "back": 0.0824,
+      "decision": "both_canonical",
+      "shingles_upper": 967,
+      "shingles_lower": 1129,
+      "scope": "pair ch6|ch6",
+      "upper_path": "Hệ thống thông tin kế toán 1/Chương 6/script (1).pdf",
+      "lower_path": "Hệ thống thông tin kế toán 1/Chương 6/script (2).pdf"
+    },
+    {
+      "upper": "src-0355",
+      "upper_file": "script.pdf",
+      "lowers": [
+        "src-0354"
+      ],
+      "cov": 0.0921,
+      "back": 0.08,
+      "decision": "both_canonical",
+      "shingles_upper": 608,
+      "shingles_lower": 700,
+      "scope": "pair ch2|ch2",
+      "upper_path": "Hệ thống thông tin kế toán 1/Chương 2/script.pdf",
+      "lower_path": "Hệ thống thông tin kế toán 1/Chương 2/script (2).pdf"
+    },
+    {
+      "upper": "src-0390",
+      "upper_file": "script (2).pdf",
+      "lowers": [
+        "src-0392"
+      ],
+      "cov": 0.0856,
+      "back": 0.0771,
+      "decision": "both_canonical",
+      "shingles_upper": 911,
+      "shingles_lower": 1012,
+      "scope": "pair ch5|ch5",
+      "upper_path": "Hệ thống thông tin kế toán 1/Chương 5/script (2).pdf",
+      "lower_path": "Hệ thống thông tin kế toán 1/Chương 5/script.pdf"
+    },
+    {
+      "upper": "src-0401",
+      "upper_file": "script (2).pdf",
+      "lowers": [
+        "src-0400"
+      ],
+      "cov": 0.0824,
+      "back": 0.0962,
+      "decision": "both_canonical",
+      "shingles_upper": 1129,
+      "shingles_lower": 967,
+      "scope": "pair ch6|ch6",
+      "upper_path": "Hệ thống thông tin kế toán 1/Chương 6/script (2).pdf",
+      "lower_path": "Hệ thống thông tin kế toán 1/Chương 6/script (1).pdf"
+    },
+    {
+      "upper": "src-0354",
+      "upper_file": "script (2).pdf",
+      "lowers": [
+        "src-0355"
+      ],
+      "cov": 0.08,
+      "back": 0.0921,
+      "decision": "both_canonical",
+      "shingles_upper": 700,
+      "shingles_lower": 608,
+      "scope": "pair ch2|ch2",
+      "upper_path": "Hệ thống thông tin kế toán 1/Chương 2/script (2).pdf",
+      "lower_path": "Hệ thống thông tin kế toán 1/Chương 2/script.pdf"
+    },
+    {
+      "upper": "src-0391",
+      "upper_file": "script (3).pdf",
+      "lowers": [
+        "src-0392"
+      ],
+      "cov": 0.0787,
+      "back": 0.0781,
+      "decision": "both_canonical",
+      "shingles_upper": 1004,
+      "shingles_lower": 1012,
+      "scope": "pair ch5|ch5",
+      "upper_path": "Hệ thống thông tin kế toán 1/Chương 5/script (3).pdf",
+      "lower_path": "Hệ thống thông tin kế toán 1/Chương 5/script.pdf"
+    },
+    {
+      "upper": "src-0392",
+      "upper_file": "script.pdf",
+      "lowers": [
+        "src-0391"
+      ],
+      "cov": 0.0781,
+      "back": 0.0787,
+      "decision": "both_canonical",
+      "shingles_upper": 1012,
+      "shingles_lower": 1004,
+      "scope": "pair ch5|ch5",
+      "upper_path": "Hệ thống thông tin kế toán 1/Chương 5/script.pdf",
+      "lower_path": "Hệ thống thông tin kế toán 1/Chương 5/script (3).pdf"
+    },
+    {
+      "upper": "src-0392",
+      "upper_file": "script.pdf",
+      "lowers": [
+        "src-0390"
+      ],
+      "cov": 0.0771,
+      "back": 0.0856,
+      "decision": "both_canonical",
+      "shingles_upper": 1012,
+      "shingles_lower": 911,
+      "scope": "pair ch5|ch5",
+      "upper_path": "Hệ thống thông tin kế toán 1/Chương 5/script.pdf",
+      "lower_path": "Hệ thống thông tin kế toán 1/Chương 5/script (2).pdf"
+    },
+    {
+      "upper": "src-0389",
+      "upper_file": "script (1).pdf",
+      "lowers": [
+        "src-0391"
+      ],
+      "cov": 0.0514,
+      "back": 0.0438,
+      "decision": "both_canonical",
+      "shingles_upper": 856,
+      "shingles_lower": 1004,
+      "scope": "pair ch5|ch5",
+      "upper_path": "Hệ thống thông tin kế toán 1/Chương 5/script (1).pdf",
+      "lower_path": "Hệ thống thông tin kế toán 1/Chương 5/script (3).pdf"
+    },
+    {
+      "upper": "src-0400",
+      "upper_file": "script (1).pdf",
+      "lowers": [
+        "src-0402"
+      ],
+      "cov": 0.0507,
+      "back": 0.0318,
+      "decision": "both_canonical",
+      "shingles_upper": 967,
+      "shingles_lower": 1542,
+      "scope": "pair ch6|ch6",
+      "upper_path": "Hệ thống thông tin kế toán 1/Chương 6/script (1).pdf",
+      "lower_path": "Hệ thống thông tin kế toán 1/Chương 6/script.pdf"
+    },
+    {
+      "upper": "src-0401",
+      "upper_file": "script (2).pdf",
+      "lowers": [
+        "src-0402"
+      ],
+      "cov": 0.0505,
+      "back": 0.037,
+      "decision": "both_canonical",
+      "shingles_upper": 1129,
+      "shingles_lower": 1542,
+      "scope": "pair ch6|ch6",
+      "upper_path": "Hệ thống thông tin kế toán 1/Chương 6/script (2).pdf",
+      "lower_path": "Hệ thống thông tin kế toán 1/Chương 6/script.pdf"
+    },
+    {
+      "upper": "src-0355",
+      "upper_file": "script.pdf",
+      "lowers": [
+        "src-0353"
+      ],
+      "cov": 0.0461,
+      "back": 0.0305,
+      "decision": "both_canonical",
+      "shingles_upper": 608,
+      "shingles_lower": 918,
+      "scope": "pair ch2|ch2",
+      "upper_path": "Hệ thống thông tin kế toán 1/Chương 2/script.pdf",
+      "lower_path": "Hệ thống thông tin kế toán 1/Chương 2/script (1).pdf"
+    },
+    {
+      "upper": "src-0391",
+      "upper_file": "script (3).pdf",
+      "lowers": [
+        "src-0389"
+      ],
+      "cov": 0.0438,
+      "back": 0.0514,
+      "decision": "both_canonical",
+      "shingles_upper": 1004,
+      "shingles_lower": 856,
+      "scope": "pair ch5|ch5",
+      "upper_path": "Hệ thống thông tin kế toán 1/Chương 5/script (3).pdf",
+      "lower_path": "Hệ thống thông tin kế toán 1/Chương 5/script (1).pdf"
+    },
+    {
+      "upper": "src-0354",
+      "upper_file": "script (2).pdf",
+      "lowers": [
+        "src-0353"
+      ],
+      "cov": 0.0414,
+      "back": 0.0316,
+      "decision": "both_canonical",
+      "shingles_upper": 700,
+      "shingles_lower": 918,
+      "scope": "pair ch2|ch2",
+      "upper_path": "Hệ thống thông tin kế toán 1/Chương 2/script (2).pdf",
+      "lower_path": "Hệ thống thông tin kế toán 1/Chương 2/script (1).pdf"
+    },
+    {
+      "upper": "src-0402",
+      "upper_file": "script.pdf",
+      "lowers": [
+        "src-0401"
+      ],
+      "cov": 0.037,
+      "back": 0.0505,
+      "decision": "both_canonical",
+      "shingles_upper": 1542,
+      "shingles_lower": 1129,
+      "scope": "pair ch6|ch6",
+      "upper_path": "Hệ thống thông tin kế toán 1/Chương 6/script.pdf",
+      "lower_path": "Hệ thống thông tin kế toán 1/Chương 6/script (2).pdf"
+    },
+    {
+      "upper": "src-0389",
+      "upper_file": "script (1).pdf",
+      "lowers": [
+        "src-0392"
+      ],
+      "cov": 0.035,
+      "back": 0.0296,
+      "decision": "both_canonical",
+      "shingles_upper": 856,
+      "shingles_lower": 1012,
+      "scope": "pair ch5|ch5",
+      "upper_path": "Hệ thống thông tin kế toán 1/Chương 5/script (1).pdf",
+      "lower_path": "Hệ thống thông tin kế toán 1/Chương 5/script.pdf"
+    },
+    {
+      "upper": "src-0402",
+      "upper_file": "script.pdf",
+      "lowers": [
+        "src-0400"
+      ],
+      "cov": 0.0318,
+      "back": 0.0507,
+      "decision": "both_canonical",
+      "shingles_upper": 1542,
+      "shingles_lower": 967,
+      "scope": "pair ch6|ch6",
+      "upper_path": "Hệ thống thông tin kế toán 1/Chương 6/script.pdf",
+      "lower_path": "Hệ thống thông tin kế toán 1/Chương 6/script (1).pdf"
+    },
+    {
+      "upper": "src-0353",
+      "upper_file": "script (1).pdf",
+      "lowers": [
+        "src-0354"
+      ],
+      "cov": 0.0316,
+      "back": 0.0414,
+      "decision": "both_canonical",
+      "shingles_upper": 918,
+      "shingles_lower": 700,
+      "scope": "pair ch2|ch2",
+      "upper_path": "Hệ thống thông tin kế toán 1/Chương 2/script (1).pdf",
+      "lower_path": "Hệ thống thông tin kế toán 1/Chương 2/script (2).pdf"
+    },
+    {
+      "upper": "src-0353",
+      "upper_file": "script (1).pdf",
+      "lowers": [
+        "src-0355"
+      ],
+      "cov": 0.0305,
+      "back": 0.0461,
+      "decision": "both_canonical",
+      "shingles_upper": 918,
+      "shingles_lower": 608,
+      "scope": "pair ch2|ch2",
+      "upper_path": "Hệ thống thông tin kế toán 1/Chương 2/script (1).pdf",
+      "lower_path": "Hệ thống thông tin kế toán 1/Chương 2/script.pdf"
+    },
+    {
+      "upper": "src-0392",
+      "upper_file": "script.pdf",
+      "lowers": [
+        "src-0389"
+      ],
+      "cov": 0.0296,
+      "back": 0.035,
+      "decision": "both_canonical",
+      "shingles_upper": 1012,
+      "shingles_lower": 856,
+      "scope": "pair ch5|ch5",
+      "upper_path": "Hệ thống thông tin kế toán 1/Chương 5/script.pdf",
+      "lower_path": "Hệ thống thông tin kế toán 1/Chương 5/script (1).pdf"
+    },
+    {
+      "upper": "src-0399",
+      "upper_file": "Tailieuthamkhao_Chuong6.pdf",
+      "lowers": [
+        "src-0402"
+      ],
+      "cov": 0.0285,
+      "back": 0.0058,
+      "decision": "both_canonical",
+      "shingles_upper": 316,
+      "shingles_lower": 1542,
+      "scope": "pair ch6|ch6",
+      "upper_path": "Hệ thống thông tin kế toán 1/Chương 6/Tailieuthamkhao_Chuong6.pdf",
+      "lower_path": "Hệ thống thông tin kế toán 1/Chương 6/script.pdf"
+    },
+    {
+      "upper": "src-0379",
+      "upper_file": "script.pdf",
+      "lowers": [
+        "src-0377"
+      ],
+      "cov": 0.024,
+      "back": 0.0184,
+      "decision": "both_canonical",
+      "shingles_upper": 1126,
+      "shingles_lower": 1467,
+      "scope": "pair ch4|ch4",
+      "upper_path": "Hệ thống thông tin kế toán 1/Chương 4/script.pdf",
+      "lower_path": "Hệ thống thông tin kế toán 1/Chương 4/script (1).pdf"
+    },
+    {
+      "upper": "src-0377",
+      "upper_file": "script (1).pdf",
+      "lowers": [
+        "src-0378"
+      ],
+      "cov": 0.0204,
+      "back": 0.0186,
+      "decision": "both_canonical",
+      "shingles_upper": 1467,
+      "shingles_lower": 1614,
+      "scope": "pair ch4|ch4",
+      "upper_path": "Hệ thống thông tin kế toán 1/Chương 4/script (1).pdf",
+      "lower_path": "Hệ thống thông tin kế toán 1/Chương 4/script (2).pdf"
+    },
+    {
+      "upper": "src-0388",
+      "upper_file": "Tailieuthamkhao_Chuong5.pdf",
+      "lowers": [
+        "src-0391"
+      ],
+      "cov": 0.02,
+      "back": 0.006,
+      "decision": "both_canonical",
+      "shingles_upper": 300,
+      "shingles_lower": 1004,
+      "scope": "pair ch5|ch5",
+      "upper_path": "Hệ thống thông tin kế toán 1/Chương 5/Tailieuthamkhao_Chuong5.pdf",
+      "lower_path": "Hệ thống thông tin kế toán 1/Chương 5/script (3).pdf"
+    },
+    {
+      "upper": "src-0378",
+      "upper_file": "script (2).pdf",
+      "lowers": [
+        "src-0377"
+      ],
+      "cov": 0.0186,
+      "back": 0.0204,
+      "decision": "both_canonical",
+      "shingles_upper": 1614,
+      "shingles_lower": 1467,
+      "scope": "pair ch4|ch4",
+      "upper_path": "Hệ thống thông tin kế toán 1/Chương 4/script (2).pdf",
+      "lower_path": "Hệ thống thông tin kế toán 1/Chương 4/script (1).pdf"
+    },
+    {
+      "upper": "src-0377",
+      "upper_file": "script (1).pdf",
+      "lowers": [
+        "src-0379"
+      ],
+      "cov": 0.0184,
+      "back": 0.024,
+      "decision": "both_canonical",
+      "shingles_upper": 1467,
+      "shingles_lower": 1126,
+      "scope": "pair ch4|ch4",
+      "upper_path": "Hệ thống thông tin kế toán 1/Chương 4/script (1).pdf",
+      "lower_path": "Hệ thống thông tin kế toán 1/Chương 4/script.pdf"
+    },
+    {
+      "upper": "src-0362",
+      "upper_file": "Tailieuthamkhao_Chuong3.pdf",
+      "lowers": [
+        "src-0364"
+      ],
+      "cov": 0.0165,
+      "back": 0.0027,
+      "decision": "both_canonical",
+      "shingles_upper": 242,
+      "shingles_lower": 1501,
+      "scope": "pair ch3|ch3",
+      "upper_path": "Hệ thống thông tin kế toán 1/Chương 3/Tailieuthamkhao_Chuong3.pdf",
+      "lower_path": "Hệ thống thông tin kế toán 1/Chương 3/script (2).pdf"
+    },
+    {
+      "upper": "src-0405",
+      "upper_file": "ACCO3315_HTTTKT1_De thi giay_MAU.pdf",
+      "lowers": [
+        "src-0377"
+      ],
+      "cov": 0.016,
+      "back": 0.0027,
+      "decision": "both_canonical",
+      "shingles_upper": 250,
+      "shingles_lower": 1467,
+      "scope": "pair chNone|ch4",
+      "upper_path": "Hệ thống thông tin kế toán 1/TÀI LIỆU HƯỚNG DẪN ÔN TẬP - ĐỀ THI MẪU/ACCO3315_HTTTKT1_De thi giay_MAU.pdf",
+      "lower_path": "Hệ thống thông tin kế toán 1/Chương 4/script (1).pdf"
+    }
+  ]
+}

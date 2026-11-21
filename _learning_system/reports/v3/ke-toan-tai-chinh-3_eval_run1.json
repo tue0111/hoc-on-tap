@@ -1,0 +1,643 @@
+{
+  "course_id": "ke-toan-tai-chinh-3",
+  "tag": "_run1",
+  "eval_sha256": "fbcbcacfa23ce207dbea697065e4ba6be901d92c10a1a27a2cb2ca26ea797868",
+  "n": 23,
+  "metrics": {
+    "direct_must_include": 0.9166666666666666,
+    "direct_chapter_at1": 1.0,
+    "source_bound": 1.0,
+    "insufficient": 1.0,
+    "collision_contamination": 0,
+    "account": 1.0,
+    "topic_owner": null
+  },
+  "gates": {
+    "direct_must_include": true,
+    "direct_chapter_at1": true,
+    "source_bound": true,
+    "insufficient": true,
+    "collision_contamination": true,
+    "account": true,
+    "topic_owner": true
+  },
+  "all_pass": true,
+  "results": [
+    {
+      "id": "k3-d01",
+      "category": "direct",
+      "question": "Kế toán tài chính 3: khi mua hàng thanh toán bằng ngoại tệ thì ghi nhận theo tỷ giá nào?",
+      "coverage": "partial",
+      "top_sources": [
+        "src-0548",
+        "src-0546",
+        "src-0546",
+        "src-0546",
+        "src-0546"
+      ],
+      "top_chapters": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "partition": "ke-toan-tai-chinh-3",
+      "unknowns": [
+        "no_course_concept_match"
+      ],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "k3-d02",
+      "category": "direct",
+      "question": "Kế toán tài chính 3: cuối kỳ đánh giá lại số dư tiền gửi ngoại tệ thì chênh lệch tỷ giá hạch toán ra sao?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0548",
+        "src-0548",
+        "src-0548",
+        "src-0544",
+        "src-0595"
+      ],
+      "top_chapters": [
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "partition": "ke-toan-tai-chinh-3",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "k3-d03",
+      "category": "direct",
+      "question": "Kế toán tài chính 3: hàng nhập khẩu trực tiếp được ghi nhận giá trị theo tỷ giá nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0550",
+        "src-0595",
+        "src-0550",
+        "src-0544",
+        "src-0550"
+      ],
+      "top_chapters": [
+        1,
+        null,
+        1,
+        1,
+        1
+      ],
+      "partition": "ke-toan-tai-chinh-3",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "k3-d04",
+      "category": "direct",
+      "question": "Kế toán tài chính 3: bất động sản đầu tư khác bất động sản chủ sở hữu sử dụng như thế nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0564",
+        "src-0555",
+        "src-0564",
+        "src-0555",
+        "src-0594"
+      ],
+      "top_chapters": [
+        2,
+        2,
+        2,
+        2,
+        null
+      ],
+      "partition": "ke-toan-tai-chinh-3",
+      "unknowns": [],
+      "must_include": false,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": false
+    },
+    {
+      "id": "k3-d05",
+      "category": "direct",
+      "question": "Kế toán tài chính 3: cho thuê hoạt động bất động sản đầu tư thì trích khấu hao và ghi doanh thu thế nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0560",
+        "src-0595",
+        "src-0560",
+        "src-0560",
+        "src-0594"
+      ],
+      "top_chapters": [
+        2,
+        null,
+        2,
+        2,
+        null
+      ],
+      "partition": "ke-toan-tai-chinh-3",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "k3-d06",
+      "category": "direct",
+      "question": "Kế toán tài chính 3: chuyển bất động sản đầu tư thành hàng tồn kho hoặc tài sản cố định hạch toán ra sao?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0564",
+        "src-0555",
+        "src-0564",
+        "src-0555",
+        "src-0564"
+      ],
+      "top_chapters": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "partition": "ke-toan-tai-chinh-3",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "k3-d07",
+      "category": "direct",
+      "question": "Kế toán tài chính 3: mua cổ phiếu để kiếm lời ngắn hạn thì kế toán chứng khoán kinh doanh thế nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0570",
+        "src-0568",
+        "src-0568",
+        "src-0576",
+        "src-0570"
+      ],
+      "top_chapters": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "partition": "ke-toan-tai-chinh-3",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "k3-d08",
+      "category": "direct",
+      "question": "Kế toán tài chính 3: đầu tư vào công ty con và công ty liên kết phân biệt theo tỷ lệ quyền biểu quyết ra sao?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0568",
+        "src-0568",
+        "src-0574",
+        "src-0574",
+        "src-0568"
+      ],
+      "top_chapters": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "partition": "ke-toan-tai-chinh-3",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "k3-d09",
+      "category": "direct",
+      "question": "Kế toán tài chính 3: lập dự phòng giảm giá chứng khoán kinh doanh cuối năm như thế nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0568",
+        "src-0576",
+        "src-0576",
+        "src-0576",
+        "src-0576"
+      ],
+      "top_chapters": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "partition": "ke-toan-tai-chinh-3",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "k3-d10",
+      "category": "direct",
+      "question": "Kế toán tài chính 3: lợi nhuận kế toán trước thuế khác thu nhập chịu thuế ở điểm nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0580",
+        "src-0584",
+        "src-0582",
+        "src-0580",
+        "src-0580"
+      ],
+      "top_chapters": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "partition": "ke-toan-tai-chinh-3",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "k3-d11",
+      "category": "direct",
+      "question": "Kế toán tài chính 3: tài sản thuế thu nhập hoãn lại phát sinh từ chênh lệch tạm thời được khấu trừ ghi nhận thế nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0588",
+        "src-0584",
+        "src-0586",
+        "src-0586",
+        "src-0588"
+      ],
+      "top_chapters": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "partition": "ke-toan-tai-chinh-3",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "k3-d12",
+      "category": "direct",
+      "question": "Kế toán tài chính 3: thuế thu nhập hoãn lại phải trả được tính và hạch toán ra sao?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0588",
+        "src-0588",
+        "src-0588",
+        "src-0595",
+        "src-0588"
+      ],
+      "top_chapters": [
+        4,
+        4,
+        4,
+        null,
+        4
+      ],
+      "partition": "ke-toan-tai-chinh-3",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "k3-s01",
+      "category": "source_bound",
+      "question": "Theo chương 2 môn Kế toán tài chính 3, giá trị ban đầu của bất động sản đầu tư được xác định thế nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0555",
+        "src-0555",
+        "src-0555",
+        "src-0558",
+        "src-0562"
+      ],
+      "top_chapters": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "partition": "ke-toan-tai-chinh-3",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "k3-s02",
+      "category": "source_bound",
+      "question": "Đề thi mẫu môn Kế toán tài chính 3 có những dạng câu hỏi nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0595",
+        "src-0594",
+        "src-0595",
+        "src-0594",
+        "src-0595"
+      ],
+      "top_chapters": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "partition": "ke-toan-tai-chinh-3",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "k3-s03",
+      "category": "source_bound",
+      "question": "Hướng dẫn ôn tập môn Kế toán tài chính 3 yêu cầu đọc học liệu chính nào và thi theo hình thức gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0595",
+        "src-0595",
+        "src-0595",
+        "src-0592",
+        "src-0595"
+      ],
+      "top_chapters": [
+        null,
+        null,
+        null,
+        0,
+        null
+      ],
+      "partition": "ke-toan-tai-chinh-3",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "k3-i01",
+      "category": "insufficient",
+      "question": "Kế toán tài chính 3: chi phí sử dụng vốn bình quân WACC được tính thế nào?",
+      "coverage": "insufficient",
+      "top_sources": [
+        "src-0544",
+        "src-0562",
+        "src-0578",
+        "src-0568",
+        "src-0568"
+      ],
+      "top_chapters": [
+        1,
+        2,
+        3,
+        3,
+        3
+      ],
+      "partition": "ke-toan-tai-chinh-3",
+      "unknowns": [
+        "no_course_concept_match",
+        "term_not_in_course_corpus:wacc",
+        "topic_in_other_course:tai-chinh-doanh-nghiep-1",
+        "insufficient_curriculum_evidence"
+      ],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "k3-i02",
+      "category": "insufficient",
+      "question": "Kế toán tài chính 3 hướng dẫn đánh giá rủi ro kiểm soát khi lập kế hoạch kiểm toán ra sao?",
+      "coverage": "insufficient",
+      "top_sources": [
+        "src-0574",
+        "src-0568",
+        "src-0566",
+        "src-0595",
+        "src-0576"
+      ],
+      "top_chapters": [
+        3,
+        3,
+        2,
+        null,
+        3
+      ],
+      "partition": "ke-toan-tai-chinh-3",
+      "unknowns": [
+        "topic_in_other_course:kiem-toan-1",
+        "no_course_concept_match",
+        "topic_in_other_course:kinh-doanh-va-nghiep-vu",
+        "insufficient_curriculum_evidence"
+      ],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "k3-i03",
+      "category": "insufficient",
+      "question": "Kế toán tài chính 3: phân bổ chi phí sản xuất chung và đánh giá sản phẩm dở dang thế nào?",
+      "coverage": "insufficient",
+      "top_sources": [
+        "src-0564",
+        "src-0562",
+        "src-0555",
+        "src-0562",
+        "src-0560"
+      ],
+      "top_chapters": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "partition": "ke-toan-tai-chinh-3",
+      "unknowns": [
+        "topic_in_other_course:ke-toan-chi-phi",
+        "no_course_concept_match",
+        "topic_in_other_course:tai-chinh-hanh-chinh-su-nghiep",
+        "topic_in_other_course:ke-toan-hanh-chinh-su-nghiep",
+        "insufficient_curriculum_evidence"
+      ],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "k3-c01",
+      "category": "collision",
+      "question": "Chương 1 của môn Kế toán tài chính 3 nói về gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0552",
+        "src-0546",
+        "src-0544",
+        "src-0544",
+        "src-0546"
+      ],
+      "top_chapters": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "partition": "ke-toan-tai-chinh-3",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "k3-c02",
+      "category": "collision",
+      "question": "Chương 3 của môn Kế toán tài chính 3 nói về gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0568",
+        "src-0568",
+        "src-0578",
+        "src-0576",
+        "src-0568"
+      ],
+      "top_chapters": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "partition": "ke-toan-tai-chinh-3",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "k3-a01",
+      "category": "account",
+      "question": "Tài khoản 217 trong môn Kế toán tài chính 3 dùng để phản ánh gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0566",
+        "src-0558",
+        "src-0558",
+        "src-0558",
+        "src-0564"
+      ],
+      "top_chapters": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "partition": "ke-toan-tai-chinh-3",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "k3-a02",
+      "category": "account",
+      "question": "Kế toán tài chính 3: TK 8212 dùng để làm gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0586",
+        "src-0590",
+        "src-0588",
+        "src-0586",
+        "src-0588"
+      ],
+      "top_chapters": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "partition": "ke-toan-tai-chinh-3",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "k3-a03",
+      "category": "account",
+      "question": "Kế toán tài chính 3: TK 4131 được sử dụng khi nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0548",
+        "src-0548",
+        "src-0548",
+        "src-0548",
+        "src-0548"
+      ],
+      "top_chapters": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "partition": "ke-toan-tai-chinh-3",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    }
+  ]
+}

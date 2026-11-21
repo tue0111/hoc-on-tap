@@ -1,0 +1,28 @@
+{
+  "he-thong-thong-tin-ke-toan-1": {
+    "file": "evals/v3/he-thong-thong-tin-ke-toan-1_retrieval.jsonl",
+    "sha256": "dee08790290945add182df20591b77d24c1bb00df58a84661e4f6e81bb890792",
+    "first_run_metrics": {
+      "direct_must_include": 1.0,
+      "direct_chapter_at1": 0.9285714285714286,
+      "source_bound": 0.6666666666666666,
+      "insufficient": 1.0,
+      "collision_contamination": 0,
+      "account": 1.0,
+      "topic_owner": null
+    },
+    "first_run_gates": {
+      "direct_must_include": true,
+      "direct_chapter_at1": true,
+      "source_bound": true,
+      "insufficient": true,
+      "collision_contamination": true,
+      "account": true,
+      "topic_owner": true
+    },
+    "frozen_at": "2026-11-21",
+    "first_run_report": "reports/v3/he-thong-thong-tin-ke-toan-1_eval_run1.json",
+    "n": 24,
+    "note": "W6b phase B; run with tier=retrieval set in memory only (work/he-thong-thong-tin-ke-toan-1/run_eval.py); topic_owner n/a (no rows, Wave 1 only)"
+  }
+}

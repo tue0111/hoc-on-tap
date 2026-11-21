@@ -1,0 +1,32 @@
+ref: Luật thuế giá trị gia tăng
+status: unknown
+replaced_by: null
+amended_by: []
+effective_from: null
+effective_date_meaning: effective date of cited change, not necessarily original instrument
+scope: UNKNOWN
+key_changes: []
+cited_in_courses:
+- ke-toan-thue-1
+curriculum_occurrences:
+- source_id: src-0530
+  page: 1
+  layer: curriculum
+- source_id: src-0530
+  page: 6
+  layer: curriculum
+variants:
+- Luật thuế Giá trị gia tăng
+sources: []
+evidence_status: UNKNOWN
+layer: external
+checked_at: '2026-11-21'
+unknown_reason: Mảnh câu do regex harvest bắt từ cụm "Luật thuế…" trong giáo trình,
+  không phải số hiệu văn bản; không định danh được văn bản/phiên bản cụ thể và không
+  dùng làm căn cứ pháp lý. Ngữ cảnh chỉ đến Luật Thuế giá trị gia tăng nhưng văn bản
+  không ghi số hiệu ở chỗ này; không gán số hiệu.
+search_log: research/search_logs/ref_083.json
+record_kind: not_an_instrument
+refers_to_generic_law: Luật Thuế giá trị gia tăng
+freshness_limit: Snapshot of sources checked on the stated date; not a guarantee that
+  every later amendment has been found.

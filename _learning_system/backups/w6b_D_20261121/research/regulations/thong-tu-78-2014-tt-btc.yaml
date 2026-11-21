@@ -1,0 +1,46 @@
+ref: Thông tư 78/2014/TT-BTC
+status: replaced
+replaced_by: Thông tư 20/2026/TT-BTC
+amended_by: []
+effective_from: '2026-03-12'
+effective_date_meaning: effective date of cited change, not necessarily original instrument
+scope: TT 78/2014 hướng dẫn Luật TNDN 2008; theo nguồn phụ được TT 20/2026/TT-BTC
+  (hướng dẫn Luật TNDN 67/2025 và NĐ 320/2025) thay thế từ 12/03/2026, áp dụng từ
+  kỳ tính thuế 2025; chi phí phát sinh trước ngày hiệu lực vẫn theo quy định cũ. Nguồn
+  chính thức xác nhận TT 20/2026 và ngày hiệu lực, chưa đọc được điều khoản thay thế
+  (PDF quét).
+key_changes:
+- text: TT 20/2026/TT-BTC ban hành và hiệu lực 12/03/2026, hướng dẫn Luật TNDN và
+    NĐ 320/2025.
+  source_url: https://vanban.chinhphu.vn/?pageid=27160&docid=217191
+- text: 'Nguồn phụ: khoản 6 Điều 10 TT 20/2026 thay thế TT 78/2014 và TT 96/2015.'
+  source_url: https://thuvienphapluat.vn/ma-so-thue/phap-luat-thue/chinh-thuc-thong-tu-78-huong-dan-thue-tndn-het-hieu-luc-tu-ngay-nao-421139-221703.html
+cited_in_courses:
+- ke-toan-tai-chinh-3
+curriculum_occurrences:
+- source_id: src-0580
+  page: 2
+  layer: curriculum
+variants:
+- thông tư 78/2014/TT-BTC
+sources:
+- url: https://vanban.chinhphu.vn/?pageid=27160&docid=217191
+  publisher: vanban.chinhphu.vn
+  retrieved_at: '2026-11-21'
+  authority: official
+- url: https://amis.misa.vn/266749/thong-tu-20-2026-tt-btc/
+  publisher: amis.misa.vn
+  retrieved_at: '2026-11-21'
+  authority: secondary
+- url: https://thuvienphapluat.vn/ma-so-thue/phap-luat-thue/chinh-thuc-thong-tu-78-huong-dan-thue-tndn-het-hieu-luc-tu-ngay-nao-421139-221703.html
+  publisher: thuvienphapluat.vn
+  retrieved_at: '2026-11-21'
+  authority: secondary
+evidence_status: INFERRED
+layer: external
+checked_at: '2026-11-21'
+unknown_reason: null
+search_log: research/search_logs/ref_123.json
+record_kind: verified_status
+freshness_limit: Snapshot of sources checked on the stated date; not a guarantee that
+  every later amendment has been found.

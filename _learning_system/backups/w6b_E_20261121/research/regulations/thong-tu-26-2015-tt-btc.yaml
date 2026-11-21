@@ -1,0 +1,34 @@
+ref: Thông tư 26/2015/TT-BTC
+status: unknown
+replaced_by: null
+amended_by: []
+effective_from: null
+effective_date_meaning: effective date of cited change, not necessarily original instrument
+scope: UNKNOWN
+key_changes: []
+cited_in_courses:
+- ke-toan-thue-1
+curriculum_occurrences:
+- source_id: src-0498
+  page: 6
+  layer: curriculum
+- source_id: src-0538
+  page: 3
+  layer: curriculum
+variants:
+- 'TT
+
+  26/2015/TT-BTC'
+- TT 26/2015/TT-BTC
+sources: []
+evidence_status: UNKNOWN
+layer: external
+checked_at: '2026-11-21'
+unknown_reason: TT 26/2015 sửa TT 219/2013, TT 156/2013, TT 39/2014. Các thông tư
+  gốc này đều đã bị thay thế hoặc hết hiệu lực, nhưng chưa có nguồn chính thức nêu
+  trạng thái của chính TT 26/2015. Không suy ra "còn hiệu lực" chỉ vì chưa thấy văn
+  bản thay thế.
+search_log: research/search_logs/ref_118.json
+record_kind: unverified_reference
+freshness_limit: Snapshot of sources checked on the stated date; not a guarantee that
+  every later amendment has been found.

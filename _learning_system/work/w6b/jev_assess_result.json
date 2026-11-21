@@ -1,0 +1,180 @@
+{
+ "model": "jev-1.14.0",
+ "answers": {
+  "G16_block": {
+   "type": "noul",
+   "noul": 0.06
+  },
+  "G16_severity": {
+   "type": "score",
+   "score": 0.99,
+   "confidence": 0.99,
+   "legend": {
+    "0": "Cosmetic: a note or wording issue; no behavior difference.",
+    "1": "Minor: slight redundancy or weaker provenance; answers and sources are still correct.",
+    "2": "Moderate: can occasionally mislead or degrade results for some questions.",
+    "3": "Major: regularly gives wrong answers, loses data, or breaks updates.",
+    "4": "Critical: unsafe or corrupting; must be fixed before any use."
+   },
+   "probabilities": {
+    "0": 0.01,
+    "1": 0.99,
+    "2": 0.0,
+    "3": 0.0,
+    "4": 0.0
+   }
+  },
+  "G19_block": {
+   "type": "noul",
+   "noul": 0.09
+  },
+  "G19_severity": {
+   "type": "score",
+   "score": 1.04,
+   "confidence": 0.97,
+   "legend": {
+    "0": "Cosmetic: a note or wording issue; no behavior difference.",
+    "1": "Minor: slight redundancy or weaker provenance; answers and sources are still correct.",
+    "2": "Moderate: can occasionally mislead or degrade results for some questions.",
+    "3": "Major: regularly gives wrong answers, loses data, or breaks updates.",
+    "4": "Critical: unsafe or corrupting; must be fixed before any use."
+   },
+   "probabilities": {
+    "0": 0.0,
+    "1": 0.96,
+    "2": 0.04,
+    "3": 0.0,
+    "4": 0.0
+   }
+  },
+  "G20_block": {
+   "type": "noul",
+   "noul": 0.06
+  },
+  "G20_severity": {
+   "type": "score",
+   "score": 0.66,
+   "confidence": 0.61,
+   "legend": {
+    "0": "Cosmetic: a note or wording issue; no behavior difference.",
+    "1": "Minor: slight redundancy or weaker provenance; answers and sources are still correct.",
+    "2": "Moderate: can occasionally mislead or degrade results for some questions.",
+    "3": "Major: regularly gives wrong answers, loses data, or breaks updates.",
+    "4": "Critical: unsafe or corrupting; must be fixed before any use."
+   },
+   "probabilities": {
+    "0": 0.41,
+    "1": 0.54,
+    "2": 0.04,
+    "3": 0.01,
+    "4": 0.0
+   }
+  },
+  "G21_block": {
+   "type": "noul",
+   "noul": 0.06
+  },
+  "G21_severity": {
+   "type": "score",
+   "score": 0.35,
+   "confidence": 0.71,
+   "legend": {
+    "0": "Cosmetic: a note or wording issue; no behavior difference.",
+    "1": "Minor: slight redundancy or weaker provenance; answers and sources are still correct.",
+    "2": "Moderate: can occasionally mislead or degrade results for some questions.",
+    "3": "Major: regularly gives wrong answers, loses data, or breaks updates.",
+    "4": "Critical: unsafe or corrupting; must be fixed before any use."
+   },
+   "probabilities": {
+    "0": 0.69,
+    "1": 0.27,
+    "2": 0.04,
+    "3": 0.0,
+    "4": 0.0
+   }
+  },
+  "G22_block": {
+   "type": "noul",
+   "noul": 0.06
+  },
+  "G22_severity": {
+   "type": "score",
+   "score": 0.67,
+   "confidence": 0.66,
+   "legend": {
+    "0": "Cosmetic: a note or wording issue; no behavior difference.",
+    "1": "Minor: slight redundancy or weaker provenance; answers and sources are still correct.",
+    "2": "Moderate: can occasionally mislead or degrade results for some questions.",
+    "3": "Major: regularly gives wrong answers, loses data, or breaks updates.",
+    "4": "Critical: unsafe or corrupting; must be fixed before any use."
+   },
+   "probabilities": {
+    "0": 0.37,
+    "1": 0.59,
+    "2": 0.04,
+    "3": 0.0,
+    "4": 0.0
+   }
+  },
+  "parallel_regression_incident_block": {
+   "type": "noul",
+   "noul": 0.23
+  },
+  "parallel_regression_incident_severity": {
+   "type": "score",
+   "score": 1.78,
+   "confidence": 0.26,
+   "legend": {
+    "0": "Cosmetic: a note or wording issue; no behavior difference.",
+    "1": "Minor: slight redundancy or weaker provenance; answers and sources are still correct.",
+    "2": "Moderate: can occasionally mislead or degrade results for some questions.",
+    "3": "Major: regularly gives wrong answers, loses data, or breaks updates.",
+    "4": "Critical: unsafe or corrupting; must be fixed before any use."
+   },
+   "probabilities": {
+    "0": 0.06,
+    "1": 0.41,
+    "2": 0.27,
+    "3": 0.22,
+    "4": 0.04
+   }
+  },
+  "unreviewed_round_block": {
+   "type": "noul",
+   "noul": 0.09
+  },
+  "unreviewed_round_severity": {
+   "type": "score",
+   "score": 1.31,
+   "confidence": 0.68,
+   "legend": {
+    "0": "Cosmetic: a note or wording issue; no behavior difference.",
+    "1": "Minor: slight redundancy or weaker provenance; answers and sources are still correct.",
+    "2": "Moderate: can occasionally mislead or degrade results for some questions.",
+    "3": "Major: regularly gives wrong answers, loses data, or breaks updates.",
+    "4": "Critical: unsafe or corrupting; must be fixed before any use."
+   },
+   "probabilities": {
+    "0": 0.04,
+    "1": 0.66,
+    "2": 0.26,
+    "3": 0.04,
+    "4": 0.0
+   }
+  },
+  "overall_publish": {
+   "type": "choice",
+   "choice": "review_then_publish",
+   "confidence": 0.94,
+   "probabilities": {
+    "publish_now": 0.03,
+    "review_then_publish": 0.96,
+    "fix_first": 0.01
+   }
+  }
+ },
+ "usage": {
+  "input_tokens": 2105,
+  "output_tokens": 314
+ }
+}

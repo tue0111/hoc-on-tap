@@ -1,0 +1,42 @@
+ref: Nghị định 60/2021/NĐ-CP
+status: amended
+replaced_by: null
+amended_by:
+- Nghị định 111/2025/NĐ-CP
+effective_from: '2025-07-07'
+effective_date_meaning: effective date of cited change, not necessarily original instrument
+scope: Cơ chế tự chủ tài chính của đơn vị sự nghiệp công lập; NĐ 111/2025 (ban hành
+  22/05/2025, hiệu lực 07/07/2025, áp dụng từ năm ngân sách 2025) sửa đổi, bổ sung
+  và bãi bỏ một số điều.
+key_changes:
+- text: NĐ 111/2025/NĐ-CP sửa đổi, bổ sung một số điều NĐ 60/2021 (danh mục dịch vụ
+    sự nghiệp công, giá dịch vụ, trích lập quỹ).
+  source_url: https://vanban.chinhphu.vn/?pageid=27160&docid=213722
+cited_in_courses:
+- ke-toan-hanh-chinh-su-nghiep
+curriculum_occurrences:
+- source_id: src-0461
+  page: 2
+  layer: curriculum
+variants:
+- 'Nghị
+
+  định 60/2021/NĐ-CP'
+- nghị định 60/2021/NĐ-CP
+sources:
+- url: https://vanban.chinhphu.vn/?pageid=27160&docid=213722
+  publisher: vanban.chinhphu.vn
+  retrieved_at: '2026-11-21'
+  authority: official
+- url: https://www.mof.gov.vn/tin-tuc-tai-chinh/tin-tuc-su-kien-8/sua-doi-bo-sung-quy-dinh-ve-co-che-tu-chu-tai-chinh-cua-don-vi-su-nghiep-cong-lap
+  publisher: www.mof.gov.vn
+  retrieved_at: '2026-11-21'
+  authority: official
+evidence_status: OBSERVED
+layer: external
+checked_at: '2026-11-21'
+unknown_reason: null
+search_log: research/search_logs/ref_106.json
+record_kind: verified_status
+freshness_limit: Snapshot of sources checked on the stated date; not a guarantee that
+  every later amendment has been found.

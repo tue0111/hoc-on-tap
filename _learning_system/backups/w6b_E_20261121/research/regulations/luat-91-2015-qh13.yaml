@@ -1,0 +1,42 @@
+ref: Luật 91/2015/QH13
+status: unknown
+replaced_by: null
+amended_by: []
+effective_from: null
+effective_date_meaning: effective date of cited change, not necessarily original instrument
+scope: UNKNOWN
+key_changes: []
+cited_in_courses:
+- ngan-hang-thuong-mai
+curriculum_occurrences:
+- source_id: src-0134
+  page: 45
+  layer: curriculum
+- source_id: src-0134
+  page: 46
+  layer: curriculum
+- source_id: src-0134
+  page: 47
+  layer: curriculum
+- source_id: src-0138
+  page: 118
+  layer: curriculum
+- source_id: src-0138
+  page: 119
+  layer: curriculum
+- source_id: src-0138
+  page: 120
+  layer: curriculum
+variants:
+- Luật dân sự Số 91/2015/QH13
+sources: []
+evidence_status: UNKNOWN
+layer: external
+checked_at: '2026-10-11'
+unknown_reason: Chưa đủ bằng chứng đã kiểm tra để kết luận trạng thái và chuỗi sửa
+  đổi hiện hành. Xem nhật ký tìm kiếm; không suy ra còn hiệu lực từ việc chưa thấy
+  văn bản thay thế.
+search_log: research/search_logs/ref_012.json
+record_kind: unverified_reference
+freshness_limit: Snapshot of sources checked on the stated date; not a guarantee that
+  every later amendment has been found.

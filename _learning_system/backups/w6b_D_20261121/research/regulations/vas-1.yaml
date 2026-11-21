@@ -1,0 +1,106 @@
+ref: VAS 1
+status: unknown
+replaced_by: null
+amended_by: []
+effective_from: null
+effective_date_meaning: effective date of cited change, not necessarily original instrument
+scope: UNKNOWN
+key_changes: []
+cited_in_courses:
+- ke-toan-ngan-hang
+- ke-toan-tai-chinh-1
+- ke-toan-tai-chinh-2
+curriculum_occurrences:
+- source_id: src-0060
+  page: 12
+  layer: curriculum
+- source_id: src-0060
+  page: 20
+  layer: curriculum
+- source_id: src-0060
+  page: 21
+  layer: curriculum
+- source_id: src-0060
+  page: 22
+  layer: curriculum
+- source_id: src-0060
+  page: 23
+  layer: curriculum
+- source_id: src-0060
+  page: 24
+  layer: curriculum
+- source_id: src-0060
+  page: 25
+  layer: curriculum
+- source_id: src-0063
+  page: 15
+  layer: curriculum
+- source_id: src-0063
+  page: 23
+  layer: curriculum
+- source_id: src-0063
+  page: 24
+  layer: curriculum
+- source_id: src-0063
+  page: 25
+  layer: curriculum
+- source_id: src-0063
+  page: 26
+  layer: curriculum
+- source_id: src-0063
+  page: 27
+  layer: curriculum
+- source_id: src-0063
+  page: 28
+  layer: curriculum
+- source_id: src-0065
+  page: 49
+  layer: curriculum
+- source_id: src-0068
+  page: 60
+  layer: curriculum
+- source_id: src-0070
+  page: 2
+  layer: curriculum
+- source_id: src-0070
+  page: 3
+  layer: curriculum
+- source_id: src-0258
+  page: 2
+  layer: curriculum
+- source_id: src-0299
+  page: 2
+  layer: curriculum
+- source_id: src-0303
+  page: 1
+  layer: curriculum
+- source_id: src-0313
+  page: 2
+  layer: curriculum
+- source_id: src-0313
+  page: 3
+  layer: curriculum
+- source_id: src-0320
+  page: 1
+  layer: curriculum
+variants:
+- Chuẩn mực kế toán Việt Nam số 01
+- Chuẩn mực kế toán số 01
+- VAS 01
+- 'chuẩn mực kế toán
+
+  Việt Nam số 01'
+- chuẩn mực kế toán Việt Nam số 01
+- chuẩn mực kế toán số 01
+sources: []
+evidence_status: UNKNOWN
+layer: external
+checked_at: '2026-10-11'
+unknown_reason: Trích dẫn thiếu số hiệu/năm hoặc chỉ tên chuẩn mực; chưa định danh
+  chắc chắn văn bản và phiên bản. Chưa đủ bằng chứng đã kiểm tra để kết luận trạng
+  thái và chuỗi sửa đổi hiện hành. Xem nhật ký tìm kiếm; không suy ra còn hiệu lực
+  từ việc chưa thấy văn bản thay thế.
+search_log: research/search_logs/ref_058.json
+record_kind: unverified_reference
+freshness_limit: Snapshot of sources checked on the stated date; not a guarantee that
+  every later amendment has been found.

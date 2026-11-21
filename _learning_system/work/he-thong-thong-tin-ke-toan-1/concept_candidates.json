@@ -1,0 +1,1777 @@
+{
+  "course_id": "he-thong-thong-tin-ke-toan-1",
+  "unit_titles": [
+    {
+      "source_id": "src-0344",
+      "chapter": 1,
+      "topic": "1",
+      "title_from_filename": "script",
+      "page": 1
+    },
+    {
+      "source_id": "src-0353",
+      "chapter": 2,
+      "topic": "2.2",
+      "title_from_filename": "script (1)",
+      "page": 1
+    },
+    {
+      "source_id": "src-0354",
+      "chapter": 2,
+      "topic": "2.3",
+      "title_from_filename": "script (2)",
+      "page": 1
+    },
+    {
+      "source_id": "src-0355",
+      "chapter": 2,
+      "topic": "2.1",
+      "title_from_filename": "script",
+      "page": 1
+    },
+    {
+      "source_id": "src-0363",
+      "chapter": 3,
+      "topic": "3.2",
+      "title_from_filename": "script (1)",
+      "page": 1
+    },
+    {
+      "source_id": "src-0364",
+      "chapter": 3,
+      "topic": "3.3",
+      "title_from_filename": "script (2)",
+      "page": 1
+    },
+    {
+      "source_id": "src-0365",
+      "chapter": 3,
+      "topic": "3.1",
+      "title_from_filename": "script",
+      "page": 1
+    },
+    {
+      "source_id": "src-0370",
+      "chapter": 4,
+      "topic": "clip 1",
+      "title_from_filename": "HTTTKT1 Chuong4 Clip1 SoChiTietThanhToan",
+      "page": 1
+    },
+    {
+      "source_id": "src-0371",
+      "chapter": 4,
+      "topic": "clip 2",
+      "title_from_filename": "HeThongThongTinKeToan1 Chuong4 Clip2 SoChiTietTienMat",
+      "page": 1
+    },
+    {
+      "source_id": "src-0372",
+      "chapter": 4,
+      "topic": "clip 3",
+      "title_from_filename": "HeThongThongTinKeToan1 Chuong4 Clip3 SoChiTietHangTonKho",
+      "page": 1
+    },
+    {
+      "source_id": "src-0373",
+      "chapter": 4,
+      "topic": "clip 4",
+      "title_from_filename": "HeThongThongTinKeToan1 Chuong4 Clip4 SoChiPhiSanXuatKinhDoanh",
+      "page": 1
+    },
+    {
+      "source_id": "src-0374",
+      "chapter": 4,
+      "topic": "clip 5",
+      "title_from_filename": "HeThongThongTinKeToan1 Chuong4 Clip5 TheTinhGiaThanhSanPham",
+      "page": 1
+    },
+    {
+      "source_id": "src-0375",
+      "chapter": 4,
+      "topic": "clip 6",
+      "title_from_filename": "HeThongThongTinKeToan1 Chuong4 Clip6 SoCaiTaiKhoanTongHop",
+      "page": 1
+    },
+    {
+      "source_id": "src-0377",
+      "chapter": 4,
+      "topic": "4.5",
+      "title_from_filename": "script (1)",
+      "page": 1
+    },
+    {
+      "source_id": "src-0378",
+      "chapter": 4,
+      "topic": "4.6",
+      "title_from_filename": "script (2)",
+      "page": 1
+    },
+    {
+      "source_id": "src-0379",
+      "chapter": 4,
+      "topic": "4.4",
+      "title_from_filename": "script",
+      "page": 1
+    },
+    {
+      "source_id": "src-0384",
+      "chapter": 5,
+      "topic": "clip 2",
+      "title_from_filename": "HTTTKT1 Chuong5 Clip2 BangTongHopChiTietHangTonKho",
+      "page": 1
+    },
+    {
+      "source_id": "src-0385",
+      "chapter": 5,
+      "topic": "clip 3",
+      "title_from_filename": "HTTTKT1 Chuong5 Clip3 BangTongHopChiTietCongNo",
+      "page": 1
+    },
+    {
+      "source_id": "src-0386",
+      "chapter": 5,
+      "topic": "clip 4",
+      "title_from_filename": "HTTTKT1 Chuong5 Clip4 BangTHCT CacTaiKhoanKhac",
+      "page": 1
+    },
+    {
+      "source_id": "src-0387",
+      "chapter": 5,
+      "topic": "clip 1",
+      "title_from_filename": "HeThongThongTinKeToan1 Chuong5 Clip1 BangCanDoiSoPhatSinh",
+      "page": 1
+    },
+    {
+      "source_id": "src-0389",
+      "chapter": 5,
+      "topic": "5.2",
+      "title_from_filename": "script (1)",
+      "page": 1
+    },
+    {
+      "source_id": "src-0390",
+      "chapter": 5,
+      "topic": "5.3",
+      "title_from_filename": "script (2)",
+      "page": 1
+    },
+    {
+      "source_id": "src-0391",
+      "chapter": 5,
+      "topic": "5.4",
+      "title_from_filename": "script (3)",
+      "page": 1
+    },
+    {
+      "source_id": "src-0392",
+      "chapter": 5,
+      "topic": "5.1",
+      "title_from_filename": "script",
+      "page": 1
+    },
+    {
+      "source_id": "src-0400",
+      "chapter": 6,
+      "topic": "6.2",
+      "title_from_filename": "script (1)",
+      "page": 1
+    },
+    {
+      "source_id": "src-0401",
+      "chapter": 6,
+      "topic": "6.3",
+      "title_from_filename": "script (2)",
+      "page": 1
+    },
+    {
+      "source_id": "src-0402",
+      "chapter": 6,
+      "topic": "6.1",
+      "title_from_filename": "script",
+      "page": 1
+    },
+    {
+      "source_id": "src-0404",
+      "chapter": 0,
+      "topic": "0",
+      "title_from_filename": "script",
+      "page": 1
+    }
+  ],
+  "heading_lines": [
+    {
+      "kind": "chuong",
+      "line": "Chương 5: Ky ̃thuâṭ lâp̣ các bảng tổng hơp̣ chi tiết",
+      "count": 4,
+      "refs": [
+        {
+          "source_id": "src-0389",
+          "page": 1
+        },
+        {
+          "source_id": "src-0390",
+          "page": 1
+        },
+        {
+          "source_id": "src-0391",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 2: Tổ chức dữ liệu kế toán trên môi trường bảng tính",
+      "count": 3,
+      "refs": [
+        {
+          "source_id": "src-0353",
+          "page": 1
+        },
+        {
+          "source_id": "src-0354",
+          "page": 1
+        },
+        {
+          "source_id": "src-0355",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 3: Kỹ thuật lập các sổ nhật ký",
+      "count": 3,
+      "refs": [
+        {
+          "source_id": "src-0363",
+          "page": 1
+        },
+        {
+          "source_id": "src-0364",
+          "page": 1
+        },
+        {
+          "source_id": "src-0365",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 4: Ky ̃thuâṭ lâp̣ các sổ chi tiết và sổ cái tài khoản",
+      "count": 3,
+      "refs": [
+        {
+          "source_id": "src-0377",
+          "page": 1
+        },
+        {
+          "source_id": "src-0378",
+          "page": 1
+        },
+        {
+          "source_id": "src-0379",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 6: Lập báo cáo tài chính trên bảng tính",
+      "count": 3,
+      "refs": [
+        {
+          "source_id": "src-0400",
+          "page": 1
+        },
+        {
+          "source_id": "src-0401",
+          "page": 1
+        },
+        {
+          "source_id": "src-0402",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 1: Tổng quan về hệ thống thông tin kế toán 1",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0344",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2: Tổ chức dữ liệu trên môi trường bảng tính",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0353",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3: Kết chuyển số liệu kế toán",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0354",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1: Các hàm thường dùng trong kế toán",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0355",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2: Lập nhật ký mua hàng và nhật ký bán hàng",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0363",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3: Lập nhật ký chung",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0364",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1: Lập nhật ký thu tiền và nhật ký chi tiền",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0365",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 5: Thẻ tính giá thành sản phẩm",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0377",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 6: Sổ cái tài khoản tổng hơp̣",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0378",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4: Sổ chi tiết sổ chi phí sản xuất kinh doanh",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0379",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2: Bảng tổng hơp̣ chi tiết hàng tồn kho",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0389",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3: Bảng tổng hơp̣ chi tiết công nợ",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0390",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4: Bảng tổng hơp̣ chi tiết các tài khoản khác",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0391",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1: Bảng cân đối số phát sinh các tài khoản tổng hợp",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0392",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2: Lập báo cáo kết quả hoạt động kinh doanh",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0400",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3: Lập báo cáo lưu chuyển tiền tệ",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0401",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1: Lập bảng cân đối kế toán",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0402",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "CHƯƠNG 1: TỔNG QUAN VỀ HỆ THỐNG THÔNG TIN KẾ TOÁN",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0406",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "CHƯƠNG 2: TỔ CHỨC DỮ LIỆU KẾ TOÁN TRÊN MÔI TRƯỜNG BẢNG TÍNH",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0406",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.1: Các hàm thường dùng trong Xem video chủ đề, đọc script chủ đề (nếu cần)",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0406",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.2: Tổ chức dữ liệu trên bảng Xem video chủ đề, đọc script chủ đề (nếu cần)",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0406",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.3: Kết chuyển số liệu kế toán",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0406",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "CHƯƠNG 3: KỸ THUẬT LẬP CÁC SỔ NHẬT KÝ",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0406",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.1: Lập nhật ký thu tiền và nhật",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0406",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.2: Lập nhật ký mua hàng và",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0406",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.3: Lập nhật ký chung",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0406",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "CHƯƠNG 4: KỸ THUẬT LẬP SỔ CHI TIẾT VÀ SỔ CÁI TÀI KHOẢN",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0406",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.1: Các sổ chi tiết thanh toán",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0406",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.2: Sổ chi tiết tiền mặt",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0406",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.3: Sổ chi tiết hàng tồn kho",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0406",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.4: Sổ chi phí sản xuất kinh Xem video chủ đề, đọc script chủ đề (nếu cần)",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0406",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.5: Thẻ tính giá thành sản phẩm",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0406",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.6: Sổ cái tài khoản tổng hợp",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0406",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "CHƯƠNG 5: KỸ THUẬT LẬP CÁC BẢNG TỔNG HỢP CHI TIẾT",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0406",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 5.1: Bảng cân đối số phát sinh các",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0406",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 5.2: Bảng tổng hợp chi tiết hàng Xem video chủ đề, đọc script chủ đề (nếu cần)",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0406",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 5.3: Bảng tổng hợp chi tiết công Xem video chủ đề, đọc script chủ đề (nếu cần)",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0406",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "CHƯƠNG 6: KỸ THUẬT LẬP BÁO CÁO TÀI CHÍNH",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0406",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 6.1: Lập bảng cân đối kế toán",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0406",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 6.2: Lập báo cáo kết quả hoạt Xem video chủ đề, đọc script chủ đề (nếu cần)",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0406",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 6.3: Lập báo cáo lưu chuyển tiền",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0406",
+          "page": 4
+        }
+      ]
+    }
+  ],
+  "outline_titles": [
+    {
+      "source_id": "src-0341",
+      "title": "Cover",
+      "page": 1
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Title",
+      "page": 2
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Statement",
+      "page": 3
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Copyright",
+      "page": 4
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Brief Contents",
+      "page": 5
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Contents",
+      "page": 6
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Preface",
+      "page": 9
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Part 1: Excel for Accounting",
+      "page": 15
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Ch 1: Excel Tour",
+      "page": 17
+    },
+    {
+      "source_id": "src-0341",
+      "title": "In This Chapter You Will Learn:",
+      "page": 17
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Case: What SUP, Inc.",
+      "page": 17
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Understanding Excel’s Capabilities",
+      "page": 18
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Starting, Navigating, and Working with Excel Files",
+      "page": 18
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Getting Excel Help",
+      "page": 29
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Examples of How Excel Is Used in Accounting",
+      "page": 30
+    },
+    {
+      "source_id": "src-0341",
+      "title": "End Note",
+      "page": 36
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Chapter 1: Practice\r",
+      "page": 37
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Ch 2: Excel Basics",
+      "page": 38
+    },
+    {
+      "source_id": "src-0341",
+      "title": "In This Chapter You Will Learn:",
+      "page": 38
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Case: What SUP, Inc.",
+      "page": 38
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Entering Information",
+      "page": 38
+    },
+    {
+      "source_id": "src-0341",
+      "title": "More Extensive Use of Formulas",
+      "page": 46
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Manipulating Data and Structuring Worksheets",
+      "page": 48
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Printing",
+      "page": 59
+    },
+    {
+      "source_id": "src-0341",
+      "title": "End Note",
+      "page": 64
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Chapter 2: Practice \r",
+      "page": 65
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Ch 3: Financial Statement Analysis",
+      "page": 74
+    },
+    {
+      "source_id": "src-0341",
+      "title": "In This Chapter You Will Learn:",
+      "page": 74
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Case: What SUP, Inc.",
+      "page": 74
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Vertical Analysis",
+      "page": 74
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Pie Charts",
+      "page": 78
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Horizontal Analysis",
+      "page": 81
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Column Charts",
+      "page": 84
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Ratio Analysis",
+      "page": 88
+    },
+    {
+      "source_id": "src-0341",
+      "title": "End Note",
+      "page": 94
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Chapter 3: Practice\r",
+      "page": 95
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Ch 4: Depreciation",
+      "page": 99
+    },
+    {
+      "source_id": "src-0341",
+      "title": "In This Chapter You Will Learn:",
+      "page": 99
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Case: What SUP, Inc.",
+      "page": 99
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Depreciation Calculations",
+      "page": 99
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Conducting a What-If Analysis with the Depreciation Function",
+      "page": 102
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Creating a Depreciation Summary",
+      "page": 103
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Calculating Depreciation Using Other Methods",
+      "page": 104
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Charting Depreciation Expense",
+      "page": 110
+    },
+    {
+      "source_id": "src-0341",
+      "title": "End Note",
+      "page": 114
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Chapter 4: Practice",
+      "page": 115
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Ch 5: Loan and Bond Amortization",
+      "page": 121
+    },
+    {
+      "source_id": "src-0341",
+      "title": "In This Chapter You Will Learn:",
+      "page": 121
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Case: What SUP, Inc.",
+      "page": 121
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Loan Calculations",
+      "page": 121
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Loan Amortization Schedule",
+      "page": 122
+    },
+    {
+      "source_id": "src-0341",
+      "title": "What-If Analysis and the Payment Function",
+      "page": 124
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Names in a Worksheet",
+      "page": 125
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Present Value and Bonds",
+      "page": 127
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Bond Amortization Schedule",
+      "page": 129
+    },
+    {
+      "source_id": "src-0341",
+      "title": "What-If Analysis and Goal Seeking",
+      "page": 131
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Scenario Manager",
+      "page": 133
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Monthly Periods",
+      "page": 136
+    },
+    {
+      "source_id": "src-0341",
+      "title": "End Note",
+      "page": 138
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Chapter 5: Practice",
+      "page": 139
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Ch 6: Cash Budgeting",
+      "page": 145
+    },
+    {
+      "source_id": "src-0341",
+      "title": "In This Chapter You Will Learn:",
+      "page": 145
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Case: What SUP, Inc.",
+      "page": 145
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Operating Activities Budget",
+      "page": 145
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Investing and Financing Activities Budgets",
+      "page": 157
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Finalizing and Formatting the Cash Budget",
+      "page": 158
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Using What-If Analysis and Goal Seeking with the Cash Budget",
+      "page": 164
+    },
+    {
+      "source_id": "src-0341",
+      "title": "End Note",
+      "page": 165
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Chapter 6: Practice\r",
+      "page": 166
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Ch 7: Other Topics: Present/Future Values, Predicting Costs, and Allowance for Uncollectible Accounts",
+      "page": 174
+    },
+    {
+      "source_id": "src-0341",
+      "title": "In This Chapter You Will Learn:",
+      "page": 174
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Case: What SUP, Inc.",
+      "page": 174
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Present/Future Value Analysis",
+      "page": 174
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Predicting Future Costs",
+      "page": 183
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Calculating an Allowance for Uncollectible Accounts",
+      "page": 188
+    },
+    {
+      "source_id": "src-0341",
+      "title": "End Note",
+      "page": 191
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Chapter 7: Practice",
+      "page": 192
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Part 2: Access for Accounting",
+      "page": 199
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Ch 8: Access Tour",
+      "page": 201
+    },
+    {
+      "source_id": "src-0341",
+      "title": "In This Chapter You Will Learn:",
+      "page": 201
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Case: What SUP, Inc.",
+      "page": 201
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Understanding Access’s Capabilities and New Features",
+      "page": 201
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Starting, Navigating, and Working with Access Files",
+      "page": 202
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Getting Access Help",
+      "page": 207
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Examples of How Access Is Used in Accounting",
+      "page": 208
+    },
+    {
+      "source_id": "src-0341",
+      "title": "End Note",
+      "page": 211
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Chapter 8: Practice",
+      "page": 212
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Ch 9: Access Basics",
+      "page": 213
+    },
+    {
+      "source_id": "src-0341",
+      "title": "In This Chapter You Will Learn:",
+      "page": 213
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Case: What SUP, Inc.",
+      "page": 213
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Tables",
+      "page": 213
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Queries",
+      "page": 223
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Forms",
+      "page": 225
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Reports",
+      "page": 228
+    },
+    {
+      "source_id": "src-0341",
+      "title": "End Note",
+      "page": 235
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Chapter 9: Practice",
+      "page": 236
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Ch 10: Tables",
+      "page": 246
+    },
+    {
+      "source_id": "src-0341",
+      "title": "In This Chapter You Will Learn:",
+      "page": 246
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Case: What SUP, Inc.",
+      "page": 246
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Add, Change, and Delete Records",
+      "page": 246
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Add a Picture with an OLE Field",
+      "page": 249
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Change the Structure of a Database",
+      "page": 252
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Referential Integrity",
+      "page": 264
+    },
+    {
+      "source_id": "src-0341",
+      "title": "End Note",
+      "page": 270
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Chapter 10: Practice",
+      "page": 271
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Ch 11: Queries",
+      "page": 278
+    },
+    {
+      "source_id": "src-0341",
+      "title": "In This Chapter You Will Learn:",
+      "page": 278
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Case: What SUP, Inc.",
+      "page": 278
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Querying Selected Records",
+      "page": 278
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Performing Calculations",
+      "page": 293
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Action Queries (Update, Parameter, and Delete)",
+      "page": 300
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Print a Query",
+      "page": 310
+    },
+    {
+      "source_id": "src-0341",
+      "title": "End Note",
+      "page": 310
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Chapter 11: Practice",
+      "page": 311
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Ch 12: Forms",
+      "page": 322
+    },
+    {
+      "source_id": "src-0341",
+      "title": "In This Chapter You Will Learn:",
+      "page": 322
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Case: What SUP, Inc.",
+      "page": 322
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Labels and Text Box Controls",
+      "page": 322
+    },
+    {
+      "source_id": "src-0341",
+      "title": "List Box and Combo Box Controls",
+      "page": 325
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Calculated Controls",
+      "page": 331
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Check Box Control",
+      "page": 335
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Special Combo Box Control",
+      "page": 338
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Subforms",
+      "page": 343
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Printing a Form",
+      "page": 346
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Documenting a Form",
+      "page": 347
+    },
+    {
+      "source_id": "src-0341",
+      "title": "End Note",
+      "page": 348
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Chapter 12: Practice",
+      "page": 349
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Ch 13: Reports",
+      "page": 357
+    },
+    {
+      "source_id": "src-0341",
+      "title": "In This Chapter You Will Learn:",
+      "page": 357
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Case: What SUP, Inc.",
+      "page": 357
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Use a Query to Create a Report",
+      "page": 357
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Use Grouping and Summarizing in a Report",
+      "page": 361
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Modify an Existing Report",
+      "page": 370
+    },
+    {
+      "source_id": "src-0341",
+      "title": "End Note",
+      "page": 376
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Chapter 13: Practice",
+      "page": 377
+    },
+    {
+      "source_id": "src-0341",
+      "title": "Index",
+      "page": 384
+    }
+  ],
+  "accounts": [
+    {
+      "account": "111",
+      "count": 9,
+      "refs": [
+        [
+          "src-0365",
+          5
+        ],
+        [
+          "src-0365",
+          7
+        ],
+        [
+          "src-0365",
+          10
+        ]
+      ]
+    },
+    {
+      "account": "1111",
+      "count": 7,
+      "refs": [
+        [
+          "src-0353",
+          3
+        ],
+        [
+          "src-0353",
+          4
+        ],
+        [
+          "src-0365",
+          5
+        ]
+      ]
+    },
+    {
+      "account": "131",
+      "count": 7,
+      "refs": [
+        [
+          "src-0363",
+          12
+        ],
+        [
+          "src-0365",
+          8
+        ],
+        [
+          "src-0390",
+          2
+        ]
+      ]
+    },
+    {
+      "account": "621",
+      "count": 7,
+      "refs": [
+        [
+          "src-0379",
+          2
+        ],
+        [
+          "src-0379",
+          3
+        ],
+        [
+          "src-0379",
+          4
+        ]
+      ]
+    },
+    {
+      "account": "331",
+      "count": 5,
+      "refs": [
+        [
+          "src-0363",
+          4
+        ],
+        [
+          "src-0363",
+          5
+        ],
+        [
+          "src-0363",
+          6
+        ]
+      ]
+    },
+    {
+      "account": "6279",
+      "count": 4,
+      "refs": [
+        [
+          "src-0354",
+          1
+        ],
+        [
+          "src-0354",
+          2
+        ]
+      ]
+    },
+    {
+      "account": "1521",
+      "count": 4,
+      "refs": [
+        [
+          "src-0363",
+          7
+        ],
+        [
+          "src-0379",
+          2
+        ],
+        [
+          "src-0379",
+          4
+        ]
+      ]
+    },
+    {
+      "account": "911",
+      "count": 3,
+      "refs": [
+        [
+          "src-0354",
+          3
+        ],
+        [
+          "src-0354",
+          4
+        ]
+      ]
+    },
+    {
+      "account": "4212",
+      "count": 3,
+      "refs": [
+        [
+          "src-0354",
+          3
+        ],
+        [
+          "src-0354",
+          4
+        ]
+      ]
+    },
+    {
+      "account": "5111",
+      "count": 3,
+      "refs": [
+        [
+          "src-0365",
+          8
+        ],
+        [
+          "src-0365",
+          9
+        ]
+      ]
+    },
+    {
+      "account": "154",
+      "count": 3,
+      "refs": [
+        [
+          "src-0377",
+          2
+        ],
+        [
+          "src-0377",
+          3
+        ]
+      ]
+    },
+    {
+      "account": "5152",
+      "count": 2,
+      "refs": [
+        [
+          "src-0354",
+          3
+        ],
+        [
+          "src-0400",
+          5
+        ]
+      ]
+    },
+    {
+      "account": "141",
+      "count": 2,
+      "refs": [
+        [
+          "src-0363",
+          4
+        ],
+        [
+          "src-0365",
+          5
+        ]
+      ]
+    },
+    {
+      "account": "133",
+      "count": 2,
+      "refs": [
+        [
+          "src-0363",
+          7
+        ]
+      ]
+    },
+    {
+      "account": "1522",
+      "count": 2,
+      "refs": [
+        [
+          "src-0363",
+          7
+        ],
+        [
+          "src-0363",
+          8
+        ]
+      ]
+    },
+    {
+      "account": "1523",
+      "count": 2,
+      "refs": [
+        [
+          "src-0363",
+          8
+        ]
+      ]
+    },
+    {
+      "account": "1524",
+      "count": 2,
+      "refs": [
+        [
+          "src-0363",
+          8
+        ],
+        [
+          "src-0363",
+          9
+        ]
+      ]
+    },
+    {
+      "account": "112",
+      "count": 2,
+      "refs": [
+        [
+          "src-0365",
+          7
+        ]
+      ]
+    },
+    {
+      "account": "411",
+      "count": 2,
+      "refs": [
+        [
+          "src-0365",
+          8
+        ]
+      ]
+    },
+    {
+      "account": "3331",
+      "count": 2,
+      "refs": [
+        [
+          "src-0365",
+          9
+        ]
+      ]
+    },
+    {
+      "account": "7112",
+      "count": 2,
+      "refs": [
+        [
+          "src-0400",
+          5
+        ]
+      ]
+    },
+    {
+      "account": "229",
+      "count": 2,
+      "refs": [
+        [
+          "src-0402",
+          6
+        ]
+      ]
+    },
+    {
+      "account": "4211",
+      "count": 1,
+      "refs": [
+        [
+          "src-0354",
+          3
+        ]
+      ]
+    },
+    {
+      "account": "4111",
+      "count": 1,
+      "refs": [
+        [
+          "src-0363",
+          4
+        ]
+      ]
+    },
+    {
+      "account": "152",
+      "count": 1,
+      "refs": [
+        [
+          "src-0389",
+          1
+        ]
+      ]
+    },
+    {
+      "account": "214",
+      "count": 1,
+      "refs": [
+        [
+          "src-0402",
+          6
+        ]
+      ]
+    }
+  ]
+}

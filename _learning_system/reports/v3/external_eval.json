@@ -67,7 +67,8 @@
   ],
   "all_pass": true,
   "sha256": "85837e1a32a49fba93df73dd7d2dec2afad3c709da1adc88baeda1b227f1cc2e",
-  "records": 69,
+  "records": 131,
   "record_contracts": "PASS",
+  "record_violations": [],
   "additive_isolation": "PASS"
 }

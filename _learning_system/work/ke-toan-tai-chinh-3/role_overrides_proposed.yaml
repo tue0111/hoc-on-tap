@@ -1,0 +1,50 @@
+# Đề xuất role / metadata cho ke-toan-tai-chinh-3 (W6b, phiên môn). Phiên chính quyết định đưa vào
+# curriculum/source_registry_overrides.yaml. Không file nào ở đây đã được áp dụng.
+# Bằng chứng: trang 1 của từng PDF trong data/normalized/ke-toan-tai-chinh-3.pages.jsonl (OBSERVED).
+course_id: ke-toan-tai-chinh-3
+generated: "2026-11-21"
+proposals:
+  # --- 1. PDF theo chủ đề: trang 1 đều mở đầu "BÀI GIẢNG DẠNG VĂN BẢN (SCRIPT)" và có lời giảng
+  #        ("Chào các Anh Chị...", "Xin chào các bạn sinh viên..."). Đây là script lời giảng,
+  #        không phải slide xuất PDF -> lecture_note. Inventory hiện để "unknown" (authority 8).
+  - {source_id: src-0544, propose: {source_role: lecture_note}, page: 1, reason: "trang 1: 'BÀI GIẢNG DẠNG VĂN BẢN (SCRIPT)', Chủ đề 1.1, lời giảng"}
+  - {source_id: src-0546, propose: {source_role: lecture_note}, page: 1, reason: "script Chủ đề 1.2"}
+  - {source_id: src-0548, propose: {source_role: lecture_note}, page: 1, reason: "script Chủ đề 1.3"}
+  - {source_id: src-0550, propose: {source_role: lecture_note}, page: 1, reason: "script Chủ đề 1.4"}
+  - {source_id: src-0552, propose: {source_role: lecture_note}, page: 1, reason: "script Chủ đề 1.5"}
+  - {source_id: src-0554, propose: {source_role: lecture_note}, page: 1, reason: "C2_CD2.1_P1.pdf: 'BÀI GIẢNG DẠNG VĂN BẢN (SCRIPT)', Chủ đề 2.1 Phần 1 (khái niệm, phân loại, ghi nhận BĐSĐT); không trùng file nào khác (P2 là phần khác)"}
+  - {source_id: src-0555, propose: {source_role: lecture_note}, page: 1, reason: "C2_CD2.1_P2.pdf: script Chủ đề 2.1 Phần 2 (đánh giá BĐSĐT)"}
+  - {source_id: src-0568, propose: {source_role: lecture_note}, page: 1, reason: "script Chủ đề 3.1"}
+  - {source_id: src-0570, propose: {source_role: lecture_note}, page: 1, reason: "script Chủ đề 3.2"}
+  - {source_id: src-0572, propose: {source_role: lecture_note}, page: 1, reason: "script Chủ đề 3.3"}
+  - {source_id: src-0574, propose: {source_role: lecture_note}, page: 1, reason: "script Chủ đề 3.4"}
+  - {source_id: src-0576, propose: {source_role: lecture_note}, page: 1, reason: "script Chủ đề 3.5"}
+  - {source_id: src-0578, propose: {source_role: lecture_note}, page: 1, reason: "script Chủ đề 3.6"}
+  - {source_id: src-0580, propose: {source_role: lecture_note}, page: 1, reason: "script Chủ đề 4.1"}
+  - {source_id: src-0582, propose: {source_role: lecture_note}, page: 1, reason: "script Chủ đề 4.2"}
+  - {source_id: src-0584, propose: {source_role: lecture_note}, page: 1, reason: "script Chủ đề 4.3"}
+  - {source_id: src-0586, propose: {source_role: lecture_note}, page: 1, reason: "script Chủ đề 4.4"}
+  - {source_id: src-0588, propose: {source_role: lecture_note}, page: 1, reason: "script Chủ đề 4.5"}
+  - {source_id: src-0590, propose: {source_role: lecture_note}, page: 1, reason: "script Chủ đề 4.6"}
+  # src-0558/0560/0562/0564/0566 (_script.pdf) đã là lecture_note trong inventory: giữ nguyên.
+  - {source_id: src-0592, propose: {source_role: lecture_note}, page: 1, reason: "KeToanTaiChinh3_Script.docx: 'BÀI GIẢNG DẠNG VĂN BẢN (SCRIPT)', 'Chương 0: GIỚI THIỆU MÔN HỌC'; chapter 0 đã parse từ inventory_apparent"}
+  # --- 2. Bài tập / ôn tập
+  - {source_id: src-0543, propose: {source_role: exercise, content_role: exercise, chapter: 4}, page: 1,
+     reason: "trang 1: 'Chương 4: KẾ TOÁN THUẾ THU NHẬP DOANH NGHIỆP' / 'Bài tập thực hành tự đánh giá cuối chương 4'. Parser kttc3 không bắt được tên 'KTTC3-C4-Baitaptudanhgia' (không có CD) nên chapter=null; đề xuất chapter 4"}
+  - {source_id: src-0595, propose: {source_role: summary}, page: 1,
+     reason: "trang 1: 'TÀI LIỆU HƯỚNG DẪN ÔN TẬP' (học liệu + hướng dẫn ôn từng chủ đề + hình thức thi). Inventory đang để syllabus (authority 1, cao nhất) -> đề xuất summary (authority 6) như KTTC2 'Hướng dẫn ôn tập.pdf'. Lưu ý: source_bound 'hướng dẫn ôn tập' hiện chạy được cả hai role vì analyze.py không đặt source_type cho cụm này"}
+  - {source_id: src-0594, propose: null, page: 1, reason: "exam đúng (ĐỀ THI MẪU, 30 câu trắc nghiệm, 75 phút): giữ nguyên"}
+  # --- 3. PPTX: 25 file (src-0545..0593 lẻ/chẵn, xem coverage). Mỗi PPTX có PDF/DOCX script cùng chủ đề:
+  #        index bằng script; PPTX ghi not_extracted (extractor PPTX chưa bật; bật là thay đổi engine).
+  - {source_id: "src-0545,0547,0549,0551,0553,0556,0557,0559,0561,0563,0565,0567,0569,0571,0573,0575,0577,0579,0581,0583,0585,0587,0589,0591,0593",
+     propose: {index_include: false, note: "not_extracted: pptx extractor not wired; script PDF/DOCX cùng chủ đề là nguồn index"}, page: null,
+     reason: "PLAN_W6B mục 3. Cặp: 0545↔0544, 0547↔0546, 0549↔0548, 0551↔0550, 0553↔0552, 0556↔0554 (2.1 P1), 0557↔0555 (2.1 P2), 0559↔0558, 0561↔0560, 0563↔0562, 0565↔0564, 0567↔0566, 0569↔0568, 0571↔0570, 0573↔0572, 0575↔0574, 0577↔0576, 0579↔0578, 0581↔0580, 0583↔0582, 0585↔0584, 0587↔0586, 0589↔0588, 0591↔0590, 0593↔0592"}
+registry_notes:
+  # Không sửa registry; ghi để phiên chính quyết định.
+  course_code_conflict:
+    observed:
+      - {code: ACCO3310, where: "tên file ACCO3310_DE THI MAU / HUONG DAN HOC TAP; src-0592 p1 'KẾ TOÁN TÀI CHÍNH 3 – ACCO3310'"}
+      - {code: ACCO1335, where: "trang 1 mọi script chương 1, 3, 4 và src-0543 p1 'KẾ TOÁN TÀI CHÍNH 3 - ACCO1335'"}
+      - {code: ACCO3301, where: "src-0595 p1 'KẾ TOÁN TÀI CHÍNH 3 – ACCO3301'"}
+    proposal: "codes: [ACCO3310, ACCO1335, ACCO3301], code_official: UNKNOWN (giống cách xử lý KTTC2). Không tự giải quyết."
+  cue_proposal: "thêm cue 'acco1335' (xuất hiện trên trang 1 của 18 script). Không thêm 'thuế', 'thuế tndn' (đụng Kế toán thuế 1)."

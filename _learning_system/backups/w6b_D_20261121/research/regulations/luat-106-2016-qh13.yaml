@@ -1,0 +1,59 @@
+ref: Luật 106/2016/QH13
+status: expired
+replaced_by: null
+amended_by: []
+effective_from: '2026-01-01'
+effective_date_meaning: effective date of cited change, not necessarily original instrument
+scope: Luật sửa đổi Luật Thuế GTGT, Luật Thuế TTĐB và Luật Quản lý thuế. Phần GTGT
+  hết hiệu lực 01/07/2025 (Luật 48/2024); phần QLT hết hiệu lực 01/07/2020 (Luật 38/2019);
+  phần TTĐB hết hiệu lực 01/01/2026 theo Luật 66/2025 (điều khoản bãi bỏ chỉ thấy
+  ở nguồn phụ). Giáo trình gọi nhầm là "Luật Quản lý thuế số 106/2016".
+key_changes:
+- text: 'Luật 48/2024: Luật 13/2008 đã sửa bởi Luật 106/2016 hết hiệu lực từ 01/07/2025.'
+  source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/01/luat48.pdf
+- text: 'Luật 38/2019 (khoản 3 Điều 151): Luật QLT 78/2006 đã sửa bởi Luật 106/2016
+    hết hiệu lực từ 01/07/2020.'
+  source_url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/3/31/469126-1774925150_v1_1774926294_signed.pdf
+- text: 'Luật 66/2025: Luật 27/2008 đã sửa bởi Luật 70/2014, 71/2014, 106/2016, 03/2022
+    hết hiệu lực từ 01/01/2026 (nguồn phụ).'
+  source_url: https://thuvienphapluat.vn/ma-so-thue/phap-luat-thue/luat-thue-tieu-thu-dac-biet-2008-co-con-hieu-luc-khong-651508-207984.html
+cited_in_courses:
+- ke-toan-thue-1
+curriculum_occurrences:
+- source_id: src-0498
+  page: 6
+  layer: curriculum
+- source_id: src-0510
+  page: 1
+  layer: curriculum
+- source_id: src-0538
+  page: 3
+  layer: curriculum
+variants:
+- Luật Quản lý thuế số 106/2016/QH13
+- Luật số 106/2016/QH13
+sources:
+- url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/01/luat48.pdf
+  publisher: datafiles.chinhphu.vn
+  retrieved_at: '2026-11-21'
+  authority: official
+- url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/3/31/469126-1774925150_v1_1774926294_signed.pdf
+  publisher: congbaocdn.chinhphu.vn
+  retrieved_at: '2026-11-21'
+  authority: official
+- url: https://vanban.chinhphu.vn/?pageid=27160&docid=214598&classid=1&typegroupid=3
+  publisher: vanban.chinhphu.vn
+  retrieved_at: '2026-11-21'
+  authority: official
+- url: https://thuvienphapluat.vn/ma-so-thue/phap-luat-thue/luat-thue-tieu-thu-dac-biet-2008-co-con-hieu-luc-khong-651508-207984.html
+  publisher: thuvienphapluat.vn
+  retrieved_at: '2026-11-21'
+  authority: secondary
+evidence_status: INFERRED
+layer: external
+checked_at: '2026-11-21'
+unknown_reason: null
+search_log: research/search_logs/ref_067.json
+record_kind: verified_status
+freshness_limit: Snapshot of sources checked on the stated date; not a guarantee that
+  every later amendment has been found.

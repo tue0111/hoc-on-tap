@@ -1,0 +1,19 @@
+# Đề xuất tiền đề cho ke-toan-tai-chinh-3 (W6b). Phiên chính quyết định đưa vào course_registry.yaml.
+# Quét toàn bộ 130 trang (regex: kế toán tài chính 1/2, KTTC1/2, tiên quyết, đã học, môn học trước, nguyên lý kế toán).
+course_id: ke-toan-tai-chinh-3
+proposed:
+  explicit_prerequisites: [ke-toan-tai-chinh-2]
+evidence:
+  - course: ke-toan-tai-chinh-2
+    label: explicit
+    evidence_status: OBSERVED
+    source_id: src-0580
+    page: 1
+    quote: "Như các anh chị đã tìm hiểu sơ bộ ở chương Kế toán nợ phải trả, môn Kế toán tài chính 2, DN có nghĩa vụ nộp các khoản thuế, phí, lệ phí theo luật định."
+    note: "Câu nhắc kiến thức đã học ở KTTC2 (chương Kế toán nợ phải trả) làm nền cho chương 4. Đây là tham chiếu kiến thức trước, không phải câu 'môn tiên quyết' trong đề cương; phiên chính cân nhắc nhãn explicit vs explicit_reference."
+not_recorded:
+  - course: ke-toan-tai-chinh-1
+    reason: "không tìm thấy câu nguyên văn nào nhắc KTTC1 trong 28 tài liệu đã extract"
+  - course: nguyen-ly-ke-toan
+    reason: "không tìm thấy câu nguyên văn"
+  - note: "src-0595 (hướng dẫn ôn tập) và src-0592 (giới thiệu môn học) không có mục môn tiên quyết"

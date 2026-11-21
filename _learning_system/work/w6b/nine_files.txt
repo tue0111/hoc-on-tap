@@ -1,0 +1,6 @@
+./.grok/agents/learning-director.md
+./.grok/skills/curriculum-retrieval/SKILL.md
+./AGENTS.md
+./GROK_BOT_MASTER_INSTRUCTIONS.md
+./README.md
+./skills/curriculum-retrieval/SKILL.md

@@ -1,0 +1,48 @@
+ref: Thông tư 70/2015/TT-BTC
+status: unknown
+replaced_by: null
+amended_by: []
+effective_from: null
+effective_date_meaning: effective date of cited change, not necessarily original instrument
+scope: UNKNOWN
+key_changes: []
+cited_in_courses:
+- kiem-toan-1
+curriculum_occurrences:
+- source_id: src-0038
+  page: 22
+  layer: curriculum
+- source_id: src-0040
+  page: 3
+  layer: curriculum
+- source_id: src-0040
+  page: 3
+  layer: learner_notes
+- source_id: src-0040
+  page: 6
+  layer: curriculum
+- source_id: src-0040
+  page: 6
+  layer: learner_notes
+- source_id: src-0040
+  page: 7
+  layer: curriculum
+- source_id: src-0040
+  page: 7
+  layer: learner_notes
+- source_id: src-0202
+  page: 5
+  layer: curriculum
+variants:
+- Thông tư 70/2015/TT-BTC
+sources: []
+evidence_status: UNKNOWN
+layer: external
+checked_at: '2026-10-11'
+unknown_reason: Chưa đủ bằng chứng đã kiểm tra để kết luận trạng thái và chuỗi sửa
+  đổi hiện hành. Xem nhật ký tìm kiếm; không suy ra còn hiệu lực từ việc chưa thấy
+  văn bản thay thế.
+search_log: research/search_logs/ref_056.json
+record_kind: unverified_reference
+freshness_limit: Snapshot of sources checked on the stated date; not a guarantee that
+  every later amendment has been found.

@@ -1,0 +1,48 @@
+ref: Nghị định 123/2020/NĐ-CP
+status: replaced
+replaced_by: Nghị định 254/2026/NĐ-CP
+amended_by:
+- Nghị định 70/2025/NĐ-CP
+effective_from: '2026-07-01'
+effective_date_meaning: effective date of cited change, not necessarily original instrument
+scope: NĐ 123/2020 về hóa đơn, chứng từ được sửa bởi NĐ 70/2025 (hiệu lực 01/06/2025),
+  sau đó được thay bằng NĐ 254/2026/NĐ-CP về hóa đơn điện tử, chứng từ điện tử hướng
+  dẫn Luật QLT 108/2025 (hiệu lực 01/07/2026). Quan hệ thay thế chỉ thấy ở nguồn phụ;
+  nguồn chính thức xác nhận NĐ 254/2026 và ngày hiệu lực.
+key_changes:
+- text: NĐ 70/2025/NĐ-CP sửa đổi, bổ sung một số điều NĐ 123/2020; hiệu lực 01/06/2025.
+  source_url: https://vanban.chinhphu.vn/?pageid=27160&docid=213179
+- text: NĐ 254/2026/NĐ-CP ban hành 30/06/2026, hiệu lực 01/07/2026, hướng dẫn Luật
+    QLT 108/2025 về hóa đơn điện tử, chứng từ điện tử.
+  source_url: https://vanban.chinhphu.vn/?pageid=27160&docid=218689
+- text: 'Nguồn phụ: NĐ 254/2026 thay thế NĐ 123/2020 (đã sửa bởi NĐ 70/2025).'
+  source_url: https://www.ey.com/vi_vn/technical/tax/tax-and-law-updates/nghi-dinh-254-2026-nd-cp-ve-hoa-don-dien-tu-va-chung-tu-dien-tu
+cited_in_courses:
+- ke-toan-thue-1
+curriculum_occurrences:
+- source_id: src-0534
+  page: 5
+  layer: curriculum
+variants:
+- Nghị định 123/2020/NĐ-CP
+sources:
+- url: https://vanban.chinhphu.vn/?pageid=27160&docid=213179
+  publisher: vanban.chinhphu.vn
+  retrieved_at: '2026-11-21'
+  authority: official
+- url: https://vanban.chinhphu.vn/?pageid=27160&docid=218689
+  publisher: vanban.chinhphu.vn
+  retrieved_at: '2026-11-21'
+  authority: official
+- url: https://www.ey.com/vi_vn/technical/tax/tax-and-law-updates/nghi-dinh-254-2026-nd-cp-ve-hoa-don-dien-tu-va-chung-tu-dien-tu
+  publisher: www.ey.com
+  retrieved_at: '2026-11-21'
+  authority: secondary
+evidence_status: INFERRED
+layer: external
+checked_at: '2026-11-21'
+unknown_reason: null
+search_log: research/search_logs/ref_103.json
+record_kind: verified_status
+freshness_limit: Snapshot of sources checked on the stated date; not a guarantee that
+  every later amendment has been found.

@@ -1,0 +1,104 @@
+ref: Luật doanh nghiệp
+status: unknown
+replaced_by: null
+amended_by: []
+effective_from: null
+effective_date_meaning: effective date of cited change, not necessarily original instrument
+scope: UNKNOWN
+key_changes: []
+cited_in_courses:
+- ke-toan-tai-chinh-2
+- kinh-doanh-va-nghiep-vu
+- luat-kinh-doanh
+curriculum_occurrences:
+- source_id: src-0014
+  page: 2
+  layer: curriculum
+- source_id: src-0017
+  page: 2
+  layer: curriculum
+- source_id: src-0034
+  page: 1
+  layer: curriculum
+- source_id: src-0034
+  page: 4
+  layer: curriculum
+- source_id: src-0034
+  page: 5
+  layer: curriculum
+- source_id: src-0077
+  page: 3
+  layer: curriculum
+- source_id: src-0078
+  page: 1
+  layer: curriculum
+- source_id: src-0078
+  page: 2
+  layer: curriculum
+- source_id: src-0078
+  page: 3
+  layer: curriculum
+- source_id: src-0079
+  page: 5
+  layer: curriculum
+- source_id: src-0080
+  page: 1
+  layer: curriculum
+- source_id: src-0080
+  page: 2
+  layer: curriculum
+- source_id: src-0080
+  page: 5
+  layer: curriculum
+- source_id: src-0080
+  page: 6
+  layer: curriculum
+- source_id: src-0081
+  page: 2
+  layer: curriculum
+- source_id: src-0081
+  page: 6
+  layer: curriculum
+- source_id: src-0082
+  page: 2
+  layer: curriculum
+- source_id: src-0083
+  page: 1
+  layer: curriculum
+- source_id: src-0083
+  page: 5
+  layer: curriculum
+- source_id: src-0084
+  page: 2
+  layer: curriculum
+- source_id: src-0303
+  page: 11
+  layer: curriculum
+- source_id: src-0303
+  page: 13
+  layer: curriculum
+- source_id: src-0321
+  page: 4
+  layer: curriculum
+- source_id: src-0322
+  page: 1
+  layer: curriculum
+variants:
+- Luật Doanh nghiệp
+- Luật doanh nghiệp
+- 'luật
+
+  doanh nghiệp'
+- luật doanh nghiệp
+sources: []
+evidence_status: UNKNOWN
+layer: external
+checked_at: '2026-10-11'
+unknown_reason: Trích dẫn thiếu số hiệu/năm hoặc chỉ tên chuẩn mực; chưa định danh
+  chắc chắn văn bản và phiên bản. Chưa đủ bằng chứng đã kiểm tra để kết luận trạng
+  thái và chuỗi sửa đổi hiện hành. Xem nhật ký tìm kiếm; không suy ra còn hiệu lực
+  từ việc chưa thấy văn bản thay thế.
+search_log: research/search_logs/ref_017.json
+record_kind: unverified_reference
+freshness_limit: Snapshot of sources checked on the stated date; not a guarantee that
+  every later amendment has been found.

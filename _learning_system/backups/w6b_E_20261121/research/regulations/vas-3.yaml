@@ -1,0 +1,67 @@
+ref: VAS 3
+status: unknown
+replaced_by: null
+amended_by: []
+effective_from: null
+effective_date_meaning: effective date of cited change, not necessarily original instrument
+scope: UNKNOWN
+key_changes: []
+cited_in_courses:
+- ke-toan-tai-chinh-2
+- ke-toan-tai-chinh-3
+curriculum_occurrences:
+- source_id: src-0069
+  page: 3
+  layer: curriculum
+- source_id: src-0069
+  page: 4
+  layer: curriculum
+- source_id: src-0069
+  page: 5
+  layer: curriculum
+- source_id: src-0069
+  page: 8
+  layer: curriculum
+- source_id: src-0069
+  page: 15
+  layer: curriculum
+- source_id: src-0306
+  page: 1
+  layer: curriculum
+- source_id: src-0306
+  page: 2
+  layer: curriculum
+- source_id: src-0306
+  page: 3
+  layer: curriculum
+- source_id: src-0306
+  page: 6
+  layer: curriculum
+- source_id: src-0308
+  page: 1
+  layer: curriculum
+- source_id: src-0554
+  page: 2
+  layer: curriculum
+- source_id: src-0555
+  page: 2
+  layer: curriculum
+- source_id: src-0564
+  page: 1
+  layer: curriculum
+variants:
+- VAS 03
+- chuẩn mực kế toán Việt Nam số 03
+- chuẩn mực kế toán số 03
+sources: []
+evidence_status: UNKNOWN
+layer: external
+checked_at: '2026-10-11'
+unknown_reason: Trích dẫn thiếu số hiệu/năm hoặc chỉ tên chuẩn mực; chưa định danh
+  chắc chắn văn bản và phiên bản. Chưa đủ bằng chứng đã kiểm tra để kết luận trạng
+  thái và chuỗi sửa đổi hiện hành. Xem nhật ký tìm kiếm; không suy ra còn hiệu lực
+  từ việc chưa thấy văn bản thay thế.
+search_log: research/search_logs/ref_065.json
+record_kind: unverified_reference
+freshness_limit: Snapshot of sources checked on the stated date; not a guarantee that
+  every later amendment has been found.

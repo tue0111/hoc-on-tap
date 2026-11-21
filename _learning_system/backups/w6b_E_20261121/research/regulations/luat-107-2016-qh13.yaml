@@ -1,0 +1,49 @@
+ref: Luật 107/2016/QH13
+status: amended
+replaced_by: null
+amended_by:
+- Luật 90/2025/QH15
+effective_from: '2025-07-01'
+effective_date_meaning: effective date of cited change, not necessarily original instrument
+scope: Luật Thuế xuất khẩu, thuế nhập khẩu 2016 vẫn là luật gốc; được sửa đổi bởi
+  Luật 90/2025/QH15 (hiệu lực 01/07/2025). Có văn bản hợp nhất 94/VBHN-VPQH (22/08/2025).
+  Danh sách sửa đổi có thể chưa đủ (một nguồn nhắc Luật 149/2025 sửa Luật 90/2025).
+key_changes:
+- text: Luật 90/2025/QH15 sửa đổi, bổ sung một số điều của nhiều luật, trong đó có
+    Luật Thuế xuất khẩu, thuế nhập khẩu; hiệu lực 01/07/2025.
+  source_url: https://vanban.chinhphu.vn/?pageid=27160&docid=214558
+- text: Nghị định hướng dẫn 134/2016/NĐ-CP được sửa tiếp bởi Nghị định 182/2025/NĐ-CP.
+  source_url: https://chinhphu.vn/?classid=1&docid=214329&pageid=27160
+cited_in_courses:
+- ke-toan-thue-1
+curriculum_occurrences:
+- source_id: src-0500
+  page: 1
+  layer: curriculum
+- source_id: src-0500
+  page: 6
+  layer: curriculum
+variants:
+- Luật 107/2016/QH13
+- Luật thuế xuất khẩu – nhập khẩu số 107/2016/QH13
+sources:
+- url: https://vanban.chinhphu.vn/?pageid=27160&docid=214558
+  publisher: vanban.chinhphu.vn
+  retrieved_at: '2026-11-21'
+  authority: official
+- url: https://xaydungchinhsach.chinhphu.vn/toan-van-luat-so-90-2025-qh15-sua-doi-bo-sung-cac-luat-ve-dau-thau-dau-tu-hai-quan-thue-tai-san-cong-119250725093905515.htm
+  publisher: xaydungchinhsach.chinhphu.vn
+  retrieved_at: '2026-11-21'
+  authority: official
+- url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-94-vbhn-vpqh-45996.htm
+  publisher: congbao.chinhphu.vn
+  retrieved_at: '2026-11-21'
+  authority: official
+evidence_status: OBSERVED
+layer: external
+checked_at: '2026-11-21'
+unknown_reason: null
+search_log: research/search_logs/ref_068.json
+record_kind: verified_status
+freshness_limit: Snapshot of sources checked on the stated date; not a guarantee that
+  every later amendment has been found.

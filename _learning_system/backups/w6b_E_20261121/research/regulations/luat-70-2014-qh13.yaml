@@ -1,0 +1,37 @@
+ref: Luật 70/2014/QH13
+status: expired
+replaced_by: Luật 66/2025/QH15
+amended_by: []
+effective_from: '2026-01-01'
+effective_date_meaning: effective date of cited change, not necessarily original instrument
+scope: Luật sửa đổi Luật Thuế TTĐB 2008; hết hiệu lực cùng Luật 27/2008 khi Luật 66/2025
+  có hiệu lực (01/01/2026). Điều khoản bãi bỏ chỉ thấy ở nguồn phụ.
+key_changes:
+- text: Luật 27/2008 đã sửa bởi Luật 70/2014… hết hiệu lực từ 01/01/2026 (trích Điều
+    11 Luật 66/2025, nguồn phụ).
+  source_url: https://thuvienphapluat.vn/ma-so-thue/phap-luat-thue/luat-thue-tieu-thu-dac-biet-2008-co-con-hieu-luc-khong-651508-207984.html
+cited_in_courses:
+- ke-toan-thue-1
+curriculum_occurrences:
+- source_id: src-0510
+  page: 1
+  layer: curriculum
+variants:
+- Luật số 70/2014/QH13
+sources:
+- url: https://vanban.chinhphu.vn/?pageid=27160&docid=214598&classid=1&typegroupid=3
+  publisher: vanban.chinhphu.vn
+  retrieved_at: '2026-11-21'
+  authority: official
+- url: https://thuvienphapluat.vn/ma-so-thue/phap-luat-thue/luat-thue-tieu-thu-dac-biet-2008-co-con-hieu-luc-khong-651508-207984.html
+  publisher: thuvienphapluat.vn
+  retrieved_at: '2026-11-21'
+  authority: secondary
+evidence_status: INFERRED
+layer: external
+checked_at: '2026-11-21'
+unknown_reason: null
+search_log: research/search_logs/ref_077.json
+record_kind: verified_status
+freshness_limit: Snapshot of sources checked on the stated date; not a guarantee that
+  every later amendment has been found.

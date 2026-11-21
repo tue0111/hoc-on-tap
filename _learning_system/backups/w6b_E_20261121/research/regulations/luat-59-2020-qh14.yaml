@@ -1,0 +1,34 @@
+ref: Luật 59/2020/QH14
+status: amended
+replaced_by: null
+amended_by:
+- Luật 3/2022/QH15
+- Luật 76/2025/QH15
+effective_from: '2025-07-01'
+effective_date_meaning: effective date of cited change, not necessarily original instrument
+scope: Luật Doanh nghiệp 2020; ngày hiệu lực sửa đổi theo Luật 76/2025. Không tự gán
+  trích dẫn thiếu năm trong giáo trình sang phiên bản này.
+key_changes:
+- text: Luật 76/2025 sửa Luật Doanh nghiệp, gồm quy định về chủ sở hữu hưởng lợi.
+  source_url: https://chinhphu.vn/?docid=214562&pageid=27160
+cited_in_courses: []
+curriculum_occurrences: []
+variants:
+- Luật 59/2020/QH14
+sources:
+- url: https://chinhphu.vn/?docid=214562&pageid=27160
+  publisher: chinhphu.vn
+  retrieved_at: '2026-10-11'
+  authority: official
+- url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/76-2025-qh15.pdf
+  publisher: datafiles.chinhphu.vn
+  retrieved_at: '2026-10-11'
+  authority: official
+evidence_status: OBSERVED
+layer: external
+checked_at: '2026-10-11'
+unknown_reason: null
+search_log: null
+record_kind: verified_status
+freshness_limit: Snapshot of sources checked on the stated date; not a guarantee that
+  every later amendment has been found.

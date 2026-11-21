@@ -1,0 +1,41 @@
+ref: Luật 21/2012/QH12
+status: expired
+replaced_by: Luật 38/2019/QH14
+amended_by: []
+effective_from: '2020-07-01'
+effective_date_meaning: effective date of cited change, not necessarily original instrument
+scope: Giáo trình ghi "21/2012/QH12"; văn bản thực tế sửa Luật QLT 78/2006 là Luật
+  số 21/2012/QH13 — sai lệch ký hiệu khóa Quốc hội trong giáo trình, record này giữ
+  nguyên ref như trích dẫn. Luật QLT 78/2006 đã sửa bởi 21/2012/QH13 hết hiệu lực
+  từ 01/07/2020 (trừ chuyển tiếp khoản 1 Điều 152 Luật 38/2019).
+key_changes:
+- text: 'Khoản 3 Điều 151 Luật 38/2019: Luật QLT 78/2006 đã sửa theo Luật 21/2012/QH13,
+    71/2014, 106/2016 hết hiệu lực từ 01/07/2020, trừ khoản 1 Điều 152.'
+  source_url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/3/31/469126-1774925150_v1_1774926294_signed.pdf
+cited_in_courses:
+- ke-toan-thue-1
+curriculum_occurrences:
+- source_id: src-0538
+  page: 3
+  layer: curriculum
+variants:
+- 'Luật
+
+  số 21/2012/QH12'
+sources:
+- url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/3/31/469126-1774925150_v1_1774926294_signed.pdf
+  publisher: congbaocdn.chinhphu.vn
+  retrieved_at: '2026-11-21'
+  authority: official
+- url: https://vanban.chinhphu.vn/?pageid=27160&docid=197312
+  publisher: vanban.chinhphu.vn
+  retrieved_at: '2026-11-21'
+  authority: official
+evidence_status: INFERRED
+layer: external
+checked_at: '2026-11-21'
+unknown_reason: null
+search_log: research/search_logs/ref_071.json
+record_kind: verified_status
+freshness_limit: Snapshot of sources checked on the stated date; not a guarantee that
+  every later amendment has been found.

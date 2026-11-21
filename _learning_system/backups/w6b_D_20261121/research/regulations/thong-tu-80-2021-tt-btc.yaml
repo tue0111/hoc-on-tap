@@ -1,0 +1,48 @@
+ref: Thông tư 80/2021/TT-BTC
+status: replaced
+replaced_by: Thông tư 89/2026/TT-BTC
+amended_by:
+- Thông tư 94/2025/TT-BTC
+- Thông tư 21/2026/TT-BTC
+effective_from: '2026-07-01'
+effective_date_meaning: effective date of cited change, not necessarily original instrument
+scope: TT 80/2021 hướng dẫn Luật QLT 2019 và NĐ 126/2020; đã sửa bởi TT 94/2025, TT
+  21/2026; theo nguồn phụ bị bãi bỏ từ 01/07/2026 bởi TT 89/2026/TT-BTC (hướng dẫn
+  Luật QLT 108/2025 và NĐ 252/2026). Nguồn chính thức xác nhận TT 89/2026 và ngày
+  hiệu lực, chưa đọc được điều khoản bãi bỏ.
+key_changes:
+- text: TT 89/2026/TT-BTC ban hành 30/06/2026, hiệu lực 01/07/2026, quy định chi tiết
+    Luật QLT và NĐ 252/2026.
+  source_url: https://vanban.chinhphu.vn/?pageid=27160&docid=218974
+- text: 'Nguồn phụ: từ 01/07/2026 TT 80/2021, TT 94/2025, TT 21/2026 hết hiệu lực,
+    thay bằng TT 89/2026.'
+  source_url: https://luatvietnam.vn/tin-van-ban-moi/tu-01-7-2026-10-thong-tu-ve-thue-het-hieu-luc-thi-hanh-186-110487-article.html
+cited_in_courses:
+- ke-toan-thue-1
+curriculum_occurrences:
+- source_id: src-0492
+  page: 1
+  layer: curriculum
+variants:
+- Thông tư 80/2021/TT-BTC
+sources:
+- url: https://vanban.chinhphu.vn/?pageid=27160&docid=218974
+  publisher: vanban.chinhphu.vn
+  retrieved_at: '2026-11-21'
+  authority: official
+- url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-80-2021-tt-btc-34774.htm
+  publisher: congbao.chinhphu.vn
+  retrieved_at: '2026-11-21'
+  authority: official
+- url: https://luatvietnam.vn/tin-van-ban-moi/tu-01-7-2026-10-thong-tu-ve-thue-het-hieu-luc-thi-hanh-186-110487-article.html
+  publisher: luatvietnam.vn
+  retrieved_at: '2026-11-21'
+  authority: secondary
+evidence_status: INFERRED
+layer: external
+checked_at: '2026-11-21'
+unknown_reason: null
+search_log: research/search_logs/ref_126.json
+record_kind: verified_status
+freshness_limit: Snapshot of sources checked on the stated date; not a guarantee that
+  every later amendment has been found.

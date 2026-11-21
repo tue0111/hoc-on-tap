@@ -1,0 +1,131 @@
+# Personal Accounting & Finance Learning System
+
+This directory is the **system workspace**. `D:\Hoc` (except `_learning_system`) is **source material**.
+
+## Hard rules
+
+- Never delete, rename, move, or edit files under course folders in `D:\Hoc`.
+- Never overwrite learner source PDFs/PPT/DOCX/XLSX.
+- Write only under `D:\Hoc\_learning_system\`.
+- Separate three layers. Do not mix them:
+  1. **Curriculum knowledge** (`curriculum/`) — what the program/lecturer provided.
+  2. **Learner state** (`learner/`) — the learner’s personal mastery. Do not invent scores.
+  3. **External knowledge** (`research/`) — IFRS/VAS/web updates. Must not overwrite curriculum.
+- Distinguish **OBSERVED** / **INFERRED** / **UNKNOWN**. Never promote inference to fact.
+- Keep source provenance. Do not merge lecturer / textbook / external definitions into one “truth”.
+- Do not invent semester/year ordering without document evidence.
+- Do not populate fake mastery scores.
+- Prefer auditable YAML/JSON over prose.
+
+## Layers of the program
+
+```
+Academic Program → Year/Semester (if known) → Course → Source → Chapter → Topic → Concept
+  → Prerequisite / Related → Example / Exercise / Assessment
+```
+
+## Source authority (internal, not a merge)
+
+1. Official syllabus / course outline
+2. Lecturer-provided materials
+3. Required textbook
+4. Official exercises / solutions
+5. Exams / assignments
+6. Supplementary references
+7. Personal notes
+8. External material (Research Agent only; never overwrites curriculum)
+
+## Runtime architecture (Phase 2)
+
+One persistent agent: **Learning Director** (`.grok/agents/learning-director.md`).
+
+NLKT + KTTC1 retrieval and diagnosis:
+
+```
+cd D:\Hoc\_learning_system
+python -m retrieval.cli retrieve "QUESTION"
+python -m retrieval.cli diagnose "QUESTION" --response "LEARNER" --course ke-toan-tai-chinh-1
+python -m retrieval.cli decide "QUESTION" --response "LEARNER" --course ke-toan-tai-chinh-1
+python -m diagnostic.cli "QUESTION" --response "LEARNER" --course nguyen-ly-ke-toan
+python -m decision.cli "QUESTION" --response "LEARNER" --course ke-toan-tai-chinh-1
+python -m retrieval.cli adapt "QUESTION" --response "LEARNER" --evidence "NEW"
+python -m adaptive.cli "QUESTION" --response "LEARNER" --evidence "NEW"
+python -m learning_policy.cli --course ke-toan-tai-chinh-1 --concept hang-ton-kho --task-type application
+python -m retrieval.cli next --course ke-toan-tai-chinh-1 --concept hang-ton-kho
+python -m study "QUESTION"
+python -m study "QUESTION" --attempt "LEARNER"
+python -m retrieval.cli study "QUESTION"
+```
+
+Index: `data/indexes/2.0.0/`. Combined duplicate PDFs are not in the default index.
+
+Skills (not agents):
+
+- `curriculum-retrieval`
+- `course-context`
+- `accounting-explanation`
+- `prerequisite-check`
+- `diagnostic-question`
+- `learning-decision`
+- `adaptive-session`
+- `evidence-admission`
+- `learner-state`
+- `learning-policy`
+- `study`
+- `session-summary`
+
+Create a new persistent agent only when ownership, tools, permissions, and knowledge boundaries are stable and the work is independently parallel.
+
+## Retrieval path
+
+```
+QUESTION
+  → course context
+  → concept detection
+  → curriculum retrieval
+  → prerequisite expansion
+  → source authority filtering
+  → relevant evidence
+  → reasoning
+```
+
+Never answer from generic accounting knowledge when a curriculum source exists. If curriculum is silent, say UNKNOWN or route to Research Agent (future).
+
+## Levels
+
+- Level 4 DIAGNOSE — implemented (Phase 3). Session-local. `diagnostic/` + `schemas/diagnostic_*.schema.json`. Does not write mastery.
+- Level 5 DECIDE — implemented (Phase 4). Session-local. `decision/` + `schemas/learning_decision*.schema.json`. One next action. Does not write mastery. Does not execute the lesson.
+- Level 6 ADAPT — implemented (Phase 5) at **session** level only. `adaptive/`. Revises diagnosis/decision on new evidence. Does not write mastery or schedule reviews.
+- Phase 6 ADMIT — implemented. `admission/` writes **observations** to `learner/evidence/` only after ADMIT. No mastery scores. Policy version 1.0.0.
+- Phase 7 STATE — implemented. `mastery/` derives per-concept × per-dimension **evidence states** from admitted.jsonl only. Recomputable. No overall score, no SRS.
+- Phase 8 POLICY — implemented. `learning_policy/` chooses one next action from current task + state + optional live diagnosis. Does not write state. No SRS.
+- Real-use pilot — `study/` + `pilot/` instrumentation. Learner-facing entry. Does not expand curriculum. Real traffic required before expansion.
+
+## Key files
+
+- `curriculum/curriculum_manifest.yaml`
+- `curriculum/course_manifests/*.yaml`
+- `curriculum/source_registry.yaml`
+- `curriculum/concept_registry.yaml`
+- `curriculum/concept_graph.yaml`
+- `learner/learner_state.schema.yaml`
+- `learner/error_taxonomy.yaml`
+- `research/research_evidence.schema.yaml`
+- `reports/`
+
+## V3 course tiers
+
+| Tier | Courses | Behavior |
+|---|---|---|
+| `core` | nguyen-ly-ke-toan, ke-toan-tai-chinh-1 | Unchanged v8 loop: retrieve → diagnose → decide → adapt → admit → state → policy. Index 2.0.0. |
+| `retrieval` | each course that passed its gate | Teach / source lookup / attempt-checking against evidence. No diagnosis, no admission, no state. Own partition index 3.0.0. |
+| `catalog` | not yet ingested | Retrieval returns `insufficient` + `course_not_indexed`. |
+
+Current runtime clarification: catalog also includes candidate indexes that failed a gate; these are not served. Nine curriculum courses are retrieval-enabled, including KTCP (D2 waiver) and KTNH; only TCDN1 remains catalog after R1. learner-notes is non-curriculum. External updates are enabled after G5 (7 checked status records, 62 unknown); manual refresh is enabled after G6 (approved RAM-only simulation). Full-loop diagnostic/admission/state instructions apply to CORE only.
+
+From `D:\Hoc\_learning_system`:
+```powershell
+python -m retrieval.cli retrieve "QUESTION" --course <id>
+```
+
+See `curriculum/course_registry.yaml` and `reports/v3/V3_FINAL.md` for current readiness. Pilot real-traffic requirements still apply to full-loop expansion, not authorized curriculum ingestion.

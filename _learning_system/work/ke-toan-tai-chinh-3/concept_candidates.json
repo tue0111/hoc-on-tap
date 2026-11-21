@@ -1,0 +1,2193 @@
+{
+  "course_id": "ke-toan-tai-chinh-3",
+  "unit_titles": [
+    {
+      "source_id": "src-0544",
+      "chapter": 1,
+      "topic": "1.1",
+      "title_from_filename": "KTTC3 C1 CD1.1 Tongquanvengoaite V2",
+      "page": 1
+    },
+    {
+      "source_id": "src-0545",
+      "chapter": 1,
+      "topic": "1.1",
+      "title_from_filename": "KTTC3 C1 CD1.1 Tongquanvengoaite V2",
+      "page": 1
+    },
+    {
+      "source_id": "src-0546",
+      "chapter": 1,
+      "topic": "1.2",
+      "title_from_filename": "KTTC3 C1 CD1.2 Ketoangiaodichphatsinhbangngoaite",
+      "page": 1
+    },
+    {
+      "source_id": "src-0547",
+      "chapter": 1,
+      "topic": "1.2",
+      "title_from_filename": "KTTC3 C1 CD1.2 Ketoangiaodichphatsinhbangngoaite",
+      "page": 1
+    },
+    {
+      "source_id": "src-0548",
+      "chapter": 1,
+      "topic": "1.3",
+      "title_from_filename": "KTTC3 C1 CD1.3 KetoandanhgiaCLTGcuoiky",
+      "page": 1
+    },
+    {
+      "source_id": "src-0549",
+      "chapter": 1,
+      "topic": "1.3",
+      "title_from_filename": "KTTC3 C1 CD1.3 KetoandanhgiaCLTGcuoiky",
+      "page": 1
+    },
+    {
+      "source_id": "src-0550",
+      "chapter": 1,
+      "topic": "1.4",
+      "title_from_filename": "KTTC3 C1 CD1.4 Ketoanhoatdongnhapkhautructiep",
+      "page": 1
+    },
+    {
+      "source_id": "src-0551",
+      "chapter": 1,
+      "topic": "1.4",
+      "title_from_filename": "KTTC3 C1 CD1.4 Ketoanhoatdongnhapkhautructiep",
+      "page": 1
+    },
+    {
+      "source_id": "src-0552",
+      "chapter": 1,
+      "topic": "1.5",
+      "title_from_filename": "KTTC3 C1 CD1.5 Ketoanhoatdongxuatkhautructiep",
+      "page": 1
+    },
+    {
+      "source_id": "src-0553",
+      "chapter": 1,
+      "topic": "1.5",
+      "title_from_filename": "KTTC3 C1 CD1.5 Ketoanhoatdongxuatkhautructiep",
+      "page": 1
+    },
+    {
+      "source_id": "src-0554",
+      "chapter": 2,
+      "topic": "2.1",
+      "title_from_filename": "C2 CD2.1 P1",
+      "page": 1
+    },
+    {
+      "source_id": "src-0555",
+      "chapter": 2,
+      "topic": "2.1",
+      "title_from_filename": "C2 CD2.1 P2",
+      "page": 1
+    },
+    {
+      "source_id": "src-0556",
+      "chapter": 2,
+      "topic": "2.1",
+      "title_from_filename": "KTTC3 C2 CD2.1 Tongquan phan 1 slide",
+      "page": 1
+    },
+    {
+      "source_id": "src-0557",
+      "chapter": 2,
+      "topic": "2.1",
+      "title_from_filename": "KTTC3 C2 CD2.1 Tongquan phan 2 slide",
+      "page": 1
+    },
+    {
+      "source_id": "src-0558",
+      "chapter": 2,
+      "topic": "2.2",
+      "title_from_filename": "KTTC3 C2 CD2.2 Ketoanmuasam script",
+      "page": 1
+    },
+    {
+      "source_id": "src-0559",
+      "chapter": 2,
+      "topic": "2.2",
+      "title_from_filename": "KTTC3 C2 CD2.2 Ketoanmuasam slide",
+      "page": 1
+    },
+    {
+      "source_id": "src-0560",
+      "chapter": 2,
+      "topic": "2.3",
+      "title_from_filename": "KTTC3 C2 CD2.3 Ketoankhauhaochothuenhuongban script",
+      "page": 1
+    },
+    {
+      "source_id": "src-0561",
+      "chapter": 2,
+      "topic": "2.3",
+      "title_from_filename": "KTTC3 C2 CD2.3 Ketoankhauhaochothuenhuongban slide",
+      "page": 1
+    },
+    {
+      "source_id": "src-0562",
+      "chapter": 2,
+      "topic": "2.4",
+      "title_from_filename": "KTTC3 C2 CD2.4 Ketoansuachuanangcap script",
+      "page": 1
+    },
+    {
+      "source_id": "src-0563",
+      "chapter": 2,
+      "topic": "2.4",
+      "title_from_filename": "KTTC3 C2 CD2.4 Ketoansuachuanangcap slide",
+      "page": 1
+    },
+    {
+      "source_id": "src-0564",
+      "chapter": 2,
+      "topic": "2.5",
+      "title_from_filename": "KTTC3 C2 CD2.5 Ketoanchuyendoimucdichsudung script",
+      "page": 1
+    },
+    {
+      "source_id": "src-0565",
+      "chapter": 2,
+      "topic": "2.5",
+      "title_from_filename": "KTTC3 C2 CD2.5 Ketoanchuyendoimucdichsudung slide",
+      "page": 1
+    },
+    {
+      "source_id": "src-0566",
+      "chapter": 2,
+      "topic": "2.6",
+      "title_from_filename": "KTTC3 C2 CD2.6 Trinhbaythongtin script",
+      "page": 1
+    },
+    {
+      "source_id": "src-0567",
+      "chapter": 2,
+      "topic": "2.6",
+      "title_from_filename": "KTTC3 C2 CD2.6 Trinhbaythongtin slide",
+      "page": 1
+    },
+    {
+      "source_id": "src-0568",
+      "chapter": 3,
+      "topic": "3.1",
+      "title_from_filename": "KTTC3 C3  CD3.1 TongQuanDauTuTaiChinh",
+      "page": 1
+    },
+    {
+      "source_id": "src-0569",
+      "chapter": 3,
+      "topic": "3.1",
+      "title_from_filename": "KTTC3 C3  CD3.1 TongQuanDauTuTaiChinh",
+      "page": 1
+    },
+    {
+      "source_id": "src-0570",
+      "chapter": 3,
+      "topic": "3.2",
+      "title_from_filename": "KTTC3 C3  CD3.2 Ke toan chung khoan kinh doanh",
+      "page": 1
+    },
+    {
+      "source_id": "src-0571",
+      "chapter": 3,
+      "topic": "3.2",
+      "title_from_filename": "KTTC3 C3  CD3.2 Ke toan chung khoan kinh doanh",
+      "page": 1
+    },
+    {
+      "source_id": "src-0572",
+      "chapter": 3,
+      "topic": "3.3",
+      "title_from_filename": "KTTC3 C3  CD3.3 Ke toan dau tu nam giu den ngay dao han",
+      "page": 1
+    },
+    {
+      "source_id": "src-0573",
+      "chapter": 3,
+      "topic": "3.3",
+      "title_from_filename": "KTTC3 C3  CD3.3 Ke toan dau tu nam giu den ngay dao han",
+      "page": 1
+    },
+    {
+      "source_id": "src-0574",
+      "chapter": 3,
+      "topic": "3.4",
+      "title_from_filename": "KTTC3 C3  CD3.4 Ke toan dau tu von vao cac cong ty",
+      "page": 1
+    },
+    {
+      "source_id": "src-0575",
+      "chapter": 3,
+      "topic": "3.4",
+      "title_from_filename": "KTTC3 C3  CD3.4 Ke toan dau tu von vao cac cong ty",
+      "page": 1
+    },
+    {
+      "source_id": "src-0576",
+      "chapter": 3,
+      "topic": "3.5",
+      "title_from_filename": "KTTC3 C3  CD3.5 Ke toan du phong ton that dau tu tai chinh",
+      "page": 1
+    },
+    {
+      "source_id": "src-0577",
+      "chapter": 3,
+      "topic": "3.5",
+      "title_from_filename": "KTTC3 C3  CD3.5 Ke toan du phong ton that dau tu tai chinh",
+      "page": 1
+    },
+    {
+      "source_id": "src-0578",
+      "chapter": 3,
+      "topic": "3.6",
+      "title_from_filename": "KTTC3 C3  CD3.6 Trinh bay thong tin tren BCTC",
+      "page": 1
+    },
+    {
+      "source_id": "src-0579",
+      "chapter": 3,
+      "topic": "3.6",
+      "title_from_filename": "KTTC3 C3  CD3.6 Trinh bay thong tin tren BCTC",
+      "page": 1
+    },
+    {
+      "source_id": "src-0580",
+      "chapter": 4,
+      "topic": "4.1",
+      "title_from_filename": "KTTC3 C4  CD4.1 SolieuktoanvaSolieutinhthue",
+      "page": 1
+    },
+    {
+      "source_id": "src-0581",
+      "chapter": 4,
+      "topic": "4.1",
+      "title_from_filename": "KTTC3 C4  CD4.1 SolieuktoanvaSolieutinhthue",
+      "page": 1
+    },
+    {
+      "source_id": "src-0582",
+      "chapter": 4,
+      "topic": "4.2",
+      "title_from_filename": "KTTC3 C4  CD4.2 Ketoanchiphithuetndnhh",
+      "page": 1
+    },
+    {
+      "source_id": "src-0583",
+      "chapter": 4,
+      "topic": "4.2",
+      "title_from_filename": "KTTC3 C4  CD4.2 Ketoanchiphithuetndnhh",
+      "page": 1
+    },
+    {
+      "source_id": "src-0584",
+      "chapter": 4,
+      "topic": "4.3",
+      "title_from_filename": "KTTC3 C4  CD4.3 Phanbietchenhlech",
+      "page": 1
+    },
+    {
+      "source_id": "src-0585",
+      "chapter": 4,
+      "topic": "4.3",
+      "title_from_filename": "KTTC3 C4  CD4.3 Phanbietchenhlech",
+      "page": 1
+    },
+    {
+      "source_id": "src-0586",
+      "chapter": 4,
+      "topic": "4.4",
+      "title_from_filename": "KTTC3 C4  CD4.4 Taisanthuetnhoanlai",
+      "page": 1
+    },
+    {
+      "source_id": "src-0587",
+      "chapter": 4,
+      "topic": "4.4",
+      "title_from_filename": "KTTC3 C4  CD4.4 Taisanthuetnhoanlai",
+      "page": 1
+    },
+    {
+      "source_id": "src-0588",
+      "chapter": 4,
+      "topic": "4.5",
+      "title_from_filename": "KTTC3 C4  CD4.5 Thutnhoanlaiphaitra",
+      "page": 1
+    },
+    {
+      "source_id": "src-0589",
+      "chapter": 4,
+      "topic": "4.5",
+      "title_from_filename": "KTTC3 C4  CD4.5 Thutnhoanlaiphaitra",
+      "page": 1
+    },
+    {
+      "source_id": "src-0590",
+      "chapter": 4,
+      "topic": "4.6",
+      "title_from_filename": "KTTC3 C4  CD4.6 Trinhbaythongtin",
+      "page": 1
+    },
+    {
+      "source_id": "src-0591",
+      "chapter": 4,
+      "topic": "4.6",
+      "title_from_filename": "KTTC3 C4  CD4.6 Trinhbaythongtin",
+      "page": 1
+    }
+  ],
+  "heading_lines": [
+    {
+      "kind": "chuong",
+      "line": "Chương 2: KẾ TOÁN BẤT ĐỘNG SẢN ĐẦU TƯ",
+      "count": 7,
+      "refs": [
+        {
+          "source_id": "src-0554",
+          "page": 1
+        },
+        {
+          "source_id": "src-0555",
+          "page": 1
+        },
+        {
+          "source_id": "src-0558",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 3: KẾ TOÁN ĐẦU TƯ TÀI CHÍNH",
+      "count": 6,
+      "refs": [
+        {
+          "source_id": "src-0568",
+          "page": 1
+        },
+        {
+          "source_id": "src-0570",
+          "page": 1
+        },
+        {
+          "source_id": "src-0572",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 4: KẾ TOÁN THUẾ TNDN",
+      "count": 6,
+      "refs": [
+        {
+          "source_id": "src-0580",
+          "page": 1
+        },
+        {
+          "source_id": "src-0582",
+          "page": 1
+        },
+        {
+          "source_id": "src-0584",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 1: KẾ TOÁN NGOẠI TỆ VÀ KINH DOANH XUẤT NHẬP KHẨU",
+      "count": 5,
+      "refs": [
+        {
+          "source_id": "src-0544",
+          "page": 1
+        },
+        {
+          "source_id": "src-0546",
+          "page": 1
+        },
+        {
+          "source_id": "src-0548",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.1: Tổng quan về bất động sản đầu tư",
+      "count": 2,
+      "refs": [
+        {
+          "source_id": "src-0554",
+          "page": 1
+        },
+        {
+          "source_id": "src-0555",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 4: KẾ TOÁN THUẾ THU NHẬP DOANH NGHIỆP",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0543",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.1: TỔNG QUAN VỀ NGOẠI TỆ",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0544",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.2: KẾ TOÁN GIAO DỊCH PHÁT SINH BẰNG NGOẠI TỆ",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0546",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.3: KẾ TOÁN ĐÁNH GIÁ CHÊNH LỆCH TỶ GIÁ CUỐI KỲ",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0548",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.4: KẾ TOÁN HOẠT ĐỘNG NHẬP KHẨU TRỰC TIẾP",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0550",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.5: KẾ TOÁN HOẠT ĐỘNG XUẤT KHẨU TRỰC TIẾP",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0552",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.2: Kế toán mua sắm, xây dựng bất động sản đầu tư",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0558",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.3: Kế toán khấu hao, cho thuê, nhượng bán bất động sản đầu tư",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0560",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.4: Kế toán sửa chữa, nâng cấp bất động sản đầu tư",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0562",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.5: Kế toán chuyển đổi mục đích sử dụng",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0564",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.6: Trình bày thông tin BĐS đầu trư trên BCTC",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0566",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.1: TỔNG QUAN VỀ ĐẦU TƯ TÀI CHÍNH",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0568",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.1: Tổng quan về đầu tư tài chính, giới thiệu những vấn đề chung về các khoản",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0568",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.2: Kế toán chứng khoán kinh doanh",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0568",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.3: Kế toán đầu tư nắm giữ đến ngày đáo hạn",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0568",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.4: Kế toán đầu tư vốn vào các công ty",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0568",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.5: Kế toán dự phòng tổn thất đầu tư tài chính",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0568",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.6: liên quan đến trình bày thông tin trên báo cáo tài chính",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0568",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.2: KẾ TOÁN CHỨNG KHOÁN KINH DOANH",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0570",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.3: KẾ TOÁN ĐẦU TƯ NẮM GIỮ ĐẾN NGÀY ĐÁO HẠN",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0572",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.4: KẾ TOÁN ĐẦU TƯ VỐN VÀO CÁC CÔNG TY",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0574",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.5: KẾ TOÁN DỰ PHÒNG ĐẦU TƯ TÀI CHÍNH",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0576",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.6: TRÌNH BÀY THÔNG TIN TRÊN TÀI CHÍNH",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0578",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.1: SỐ LIỆU KẾ TOÁN VÀ SỐ LIỆU TÍNH THUẾ TNDN",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0580",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.2: KẾ TOÁN THUẾ TNDN HIỆN HÀNH",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0582",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.3: PHÂN BIỆT CHÊNH LỆCH GIỮA SỐ LIỆU KẾ TOÁN VÀ SỐ LIỆU TÍNH",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0584",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.4: KẾ TOÁN TÀI SẢN THUẾ TN HOÃN LẠI",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0586",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.5: KẾ TOÁN THUẾ TN HOÃN LẠI PHẢI TRẢ",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0588",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.6: TRÌNH BÀY THÔNG TIN TRÊN BÁO CÁO TÀI CHÍNH",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0590",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "Chương 0: GIỚI THIỆU MÔN HỌC",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0592",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "CHƯƠNG 1: KẾ TOÁN GIAO DỊCH",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0595",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.1: Tổng quan về ngoại tệ",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0595",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.2: Kế toán giao dịch phát sinh",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0595",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.3: Kế toán đánh giá chênh",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0595",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.4: Kế toán xử lý chênh lệch tỷ",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0595",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.5: Kế toán hoạt động nhập",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0595",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 1.6: Kế toán hoạt động xuất",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0595",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "CHƯƠNG 2: KẾ TOÁN BẤT ĐỘNG",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0595",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.1: Tổng quan về bất động sản",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0595",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.2: Kế toán mua sắm, xây dựng",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0595",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.3: Kế toán khấu hao, cho thuê,",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0595",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.4: Kế toán sửa chữa, nâng cấp",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0595",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.5: Kế toán chuyển đổi mục",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0595",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 2.6: Trình bày thông tin",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0595",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "CHƯƠNG 3: KẾ TOÁN ĐẦU TƯ TÀI",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0595",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.1: Tổng quan về đầu tư tài",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0595",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.2: Kế toán chứng khoán kinh",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0595",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.3: Kế toán đầu tư nắm giữ",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0595",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.4: Kế toán đầu tư vốn vào các",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0595",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.5: Kế toán dự phòng tổn thất",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0595",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 3.6: Trình bày thông tin trên",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0595",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "kind": "chuong",
+      "line": "CHƯƠNG 4: KẾ TOÁN THUẾ TNDN",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0595",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.1: Số liệu kế toán và số liệu",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0595",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.2: Kế toán chi phí thuế thu",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0595",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.3: Phân loại chênh lệch giữa",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0595",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.4: Kế toán tài sản thuế thu",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0595",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.5: Kế toán thuế thu nhập",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0595",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "kind": "chude",
+      "line": "Chủ đề 4.6: Trình bày thông tin trên",
+      "count": 1,
+      "refs": [
+        {
+          "source_id": "src-0595",
+          "page": 7
+        }
+      ]
+    }
+  ],
+  "outline_titles": [
+    {
+      "source_id": "src-0554",
+      "title": "Tiếp theo, tôi trình bày điều kiện ghi nhận bất động sản đầu tư.",
+      "page": 4
+    },
+    {
+      "source_id": "src-0554",
+      "title": "Bất động sản đầu tư là tài sản nên điều kiện ghi nhận BĐS đầu tư cũng tương tự như điều kiện ghi nhận của tài sản. Do vậy, một bất động sản đầu tư được ghi nhận là tài sản phải thỏa mãn đồng thời hai điều kiện sau:",
+      "page": 4
+    },
+    {
+      "source_id": "src-0554",
+      "title": "Chắc chắn thu được lợi ích kinh tế trong tương lai; và",
+      "page": 4
+    },
+    {
+      "source_id": "src-0554",
+      "title": "Nguyên giá của bất động sản đầu tư phải được xác định một cách đáng tin cậy.",
+      "page": 4
+    },
+    {
+      "source_id": "src-0554",
+      "title": "Chúng ta cùng nhau phân tích ví dụ sau: DN mua một cửa hàng nhằm mục đích cho thuê, giá trị ghi trên chứng từ mua bán là 12 tỷ đồng.",
+      "page": 4
+    },
+    {
+      "source_id": "src-0554",
+      "title": "Yêu cầu: Bất động sản trên có đủ điều kiện ghi nhận là bất động sản đầu tư hay không?",
+      "page": 4
+    },
+    {
+      "source_id": "src-0554",
+      "title": "Giải đáp:",
+      "page": 4
+    },
+    {
+      "source_id": "src-0555",
+      "title": "Trường hợp mua bất động sản: nguyên giá của bất động sản đầu tư được mua bao gồm giá mua và các chi phí liên quan trực tiếp, như: phí dịch vụ tư vấn về luật pháp liên quan, thuế trước bạ và chi phí giao dịch liên quan khác...",
+      "page": 1
+    },
+    {
+      "source_id": "src-0555",
+      "title": "Giải đáp:",
+      "page": 1
+    },
+    {
+      "source_id": "src-0555",
+      "title": "Lô đất do DN mua lại nhằm mục đích để chờ tăng giá nên lô đất này được ghi nhận là bất động sản đầu tư.",
+      "page": 1
+    },
+    {
+      "source_id": "src-0555",
+      "title": "Nguyên giá được xác định như sau: 9.000 + 50 + 100 + 20 = 9.170 triệu đồng.",
+      "page": 1
+    },
+    {
+      "source_id": "src-0555",
+      "title": "Trường hợp xây dựng bất động sản. Nguyên giá của bất động sản đầu tư tự xây dựng là giá thành thực tế và các chi phí liên quan trực tiếp của bất động sản đầu tư tính đến ngày hoàn thành công việc xây dựng. Từ khi bắt đầu xây dựng cho đến ngày hoàn thành công việc xây dựng doanh nghiệp áp dụng chuẩn mực kế toán số 03 “Tài sản cố định hữu hình” và chuẩn mực kế toán số 04 “Tài sản cố định vô hình”. Tại ngày tài sản trở thành bất động sản đầu tư thì áp dụng chuẩn mực bất động sản đầu tư. Với quy định trên thì chúng ta lưu ý rằng chi phí lãi vay sẽ được vốn hóa vào giá trị bất động sản đầu tư, nghĩa là chi phí lãi vay liên quan đến bất động sản đầu tư trong giai đoạn xây dựng được tính và nguyên giá bất động sản đầu tư. Các trường hợp cụ thể về xử lý chi phí đi vay chúng ta xem ở chuẩn mực kế toán chi phí đi vay và tài sản cố định hữu hình.",
+      "page": 2
+    },
+    {
+      "source_id": "src-0555",
+      "title": "Chi phí phát sinh sau ghi nhận ban đầu, sau khi BĐS đã đi vào sử dụng để cho thuê hoặc chờ tăng giá. Chi phí phát sinh trong thời gian này sẽ được ghi nhận như thế nào? Có được ghi vào nguyên giá không? Việc có ghi chi phí này vào nguyên giá hay không phụ thuộc vào khả năng có làm gia tăng lợi ích kinh tế trong tương lai hay không.",
+      "page": 3
+    },
+    {
+      "source_id": "src-0555",
+      "title": "Theo quy định của chuẩn mực kế toán BĐS đầu tư: “Chi phí liên quan đến bất động sản đầu tư phát sinh sau ghi nhận ban đầu phải được ghi nhận là chi phí sản xuất, kinh doanh trong kỳ, trừ khi chi phí này có khả năng chắc chắn làm cho bất động sản đầu tư tạo ra lợi ích kinh tế trong tương lai nhiều hơn mức hoạt động được đánh giá ban đầu thì được ghi tăng nguyên giá bất động sản đầu tư”.",
+      "page": 3
+    },
+    {
+      "source_id": "src-0555",
+      "title": "Giải đáp:",
+      "page": 4
+    },
+    {
+      "source_id": "src-0555",
+      "title": "Giải đáp",
+      "page": 4
+    },
+    {
+      "source_id": "src-0555",
+      "title": "Bất động sản xây dựng chuyển thành bất động sản đầu tư.",
+      "page": 4
+    },
+    {
+      "source_id": "src-0555",
+      "title": "Bất động sản đầu tư chuyển thành bất động sản chủ sở hữu sử dụng.",
+      "page": 4
+    },
+    {
+      "source_id": "src-0555",
+      "title": "Bất động sản đầu tư chuyển thành hàng tồn kho.",
+      "page": 4
+    },
+    {
+      "source_id": "src-0555",
+      "title": "Bất động sản chủ sở hữu sử dụng chuyển thành bất động sản đầu tư.",
+      "page": 5
+    },
+    {
+      "source_id": "src-0555",
+      "title": "Chi phí sản xuất kinh doanh dở dang chuyển thành thành phẩm bất động sản.",
+      "page": 5
+    }
+  ],
+  "accounts": [
+    {
+      "account": "8212",
+      "count": 59,
+      "refs": [
+        [
+          "src-0586",
+          3
+        ],
+        [
+          "src-0586",
+          4
+        ],
+        [
+          "src-0586",
+          5
+        ]
+      ]
+    },
+    {
+      "account": "112",
+      "count": 37,
+      "refs": [
+        [
+          "src-0558",
+          3
+        ],
+        [
+          "src-0558",
+          4
+        ],
+        [
+          "src-0558",
+          5
+        ]
+      ]
+    },
+    {
+      "account": "911",
+      "count": 37,
+      "refs": [
+        [
+          "src-0582",
+          4
+        ],
+        [
+          "src-0582",
+          5
+        ],
+        [
+          "src-0586",
+          3
+        ]
+      ]
+    },
+    {
+      "account": "111",
+      "count": 36,
+      "refs": [
+        [
+          "src-0558",
+          3
+        ],
+        [
+          "src-0558",
+          5
+        ],
+        [
+          "src-0560",
+          2
+        ]
+      ]
+    },
+    {
+      "account": "217",
+      "count": 35,
+      "refs": [
+        [
+          "src-0558",
+          2
+        ],
+        [
+          "src-0558",
+          3
+        ],
+        [
+          "src-0558",
+          4
+        ]
+      ]
+    },
+    {
+      "account": "1122",
+      "count": 30,
+      "refs": [
+        [
+          "src-0544",
+          4
+        ],
+        [
+          "src-0546",
+          3
+        ],
+        [
+          "src-0546",
+          4
+        ]
+      ]
+    },
+    {
+      "account": "3334",
+      "count": 27,
+      "refs": [
+        [
+          "src-0582",
+          4
+        ],
+        [
+          "src-0582",
+          5
+        ],
+        [
+          "src-0590",
+          3
+        ]
+      ]
+    },
+    {
+      "account": "515",
+      "count": 25,
+      "refs": [
+        [
+          "src-0546",
+          5
+        ],
+        [
+          "src-0546",
+          6
+        ],
+        [
+          "src-0548",
+          3
+        ]
+      ]
+    },
+    {
+      "account": "635",
+      "count": 24,
+      "refs": [
+        [
+          "src-0546",
+          4
+        ],
+        [
+          "src-0546",
+          5
+        ],
+        [
+          "src-0546",
+          6
+        ]
+      ]
+    },
+    {
+      "account": "8211",
+      "count": 22,
+      "refs": [
+        [
+          "src-0582",
+          4
+        ],
+        [
+          "src-0582",
+          5
+        ],
+        [
+          "src-0590",
+          3
+        ]
+      ]
+    },
+    {
+      "account": "222",
+      "count": 19,
+      "refs": [
+        [
+          "src-0546",
+          6
+        ],
+        [
+          "src-0574",
+          1
+        ],
+        [
+          "src-0574",
+          2
+        ]
+      ]
+    },
+    {
+      "account": "4131",
+      "count": 19,
+      "refs": [
+        [
+          "src-0548",
+          2
+        ],
+        [
+          "src-0548",
+          3
+        ]
+      ]
+    },
+    {
+      "account": "632",
+      "count": 19,
+      "refs": [
+        [
+          "src-0552",
+          2
+        ],
+        [
+          "src-0558",
+          2
+        ],
+        [
+          "src-0560",
+          2
+        ]
+      ]
+    },
+    {
+      "account": "221",
+      "count": 19,
+      "refs": [
+        [
+          "src-0574",
+          1
+        ],
+        [
+          "src-0574",
+          2
+        ],
+        [
+          "src-0574",
+          3
+        ]
+      ]
+    },
+    {
+      "account": "243",
+      "count": 19,
+      "refs": [
+        [
+          "src-0586",
+          3
+        ],
+        [
+          "src-0586",
+          4
+        ],
+        [
+          "src-0586",
+          5
+        ]
+      ]
+    },
+    {
+      "account": "2147",
+      "count": 18,
+      "refs": [
+        [
+          "src-0558",
+          2
+        ],
+        [
+          "src-0560",
+          2
+        ],
+        [
+          "src-0560",
+          3
+        ]
+      ]
+    },
+    {
+      "account": "241",
+      "count": 18,
+      "refs": [
+        [
+          "src-0558",
+          5
+        ],
+        [
+          "src-0558",
+          6
+        ],
+        [
+          "src-0562",
+          2
+        ]
+      ]
+    },
+    {
+      "account": "331",
+      "count": 17,
+      "refs": [
+        [
+          "src-0546",
+          3
+        ],
+        [
+          "src-0546",
+          5
+        ],
+        [
+          "src-0546",
+          6
+        ]
+      ]
+    },
+    {
+      "account": "133",
+      "count": 17,
+      "refs": [
+        [
+          "src-0558",
+          3
+        ],
+        [
+          "src-0558",
+          4
+        ],
+        [
+          "src-0558",
+          5
+        ]
+      ]
+    },
+    {
+      "account": "347",
+      "count": 16,
+      "refs": [
+        [
+          "src-0588",
+          3
+        ],
+        [
+          "src-0588",
+          4
+        ],
+        [
+          "src-0588",
+          5
+        ]
+      ]
+    },
+    {
+      "account": "156",
+      "count": 14,
+      "refs": [
+        [
+          "src-0550",
+          2
+        ],
+        [
+          "src-0552",
+          1
+        ],
+        [
+          "src-0560",
+          4
+        ]
+      ]
+    },
+    {
+      "account": "154",
+      "count": 14,
+      "refs": [
+        [
+          "src-0560",
+          4
+        ],
+        [
+          "src-0560",
+          5
+        ],
+        [
+          "src-0562",
+          4
+        ]
+      ]
+    },
+    {
+      "account": "1567",
+      "count": 13,
+      "refs": [
+        [
+          "src-0558",
+          2
+        ],
+        [
+          "src-0560",
+          4
+        ],
+        [
+          "src-0560",
+          5
+        ]
+      ]
+    },
+    {
+      "account": "3387",
+      "count": 11,
+      "refs": [
+        [
+          "src-0560",
+          2
+        ],
+        [
+          "src-0560",
+          3
+        ],
+        [
+          "src-0572",
+          2
+        ]
+      ]
+    },
+    {
+      "account": "242",
+      "count": 9,
+      "refs": [
+        [
+          "src-0558",
+          4
+        ],
+        [
+          "src-0562",
+          2
+        ],
+        [
+          "src-0564",
+          4
+        ]
+      ]
+    },
+    {
+      "account": "128",
+      "count": 9,
+      "refs": [
+        [
+          "src-0572",
+          1
+        ],
+        [
+          "src-0572",
+          2
+        ]
+      ]
+    },
+    {
+      "account": "2291",
+      "count": 9,
+      "refs": [
+        [
+          "src-0576",
+          3
+        ]
+      ]
+    },
+    {
+      "account": "5117",
+      "count": 8,
+      "refs": [
+        [
+          "src-0558",
+          2
+        ],
+        [
+          "src-0560",
+          2
+        ],
+        [
+          "src-0560",
+          3
+        ]
+      ]
+    },
+    {
+      "account": "121",
+      "count": 8,
+      "refs": [
+        [
+          "src-0570",
+          1
+        ],
+        [
+          "src-0570",
+          2
+        ],
+        [
+          "src-0578",
+          1
+        ]
+      ]
+    },
+    {
+      "account": "1211",
+      "count": 8,
+      "refs": [
+        [
+          "src-0570",
+          2
+        ],
+        [
+          "src-0574",
+          3
+        ],
+        [
+          "src-0576",
+          3
+        ]
+      ]
+    },
+    {
+      "account": "2281",
+      "count": 8,
+      "refs": [
+        [
+          "src-0574",
+          1
+        ],
+        [
+          "src-0574",
+          3
+        ],
+        [
+          "src-0574",
+          4
+        ]
+      ]
+    },
+    {
+      "account": "214",
+      "count": 7,
+      "refs": [
+        [
+          "src-0558",
+          2
+        ],
+        [
+          "src-0560",
+          4
+        ],
+        [
+          "src-0562",
+          4
+        ]
+      ]
+    },
+    {
+      "account": "211",
+      "count": 7,
+      "refs": [
+        [
+          "src-0564",
+          3
+        ],
+        [
+          "src-0564",
+          4
+        ],
+        [
+          "src-0574",
+          2
+        ]
+      ]
+    },
+    {
+      "account": "711",
+      "count": 7,
+      "refs": [
+        [
+          "src-0574",
+          2
+        ],
+        [
+          "src-0574",
+          4
+        ],
+        [
+          "src-0594",
+          1
+        ]
+      ]
+    },
+    {
+      "account": "352",
+      "count": 7,
+      "refs": [
+        [
+          "src-0584",
+          2
+        ],
+        [
+          "src-0584",
+          4
+        ],
+        [
+          "src-0584",
+          5
+        ]
+      ]
+    },
+    {
+      "account": "131",
+      "count": 6,
+      "refs": [
+        [
+          "src-0546",
+          4
+        ],
+        [
+          "src-0546",
+          5
+        ],
+        [
+          "src-0552",
+          2
+        ]
+      ]
+    },
+    {
+      "account": "2141",
+      "count": 5,
+      "refs": [
+        [
+          "src-0564",
+          3
+        ],
+        [
+          "src-0564",
+          4
+        ],
+        [
+          "src-0594",
+          2
+        ]
+      ]
+    },
+    {
+      "account": "229",
+      "count": 5,
+      "refs": [
+        [
+          "src-0576",
+          2
+        ]
+      ]
+    },
+    {
+      "account": "641",
+      "count": 5,
+      "refs": [
+        [
+          "src-0584",
+          2
+        ],
+        [
+          "src-0584",
+          4
+        ],
+        [
+          "src-0584",
+          5
+        ]
+      ]
+    },
+    {
+      "account": "244",
+      "count": 4,
+      "refs": [
+        [
+          "src-0546",
+          7
+        ],
+        [
+          "src-0550",
+          1
+        ],
+        [
+          "src-0550",
+          2
+        ]
+      ]
+    },
+    {
+      "account": "341",
+      "count": 4,
+      "refs": [
+        [
+          "src-0548",
+          3
+        ],
+        [
+          "src-0570",
+          1
+        ]
+      ]
+    },
+    {
+      "account": "1557",
+      "count": 4,
+      "refs": [
+        [
+          "src-0558",
+          2
+        ],
+        [
+          "src-0564",
+          4
+        ],
+        [
+          "src-0564",
+          6
+        ]
+      ]
+    },
+    {
+      "account": "3331",
+      "count": 4,
+      "refs": [
+        [
+          "src-0560",
+          2
+        ],
+        [
+          "src-0560",
+          3
+        ],
+        [
+          "src-0560",
+          4
+        ]
+      ]
+    },
+    {
+      "account": "1388",
+      "count": 4,
+      "refs": [
+        [
+          "src-0572",
+          2
+        ]
+      ]
+    },
+    {
+      "account": "811",
+      "count": 4,
+      "refs": [
+        [
+          "src-0574",
+          2
+        ],
+        [
+          "src-0594",
+          1
+        ]
+      ]
+    },
+    {
+      "account": "1112",
+      "count": 4,
+      "refs": [
+        [
+          "src-0582",
+          4
+        ],
+        [
+          "src-0582",
+          5
+        ]
+      ]
+    },
+    {
+      "account": "413",
+      "count": 4,
+      "refs": [
+        [
+          "src-0586",
+          4
+        ],
+        [
+          "src-0588",
+          2
+        ]
+      ]
+    },
+    {
+      "account": "213",
+      "count": 3,
+      "refs": [
+        [
+          "src-0564",
+          3
+        ],
+        [
+          "src-0564",
+          4
+        ]
+      ]
+    },
+    {
+      "account": "1111",
+      "count": 2,
+      "refs": [
+        [
+          "src-0546",
+          4
+        ]
+      ]
+    },
+    {
+      "account": "511",
+      "count": 2,
+      "refs": [
+        [
+          "src-0546",
+          5
+        ],
+        [
+          "src-0552",
+          2
+        ]
+      ]
+    },
+    {
+      "account": "344",
+      "count": 2,
+      "refs": [
+        [
+          "src-0546",
+          6
+        ]
+      ]
+    },
+    {
+      "account": "157",
+      "count": 2,
+      "refs": [
+        [
+          "src-0552",
+          1
+        ],
+        [
+          "src-0552",
+          2
+        ]
+      ]
+    },
+    {
+      "account": "642",
+      "count": 2,
+      "refs": [
+        [
+          "src-0564",
+          4
+        ],
+        [
+          "src-0594",
+          4
+        ]
+      ]
+    },
+    {
+      "account": "621",
+      "count": 2,
+      "refs": [
+        [
+          "src-0564",
+          5
+        ],
+        [
+          "src-0564",
+          6
+        ]
+      ]
+    },
+    {
+      "account": "1281",
+      "count": 2,
+      "refs": [
+        [
+          "src-0572",
+          2
+        ]
+      ]
+    },
+    {
+      "account": "1282",
+      "count": 2,
+      "refs": [
+        [
+          "src-0572",
+          3
+        ]
+      ]
+    },
+    {
+      "account": "228",
+      "count": 2,
+      "refs": [
+        [
+          "src-0574",
+          1
+        ],
+        [
+          "src-0594",
+          1
+        ]
+      ]
+    },
+    {
+      "account": "411",
+      "count": 1,
+      "refs": [
+        [
+          "src-0546",
+          6
+        ]
+      ]
+    },
+    {
+      "account": "334",
+      "count": 1,
+      "refs": [
+        [
+          "src-0558",
+          5
+        ]
+      ]
+    },
+    {
+      "account": "622",
+      "count": 1,
+      "refs": [
+        [
+          "src-0564",
+          6
+        ]
+      ]
+    },
+    {
+      "account": "627",
+      "count": 1,
+      "refs": [
+        [
+          "src-0564",
+          6
+        ]
+      ]
+    },
+    {
+      "account": "3411",
+      "count": 1,
+      "refs": [
+        [
+          "src-0574",
+          2
+        ]
+      ]
+    },
+    {
+      "account": "152",
+      "count": 1,
+      "refs": [
+        [
+          "src-0574",
+          2
+        ]
+      ]
+    },
+    {
+      "account": "821",
+      "count": 1,
+      "refs": [
+        [
+          "src-0580",
+          3
+        ]
+      ]
+    },
+    {
+      "account": "1121",
+      "count": 1,
+      "refs": [
+        [
+          "src-0586",
+          5
+        ]
+      ]
+    },
+    {
+      "account": "2412",
+      "count": 1,
+      "refs": [
+        [
+          "src-0594",
+          2
+        ]
+      ]
+    }
+  ]
+}
