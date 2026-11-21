@@ -41,7 +41,7 @@ Not a PDF chatbot. A **curriculum layer** with:
 |---|---|---|
 | A Curriculum | `curriculum/` | What the program taught |
 | B Learner | `learner/` | Schema only; no scores yet |
-| C External | `research/` | Schema only; must not overwrite A |
+| C External | `research/` | Enabled since G5: official-source status records (`research/regulations/`), separate `external` partition; never overwrites A |
 
 ## Source policy
 
@@ -108,7 +108,7 @@ Open Grok with cwd = `D:\Hoc\_learning_system` so `.grok/skills` and `.grok/agen
 | `retrieval` | each course that passed its gate | Teach / source lookup / attempt-checking against evidence. No diagnosis, no admission, no state. Own partition index 3.0.0. |
 | `catalog` | not yet ingested | Retrieval returns `insufficient` + `course_not_indexed`. |
 
-Current runtime clarification: catalog also includes candidate indexes that failed a gate; these are not served. Nine curriculum courses are retrieval-enabled, including KTCP (D2 waiver) and KTNH; only TCDN1 remains catalog after R1. learner-notes is non-curriculum. External updates are enabled after G5 (7 checked status records, 62 unknown); manual refresh is enabled after G6 (approved RAM-only simulation). Full-loop diagnostic/admission/state instructions apply to CORE only.
+Current runtime clarification: catalog also includes candidate indexes that failed a gate; these are not served. Thirteen curriculum courses are retrieval-enabled (nine from Waves 1-3 incl. KTCP with D2 waiver and KTNH, plus HTTTKT1, Kế toán thuế 1, KTTC3 and KTHCSN from W6b); only TCDN1 remains catalog after R1. learner-notes is non-curriculum. External updates are enabled after G5 (31 checked status records, 100 unknown after W6b); manual refresh is enabled after G6 (approved RAM-only simulation). Full-loop diagnostic/admission/state instructions apply to CORE only.
 
 From `D:\Hoc\_learning_system`:
 ```powershell

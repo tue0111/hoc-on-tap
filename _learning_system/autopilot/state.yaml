@@ -23,9 +23,9 @@ expansion:
 external_research:
   enabled: true
   mode: official_sources_only
-  verified_status_records: 7
-  unknown_status_records: 62
-  checked_at: '2026-10-11'
+  verified_status_records: 31
+  unknown_status_records: 100
+  checked_at: '2026-11-21'
 srs:
   enabled: false
 blocked_reason: REAL_DATA_REQUIRED
@@ -40,6 +40,10 @@ retrieval_scope:
 - tai-chinh-hanh-chinh-su-nghiep
 - luat-kinh-doanh
 - kinh-doanh-va-nghiep-vu
+- he-thong-thong-tin-ke-toan-1
+- ke-toan-thue-1
+- ke-toan-tai-chinh-3
+- ke-toan-hanh-chinh-su-nghiep
 refresh:
   enabled: true
   mode: manual_staged_candidate

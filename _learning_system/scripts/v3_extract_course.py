@@ -164,6 +164,36 @@ def main():
         cov.append({"source_id": sid, "relative_path": rel, "page_count": pc, "char_count": cc, "chars_per_page": round(cpp, 1),
                     "parse_quality": pq, "parse_rule": pn["parse_rule"], "chapter": pn["chapter"], "topic": pn["topic"],
                     "unit_script": unit, "index_include": doc["index_include"], "combined_duplicate": combined})
+    if reg.get("topic_from_page1"):
+        # W6b review M6: script files without a topic in the filename (script.pdf, script (1).pdf ...) take it from the
+        # first-page line "Chủ đề k: <title>" -> "<chapter>.<k>" (rule page1_chude_line). Only fills topic=None, so
+        # filename-derived topics and other courses are untouched. Replaces work/<C>/set_topics.py.
+        import re as _re
+        _rx = _re.compile(r"^\s*Chủ đề\s*(\d+)\s*:\s*(.+?)\s*$", _re.M)
+        filled = {}
+        for d in docs:
+            if d["topic"] is not None or d["source_type"] != "lecture_note" or not d["extract_ok"] or d["chapter"] is None:
+                continue
+            first = d["text"].split("----- PAGE 2 -----")[0]
+            m = _rx.search(first)
+            if m:
+                d["topic"], d["topic_title"], d["topic_rule"] = f"{d['chapter']}.{m[1]}", m[2], "page1_chude_line"
+            else:
+                # G12: accept only "Chương <số>: <tiêu đề>" (<số> must equal the doc chapter) or
+                # "Chương mở đầu: <tiêu đề>" (chapter 0 only). "Chương trình: ..." and other chapters are not topics.
+                m2 = _re.search(r"^\s*Chương\s+(?:(\d+)|mở đầu)\s*:\s*(.+?)\s*$", first, _re.M)
+                if not m2:  # no such line on page 1 -> leave topic/rule untouched
+                    continue
+                if m2[1] is not None and int(m2[1]) != d["chapter"]:
+                    continue
+                if m2[1] is None and d["chapter"] != 0:
+                    continue
+                d["topic"], d["topic_title"], d["topic_rule"] = f"{d['chapter']}", m2[2], "page1_chapter_line"
+            filled[d["source_id"]] = d["topic"]
+        for p in pages_out:
+            if p["source_id"] in filled: p["topic"] = filled[p["source_id"]]
+        for c in cov:
+            if c["source_id"] in filled: c["topic"] = filled[c["source_id"]]
     with paths["documents"].open("w", encoding="utf-8") as f:
         for d in docs: f.write(json.dumps(d, ensure_ascii=False) + "\n")
     with paths["pages"].open("w", encoding="utf-8") as f:

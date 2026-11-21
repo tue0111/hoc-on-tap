@@ -125,41 +125,82 @@ courses:
   - còn hiệu lực
   - quy định mới
   - thay thế thông tư
-# W6b (2026-11-21): new courses, start at catalog; codes OBSERVED from filenames of Ôn tập/Đề thi mẫu files
+# W6b (2026-11-21): new courses; codes OBSERVED from filenames / page 1. Tier set to retrieval in Pha C after gate re-run.
 - id: he-thong-thong-tin-ke-toan-1
   name: Hệ thống thông tin kế toán 1
   codes:
   - ACCO3315
-  tier: catalog
+  tier: retrieval
   cues:
   - hệ thống thông tin kế toán
   - httt kế toán
   - htttkt1
   - htttkt
   - acco3315
+  # OBSERVED src-0404 p2: "Môn học HTTTKT 1 là môn chuyên ngành; được học sau môn kế toán tài chính." (part not named)
+  explicit_prerequisites_family: ke-toan-tai-chinh
+  topic_from_page1: true  # W6b review M6: script PDFs carry no topic in the filename
 - id: ke-toan-thue-1
   name: Kế toán thuế 1
   codes:
   - ACCO2311
-  tier: catalog
+  tier: retrieval
+  # W6b review M4: bare 'kế toán thuế' removed; it captured 'kế toán thuế TNDN hoãn lại' (KTTC3 ch.4).
+  # Tax topics without a course name now reach this course through topic_owner suggestions.
   cues:
-  - kế toán thuế
+  - kế toán thuế 1
+  - môn kế toán thuế
   - kt thuế 1
+  - ktt1
   - acco2311
+  # W6b G06: `cues` above are LABELS (course name/code/abbreviation) and win over topic cues of other
+  # courses in the same question. `topic_cues` are business topics / study phrasing, used only when
+  # no label matched. Never list bare 'kế toán thuế tndn' or 'thuế tndn hoãn lại' (KTTC3 ch.4).
+  topic_cues:
+  - kế toán thuế xuất khẩu
+  - kế toán thuế nhập khẩu
+  - kế toán thuế xuất nhập khẩu
+  - kế toán thuế xnk
+  - kế toán thuế đầu vào
+  - kế toán thuế gtgt
+  - kế toán thuế giá trị gia tăng
+  - kế toán thuế tiêu thụ đặc biệt
+  - kế toán thuế ttđb
+  - kế toán thuế bảo vệ môi trường
+  - kế toán thuế bvmt
+  - ôn kế toán thuế
+  - học kế toán thuế
+  - bài kế toán thuế
+  # a context cue directly followed by one of these is KTTC3 material, not Thuế 1
+  topic_veto_after:
+  - tndn
+  - thuế thu nhập doanh nghiệp
+  - thu nhập doanh nghiệp
+  - thuế hoãn lại
+  - hoãn lại
 - id: ke-toan-tai-chinh-3
   name: Kế toán tài chính 3
+  # code conflict OBSERVED, official UNKNOWN: ACCO3310 (filenames, src-0592 p1), ACCO1335 (script p1), ACCO3301 (src-0595 p1)
   codes:
   - ACCO3310
-  tier: catalog
+  - ACCO1335
+  - ACCO3301
+  code_official: UNKNOWN
+  tier: retrieval
   cues:
   - kế toán tài chính 3
   - kttc3
   - kttc 3
   - acco3310
+  - acco1335
+  # OBSERVED src-0580 p1: "Như các anh chị đã tìm hiểu sơ bộ ở chương Kế toán nợ phải trả, môn Kế toán tài chính 2, ..."
+  # (prior-knowledge reference, not a syllabus prerequisite line; learner approved recording it 2026-11-21)
+  explicit_prerequisites:
+  - ke-toan-tai-chinh-2
 - id: ke-toan-hanh-chinh-su-nghiep
   name: Kế toán hành chính sự nghiệp
   codes: []
-  tier: catalog
+  tier: retrieval
   cues:
   - kế toán hành chính sự nghiệp
   - kế toán hcsn

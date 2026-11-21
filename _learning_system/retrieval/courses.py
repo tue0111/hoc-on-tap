@@ -28,6 +28,7 @@ def reload_registry() -> dict:
     load_registry.cache_clear()
     _by_id.cache_clear()
     _alias_map.cache_clear()
+    _cue_table.cache_clear()  # W6b review m5: cue table must follow the reloaded registry
     return load_registry()
 
 
@@ -81,30 +82,53 @@ def _cue_re(cue: str) -> re.Pattern:
 
 
 @lru_cache(maxsize=1)
-def _cue_table() -> list[tuple[str, list[tuple[str, re.Pattern]]]]:
+def _cue_table() -> list[tuple[str, list, list, list[str]]]:
+    """(course id, label cues, topic cues, topic veto-after phrases).
+
+    W6b G06: `cues` are LABEL cues (course name / code / abbreviation); `topic_cues` are
+    business-topic or study-context phrases. `topic_veto_after` lists folded phrases; a topic
+    cue match directly followed by one of them is dropped (e.g. 'học kế toán thuế' + 'tndn').
+    """
     rows = []
     for c in load_registry()["courses"]:
         if c.get("tier") == "core":
             continue
         cues = sorted(c.get("cues") or [], key=lambda x: -len(x))  # longest first
-        rows.append((c["id"], [(x, _cue_re(x)) for x in cues]))
+        topics = sorted(c.get("topic_cues") or [], key=lambda x: -len(x))
+        veto = [fold(v) for v in (c.get("topic_veto_after") or [])]
+        rows.append((c["id"], [(x, _cue_re(x)) for x in cues], [(x, _cue_re(x)) for x in topics], veto))
     return rows
 
 
-def detect_courses(question: str, include_pseudo: bool = False) -> list[str]:
-    """Non-core course ids whose cues occur in the question, ordered by first position."""
-    q = fold(question)
-    spans = []  # (start, end, cid)
-    for cid, cues in _cue_table():
-        if cid in PSEUDO and not include_pseudo:
-            continue
-        for _cue, rx in cues:
-            spans += [(m.start(), m.end(), cid) for m in rx.finditer(q)]
-    # W6b: a cue match lying strictly inside a longer match of ANOTHER course is masked
-    # (e.g. "hành chính sự nghiệp" inside "kế toán hành chính sự nghiệp").
-    kept = [s for s in spans
+def _mask_nested(spans: list) -> list:
+    """W6b: a match lying strictly inside a longer match of ANOTHER course is masked
+    (e.g. "hành chính sự nghiệp" inside "kế toán hành chính sự nghiệp")."""
+    return [s for s in spans
             if not any(o[2] != s[2] and o[0] <= s[0] and s[1] <= o[1] and (o[1] - o[0]) > (s[1] - s[0])
                        for o in spans)]
+
+
+def detect_courses(question: str, include_pseudo: bool = False) -> list[str]:
+    """Non-core course ids whose cues occur in the question, ordered by first position.
+
+    W6b G06: explicit label cues win. If any non-pseudo course matches a label cue, topic cues
+    are ignored entirely; topic cues are only used when no label matched.
+    """
+    q = fold(question)
+    labels, topics = [], []  # (start, end, cid)
+    for cid, lab, top, veto in _cue_table():
+        if cid in PSEUDO and not include_pseudo:
+            continue
+        for _cue, rx in lab:
+            labels += [(m.start(), m.end(), cid) for m in rx.finditer(q)]
+        for _cue, rx in top:
+            for m in rx.finditer(q):
+                if veto and any(q[m.end():].lstrip().startswith(v) for v in veto):
+                    continue
+                topics.append((m.start(), m.end(), cid))
+    kept = _mask_nested(labels)
+    if not any(s[2] not in PSEUDO for s in kept):
+        kept = _mask_nested(labels + topics)
     best = {}
     for start, _end, cid in kept:
         if cid not in best or start < best[cid]:

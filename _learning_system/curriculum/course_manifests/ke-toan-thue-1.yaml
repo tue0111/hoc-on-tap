@@ -1,0 +1,27 @@
+# Course manifest — ke-toan-thue-1 (W6b Pha B, 2026-11-21). Evidence labels: OBSERVED | INFERRED | UNKNOWN
+course_id: ke-toan-thue-1
+course_name: {value: Kế toán thuế 1, evidence_status: OBSERVED, evidence: "src-0492 p1 'Môn học: Kế toán thuế 1'"}
+course_code: {value: ACCO2311, evidence_status: OBSERVED, evidence: "filenames src-0541, src-0542 'ACCO2311_...'"}
+source_folder: D:\Hoc\Kế toán thuế 1
+institution: {value: Trường Đại học Mở TP.HCM, faculty_observed: khoa KT-KT, evidence_status: OBSERVED, evidence: "src-0500 p1; src-0539 p1"}
+lecturers_observed:
+  - {name: Nguyễn Thị Hồng Hạnh, role_in_source: "giảng viên; chủ biên học liệu online", evidence_status: OBSERVED, evidence: "src-0539 p1; src-0500 p1"}
+chapters:
+  - {chapter: 0, title: "Giới thiệu môn học", sources: [src-0539], evidence_status: OBSERVED}
+  - {chapter: 1, title: "Tổng quan về kế toán & thuế", topics: ["1.1", "1.2", "1.3", "1.4"], evidence_status: OBSERVED}
+  - {chapter: 2, title: "Kế toán thuế xuất khẩu – nhập khẩu", topics: ["2.1", "2.2", "2.3", "2.4", "2.5"], evidence_status: OBSERVED}
+  - {chapter: 3, title: "Kế toán thuế Tiêu thụ đặc biệt", topics: ["3.1", "3.2", "3.3", "3.4", "3.5"], evidence_status: OBSERVED}
+  - {chapter: 4, title: "Kế toán thuế Bảo vệ mội trường", title_note: "heading typo verbatim", topics: ["4.1", "4.2", "4.3", "4.4", "4.5"], evidence_status: OBSERVED}
+  - {chapter: 5, title: "Kế toán thuế Giá trị gia tăng", topics: ["5.1", "5.2", "5.3", "5.4", "5.5"], evidence_status: OBSERVED}
+scope_note: >
+  Course covers thuế XK-NK, TTĐB, BVMT, GTGT (src-0539 p1 slide 2). Thuế TNDN / thuế thu nhập hoãn lại is not a chapter
+  of this course (only mentioned in ch.1 overview pages).
+explicit_prerequisites: {value: [], evidence_status: UNKNOWN, evidence: "no 'tiên quyết' / 'học trước' sentence in extracted text"}
+coverage:
+  advertised_chapters_missing_files: []
+  chapters_with_script_files: [0, 1, 2, 3, 4, 5]
+  slides_not_extracted: "25 pptx (pptx extractor not wired); every topic has a script PDF/DOCX"
+regulation_vintage_note: >
+  Scripts cite instruments as taught (e.g. Luật Quản lý thuế 38/2019/QH14, Thông tư 200, Thông tư 219, Thông tư 78,
+  Nghị định 123). Not updated here; external layer (Pha C) handles current status.
+v3: {tier: retrieval, index: 3.0.0, gate: G-ke-toan-thue-1, gate_status: pass, chunk_count: 673, concepts: 35}

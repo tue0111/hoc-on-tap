@@ -1,0 +1,602 @@
+course_id: ke-toan-hanh-chinh-su-nghiep
+version: 0.1.0
+id_prefix: kthcsn
+regulation_basis:
+  note: Giáo trình ghi theo Thông tư 24/2024/TT-BTC (chế độ kế toán HCSN). Thông tư 107/2017/TT-BTC chỉ được nhắc một lần
+    như văn bản có hiệu lực đến hết năm 2024. Ghi nguyên văn, không hợp nhất.
+  observations:
+  - ref: Thông tư 24/2024/TT-BTC
+    source_id: src-0489
+    page: 11
+  - ref: Thông tư 24/2024/TT-BTC
+    source_id: src-0457
+    page: 2
+  - ref: Thông tư 107/2017/TT-BTC
+    source_id: src-0409
+    page: 2
+  evidence_status: OBSERVED
+concepts:
+- concept_id: kthcsn-gioi-thieu-mon-hoc
+  canonical_name: Giới thiệu môn học
+  aliases:
+  - Chuẩn đầu ra của môn học
+  same_as: null
+  chapter: 0
+  topic: '0'
+  source_refs:
+  - source_id: src-0487
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kthcsn-tong-quan-ve-ke-toan-hanh-chinh-su-nghiep
+  canonical_name: Tổng quan về kế toán hành chính sự nghiệp
+  aliases: []
+  same_as: null
+  chapter: 1
+  topic: '1'
+  source_refs:
+  - source_id: src-0407
+    page: 1
+  - source_id: src-0489
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kthcsn-to-chuc-cong-tac-ke-toan
+  canonical_name: Tổ chức công tác kế toán
+  aliases:
+  - mô hình tổ chức công tác kế toán
+  same_as: null
+  chapter: 1
+  topic: '1.1'
+  source_refs:
+  - source_id: src-0407
+    page: 1
+  - source_id: src-0409
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kthcsn-to-chuc-bo-may-ke-toan
+  canonical_name: Tổ chức bộ máy kế toán
+  aliases:
+  - Kế toán trưởng
+  same_as: null
+  chapter: 1
+  topic: '1.2'
+  source_refs:
+  - source_id: src-0411
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kthcsn-to-chuc-he-thong-tai-khoan-ke-toan
+  canonical_name: Tổ chức hệ thống tài khoản kế toán
+  aliases: []
+  same_as: null
+  chapter: 1
+  topic: '1.3'
+  source_refs:
+  - source_id: src-0413
+    page: 1
+  - source_id: src-0415
+    page: 1
+  - source_id: src-0417
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kthcsn-tai-khoan-ngoai-bang
+  canonical_name: Tài khoản ngoài bảng
+  aliases: []
+  same_as: null
+  chapter: 1
+  topic: '1.3'
+  source_refs:
+  - source_id: src-0413
+    page: 2
+  - source_id: src-0417
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kthcsn-che-do-ke-toan-hanh-chinh-su-nghiep
+  canonical_name: Chế độ kế toán hành chính sự nghiệp
+  aliases: []
+  same_as: null
+  chapter: 1
+  topic: null
+  source_refs:
+  - source_id: src-0434
+    page: 1
+  - source_id: src-0459
+    page: 2
+  evidence_status: OBSERVED
+  confidence: medium
+- concept_id: kthcsn-ke-toan-von-bang-tien-va-cac-khoan-thanh-toan
+  canonical_name: Kế toán vốn bằng tiền và các khoản thanh toán
+  aliases: []
+  same_as: null
+  chapter: 2
+  topic: '2'
+  source_refs:
+  - source_id: src-0419
+    page: 1
+  - source_id: src-0421
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kthcsn-ke-toan-von-bang-tien-chu-de
+  canonical_name: Kế toán vốn bằng tiền
+  aliases:
+  - quỹ tiền mặt
+  same_as: null
+  chapter: 2
+  topic: '2.1'
+  source_refs:
+  - source_id: src-0419
+    page: 1
+  - source_id: src-0421
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kthcsn-ke-toan-cac-khoan-phai-thu
+  canonical_name: Kế toán các khoản phải thu
+  aliases:
+  - Phải thu khách hàng
+  same_as: null
+  chapter: 2
+  topic: '2.2'
+  source_refs:
+  - source_id: src-0423
+    page: 1
+  - source_id: src-0425
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kthcsn-ke-toan-cac-khoan-phai-tra-cho-nguoi-lao-dong
+  canonical_name: Kế toán các khoản phải trả cho người lao động
+  aliases:
+  - Phải trả người lao động
+  - các khoản phải nộp theo lương
+  same_as: null
+  chapter: 2
+  topic: '2.3'
+  source_refs:
+  - source_id: src-0427
+    page: 1
+  - source_id: src-0429
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kthcsn-ke-toan-cac-khoan-nop-nha-nuoc
+  canonical_name: Kế toán các khoản nộp nhà nước
+  aliases:
+  - Các khoản phải nộp nhà nước
+  same_as: null
+  chapter: 2
+  topic: '2.4'
+  source_refs:
+  - source_id: src-0431
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kthcsn-ke-toan-hang-ton-kho
+  canonical_name: Kế toán Hàng tồn kho
+  aliases: []
+  same_as: null
+  chapter: 3
+  topic: '3'
+  source_refs:
+  - source_id: src-0433
+    page: 1
+  - source_id: src-0434
+    page: 1
+  - source_id: src-0436
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kthcsn-ke-toan-nguyen-vat-lieu-cong-cu-dung-cu
+  canonical_name: Kế toán nguyên vật liệu, công cụ dụng cụ
+  aliases:
+  - Kế toán nguyên liệu, vật liệu
+  same_as: null
+  chapter: 3
+  topic: '3.1'
+  source_refs:
+  - source_id: src-0433
+    page: 1
+  - source_id: src-0434
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kthcsn-ke-toan-chi-phi-san-xuat-kinh-doanh-dich-vu-do-dang
+  canonical_name: Kế toán chi phí sản xuất kinh doanh, dịch vụ dở dang
+  aliases: []
+  same_as: null
+  chapter: 3
+  topic: '3.2'
+  source_refs:
+  - source_id: src-0436
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kthcsn-ke-toan-tai-san-co-dinh-va-dau-tu-xay-dung-co-ban
+  canonical_name: Kế toán tài sản cố định và đầu tư xây dựng cơ bản
+  aliases: []
+  same_as: null
+  chapter: 4
+  topic: '4'
+  source_refs:
+  - source_id: src-0439
+    page: 1
+  - source_id: src-0441
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kthcsn-nhung-van-de-chung-ve-tai-san-co-dinh
+  canonical_name: Những vấn đề chung về tài sản cố định
+  aliases:
+  - Tài sản cố định hữu hình
+  - Tài sản cố định vô hình
+  same_as: null
+  chapter: 4
+  topic: '4.1'
+  source_refs:
+  - source_id: src-0439
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kthcsn-ke-toan-tai-san-co-dinh-cua-don-vi
+  canonical_name: Kế toán tài sản cố định của đơn vị
+  aliases: []
+  same_as: null
+  chapter: 4
+  topic: '4.2'
+  source_refs:
+  - source_id: src-0441
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kthcsn-ke-toan-khau-hao-hao-mon-tscd
+  canonical_name: Kế toán khấu hao, hao mòn TSCĐ
+  aliases:
+  - hao mòn TSCĐ
+  same_as: null
+  chapter: 4
+  topic: '4.3'
+  source_refs:
+  - source_id: src-0443
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kthcsn-ke-toan-dau-tu-xay-dung-co-ban-chu-de
+  canonical_name: Kế toán đầu tư xây dựng cơ bản
+  aliases: []
+  same_as: null
+  chapter: 4
+  topic: '4.4'
+  source_refs:
+  - source_id: src-0445
+    page: 1
+  - source_id: src-0447
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kthcsn-ke-toan-hoat-dong-hanh-chinh-su-nghiep
+  canonical_name: Kế toán hoạt động hành chính sự nghiệp
+  aliases:
+  - Kế toán doanh thu, chi phí hoạt động hành chính sự nghiệp
+  same_as: null
+  chapter: 5
+  topic: '5'
+  source_refs:
+  - source_id: src-0449
+    page: 1
+  - source_id: src-0489
+    page: 6
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kthcsn-ke-toan-doanh-thu-hanh-chinh-su-nghiep
+  canonical_name: Kế toán doanh thu hành chính sự nghiệp
+  aliases:
+  - Doanh thu từ kinh phí NSNN cấp
+  - Doanh thu từ nhà tài trợ nước ngoài
+  same_as: null
+  chapter: 5
+  topic: '5.1'
+  source_refs:
+  - source_id: src-0449
+    page: 1
+  - source_id: src-0451
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kthcsn-ke-toan-chi-phi-hanh-chinh-su-nghiep
+  canonical_name: Kế toán chi phí hành chính sự nghiệp
+  aliases:
+  - Chi phí hoạt động không giao tự chủ
+  - Chi phí hoạt động giao tự chủ
+  same_as: null
+  chapter: 5
+  topic: '5.2'
+  source_refs:
+  - source_id: src-0453
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kthcsn-ke-toan-hoat-dong-hanh-chinh-su-nghiep-khac
+  canonical_name: Kế toán hoạt động hành chính sự nghiệp khác
+  aliases:
+  - Thu nhập khác
+  same_as: null
+  chapter: 5
+  topic: '5.3'
+  source_refs:
+  - source_id: src-0455
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kthcsn-ke-toan-hoat-dong-san-xuat-kinh-doanh-dich-vu-va-hoat-dong-dau-tu-tai-chinh
+  canonical_name: Kế toán hoạt động sản xuất kinh doanh, dịch vụ và hoạt động đầu tư tài chính
+  aliases:
+  - Kế toán doanh thu, chi phí hoạt động sản xuất kinh doanh, hoạt động đầu tư tài chính và hoạt động khác
+  same_as: null
+  chapter: 6
+  topic: '6'
+  source_refs:
+  - source_id: src-0457
+    page: 1
+  - source_id: src-0459
+    page: 1
+  - source_id: src-0489
+    page: 7
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kthcsn-nhung-van-de-chung-ve-doanh-thu-chi-phi-hoat-dong-san-xuat-kinh-doanh
+  canonical_name: Những vấn đề chung về doanh thu chi phí hoạt động sản xuất kinh doanh
+  aliases: []
+  same_as: null
+  chapter: 6
+  topic: '6.1'
+  source_refs:
+  - source_id: src-0457
+    page: 1
+  - source_id: src-0459
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kthcsn-ke-toan-doanh-thu-hoat-dong-san-xuat-kinh-doanh-dich-vu
+  canonical_name: Kế toán doanh thu hoạt động sản xuất kinh doanh, dịch vụ
+  aliases: []
+  same_as: null
+  chapter: 6
+  topic: '6.2'
+  source_refs:
+  - source_id: src-0461
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kthcsn-ke-toan-chi-phi-hoat-dong-san-xuat-kinh-doanh-dich-vu
+  canonical_name: Kế toán chi phí hoạt động sản xuất kinh doanh, dịch vụ
+  aliases:
+  - Giá vốn hàng bán
+  same_as: null
+  chapter: 6
+  topic: '6.3'
+  source_refs:
+  - source_id: src-0463
+    page: 1
+  - source_id: src-0465
+    page: 1
+  - source_id: src-0467
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kthcsn-ke-toan-doanh-thu-chi-phi-hoat-dong-dau-tu-tai-chinh
+  canonical_name: Kế toán doanh thu chi phí hoạt động đầu tư tài chính
+  aliases:
+  - Doanh thu tài chính
+  - Chi phí tài chính
+  same_as: null
+  chapter: 6
+  topic: '6.4'
+  source_refs:
+  - source_id: src-0469
+    page: 1
+  - source_id: src-0471
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kthcsn-ke-toan-xac-dinh-ket-qua-va-phan-phoi-ket-qua-hoat-dong
+  canonical_name: Kế toán xác định kết quả và phân phối kết quả hoạt động
+  aliases: []
+  same_as: null
+  chapter: 7
+  topic: '7'
+  source_refs:
+  - source_id: src-0473
+    page: 1
+  - source_id: src-0475
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kthcsn-ke-toan-xac-dinh-ket-qua-hoat-dong
+  canonical_name: Kế toán xác định kết quả hoạt động
+  aliases: []
+  same_as: null
+  chapter: 7
+  topic: '7.1'
+  source_refs:
+  - source_id: src-0473
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kthcsn-ke-toan-phan-phoi-ket-qua-cac-hoat-dong
+  canonical_name: Kế toán phân phối kết quả các hoạt động
+  aliases:
+  - Thặng dư (thâm hụt) lũy kế
+  - Các quỹ thuộc đơn vị
+  - Nguồn kinh phí mang sang năm sau
+  same_as: null
+  chapter: 7
+  topic: '7.2'
+  source_refs:
+  - source_id: src-0475
+    page: 1
+  - source_id: src-0478
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kthcsn-bao-cao-ke-toan
+  canonical_name: Báo cáo kế toán
+  aliases: []
+  same_as: null
+  chapter: 8
+  topic: '8'
+  source_refs:
+  - source_id: src-0479
+    page: 1
+  - source_id: src-0483
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kthcsn-bao-cao-quyet-toan
+  canonical_name: Báo cáo quyết toán
+  aliases: []
+  same_as: null
+  chapter: 8
+  topic: '8.1'
+  source_refs:
+  - source_id: src-0479
+    page: 1
+  - source_id: src-0481
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kthcsn-bao-cao-tai-chinh
+  canonical_name: Báo cáo tài chính
+  aliases:
+  - Báo cáo tình hình tài chính
+  - Thuyết minh báo cáo tài chính
+  same_as: null
+  chapter: 8
+  topic: '8.2'
+  source_refs:
+  - source_id: src-0483
+    page: 1
+  - source_id: src-0485
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kthcsn-chuan-muc-ke-toan-cong
+  canonical_name: Chuẩn mực kế toán công
+  aliases: []
+  same_as: null
+  chapter: null
+  topic: null
+  source_refs:
+  - source_id: src-0433
+    page: 1
+  - source_id: src-0449
+    page: 1
+  - source_id: src-0457
+    page: 2
+  evidence_status: OBSERVED
+  confidence: medium
+- concept_id: kthcsn-rut-du-toan
+  canonical_name: rút dự toán
+  aliases: []
+  same_as: null
+  chapter: null
+  topic: null
+  source_refs:
+  - source_id: src-0419
+    page: 3
+  - source_id: src-0449
+    page: 3
+  evidence_status: OBSERVED
+  confidence: medium
+account_map:
+  '111': kthcsn-ke-toan-von-bang-tien-chu-de
+  '112': kthcsn-ke-toan-von-bang-tien-chu-de
+  '131': kthcsn-ke-toan-cac-khoan-phai-thu
+  '137': kthcsn-ke-toan-cac-khoan-phai-thu
+  '141': kthcsn-ke-toan-cac-khoan-phai-thu
+  '334': kthcsn-ke-toan-cac-khoan-phai-tra-cho-nguoi-lao-dong
+  '332': kthcsn-ke-toan-cac-khoan-phai-tra-cho-nguoi-lao-dong
+  '353': kthcsn-ke-toan-cac-khoan-phai-tra-cho-nguoi-lao-dong
+  '333': kthcsn-ke-toan-cac-khoan-nop-nha-nuoc
+  '152': kthcsn-ke-toan-nguyen-vat-lieu-cong-cu-dung-cu
+  '153': kthcsn-ke-toan-nguyen-vat-lieu-cong-cu-dung-cu
+  '154': kthcsn-ke-toan-chi-phi-san-xuat-kinh-doanh-dich-vu-do-dang
+  '211': kthcsn-ke-toan-tai-san-co-dinh-cua-don-vi
+  '214': kthcsn-ke-toan-khau-hao-hao-mon-tscd
+  '241': kthcsn-ke-toan-dau-tu-xay-dung-co-ban-chu-de
+  '511': kthcsn-ke-toan-doanh-thu-hanh-chinh-su-nghiep
+  '512': kthcsn-ke-toan-doanh-thu-hanh-chinh-su-nghiep
+  '514': kthcsn-ke-toan-doanh-thu-hanh-chinh-su-nghiep
+  '611': kthcsn-ke-toan-chi-phi-hanh-chinh-su-nghiep
+  '612': kthcsn-ke-toan-chi-phi-hanh-chinh-su-nghiep
+  '711': kthcsn-ke-toan-hoat-dong-hanh-chinh-su-nghiep-khac
+  '811': kthcsn-ke-toan-hoat-dong-hanh-chinh-su-nghiep-khac
+  '531': kthcsn-ke-toan-doanh-thu-hoat-dong-san-xuat-kinh-doanh-dich-vu
+  '632': kthcsn-ke-toan-chi-phi-hoat-dong-san-xuat-kinh-doanh-dich-vu
+  '642': kthcsn-ke-toan-chi-phi-hoat-dong-san-xuat-kinh-doanh-dich-vu
+  '229': kthcsn-ke-toan-chi-phi-hoat-dong-san-xuat-kinh-doanh-dich-vu
+  '515': kthcsn-ke-toan-doanh-thu-chi-phi-hoat-dong-dau-tu-tai-chinh
+  '615': kthcsn-ke-toan-doanh-thu-chi-phi-hoat-dong-dau-tu-tai-chinh
+  '121': kthcsn-ke-toan-doanh-thu-chi-phi-hoat-dong-dau-tu-tai-chinh
+  '911': kthcsn-ke-toan-xac-dinh-ket-qua-hoat-dong
+  '421': kthcsn-ke-toan-phan-phoi-ket-qua-cac-hoat-dong
+  '431': kthcsn-ke-toan-phan-phoi-ket-qua-cac-hoat-dong
+  '468': kthcsn-ke-toan-phan-phoi-ket-qua-cac-hoat-dong
+  008: kthcsn-tai-khoan-ngoai-bang
+  009: kthcsn-tai-khoan-ngoai-bang
+  '012': kthcsn-tai-khoan-ngoai-bang
+  '013': kthcsn-tai-khoan-ngoai-bang
+edges: []
+conflicts:
+- type: REGULATION_VINTAGE
+  note: 'Script ghi hai văn bản cho cùng nội dung chữa sổ kế toán: TT 107/2017 hiệu lực đến hết năm 2024, TT 24/2024 từ năm
+    2025. Giữ nguyên cả hai, không tự hợp nhất.'
+  quote: thông tư 107/2017/TT-BTC chế độ kế toán HCSN có hiệu lực đến hết năm 2024. Đến năm 2025 thì thông tư 24/2024/TT-BTC
+    có hiệu lực
+  source_id: src-0409
+  page: 2
+  evidence_status: OBSERVED
+  resolution: UNKNOWN
+- type: TITLE_VARIANT
+  chapter: 5
+  note: Tên chương 5 khác nhau giữa script và tài liệu ôn tập; cả hai giữ làm tên/alias của cùng concept chương.
+  observations:
+  - title: 'Chương 5: Kế toán hoạt động hành chính sự nghiệp'
+    source_id: src-0449
+    page: 1
+  - title: 'CHƯƠNG 5: KẾ TOÁN DOANH THU, CHI PHÍ HOẠT ĐỘNG HÀNH CHÍNH SỰ NGHIỆP'
+    source_id: src-0489
+    page: 6
+  evidence_status: OBSERVED
+  resolution: UNKNOWN
+- type: TITLE_VARIANT
+  chapter: 6
+  note: Tài liệu ôn tập thêm 'hoạt động khác' vào tên chương 6 và chủ đề 6.1/6.4; script đặt hoạt động khác ở chủ đề 5.3.
+    Không tự đồng nhất phạm vi chủ đề.
+  observations:
+  - title: 'Chương 6: Kế toán hoạt động sản xuất kinh doanh, dịch vụ và hoạt động đầu tư tài chính'
+    source_id: src-0457
+    page: 1
+  - title: 'CHƯƠNG 6: KẾ TOÁN DOANH THU, CHI PHÍ HOẠT ĐỘNG SẢN XUẤT KINH DOANH, HOẠT ĐỘNG ĐẦU TƯ TÀI CHÍNH VÀ HOẠT ĐỘNG KHÁC'
+    source_id: src-0489
+    page: 7
+  - title: Chủ đề 6.4 Kế toán doanh thu, chi phí hoạt động đầu tư tài chính và hoạt động khác
+    source_id: src-0489
+    page: 8
+  evidence_status: OBSERVED
+  resolution: UNKNOWN
+- type: ASSESSMENT_WEIGHT_CONFLICT
+  note: Script chương mở đầu ghi A1 và A2 mỗi phần 50%, nhưng cùng tài liệu ghi A2 là 60% tổng điểm. Không tự sửa.
+  observations:
+  - quote: mỗi phần chiếm 50% tổng điểm
+    source_id: src-0487
+    page: 2
+  - quote: A2. Đánh giá cuối kỳ (60% tổng điểm)
+    source_id: src-0487
+    page: 3
+  evidence_status: OBSERVED
+  resolution: UNKNOWN

@@ -172,12 +172,16 @@ def _answer_partition(pkg: dict) -> dict:
     name = course_name(pkg["partition"])
     lines = []
     if pkg["partition"] == "external":
-        from retrieval.external import LABEL
+        from retrieval.external import LABEL, evidence_label, record_for_item, source_text
         lines.append(LABEL)
         if not pkg['items']:
             lines.append('Chưa đủ nguồn đã xác minh: ' + ', '.join(pkg['unknowns']))
         for item in pkg['items'][:3]:
-            lines += [item['excerpt'], 'Nguồn: ' + item['source']]
+            rec = record_for_item(item) or {}
+            lines += [item['excerpt'], 'Chứng cứ: ' + evidence_label(item.get('evidence_status'))]
+            lines.append('Nguồn: ' + (source_text(rec) or item['source']))
+            if rec.get('checked_at'):
+                lines.append('Kiểm tra ngày: ' + str(rec['checked_at']))
         lines.append('Đây là ảnh chụp nguồn đã kiểm tra, không bảo đảm bao quát mọi sửa đổi. Làm bài theo giáo trình trừ khi bạn yêu cầu quy định hiện hành.')
         return {'answer':'\n'.join(lines),'package':pkg,'grounded':bool(pkg['items'])}
     if pkg["partition"] == "learner-notes":

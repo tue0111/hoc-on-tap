@@ -1,0 +1,48 @@
+# Course manifest (W6b phase B, 2026-11-21). Evidence labels: OBSERVED | INFERRED | UNKNOWN
+course_id: he-thong-thong-tin-ke-toan-1
+course_name:
+  value: Hệ thống thông tin kế toán 1
+  evidence_status: OBSERVED
+  evidence: "src-0406 p1: 'Môn học: Hệ thống thông tin kế toán 1 – ACCO3315'"
+course_code:
+  value: ACCO3315
+  evidence_status: OBSERVED
+  evidence: "src-0406 p1; filenames ACCO3315_*.pdf (src-0405, src-0406)"
+source_folder: D:\Hoc\Hệ thống thông tin kế toán 1
+institution:
+  value: Trường Đại học Mở TP. Hồ Chí Minh, Khoa Kế toán – Kiểm toán
+  evidence_status: OBSERVED
+  evidence: "src-0404 p1: 'bộ môn hê ̣thống thông tin kế toán, thuộc khoa KT-KT, ĐH Mở Tp. HCM'"
+lecturers_observed:
+  - {name: Vũ Quốc Thông, chapters: [1, 2, 6], evidence: "src-0404 p1"}
+  - {name: Trần Minh Ngọc, chapters: [3], evidence: "src-0404 p1; study guide author src-0406 p1"}
+  - {name: Dương Trọng Nhân, chapters: [4, 5], evidence: "src-0404 p1"}
+chapters_observed:
+  - {chapter: 0, title: "Chương mở đầu: Giới thiệu môn học", source: src-0404}
+  - {chapter: 1, title: "Tổng quan về hệ thống thông tin kế toán", source: src-0344}
+  - {chapter: 2, title: "Tổ chức dữ liệu kế toán trên môi trường bảng tính", topics: ["2.1", "2.2", "2.3"]}
+  - {chapter: 3, title: "Kỹ thuật lập các sổ nhật ký", topics: ["3.1", "3.2", "3.3"]}
+  - {chapter: 4, title: "Kỹ thuật lập các sổ chi tiết và sổ cái tài khoản", topics: ["4.1", "4.2", "4.3", "4.4", "4.5", "4.6"],
+     note: "4.1-4.3 scripts supplied by the learner 2026-11-21 as src-0596..0598 (script_4.1..4.3.pdf); 4.4-4.6 are src-0379/0377/0378 renamed script_4.4..4.6"}
+  - {chapter: 5, title: "Kỹ thuật lập các bảng tổng hợp chi tiết", topics: ["5.1", "5.2", "5.3", "5.4"]}
+  - {chapter: 6, title: "Lập báo cáo tài chính trên bảng tính", topics: ["6.1", "6.2", "6.3"]}
+title_variants:
+  - {chapter: 4, variants: ["Kỹ thuật lập các sổ chi tiết và sổ cái tài khoản (script)", "KỸ THUẬT LẬP SỔ CHI TIẾT VÀ SỔ CÁI TÀI KHOẢN (src-0406 p3)", "Kỹ thuật lập các sổ kế toán (src-0404 p4)"], flag: TITLE_VARIANT}
+  - {chapter: 6, variants: ["Lập báo cáo tài chính trên bảng tính (script)", "KỸ THUẬT LẬP BÁO CÁO TÀI CHÍNH (src-0406 p4)"], flag: TITLE_VARIANT}
+exam:
+  duration_observed: "75 Phút (src-0405 p1, Hệ Trực tuyến)"
+  format_observed: "lập công thức Excel trên các sheet SDDK, CHUNGTUKETOAN (src-0405)"
+prerequisites:
+  explicit_prerequisites: []        # family-level only: registry has explicit_prerequisites_family ke-toan-tai-chinh
+  observed_statement: {quote: "Môn học HTTTKT 1 là môn chuyên ngành; được học sau môn kế toán tài chính.", source_id: src-0404, page: 2,
+                       family: ke-toan-tai-chinh, which_part: UNKNOWN, evidence_status: OBSERVED}
+coverage:
+  chapters_with_script_files: [0, 1, 2, 3, 4, 5, 6]
+  advertised_chapters_missing_files: []
+  topics_pptx_only_not_extracted: []   # closed 2026-11-21: Chương 4 scripts 4.1-4.3 supplied
+v3:
+  tier: retrieval          # set in Pha C (W6b) after gate re-run
+  index: 3.0.0
+  gate: G-he-thong-thong-tin-ke-toan-1
+  chunk_count: 1081
+  concept_count: 36

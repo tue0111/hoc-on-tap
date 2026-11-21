@@ -20,6 +20,24 @@ def records():
         rec['record']=path.relative_to(SYSTEM).as_posix()
         result[rec['ref']]=rec
     return result
+EVIDENCE_LABEL={'OBSERVED':'đã đối chiếu nguồn chính thức','INFERRED':'suy luận, chưa có nguồn chính thức xác nhận trực tiếp'}
+def evidence_label(status):
+    return '('+EVIDENCE_LABEL.get(status or '','chưa xác minh chứng cứ')+')'
+def pick_source(rec):
+    """Prefer an official source; else a secondary one flagged as such. Returns (url, is_secondary)."""
+    srcs=[s for s in (rec or {}).get('sources') or [] if s.get('url')]
+    for s in srcs:
+        if s.get('authority')=='official': return s['url'],False
+    if srcs: return srcs[0]['url'],True
+    return '',False
+def source_text(rec):
+    url,sec=pick_source(rec)
+    return (url+' (nguồn phụ)') if sec else url
+def record_for_item(item):
+    path=item.get('relative_path')
+    for rec in records().values():
+        if rec.get('record')==path: return rec
+    return records().get(item.get('ref'))
 def notes(pkg):
     if not active() or pkg.get('layer')!='curriculum' or not pkg.get('items'): return []
     from retrieval.partition import get_partition_index
@@ -33,14 +51,14 @@ def notes(pkg):
     for ref in sorted(found):
         rec=records().get(ref)
         if not rec or rec['status'] not in {'replaced','amended','expired'}: continue
-        out.append({k:rec.get(k) for k in ['ref','status','replaced_by','amended_by','effective_from','scope','record','sources','checked_at']})
+        out.append({k:rec.get(k) for k in ['ref','status','replaced_by','amended_by','effective_from','scope','record','sources','checked_at','evidence_status']})
     return out
 def retrieve_external(question,ext,filters=None,top_k=None):
     from retrieval.partition import _empty_package,get_partition_index
     from retrieval.retrieve import _to_item
     analysis={'mode':'external','intent':'source_lookup','detected_concepts':[],'course_scope':'external','chapter':None}
     pkg=_empty_package(question,'external',ext['tier'],analysis,[])
-    pkg.update(layer='external',v3={'label':LABEL,'checked_at':'2026-10-11'})
+    pkg.update(layer='external',v3={'label':LABEL})
     if not active():
         pkg['unknowns']=['external_not_enabled']; return pkg
     idx=get_partition_index('external')
@@ -66,6 +84,8 @@ def retrieve_external(question,ext,filters=None,top_k=None):
         item.update(source=c['url'],evidence_status=c.get('evidence_status','OBSERVED'))
         selected.append(item)
         if len(selected)>=(top_k or 5): break
+    dates=[d for d in (str((record_for_item(i) or {}).get('checked_at') or '') for i in selected) if d]
+    if dates: pkg['v3']['checked_at']=max(dates)
     pkg.update(items=selected,evidence=selected,coverage='partial' if selected else 'insufficient')
     pkg['unknowns']=['status_snapshot_not_exhaustive_current_legal_advice'] if selected else ['no_verified_external_evidence']
     return pkg
@@ -74,6 +94,6 @@ def note_lines(pkg):
     out=[]
     for rec in rows:
         target=rec['replaced_by'] or ', '.join(rec.get('amended_by') or []) or rec['status']
-        url=(rec.get('sources') or [{}])[0].get('url','')
-        out.append(f"Theo quy định hiện hành: {rec['ref']} — {rec['status']}: {target} (hiệu lực thay đổi {rec['effective_from'] or 'chưa xác minh'}, nguồn {url}). {rec['scope']} [Kiểm tra {rec['checked_at']}; không đổi đáp án theo giáo trình.]" )
+        url=source_text(rec)
+        out.append(f"Theo quy định hiện hành: {rec['ref']} — {rec['status']}: {target} {evidence_label(rec.get('evidence_status'))} (hiệu lực thay đổi {rec['effective_from'] or 'chưa xác minh'}, nguồn {url}). {rec['scope']} [Kiểm tra {rec['checked_at']}; không đổi đáp án theo giáo trình.]" )
     return out

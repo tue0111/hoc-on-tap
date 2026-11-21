@@ -317,7 +317,15 @@ def retrieve_partition(question: str, ext: dict, filters: dict | None = None, to
         owners = ([oc for oc in _retrieval_courses() if oc != course_id and dcc(owner_query, oc)]
                   if owner_eligible else [])
         if owners:
-            coverage = "insufficient"
+            # W6b review B2 (2026-11-21, trial by the independent reviewer, re-verified on all frozen evals):
+            # keep the answer (no refusal) only when this course's own top-5 covers every content bigram AND beats
+            # each owner's coverage by >= 0.25. The owner is still listed in unknowns as a pointer.
+            _qt = _content_tokens(question, course_id)
+            _own = _bigram_cov(_qt, [it["text"] for it in items[:5]]) if items else 0.0
+            _peer = dict(_rival_coverage(question, course_id, _qt))
+            _specific_local = len(_qt) >= 2 and _own == 1 and all(_own - _peer.get(o, 1) >= 0.25 for o in owners)
+            if not _specific_local:
+                coverage = "insufficient"
             unknowns += [f"topic_in_other_course:{o}" for o in owners]
         # Amendment 4.3a/4.3b (design model, 2026-10-11). Min-max hybrid scores cannot express
         # "off-outline". For a free question (no chapter, not source_bound) that matches no

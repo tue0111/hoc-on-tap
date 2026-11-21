@@ -1,0 +1,81 @@
+# Course manifest (W6b, 2026-11-21). Evidence labels: OBSERVED | INFERRED | UNKNOWN. Details: reports/v3/G-ke-toan-hanh-chinh-su-nghiep.md
+course_id: ke-toan-hanh-chinh-su-nghiep
+course_name:
+  value: Kế toán hành chính sự nghiệp
+  evidence_status: OBSERVED
+course_codes: []
+source_folder: D:\Hoc\Kế toán hành chính sự nghiệp
+chapters_observed:
+- chapter: 0
+  topics:
+  - '0'
+- chapter: 1
+  topics:
+  - '1'
+  - '1.1'
+  - '1.2'
+  - '1.3'
+- chapter: 2
+  topics:
+  - '2'
+  - '2.1'
+  - '2.2'
+  - '2.3'
+  - '2.4'
+- chapter: 3
+  topics:
+  - '3'
+  - '3.1'
+  - '3.2'
+- chapter: 4
+  topics:
+  - '4'
+  - '4.1'
+  - '4.2'
+  - '4.3'
+  - '4.4'
+- chapter: 5
+  topics:
+  - '5'
+  - '5.1'
+  - '5.2'
+  - '5.3'
+- chapter: 6
+  topics:
+  - '6'
+  - '6.1'
+  - '6.2'
+  - '6.3'
+  - '6.4'
+- chapter: 7
+  topics:
+  - '7'
+  - '7.1'
+  - '7.2'
+- chapter: 8
+  topics:
+  - '8'
+  - '8.1'
+  - '8.2'
+coverage:
+  documents: 84
+  pages: 199
+  indexed_documents: 43
+  pptx_not_extracted: 41
+  other_extract_errors: []
+  note: PPTX slides are not extracted (extractor not wired); each has a script PDF/DOCX
+    for the same topic
+v3:
+  tier: retrieval
+  index: 3.0.0
+  gate: G-ke-toan-hanh-chinh-su-nghiep
+  chunk_count: 569
+  concepts: 37
+  built_by: W6b
+code_official: UNKNOWN
+note: no course code in the materials
+regulation_basis_observed: TT 24/2024/TT-BTC (TT 107/2017 mentioned once, src-0409
+  p2)
+prerequisites:
+  explicit_prerequisites: []
+  note: no quotable statement found

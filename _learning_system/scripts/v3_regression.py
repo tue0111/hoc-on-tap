@@ -11,6 +11,13 @@ SYSTEM = Path(os.environ.get("HOC_ROOT", r"D:\Hoc")) / "_learning_system"
 BASE = SYSTEM / "reports" / "v3" / "baseline" / "raw"
 SCRIPTS = ["phase2_eval", "phase3_eval", "phase4_eval", "phase5_eval",
            "phase6_eval", "phase7_eval", "phase8_eval", "pilot_instrumentation_eval"]
+# W6b R2 G01: fixed, independent catalogue of the raw outputs a certifying run must have (baseline AND this run).
+REQUIRED_RAW = (
+    "adaptive_adversarial_raw.json", "adaptive_benchmark_raw.json", "admission_benchmark_raw.json",
+    "decision_benchmark_raw.json", "decision_naturalistic_raw.json", "diagnostic_benchmark_raw.json",
+    "learner_state_benchmark_raw.json", "learning_policy_benchmark_raw.json", "pilot_instrumentation_raw.json",
+    "retrieval_benchmark_raw.json",
+)
 IGNORE_KEYS = {"generated_at", "other_course_suggestions", "regulation_updates",
                "latency_s", "latency_mean_s", "latency_max_s", "timestamp", "ts", "elapsed_s"}
 RE_ID = re.compile(r"\b(st|ev|sess|uuid)-[0-9a-f]{8,}\b")
@@ -42,14 +49,21 @@ def diff(a, b, path=""):
     return out
 
 
-def main():
+def _run():
     ts = time.strftime("%Y%m%d_%H%M%S")
     run = SYSTEM / "reports" / "v3" / f"run_{ts}"
     (run / "raw").mkdir(parents=True)
     hist = SYSTEM / "reports"
     snap = {p.name: p.read_bytes() for p in hist.glob("*.md")}
+    raw_snap = {p.name: p.read_bytes() for p in hist.glob("*_raw.json")}
     pilot = SYSTEM / "pilot"
     pilot_snap = {p: p.read_bytes() for p in pilot.rglob("*") if p.is_file()}
+    baseline_names = sorted(b.name for b in BASE.glob("*.json"))
+    if not baseline_names:
+        sys.exit("DIFFERENT: baseline raw set is empty (cannot certify IDENTICAL)")
+    for name in REQUIRED_RAW:  # W6b G01: no pre-existing raw may be mistaken for this run's output
+        (hist / name).unlink(missing_ok=True)
+    failed = []
     for s in SCRIPTS:
         command = [sys.executable, str(SYSTEM / "scripts" / f"{s}.py")]
         if '--external-candidate' in sys.argv:
@@ -65,11 +79,20 @@ def main():
         (run / f"{s}.stdout.txt").write_text(r.stdout + r.stderr, encoding="utf-8")
         if r.returncode != 0:
             print(f"SCRIPT_FAIL {s} rc={r.returncode}")
+            failed.append(s)
     for p in snap:  # restore historical md reports overwritten by the eval scripts
         (hist / p).write_bytes(snap[p])
     for p, data in pilot_snap.items():  # eval scripts append to pilot logs; restore (frozen)
         p.write_bytes(data)
-    diffs = []
+    diffs = [f"SCRIPT_FAIL {x}" for x in failed]
+    req = set(REQUIRED_RAW)
+    have_base = {b.name for b in BASE.glob("*.json")}
+    for n in sorted(req - have_base): diffs.append(f"{n}: required baseline missing")
+    for n in sorted(have_base - req): diffs.append(f"{n}: baseline not in required catalogue")
+    # required raws were deleted before the run, so any present now was written by it; other pre-existing raws are excluded
+    fresh = {p.name for p in hist.glob("*_raw.json")} - (set(raw_snap) - req)
+    for n in sorted(req - fresh): diffs.append(f"{n}: raw not written in this run")
+    for n in sorted(fresh - req): diffs.append(f"{n}: unexpected raw written in this run")
     for b in sorted(BASE.glob("*.json")):
         raw = hist / b.name
         if not raw.exists():
@@ -78,9 +101,24 @@ def main():
         d = diff(norm(json.loads(b.read_text(encoding="utf-8"))), norm(json.loads(raw.read_text(encoding="utf-8"))), b.stem)
         diffs += d
     (run / "diff.txt").write_text("\n".join(diffs) or "IDENTICAL", encoding="utf-8")
+    # W6b: the run's raw JSON is now kept in run/raw; restore the historical reports/*_raw.json
+    # so a regression run never leaves tracked history modified (they were showing up in commits).
+    for name, data in raw_snap.items():
+        (hist / name).write_bytes(data)
     if diffs:
         print("DIFFERENT", len(diffs)); print("\n".join(diffs[:60])); sys.exit(1)
     print("IDENTICAL", run)
+
+
+def main():
+    # W6b G01: whatever happens (exception, sys.exit, Ctrl+C) the historical reports/*_raw.json are put back.
+    hist = SYSTEM / "reports"
+    saved = {p.name: p.read_bytes() for p in hist.glob("*_raw.json")}
+    try:
+        _run()
+    finally:
+        for name, data in saved.items():
+            (hist / name).write_bytes(data)
 
 
 if __name__ == "__main__":

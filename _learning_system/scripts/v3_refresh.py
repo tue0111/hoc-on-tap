@@ -23,6 +23,11 @@ from retrieval.config import SYSTEM, SOURCE_ROOT, SLICE_COURSE_IDS
 from scripts.v3_inventory import active_records
 from scripts.build_inventory import COURSE_IDS, ARTIFACT_PATH_RE, classify
 
+# Plan 0.6 supported source formats; anything else is inventoried with index_include: false (W6b).
+# .xlsx is deliberately NOT here: v3_extract_course.py / v3_extract_learner_notes.py have no .xlsx branch, so it is
+# inventory-only exactly like .xls (G10). Add it back only together with a real extractor.
+SUPPORTED_EXTENSIONS = {'.pdf', '.docx', '.pptx', '.txt', '.md'}
+
 
 def digest(data):
     return hashlib.sha256(data).hexdigest()
@@ -47,7 +52,9 @@ def safe_relative(rel):
 def listing(root):
     rows = []
     for folder in sorted(root.iterdir()):
-        if folder.name == '_learning_system':
+        # W6b: D:\Hoc is also a git repo; skip system/tooling entries (.git, _grok_pack, _learning_system)
+        # and loose files at the root (README.md, .gitignore). Course material lives only in course folders.
+        if folder.name.startswith(('.', '_')) or not folder.is_dir():
             continue
         if folder.is_symlink() or (hasattr(folder, 'is_junction') and folder.is_junction()):
             raise ValueError('Reparse source root: ' + folder.name)
@@ -164,7 +171,14 @@ def plan():
               'delta': delta, 'staged': [], 'blocked': None,
               'detection_contract': 'relative_path + size; same-size edits are NOT detected by this scan'}
     write_json(SYSTEM / 'work/listing.json', rows)
+    new_courses = sorted({r['relative_path'].split('/')[0] for r in delta['NEW']} - set(COURSE_IDS))
+    result['new_courses'] = new_courses
     try:
+        if new_courses:
+            # W6b: a new course needs registry/parser/concept judgment work, which refresh cannot do.
+            raise ValueError('NEW_COURSE: ' + ', '.join(new_courses) + '. Không nạp tự động. Làm theo checklist '
+                             'reports/v3/PLAN_W6B_MON_MOI.md (Pha A: COURSE_IDS + course_registry + parser; '
+                             'Pha B: playbook mục 6; Pha C: gộp, gate, _grok_pack), rồi chạy lại --plan.')
         guard(delta)
         core_integrity()
         for entry in delta['NEW'] + delta['CHANGED']:
@@ -204,6 +218,44 @@ def command(root, script, *args):
     log.write_text(result.stdout + result.stderr, encoding='utf-8')
     if result.returncode or 'SCRIPT_FAIL' in result.stdout or 'Traceback' in result.stderr:
         raise ValueError('Candidate command failed: ' + script + '; ' + str(log))
+
+
+def _union(*lists):
+    out = []
+    for items in lists:
+        for x in items or []:
+            if x not in out:
+                out.append(x)
+    # several citations on one slug: canonical order, so the result does not depend on citation order
+    return sorted(out, key=lambda x: json.dumps(x, sort_keys=True, ensure_ascii=False)) if len(lists) > 1 else out
+
+
+def sync_citations(cs, citations, slug):
+    """W6b R2 G17: write citation provenance into regulation records. Citations sharing a slug are unioned
+    (courses/occurrences/variants) and the record is rewritten once; it counts as changed only when the final
+    content differs from the original, never because of an intermediate state."""
+    groups = {}
+    for citation in citations:
+        rel = 'research/regulations/' + slug(citation['ref_normalized']) + '.yaml'
+        groups.setdefault(rel, []).append(citation)
+    changed = set()
+    for rel, cites in groups.items():
+        record_path = cs / rel
+        if not record_path.exists():
+            raise ValueError('Citation requires official-source review/explicit unknown record: ' + cites[0]['ref_normalized'])
+        original = record_path.read_bytes()
+        rec = yaml.safe_load(original.decode('utf-8'))
+        updated = {**rec, 'cited_in_courses': _union(*[c['courses'] for c in cites]),
+                   'curriculum_occurrences': _union(*[c['occurrences'] for c in cites]),
+                   'variants': _union(*[c['variants'] for c in cites])}
+        if updated != rec:
+            final = yaml.safe_dump(updated, allow_unicode=True, sort_keys=False).encode('utf-8')
+            if b'\r\n' in original:
+                final = final.replace(b'\n', b'\r\n')
+            if final != original:
+                record_path.write_bytes(final)
+                changed.add(rel)
+    return changed
 
 
 def apply(plan_path, review_path=None):
@@ -261,7 +313,15 @@ def apply(plan_path, review_path=None):
         old = by_id.get(entry.get('supersedes'))
         previous = {**old, **overrides.get(old['source_id'], {})} if old else None
         initial = classify_source(entry['relative_path'], previous=previous)
-        if initial['tmp_artifact']:
+        unsupported = staged.suffix.lower() not in SUPPORTED_EXTENSIONS
+        if unsupported and old is not None and not old.get('tmp_artifact'):
+            old_ext_ok = PurePosixPath(old['relative_path']).suffix.lower() in SUPPORTED_EXTENSIONS
+            if old_ext_ok and previous.get('index_include') is not False:
+                # G05: the old version serves chunks; a replacement we cannot extract would silently drop them.
+                raise ValueError('Unsupported replacement for an indexed source (its chunks would be dropped): '
+                                 + entry['relative_path'] + ' supersedes ' + old['source_id'])
+        if initial['tmp_artifact'] or unsupported:
+            # W6b: unsupported formats (.xls/.xlsm/...) are inventoried, never indexed, never converted.
             extracted = {'ok': True, 'pages': []}
         else:
             extracted = extract_one(staged, staged.suffix.lower())
@@ -271,10 +331,16 @@ def apply(plan_path, review_path=None):
         classified.append({**entry, **classify_source(entry['relative_path'], first, previous)})
     new_inv = append_records(inv, classified)
     new_rows = new_inv[len(inv):]
-    affected = sorted({r['partition'] for r in new_rows if r['partition'] != 'excluded'})
+    is_unsupported = lambda r: PurePosixPath(r['relative_path']).suffix.lower() not in SUPPORTED_EXTENSIONS
+    for row in new_rows:  # W6b review M1: the flag lives on the inventory row itself
+        if is_unsupported(row):
+            row['index_include'] = False
+            row['exclusion_reason'] = 'unsupported_extension'
+    # Unsupported formats are inventory-only: they never trigger a partition rebuild (no chunk can change).
+    affected = sorted({r['partition'] for r in new_rows if r['partition'] != 'excluded' and not is_unsupported(r)})
     for row in new_rows:
         old = by_id.get(row.get('supersedes'))
-        if old:
+        if old and not is_unsupported(row):
             old_rule = overrides.get(old['source_id'], {})
             old_partition = ('learner-notes' if old_rule.get('content_role', old.get('source_role')) == 'learner_material'
                              else old['course_id'])
@@ -298,6 +364,8 @@ def apply(plan_path, review_path=None):
         ov.setdefault('overrides', []).append({**inherited, 'source_id': row['source_id'], 'relative_path': row['relative_path'],
                                               'content_role': row['source_role'], 'partition': row['partition'],
                                               'evidence_status': 'INFERRED', 'note': 'Wave 6 classification; see refresh plan/review'})
+        if PurePosixPath(row['relative_path']).suffix.lower() not in SUPPORTED_EXTENSIONS:
+            ov['overrides'][-1].update(index_include=False, exclusion_reason='unsupported_extension')
         if row['tmp_artifact']:
             ov.setdefault('tmp_artifacts_not_curriculum', []).append(row['source_id'])
     (cs / 'curriculum/source_registry_overrides.yaml').write_text(yaml.safe_dump(ov, allow_unicode=True, sort_keys=False), encoding='utf-8')
@@ -307,15 +375,25 @@ def apply(plan_path, review_path=None):
         else:
             command(root, 'v3_extract_course.py', '--course', cid)
             coverage = read_json(cs / f'data/normalized/{cid}.coverage.json')
-            if coverage['errors'] or coverage['page_count_mismatch'] or coverage['UNPARSED']:
-                raise ValueError('Extraction gate failed: ' + cid)
+            by_design = {'pptx extractor not wired (non-learner pptx)'}
+            real_errors = []
+            for doc_line in (cs / f'data/normalized/{cid}.documents.jsonl').read_text(encoding='utf-8').splitlines():
+                doc = json.loads(doc_line)
+                reason = doc.get('extract_error')
+                if reason and reason not in by_design and not str(reason).startswith('skipped '):
+                    real_errors.append((doc['source_id'], reason))
+            if real_errors or coverage['page_count_mismatch'] or coverage['UNPARSED']:
+                # W6b review M1: PPTX (extractor not wired) and skipped formats are accepted; any other
+                # extraction error is still a stop condition.
+                raise ValueError('Extraction gate failed: ' + cid + ' ' + str(real_errors[:5]))
             command(root, 'v3_dedupe.py', '--course', cid)
             (cs / 'work' / cid).mkdir(parents=True, exist_ok=True)
             command(root, 'v3_concept_candidates.py', '--course', cid)
     # Exact copies introduce no new concepts/citations. Unique material requires
     # a human/agent review bound to source hashes, not an invented automatic judgment.
     known = {r['sha256'] for r in inv}
-    unique = [r for r in new_rows if r['sha256'] not in known and not r['tmp_artifact']]
+    # G05: inventory-only rows (unsupported extension) carry no concepts/citations, so they never need review.
+    unique = [r for r in new_rows if r['sha256'] not in known and not r['tmp_artifact'] and not is_unsupported(r)]
     review = read_json(review_path) if review_path else {}
     if not unique and review:
         raise ValueError('Review supplied without unique sources; make a separate reviewed update')
@@ -344,7 +422,7 @@ def apply(plan_path, review_path=None):
         else:
             command(root, 'v3_validate_concepts.py', '--course', cid)
             command(root, 'v3_build_partition.py', '--course', cid)
-            command(root, 'v3_eval_course.py', '--course', cid, '--tag', '_refresh')
+            command(root, 'v3_eval_course.py', '--course', cid, '--tag', '_refresh', '--report-only')
             evaluation = read_json(cs / f'reports/v3/{cid}_eval_refresh.json')
             gates = dict(evaluation['gates'])
             if cid == 'ke-toan-chi-phi':
@@ -356,17 +434,7 @@ def apply(plan_path, review_path=None):
     command(root, 'v3_harvest_citations.py')
     from research.citations import slug
     record_changes = set(r for r in review.get('files', {}) if r.startswith('research/regulations/'))
-    for citation in read_json(cs / 'research/curriculum_citations.json'):
-        rel = 'research/regulations/' + slug(citation['ref_normalized']) + '.yaml'
-        record_path = cs / rel
-        if not record_path.exists():
-            raise ValueError('Citation requires official-source review/explicit unknown record: ' + citation['ref_normalized'])
-        raw = record_path.read_text(encoding='utf-8')
-        rec = yaml.safe_load(raw)
-        updated = {**rec, 'cited_in_courses': citation['courses'], 'curriculum_occurrences': citation['occurrences'], 'variants': citation['variants']}
-        if updated != rec:
-            record_path.write_text(yaml.safe_dump(updated, allow_unicode=True, sort_keys=False), encoding='utf-8')
-            record_changes.add(rel)
+    record_changes |= sync_citations(cs, read_json(cs / 'research/curriculum_citations.json'), slug)
     external_changed = bool(record_changes)
     if external_changed:
         command(root, 'v3_build_external.py', '--from-records')
@@ -377,9 +445,9 @@ def apply(plan_path, review_path=None):
         cid = course['id']
         if course['tier'] != 'retrieval' or cid in affected or cid in {'learner-notes', 'external'}:
             continue
-        command(root, 'v3_eval_course.py', '--course', cid, '--tag', '_refresh_unaffected')
+        command(root, 'v3_eval_course.py', '--course', cid, '--tag', '_refresh_unaffected', '--report-only')
         # Compare against a live pre-refresh run, not a fabricated or re-frozen suite.
-        command(SOURCE_ROOT, 'v3_eval_course.py', '--course', cid, '--tag', '_refresh_before')
+        command(SOURCE_ROOT, 'v3_eval_course.py', '--course', cid, '--tag', '_refresh_before', '--report-only')
         old = read_json(SYSTEM / f'reports/v3/{cid}_eval_refresh_before.json')['results']
         new = read_json(cs / f'reports/v3/{cid}_eval_refresh_unaffected.json')['results']
         if old != new:

@@ -1,0 +1,73 @@
+# Course manifest (W6b, 2026-11-21). Evidence labels: OBSERVED | INFERRED | UNKNOWN. Details: reports/v3/G-ke-toan-tai-chinh-3.md
+course_id: ke-toan-tai-chinh-3
+course_name:
+  value: Kế toán tài chính 3
+  evidence_status: OBSERVED
+course_codes:
+- ACCO3310
+- ACCO1335
+- ACCO3301
+source_folder: D:\Hoc\Kế toán tài chính 3
+chapters_observed:
+- chapter: 1
+  topics:
+  - '1.1'
+  - '1.2'
+  - '1.3'
+  - '1.4'
+  - '1.5'
+- chapter: 2
+  topics:
+  - '2.1'
+  - '2.2'
+  - '2.3'
+  - '2.4'
+  - '2.5'
+  - '2.6'
+- chapter: 3
+  topics:
+  - '3.1'
+  - '3.2'
+  - '3.3'
+  - '3.4'
+  - '3.5'
+  - '3.6'
+- chapter: 4
+  topics:
+  - '4.1'
+  - '4.2'
+  - '4.3'
+  - '4.4'
+  - '4.5'
+  - '4.6'
+coverage:
+  documents: 53
+  pages: 130
+  indexed_documents: 28
+  pptx_not_extracted: 25
+  other_extract_errors: []
+  note: PPTX slides are not extracted (extractor not wired); each has a script PDF/DOCX
+    for the same topic
+v3:
+  tier: retrieval
+  index: 3.0.0
+  gate: G-ke-toan-tai-chinh-3
+  chunk_count: 379
+  concepts: 28
+  built_by: W6b
+code_official: UNKNOWN
+code_conflict:
+  ACCO3310: filenames, src-0592 p1
+  ACCO1335: page 1 of chapter scripts
+  ACCO3301: src-0595 p1
+prerequisites:
+  explicit_prerequisites:
+  - ke-toan-tai-chinh-2
+  evidence_status: OBSERVED
+  evidence:
+    source_id: src-0580
+    page: 1
+    quote: Như các anh chị đã tìm hiểu sơ bộ ở chương Kế toán nợ phải trả, môn Kế
+      toán tài chính 2, ...
+  kind: prior-knowledge reference by the lecturer, not a syllabus prerequisite line;
+    recorded with learner approval 2026-11-21

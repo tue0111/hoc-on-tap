@@ -319,5 +319,130 @@
         "source_ids": []
       }
     ]
+  },
+  "he-thong-thong-tin-ke-toan-1": {
+    "file": "evals/v3/he-thong-thong-tin-ke-toan-1_retrieval.jsonl",
+    "sha256": "dee08790290945add182df20591b77d24c1bb00df58a84661e4f6e81bb890792",
+    "first_run_metrics": {
+      "direct_must_include": 1.0,
+      "direct_chapter_at1": 0.9285714285714286,
+      "source_bound": 0.6666666666666666,
+      "insufficient": 1.0,
+      "collision_contamination": 0,
+      "account": 1.0,
+      "topic_owner": null
+    },
+    "first_run_gates": {
+      "direct_must_include": true,
+      "direct_chapter_at1": true,
+      "source_bound": true,
+      "insufficient": true,
+      "collision_contamination": true,
+      "account": true,
+      "topic_owner": true
+    },
+    "frozen_at": "2026-11-21",
+    "first_run_report": "reports/v3/he-thong-thong-tin-ke-toan-1_eval_run1.json",
+    "n": 24,
+    "note": "W6b phase B; run with tier=retrieval set in memory only (work/he-thong-thong-tin-ke-toan-1/run_eval.py); topic_owner n/a (no rows, Wave 1 only)"
+  },
+  "ke-toan-thue-1": {
+    "file": "evals/v3/ke-toan-thue-1_retrieval.jsonl",
+    "sha256": "3d9eb60aae42b12939cf3a22fb90a9c03e2ba504c196cc29161bad5a7c8a3024",
+    "first_run_metrics": {
+      "direct_must_include": 1.0,
+      "direct_chapter_at1": 0.8,
+      "source_bound": 1.0,
+      "insufficient": 1.0,
+      "collision_contamination": 0,
+      "account": 1.0,
+      "topic_owner": null
+    },
+    "first_run_gates": {
+      "direct_must_include": true,
+      "direct_chapter_at1": true,
+      "source_bound": true,
+      "insufficient": true,
+      "collision_contamination": true,
+      "account": true,
+      "topic_owner": true
+    },
+    "frozen_at": "2026-11-21",
+    "first_run_report": "reports/v3/ke-toan-thue-1_eval_run1.json",
+    "note": "first run with tier=retrieval set in memory only (work/ke-toan-thue-1/run_eval.py); registry still catalog until Pha C"
+  },
+  "ke-toan-tai-chinh-3": {
+    "file": "evals/v3/ke-toan-tai-chinh-3_retrieval.jsonl",
+    "sha256": "fbcbcacfa23ce207dbea697065e4ba6be901d92c10a1a27a2cb2ca26ea797868",
+    "first_run_metrics": {
+      "direct_must_include": 0.9166666666666666,
+      "direct_chapter_at1": 1.0,
+      "source_bound": 1.0,
+      "insufficient": 1.0,
+      "collision_contamination": 0,
+      "account": 1.0,
+      "topic_owner": null
+    },
+    "first_run_gates": {
+      "direct_must_include": true,
+      "direct_chapter_at1": true,
+      "source_bound": true,
+      "insufficient": true,
+      "collision_contamination": true,
+      "account": true,
+      "topic_owner": true
+    },
+    "frozen_at": "2026-11-21",
+    "first_run_report": "reports/v3/ke-toan-tai-chinh-3_eval_run1.json",
+    "n": 23,
+    "note": "first run with KTTC3 tier=retrieval in memory only (work/ke-toan-tai-chinh-3/run_eval.py); registry unchanged"
+  },
+  "ke-toan-hanh-chinh-su-nghiep": {
+    "file": "evals/v3/ke-toan-hanh-chinh-su-nghiep_retrieval.jsonl",
+    "sha256": "03e575bc1ac60ea770a362c0c7b5b50308b355972dac5184feac2b5e1c7d201d",
+    "first_run_metrics": {
+      "direct_must_include": 1.0,
+      "direct_chapter_at1": 0.9,
+      "source_bound": 1.0,
+      "insufficient": 1.0,
+      "collision_contamination": 0,
+      "account": 1.0,
+      "topic_owner": null
+    },
+    "first_run_gates": {
+      "direct_must_include": true,
+      "direct_chapter_at1": true,
+      "source_bound": true,
+      "insufficient": true,
+      "collision_contamination": true,
+      "account": true,
+      "topic_owner": true
+    },
+    "frozen_at": "2026-11-21",
+    "note": "First run via work/ke-toan-hanh-chinh-su-nghiep/overlay_run.py (in-memory tier=retrieval for this course only; registry on disk still catalog). No tuning rounds used."
+  },
+  "he-thong-thong-tin-ke-toan-1_r1": {
+    "file": "evals/v3/he-thong-thong-tin-ke-toan-1_retrieval_r1.jsonl",
+    "sha256": "a1eb83b76d6b4b09ffcdde788596617546658a74e26c43978c6d556dfbdee557",
+    "first_run_metrics": {
+      "direct_must_include": 1.0,
+      "direct_chapter_at1": 1.0,
+      "source_bound": null,
+      "insufficient": null,
+      "collision_contamination": 0,
+      "account": null,
+      "topic_owner": null
+    },
+    "first_run_gates": {
+      "direct_must_include": true,
+      "direct_chapter_at1": true,
+      "source_bound": false,
+      "insufficient": false,
+      "collision_contamination": true,
+      "account": true,
+      "topic_owner": true
+    },
+    "frozen_at": "2026-11-21",
+    "note": "Wave 6.2 supplementary rows for learner-supplied Chương 4 scripts 4.1-4.3 (src-0596..0598); direct-only file, n/a categories are not gate failures"
   }
 }

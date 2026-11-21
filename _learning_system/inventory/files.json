@@ -14553,18 +14553,20 @@
     "notes": [
       "added_in_v3_refresh",
       "added_in_w6b"
-    ]
+    ],
+    "index_include": false,
+    "exclusion_reason": "unsupported_extension"
   },
   {
     "relative_path": "Hệ thống thông tin kế toán 1/Chia sẻ tài liệu/Owen G. - Using Microsoft Excel for Accounting.pdf",
     "size_bytes": 20077081,
     "sha256": "112976c8bacb38c17ba532fddf1e59ff86185e20d57732770f0e38861404f6bd",
     "course_id": "he-thong-thong-tin-ke-toan-1",
-    "source_role": "unknown",
+    "source_role": "reference",
     "partition": "he-thong-thong-tin-ke-toan-1",
     "tmp_artifact": false,
-    "classification_evidence_status": "INFERRED",
-    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision",
+    "classification_evidence_status": "OBSERVED",
+    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision; W6b Pha C: HTTTKT1 Pha B: OBSERVED p1 (học liệu bổ trợ / tài liệu tham khảo / báo cáo NCKH ngoài)",
     "apparent_chapter": null,
     "apparent_topic_code": null,
     "source_id": "src-0341",
@@ -14602,11 +14604,11 @@
     "size_bytes": 612323,
     "sha256": "4452026ece2dddd2d02bbfbb73c04228bb41da31432b1b889818d0984a0df50f",
     "course_id": "he-thong-thong-tin-ke-toan-1",
-    "source_role": "unknown",
+    "source_role": "reference",
     "partition": "he-thong-thong-tin-ke-toan-1",
     "tmp_artifact": false,
-    "classification_evidence_status": "INFERRED",
-    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision",
+    "classification_evidence_status": "OBSERVED",
+    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision; W6b Pha C: HTTTKT1 Pha B: OBSERVED p1 (học liệu bổ trợ / tài liệu tham khảo / báo cáo NCKH ngoài)",
     "apparent_chapter": 1,
     "apparent_topic_code": null,
     "source_id": "src-0343",
@@ -14658,7 +14660,9 @@
     "notes": [
       "added_in_v3_refresh",
       "added_in_w6b"
-    ]
+    ],
+    "index_include": false,
+    "exclusion_reason": "unsupported_extension"
   },
   {
     "relative_path": "Hệ thống thông tin kế toán 1/Chương 2/Baitap_Chuong2 (2).xls",
@@ -14679,7 +14683,9 @@
     "notes": [
       "added_in_v3_refresh",
       "added_in_w6b"
-    ]
+    ],
+    "index_include": false,
+    "exclusion_reason": "unsupported_extension"
   },
   {
     "relative_path": "Hệ thống thông tin kế toán 1/Chương 2/Baitap_Chuong2 (3).xls",
@@ -14700,7 +14706,9 @@
     "notes": [
       "added_in_v3_refresh",
       "added_in_w6b"
-    ]
+    ],
+    "index_include": false,
+    "exclusion_reason": "unsupported_extension"
   },
   {
     "relative_path": "Hệ thống thông tin kế toán 1/Chương 2/Baitap_Chuong2.xls",
@@ -14721,7 +14729,9 @@
     "notes": [
       "added_in_v3_refresh",
       "added_in_w6b"
-    ]
+    ],
+    "index_include": false,
+    "exclusion_reason": "unsupported_extension"
   },
   {
     "relative_path": "Hệ thống thông tin kế toán 1/Chương 2/HTTTKT1___Chuong2___ToChucDuLieuKeToan___VuQuocThong___TC___video1.pptx",
@@ -14791,11 +14801,11 @@
     "size_bytes": 273257,
     "sha256": "18354effcf4111f02ee652f2e0cf67e5555fa3b96b2eb6369c56fb30f3efdb2e",
     "course_id": "he-thong-thong-tin-ke-toan-1",
-    "source_role": "unknown",
+    "source_role": "reference",
     "partition": "he-thong-thong-tin-ke-toan-1",
     "tmp_artifact": false,
-    "classification_evidence_status": "INFERRED",
-    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision",
+    "classification_evidence_status": "OBSERVED",
+    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision; W6b Pha C: HTTTKT1 Pha B: OBSERVED p1 (học liệu bổ trợ / tài liệu tham khảo / báo cáo NCKH ngoài)",
     "apparent_chapter": 2,
     "apparent_topic_code": null,
     "source_id": "src-0352",
@@ -14889,7 +14899,9 @@
     "notes": [
       "added_in_v3_refresh",
       "added_in_w6b"
-    ]
+    ],
+    "index_include": false,
+    "exclusion_reason": "unsupported_extension"
   },
   {
     "relative_path": "Hệ thống thông tin kế toán 1/Chương 3/Baitap_Coloigiai_Chuong3 (2).xls",
@@ -14910,7 +14922,9 @@
     "notes": [
       "added_in_v3_refresh",
       "added_in_w6b"
-    ]
+    ],
+    "index_include": false,
+    "exclusion_reason": "unsupported_extension"
   },
   {
     "relative_path": "Hệ thống thông tin kế toán 1/Chương 3/Baitap_Coloigiai_Chuong3.xls",
@@ -14931,7 +14945,9 @@
     "notes": [
       "added_in_v3_refresh",
       "added_in_w6b"
-    ]
+    ],
+    "index_include": false,
+    "exclusion_reason": "unsupported_extension"
   },
   {
     "relative_path": "Hệ thống thông tin kế toán 1/Chương 3/HTTTKT1__Chuong3.1___NKTT_NKCT.pptx",
@@ -15001,11 +15017,11 @@
     "size_bytes": 385152,
     "sha256": "1f154a289e09551d8f94ff77f2569f9aa2fa5787d067eb5279ceb06837abce96",
     "course_id": "he-thong-thong-tin-ke-toan-1",
-    "source_role": "unknown",
+    "source_role": "reference",
     "partition": "he-thong-thong-tin-ke-toan-1",
     "tmp_artifact": false,
-    "classification_evidence_status": "INFERRED",
-    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision",
+    "classification_evidence_status": "OBSERVED",
+    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision; W6b Pha C: HTTTKT1 Pha B: OBSERVED p1 (học liệu bổ trợ / tài liệu tham khảo / báo cáo NCKH ngoài)",
     "apparent_chapter": 3,
     "apparent_topic_code": null,
     "source_id": "src-0362",
@@ -15099,7 +15115,9 @@
     "notes": [
       "added_in_v3_refresh",
       "added_in_w6b"
-    ]
+    ],
+    "index_include": false,
+    "exclusion_reason": "unsupported_extension"
   },
   {
     "relative_path": "Hệ thống thông tin kế toán 1/Chương 4/Baitap_Chuong4 (2).xls",
@@ -15120,7 +15138,9 @@
     "notes": [
       "added_in_v3_refresh",
       "added_in_w6b"
-    ]
+    ],
+    "index_include": false,
+    "exclusion_reason": "unsupported_extension"
   },
   {
     "relative_path": "Hệ thống thông tin kế toán 1/Chương 4/Baitap_Chuong4 (3).xls",
@@ -15141,7 +15161,9 @@
     "notes": [
       "added_in_v3_refresh",
       "added_in_w6b"
-    ]
+    ],
+    "index_include": false,
+    "exclusion_reason": "unsupported_extension"
   },
   {
     "relative_path": "Hệ thống thông tin kế toán 1/Chương 4/Baitap_Chuong4.xls",
@@ -15162,7 +15184,9 @@
     "notes": [
       "added_in_v3_refresh",
       "added_in_w6b"
-    ]
+    ],
+    "index_include": false,
+    "exclusion_reason": "unsupported_extension"
   },
   {
     "relative_path": "Hệ thống thông tin kế toán 1/Chương 4/HTTTKT1___Chuong4___Clip1___SoChiTietThanhToan.pptx",
@@ -15295,11 +15319,11 @@
     "size_bytes": 381392,
     "sha256": "2f7cdebc4816f81aed8359c6e372de7386d8dcb11e902339371b639ab742f19a",
     "course_id": "he-thong-thong-tin-ke-toan-1",
-    "source_role": "unknown",
+    "source_role": "reference",
     "partition": "he-thong-thong-tin-ke-toan-1",
     "tmp_artifact": false,
-    "classification_evidence_status": "INFERRED",
-    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision",
+    "classification_evidence_status": "OBSERVED",
+    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision; W6b Pha C: HTTTKT1 Pha B: OBSERVED p1 (học liệu bổ trợ / tài liệu tham khảo / báo cáo NCKH ngoài)",
     "apparent_chapter": 4,
     "apparent_topic_code": null,
     "source_id": "src-0376",
@@ -15312,7 +15336,7 @@
     ]
   },
   {
-    "relative_path": "Hệ thống thông tin kế toán 1/Chương 4/script (1).pdf",
+    "relative_path": "Hệ thống thông tin kế toán 1/Chương 4/script_4.5.pdf",
     "size_bytes": 477301,
     "sha256": "15c6e1750754095985aa28f37f63db8f448790d6df41a4b5c3535289ab95c8dd",
     "course_id": "he-thong-thong-tin-ke-toan-1",
@@ -15324,16 +15348,18 @@
     "apparent_chapter": 4,
     "apparent_topic_code": null,
     "source_id": "src-0377",
-    "filename": "script (1).pdf",
+    "filename": "script_4.5.pdf",
     "extension": ".pdf",
     "course_folder": "Hệ thống thông tin kế toán 1",
     "notes": [
       "added_in_v3_refresh",
-      "added_in_w6b"
-    ]
+      "added_in_w6b",
+      "renamed_by_learner_2026-11-21"
+    ],
+    "renamed_from": "Hệ thống thông tin kế toán 1/Chương 4/script (1).pdf"
   },
   {
-    "relative_path": "Hệ thống thông tin kế toán 1/Chương 4/script (2).pdf",
+    "relative_path": "Hệ thống thông tin kế toán 1/Chương 4/script_4.6.pdf",
     "size_bytes": 492133,
     "sha256": "cd678a2e8012e236c0baca25710619895dbf4d326e1e7788266e0c7243f0e095",
     "course_id": "he-thong-thong-tin-ke-toan-1",
@@ -15345,16 +15371,18 @@
     "apparent_chapter": 4,
     "apparent_topic_code": null,
     "source_id": "src-0378",
-    "filename": "script (2).pdf",
+    "filename": "script_4.6.pdf",
     "extension": ".pdf",
     "course_folder": "Hệ thống thông tin kế toán 1",
     "notes": [
       "added_in_v3_refresh",
-      "added_in_w6b"
-    ]
+      "added_in_w6b",
+      "renamed_by_learner_2026-11-21"
+    ],
+    "renamed_from": "Hệ thống thông tin kế toán 1/Chương 4/script (2).pdf"
   },
   {
-    "relative_path": "Hệ thống thông tin kế toán 1/Chương 4/script.pdf",
+    "relative_path": "Hệ thống thông tin kế toán 1/Chương 4/script_4.4.pdf",
     "size_bytes": 468939,
     "sha256": "6e4f2f6fc8646c7f1b3d2cc15334a16d25f5c88eabcee44ee6f1fb03ab8106a3",
     "course_id": "he-thong-thong-tin-ke-toan-1",
@@ -15366,13 +15394,15 @@
     "apparent_chapter": 4,
     "apparent_topic_code": null,
     "source_id": "src-0379",
-    "filename": "script.pdf",
+    "filename": "script_4.4.pdf",
     "extension": ".pdf",
     "course_folder": "Hệ thống thông tin kế toán 1",
     "notes": [
       "added_in_v3_refresh",
-      "added_in_w6b"
-    ]
+      "added_in_w6b",
+      "renamed_by_learner_2026-11-21"
+    ],
+    "renamed_from": "Hệ thống thông tin kế toán 1/Chương 4/script.pdf"
   },
   {
     "relative_path": "Hệ thống thông tin kế toán 1/Chương 5/Baitap_Chuong5 (1).xls",
@@ -15393,7 +15423,9 @@
     "notes": [
       "added_in_v3_refresh",
       "added_in_w6b"
-    ]
+    ],
+    "index_include": false,
+    "exclusion_reason": "unsupported_extension"
   },
   {
     "relative_path": "Hệ thống thông tin kế toán 1/Chương 5/Baitap_Chuong5 (2).xls",
@@ -15414,7 +15446,9 @@
     "notes": [
       "added_in_v3_refresh",
       "added_in_w6b"
-    ]
+    ],
+    "index_include": false,
+    "exclusion_reason": "unsupported_extension"
   },
   {
     "relative_path": "Hệ thống thông tin kế toán 1/Chương 5/Baitap_Chuong5 (3).xls",
@@ -15435,7 +15469,9 @@
     "notes": [
       "added_in_v3_refresh",
       "added_in_w6b"
-    ]
+    ],
+    "index_include": false,
+    "exclusion_reason": "unsupported_extension"
   },
   {
     "relative_path": "Hệ thống thông tin kế toán 1/Chương 5/Baitap_Chuong5.xls",
@@ -15456,7 +15492,9 @@
     "notes": [
       "added_in_v3_refresh",
       "added_in_w6b"
-    ]
+    ],
+    "index_include": false,
+    "exclusion_reason": "unsupported_extension"
   },
   {
     "relative_path": "Hệ thống thông tin kế toán 1/Chương 5/HTTTKT1___Chuong5___Clip2___BangTongHopChiTietHangTonKho.pptx",
@@ -15547,11 +15585,11 @@
     "size_bytes": 386566,
     "sha256": "882c7bac1324daad52f75cb7395695e62a11a013f61dfeff63dba972a180e000",
     "course_id": "he-thong-thong-tin-ke-toan-1",
-    "source_role": "unknown",
+    "source_role": "reference",
     "partition": "he-thong-thong-tin-ke-toan-1",
     "tmp_artifact": false,
-    "classification_evidence_status": "INFERRED",
-    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision",
+    "classification_evidence_status": "OBSERVED",
+    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision; W6b Pha C: HTTTKT1 Pha B: OBSERVED p1 (học liệu bổ trợ / tài liệu tham khảo / báo cáo NCKH ngoài)",
     "apparent_chapter": 5,
     "apparent_topic_code": null,
     "source_id": "src-0388",
@@ -15666,7 +15704,9 @@
     "notes": [
       "added_in_v3_refresh",
       "added_in_w6b"
-    ]
+    ],
+    "index_include": false,
+    "exclusion_reason": "unsupported_extension"
   },
   {
     "relative_path": "Hệ thống thông tin kế toán 1/Chương 6/Baitap_Chuong6 (2).xls",
@@ -15687,7 +15727,9 @@
     "notes": [
       "added_in_v3_refresh",
       "added_in_w6b"
-    ]
+    ],
+    "index_include": false,
+    "exclusion_reason": "unsupported_extension"
   },
   {
     "relative_path": "Hệ thống thông tin kế toán 1/Chương 6/Baitap_Chuong6.xls",
@@ -15708,7 +15750,9 @@
     "notes": [
       "added_in_v3_refresh",
       "added_in_w6b"
-    ]
+    ],
+    "index_include": false,
+    "exclusion_reason": "unsupported_extension"
   },
   {
     "relative_path": "Hệ thống thông tin kế toán 1/Chương 6/HTTTKT1___Chuong6___LapBCTCtrenBangTinh___P1___TC.pptx",
@@ -15778,11 +15822,11 @@
     "size_bytes": 390506,
     "sha256": "d93487f730dd5f9aabf9490deafbcc69630f1fecd792fead550f98d6c1ad91da",
     "course_id": "he-thong-thong-tin-ke-toan-1",
-    "source_role": "unknown",
+    "source_role": "reference",
     "partition": "he-thong-thong-tin-ke-toan-1",
     "tmp_artifact": false,
-    "classification_evidence_status": "INFERRED",
-    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision",
+    "classification_evidence_status": "OBSERVED",
+    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision; W6b Pha C: HTTTKT1 Pha B: OBSERVED p1 (học liệu bổ trợ / tài liệu tham khảo / báo cáo NCKH ngoài)",
     "apparent_chapter": 6,
     "apparent_topic_code": null,
     "source_id": "src-0399",
@@ -17626,11 +17670,11 @@
     "size_bytes": 41692,
     "sha256": "629b62d6ba11c5fabd7b3df19087a7ccadf53f61da203de569262f65aba10a71",
     "course_id": "ke-toan-hanh-chinh-su-nghiep",
-    "source_role": "unknown",
+    "source_role": "lecture_note",
     "partition": "ke-toan-hanh-chinh-su-nghiep",
     "tmp_artifact": false,
-    "classification_evidence_status": "INFERRED",
-    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision",
+    "classification_evidence_status": "OBSERVED",
+    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision; W6b Pha C: KTHCSN Pha B: p1 \"BÀI GIẢNG DẠNG VĂN BẢN (SCRIPT)\"",
     "apparent_chapter": 0,
     "apparent_topic_code": null,
     "source_id": "src-0487",
@@ -18718,11 +18762,11 @@
     "size_bytes": 1897150,
     "sha256": "2270318067055da7e0a320236c9b936ef44f1f022fda7b9429ecb4d37a00f77d",
     "course_id": "ke-toan-thue-1",
-    "source_role": "unknown",
+    "source_role": "lecture_note",
     "partition": "ke-toan-thue-1",
     "tmp_artifact": false,
-    "classification_evidence_status": "INFERRED",
-    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision",
+    "classification_evidence_status": "OBSERVED",
+    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision; W6b Pha C: Thuế 1 Pha B: p1 \"BÀI GIẢNG DẠNG VĂN BẢN (SCRIPT)\"",
     "apparent_chapter": 0,
     "apparent_topic_code": null,
     "source_id": "src-0539",
@@ -18781,11 +18825,11 @@
     "size_bytes": 289567,
     "sha256": "1dde3cff7a0ff6603b973f13fc61dce6d031cccf1cfec550936d6b986339c5ec",
     "course_id": "ke-toan-thue-1",
-    "source_role": "syllabus",
+    "source_role": "summary",
     "partition": "ke-toan-thue-1",
     "tmp_artifact": false,
-    "classification_evidence_status": "INFERRED",
-    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision",
+    "classification_evidence_status": "OBSERVED",
+    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision; W6b Pha C: Thuế 1 Pha B: hướng dẫn học tập -> summary như các môn khác",
     "apparent_chapter": null,
     "apparent_topic_code": null,
     "source_id": "src-0542",
@@ -18802,12 +18846,12 @@
     "size_bytes": 424201,
     "sha256": "ab22bc3f35644f64d286b6a4add4c6501442b297dc9f452d2615cd4a2636e288",
     "course_id": "ke-toan-tai-chinh-3",
-    "source_role": "unknown",
+    "source_role": "exercise",
     "partition": "ke-toan-tai-chinh-3",
     "tmp_artifact": false,
-    "classification_evidence_status": "INFERRED",
-    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision",
-    "apparent_chapter": null,
+    "classification_evidence_status": "OBSERVED",
+    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision; W6b Pha C: KTTC3 Pha B: p1 \"Bài tập thực hành tự đánh giá cuối chương 4\"",
+    "apparent_chapter": 4,
     "apparent_topic_code": null,
     "source_id": "src-0543",
     "filename": "KTTC3-C4-Baitaptudanhgia.pdf",
@@ -18823,11 +18867,11 @@
     "size_bytes": 93716,
     "sha256": "73b1d0c136a8adbaba6130612e6bdcf8fd2d4dd4df23e160a1036b322dd6d377",
     "course_id": "ke-toan-tai-chinh-3",
-    "source_role": "unknown",
+    "source_role": "lecture_note",
     "partition": "ke-toan-tai-chinh-3",
     "tmp_artifact": false,
-    "classification_evidence_status": "INFERRED",
-    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision",
+    "classification_evidence_status": "OBSERVED",
+    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision; W6b Pha C: KTTC3 Pha B: p1 \"BÀI GIẢNG DẠNG VĂN BẢN (SCRIPT)\"",
     "apparent_chapter": 1,
     "apparent_topic_code": "1.1",
     "source_id": "src-0544",
@@ -18865,11 +18909,11 @@
     "size_bytes": 106700,
     "sha256": "4649938cb6cfdca80b4ac33f640c68d65f3ea76a0a20fda40a4bcb178cc9a800",
     "course_id": "ke-toan-tai-chinh-3",
-    "source_role": "unknown",
+    "source_role": "lecture_note",
     "partition": "ke-toan-tai-chinh-3",
     "tmp_artifact": false,
-    "classification_evidence_status": "INFERRED",
-    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision",
+    "classification_evidence_status": "OBSERVED",
+    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision; W6b Pha C: KTTC3 Pha B: p1 \"BÀI GIẢNG DẠNG VĂN BẢN (SCRIPT)\"",
     "apparent_chapter": 1,
     "apparent_topic_code": "1.2",
     "source_id": "src-0546",
@@ -18907,11 +18951,11 @@
     "size_bytes": 87246,
     "sha256": "070b6c0964e5d427aee1796ec2b0351f5ecd458239b9d9315b212d9e8d74cfb0",
     "course_id": "ke-toan-tai-chinh-3",
-    "source_role": "unknown",
+    "source_role": "lecture_note",
     "partition": "ke-toan-tai-chinh-3",
     "tmp_artifact": false,
-    "classification_evidence_status": "INFERRED",
-    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision",
+    "classification_evidence_status": "OBSERVED",
+    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision; W6b Pha C: KTTC3 Pha B: p1 \"BÀI GIẢNG DẠNG VĂN BẢN (SCRIPT)\"",
     "apparent_chapter": 1,
     "apparent_topic_code": "1.3",
     "source_id": "src-0548",
@@ -18949,11 +18993,11 @@
     "size_bytes": 82271,
     "sha256": "ec6d9da9100370c88f04d18c923576e90ffda54452ed408635770e0dcad3f824",
     "course_id": "ke-toan-tai-chinh-3",
-    "source_role": "unknown",
+    "source_role": "lecture_note",
     "partition": "ke-toan-tai-chinh-3",
     "tmp_artifact": false,
-    "classification_evidence_status": "INFERRED",
-    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision",
+    "classification_evidence_status": "OBSERVED",
+    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision; W6b Pha C: KTTC3 Pha B: p1 \"BÀI GIẢNG DẠNG VĂN BẢN (SCRIPT)\"",
     "apparent_chapter": 1,
     "apparent_topic_code": "1.4",
     "source_id": "src-0550",
@@ -18991,11 +19035,11 @@
     "size_bytes": 84607,
     "sha256": "175aa58ed869edf78e1d3522cd1cc61d90d00e11fe853e19257a337641152292",
     "course_id": "ke-toan-tai-chinh-3",
-    "source_role": "unknown",
+    "source_role": "lecture_note",
     "partition": "ke-toan-tai-chinh-3",
     "tmp_artifact": false,
-    "classification_evidence_status": "INFERRED",
-    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision",
+    "classification_evidence_status": "OBSERVED",
+    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision; W6b Pha C: KTTC3 Pha B: p1 \"BÀI GIẢNG DẠNG VĂN BẢN (SCRIPT)\"",
     "apparent_chapter": 1,
     "apparent_topic_code": "1.5",
     "source_id": "src-0552",
@@ -19033,11 +19077,11 @@
     "size_bytes": 161757,
     "sha256": "37041a9c76e8560db44f532c6ceba792c25ec915e046427349795a246b51cd6b",
     "course_id": "ke-toan-tai-chinh-3",
-    "source_role": "unknown",
+    "source_role": "lecture_note",
     "partition": "ke-toan-tai-chinh-3",
     "tmp_artifact": false,
-    "classification_evidence_status": "INFERRED",
-    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision",
+    "classification_evidence_status": "OBSERVED",
+    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision; W6b Pha C: KTTC3 Pha B: p1 \"BÀI GIẢNG DẠNG VĂN BẢN (SCRIPT)\"",
     "apparent_chapter": 2,
     "apparent_topic_code": "2.1",
     "source_id": "src-0554",
@@ -19054,11 +19098,11 @@
     "size_bytes": 207032,
     "sha256": "2dab28ec6e0a37b9df2f57fc8d040e17916ae4d9ce080bce8ff914affba797e8",
     "course_id": "ke-toan-tai-chinh-3",
-    "source_role": "unknown",
+    "source_role": "lecture_note",
     "partition": "ke-toan-tai-chinh-3",
     "tmp_artifact": false,
-    "classification_evidence_status": "INFERRED",
-    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision",
+    "classification_evidence_status": "OBSERVED",
+    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision; W6b Pha C: KTTC3 Pha B: p1 \"BÀI GIẢNG DẠNG VĂN BẢN (SCRIPT)\"",
     "apparent_chapter": 2,
     "apparent_topic_code": "2.1",
     "source_id": "src-0555",
@@ -19327,11 +19371,11 @@
     "size_bytes": 317818,
     "sha256": "48370ef8ed3566a976a55a650e25a2664425ea1692182f97a4997f6af707ab87",
     "course_id": "ke-toan-tai-chinh-3",
-    "source_role": "unknown",
+    "source_role": "lecture_note",
     "partition": "ke-toan-tai-chinh-3",
     "tmp_artifact": false,
-    "classification_evidence_status": "INFERRED",
-    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision",
+    "classification_evidence_status": "OBSERVED",
+    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision; W6b Pha C: KTTC3 Pha B: p1 \"BÀI GIẢNG DẠNG VĂN BẢN (SCRIPT)\"",
     "apparent_chapter": 3,
     "apparent_topic_code": "3.1",
     "source_id": "src-0568",
@@ -19369,11 +19413,11 @@
     "size_bytes": 196601,
     "sha256": "d328266f4b84ccac0fc8e65867f3b9f394641ad2872a6b6d16aace12ac9b3f75",
     "course_id": "ke-toan-tai-chinh-3",
-    "source_role": "unknown",
+    "source_role": "lecture_note",
     "partition": "ke-toan-tai-chinh-3",
     "tmp_artifact": false,
-    "classification_evidence_status": "INFERRED",
-    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision",
+    "classification_evidence_status": "OBSERVED",
+    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision; W6b Pha C: KTTC3 Pha B: p1 \"BÀI GIẢNG DẠNG VĂN BẢN (SCRIPT)\"",
     "apparent_chapter": 3,
     "apparent_topic_code": "3.2",
     "source_id": "src-0570",
@@ -19411,11 +19455,11 @@
     "size_bytes": 117148,
     "sha256": "d12d9a459e15a8cd402a45c96c37229b2da05d3e0e6b3405c49be0d357016922",
     "course_id": "ke-toan-tai-chinh-3",
-    "source_role": "unknown",
+    "source_role": "lecture_note",
     "partition": "ke-toan-tai-chinh-3",
     "tmp_artifact": false,
-    "classification_evidence_status": "INFERRED",
-    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision",
+    "classification_evidence_status": "OBSERVED",
+    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision; W6b Pha C: KTTC3 Pha B: p1 \"BÀI GIẢNG DẠNG VĂN BẢN (SCRIPT)\"",
     "apparent_chapter": 3,
     "apparent_topic_code": "3.3",
     "source_id": "src-0572",
@@ -19453,11 +19497,11 @@
     "size_bytes": 90454,
     "sha256": "4d8e938b75ef907506f94bb13ef7ebbcc8ae33b5128a4be8d77f6cc31d7ce792",
     "course_id": "ke-toan-tai-chinh-3",
-    "source_role": "unknown",
+    "source_role": "lecture_note",
     "partition": "ke-toan-tai-chinh-3",
     "tmp_artifact": false,
-    "classification_evidence_status": "INFERRED",
-    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision",
+    "classification_evidence_status": "OBSERVED",
+    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision; W6b Pha C: KTTC3 Pha B: p1 \"BÀI GIẢNG DẠNG VĂN BẢN (SCRIPT)\"",
     "apparent_chapter": 3,
     "apparent_topic_code": "3.4",
     "source_id": "src-0574",
@@ -19495,11 +19539,11 @@
     "size_bytes": 86849,
     "sha256": "02c275facea6614429708247eec4a879afe3de1c700ac47e69ac9f514cb55ec6",
     "course_id": "ke-toan-tai-chinh-3",
-    "source_role": "unknown",
+    "source_role": "lecture_note",
     "partition": "ke-toan-tai-chinh-3",
     "tmp_artifact": false,
-    "classification_evidence_status": "INFERRED",
-    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision",
+    "classification_evidence_status": "OBSERVED",
+    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision; W6b Pha C: KTTC3 Pha B: p1 \"BÀI GIẢNG DẠNG VĂN BẢN (SCRIPT)\"",
     "apparent_chapter": 3,
     "apparent_topic_code": "3.5",
     "source_id": "src-0576",
@@ -19537,11 +19581,11 @@
     "size_bytes": 86041,
     "sha256": "2ad93b90f98a36408061eafde1a3dd44e9382208020c751d39d25fb6e2f4735c",
     "course_id": "ke-toan-tai-chinh-3",
-    "source_role": "unknown",
+    "source_role": "lecture_note",
     "partition": "ke-toan-tai-chinh-3",
     "tmp_artifact": false,
-    "classification_evidence_status": "INFERRED",
-    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision",
+    "classification_evidence_status": "OBSERVED",
+    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision; W6b Pha C: KTTC3 Pha B: p1 \"BÀI GIẢNG DẠNG VĂN BẢN (SCRIPT)\"",
     "apparent_chapter": 3,
     "apparent_topic_code": "3.6",
     "source_id": "src-0578",
@@ -19579,11 +19623,11 @@
     "size_bytes": 260837,
     "sha256": "b65a7bbac4e63099bf5905c7b6766eb6cec65d373ef84b284caf19159fb8ef3f",
     "course_id": "ke-toan-tai-chinh-3",
-    "source_role": "unknown",
+    "source_role": "lecture_note",
     "partition": "ke-toan-tai-chinh-3",
     "tmp_artifact": false,
-    "classification_evidence_status": "INFERRED",
-    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision",
+    "classification_evidence_status": "OBSERVED",
+    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision; W6b Pha C: KTTC3 Pha B: p1 \"BÀI GIẢNG DẠNG VĂN BẢN (SCRIPT)\"",
     "apparent_chapter": 4,
     "apparent_topic_code": "4.1",
     "source_id": "src-0580",
@@ -19621,11 +19665,11 @@
     "size_bytes": 275936,
     "sha256": "2a8ae4180ee9e5e0d2f9973697a4bd9a0b94cb3ce6f5d06b58feb3b3c6c239db",
     "course_id": "ke-toan-tai-chinh-3",
-    "source_role": "unknown",
+    "source_role": "lecture_note",
     "partition": "ke-toan-tai-chinh-3",
     "tmp_artifact": false,
-    "classification_evidence_status": "INFERRED",
-    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision",
+    "classification_evidence_status": "OBSERVED",
+    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision; W6b Pha C: KTTC3 Pha B: p1 \"BÀI GIẢNG DẠNG VĂN BẢN (SCRIPT)\"",
     "apparent_chapter": 4,
     "apparent_topic_code": "4.2",
     "source_id": "src-0582",
@@ -19663,11 +19707,11 @@
     "size_bytes": 297896,
     "sha256": "6d892914b7b024a480b57d9fddb07cfa014c89b2ca0d600b532e26e84d284f91",
     "course_id": "ke-toan-tai-chinh-3",
-    "source_role": "unknown",
+    "source_role": "lecture_note",
     "partition": "ke-toan-tai-chinh-3",
     "tmp_artifact": false,
-    "classification_evidence_status": "INFERRED",
-    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision",
+    "classification_evidence_status": "OBSERVED",
+    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision; W6b Pha C: KTTC3 Pha B: p1 \"BÀI GIẢNG DẠNG VĂN BẢN (SCRIPT)\"",
     "apparent_chapter": 4,
     "apparent_topic_code": "4.3",
     "source_id": "src-0584",
@@ -19705,11 +19749,11 @@
     "size_bytes": 323465,
     "sha256": "d2457af76fd8a60abfb805c0adcdb7860fccab5b254e8cb4c05d0c7e86a5ed78",
     "course_id": "ke-toan-tai-chinh-3",
-    "source_role": "unknown",
+    "source_role": "lecture_note",
     "partition": "ke-toan-tai-chinh-3",
     "tmp_artifact": false,
-    "classification_evidence_status": "INFERRED",
-    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision",
+    "classification_evidence_status": "OBSERVED",
+    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision; W6b Pha C: KTTC3 Pha B: p1 \"BÀI GIẢNG DẠNG VĂN BẢN (SCRIPT)\"",
     "apparent_chapter": 4,
     "apparent_topic_code": "4.4",
     "source_id": "src-0586",
@@ -19747,11 +19791,11 @@
     "size_bytes": 271493,
     "sha256": "7b4e54b598b95241431613358f50d86267873ca9d809884aba2f334dbdaf25a6",
     "course_id": "ke-toan-tai-chinh-3",
-    "source_role": "unknown",
+    "source_role": "lecture_note",
     "partition": "ke-toan-tai-chinh-3",
     "tmp_artifact": false,
-    "classification_evidence_status": "INFERRED",
-    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision",
+    "classification_evidence_status": "OBSERVED",
+    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision; W6b Pha C: KTTC3 Pha B: p1 \"BÀI GIẢNG DẠNG VĂN BẢN (SCRIPT)\"",
     "apparent_chapter": 4,
     "apparent_topic_code": "4.5",
     "source_id": "src-0588",
@@ -19789,11 +19833,11 @@
     "size_bytes": 256660,
     "sha256": "6ec349f79b379cda96c5c5b877ec7c1727620620cbfdd0e3552f00368de0371b",
     "course_id": "ke-toan-tai-chinh-3",
-    "source_role": "unknown",
+    "source_role": "lecture_note",
     "partition": "ke-toan-tai-chinh-3",
     "tmp_artifact": false,
-    "classification_evidence_status": "INFERRED",
-    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision",
+    "classification_evidence_status": "OBSERVED",
+    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision; W6b Pha C: KTTC3 Pha B: p1 \"BÀI GIẢNG DẠNG VĂN BẢN (SCRIPT)\"",
     "apparent_chapter": 4,
     "apparent_topic_code": "4.6",
     "source_id": "src-0590",
@@ -19831,11 +19875,11 @@
     "size_bytes": 1813987,
     "sha256": "f0e6ef64b015d7d34a64e35facf0f4655cfd117b22a8a664d88f8b07a3ebea0b",
     "course_id": "ke-toan-tai-chinh-3",
-    "source_role": "unknown",
+    "source_role": "lecture_note",
     "partition": "ke-toan-tai-chinh-3",
     "tmp_artifact": false,
-    "classification_evidence_status": "INFERRED",
-    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision",
+    "classification_evidence_status": "OBSERVED",
+    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision; W6b Pha C: KTTC3 Pha B: p1 \"BÀI GIẢNG DẠNG VĂN BẢN (SCRIPT)\"",
     "apparent_chapter": 0,
     "apparent_topic_code": null,
     "source_id": "src-0592",
@@ -19894,11 +19938,11 @@
     "size_bytes": 299765,
     "sha256": "50b930cc22a19fb5e8ac928b2ca7b0c70136b81da1799f7418826b6da0ed4ce2",
     "course_id": "ke-toan-tai-chinh-3",
-    "source_role": "syllabus",
+    "source_role": "summary",
     "partition": "ke-toan-tai-chinh-3",
     "tmp_artifact": false,
-    "classification_evidence_status": "INFERRED",
-    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision",
+    "classification_evidence_status": "OBSERVED",
+    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision; W6b Pha C: KTTC3 Pha B: p1 \"TÀI LIỆU HƯỚNG DẪN ÔN TẬP\"",
     "apparent_chapter": null,
     "apparent_topic_code": null,
     "source_id": "src-0595",
@@ -19908,6 +19952,72 @@
     "notes": [
       "added_in_v3_refresh",
       "added_in_w6b"
+    ]
+  },
+  {
+    "relative_path": "Hệ thống thông tin kế toán 1/Chương 4/script_4.1.pdf",
+    "size_bytes": 500796,
+    "sha256": "64abee6eca74918ba93741046a1478a8f79a82080b7b881d152f7e7ad5f0f757",
+    "course_id": "he-thong-thong-tin-ke-toan-1",
+    "source_role": "lecture_note",
+    "partition": "he-thong-thong-tin-ke-toan-1",
+    "tmp_artifact": false,
+    "classification_evidence_status": "INFERRED",
+    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision; W6b: 'script' in PDF filename -> lecture_note",
+    "apparent_chapter": 4,
+    "apparent_topic_code": "4.1",
+    "source_id": "src-0596",
+    "filename": "script_4.1.pdf",
+    "extension": ".pdf",
+    "course_folder": "Hệ thống thông tin kế toán 1",
+    "notes": [
+      "added_in_v3_refresh",
+      "added_in_w6b",
+      "learner_supplied_missing_topic"
+    ]
+  },
+  {
+    "relative_path": "Hệ thống thông tin kế toán 1/Chương 4/script_4.2.pdf",
+    "size_bytes": 471010,
+    "sha256": "843d1fc7b4b66ca02b46e8a24cb9896c8d1895e5857a26ebfbf72411655e07f2",
+    "course_id": "he-thong-thong-tin-ke-toan-1",
+    "source_role": "lecture_note",
+    "partition": "he-thong-thong-tin-ke-toan-1",
+    "tmp_artifact": false,
+    "classification_evidence_status": "INFERRED",
+    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision; W6b: 'script' in PDF filename -> lecture_note",
+    "apparent_chapter": 4,
+    "apparent_topic_code": "4.2",
+    "source_id": "src-0597",
+    "filename": "script_4.2.pdf",
+    "extension": ".pdf",
+    "course_folder": "Hệ thống thông tin kế toán 1",
+    "notes": [
+      "added_in_v3_refresh",
+      "added_in_w6b",
+      "learner_supplied_missing_topic"
+    ]
+  },
+  {
+    "relative_path": "Hệ thống thông tin kế toán 1/Chương 4/script_4.3.pdf",
+    "size_bytes": 508662,
+    "sha256": "0f48736132d06957dba734f6e4e6de34997db3ade52636904721f41cd7333b7d",
+    "course_id": "he-thong-thong-tin-ke-toan-1",
+    "source_role": "lecture_note",
+    "partition": "he-thong-thong-tin-ke-toan-1",
+    "tmp_artifact": false,
+    "classification_evidence_status": "INFERRED",
+    "classification_reason": "Wave 6 filename/path + extracted first-page rules; inherited role on revision; W6b: 'script' in PDF filename -> lecture_note",
+    "apparent_chapter": 4,
+    "apparent_topic_code": "4.3",
+    "source_id": "src-0598",
+    "filename": "script_4.3.pdf",
+    "extension": ".pdf",
+    "course_folder": "Hệ thống thông tin kế toán 1",
+    "notes": [
+      "added_in_v3_refresh",
+      "added_in_w6b",
+      "learner_supplied_missing_topic"
     ]
   }
 ]

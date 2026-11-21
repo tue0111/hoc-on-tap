@@ -14,7 +14,10 @@ from retrieval.textutil import fold
 
 PREFIX = {"ke-toan-tai-chinh-2": "kttc2", "ke-toan-chi-phi": "ktcp", "kiem-toan-1": "kt1", "ke-toan-ngan-hang": "ktnh",
           "ngan-hang-thuong-mai": "nhtm", "tai-chinh-doanh-nghiep-1": "tcdn1", "thi-truong-tai-chinh": "tttc",
-          "tai-chinh-hanh-chinh-su-nghiep": "hcsn", "luat-kinh-doanh": "lkd", "kinh-doanh-va-nghiep-vu": "kdnv"}
+          "tai-chinh-hanh-chinh-su-nghiep": "hcsn", "luat-kinh-doanh": "lkd", "kinh-doanh-va-nghiep-vu": "kdnv",
+          # W6b (2026-11-21)
+          "he-thong-thong-tin-ke-toan-1": "httt1", "ke-toan-thue-1": "thue1", "ke-toan-tai-chinh-3": "kttc3",
+          "ke-toan-hanh-chinh-su-nghiep": "kthcsn"}
 T = lambda s: fold(re.sub(r"\s+", " ", s or ""))
 
 

@@ -1,0 +1,508 @@
+course_id: he-thong-thong-tin-ke-toan-1
+version: 0.1.0
+id_prefix: httt1
+concepts:
+- concept_id: httt1-chuong-mo-dau-gioi-thieu-mon-hoc
+  canonical_name: 'Chương mở đầu: Giới thiệu môn học'
+  aliases: []
+  same_as: null
+  chapter: 0
+  topic: '0'
+  source_refs:
+  - source_id: src-0404
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: httt1-tong-quan-ve-he-thong-thong-tin-ke-toan
+  canonical_name: Tổng quan về hệ thống thông tin kế toán
+  aliases:
+  - khái niệm hệ thống thông tin kế toán
+  - thành phần của HTTTKT
+  same_as: null
+  chapter: 1
+  topic: '1'
+  source_refs:
+  - source_id: src-0344
+    page: 1
+  - source_id: src-0406
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: httt1-httt-ke-toan-duoi-tac-dong-cua-cntt
+  canonical_name: HTTT Kế toán dưới tác động của CNTT
+  aliases:
+  - tác động CNTT
+  - hệ thống ERP
+  - PMKT chuyên dụng
+  same_as: null
+  chapter: 1
+  topic: '1'
+  source_refs:
+  - source_id: src-0344
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: httt1-nghe-nghiep-lien-quan-den-htttkt
+  canonical_name: nghề nghiệp liên quan đến HTTTKT
+  aliases:
+  - hệ thống AIS
+  - hướng nghề nghiệp
+  same_as: null
+  chapter: 1
+  topic: '1'
+  source_refs:
+  - source_id: src-0344
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: httt1-to-chuc-du-lieu-ke-toan-tren-moi-truong-bang-tinh
+  canonical_name: Tổ chức dữ liệu kế toán trên môi trường bảng tính
+  aliases: []
+  same_as: null
+  chapter: 2
+  topic: null
+  source_refs:
+  - source_id: src-0353
+    page: 1
+  - source_id: src-0406
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: httt1-cac-ham-thuong-dung-trong-ke-toan
+  canonical_name: Các hàm thường dùng trong kế toán
+  aliases:
+  - hàm thường dùng
+  - các hàm ứng dụng trong excel kế toán
+  same_as: null
+  chapter: 2
+  topic: '2.1'
+  source_refs:
+  - source_id: src-0355
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: httt1-nhom-ham-logic
+  canonical_name: Nhóm hàm Logic
+  aliases:
+  - hàm điều kiện IF
+  same_as: null
+  chapter: 2
+  topic: '2.1'
+  source_refs:
+  - source_id: src-0355
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: httt1-nhom-ham-text
+  canonical_name: Nhóm hàm Text
+  aliases:
+  - hàm LEFT
+  same_as: null
+  chapter: 2
+  topic: '2.1'
+  source_refs:
+  - source_id: src-0355
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: httt1-nhom-ham-statistics
+  canonical_name: Nhóm hàm Statistics
+  aliases:
+  - SUMIF
+  same_as: null
+  chapter: 2
+  topic: '2.1'
+  source_refs:
+  - source_id: src-0355
+    page: 2
+  - source_id: src-0392
+    page: 2
+  - source_id: src-0402
+    page: 7
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: httt1-nhom-ham-lookup
+  canonical_name: Nhóm hàm Lookup
+  aliases:
+  - VLOOKUP
+  same_as: null
+  chapter: 2
+  topic: '2.1'
+  source_refs:
+  - source_id: src-0355
+    page: 2
+  - source_id: src-0377
+    page: 4
+  - source_id: src-0390
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: httt1-nhom-ham-database
+  canonical_name: Nhóm hàm Database
+  aliases:
+  - DSUM
+  - vùng điều kiện
+  same_as: null
+  chapter: 2
+  topic: '2.1'
+  source_refs:
+  - source_id: src-0355
+    page: 2
+  - source_id: src-0377
+    page: 3
+  - source_id: src-0400
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: httt1-to-chuc-du-lieu-tren-moi-truong-bang-tinh
+  canonical_name: Tổ chức dữ liệu trên môi trường bảng tính
+  aliases:
+  - tổ chức dữ liệu kế toán
+  same_as: null
+  chapter: 2
+  topic: '2.2'
+  source_refs:
+  - source_id: src-0353
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: httt1-sheet-bdmtk
+  canonical_name: sheet BDMTK
+  aliases:
+  - BDMTK
+  - bảng danh mục tài khoản
+  same_as: null
+  chapter: 2
+  topic: '2.2'
+  source_refs:
+  - source_id: src-0353
+    page: 1
+  - source_id: src-0392
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: httt1-sheet-soktmay
+  canonical_name: sheet SOKTMAY
+  aliases:
+  - SOKTMAY
+  - sổ kế toán máy
+  same_as: null
+  chapter: 2
+  topic: '2.2'
+  source_refs:
+  - source_id: src-0353
+    page: 1
+  - source_id: src-0378
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: httt1-ket-chuyen-so-lieu-ke-toan
+  canonical_name: Kết chuyển số liệu kế toán
+  aliases:
+  - thao tác kết chuyển
+  - kết chuyển cho hoạt động sản xuất
+  same_as: null
+  chapter: 2
+  topic: '2.3'
+  source_refs:
+  - source_id: src-0354
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: httt1-ky-thuat-lap-cac-so-nhat-ky
+  canonical_name: Kỹ thuật lập các sổ nhật ký
+  aliases: []
+  same_as: null
+  chapter: 3
+  topic: null
+  source_refs:
+  - source_id: src-0363
+    page: 1
+  - source_id: src-0406
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: httt1-hinh-thuc-ke-toan-nhat-ky-chung
+  canonical_name: hình thức kế toán Nhật ký chung
+  aliases:
+  - nhật ký đặc biệt
+  same_as: null
+  chapter: 3
+  topic: '3.1'
+  source_refs:
+  - source_id: src-0365
+    page: 1
+  - source_id: src-0364
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: httt1-lap-nhat-ky-thu-tien-va-nhat-ky-chi-tien
+  canonical_name: Lập nhật ký thu tiền và nhật ký chi tiền
+  aliases:
+  - nhật ký thu tiền
+  - nhật ký chi tiền
+  same_as: null
+  chapter: 3
+  topic: '3.1'
+  source_refs:
+  - source_id: src-0365
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: httt1-lap-nhat-ky-mua-hang-va-nhat-ky-ban-hang
+  canonical_name: Lập nhật ký mua hàng và nhật ký bán hàng
+  aliases:
+  - nhật ký mua hàng
+  - nhật ký bán hàng
+  same_as: null
+  chapter: 3
+  topic: '3.2'
+  source_refs:
+  - source_id: src-0363
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: httt1-lap-nhat-ky-chung
+  canonical_name: Lập nhật ký chung
+  aliases:
+  - sổ nhật ký chung
+  - mẫu sổ nhật ký chung
+  same_as: null
+  chapter: 3
+  topic: '3.3'
+  source_refs:
+  - source_id: src-0364
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: httt1-ky-thuat-lap-so-chi-tiet-va-so-cai-tai-khoan
+  canonical_name: Kỹ thuật lập sổ chi tiết và sổ cái tài khoản
+  aliases: []
+  same_as: null
+  chapter: 4
+  topic: null
+  source_refs:
+  - source_id: src-0406
+    page: 3
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: httt1-cac-so-chi-tiet-thanh-toan
+  canonical_name: Các sổ chi tiết thanh toán
+  aliases:
+  - sổ chi tiết thanh toán
+  same_as: null
+  chapter: 4
+  topic: '4.1'
+  source_refs:
+  - source_id: src-0406
+    page: 3
+  - source_id: src-0596
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: httt1-so-chi-tiet-tien-mat
+  canonical_name: Sổ chi tiết tiền mặt
+  aliases: []
+  same_as: null
+  chapter: 4
+  topic: '4.2'
+  source_refs:
+  - source_id: src-0406
+    page: 3
+  - source_id: src-0597
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: httt1-so-chi-tiet-hang-ton-kho
+  canonical_name: Sổ chi tiết hàng tồn kho
+  aliases: []
+  same_as: null
+  chapter: 4
+  topic: '4.3'
+  source_refs:
+  - source_id: src-0406
+    page: 3
+  - source_id: src-0376
+    page: 1
+  - source_id: src-0598
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: httt1-so-chi-phi-san-xuat-kinh-doanh
+  canonical_name: Sổ chi phí sản xuất kinh doanh
+  aliases: []
+  same_as: null
+  chapter: 4
+  topic: '4.4'
+  source_refs:
+  - source_id: src-0379
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: httt1-the-tinh-gia-thanh-san-pham
+  canonical_name: Thẻ tính giá thành sản phẩm
+  aliases:
+  - thẻ tính giá thành
+  same_as: null
+  chapter: 4
+  topic: '4.5'
+  source_refs:
+  - source_id: src-0377
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: httt1-so-cai-tai-khoan-tong-hop
+  canonical_name: Sổ cái tài khoản tổng hợp
+  aliases: []
+  same_as: null
+  chapter: 4
+  topic: '4.6'
+  source_refs:
+  - source_id: src-0406
+    page: 3
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: httt1-ky-thuat-lap-cac-bang-tong-hop-chi-tiet
+  canonical_name: Kỹ thuật lập các bảng tổng hợp chi tiết
+  aliases: []
+  same_as: null
+  chapter: 5
+  topic: null
+  source_refs:
+  - source_id: src-0406
+    page: 4
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: httt1-bang-can-doi-so-phat-sinh-cac-tai-khoan-tong-hop
+  canonical_name: Bảng cân đối số phát sinh các tài khoản tổng hợp
+  aliases:
+  - bảng cân đối số phát sinh
+  same_as: null
+  chapter: 5
+  topic: '5.1'
+  source_refs:
+  - source_id: src-0392
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: httt1-bang-tong-hop-chi-tiet-hang-ton-kho
+  canonical_name: Bảng tổng hợp chi tiết hàng tồn kho
+  aliases: []
+  same_as: null
+  chapter: 5
+  topic: '5.2'
+  source_refs:
+  - source_id: src-0388
+    page: 2
+  - source_id: src-0389
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: httt1-bang-tong-hop-chi-tiet-cong-no
+  canonical_name: Bảng tổng hợp chi tiết công nợ
+  aliases: []
+  same_as: null
+  chapter: 5
+  topic: '5.3'
+  source_refs:
+  - source_id: src-0388
+    page: 1
+  - source_id: src-0390
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: httt1-bang-tong-hop-chi-tiet-cac-tai-khoan-khac
+  canonical_name: Bảng tổng hợp chi tiết các tài khoản khác
+  aliases: []
+  same_as: null
+  chapter: 5
+  topic: '5.4'
+  source_refs:
+  - source_id: src-0391
+    page: 1
+  evidence_status: OBSERVED
+  confidence: medium
+- concept_id: httt1-lap-bao-cao-tai-chinh-tren-bang-tinh
+  canonical_name: Lập báo cáo tài chính trên bảng tính
+  aliases: []
+  same_as: null
+  chapter: 6
+  topic: null
+  source_refs:
+  - source_id: src-0400
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: httt1-lap-bang-can-doi-ke-toan
+  canonical_name: Lập bảng cân đối kế toán
+  aliases: []
+  same_as: null
+  chapter: 6
+  topic: '6.1'
+  source_refs:
+  - source_id: src-0402
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: httt1-lap-bao-cao-ket-qua-hoat-dong-kinh-doanh
+  canonical_name: Lập báo cáo kết quả hoạt động kinh doanh
+  aliases: []
+  same_as: null
+  chapter: 6
+  topic: '6.2'
+  source_refs:
+  - source_id: src-0400
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: httt1-lap-bao-cao-luu-chuyen-tien-te
+  canonical_name: Lập báo cáo lưu chuyển tiền tệ
+  aliases: []
+  same_as: null
+  chapter: 6
+  topic: '6.3'
+  source_refs:
+  - source_id: src-0401
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+account_map:
+  '621': httt1-so-chi-phi-san-xuat-kinh-doanh
+  '154': httt1-the-tinh-gia-thanh-san-pham
+  '6279': httt1-ket-chuyen-so-lieu-ke-toan
+  '911': httt1-ket-chuyen-so-lieu-ke-toan
+  '4212': httt1-ket-chuyen-so-lieu-ke-toan
+  '5111': httt1-lap-nhat-ky-thu-tien-va-nhat-ky-chi-tien
+  '1521': httt1-lap-nhat-ky-mua-hang-va-nhat-ky-ban-hang
+  '331': httt1-lap-nhat-ky-mua-hang-va-nhat-ky-ban-hang
+edges:
+- from: httt1-sheet-soktmay
+  to: httt1-lap-nhat-ky-mua-hang-va-nhat-ky-ban-hang
+  type: explicit_sequence
+  quote: sổ Nhật ký mua hàng sẽ lấy dữ liệu từ sheet SOKTMAY
+  source_id: src-0363
+  page: 3
+- from: httt1-sheet-soktmay
+  to: httt1-lap-nhat-ky-chung
+  type: explicit_sequence
+  quote: sổ Nhật ký chung sẽ lấy dữ liệu từ sheet SOKTMAY
+  source_id: src-0364
+  page: 3
+- from: httt1-lap-nhat-ky-chung
+  to: httt1-so-cai-tai-khoan-tong-hop
+  type: explicit_sequence
+  quote: kế toán sử dụng sổ Nhật ký chung để ghi chép tất cả nghiệp vụ kinh tế phát
+    sinh theo trình tự thời gian để làm cơ sở cho việc ghi vào Sổ cái của các tài
+    khoản
+  source_id: src-0365
+  page: 2
+conflicts: []
+prerequisites_observed:
+- statement: Môn học HTTTKT 1 là môn chuyên ngành; được học sau môn kế toán tài chính.
+  source_id: src-0404
+  page: 2
+  evidence_status: OBSERVED
+  family: ke-toan-tai-chinh
+  which_part: UNKNOWN
+  note: Proposal only; registry not edited (W6b phase B). NLKT is not named in the
+    text.

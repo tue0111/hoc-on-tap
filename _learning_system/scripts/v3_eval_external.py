@@ -36,13 +36,20 @@ for line in path.read_text(encoding='utf-8').splitlines():
 citations=json.loads((R/'research/curriculum_citations.json').read_text(encoding='utf-8'))
 for cit in citations: assert (R/'research/regulations'/(slug(cit['ref_normalized'])+'.yaml')).exists()
 schema=yaml.safe_load((R/'research/research_evidence.schema.yaml').read_text(encoding='utf-8'))['regulation_record']
+violations=[]
 for rec in records().values():
-    assert all(k in rec for k in schema['required'])
-    assert rec['status'] in schema['status_enum'] and rec['layer']=='external' and len(rec['key_changes'])<=8
+    assert all(k in rec for k in schema['required'] if k!='evidence_status')
+    if rec['status'] not in schema['status_enum']: violations.append(f"{rec['ref']}: status={rec['status']!r} not in enum")
+    assert rec['layer']=='external' and len(rec['key_changes'])<=8
+    # W6b G24: enum-validate evidence_status for every record; no implicit OBSERVED. Violations fail all_pass (not just assert).
+    ev=rec.get('evidence_status')
+    if ev not in ('OBSERVED','INFERRED','UNKNOWN'): violations.append(f"{rec['ref']}: evidence_status={ev!r} not in enum")
     if rec['status']=='unknown': assert rec['unknown_reason']
-    else: assert any(s['authority']=='official' for s in rec['sources']) or rec['evidence_status']=='INFERRED'
+    else:
+        if ev not in ('OBSERVED','INFERRED'): violations.append(f"{rec['ref']}: status={rec['status']} requires evidence_status OBSERVED/INFERRED, got {ev!r}")
+        elif ev=='OBSERVED' and not any(x.get('authority')=='official' for x in rec['sources']): violations.append(f"{rec['ref']}: OBSERVED requires >=1 official source")
     for k in rec['key_changes']: assert all(f in k for f in schema['key_change_required'])
-res={'results':results,'all_pass':all(x['pass'] for x in results),'sha256':sha,'records':len(records()),'record_contracts':'PASS','additive_isolation':'PASS'}
+res={'results':results,'all_pass':all(x['pass'] for x in results) and not violations,'sha256':sha,'records':len(records()),'record_contracts':'FAIL' if violations else 'PASS','record_violations':violations,'additive_isolation':'PASS'}
 if f['external'].get('first_run_pending'):
     f['external'].pop('first_run_pending'); f['external']['first_run_results']=results
     frozen.write_text(json.dumps(f,ensure_ascii=False,indent=2),encoding='utf-8')

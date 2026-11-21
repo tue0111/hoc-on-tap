@@ -1,0 +1,547 @@
+course_id: ke-toan-tai-chinh-3
+version: 0.1.0
+id_prefix: kttc3
+notes:
+- 'W6b 2026-11-21. canonical_name = heading text (script page 1 ''Chủ đề x.y: ...'' or chapter heading); two cross-topic terms (chenh-lech-ty-gia-hoi-doai, chi-phi-thue-tndn-hoan-lai) use a term that occurs >=3 times.'
+- 'same_as: none. No core concept has an identical meaning (core khau-hao = TSCĐ depreciation; ktnh-* are bank-specific).'
+- Chapter 4 aliases avoid the bare words 'thuế' / 'thuế TNDN' (shared with Kế toán thuế 1).
+concepts:
+- concept_id: kttc3-gioi-thieu-mon-hoc
+  canonical_name: GIỚI THIỆU MÔN HỌC
+  aliases:
+  - mục tiêu của môn học
+  same_as: null
+  chapter: 0
+  topic: null
+  source_refs:
+  - source_id: src-0592
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kttc3-tong-quan-ve-ngoai-te
+  canonical_name: TỔNG QUAN VỀ NGOẠI TỆ
+  aliases:
+  - tỷ giá hối đoái
+  - đơn vị tiền tệ kế toán
+  - khoản mục tiền tệ có gốc ngoại tệ
+  - khoản mục phi tiền tệ
+  same_as: null
+  chapter: 1
+  topic: '1.1'
+  source_refs:
+  - source_id: src-0544
+    page: 1
+  - source_id: src-0544
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kttc3-ke-toan-giao-dich-phat-sinh-bang-ngoai-te
+  canonical_name: KẾ TOÁN GIAO DỊCH PHÁT SINH BẰNG NGOẠI TỆ
+  aliases:
+  - giao dịch bằng ngoại tệ
+  - tỷ giá ghi sổ bình quân
+  - tỷ giá giao dịch thực tế
+  same_as: null
+  chapter: 1
+  topic: '1.2'
+  source_refs:
+  - source_id: src-0546
+    page: 1
+  - source_id: src-0546
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kttc3-ke-toan-danh-gia-chenh-lech-ty-gia-cuoi-ky
+  canonical_name: KẾ TOÁN ĐÁNH GIÁ CHÊNH LỆCH TỶ GIÁ CUỐI KỲ
+  aliases:
+  - chênh lệch tỷ giá cuối kỳ
+  - đánh giá lại các khoản mục tiền tệ
+  same_as: null
+  chapter: 1
+  topic: '1.3'
+  source_refs:
+  - source_id: src-0548
+    page: 1
+  - source_id: src-0548
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kttc3-ke-toan-hoat-dong-nhap-khau-truc-tiep
+  canonical_name: KẾ TOÁN HOẠT ĐỘNG NHẬP KHẨU TRỰC TIẾP
+  aliases:
+  - nhập khẩu trực tiếp
+  same_as: null
+  chapter: 1
+  topic: '1.4'
+  source_refs:
+  - source_id: src-0550
+    page: 1
+  - source_id: src-0550
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kttc3-ke-toan-hoat-dong-xuat-khau-truc-tiep
+  canonical_name: KẾ TOÁN HOẠT ĐỘNG XUẤT KHẨU TRỰC TIẾP
+  aliases:
+  - xuất khẩu trực tiếp
+  same_as: null
+  chapter: 1
+  topic: '1.5'
+  source_refs:
+  - source_id: src-0552
+    page: 1
+  - source_id: src-0552
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kttc3-chenh-lech-ty-gia-hoi-doai
+  canonical_name: chênh lệch tỷ giá hối đoái
+  aliases:
+  - chênh lệch tỷ giá
+  same_as: null
+  chapter: 1
+  topic: null
+  source_refs:
+  - source_id: src-0544
+    page: 1
+  - source_id: src-0544
+    page: 2
+  evidence_status: OBSERVED
+  confidence: medium
+- concept_id: kttc3-ke-toan-bat-dong-san-dau-tu
+  canonical_name: KẾ TOÁN BẤT ĐỘNG SẢN ĐẦU TƯ
+  aliases:
+  - bất động sản đầu tư
+  - BĐS đầu tư
+  - BĐSĐT
+  same_as: null
+  chapter: 2
+  topic: null
+  source_refs:
+  - source_id: src-0554
+    page: 1
+  - source_id: src-0554
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kttc3-tong-quan-ve-bat-dong-san-dau-tu
+  canonical_name: Tổng quan về bất động sản đầu tư
+  aliases:
+  - bất động sản chủ sở hữu sử dụng
+  - đánh giá bất động sản đầu tư
+  same_as: null
+  chapter: 2
+  topic: '2.1'
+  source_refs:
+  - source_id: src-0554
+    page: 1
+  - source_id: src-0554
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kttc3-ke-toan-mua-sam-xay-dung-bat-dong-san-dau-tu
+  canonical_name: Kế toán mua sắm, xây dựng bất động sản đầu tư
+  aliases:
+  - nguyên giá bất động sản đầu tư
+  - mua sắm, xây dựng
+  same_as: null
+  chapter: 2
+  topic: '2.2'
+  source_refs:
+  - source_id: src-0558
+    page: 1
+  - source_id: src-0558
+    page: 6
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kttc3-ke-toan-khau-hao-cho-thue-nhuong-ban-bat-dong-san-dau-tu
+  canonical_name: Kế toán khấu hao, cho thuê, nhượng bán bất động sản đầu tư
+  aliases:
+  - khấu hao bất động sản đầu tư
+  - nhượng bán bất động sản đầu tư
+  - khấu hao BĐSĐT
+  same_as: null
+  chapter: 2
+  topic: '2.3'
+  source_refs:
+  - source_id: src-0560
+    page: 1
+  - source_id: src-0560
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kttc3-ke-toan-sua-chua-nang-cap-bat-dong-san-dau-tu
+  canonical_name: Kế toán sửa chữa, nâng cấp bất động sản đầu tư
+  aliases:
+  - nâng cấp bất động sản đầu tư
+  - sửa chữa, nâng cấp
+  same_as: null
+  chapter: 2
+  topic: '2.4'
+  source_refs:
+  - source_id: src-0562
+    page: 1
+  - source_id: src-0562
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kttc3-ke-toan-chuyen-doi-muc-dich-su-dung
+  canonical_name: Kế toán chuyển đổi mục đích sử dụng
+  aliases:
+  - chuyển đổi mục đích sử dụng
+  - hàng hóa bất động sản
+  same_as: null
+  chapter: 2
+  topic: '2.5'
+  source_refs:
+  - source_id: src-0564
+    page: 1
+  - source_id: src-0564
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kttc3-trinh-bay-thong-tin-bds-dau-tru-tren-bctc
+  canonical_name: Trình bày thông tin BĐS đầu trư trên BCTC
+  aliases:
+  - trình bày thông tin liên quan đến bất động sản đầu tư
+  same_as: null
+  chapter: 2
+  topic: '2.6'
+  source_refs:
+  - source_id: src-0566
+    page: 1
+  - source_id: src-0566
+    page: 3
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kttc3-ke-toan-dau-tu-tai-chinh
+  canonical_name: KẾ TOÁN ĐẦU TƯ TÀI CHÍNH
+  aliases:
+  - các khoản đầu tư tài chính
+  same_as: null
+  chapter: 3
+  topic: null
+  source_refs:
+  - source_id: src-0568
+    page: 1
+  - source_id: src-0568
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kttc3-tong-quan-ve-dau-tu-tai-chinh
+  canonical_name: TỔNG QUAN VỀ ĐẦU TƯ TÀI CHÍNH
+  aliases:
+  - quyền biểu quyết
+  - ảnh hưởng đáng kể
+  same_as: null
+  chapter: 3
+  topic: '3.1'
+  source_refs:
+  - source_id: src-0568
+    page: 1
+  - source_id: src-0568
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kttc3-ke-toan-chung-khoan-kinh-doanh
+  canonical_name: KẾ TOÁN CHỨNG KHOÁN KINH DOANH
+  aliases:
+  - chứng khoán kinh doanh
+  same_as: null
+  chapter: 3
+  topic: '3.2'
+  source_refs:
+  - source_id: src-0570
+    page: 1
+  - source_id: src-0570
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kttc3-ke-toan-dau-tu-nam-giu-den-ngay-dao-han
+  canonical_name: KẾ TOÁN ĐẦU TƯ NẮM GIỮ ĐẾN NGÀY ĐÁO HẠN
+  aliases:
+  - nắm giữ đến ngày đáo hạn
+  same_as: null
+  chapter: 3
+  topic: '3.3'
+  source_refs:
+  - source_id: src-0572
+    page: 1
+  - source_id: src-0572
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kttc3-ke-toan-dau-tu-von-vao-cac-cong-ty
+  canonical_name: KẾ TOÁN ĐẦU TƯ VỐN VÀO CÁC CÔNG TY
+  aliases:
+  - đầu tư vào công ty con
+  - đầu tư vào công ty liên doanh
+  - công ty liên kết
+  same_as: null
+  chapter: 3
+  topic: '3.4'
+  source_refs:
+  - source_id: src-0574
+    page: 1
+  - source_id: src-0574
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kttc3-ke-toan-du-phong-ton-that-dau-tu-tai-chinh
+  canonical_name: Kế toán dự phòng tổn thất đầu tư tài chính
+  aliases:
+  - dự phòng tổn thất đầu tư
+  - kế toán dự phòng đầu tư tài chính
+  - dự phòng giảm giá chứng khoán kinh doanh
+  same_as: null
+  chapter: 3
+  topic: '3.5'
+  source_refs:
+  - source_id: src-0576
+    page: 1
+  - source_id: src-0576
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kttc3-trinh-bay-thong-tin-tren-tai-chinh
+  canonical_name: TRÌNH BÀY THÔNG TIN TRÊN TÀI CHÍNH
+  aliases:
+  - thông tin về các khoản đầu tư tài chính
+  same_as: null
+  chapter: 3
+  topic: '3.6'
+  source_refs:
+  - source_id: src-0578
+    page: 1
+  - source_id: src-0578
+    page: 2
+  evidence_status: OBSERVED
+  confidence: medium
+- concept_id: kttc3-so-lieu-ke-toan-va-so-lieu-tinh-thue-tndn
+  canonical_name: SỐ LIỆU KẾ TOÁN VÀ SỐ LIỆU TÍNH THUẾ TNDN
+  aliases:
+  - lợi nhuận kế toán trước thuế
+  - thu nhập chịu thuế
+  - thu nhập tính thuế
+  same_as: null
+  chapter: 4
+  topic: '4.1'
+  source_refs:
+  - source_id: src-0580
+    page: 1
+  - source_id: src-0580
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kttc3-ke-toan-thue-tndn-hien-hanh
+  canonical_name: KẾ TOÁN THUẾ TNDN HIỆN HÀNH
+  aliases:
+  - chi phí thuế TNDN hiện hành
+  same_as: null
+  chapter: 4
+  topic: '4.2'
+  source_refs:
+  - source_id: src-0582
+    page: 1
+  - source_id: src-0582
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kttc3-phan-biet-chenh-lech-giua-so-lieu-ke-toan-va-so-lieu-tinh-thue-tndn
+  canonical_name: PHÂN BIỆT CHÊNH LỆCH GIỮA SỐ LIỆU KẾ TOÁN VÀ SỐ LIỆU TÍNH THUẾ TNDN
+  aliases:
+  - chênh lệch tạm thời
+  - chênh lệch vĩnh viễn
+  - cơ sở tính thuế
+  same_as: null
+  chapter: 4
+  topic: '4.3'
+  source_refs:
+  - source_id: src-0584
+    page: 1
+  - source_id: src-0584
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kttc3-ke-toan-tai-san-thue-tn-hoan-lai
+  canonical_name: KẾ TOÁN TÀI SẢN THUẾ TN HOÃN LẠI
+  aliases:
+  - tài sản thuế thu nhập hoãn lại
+  - tài sản thuế TN hoãn lại
+  - chênh lệch tạm thời được khấu trừ
+  same_as: null
+  chapter: 4
+  topic: '4.4'
+  source_refs:
+  - source_id: src-0586
+    page: 1
+  - source_id: src-0586
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kttc3-ke-toan-thue-tn-hoan-lai-phai-tra
+  canonical_name: KẾ TOÁN THUẾ TN HOÃN LẠI PHẢI TRẢ
+  aliases:
+  - thuế thu nhập hoãn lại phải trả
+  - thuế TN hoãn lại phải trả
+  - chênh lệch tạm thời phải chịu thuế
+  same_as: null
+  chapter: 4
+  topic: '4.5'
+  source_refs:
+  - source_id: src-0588
+    page: 1
+  - source_id: src-0588
+    page: 2
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: kttc3-trinh-bay-thong-tin-tren-bao-cao-tai-chinh
+  canonical_name: TRÌNH BÀY THÔNG TIN TRÊN BÁO CÁO TÀI CHÍNH
+  aliases:
+  - trình bày thông tin tài sản thuế TN hoãn lại
+  same_as: null
+  chapter: 4
+  topic: '4.6'
+  source_refs:
+  - source_id: src-0590
+    page: 1
+  - source_id: src-0590
+    page: 5
+  evidence_status: OBSERVED
+  confidence: medium
+- concept_id: kttc3-chi-phi-thue-tndn-hoan-lai
+  canonical_name: chi phí thuế TNDN hoãn lại
+  aliases: []
+  same_as: null
+  chapter: 4
+  topic: null
+  source_refs:
+  - source_id: src-0584
+    page: 1
+  - source_id: src-0586
+    page: 1
+  evidence_status: OBSERVED
+  confidence: medium
+account_map:
+  '4131': kttc3-chenh-lech-ty-gia-hoi-doai
+  '413': kttc3-chenh-lech-ty-gia-hoi-doai
+  '1122': kttc3-ke-toan-giao-dich-phat-sinh-bang-ngoai-te
+  '1112': kttc3-ke-toan-giao-dich-phat-sinh-bang-ngoai-te
+  '217': kttc3-ke-toan-bat-dong-san-dau-tu
+  '2147': kttc3-ke-toan-khau-hao-cho-thue-nhuong-ban-bat-dong-san-dau-tu
+  '5117': kttc3-ke-toan-khau-hao-cho-thue-nhuong-ban-bat-dong-san-dau-tu
+  '1567': kttc3-ke-toan-chuyen-doi-muc-dich-su-dung
+  '121': kttc3-ke-toan-chung-khoan-kinh-doanh
+  '1211': kttc3-ke-toan-chung-khoan-kinh-doanh
+  '128': kttc3-ke-toan-dau-tu-nam-giu-den-ngay-dao-han
+  '1281': kttc3-ke-toan-dau-tu-nam-giu-den-ngay-dao-han
+  '1282': kttc3-ke-toan-dau-tu-nam-giu-den-ngay-dao-han
+  '221': kttc3-ke-toan-dau-tu-von-vao-cac-cong-ty
+  '222': kttc3-ke-toan-dau-tu-von-vao-cac-cong-ty
+  '228': kttc3-ke-toan-dau-tu-von-vao-cac-cong-ty
+  '2281': kttc3-ke-toan-dau-tu-von-vao-cac-cong-ty
+  '229': kttc3-ke-toan-du-phong-ton-that-dau-tu-tai-chinh
+  '2291': kttc3-ke-toan-du-phong-ton-that-dau-tu-tai-chinh
+  '8211': kttc3-ke-toan-thue-tndn-hien-hanh
+  '3334': kttc3-ke-toan-thue-tndn-hien-hanh
+  '243': kttc3-ke-toan-tai-san-thue-tn-hoan-lai
+  '347': kttc3-ke-toan-thue-tn-hoan-lai-phai-tra
+  '8212': kttc3-chi-phi-thue-tndn-hoan-lai
+edges:
+- from: kttc3-tong-quan-ve-bat-dong-san-dau-tu
+  to: kttc3-ke-toan-mua-sam-xay-dung-bat-dong-san-dau-tu
+  type: explicit_sequence
+  quote: bài học trước chúng ta đã hoàn thành chủ đề 2.1
+  source_id: src-0558
+  page: 1
+- from: kttc3-ke-toan-mua-sam-xay-dung-bat-dong-san-dau-tu
+  to: kttc3-ke-toan-khau-hao-cho-thue-nhuong-ban-bat-dong-san-dau-tu
+  type: explicit_sequence
+  quote: Ở chủ đề trước chúng ta đã học xong chủ đề 2.2
+  source_id: src-0560
+  page: 1
+- from: kttc3-ke-toan-khau-hao-cho-thue-nhuong-ban-bat-dong-san-dau-tu
+  to: kttc3-ke-toan-sua-chua-nang-cap-bat-dong-san-dau-tu
+  type: explicit_sequence
+  quote: ở bài học trước chúng ta đã hoàn thành chủ đề 2.3
+  source_id: src-0562
+  page: 1
+- from: kttc3-ke-toan-sua-chua-nang-cap-bat-dong-san-dau-tu
+  to: kttc3-ke-toan-chuyen-doi-muc-dich-su-dung
+  type: explicit_sequence
+  quote: bài học trước chúng ta đã hoàn thành chủ đề 2.4
+  source_id: src-0564
+  page: 1
+- from: kttc3-so-lieu-ke-toan-va-so-lieu-tinh-thue-tndn
+  to: kttc3-ke-toan-thue-tndn-hien-hanh
+  type: explicit_sequence
+  quote: Các anh chị đã tìm hiểu chủ đề 1 của chương 4
+  source_id: src-0582
+  page: 1
+- from: kttc3-phan-biet-chenh-lech-giua-so-lieu-ke-toan-va-so-lieu-tinh-thue-tndn
+  to: kttc3-ke-toan-tai-san-thue-tn-hoan-lai
+  type: explicit_sequence
+  quote: Các anh chị đã phân biệt được các khoản chênh lệch phát sinh giữa số liệu kế toán và số liệu tính thuế TNDN theo hai hướng tiếp cận
+  source_id: src-0586
+  page: 1
+conflicts:
+- type: COURSE_CODE
+  values:
+  - ACCO3310
+  - ACCO1335
+  - ACCO3301
+  refs:
+  - source_id: src-0592
+    page: 1
+    code: ACCO3310
+  - source_id: src-0544
+    page: 1
+    code: ACCO1335
+  - source_id: src-0595
+    page: 1
+    code: ACCO3301
+  resolution: 'not resolved; registry decision (official: UNKNOWN)'
+- type: TITLE_VARIANT
+  scope: chapter 1 topic list
+  values:
+  - 'scripts: 1.4 nhập khẩu trực tiếp, 1.5 xuất khẩu trực tiếp (5 chủ đề)'
+  - 'hướng dẫn ôn tập: 1.4 ''Kế toán xử lý chênh lệch tỷ giá giai đoạn trước hoạt động'', 1.5 nhập khẩu, 1.6 xuất khẩu (6 chủ đề)'
+  refs:
+  - source_id: src-0550
+    page: 1
+  - source_id: src-0595
+    page: 2
+  resolution: chapter/topic numbers follow the script filenames; no script exists for the ôn tập 1.4 topic
+- type: TITLE_VARIANT
+  scope: topic 4.2
+  values:
+  - KẾ TOÁN THUẾ TNDN HIỆN HÀNH (script)
+  - Kế toán chi phí thuế thu nhập doanh nghiệp hiện hành (ôn tập)
+  refs:
+  - source_id: src-0582
+    page: 1
+  - source_id: src-0595
+    page: 6
+  resolution: script title used as canonical
+- type: TITLE_VARIANT
+  scope: topic 4.3
+  values:
+  - PHÂN BIỆT CHÊNH LỆCH ... (script)
+  - Phân loại chênh lệch ... (ôn tập)
+  refs:
+  - source_id: src-0584
+    page: 1
+  - source_id: src-0595
+    page: 6
+  resolution: script title used as canonical
+- type: TITLE_VARIANT
+  scope: topic 3.5
+  values:
+  - KẾ TOÁN DỰ PHÒNG ĐẦU TƯ TÀI CHÍNH (script 3.5)
+  - Kế toán dự phòng tổn thất đầu tư tài chính (script 3.1 + ôn tập)
+  refs:
+  - source_id: src-0576
+    page: 1
+  - source_id: src-0568
+    page: 1
+  resolution: both kept (canonical + alias)

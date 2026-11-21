@@ -1,0 +1,464 @@
+course_id: ke-toan-thue-1
+version: 0.1.0
+id_prefix: thue1
+concepts:
+- concept_id: thue1-gioi-thieu-mon-hoc
+  canonical_name: Giới thiệu môn học
+  aliases: []
+  same_as: null
+  chapter: 0
+  topic: null
+  source_refs:
+  - source_id: src-0539
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: thue1-tong-quan-ve-ke-toan-thue
+  canonical_name: Tổng quan về kế toán & thuế
+  aliases:
+  - tổng quan về kế toán và thuế
+  same_as: null
+  chapter: 1
+  topic: null
+  source_refs:
+  - source_id: src-0498
+    page: 1
+  - source_id: src-0492
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: thue1-ke-toan-thue-xuat-khau-nhap-khau
+  canonical_name: Kế toán thuế xuất khẩu – nhập khẩu
+  aliases:
+  - thuế xuất khẩu
+  - thuế nhập khẩu
+  - thuế XK
+  same_as: null
+  chapter: 2
+  topic: null
+  source_refs:
+  - source_id: src-0500
+    page: 1
+  - source_id: src-0504
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: thue1-ke-toan-thue-tieu-thu-dac-biet
+  canonical_name: Kế toán thuế Tiêu thụ đặc biệt
+  aliases:
+  - thuế tiêu thụ đặc biệt
+  - thuế TTĐB
+  same_as: null
+  chapter: 3
+  topic: null
+  source_refs:
+  - source_id: src-0510
+    page: 1
+  - source_id: src-0514
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: thue1-ke-toan-thue-bao-ve-moi-truong
+  canonical_name: Kế toán thuế Bảo vệ mội trường
+  aliases:
+  - thuế bảo vệ môi trường
+  - thuế BVMT
+  same_as: null
+  chapter: 4
+  topic: null
+  source_refs:
+  - source_id: src-0520
+    page: 1
+  - source_id: src-0524
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: thue1-ke-toan-thue-gia-tri-gia-tang
+  canonical_name: Kế toán thuế Giá trị gia tăng
+  aliases:
+  - thuế giá trị gia tăng
+  - thuế GTGT
+  same_as: null
+  chapter: 5
+  topic: null
+  source_refs:
+  - source_id: src-0530
+    page: 1
+  - source_id: src-0536
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: thue1-he-thong-cac-quy-dinh-ve-ke-toan-va-chinh-sach-thue
+  canonical_name: Hệ thống các quy định về kế toán và chính sách thuế
+  aliases:
+  - văn bản pháp quy về kế toán
+  - mối quan hệ giữa kế toán và thuế
+  same_as: null
+  chapter: 1
+  topic: '1.1'
+  source_refs:
+  - source_id: src-0498
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: thue1-gioi-thieu-he-thong-cac-quy-dinh-co-ban-cua-luat-quan-ly-thue
+  canonical_name: Giới thiệu hệ thống các quy định cơ bản của Luật quản lý thuế
+  aliases:
+  - Luật quản lý thuế
+  same_as: null
+  chapter: 1
+  topic: '1.2'
+  source_refs:
+  - source_id: src-0492
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: thue1-su-dung-so-lieu-ke-toan-de-lap-cac-bao-cao-thue
+  canonical_name: Sử dụng số liệu kế toán để lập các báo cáo thuế
+  aliases:
+  - số liệu tính thuế
+  same_as: null
+  chapter: 1
+  topic: '1.3'
+  source_refs:
+  - source_id: src-0494
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: thue1-su-dung-cac-cong-cu-de-lap-bao-cao-thue
+  canonical_name: Sử dụng các công cụ để lập báo cáo thuế
+  aliases:
+  - phần mềm HTKK
+  - HTKK
+  same_as: null
+  chapter: 1
+  topic: '1.4'
+  source_refs:
+  - source_id: src-0496
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: thue1-cac-noi-dung-co-ban-lien-quan-den-thue-xk-nk
+  canonical_name: Các nội dung cơ bản liên quan đến thuế XK – NK
+  aliases:
+  - Luật thuế xuất khẩu
+  same_as: null
+  chapter: 2
+  topic: '2.1'
+  source_refs:
+  - source_id: src-0500
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: thue1-xac-dinh-nghia-vu-thue-xk-nk-tai-doanh-nghiep
+  canonical_name: Xác định nghĩa vụ thuế XK - NK tại doanh nghiệp
+  aliases:
+  - nghĩa vụ thuế XK
+  same_as: null
+  chapter: 2
+  topic: '2.2'
+  source_refs:
+  - source_id: src-0502
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: thue1-to-chuc-chung-tu-va-ghi-nhan-thue-xk-nk-tren-so-ke-toan
+  canonical_name: Tổ chức chứng từ và ghi nhận thuế XK - NK trên sổ kế toán
+  aliases:
+  - ghi nhận thuế XK
+  same_as: null
+  chapter: 2
+  topic: '2.3'
+  source_refs:
+  - source_id: src-0504
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: thue1-trinh-bay-va-lap-bao-cao-thue-xk-nk
+  canonical_name: Trình bày và lập báo cáo thuế XK- NK
+  aliases:
+  - báo cáo thuế XK
+  same_as: null
+  chapter: 2
+  topic: '2.4'
+  source_refs:
+  - source_id: src-0506
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: thue1-nhan-dien-rui-ro-va-co-hoi-ve-thue-xk-nk-tai-doanh-nghiep
+  canonical_name: Nhận diện rủi ro và cơ hội về thuế XK - NK tại doanh nghiệp
+  aliases:
+  - rủi ro và cơ hội về thuế XK
+  same_as: null
+  chapter: 2
+  topic: '2.5'
+  source_refs:
+  - source_id: src-0508
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: thue1-cac-noi-dung-co-ban-lien-quan-den-thue-ttdb
+  canonical_name: Các nội dung cơ bản liên quan đến thuế TTĐB
+  aliases:
+  - Luật thuế tiêu thụ đặc biệt
+  same_as: null
+  chapter: 3
+  topic: '3.1'
+  source_refs:
+  - source_id: src-0510
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: thue1-xac-dinh-nghia-vu-thue-ttdb-tai-doanh-nghiep
+  canonical_name: Xác định nghĩa vụ thuế TTĐB tại doanh nghiệp
+  aliases:
+  - nghĩa vụ thuế TTĐB
+  same_as: null
+  chapter: 3
+  topic: '3.2'
+  source_refs:
+  - source_id: src-0512
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: thue1-to-chuc-chung-tu-va-ghi-nhan-thue-ttdb-tren-so-ke-toan
+  canonical_name: Tổ chức chứng từ và ghi nhận thuế TTĐB trên sổ kế toán
+  aliases:
+  - ghi nhận thuế TTĐB
+  same_as: null
+  chapter: 3
+  topic: '3.3'
+  source_refs:
+  - source_id: src-0514
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: thue1-trinh-bay-va-lap-bao-cao-thue-ttdb
+  canonical_name: Trình bày và lập báo cáo thuế TTĐB
+  aliases:
+  - báo cáo thuế TTĐB
+  same_as: null
+  chapter: 3
+  topic: '3.4'
+  source_refs:
+  - source_id: src-0516
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: thue1-nhan-dien-nhung-rui-ro-va-co-hoi-ve-thue-ttdb-tai-doanh-nghiep
+  canonical_name: Nhận diện những rủi ro và cơ hội về thuế TTĐB tại doanh nghiệp
+  aliases:
+  - rủi ro và cơ hội về thuế TTĐB
+  same_as: null
+  chapter: 3
+  topic: '3.5'
+  source_refs:
+  - source_id: src-0518
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: thue1-cac-noi-dung-co-ban-lien-quan-den-thue-bvmt
+  canonical_name: Các nội dung cơ bản liên quan đến thuế BVMT
+  aliases:
+  - Luật thuế bảo vệ môi trường
+  same_as: null
+  chapter: 4
+  topic: '4.1'
+  source_refs:
+  - source_id: src-0520
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: thue1-xac-dinh-nghia-vu-thue-bvmt-tai-doanh-nghiep
+  canonical_name: Xác định nghĩa vụ thuế BVMT tại doanh nghiệp
+  aliases:
+  - nghĩa vụ thuế BVMT
+  same_as: null
+  chapter: 4
+  topic: '4.2'
+  source_refs:
+  - source_id: src-0522
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: thue1-to-chuc-chung-tu-va-ghi-nhan-thue-bvmt-tren-so-ke-toan
+  canonical_name: Tổ chức chứng từ và ghi nhận thuế BVMT trên sổ kế toán
+  aliases:
+  - ghi nhận thuế BVMT
+  same_as: null
+  chapter: 4
+  topic: '4.3'
+  source_refs:
+  - source_id: src-0524
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: thue1-trinh-bay-va-lap-bao-cao-thue-bvmt
+  canonical_name: Trình bày và lập báo cáo thuế BVMT
+  aliases:
+  - báo cáo thuế BVMT
+  same_as: null
+  chapter: 4
+  topic: '4.4'
+  source_refs:
+  - source_id: src-0526
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: thue1-nhan-dien-nhung-rui-ro-va-co-hoi-ve-thue-bvmt-tai-doanh-nghiep
+  canonical_name: Nhận diện những rủi ro và cơ hội về thuế BVMT tại doanh nghiệp
+  aliases:
+  - rủi ro và cơ hội về thuế BVMT
+  same_as: null
+  chapter: 4
+  topic: '4.5'
+  source_refs:
+  - source_id: src-0528
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: thue1-cac-noi-dung-co-ban-lien-quan-den-thue-gtgt
+  canonical_name: Các nội dung cơ bản liên quan đến thuế GTGT
+  aliases:
+  - Luật thuế giá trị gia tăng
+  same_as: null
+  chapter: 5
+  topic: '5.1'
+  source_refs:
+  - source_id: src-0530
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: thue1-xac-dinh-nghia-vu-thue-gtgt-cua-doanh-nghiep
+  canonical_name: Xác định nghĩa vụ thuế GTGT của doanh nghiệp
+  aliases:
+  - nghĩa vụ thuế GTGT
+  - phương pháp khấu trừ
+  same_as: null
+  chapter: 5
+  topic: '5.2'
+  source_refs:
+  - source_id: src-0532
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: thue1-to-chuc-hoa-don-chung-tu
+  canonical_name: Tổ chức hóa đơn, chứng từ
+  aliases: []
+  same_as: null
+  chapter: 5
+  topic: '5.3'
+  source_refs:
+  - source_id: src-0534
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: thue1-trinh-bay-va-lap-bao-cao-thue-gtgt
+  canonical_name: Trình bày và lập báo cáo thuế GTGT
+  aliases:
+  - báo cáo thuế GTGT
+  same_as: null
+  chapter: 5
+  topic: '5.4'
+  source_refs:
+  - source_id: src-0536
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: thue1-nhan-dien-rui-ro-va-co-hoi-ve-thue-gtgt
+  canonical_name: Nhận diện rủi ro và cơ hội về thuế GTGT
+  aliases:
+  - rủi ro và cơ hội về thuế GTGT
+  same_as: null
+  chapter: 5
+  topic: '5.5'
+  source_refs:
+  - source_id: src-0538
+    page: 1
+  evidence_status: OBSERVED
+  confidence: high
+- concept_id: thue1-hoan-thue
+  canonical_name: Hoàn thuế
+  aliases: []
+  same_as: null
+  chapter: 1
+  topic: '1.2'
+  chapters:
+  - 2
+  - 5
+  source_refs:
+  - source_id: src-0492
+    page: 4
+  evidence_status: OBSERVED
+  confidence: medium
+- concept_id: thue1-hoa-don-dien-tu
+  canonical_name: Hóa đơn điện tử
+  aliases: []
+  same_as: null
+  chapter: 1
+  topic: '1.2'
+  chapters:
+  - 5
+  source_refs:
+  - source_id: src-0492
+    page: 5
+  evidence_status: OBSERVED
+  confidence: medium
+- concept_id: thue1-doi-tuong-khong-chiu-thue
+  canonical_name: Đối tượng không chịu thuế
+  aliases: []
+  same_as: null
+  chapter: 2
+  topic: '2.1'
+  chapters:
+  - 3
+  - 4
+  - 5
+  source_refs:
+  - source_id: src-0500
+    page: 2
+  - source_id: src-0510
+    page: 3
+  - source_id: src-0520
+    page: 4
+  evidence_status: OBSERVED
+  confidence: medium
+- concept_id: thue1-tri-gia-tinh-thue
+  canonical_name: trị giá tính thuế
+  aliases: []
+  same_as: null
+  chapter: 2
+  topic: '2.1'
+  source_refs:
+  - source_id: src-0500
+    page: 4
+  - source_id: src-0500
+    page: 5
+  evidence_status: OBSERVED
+  confidence: medium
+- concept_id: thue1-to-khai-hai-quan
+  canonical_name: Tờ khai hải quan
+  aliases: []
+  same_as: null
+  chapter: 2
+  topic: '2.3'
+  chapters:
+  - 3
+  source_refs:
+  - source_id: src-0504
+    page: 1
+  evidence_status: OBSERVED
+  confidence: medium
+account_map:
+  '3333': thue1-to-chuc-chung-tu-va-ghi-nhan-thue-xk-nk-tren-so-ke-toan
+  '3332': thue1-to-chuc-chung-tu-va-ghi-nhan-thue-ttdb-tren-so-ke-toan
+  '3331': thue1-ke-toan-thue-gia-tri-gia-tang
+  '1331': thue1-ke-toan-thue-gia-tri-gia-tang
+edges: []
+conflicts: []
+notes:
+- 33381 (thuế BVMT) and 33311/33312 are 5-digit sub-accounts; course account regex matches 3-4 digits only, so they are not
+  mapped.
+- Chương 4 heading spells 'Bảo vệ mội trường' (typo, verbatim); 'thuế bảo vệ môi trường' kept as alias.
+- Law/circular references are as taught (curriculum vintage); currency of regulations is handled by the external layer.

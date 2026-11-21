@@ -156,10 +156,11 @@ overrides:
 - source_id: src-0341
   relative_path: Hệ thống thông tin kế toán 1/Chia sẻ tài liệu/Owen G. - Using Microsoft
     Excel for Accounting.pdf
-  content_role: unknown
+  content_role: reference
   partition: he-thong-thong-tin-ke-toan-1
-  evidence_status: INFERRED
-  note: W6b classification (Wave 6 rules); see work/w6b/inventory_plan.json
+  evidence_status: OBSERVED
+  note: 'W6b Pha C: HTTTKT1 Pha B: OBSERVED p1 (học liệu bổ trợ / tài liệu tham khảo
+    / báo cáo NCKH ngoài)'
 - source_id: src-0342
   relative_path: Hệ thống thông tin kế toán 1/Chương 1/HTTTKT1___Chuong1___TongQuan____VuQuocThong___TC.pptx
   content_role: lecture_slide
@@ -168,10 +169,11 @@ overrides:
   note: W6b classification (Wave 6 rules); see work/w6b/inventory_plan.json
 - source_id: src-0343
   relative_path: Hệ thống thông tin kế toán 1/Chương 1/ba__i______c_Ch____ng_1.pdf
-  content_role: unknown
+  content_role: reference
   partition: he-thong-thong-tin-ke-toan-1
-  evidence_status: INFERRED
-  note: W6b classification (Wave 6 rules); see work/w6b/inventory_plan.json
+  evidence_status: OBSERVED
+  note: 'W6b Pha C: HTTTKT1 Pha B: OBSERVED p1 (học liệu bổ trợ / tài liệu tham khảo
+    / báo cáo NCKH ngoài)'
 - source_id: src-0344
   relative_path: Hệ thống thông tin kế toán 1/Chương 1/script.pdf
   content_role: lecture_note
@@ -230,10 +232,11 @@ overrides:
   note: W6b classification (Wave 6 rules); see work/w6b/inventory_plan.json
 - source_id: src-0352
   relative_path: Hệ thống thông tin kế toán 1/Chương 2/Tailieuthamkhao_Chuong2.pdf
-  content_role: unknown
+  content_role: reference
   partition: he-thong-thong-tin-ke-toan-1
-  evidence_status: INFERRED
-  note: W6b classification (Wave 6 rules); see work/w6b/inventory_plan.json
+  evidence_status: OBSERVED
+  note: 'W6b Pha C: HTTTKT1 Pha B: OBSERVED p1 (học liệu bổ trợ / tài liệu tham khảo
+    / báo cáo NCKH ngoài)'
 - source_id: src-0353
   relative_path: Hệ thống thông tin kế toán 1/Chương 2/script (1).pdf
   content_role: lecture_note
@@ -296,10 +299,11 @@ overrides:
   note: W6b classification (Wave 6 rules); see work/w6b/inventory_plan.json
 - source_id: src-0362
   relative_path: Hệ thống thông tin kế toán 1/Chương 3/Tailieuthamkhao_Chuong3.pdf
-  content_role: unknown
+  content_role: reference
   partition: he-thong-thong-tin-ke-toan-1
-  evidence_status: INFERRED
-  note: W6b classification (Wave 6 rules); see work/w6b/inventory_plan.json
+  evidence_status: OBSERVED
+  note: 'W6b Pha C: HTTTKT1 Pha B: OBSERVED p1 (học liệu bổ trợ / tài liệu tham khảo
+    / báo cáo NCKH ngoài)'
 - source_id: src-0363
   relative_path: Hệ thống thông tin kế toán 1/Chương 3/script (1).pdf
   content_role: lecture_note
@@ -388,24 +392,25 @@ overrides:
   note: W6b classification (Wave 6 rules); see work/w6b/inventory_plan.json
 - source_id: src-0376
   relative_path: Hệ thống thông tin kế toán 1/Chương 4/Tailieuthamkhao_Chuong4.pdf
-  content_role: unknown
+  content_role: reference
   partition: he-thong-thong-tin-ke-toan-1
-  evidence_status: INFERRED
-  note: W6b classification (Wave 6 rules); see work/w6b/inventory_plan.json
+  evidence_status: OBSERVED
+  note: 'W6b Pha C: HTTTKT1 Pha B: OBSERVED p1 (học liệu bổ trợ / tài liệu tham khảo
+    / báo cáo NCKH ngoài)'
 - source_id: src-0377
-  relative_path: Hệ thống thông tin kế toán 1/Chương 4/script (1).pdf
+  relative_path: Hệ thống thông tin kế toán 1/Chương 4/script_4.5.pdf
   content_role: lecture_note
   partition: he-thong-thong-tin-ke-toan-1
   evidence_status: INFERRED
   note: W6b classification (Wave 6 rules); see work/w6b/inventory_plan.json
 - source_id: src-0378
-  relative_path: Hệ thống thông tin kế toán 1/Chương 4/script (2).pdf
+  relative_path: Hệ thống thông tin kế toán 1/Chương 4/script_4.6.pdf
   content_role: lecture_note
   partition: he-thong-thong-tin-ke-toan-1
   evidence_status: INFERRED
   note: W6b classification (Wave 6 rules); see work/w6b/inventory_plan.json
 - source_id: src-0379
-  relative_path: Hệ thống thông tin kế toán 1/Chương 4/script.pdf
+  relative_path: Hệ thống thông tin kế toán 1/Chương 4/script_4.4.pdf
   content_role: lecture_note
   partition: he-thong-thong-tin-ke-toan-1
   evidence_status: INFERRED
@@ -468,10 +473,11 @@ overrides:
   note: W6b classification (Wave 6 rules); see work/w6b/inventory_plan.json
 - source_id: src-0388
   relative_path: Hệ thống thông tin kế toán 1/Chương 5/Tailieuthamkhao_Chuong5.pdf
-  content_role: unknown
+  content_role: reference
   partition: he-thong-thong-tin-ke-toan-1
-  evidence_status: INFERRED
-  note: W6b classification (Wave 6 rules); see work/w6b/inventory_plan.json
+  evidence_status: OBSERVED
+  note: 'W6b Pha C: HTTTKT1 Pha B: OBSERVED p1 (học liệu bổ trợ / tài liệu tham khảo
+    / báo cáo NCKH ngoài)'
 - source_id: src-0389
   relative_path: Hệ thống thông tin kế toán 1/Chương 5/script (1).pdf
   content_role: lecture_note
@@ -540,10 +546,11 @@ overrides:
   note: W6b classification (Wave 6 rules); see work/w6b/inventory_plan.json
 - source_id: src-0399
   relative_path: Hệ thống thông tin kế toán 1/Chương 6/Tailieuthamkhao_Chuong6.pdf
-  content_role: unknown
+  content_role: reference
   partition: he-thong-thong-tin-ke-toan-1
-  evidence_status: INFERRED
-  note: W6b classification (Wave 6 rules); see work/w6b/inventory_plan.json
+  evidence_status: OBSERVED
+  note: 'W6b Pha C: HTTTKT1 Pha B: OBSERVED p1 (học liệu bổ trợ / tài liệu tham khảo
+    / báo cáo NCKH ngoài)'
 - source_id: src-0400
   relative_path: Hệ thống thông tin kế toán 1/Chương 6/script (1).pdf
   content_role: lecture_note
@@ -1069,10 +1076,10 @@ overrides:
   note: W6b classification (Wave 6 rules); see work/w6b/inventory_plan.json
 - source_id: src-0487
   relative_path: Kế toán hành chính sự nghiệp/Chương mở đầu/KeToanHanhChinhSuNghiep_Script.docx
-  content_role: unknown
+  content_role: lecture_note
   partition: ke-toan-hanh-chinh-su-nghiep
-  evidence_status: INFERRED
-  note: W6b classification (Wave 6 rules); see work/w6b/inventory_plan.json
+  evidence_status: OBSERVED
+  note: 'W6b Pha C: KTHCSN Pha B: p1 "BÀI GIẢNG DẠNG VĂN BẢN (SCRIPT)"'
 - source_id: src-0488
   relative_path: Kế toán hành chính sự nghiệp/Chương mở đầu/KeToanHanhChinhSuNghiep_Slide.pptx
   content_role: lecture_slide
@@ -1383,10 +1390,10 @@ overrides:
   note: W6b classification (Wave 6 rules); see work/w6b/inventory_plan.json
 - source_id: src-0539
   relative_path: Kế toán thuế 1/Chương mở đầu/KeToanThue1_Script.docx
-  content_role: unknown
+  content_role: lecture_note
   partition: ke-toan-thue-1
-  evidence_status: INFERRED
-  note: W6b classification (Wave 6 rules); see work/w6b/inventory_plan.json
+  evidence_status: OBSERVED
+  note: 'W6b Pha C: Thuế 1 Pha B: p1 "BÀI GIẢNG DẠNG VĂN BẢN (SCRIPT)"'
 - source_id: src-0540
   relative_path: Kế toán thuế 1/Chương mở đầu/KeToanThue1_Slide.pptx
   content_role: lecture_slide
@@ -1403,22 +1410,22 @@ overrides:
 - source_id: src-0542
   relative_path: Kế toán thuế 1/Tài liệu ôn tập và Đề thi mẫu/ACCO2311_HUONG DAN HOC
     TAP_KT Thue 1.pdf
-  content_role: syllabus
+  content_role: summary
   partition: ke-toan-thue-1
-  evidence_status: INFERRED
-  note: W6b classification (Wave 6 rules); see work/w6b/inventory_plan.json
+  evidence_status: OBSERVED
+  note: 'W6b Pha C: Thuế 1 Pha B: hướng dẫn học tập -> summary như các môn khác'
 - source_id: src-0543
   relative_path: Kế toán tài chính 3/Bài tập/KTTC3-C4-Baitaptudanhgia.pdf
-  content_role: unknown
+  content_role: exercise
   partition: ke-toan-tai-chinh-3
-  evidence_status: INFERRED
-  note: W6b classification (Wave 6 rules); see work/w6b/inventory_plan.json
+  evidence_status: OBSERVED
+  note: 'W6b Pha C: KTTC3 Pha B: p1 "Bài tập thực hành tự đánh giá cuối chương 4"'
 - source_id: src-0544
   relative_path: Kế toán tài chính 3/Chương 1/KTTC3-C1-CD1.1-Tongquanvengoaite_V2.pdf
-  content_role: unknown
+  content_role: lecture_note
   partition: ke-toan-tai-chinh-3
-  evidence_status: INFERRED
-  note: W6b classification (Wave 6 rules); see work/w6b/inventory_plan.json
+  evidence_status: OBSERVED
+  note: 'W6b Pha C: KTTC3 Pha B: p1 "BÀI GIẢNG DẠNG VĂN BẢN (SCRIPT)"'
 - source_id: src-0545
   relative_path: Kế toán tài chính 3/Chương 1/KTTC3-C1-CD1.1-Tongquanvengoaite_V2.pptx
   content_role: lecture_slide
@@ -1427,10 +1434,10 @@ overrides:
   note: W6b classification (Wave 6 rules); see work/w6b/inventory_plan.json
 - source_id: src-0546
   relative_path: Kế toán tài chính 3/Chương 1/KTTC3-C1-CD1.2-Ketoangiaodichphatsinhbangngoaite.pdf
-  content_role: unknown
+  content_role: lecture_note
   partition: ke-toan-tai-chinh-3
-  evidence_status: INFERRED
-  note: W6b classification (Wave 6 rules); see work/w6b/inventory_plan.json
+  evidence_status: OBSERVED
+  note: 'W6b Pha C: KTTC3 Pha B: p1 "BÀI GIẢNG DẠNG VĂN BẢN (SCRIPT)"'
 - source_id: src-0547
   relative_path: Kế toán tài chính 3/Chương 1/KTTC3-C1-CD1.2-Ketoangiaodichphatsinhbangngoaite.pptx
   content_role: lecture_slide
@@ -1439,10 +1446,10 @@ overrides:
   note: W6b classification (Wave 6 rules); see work/w6b/inventory_plan.json
 - source_id: src-0548
   relative_path: Kế toán tài chính 3/Chương 1/KTTC3-C1-CD1.3-KetoandanhgiaCLTGcuoiky.pdf
-  content_role: unknown
+  content_role: lecture_note
   partition: ke-toan-tai-chinh-3
-  evidence_status: INFERRED
-  note: W6b classification (Wave 6 rules); see work/w6b/inventory_plan.json
+  evidence_status: OBSERVED
+  note: 'W6b Pha C: KTTC3 Pha B: p1 "BÀI GIẢNG DẠNG VĂN BẢN (SCRIPT)"'
 - source_id: src-0549
   relative_path: Kế toán tài chính 3/Chương 1/KTTC3-C1-CD1.3-KetoandanhgiaCLTGcuoiky.pptx
   content_role: lecture_slide
@@ -1451,10 +1458,10 @@ overrides:
   note: W6b classification (Wave 6 rules); see work/w6b/inventory_plan.json
 - source_id: src-0550
   relative_path: Kế toán tài chính 3/Chương 1/KTTC3-C1-CD1.4-Ketoanhoatdongnhapkhautructiep.pdf
-  content_role: unknown
+  content_role: lecture_note
   partition: ke-toan-tai-chinh-3
-  evidence_status: INFERRED
-  note: W6b classification (Wave 6 rules); see work/w6b/inventory_plan.json
+  evidence_status: OBSERVED
+  note: 'W6b Pha C: KTTC3 Pha B: p1 "BÀI GIẢNG DẠNG VĂN BẢN (SCRIPT)"'
 - source_id: src-0551
   relative_path: Kế toán tài chính 3/Chương 1/KTTC3-C1-CD1.4-Ketoanhoatdongnhapkhautructiep.pptx
   content_role: lecture_slide
@@ -1463,10 +1470,10 @@ overrides:
   note: W6b classification (Wave 6 rules); see work/w6b/inventory_plan.json
 - source_id: src-0552
   relative_path: Kế toán tài chính 3/Chương 1/KTTC3-C1-CD1.5-Ketoanhoatdongxuatkhautructiep.pdf
-  content_role: unknown
+  content_role: lecture_note
   partition: ke-toan-tai-chinh-3
-  evidence_status: INFERRED
-  note: W6b classification (Wave 6 rules); see work/w6b/inventory_plan.json
+  evidence_status: OBSERVED
+  note: 'W6b Pha C: KTTC3 Pha B: p1 "BÀI GIẢNG DẠNG VĂN BẢN (SCRIPT)"'
 - source_id: src-0553
   relative_path: Kế toán tài chính 3/Chương 1/KTTC3-C1-CD1.5-Ketoanhoatdongxuatkhautructiep.pptx
   content_role: lecture_slide
@@ -1475,16 +1482,16 @@ overrides:
   note: W6b classification (Wave 6 rules); see work/w6b/inventory_plan.json
 - source_id: src-0554
   relative_path: Kế toán tài chính 3/Chương 2/C2_CD2.1_P1.pdf
-  content_role: unknown
+  content_role: lecture_note
   partition: ke-toan-tai-chinh-3
-  evidence_status: INFERRED
-  note: W6b classification (Wave 6 rules); see work/w6b/inventory_plan.json
+  evidence_status: OBSERVED
+  note: 'W6b Pha C: KTTC3 Pha B: p1 "BÀI GIẢNG DẠNG VĂN BẢN (SCRIPT)"'
 - source_id: src-0555
   relative_path: Kế toán tài chính 3/Chương 2/C2_CD2.1_P2.pdf
-  content_role: unknown
+  content_role: lecture_note
   partition: ke-toan-tai-chinh-3
-  evidence_status: INFERRED
-  note: W6b classification (Wave 6 rules); see work/w6b/inventory_plan.json
+  evidence_status: OBSERVED
+  note: 'W6b Pha C: KTTC3 Pha B: p1 "BÀI GIẢNG DẠNG VĂN BẢN (SCRIPT)"'
 - source_id: src-0556
   relative_path: Kế toán tài chính 3/Chương 2/KTTC3-C2-CD2.1-Tongquan-phan 1_slide.pptx
   content_role: lecture_slide
@@ -1559,10 +1566,10 @@ overrides:
   note: W6b classification (Wave 6 rules); see work/w6b/inventory_plan.json
 - source_id: src-0568
   relative_path: Kế toán tài chính 3/Chương 3/KTTC3-C3- CD3.1-TongQuanDauTuTaiChinh.pdf
-  content_role: unknown
+  content_role: lecture_note
   partition: ke-toan-tai-chinh-3
-  evidence_status: INFERRED
-  note: W6b classification (Wave 6 rules); see work/w6b/inventory_plan.json
+  evidence_status: OBSERVED
+  note: 'W6b Pha C: KTTC3 Pha B: p1 "BÀI GIẢNG DẠNG VĂN BẢN (SCRIPT)"'
 - source_id: src-0569
   relative_path: Kế toán tài chính 3/Chương 3/KTTC3-C3- CD3.1-TongQuanDauTuTaiChinh.pptx
   content_role: lecture_slide
@@ -1572,10 +1579,10 @@ overrides:
 - source_id: src-0570
   relative_path: Kế toán tài chính 3/Chương 3/KTTC3-C3- CD3.2-Ke toan chung khoan
     kinh doanh.pdf
-  content_role: unknown
+  content_role: lecture_note
   partition: ke-toan-tai-chinh-3
-  evidence_status: INFERRED
-  note: W6b classification (Wave 6 rules); see work/w6b/inventory_plan.json
+  evidence_status: OBSERVED
+  note: 'W6b Pha C: KTTC3 Pha B: p1 "BÀI GIẢNG DẠNG VĂN BẢN (SCRIPT)"'
 - source_id: src-0571
   relative_path: Kế toán tài chính 3/Chương 3/KTTC3-C3- CD3.2-Ke toan chung khoan
     kinh doanh.pptx
@@ -1586,10 +1593,10 @@ overrides:
 - source_id: src-0572
   relative_path: Kế toán tài chính 3/Chương 3/KTTC3-C3- CD3.3-Ke toan dau tu nam giu
     den ngay dao han.pdf
-  content_role: unknown
+  content_role: lecture_note
   partition: ke-toan-tai-chinh-3
-  evidence_status: INFERRED
-  note: W6b classification (Wave 6 rules); see work/w6b/inventory_plan.json
+  evidence_status: OBSERVED
+  note: 'W6b Pha C: KTTC3 Pha B: p1 "BÀI GIẢNG DẠNG VĂN BẢN (SCRIPT)"'
 - source_id: src-0573
   relative_path: Kế toán tài chính 3/Chương 3/KTTC3-C3- CD3.3-Ke toan dau tu nam giu
     den ngay dao han.pptx
@@ -1600,10 +1607,10 @@ overrides:
 - source_id: src-0574
   relative_path: Kế toán tài chính 3/Chương 3/KTTC3-C3- CD3.4-Ke toan dau tu von vao
     cac cong ty.pdf
-  content_role: unknown
+  content_role: lecture_note
   partition: ke-toan-tai-chinh-3
-  evidence_status: INFERRED
-  note: W6b classification (Wave 6 rules); see work/w6b/inventory_plan.json
+  evidence_status: OBSERVED
+  note: 'W6b Pha C: KTTC3 Pha B: p1 "BÀI GIẢNG DẠNG VĂN BẢN (SCRIPT)"'
 - source_id: src-0575
   relative_path: Kế toán tài chính 3/Chương 3/KTTC3-C3- CD3.4-Ke toan dau tu von vao
     cac cong ty.pptx
@@ -1614,10 +1621,10 @@ overrides:
 - source_id: src-0576
   relative_path: Kế toán tài chính 3/Chương 3/KTTC3-C3- CD3.5-Ke toan du phong ton
     that dau tu tai chinh.pdf
-  content_role: unknown
+  content_role: lecture_note
   partition: ke-toan-tai-chinh-3
-  evidence_status: INFERRED
-  note: W6b classification (Wave 6 rules); see work/w6b/inventory_plan.json
+  evidence_status: OBSERVED
+  note: 'W6b Pha C: KTTC3 Pha B: p1 "BÀI GIẢNG DẠNG VĂN BẢN (SCRIPT)"'
 - source_id: src-0577
   relative_path: Kế toán tài chính 3/Chương 3/KTTC3-C3- CD3.5-Ke toan du phong ton
     that dau tu tai chinh.pptx
@@ -1628,10 +1635,10 @@ overrides:
 - source_id: src-0578
   relative_path: Kế toán tài chính 3/Chương 3/KTTC3-C3- CD3.6-Trinh bay thong tin
     tren BCTC.pdf
-  content_role: unknown
+  content_role: lecture_note
   partition: ke-toan-tai-chinh-3
-  evidence_status: INFERRED
-  note: W6b classification (Wave 6 rules); see work/w6b/inventory_plan.json
+  evidence_status: OBSERVED
+  note: 'W6b Pha C: KTTC3 Pha B: p1 "BÀI GIẢNG DẠNG VĂN BẢN (SCRIPT)"'
 - source_id: src-0579
   relative_path: Kế toán tài chính 3/Chương 3/KTTC3-C3- CD3.6-Trinh bay thong tin
     tren BCTC.pptx
@@ -1641,10 +1648,10 @@ overrides:
   note: W6b classification (Wave 6 rules); see work/w6b/inventory_plan.json
 - source_id: src-0580
   relative_path: Kế toán tài chính 3/Chương 4/KTTC3-C4- CD4.1-SolieuktoanvaSolieutinhthue.pdf
-  content_role: unknown
+  content_role: lecture_note
   partition: ke-toan-tai-chinh-3
-  evidence_status: INFERRED
-  note: W6b classification (Wave 6 rules); see work/w6b/inventory_plan.json
+  evidence_status: OBSERVED
+  note: 'W6b Pha C: KTTC3 Pha B: p1 "BÀI GIẢNG DẠNG VĂN BẢN (SCRIPT)"'
 - source_id: src-0581
   relative_path: Kế toán tài chính 3/Chương 4/KTTC3-C4- CD4.1-SolieuktoanvaSolieutinhthue.pptx
   content_role: lecture_slide
@@ -1653,10 +1660,10 @@ overrides:
   note: W6b classification (Wave 6 rules); see work/w6b/inventory_plan.json
 - source_id: src-0582
   relative_path: Kế toán tài chính 3/Chương 4/KTTC3-C4- CD4.2-Ketoanchiphithuetndnhh.pdf
-  content_role: unknown
+  content_role: lecture_note
   partition: ke-toan-tai-chinh-3
-  evidence_status: INFERRED
-  note: W6b classification (Wave 6 rules); see work/w6b/inventory_plan.json
+  evidence_status: OBSERVED
+  note: 'W6b Pha C: KTTC3 Pha B: p1 "BÀI GIẢNG DẠNG VĂN BẢN (SCRIPT)"'
 - source_id: src-0583
   relative_path: Kế toán tài chính 3/Chương 4/KTTC3-C4- CD4.2-Ketoanchiphithuetndnhh.pptx
   content_role: lecture_slide
@@ -1665,10 +1672,10 @@ overrides:
   note: W6b classification (Wave 6 rules); see work/w6b/inventory_plan.json
 - source_id: src-0584
   relative_path: Kế toán tài chính 3/Chương 4/KTTC3-C4- CD4.3-Phanbietchenhlech.pdf
-  content_role: unknown
+  content_role: lecture_note
   partition: ke-toan-tai-chinh-3
-  evidence_status: INFERRED
-  note: W6b classification (Wave 6 rules); see work/w6b/inventory_plan.json
+  evidence_status: OBSERVED
+  note: 'W6b Pha C: KTTC3 Pha B: p1 "BÀI GIẢNG DẠNG VĂN BẢN (SCRIPT)"'
 - source_id: src-0585
   relative_path: Kế toán tài chính 3/Chương 4/KTTC3-C4- CD4.3-Phanbietchenhlech.pptx
   content_role: lecture_slide
@@ -1677,10 +1684,10 @@ overrides:
   note: W6b classification (Wave 6 rules); see work/w6b/inventory_plan.json
 - source_id: src-0586
   relative_path: Kế toán tài chính 3/Chương 4/KTTC3-C4- CD4.4-Taisanthuetnhoanlai.pdf
-  content_role: unknown
+  content_role: lecture_note
   partition: ke-toan-tai-chinh-3
-  evidence_status: INFERRED
-  note: W6b classification (Wave 6 rules); see work/w6b/inventory_plan.json
+  evidence_status: OBSERVED
+  note: 'W6b Pha C: KTTC3 Pha B: p1 "BÀI GIẢNG DẠNG VĂN BẢN (SCRIPT)"'
 - source_id: src-0587
   relative_path: Kế toán tài chính 3/Chương 4/KTTC3-C4- CD4.4-Taisanthuetnhoanlai.pptx
   content_role: lecture_slide
@@ -1689,10 +1696,10 @@ overrides:
   note: W6b classification (Wave 6 rules); see work/w6b/inventory_plan.json
 - source_id: src-0588
   relative_path: Kế toán tài chính 3/Chương 4/KTTC3-C4- CD4.5-Thutnhoanlaiphaitra.pdf
-  content_role: unknown
+  content_role: lecture_note
   partition: ke-toan-tai-chinh-3
-  evidence_status: INFERRED
-  note: W6b classification (Wave 6 rules); see work/w6b/inventory_plan.json
+  evidence_status: OBSERVED
+  note: 'W6b Pha C: KTTC3 Pha B: p1 "BÀI GIẢNG DẠNG VĂN BẢN (SCRIPT)"'
 - source_id: src-0589
   relative_path: Kế toán tài chính 3/Chương 4/KTTC3-C4- CD4.5-Thutnhoanlaiphaitra.pptx
   content_role: lecture_slide
@@ -1701,10 +1708,10 @@ overrides:
   note: W6b classification (Wave 6 rules); see work/w6b/inventory_plan.json
 - source_id: src-0590
   relative_path: Kế toán tài chính 3/Chương 4/KTTC3-C4- CD4.6-Trinhbaythongtin.pdf
-  content_role: unknown
+  content_role: lecture_note
   partition: ke-toan-tai-chinh-3
-  evidence_status: INFERRED
-  note: W6b classification (Wave 6 rules); see work/w6b/inventory_plan.json
+  evidence_status: OBSERVED
+  note: 'W6b Pha C: KTTC3 Pha B: p1 "BÀI GIẢNG DẠNG VĂN BẢN (SCRIPT)"'
 - source_id: src-0591
   relative_path: Kế toán tài chính 3/Chương 4/KTTC3-C4- CD4.6-Trinhbaythongtin.pptx
   content_role: lecture_slide
@@ -1713,10 +1720,10 @@ overrides:
   note: W6b classification (Wave 6 rules); see work/w6b/inventory_plan.json
 - source_id: src-0592
   relative_path: Kế toán tài chính 3/Chương mở đầu/KeToanTaiChinh3_Script.docx
-  content_role: unknown
+  content_role: lecture_note
   partition: ke-toan-tai-chinh-3
-  evidence_status: INFERRED
-  note: W6b classification (Wave 6 rules); see work/w6b/inventory_plan.json
+  evidence_status: OBSERVED
+  note: 'W6b Pha C: KTTC3 Pha B: p1 "BÀI GIẢNG DẠNG VĂN BẢN (SCRIPT)"'
 - source_id: src-0593
   relative_path: Kế toán tài chính 3/Chương mở đầu/KeToanTaiChinh3_Slide.pptx
   content_role: lecture_slide
@@ -1731,10 +1738,28 @@ overrides:
   note: W6b classification (Wave 6 rules); see work/w6b/inventory_plan.json
 - source_id: src-0595
   relative_path: Kế toán tài chính 3/Ôn tập và đề thi mẫu/ACCO3310_HUONG DAN HOC TAP_KTTC3_.pdf
-  content_role: syllabus
+  content_role: summary
   partition: ke-toan-tai-chinh-3
-  evidence_status: INFERRED
-  note: W6b classification (Wave 6 rules); see work/w6b/inventory_plan.json
+  evidence_status: OBSERVED
+  note: 'W6b Pha C: KTTC3 Pha B: p1 "TÀI LIỆU HƯỚNG DẪN ÔN TẬP"'
+- source_id: src-0596
+  relative_path: Hệ thống thông tin kế toán 1/Chương 4/script_4.1.pdf
+  content_role: lecture_note
+  partition: he-thong-thong-tin-ke-toan-1
+  evidence_status: OBSERVED
+  note: 'W6b: learner-supplied script for Chương 4 topic 4.1'
+- source_id: src-0597
+  relative_path: Hệ thống thông tin kế toán 1/Chương 4/script_4.2.pdf
+  content_role: lecture_note
+  partition: he-thong-thong-tin-ke-toan-1
+  evidence_status: OBSERVED
+  note: 'W6b: learner-supplied script for Chương 4 topic 4.2'
+- source_id: src-0598
+  relative_path: Hệ thống thông tin kế toán 1/Chương 4/script_4.3.pdf
+  content_role: lecture_note
+  partition: he-thong-thong-tin-ke-toan-1
+  evidence_status: OBSERVED
+  note: 'W6b: learner-supplied script for Chương 4 topic 4.3'
 tmp_artifacts_not_curriculum:
 - src-0053
 - src-0054

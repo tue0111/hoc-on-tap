@@ -1,5 +1,5 @@
 {
-  "frozen_at": "2026-10-12T00:43:10.912021+00:00",
+  "frozen_at": "2026-11-21T15:20:27.814007+00:00",
   "core_status": "PHASE8_PASS_CORE_LEARNING_SYSTEM_READY",
   "active_scope": [
     "ACCO1325",
@@ -30,8 +30,8 @@
   },
   "inventory": {
     "path": "inventory/files.json",
-    "sha256": "9c7b47d3246ab36236379d28fd344f53881b259359a31e045f73a2c34cfa44d7",
-    "file_count": 339
+    "sha256": "f9c8e48e26b15b3a03b401d9c77c57d5bc70f6330210f33565d23f439272d5b5",
+    "file_count": 598
   },
   "source_integrity": {
     "status": "OK",
@@ -205,9 +205,33 @@
     },
     "external": {
       "tier": "retrieval",
-      "chunk_count": 23,
-      "source_hashes_count": 8,
-      "meta_sha256": "0e70cee12860c8920a09b728ddc90d69f629b74407fa55ce911589683c21a646"
+      "chunk_count": 47,
+      "source_hashes_count": 32,
+      "meta_sha256": "e8313d51527f41a6c8bf3c9c4ec31cfa752cd9aa3e0309b698c61dce7935566b"
+    },
+    "he-thong-thong-tin-ke-toan-1": {
+      "tier": "retrieval",
+      "chunk_count": 1081,
+      "source_hashes_count": 30,
+      "meta_sha256": "d68cc54c0fa5e3169b78768dba85ec99392e5b3e751d4927982673860bc34171"
+    },
+    "ke-toan-thue-1": {
+      "tier": "retrieval",
+      "chunk_count": 673,
+      "source_hashes_count": 27,
+      "meta_sha256": "914554b7b5a6e13453874bc6c1332691d8c416f482ad2306f43d6ca3318159bb"
+    },
+    "ke-toan-tai-chinh-3": {
+      "tier": "retrieval",
+      "chunk_count": 379,
+      "source_hashes_count": 28,
+      "meta_sha256": "98b0cf9768d3cd7422c2b569210406026bb6a5be576c65a26a8ce57ea6dc5242"
+    },
+    "ke-toan-hanh-chinh-su-nghiep": {
+      "tier": "retrieval",
+      "chunk_count": 569,
+      "source_hashes_count": 43,
+      "meta_sha256": "bece4964d09c41ab934056819180dd5d1f72485b432252d8e8e029f8f076fbb7"
     }
   }
 }

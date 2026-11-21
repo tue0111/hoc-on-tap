@@ -16,8 +16,11 @@ for p in (R/'research/search_logs').glob('ref_*.json'):
 out=R/'research/regulations'; out.mkdir(exist_ok=True)
 refs={r['ref_normalized']:r for r in citations}
 for ref in known: refs.setdefault(ref,{'courses':[],'occurrences':[],'variants':[ref]})
+# W6b G04: rebuilding from the reviewed records is the DEFAULT. Regenerating records from the Wave 5 snapshot
+# (verified_updates.yaml) overwrites reviewed W6b records, so it now needs the explicit --bootstrap-wave5 flag.
+FROM_RECORDS = '--bootstrap-wave5' not in sys.argv
 records=[]
-for ref,c in ([] if '--from-records' in sys.argv else sorted(refs.items())):
+for ref,c in ([] if FROM_RECORDS else sorted(refs.items())):
     v=known.get(ref,{})
     reason='Chưa đủ bằng chứng đã kiểm tra để kết luận trạng thái và chuỗi sửa đổi hiện hành. Xem nhật ký tìm kiếm; không suy ra còn hiệu lực từ việc chưa thấy văn bản thay thế.'
     if not re.search(r'\d{4}',ref): reason='Trích dẫn thiếu số hiệu/năm hoặc chỉ tên chuẩn mực; chưa định danh chắc chắn văn bản và phiên bản. '+reason
@@ -33,10 +36,14 @@ for ref,c in ([] if '--from-records' in sys.argv else sorted(refs.items())):
          'freshness_limit':'Snapshot of sources checked on the stated date; not a guarantee that every later amendment has been found.'}
     p=out/(slug(ref)+'.yaml'); p.write_text(yaml.safe_dump(rec,allow_unicode=True,sort_keys=False),encoding='utf-8')
     records.append((p,rec))
-if '--from-records' in sys.argv:
+if FROM_RECORDS:
     # Wave 6: rebuild from reviewed records without overwriting them from the
     # historical Wave 5 verified_updates snapshot.
     records = [(p, yaml.safe_load(p.read_text(encoding='utf-8'))) for p in sorted(out.glob('*.yaml'))]
+# W6b G24: never default an evidence label. Missing/null/out-of-enum evidence_status stops the build before any output is written.
+_EV={'OBSERVED','INFERRED','UNKNOWN'}
+_bad=[f"{p.name}: evidence_status={rec.get('evidence_status')!r}" for p,rec in records if rec.get('evidence_status') not in _EV]
+if _bad: sys.exit('BUILD ABORTED (no chunks/index written): invalid evidence_status (must be one of '+', '.join(sorted(_EV))+') in record(s): '+'; '.join(_bad))
 chunks=[]
 def chunk(sid,text,rel,url,sha,page=None,role='regulation_status',status='OBSERVED'):
     chunks.append({'chunk_id':f'chk-{sid}-{len(chunks)+1:04d}','source_id':sid,'course_id':'external','course_name':'Quy định hiện hành (nguồn ngoài giáo trình)',
@@ -46,7 +53,10 @@ def chunk(sid,text,rel,url,sha,page=None,role='regulation_status',status='OBSERV
 for p,rec in records:
     if rec['status']=='unknown': continue  # unknown metadata is not positive evidence
     text=f"{rec['ref']}\nTrạng thái: {rec['status']}. Thay bởi: {rec['replaced_by'] or '-'}; sửa bởi: {', '.join(rec['amended_by']) or '-'}.\nHiệu lực thay đổi: {rec['effective_from']}.\n{rec['scope']}\n"+'\n'.join(k['text'] for k in rec['key_changes'])
-    chunk('ext-'+slug(rec['ref']),text,p.relative_to(R).as_posix(),rec['sources'][0]['url'],hashlib.sha256(p.read_bytes()).hexdigest())
+    # W6b review B1: keep the record's own evidence label; cite the first OFFICIAL source when there is one.
+    _src=next((x for x in rec['sources'] if x.get('authority')=='official'),rec['sources'][0])
+    chunk('ext-'+slug(rec['ref']),text,p.relative_to(R).as_posix(),_src['url'],hashlib.sha256(p.read_bytes()).hexdigest(),
+          status=rec['evidence_status'])
 downloads=json.loads((R/'research/source_downloads.json').read_text(encoding='utf-8'))
 for src in downloads:
     if src.get('download_status')=='unavailable': continue

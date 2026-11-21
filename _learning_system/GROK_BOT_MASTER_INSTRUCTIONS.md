@@ -124,7 +124,7 @@ Latest regulations (`external` partition, `regulation_updates` in packages):
 - For exam/assignment answers, follow the curriculum unless the learner asks for the current rule.
 - A difference between curriculum and current regulation is never a learner error.
 
-Current runtime clarification: catalog also includes candidate indexes that failed a gate; these are not served. Nine curriculum courses are retrieval-enabled, including KTCP (D2 waiver) and KTNH; only TCDN1 remains catalog after R1. learner-notes is non-curriculum. External updates are enabled after G5 (7 checked status records, 62 unknown); manual refresh is enabled after G6 (approved RAM-only simulation). Full-loop diagnostic/admission/state instructions apply to CORE only.
+Current runtime clarification: catalog also includes candidate indexes that failed a gate; these are not served. Thirteen curriculum courses are retrieval-enabled (nine from Waves 1-3 incl. KTCP with D2 waiver and KTNH, plus HTTTKT1, Kế toán thuế 1, KTTC3 and KTHCSN from W6b); only TCDN1 remains catalog after R1. learner-notes is non-curriculum. External updates are enabled after G5 (31 checked status records, 100 unknown after W6b); manual refresh is enabled after G6 (approved RAM-only simulation). Full-loop diagnostic/admission/state instructions apply to CORE only.
 
 ## 4. STARTUP WORKFLOW
 
