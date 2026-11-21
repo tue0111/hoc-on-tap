@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T09:00:56.595118+00:00",
+  "generated_at": "2026-10-12T00:41:44.983006+00:00",
   "metrics": {
     "n": 40,
     "diagnosis_rate": 0.75,
@@ -39,7 +39,7 @@
       "diag_status": "DIAGNOSED",
       "diag_primary": "conceptual_failure",
       "diag_prereq": false,
-      "latency_s": 0.0091
+      "latency_s": 0.0072
     },
     {
       "id": "nat-02",
@@ -64,7 +64,7 @@
       "diag_status": "DIAGNOSED",
       "diag_primary": "conceptual_failure",
       "diag_prereq": false,
-      "latency_s": 0.0067
+      "latency_s": 0.0054
     },
     {
       "id": "nat-03",
@@ -89,7 +89,7 @@
       "diag_status": "INCONCLUSIVE",
       "diag_primary": "unknown",
       "diag_prereq": false,
-      "latency_s": 0.0064
+      "latency_s": 0.0052
     },
     {
       "id": "nat-04",
@@ -114,7 +114,7 @@
       "diag_status": "DIAGNOSED",
       "diag_primary": "conceptual_failure",
       "diag_prereq": false,
-      "latency_s": 0.0059
+      "latency_s": 0.0064
     },
     {
       "id": "nat-05",
@@ -139,7 +139,7 @@
       "diag_status": "DIAGNOSED",
       "diag_primary": "conceptual_failure",
       "diag_prereq": false,
-      "latency_s": 0.0048
+      "latency_s": 0.0039
     },
     {
       "id": "nat-06",
@@ -164,7 +164,7 @@
       "diag_status": "INCONCLUSIVE",
       "diag_primary": "unknown",
       "diag_prereq": false,
-      "latency_s": 0.0059
+      "latency_s": 0.0044
     },
     {
       "id": "nat-07",
@@ -189,7 +189,7 @@
       "diag_status": "DIAGNOSED",
       "diag_primary": "conceptual_failure",
       "diag_prereq": false,
-      "latency_s": 0.0065
+      "latency_s": 0.0052
     },
     {
       "id": "nat-08",
@@ -214,7 +214,7 @@
       "diag_status": "DIAGNOSED",
       "diag_primary": "conceptual_failure",
       "diag_prereq": false,
-      "latency_s": 0.0058
+      "latency_s": 0.004
     },
     {
       "id": "nat-09",
@@ -239,7 +239,7 @@
       "diag_status": "DIAGNOSED",
       "diag_primary": "conceptual_failure",
       "diag_prereq": false,
-      "latency_s": 0.0053
+      "latency_s": 0.0037
     },
     {
       "id": "nat-10",
@@ -264,7 +264,7 @@
       "diag_status": "DIAGNOSED",
       "diag_primary": "conceptual_failure",
       "diag_prereq": false,
-      "latency_s": 0.0052
+      "latency_s": 0.0042
     },
     {
       "id": "nat-11",
@@ -289,7 +289,7 @@
       "diag_status": "DIAGNOSED",
       "diag_primary": "conceptual_failure",
       "diag_prereq": false,
-      "latency_s": 0.0052
+      "latency_s": 0.0044
     },
     {
       "id": "nat-12",
@@ -314,7 +314,7 @@
       "diag_status": "DIAGNOSED",
       "diag_primary": "conceptual_failure",
       "diag_prereq": false,
-      "latency_s": 0.0043
+      "latency_s": 0.0035
     },
     {
       "id": "nat-13",
@@ -339,7 +339,7 @@
       "diag_status": "DIAGNOSED",
       "diag_primary": "conceptual_failure",
       "diag_prereq": false,
-      "latency_s": 0.0044
+      "latency_s": 0.0035
     },
     {
       "id": "nat-14",
@@ -364,7 +364,7 @@
       "diag_status": "DIAGNOSED",
       "diag_primary": "conceptual_failure",
       "diag_prereq": false,
-      "latency_s": 0.0053
+      "latency_s": 0.004
     },
     {
       "id": "nat-15",
@@ -389,7 +389,7 @@
       "diag_status": "DIAGNOSED",
       "diag_primary": "conceptual_failure",
       "diag_prereq": false,
-      "latency_s": 0.0064
+      "latency_s": 0.0052
     },
     {
       "id": "nat-16",
@@ -414,7 +414,7 @@
       "diag_status": "DIAGNOSED",
       "diag_primary": "conceptual_failure",
       "diag_prereq": false,
-      "latency_s": 0.005
+      "latency_s": 0.004
     },
     {
       "id": "nat-17",
@@ -439,7 +439,7 @@
       "diag_status": "DIAGNOSED",
       "diag_primary": "conceptual_failure",
       "diag_prereq": false,
-      "latency_s": 0.0063
+      "latency_s": 0.0047
     },
     {
       "id": "nat-18",
@@ -489,7 +489,7 @@
       "diag_status": "DIAGNOSED",
       "diag_primary": "conceptual_failure",
       "diag_prereq": false,
-      "latency_s": 0.005
+      "latency_s": 0.0042
     },
     {
       "id": "nat-20",
@@ -514,7 +514,7 @@
       "diag_status": "INCONCLUSIVE",
       "diag_primary": "unknown",
       "diag_prereq": false,
-      "latency_s": 0.0046
+      "latency_s": 0.0027
     },
     {
       "id": "nat-21",
@@ -539,7 +539,7 @@
       "diag_status": "INCONCLUSIVE",
       "diag_primary": "unknown",
       "diag_prereq": false,
-      "latency_s": 0.0063
+      "latency_s": 0.0039
     },
     {
       "id": "nat-22",
@@ -564,7 +564,7 @@
       "diag_status": "DIAGNOSED",
       "diag_primary": "conceptual_failure",
       "diag_prereq": false,
-      "latency_s": 0.0051
+      "latency_s": 0.0035
     },
     {
       "id": "nat-23",
@@ -589,7 +589,7 @@
       "diag_status": "INCONCLUSIVE",
       "diag_primary": "unknown",
       "diag_prereq": false,
-      "latency_s": 0.0051
+      "latency_s": 0.0032
     },
     {
       "id": "nat-24",
@@ -614,7 +614,7 @@
       "diag_status": "INCONCLUSIVE",
       "diag_primary": "unknown",
       "diag_prereq": false,
-      "latency_s": 0.0058
+      "latency_s": 0.0036
     },
     {
       "id": "nat-25",
@@ -639,7 +639,7 @@
       "diag_status": "INCONCLUSIVE",
       "diag_primary": "unknown",
       "diag_prereq": false,
-      "latency_s": 0.0058
+      "latency_s": 0.0044
     },
     {
       "id": "nat-26",
@@ -664,7 +664,7 @@
       "diag_status": "INCONCLUSIVE",
       "diag_primary": "unknown",
       "diag_prereq": false,
-      "latency_s": 0.0079
+      "latency_s": 0.005
     },
     {
       "id": "nat-27",
@@ -689,7 +689,7 @@
       "diag_status": "DIAGNOSED",
       "diag_primary": "conceptual_failure",
       "diag_prereq": false,
-      "latency_s": 0.0099
+      "latency_s": 0.006
     },
     {
       "id": "nat-28",
@@ -714,7 +714,7 @@
       "diag_status": "DIAGNOSED",
       "diag_primary": "conceptual_failure",
       "diag_prereq": false,
-      "latency_s": 0.0082
+      "latency_s": 0.005
     },
     {
       "id": "nat-29",
@@ -739,7 +739,7 @@
       "diag_status": "DIAGNOSED",
       "diag_primary": "conceptual_failure",
       "diag_prereq": false,
-      "latency_s": 0.0082
+      "latency_s": 0.0052
     },
     {
       "id": "nat-30",
@@ -764,7 +764,7 @@
       "diag_status": "DIAGNOSED",
       "diag_primary": "conceptual_failure",
       "diag_prereq": false,
-      "latency_s": 0.006
+      "latency_s": 0.0045
     },
     {
       "id": "nat-31",
@@ -789,7 +789,7 @@
       "diag_status": "DIAGNOSED",
       "diag_primary": "conceptual_failure",
       "diag_prereq": false,
-      "latency_s": 0.0056
+      "latency_s": 0.0046
     },
     {
       "id": "nat-32",
@@ -814,7 +814,7 @@
       "diag_status": "DIAGNOSED",
       "diag_primary": "conceptual_failure",
       "diag_prereq": false,
-      "latency_s": 0.0053
+      "latency_s": 0.0041
     },
     {
       "id": "nat-33",
@@ -839,7 +839,7 @@
       "diag_status": "DIAGNOSED",
       "diag_primary": "conceptual_failure",
       "diag_prereq": false,
-      "latency_s": 0.0055
+      "latency_s": 0.0044
     },
     {
       "id": "nat-34",
@@ -864,7 +864,7 @@
       "diag_status": "DIAGNOSED",
       "diag_primary": "conceptual_failure",
       "diag_prereq": false,
-      "latency_s": 0.0066
+      "latency_s": 0.0052
     },
     {
       "id": "nat-35",
@@ -889,7 +889,7 @@
       "diag_status": "DIAGNOSED",
       "diag_primary": "conceptual_failure",
       "diag_prereq": false,
-      "latency_s": 0.007
+      "latency_s": 0.0045
     },
     {
       "id": "nat-36",
@@ -914,7 +914,7 @@
       "diag_status": "INCONCLUSIVE",
       "diag_primary": "unknown",
       "diag_prereq": false,
-      "latency_s": 0.0068
+      "latency_s": 0.0053
     },
     {
       "id": "nat-37",
@@ -939,7 +939,7 @@
       "diag_status": "DIAGNOSED",
       "diag_primary": "conceptual_failure",
       "diag_prereq": false,
-      "latency_s": 0.0077
+      "latency_s": 0.0045
     },
     {
       "id": "nat-38",
@@ -964,7 +964,7 @@
       "diag_status": "DIAGNOSED",
       "diag_primary": "conceptual_failure",
       "diag_prereq": false,
-      "latency_s": 0.009
+      "latency_s": 0.0058
     },
     {
       "id": "nat-39",
@@ -989,7 +989,7 @@
       "diag_status": "INCONCLUSIVE",
       "diag_primary": "unknown",
       "diag_prereq": false,
-      "latency_s": 0.0076
+      "latency_s": 0.0061
     },
     {
       "id": "nat-40",
@@ -1014,7 +1014,7 @@
       "diag_status": "DIAGNOSED",
       "diag_primary": "conceptual_failure",
       "diag_prereq": false,
-      "latency_s": 0.0052
+      "latency_s": 0.0041
     }
   ]
 }

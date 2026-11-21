@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T09:00:56.991644+00:00",
+  "generated_at": "2026-10-12T00:41:45.352681+00:00",
   "n": 100,
   "metrics": {
     "A": {
@@ -7137,7 +7137,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0109
+        "latency_s": 0.0108
       },
       {
         "id": "ad-vm-arith-02",
@@ -7209,7 +7209,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0106
+        "latency_s": 0.0102
       },
       {
         "id": "ad-vm-arith-04",
@@ -7245,7 +7245,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0105
+        "latency_s": 0.012
       },
       {
         "id": "ad-vm-arith-05",
@@ -7317,7 +7317,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0105
+        "latency_s": 0.0101
       },
       {
         "id": "ad-vm-arith-07",
@@ -7353,7 +7353,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0105
+        "latency_s": 0.0107
       },
       {
         "id": "ad-vm-arith-08",
@@ -7389,7 +7389,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0103
+        "latency_s": 0.0102
       },
       {
         "id": "ad-vm-arith-09",
@@ -7425,7 +7425,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0124
+        "latency_s": 0.0102
       },
       {
         "id": "ad-vm-arith-10",
@@ -7461,7 +7461,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0105
+        "latency_s": 0.0133
       },
       {
         "id": "ad-vm-class-01",
@@ -7497,7 +7497,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.016
+        "latency_s": 0.0158
       },
       {
         "id": "ad-vm-class-02",
@@ -7533,7 +7533,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0156
+        "latency_s": 0.0175
       },
       {
         "id": "ad-vm-class-03",
@@ -7569,7 +7569,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0156
+        "latency_s": 0.0173
       },
       {
         "id": "ad-vm-class-04",
@@ -7605,7 +7605,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0177
+        "latency_s": 0.0157
       },
       {
         "id": "ad-vm-class-05",
@@ -7641,7 +7641,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0156
+        "latency_s": 0.0154
       },
       {
         "id": "ad-vm-class-06",
@@ -7677,7 +7677,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0156
+        "latency_s": 0.0155
       },
       {
         "id": "ad-vm-class-07",
@@ -7713,7 +7713,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0157
+        "latency_s": 0.0158
       },
       {
         "id": "ad-vm-class-08",
@@ -7749,7 +7749,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0157
+        "latency_s": 0.016
       },
       {
         "id": "ad-vm-noco-01",
@@ -7821,7 +7821,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0139
+        "latency_s": 0.0158
       },
       {
         "id": "ad-vm-noco-03",
@@ -7857,7 +7857,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0139
+        "latency_s": 0.0144
       },
       {
         "id": "ad-vm-noco-04",
@@ -7893,7 +7893,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0141
+        "latency_s": 0.014
       },
       {
         "id": "ad-vm-noco-05",
@@ -7929,7 +7929,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.014
+        "latency_s": 0.0146
       },
       {
         "id": "ad-vm-noco-06",
@@ -7965,7 +7965,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0166
+        "latency_s": 0.0142
       },
       {
         "id": "ad-vm-formula-01",
@@ -8001,7 +8001,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0106
+        "latency_s": 0.0103
       },
       {
         "id": "ad-vm-formula-02",
@@ -8037,7 +8037,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0106
+        "latency_s": 0.0102
       },
       {
         "id": "ad-vm-formula-03",
@@ -8073,7 +8073,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0106
+        "latency_s": 0.0107
       },
       {
         "id": "ad-vm-formula-04",
@@ -8109,7 +8109,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0107
+        "latency_s": 0.0108
       },
       {
         "id": "ad-vm-formula-05",
@@ -8145,7 +8145,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0104
+        "latency_s": 0.0103
       },
       {
         "id": "ad-vm-formula-06",
@@ -8181,7 +8181,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0104
+        "latency_s": 0.0102
       },
       {
         "id": "ad-corr-mech-01",
@@ -8217,7 +8217,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0107
+        "latency_s": 0.0102
       },
       {
         "id": "ad-corr-mech-02",
@@ -8253,7 +8253,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0115
+        "latency_s": 0.0106
       },
       {
         "id": "ad-corr-mech-03",
@@ -8289,7 +8289,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0105
+        "latency_s": 0.0104
       },
       {
         "id": "ad-corr-mech-04",
@@ -8325,7 +8325,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0112
+        "latency_s": 0.0103
       },
       {
         "id": "ad-corr-mech-05",
@@ -8361,7 +8361,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0105
+        "latency_s": 0.0107
       },
       {
         "id": "ad-corr-mech-06",
@@ -8433,7 +8433,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0124
+        "latency_s": 0.0104
       },
       {
         "id": "ad-corr-mech-08",
@@ -8469,7 +8469,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.011
+        "latency_s": 0.0104
       },
       {
         "id": "ad-corr-mech-09",
@@ -8505,7 +8505,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0105
+        "latency_s": 0.0103
       },
       {
         "id": "ad-corr-mech-10",
@@ -8541,7 +8541,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0105
+        "latency_s": 0.011
       },
       {
         "id": "ad-corr-class-01",
@@ -8577,7 +8577,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0182
+        "latency_s": 0.0159
       },
       {
         "id": "ad-corr-class-02",
@@ -8613,7 +8613,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.018
+        "latency_s": 0.016
       },
       {
         "id": "ad-corr-class-03",
@@ -8649,7 +8649,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0158
+        "latency_s": 0.0156
       },
       {
         "id": "ad-corr-class-04",
@@ -8685,7 +8685,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0187
+        "latency_s": 0.0174
       },
       {
         "id": "ad-corr-class-05",
@@ -8721,7 +8721,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0159
+        "latency_s": 0.0155
       },
       {
         "id": "ad-corr-class-06",
@@ -8757,7 +8757,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.016
+        "latency_s": 0.0156
       },
       {
         "id": "ad-corr-class-07",
@@ -8793,7 +8793,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0282
+        "latency_s": 0.017
       },
       {
         "id": "ad-corr-class-08",
@@ -8829,7 +8829,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.017
+        "latency_s": 0.016
       },
       {
         "id": "ad-corr-class-09",
@@ -8865,7 +8865,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0157
+        "latency_s": 0.0169
       },
       {
         "id": "ad-corr-class-10",
@@ -8901,7 +8901,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0157
+        "latency_s": 0.0158
       },
       {
         "id": "ad-pre-rej-01",
@@ -8937,7 +8937,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0138
+        "latency_s": 0.0203
       },
       {
         "id": "ad-pre-rej-02",
@@ -8973,7 +8973,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0144
+        "latency_s": 0.0169
       },
       {
         "id": "ad-pre-rej-03",
@@ -9009,7 +9009,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0146
+        "latency_s": 0.0169
       },
       {
         "id": "ad-pre-rej-04",
@@ -9045,7 +9045,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0197
+        "latency_s": 0.0158
       },
       {
         "id": "ad-pre-rej-05",
@@ -9081,7 +9081,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0157
+        "latency_s": 0.0155
       },
       {
         "id": "ad-pre-rej-06",
@@ -9117,7 +9117,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0139
+        "latency_s": 0.0187
       },
       {
         "id": "ad-pre-rej-07",
@@ -9153,7 +9153,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0141
+        "latency_s": 0.021
       },
       {
         "id": "ad-pre-rej-08",
@@ -9189,7 +9189,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0138
+        "latency_s": 0.0188
       },
       {
         "id": "ad-pre-rej-09",
@@ -9225,7 +9225,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0145
+        "latency_s": 0.0158
       },
       {
         "id": "ad-pre-rej-10",
@@ -9261,7 +9261,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0141
+        "latency_s": 0.0196
       },
       {
         "id": "ad-pre-rej-11",
@@ -9297,7 +9297,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0156
+        "latency_s": 0.0203
       },
       {
         "id": "ad-pre-rej-12",
@@ -9333,7 +9333,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0157
+        "latency_s": 0.0204
       },
       {
         "id": "ad-pre-rej-13",
@@ -9369,7 +9369,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0142
+        "latency_s": 0.0227
       },
       {
         "id": "ad-pre-rej-14",
@@ -9405,7 +9405,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0139
+        "latency_s": 0.0219
       },
       {
         "id": "ad-pre-rej-15",
@@ -9441,7 +9441,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0138
+        "latency_s": 0.0198
       },
       {
         "id": "ad-pre-conf-01",
@@ -9477,7 +9477,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0136
+        "latency_s": 0.0184
       },
       {
         "id": "ad-pre-conf-02",
@@ -9513,7 +9513,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0135
+        "latency_s": 0.0188
       },
       {
         "id": "ad-pre-conf-03",
@@ -9549,7 +9549,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0156
+        "latency_s": 0.0181
       },
       {
         "id": "ad-pre-conf-04",
@@ -9585,7 +9585,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0137
+        "latency_s": 0.0174
       },
       {
         "id": "ad-pre-conf-05",
@@ -9621,7 +9621,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0162
+        "latency_s": 0.0169
       },
       {
         "id": "ad-pre-conf-06",
@@ -9657,7 +9657,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0193
+        "latency_s": 0.017
       },
       {
         "id": "ad-pre-conf-07",
@@ -9693,7 +9693,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0162
+        "latency_s": 0.0176
       },
       {
         "id": "ad-pre-conf-08",
@@ -9729,7 +9729,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0165
+        "latency_s": 0.0164
       },
       {
         "id": "ad-pre-conf-09",
@@ -9765,7 +9765,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0163
+        "latency_s": 0.0152
       },
       {
         "id": "ad-pre-conf-10",
@@ -9873,7 +9873,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0169
+        "latency_s": 0.0142
       },
       {
         "id": "ad-pre-conf-13",
@@ -9909,7 +9909,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0166
+        "latency_s": 0.0139
       },
       {
         "id": "ad-pre-conf-14",
@@ -9945,7 +9945,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0173
+        "latency_s": 0.0154
       },
       {
         "id": "ad-pre-conf-15",
@@ -9981,7 +9981,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0175
+        "latency_s": 0.0149
       },
       {
         "id": "ad-mc-to-arith-01",
@@ -10017,7 +10017,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0128
+        "latency_s": 0.0109
       },
       {
         "id": "ad-mc-to-arith-02",
@@ -10053,7 +10053,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0128
+        "latency_s": 0.0116
       },
       {
         "id": "ad-mc-to-arith-03",
@@ -10089,7 +10089,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0162
+        "latency_s": 0.0125
       },
       {
         "id": "ad-mc-to-arith-04",
@@ -10125,7 +10125,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0168
+        "latency_s": 0.0108
       },
       {
         "id": "ad-mc-to-arith-05",
@@ -10161,7 +10161,7 @@
         "n_events": 1,
         "status": "RESOLVED",
         "persist": false,
-        "latency_s": 0.0161
+        "latency_s": 0.0108
       },
       {
         "id": "ad-mc-to-concept-01",
@@ -10197,7 +10197,7 @@
         "n_events": 1,
         "status": "ACTIVE",
         "persist": false,
-        "latency_s": 0.0134
+        "latency_s": 0.0115
       },
       {
         "id": "ad-mc-to-concept-02",
@@ -10233,7 +10233,7 @@
         "n_events": 1,
         "status": "ACTIVE",
         "persist": false,
-        "latency_s": 0.0128
+        "latency_s": 0.0113
       },
       {
         "id": "ad-mc-to-concept-03",
@@ -10269,7 +10269,7 @@
         "n_events": 1,
         "status": "ACTIVE",
         "persist": false,
-        "latency_s": 0.0128
+        "latency_s": 0.0108
       },
       {
         "id": "ad-mc-to-concept-04",
@@ -10305,7 +10305,7 @@
         "n_events": 1,
         "status": "ACTIVE",
         "persist": false,
-        "latency_s": 0.0127
+        "latency_s": 0.0117
       },
       {
         "id": "ad-mc-to-concept-05",
@@ -10341,7 +10341,7 @@
         "n_events": 1,
         "status": "ACTIVE",
         "persist": false,
-        "latency_s": 0.0127
+        "latency_s": 0.0109
       },
       {
         "id": "ad-inc-01",
@@ -10377,7 +10377,7 @@
         "n_events": 3,
         "status": "NEED_MORE_EVIDENCE",
         "persist": false,
-        "latency_s": 0.0103
+        "latency_s": 0.0057
       },
       {
         "id": "ad-inc-02",
@@ -10413,7 +10413,7 @@
         "n_events": 3,
         "status": "NEED_MORE_EVIDENCE",
         "persist": false,
-        "latency_s": 0.0073
+        "latency_s": 0.0056
       },
       {
         "id": "ad-inc-03",
@@ -10449,7 +10449,7 @@
         "n_events": 3,
         "status": "NEED_MORE_EVIDENCE",
         "persist": false,
-        "latency_s": 0.0068
+        "latency_s": 0.0061
       },
       {
         "id": "ad-inc-04",
@@ -10485,7 +10485,7 @@
         "n_events": 3,
         "status": "NEED_MORE_EVIDENCE",
         "persist": false,
-        "latency_s": 0.0066
+        "latency_s": 0.0062
       },
       {
         "id": "ad-inc-05",
@@ -10521,7 +10521,7 @@
         "n_events": 3,
         "status": "NEED_MORE_EVIDENCE",
         "persist": false,
-        "latency_s": 0.0103
+        "latency_s": 0.006
       },
       {
         "id": "ad-inc-06",
@@ -10557,7 +10557,7 @@
         "n_events": 3,
         "status": "NEED_MORE_EVIDENCE",
         "persist": false,
-        "latency_s": 0.0085
+        "latency_s": 0.0061
       },
       {
         "id": "ad-inc-07",
@@ -10593,7 +10593,7 @@
         "n_events": 3,
         "status": "NEED_MORE_EVIDENCE",
         "persist": false,
-        "latency_s": 0.0068
+        "latency_s": 0.0057
       },
       {
         "id": "ad-inc-08",
@@ -10629,7 +10629,7 @@
         "n_events": 3,
         "status": "NEED_MORE_EVIDENCE",
         "persist": false,
-        "latency_s": 0.0069
+        "latency_s": 0.0064
       },
       {
         "id": "ad-inc-09",
@@ -10665,7 +10665,7 @@
         "n_events": 3,
         "status": "NEED_MORE_EVIDENCE",
         "persist": false,
-        "latency_s": 0.0069
+        "latency_s": 0.0057
       },
       {
         "id": "ad-inc-10",
@@ -10701,7 +10701,7 @@
         "n_events": 3,
         "status": "NEED_MORE_EVIDENCE",
         "persist": false,
-        "latency_s": 0.0066
+        "latency_s": 0.0057
       }
     ]
   }

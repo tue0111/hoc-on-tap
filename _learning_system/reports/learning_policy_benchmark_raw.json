@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T09:01:01.109112+00:00",
+  "generated_at": "2026-10-12T00:41:49.476809+00:00",
   "metrics": {
     "A": {
       "n": 180,
@@ -6414,10 +6414,10 @@
     "pass_rate": 1.0,
     "fail": [],
     "by_category": {
-      "recovery_loop": 20,
       "stay_supported": 20,
+      "prereq_then_current": 20,
       "gather_then_continue": 20,
-      "prereq_then_current": 20
+      "recovery_loop": 20
     },
     "rows": [
       {
