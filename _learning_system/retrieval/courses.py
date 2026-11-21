@@ -94,18 +94,22 @@ def _cue_table() -> list[tuple[str, list[tuple[str, re.Pattern]]]]:
 def detect_courses(question: str, include_pseudo: bool = False) -> list[str]:
     """Non-core course ids whose cues occur in the question, ordered by first position."""
     q = fold(question)
-    hits = []
+    spans = []  # (start, end, cid)
     for cid, cues in _cue_table():
         if cid in PSEUDO and not include_pseudo:
             continue
-        best = None
         for _cue, rx in cues:
-            m = rx.search(q)
-            if m and (best is None or m.start() < best):
-                best = m.start()
-        if best is not None:
-            hits.append((best, cid))
-    hits.sort()
+            spans += [(m.start(), m.end(), cid) for m in rx.finditer(q)]
+    # W6b: a cue match lying strictly inside a longer match of ANOTHER course is masked
+    # (e.g. "hành chính sự nghiệp" inside "kế toán hành chính sự nghiệp").
+    kept = [s for s in spans
+            if not any(o[2] != s[2] and o[0] <= s[0] and s[1] <= o[1] and (o[1] - o[0]) > (s[1] - s[0])
+                       for o in spans)]
+    best = {}
+    for start, _end, cid in kept:
+        if cid not in best or start < best[cid]:
+            best[cid] = start
+    hits = sorted((start, cid) for cid, start in best.items())
     return [cid for _, cid in hits]
 
 

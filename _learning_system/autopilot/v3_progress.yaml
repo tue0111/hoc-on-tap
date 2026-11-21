@@ -1,29 +1,40 @@
 plan_version: '1.0'
 current_wave: 6
-current_step: PAUSE after G6 PASS with learner-approved RAM simulation; R1 ownership repair resolved, KTCP/KTNH enabled, TCDN1 catalog. Wave 7 OPUS_ONLY not started.
+current_step: 'W6b Pha A done (2026-11-21); Pha B per-course sessions next. Plan:
+  reports/v3/PLAN_W6B_MON_MOI.md'
 steps:
   R1:
     status: done_with_local_catalog_failure
     at: '2026-10-12'
     rounds: 2
     report: reports/v3/R1_CONTINUATION.md
-    note: Learner authorized ownership-rule repair; seven old outputs and rank/score byte-identical after actual promotion. KTCP passes with D2 waiver; KTNH passes; TCDN1 0.5833 remains catalog. Core IDENTICAL.
+    note: Learner authorized ownership-rule repair; seven old outputs and rank/score
+      byte-identical after actual promotion. KTCP passes with D2 waiver; KTNH passes;
+      TCDN1 0.5833 remains catalog. Core IDENTICAL.
   '6.1':
     status: done
-    note: Native read-only Windows listing; 0 NEW / 0 CHANGED / 0 MISSING. Hash-bound staged plans, core hash guard.
+    note: Native read-only Windows listing; 0 NEW / 0 CHANGED / 0 MISSING. Hash-bound
+      staged plans, core hash guard.
   '6.2':
     status: done
-    note: Append-only revision inventory, isolated candidate apply, review gates, affected-partition builds, no-op verified. Real new-source disk publication not exercised.
+    note: Append-only revision inventory, isolated candidate apply, review gates,
+      affected-partition builds, no-op verified. Real new-source disk publication
+      not exercised.
   '6.3':
     status: done
-    note: OPUS_ONLY guard covers core NEW/CHANGED/MISSING and hash mismatches; index 2.0.0 untouched.
+    note: OPUS_ONLY guard covers core NEW/CHANGED/MISSING and hash mismatches; index
+      2.0.0 untouched.
   '6.4':
     status: done_no_new_sources
-    note: Refresh wires citation harvest, official-source review or explicit unknown, record-preserving external rebuild and frozen checks. No new live citations in current no-op.
+    note: Refresh wires citation harvest, official-source review or explicit unknown,
+      record-preserving external rebuild and frozen checks. No new live citations
+      in current no-op.
   '6.5':
     status: done
     report: reports/v3/G6.md
-    note: README kickoff instructions updated. Learner explicitly approved RAM-only simulation instead of cloud mirror; 8 tests pass, 167 protected/data artifacts byte-identical after no-op/simulation.
+    note: README kickoff instructions updated. Learner explicitly approved RAM-only
+      simulation instead of cloud mirror; 8 tests pass, 167 protected/data artifacts
+      byte-identical after no-op/simulation.
   '0.1':
     status: done
     at: '2026-10-11'
@@ -481,6 +492,15 @@ steps:
     at: '20261011_155540'
     note: Additive notes; explicit course/core/learner routing priority preserved;
       no curriculum item/coverage changes; external answers labeled.
+  W6b.A:
+    status: done
+    at: '2026-11-21'
+    note: 'Registry +4 courses (catalog), COURSE_IDS +4, parser rules kttc3/c_cd_p/kthcsn/thue_cn/htttkt_clip
+      (0 diffs on 339 old rows), courses.py nested-cue masking (0 diffs on 318 eval
+      questions; 9 retrieval course evals SAME A/B), inventory src-0340..0595 via
+      scripts/w6b_append_inventory.py, core regression IDENTICAL. Found: v3_refresh
+      listing now sees .git/_grok_pack/README in D:\Hoc (would block Wave 6). Backup
+      backups/w6b_20261121.'
 gates:
   G0:
     status: pass
@@ -564,16 +584,21 @@ gates:
     core_regression: IDENTICAL
     candidate_regression: reports/v3/run_20261011_225247
     enabled_runtime_regression: reports/v3/run_20261011_225542
-    unchanged_course_results: 7 curriculum courses plus learner-notes identical to G3x fixed
+    unchanged_course_results: 7 curriculum courses plus learner-notes identical to
+      G3x fixed
     limitations: 62 unknown status records; official PDF download gaps; no human bot
       acceptance.
   G6:
     status: pass_approved_ram_simulation
     report: reports/v3/G6.md
-    counts: {NEW: 0, CHANGED: 0, MISSING: 0}
+    counts:
+      NEW: 0
+      CHANGED: 0
+      MISSING: 0
     simulation_tests: 8
     core_regression: reports/v3/run_20261012_074136
-    limitation: No new-source disk-publication or concurrent-reader acceptance test; first unique content requires semantic/citation review.
+    limitation: No new-source disk-publication or concurrent-reader acceptance test;
+      first unique content requires semantic/citation review.
 escalations:
 - step: G1
   reason: 'insufficient gate 0/3: min-max hybrid score makes top score always >=0.15,
@@ -632,6 +657,9 @@ escalations:
   at: '2026-10-11T14:43:25.380868+00:00'
   resolution: null
 - step: R1.promotion
-  reason: Newly enabled KTCP triggers tier-dependent topic-owner coverage in KTTC2 and changes LKD unknowns. Non-target output invariance fails despite identical rank and score. All R1 runtime/data changes reverted; Wave 6 not started.
+  reason: Newly enabled KTCP triggers tier-dependent topic-owner coverage in KTTC2
+    and changes LKD unknowns. Non-target output invariance fails despite identical
+    rank and score. All R1 runtime/data changes reverted; Wave 6 not started.
   at: '2026-10-12'
-  resolution: Learner authorization 2026-10-12; ownership-rule fix verified with byte-identical old-course output. reports/v3/R1_CONTINUATION.md
+  resolution: Learner authorization 2026-10-12; ownership-rule fix verified with byte-identical
+    old-course output. reports/v3/R1_CONTINUATION.md

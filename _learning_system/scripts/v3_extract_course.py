@@ -30,6 +30,12 @@ RULES = [
     ("chuong_chude_vn", re.compile(r"Chuong(\d+)-Chu\s*de\s*(\d+\.\d+)", re.I), lambda m: (m[1], m[2], None)),
     ("lkd", re.compile(r"LKD-C(\d+)-\s*CD\.?\s*(\d+\.\d+)", re.I), lambda m: (m[1], m[2], None)),
     ("nlkt", re.compile(r"NLKT-C(\d+)-CD(\d+\.\d+)", re.I), lambda m: (m[1], m[2], None)),
+    # W6b (2026-11-21) new-course rules; must not match any pre-W6b filename (checked by re-parse diff)
+    ("kttc3", re.compile(r"KTTC3-C(\d+)-\s*CD(\d+\.\d+)", re.I), lambda m: (m[1], m[2], None)),
+    ("c_cd_p", re.compile(r"(?<![A-Za-z0-9])C(\d+)_CD(\d+\.\d+)(?:_P(\d+))?", re.I), lambda m: (m[1], m[2], f"P{m[3]}" if m[3] else None)),
+    ("kthcsn", re.compile(r"KTHCSN-C(\d+)-CD(\d+\.\d+)(?:\s*-\s*P(\d+))?", re.I), lambda m: (m[1], m[2], f"P{m[3]}" if m[3] else None)),
+    ("thue_cn", re.compile(r"(?<![A-Za-z0-9])C(\d+)[._]\s*(?:Scr?ipt?\s*CHUONG|chủ đề|chu de)\s*(\d+\.\d+)", re.I), lambda m: (m[1], m[2], None)),
+    ("htttkt_clip", re.compile(r"_+Chuong(\d+)_+(?:Clip(\d+)_+)?", re.I), lambda m: (m[1], f"clip {m[2]}" if m[2] else None, None)),
     ("chuong", re.compile(r"(?:Slide\s*)?(?:Chương|chương|Chuong)\s*(\d+)", re.I), lambda m: (m[1], None, None)),
 ]
 

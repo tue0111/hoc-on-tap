@@ -53,7 +53,7 @@
       "n_events": 1,
       "status": "RESOLVED",
       "persist": false,
-      "latency_s": 0.0147
+      "latency_s": 0.0183
     },
     {
       "id": "adv-02-contradict",
@@ -89,7 +89,7 @@
       "n_events": 2,
       "status": "NEED_MORE_EVIDENCE",
       "persist": false,
-      "latency_s": 0.0233
+      "latency_s": 0.0252
     },
     {
       "id": "adv-03-copied",
@@ -125,7 +125,7 @@
       "n_events": 1,
       "status": "ACTIVE",
       "persist": false,
-      "latency_s": 0.0162
+      "latency_s": 0.0231
     },
     {
       "id": "adv-04-wrong-reason",
@@ -161,7 +161,7 @@
       "n_events": 1,
       "status": "ACTIVE",
       "persist": false,
-      "latency_s": 0.0114
+      "latency_s": 0.0178
     },
     {
       "id": "adv-05-calc",
@@ -197,7 +197,7 @@
       "n_events": 1,
       "status": "RESOLVED",
       "persist": false,
-      "latency_s": 0.0108
+      "latency_s": 0.0179
     },
     {
       "id": "adv-06-hieuroi",
@@ -233,7 +233,7 @@
       "n_events": 1,
       "status": "NEED_MORE_EVIDENCE",
       "persist": false,
-      "latency_s": 0.0096
+      "latency_s": 0.0095
     },
     {
       "id": "adv-07-chacvay",
@@ -269,7 +269,7 @@
       "n_events": 1,
       "status": "NEED_MORE_EVIDENCE",
       "persist": false,
-      "latency_s": 0.007
+      "latency_s": 0.0087
     },
     {
       "id": "adv-08-other-q",
@@ -305,7 +305,7 @@
       "n_events": 1,
       "status": "NEED_MORE_EVIDENCE",
       "persist": false,
-      "latency_s": 0.0164
+      "latency_s": 0.0167
     },
     {
       "id": "adv-09-incomplete-je",
@@ -341,7 +341,7 @@
       "n_events": 1,
       "status": "NEED_MORE_EVIDENCE",
       "persist": false,
-      "latency_s": 0.0165
+      "latency_s": 0.0189
     },
     {
       "id": "adv-10-shorthand",
@@ -377,7 +377,7 @@
       "n_events": 1,
       "status": "RESOLVED",
       "persist": false,
-      "latency_s": 0.0153
+      "latency_s": 0.0206
     },
     {
       "id": "adv-11-transfer-fail",
@@ -413,7 +413,7 @@
       "n_events": 1,
       "status": "ACTIVE",
       "persist": false,
-      "latency_s": 0.0163
+      "latency_s": 0.0271
     },
     {
       "id": "adv-12-self-then-fail",
@@ -449,7 +449,7 @@
       "n_events": 2,
       "status": "RESOLVED",
       "persist": false,
-      "latency_s": 0.0128
+      "latency_s": 0.0233
     },
     {
       "id": "adv-13-empty",
@@ -485,7 +485,7 @@
       "n_events": 1,
       "status": "NEED_MORE_EVIDENCE",
       "persist": false,
-      "latency_s": 0.0072
+      "latency_s": 0.0116
     },
     {
       "id": "adv-14-double-arith-concept",
@@ -521,7 +521,7 @@
       "n_events": 2,
       "status": "RESOLVED",
       "persist": false,
-      "latency_s": 0.0179
+      "latency_s": 0.0268
     },
     {
       "id": "adv-15-prereq-then-reject",
@@ -557,7 +557,7 @@
       "n_events": 1,
       "status": "RESOLVED",
       "persist": false,
-      "latency_s": 0.0162
+      "latency_s": 0.0218
     },
     {
       "id": "adv-16-three-vague",
@@ -593,7 +593,7 @@
       "n_events": 3,
       "status": "NEED_MORE_EVIDENCE",
       "persist": false,
-      "latency_s": 0.0044
+      "latency_s": 0.0055
     }
   ]
 }

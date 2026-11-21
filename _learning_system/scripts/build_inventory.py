@@ -35,6 +35,11 @@ COURSE_IDS = {
     "Thị trường tài chính": "thi-truong-tai-chinh",
     "Tài chính doanh nghiệp 1": "tai-chinh-doanh-nghiep-1",
     "Tài chính hành chính sự nghiệp": "tai-chinh-hanh-chinh-su-nghiep",
+    # W6b (2026-11-21): new course folders
+    "Hệ thống thông tin kế toán 1": "he-thong-thong-tin-ke-toan-1",
+    "Kế toán thuế 1": "ke-toan-thue-1",
+    "Kế toán tài chính 3": "ke-toan-tai-chinh-3",
+    "Kế toán hành chính sự nghiệp": "ke-toan-hanh-chinh-su-nghiep",
 }
 
 ARTIFACT_PATH_RE = re.compile(

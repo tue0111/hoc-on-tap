@@ -125,4 +125,43 @@ courses:
   - còn hiệu lực
   - quy định mới
   - thay thế thông tư
+# W6b (2026-11-21): new courses, start at catalog; codes OBSERVED from filenames of Ôn tập/Đề thi mẫu files
+- id: he-thong-thong-tin-ke-toan-1
+  name: Hệ thống thông tin kế toán 1
+  codes:
+  - ACCO3315
+  tier: catalog
+  cues:
+  - hệ thống thông tin kế toán
+  - httt kế toán
+  - htttkt1
+  - htttkt
+  - acco3315
+- id: ke-toan-thue-1
+  name: Kế toán thuế 1
+  codes:
+  - ACCO2311
+  tier: catalog
+  cues:
+  - kế toán thuế
+  - kt thuế 1
+  - acco2311
+- id: ke-toan-tai-chinh-3
+  name: Kế toán tài chính 3
+  codes:
+  - ACCO3310
+  tier: catalog
+  cues:
+  - kế toán tài chính 3
+  - kttc3
+  - kttc 3
+  - acco3310
+- id: ke-toan-hanh-chinh-su-nghiep
+  name: Kế toán hành chính sự nghiệp
+  codes: []
+  tier: catalog
+  cues:
+  - kế toán hành chính sự nghiệp
+  - kế toán hcsn
+  - kthcsn
 partition_root: data/indexes/3.0.0

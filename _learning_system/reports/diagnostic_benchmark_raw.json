@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T00:41:41.531303+00:00",
+  "generated_at": "2026-11-21T09:00:53.021715+00:00",
   "n_cases": 90,
   "metrics": {
     "A": {
@@ -143,7 +143,7 @@
           "rate": 1.0
         }
       },
-      "latency_mean_s": 0.0062
+      "latency_mean_s": 0.0061
     }
   },
   "rows": {
@@ -176,7 +176,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.1769,
+        "latency_s": 0.1703,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -208,7 +208,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.008,
+        "latency_s": 0.0072,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -240,7 +240,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0065,
+        "latency_s": 0.0067,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -272,7 +272,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0065,
+        "latency_s": 0.0066,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -336,7 +336,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0059,
+        "latency_s": 0.0061,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -400,7 +400,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0068,
+        "latency_s": 0.0069,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -464,7 +464,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0066,
+        "latency_s": 0.0064,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -496,7 +496,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0053,
+        "latency_s": 0.0055,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -560,7 +560,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0062,
+        "latency_s": 0.0065,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -592,7 +592,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0064,
+        "latency_s": 0.0065,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -624,7 +624,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0058,
+        "latency_s": 0.0057,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -656,7 +656,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0075,
+        "latency_s": 0.0077,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -688,7 +688,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0075,
+        "latency_s": 0.0078,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -720,7 +720,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0067,
+        "latency_s": 0.0068,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -752,7 +752,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.2028,
+        "latency_s": 0.2088,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -784,7 +784,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0065,
+        "latency_s": 0.0066,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -816,7 +816,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0072,
+        "latency_s": 0.0073,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -848,7 +848,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0056,
+        "latency_s": 0.0057,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -880,7 +880,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0076,
+        "latency_s": 0.0081,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -912,7 +912,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0071,
+        "latency_s": 0.0069,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -944,7 +944,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0058,
+        "latency_s": 0.006,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -976,7 +976,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0057,
+        "latency_s": 0.0055,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -1008,7 +1008,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0067,
+        "latency_s": 0.0068,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -1040,7 +1040,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0064,
+        "latency_s": 0.0066,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -1104,7 +1104,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0065,
+        "latency_s": 0.0066,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -1136,7 +1136,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0066,
+        "latency_s": 0.0062,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -1168,7 +1168,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0062,
+        "latency_s": 0.0063,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -1200,7 +1200,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0059,
+        "latency_s": 0.0069,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -1232,7 +1232,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0061,
+        "latency_s": 0.0063,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -1264,7 +1264,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0075,
+        "latency_s": 0.0081,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -1328,7 +1328,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0074,
+        "latency_s": 0.0078,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -1360,7 +1360,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0086,
+        "latency_s": 0.0068,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -1392,7 +1392,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0064,
+        "latency_s": 0.0065,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -1424,7 +1424,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0069,
+        "latency_s": 0.0066,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -1456,7 +1456,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0056,
+        "latency_s": 0.0057,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -1488,7 +1488,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0065,
+        "latency_s": 0.0068,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -1520,7 +1520,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0054,
+        "latency_s": 0.0053,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -1552,7 +1552,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0064,
+        "latency_s": 0.0066,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -1584,7 +1584,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0047,
+        "latency_s": 0.0048,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -1616,7 +1616,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0058,
+        "latency_s": 0.0057,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -1648,7 +1648,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0066,
+        "latency_s": 0.0079,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -1712,7 +1712,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.005,
+        "latency_s": 0.0049,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -1744,7 +1744,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0067,
+        "latency_s": 0.0068,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -1776,7 +1776,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0057,
+        "latency_s": 0.0054,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -1808,7 +1808,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0072,
+        "latency_s": 0.0075,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -1904,7 +1904,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0062,
+        "latency_s": 0.0067,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -1968,7 +1968,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0043,
+        "latency_s": 0.0045,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -2000,7 +2000,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0065,
+        "latency_s": 0.0072,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -2032,7 +2032,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0053,
+        "latency_s": 0.0055,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -2064,7 +2064,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.004,
+        "latency_s": 0.0043,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -2096,7 +2096,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.2469,
+        "latency_s": 0.2381,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -2128,7 +2128,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0054,
+        "latency_s": 0.0055,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -2224,7 +2224,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0049,
+        "latency_s": 0.005,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -2256,7 +2256,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.003,
+        "latency_s": 0.0031,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -2320,7 +2320,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0088,
+        "latency_s": 0.0072,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -2352,7 +2352,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0033,
+        "latency_s": 0.0034,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -2384,7 +2384,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0031,
+        "latency_s": 0.0032,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -2416,7 +2416,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0052,
+        "latency_s": 0.005,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -2512,7 +2512,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0075,
+        "latency_s": 0.0076,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -2544,7 +2544,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0064,
+        "latency_s": 0.0065,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -2576,7 +2576,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0062,
+        "latency_s": 0.006,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -2608,7 +2608,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0058,
+        "latency_s": 0.0061,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -2672,7 +2672,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0059,
+        "latency_s": 0.0067,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -2704,7 +2704,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0066,
+        "latency_s": 0.0067,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -2736,7 +2736,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0045,
+        "latency_s": 0.0048,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -2768,7 +2768,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0057,
+        "latency_s": 0.0044,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -2800,7 +2800,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0067,
+        "latency_s": 0.0068,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -2832,7 +2832,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0032,
+        "latency_s": 0.0034,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -2864,7 +2864,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0051,
+        "latency_s": 0.0076,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -2896,7 +2896,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0042,
+        "latency_s": 0.0044,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -2928,7 +2928,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0034,
+        "latency_s": 0.0033,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -2960,7 +2960,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.005,
+        "latency_s": 0.0046,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -2992,7 +2992,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0047,
+        "latency_s": 0.0045,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -3024,7 +3024,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0033,
+        "latency_s": 0.0032,
         "confidence": "inconclusive",
         "question_asked": []
       }
@@ -3074,7 +3074,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0409,
+        "latency_s": 0.039,
         "confidence": "medium",
         "question_asked": []
       },
@@ -3122,7 +3122,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0071,
+        "latency_s": 0.0072,
         "confidence": "high",
         "question_asked": []
       },
@@ -3218,7 +3218,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0071,
+        "latency_s": 0.0072,
         "confidence": "medium",
         "question_asked": []
       },
@@ -3266,7 +3266,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0066,
+        "latency_s": 0.0067,
         "confidence": "medium",
         "question_asked": []
       },
@@ -3314,7 +3314,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0062,
+        "latency_s": 0.0064,
         "confidence": "medium",
         "question_asked": []
       },
@@ -3362,7 +3362,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0064,
+        "latency_s": 0.0065,
         "confidence": "medium",
         "question_asked": []
       },
@@ -3410,7 +3410,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0073,
+        "latency_s": 0.0071,
         "confidence": "medium",
         "question_asked": []
       },
@@ -3506,7 +3506,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0063,
+        "latency_s": 0.0064,
         "confidence": "medium",
         "question_asked": []
       },
@@ -3650,7 +3650,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0075,
+        "latency_s": 0.0066,
         "confidence": "medium",
         "question_asked": []
       },
@@ -3698,7 +3698,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0072,
+        "latency_s": 0.0067,
         "confidence": "high",
         "question_asked": []
       },
@@ -3746,7 +3746,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.006,
+        "latency_s": 0.0058,
         "confidence": "medium",
         "question_asked": []
       },
@@ -3842,7 +3842,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0079,
+        "latency_s": 0.0077,
         "confidence": "low",
         "question_asked": []
       },
@@ -3890,7 +3890,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.007,
+        "latency_s": 0.0073,
         "confidence": "medium",
         "question_asked": []
       },
@@ -3938,7 +3938,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0064,
+        "latency_s": 0.0065,
         "confidence": "low",
         "question_asked": []
       },
@@ -4034,7 +4034,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0072,
+        "latency_s": 0.0073,
         "confidence": "low",
         "question_asked": []
       },
@@ -4130,7 +4130,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0076,
+        "latency_s": 0.0077,
         "confidence": "medium",
         "question_asked": []
       },
@@ -4178,7 +4178,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0073,
+        "latency_s": 0.0072,
         "confidence": "medium",
         "question_asked": []
       },
@@ -4226,7 +4226,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0095,
+        "latency_s": 0.0061,
         "confidence": "medium",
         "question_asked": []
       },
@@ -4274,7 +4274,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.007,
+        "latency_s": 0.0056,
         "confidence": "medium",
         "question_asked": []
       },
@@ -4322,7 +4322,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0081,
+        "latency_s": 0.0069,
         "confidence": "low",
         "question_asked": []
       },
@@ -4418,7 +4418,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0065,
+        "latency_s": 0.0064,
         "confidence": "medium",
         "question_asked": []
       },
@@ -4466,7 +4466,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0065,
+        "latency_s": 0.0066,
         "confidence": "medium",
         "question_asked": []
       },
@@ -4514,7 +4514,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0065,
+        "latency_s": 0.0062,
         "confidence": "medium",
         "question_asked": []
       },
@@ -4610,7 +4610,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.006,
+        "latency_s": 0.0061,
         "confidence": "medium",
         "question_asked": []
       },
@@ -4658,7 +4658,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0064,
+        "latency_s": 0.0068,
         "confidence": "low",
         "question_asked": []
       },
@@ -4706,7 +4706,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0075,
+        "latency_s": 0.0093,
         "confidence": "medium",
         "question_asked": []
       },
@@ -4754,7 +4754,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0081,
+        "latency_s": 0.0078,
         "confidence": "high",
         "question_asked": []
       },
@@ -4802,7 +4802,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0075,
+        "latency_s": 0.0076,
         "confidence": "high",
         "question_asked": []
       },
@@ -4850,7 +4850,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0071,
+        "latency_s": 0.0069,
         "confidence": "high",
         "question_asked": []
       },
@@ -4898,7 +4898,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0064,
+        "latency_s": 0.0065,
         "confidence": "high",
         "question_asked": []
       },
@@ -4946,7 +4946,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0067,
+        "latency_s": 0.0066,
         "confidence": "high",
         "question_asked": []
       },
@@ -4994,7 +4994,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0058,
+        "latency_s": 0.0066,
         "confidence": "high",
         "question_asked": []
       },
@@ -5042,7 +5042,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0066,
+        "latency_s": 0.0115,
         "confidence": "high",
         "question_asked": []
       },
@@ -5090,7 +5090,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0075,
+        "latency_s": 0.0063,
         "confidence": "high",
         "question_asked": []
       },
@@ -5138,7 +5138,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0064,
+        "latency_s": 0.0067,
         "confidence": "high",
         "question_asked": []
       },
@@ -5186,7 +5186,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0052,
+        "latency_s": 0.0068,
         "confidence": "high",
         "question_asked": []
       },
@@ -5234,7 +5234,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0064,
+        "latency_s": 0.0065,
         "confidence": "high",
         "question_asked": []
       },
@@ -5282,7 +5282,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0067,
+        "latency_s": 0.0071,
         "confidence": "high",
         "question_asked": []
       },
@@ -5330,7 +5330,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0066,
+        "latency_s": 0.0063,
         "confidence": "high",
         "question_asked": []
       },
@@ -5426,7 +5426,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0068,
+        "latency_s": 0.0073,
         "confidence": "high",
         "question_asked": []
       },
@@ -5522,7 +5522,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0073,
+        "latency_s": 0.0074,
         "confidence": "low",
         "question_asked": []
       },
@@ -5570,7 +5570,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0045,
+        "latency_s": 0.0044,
         "confidence": "low",
         "question_asked": []
       },
@@ -5618,7 +5618,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0064,
+        "latency_s": 0.0065,
         "confidence": "high",
         "question_asked": []
       },
@@ -5666,7 +5666,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0065,
+        "latency_s": 0.009,
         "confidence": "high",
         "question_asked": []
       },
@@ -5714,7 +5714,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0095,
+        "latency_s": 0.0072,
         "confidence": "high",
         "question_asked": []
       },
@@ -5762,7 +5762,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0045,
+        "latency_s": 0.0048,
         "confidence": "low",
         "question_asked": []
       },
@@ -5810,7 +5810,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0061,
+        "latency_s": 0.0057,
         "confidence": "low",
         "question_asked": []
       },
@@ -5858,7 +5858,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0056,
+        "latency_s": 0.0055,
         "confidence": "high",
         "question_asked": []
       },
@@ -5906,7 +5906,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0044,
+        "latency_s": 0.0048,
         "confidence": "low",
         "question_asked": []
       },
@@ -6050,7 +6050,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0058,
+        "latency_s": 0.006,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -6098,7 +6098,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0062,
+        "latency_s": 0.0063,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -6146,7 +6146,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0051,
+        "latency_s": 0.0053,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -6194,7 +6194,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0031,
+        "latency_s": 0.0047,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -6242,7 +6242,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0057,
+        "latency_s": 0.0059,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -6290,7 +6290,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0072,
+        "latency_s": 0.0073,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -6338,7 +6338,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0037,
+        "latency_s": 0.0038,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -6482,7 +6482,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.005,
+        "latency_s": 0.0053,
         "confidence": "medium",
         "question_asked": []
       },
@@ -6530,7 +6530,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0094,
+        "latency_s": 0.0075,
         "confidence": "low",
         "question_asked": []
       },
@@ -6578,7 +6578,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0075,
+        "latency_s": 0.0077,
         "confidence": "high",
         "question_asked": []
       },
@@ -6626,7 +6626,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0067,
+        "latency_s": 0.0066,
         "confidence": "medium",
         "question_asked": []
       },
@@ -6722,7 +6722,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0061,
+        "latency_s": 0.0065,
         "confidence": "low",
         "question_asked": []
       },
@@ -6770,7 +6770,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0042,
+        "latency_s": 0.0046,
         "confidence": "low",
         "question_asked": []
       },
@@ -6818,7 +6818,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0058,
+        "latency_s": 0.0059,
         "confidence": "high",
         "question_asked": []
       },
@@ -6866,7 +6866,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0071,
+        "latency_s": 0.007,
         "confidence": "low",
         "question_asked": []
       },
@@ -6914,7 +6914,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0047,
+        "latency_s": 0.0048,
         "confidence": "medium",
         "question_asked": []
       },
@@ -6962,7 +6962,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0044,
+        "latency_s": 0.0046,
         "confidence": "high",
         "question_asked": []
       },
@@ -7010,7 +7010,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0068,
+        "latency_s": 0.0069,
         "confidence": "high",
         "question_asked": []
       },
@@ -7106,7 +7106,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0051,
+        "latency_s": 0.0052,
         "confidence": "low",
         "question_asked": []
       },
@@ -7154,7 +7154,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0044,
+        "latency_s": 0.0046,
         "confidence": "medium",
         "question_asked": []
       },
@@ -7202,7 +7202,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0038,
+        "latency_s": 0.0035,
         "confidence": "low",
         "question_asked": []
       },
@@ -7250,7 +7250,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0046,
+        "latency_s": 0.0047,
         "confidence": "high",
         "question_asked": []
       },
@@ -7346,7 +7346,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0035,
+        "latency_s": 0.0033,
         "confidence": "inconclusive",
         "question_asked": []
       }
@@ -7444,7 +7444,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0069,
+        "latency_s": 0.0072,
         "confidence": "high",
         "question_asked": []
       },
@@ -7492,7 +7492,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0067,
+        "latency_s": 0.0066,
         "confidence": "medium",
         "question_asked": []
       },
@@ -7588,7 +7588,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0068,
+        "latency_s": 0.0067,
         "confidence": "medium",
         "question_asked": []
       },
@@ -7684,7 +7684,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0064,
+        "latency_s": 0.007,
         "confidence": "medium",
         "question_asked": []
       },
@@ -7732,7 +7732,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0074,
+        "latency_s": 0.0069,
         "confidence": "medium",
         "question_asked": []
       },
@@ -7780,7 +7780,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0062,
+        "latency_s": 0.0065,
         "confidence": "medium",
         "question_asked": []
       },
@@ -7828,7 +7828,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0065,
+        "latency_s": 0.0064,
         "confidence": "medium",
         "question_asked": []
       },
@@ -7876,7 +7876,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0055,
+        "latency_s": 0.0053,
         "confidence": "medium",
         "question_asked": []
       },
@@ -7924,7 +7924,7 @@
         ],
         "contamination": false,
         "turns": 2,
-        "latency_s": 0.0069,
+        "latency_s": 0.007,
         "confidence": "low",
         "question_asked": [
           "Chỉ chọn một: (A) sai vì nhầm phép tính, (B) sai vì chọn sai đối tượng/tài khoản, (C) sai vì hiểu ngược Nợ/Có."
@@ -7974,7 +7974,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0064,
+        "latency_s": 0.0063,
         "confidence": "medium",
         "question_asked": []
       },
@@ -8022,7 +8022,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0066,
+        "latency_s": 0.0067,
         "confidence": "high",
         "question_asked": []
       },
@@ -8070,7 +8070,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0061,
+        "latency_s": 0.0058,
         "confidence": "medium",
         "question_asked": []
       },
@@ -8168,7 +8168,7 @@
         ],
         "contamination": false,
         "turns": 2,
-        "latency_s": 0.0078,
+        "latency_s": 0.0076,
         "confidence": "low",
         "question_asked": [
           "Đối tượng vừa mua là hàng hóa để bán hay chi phí kỳ này? Không cần định khoản."
@@ -8266,7 +8266,7 @@
         ],
         "contamination": false,
         "turns": 2,
-        "latency_s": 0.0064,
+        "latency_s": 0.0066,
         "confidence": "low",
         "question_asked": [
           "Chỉ chọn một: (A) sai vì nhầm phép tính, (B) sai vì chọn sai đối tượng/tài khoản, (C) sai vì hiểu ngược Nợ/Có."
@@ -8316,7 +8316,7 @@
         ],
         "contamination": false,
         "turns": 2,
-        "latency_s": 0.009,
+        "latency_s": 0.0067,
         "confidence": "low",
         "question_asked": [
           "Chỉ chọn một: (A) sai vì nhầm phép tính, (B) sai vì chọn sai đối tượng/tài khoản, (C) sai vì hiểu ngược Nợ/Có."
@@ -8366,7 +8366,7 @@
         ],
         "contamination": false,
         "turns": 2,
-        "latency_s": 0.0084,
+        "latency_s": 0.0076,
         "confidence": "low",
         "question_asked": [
           "Chỉ chọn một: (A) sai vì nhầm phép tính, (B) sai vì chọn sai đối tượng/tài khoản, (C) sai vì hiểu ngược Nợ/Có."
@@ -8416,7 +8416,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0081,
+        "latency_s": 0.0057,
         "confidence": "medium",
         "question_asked": []
       },
@@ -8464,7 +8464,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.008,
+        "latency_s": 0.0076,
         "confidence": "medium",
         "question_asked": []
       },
@@ -8560,7 +8560,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.006,
+        "latency_s": 0.0059,
         "confidence": "medium",
         "question_asked": []
       },
@@ -8608,7 +8608,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0058,
+        "latency_s": 0.0059,
         "confidence": "medium",
         "question_asked": []
       },
@@ -8656,7 +8656,7 @@
         ],
         "contamination": false,
         "turns": 2,
-        "latency_s": 0.0068,
+        "latency_s": 0.0069,
         "confidence": "low",
         "question_asked": [
           "Đối tượng vừa mua là hàng hóa để bán hay chi phí kỳ này? Không cần định khoản."
@@ -8706,7 +8706,7 @@
         ],
         "contamination": false,
         "turns": 2,
-        "latency_s": 0.0077,
+        "latency_s": 0.0067,
         "confidence": "low",
         "question_asked": [
           "Chỉ chọn một: (A) sai vì nhầm phép tính, (B) sai vì chọn sai đối tượng/tài khoản, (C) sai vì hiểu ngược Nợ/Có."
@@ -8756,7 +8756,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0072,
+        "latency_s": 0.0064,
         "confidence": "medium",
         "question_asked": []
       },
@@ -8852,7 +8852,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0063,
+        "latency_s": 0.0064,
         "confidence": "medium",
         "question_asked": []
       },
@@ -8900,7 +8900,7 @@
         ],
         "contamination": false,
         "turns": 2,
-        "latency_s": 0.0065,
+        "latency_s": 0.0066,
         "confidence": "low",
         "question_asked": [
           "Đối tượng vừa mua là hàng hóa để bán hay chi phí kỳ này? Không cần định khoản."
@@ -8950,7 +8950,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.006,
+        "latency_s": 0.0061,
         "confidence": "medium",
         "question_asked": []
       },
@@ -8998,7 +8998,7 @@
         ],
         "contamination": false,
         "turns": 2,
-        "latency_s": 0.0063,
+        "latency_s": 0.0064,
         "confidence": "low",
         "question_asked": [
           "Chỉ chọn một: (A) sai vì nhầm phép tính, (B) sai vì chọn sai đối tượng/tài khoản, (C) sai vì hiểu ngược Nợ/Có."
@@ -9048,7 +9048,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0084,
+        "latency_s": 0.0077,
         "confidence": "medium",
         "question_asked": []
       },
@@ -9096,7 +9096,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0088,
+        "latency_s": 0.0077,
         "confidence": "high",
         "question_asked": []
       },
@@ -9144,7 +9144,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0078,
+        "latency_s": 0.0076,
         "confidence": "high",
         "question_asked": []
       },
@@ -9240,7 +9240,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0067,
+        "latency_s": 0.0065,
         "confidence": "high",
         "question_asked": []
       },
@@ -9288,7 +9288,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0066,
+        "latency_s": 0.0068,
         "confidence": "high",
         "question_asked": []
       },
@@ -9384,7 +9384,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0066,
+        "latency_s": 0.0067,
         "confidence": "high",
         "question_asked": []
       },
@@ -9480,7 +9480,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0064,
+        "latency_s": 0.0065,
         "confidence": "high",
         "question_asked": []
       },
@@ -9576,7 +9576,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0063,
+        "latency_s": 0.0062,
         "confidence": "high",
         "question_asked": []
       },
@@ -9624,7 +9624,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.007,
+        "latency_s": 0.0068,
         "confidence": "high",
         "question_asked": []
       },
@@ -9768,7 +9768,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0087,
+        "latency_s": 0.0068,
         "confidence": "high",
         "question_asked": []
       },
@@ -9816,7 +9816,7 @@
         ],
         "contamination": false,
         "turns": 2,
-        "latency_s": 0.0056,
+        "latency_s": 0.0057,
         "confidence": "low",
         "question_asked": [
           "Bạn đang dùng phương pháp giá xuất nào (FIFO, bình quân gia quyền, đích danh)? Tính lại đúng 50 đơn vị × đơn giá lô FIFO đầu tiên."
@@ -9866,7 +9866,7 @@
         ],
         "contamination": false,
         "turns": 2,
-        "latency_s": 0.0077,
+        "latency_s": 0.0074,
         "confidence": "low",
         "question_asked": [
           "Bạn đang dùng phương pháp giá xuất nào (FIFO, bình quân gia quyền, đích danh)? Tính lại đúng 50 đơn vị × đơn giá lô FIFO đầu tiên."
@@ -9916,7 +9916,7 @@
         ],
         "contamination": false,
         "turns": 2,
-        "latency_s": 0.0044,
+        "latency_s": 0.0047,
         "confidence": "low",
         "question_asked": [
           "Bạn đang dùng phương pháp giá xuất nào (FIFO, bình quân gia quyền, đích danh)? Tính lại đúng 50 đơn vị × đơn giá lô FIFO đầu tiên."
@@ -9966,7 +9966,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0065,
+        "latency_s": 0.0066,
         "confidence": "high",
         "question_asked": []
       },
@@ -10014,7 +10014,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0085,
+        "latency_s": 0.0065,
         "confidence": "high",
         "question_asked": []
       },
@@ -10110,7 +10110,7 @@
         ],
         "contamination": false,
         "turns": 2,
-        "latency_s": 0.005,
+        "latency_s": 0.0045,
         "confidence": "low",
         "question_asked": [
           "Bạn đang dùng phương pháp giá xuất nào (FIFO, bình quân gia quyền, đích danh)? Tính lại đúng 50 đơn vị × đơn giá lô FIFO đầu tiên."
@@ -10160,7 +10160,7 @@
         ],
         "contamination": false,
         "turns": 2,
-        "latency_s": 0.0057,
+        "latency_s": 0.0058,
         "confidence": "low",
         "question_asked": [
           "Bạn đang dùng phương pháp giá xuất nào (FIFO, bình quân gia quyền, đích danh)? Tính lại đúng 50 đơn vị × đơn giá lô FIFO đầu tiên."
@@ -10210,7 +10210,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0054,
+        "latency_s": 0.0056,
         "confidence": "high",
         "question_asked": []
       },
@@ -10258,7 +10258,7 @@
         ],
         "contamination": false,
         "turns": 2,
-        "latency_s": 0.0046,
+        "latency_s": 0.0043,
         "confidence": "low",
         "question_asked": [
           "Bạn đang dùng phương pháp giá xuất nào (FIFO, bình quân gia quyền, đích danh)? Tính lại đúng 50 đơn vị × đơn giá lô FIFO đầu tiên."
@@ -10308,7 +10308,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0054,
+        "latency_s": 0.0055,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -10356,7 +10356,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0054,
+        "latency_s": 0.0053,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -10404,7 +10404,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.006,
+        "latency_s": 0.0058,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -10452,7 +10452,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.006,
+        "latency_s": 0.0062,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -10548,7 +10548,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0032,
+        "latency_s": 0.0031,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -10644,7 +10644,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0072,
+        "latency_s": 0.0073,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -10692,7 +10692,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0044,
+        "latency_s": 0.0037,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -10788,7 +10788,7 @@
         ],
         "contamination": false,
         "turns": 2,
-        "latency_s": 0.0052,
+        "latency_s": 0.0051,
         "confidence": "high",
         "question_asked": [
           "Bạn đang dùng phương pháp giá xuất nào (FIFO, bình quân gia quyền, đích danh)? Tính lại đúng 50 đơn vị × đơn giá lô FIFO đầu tiên."
@@ -10838,7 +10838,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0052,
+        "latency_s": 0.005,
         "confidence": "medium",
         "question_asked": []
       },
@@ -10886,7 +10886,7 @@
         ],
         "contamination": false,
         "turns": 2,
-        "latency_s": 0.0079,
+        "latency_s": 0.0075,
         "confidence": "high",
         "question_asked": [
           "Đối tượng vừa mua là hàng hóa để bán hay chi phí kỳ này? Không cần định khoản."
@@ -10936,7 +10936,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0082,
+        "latency_s": 0.0076,
         "confidence": "high",
         "question_asked": []
       },
@@ -10984,7 +10984,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0068,
+        "latency_s": 0.0067,
         "confidence": "medium",
         "question_asked": []
       },
@@ -11080,7 +11080,7 @@
         ],
         "contamination": false,
         "turns": 2,
-        "latency_s": 0.0063,
+        "latency_s": 0.006,
         "confidence": "low",
         "question_asked": [
           "Chỉ chọn một: (A) sai vì nhầm phép tính, (B) sai vì chọn sai đối tượng/tài khoản, (C) sai vì hiểu ngược Nợ/Có."
@@ -11130,7 +11130,7 @@
         ],
         "contamination": false,
         "turns": 2,
-        "latency_s": 0.0041,
+        "latency_s": 0.0044,
         "confidence": "low",
         "question_asked": [
           "Bạn đang dùng phương pháp giá xuất nào (FIFO, bình quân gia quyền, đích danh)? Tính lại đúng 50 đơn vị × đơn giá lô FIFO đầu tiên."
@@ -11180,7 +11180,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0058,
+        "latency_s": 0.006,
         "confidence": "high",
         "question_asked": []
       },
@@ -11228,7 +11228,7 @@
         ],
         "contamination": false,
         "turns": 2,
-        "latency_s": 0.0083,
+        "latency_s": 0.007,
         "confidence": "low",
         "question_asked": [
           "Chỉ chọn một: (A) sai vì nhầm phép tính, (B) sai vì chọn sai đối tượng/tài khoản, (C) sai vì hiểu ngược Nợ/Có."
@@ -11278,7 +11278,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0046,
+        "latency_s": 0.0049,
         "confidence": "medium",
         "question_asked": []
       },
@@ -11326,7 +11326,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0043,
+        "latency_s": 0.0044,
         "confidence": "high",
         "question_asked": []
       },
@@ -11374,7 +11374,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0069,
+        "latency_s": 0.0068,
         "confidence": "high",
         "question_asked": []
       },
@@ -11422,7 +11422,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0033,
+        "latency_s": 0.0038,
         "confidence": "inconclusive",
         "question_asked": []
       },
@@ -11470,7 +11470,7 @@
         ],
         "contamination": false,
         "turns": 2,
-        "latency_s": 0.0053,
+        "latency_s": 0.0052,
         "confidence": "low",
         "question_asked": [
           "Chỉ chọn một: (A) sai vì nhầm phép tính, (B) sai vì chọn sai đối tượng/tài khoản, (C) sai vì hiểu ngược Nợ/Có."
@@ -11520,7 +11520,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0046,
+        "latency_s": 0.0045,
         "confidence": "medium",
         "question_asked": []
       },
@@ -11568,7 +11568,7 @@
         ],
         "contamination": false,
         "turns": 2,
-        "latency_s": 0.0036,
+        "latency_s": 0.0035,
         "confidence": "low",
         "question_asked": [
           "Bạn đang dùng phương pháp giá xuất nào (FIFO, bình quân gia quyền, đích danh)? Tính lại đúng 50 đơn vị × đơn giá lô FIFO đầu tiên."
@@ -11618,7 +11618,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0045,
+        "latency_s": 0.0048,
         "confidence": "high",
         "question_asked": []
       },
@@ -11666,7 +11666,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0051,
+        "latency_s": 0.0048,
         "confidence": "medium",
         "question_asked": []
       },
@@ -11714,7 +11714,7 @@
         ],
         "contamination": false,
         "turns": 1,
-        "latency_s": 0.0035,
+        "latency_s": 0.0033,
         "confidence": "inconclusive",
         "question_asked": []
       }

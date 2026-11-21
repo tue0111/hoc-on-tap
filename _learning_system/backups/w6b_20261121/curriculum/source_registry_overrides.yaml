@@ -1,0 +1,183 @@
+# Post-inspection role corrections. Original filename heuristic remains in source_registry.yaml.
+# These overrides do not modify D:\Hoc source files.
+
+version: "0.1.0"
+overrides:
+  - source_id: src-0063
+    relative_path: Kế toán tài chính 1/KTTC 1.pdf
+    inventory_role: unknown
+    content_role: lecture_note_combined
+    evidence_status: OBSERVED
+    note: Concatenated scripts of Chương 0–3, not a bound textbook.
+
+  - source_id: src-0068
+    relative_path: Kế toán tài chính 1/Slide KTTC 1.pdf
+    inventory_role: lecture_slide
+    content_role: lecture_slide_combined
+    evidence_status: OBSERVED
+    note: Concatenated slides; duplicates per-chapter slide PDFs.
+
+  - source_id: src-0093
+    relative_path: Nguyên lý kế toán/Nguyên Lý Kế Toán.pdf
+    inventory_role: unknown
+    content_role: lecture_note_combined
+    evidence_status: OBSERVED
+    note: Merge of NLKT-C* scripts. Canonical units are the topic PDFs.
+
+  - source_id: src-0130
+    relative_path: Ngân hàng thương mại/Ngân hàng Thương Mại.pdf
+    inventory_role: unknown
+    content_role: lecture_note_combined
+    evidence_status: OBSERVED
+    note: Pack of scripts/ôn tập/exam material, not the cited Kiều 2018 textbook.
+
+  - source_id: src-0178
+    relative_path: Tài chính doanh nghiệp 1/Tài Chính Doanh NGhiệp.pdf
+    inventory_role: unknown
+    content_role: lecture_note_combined
+    evidence_status: INFERRED
+    note: Large course-named PDF; extract matches script-style content. Cited internal textbook "Tài Chính Doanh Nghiệp Căn Bản" is not confirmed as this file.
+
+  - source_id: src-0186
+    relative_path: Tài chính hành chính sự nghiệp/Hành chính và sự nghiệp.pdf
+    inventory_role: unknown
+    content_role: lecture_note_combined
+    evidence_status: INFERRED
+    note: Course-named compilation. Hồ Hữu Thụy textbook is cited as a separate work.
+
+  - source_id: src-0075
+    relative_path: Kế toán tài chính 2/Đề 2.pdf
+    inventory_role: unknown
+    content_role: exercise
+    evidence_status: OBSERVED
+    note: Bài 3 and Bài 5 on TSCĐ; not a timed exam booklet.
+
+  - source_id: src-0175
+    relative_path: Tài chính doanh nghiệp 1/TCDN1-Dapandethimau.pdf
+    inventory_role: exam
+    content_role: solution
+    evidence_status: OBSERVED
+    note: Filename has both exam and answer tokens; body is the answer key.
+
+  - source_id: src-0128
+    relative_path: Ngân hàng thương mại/DE THI MAU NHTM 2025 (1).pdf
+    inventory_role: exam
+    also_contains: solution
+    evidence_status: OBSERVED
+    note: Sample exam includes ĐÁP ÁN ĐỀ THI MẪU.
+
+  - source_id: src-0057
+    relative_path: Kế toán tài chính 1/ACCO2310_DE THI MAU_KTTC1.pdf
+    inventory_role: exam
+    also_contains: solution
+    evidence_status: OBSERVED
+    note: Answer key printed at end of the sample exam.
+
+  # --- V3 step 0.6: learner material (separate non-curriculum partition `learner_notes`) ---
+  - source_id: src-0040
+    relative_path: Kiểm toán 1/Thảo luận 1/Đạo Đức Nghề Kiểm Toán.pdf
+    content_role: learner_material
+    partition: learner_notes
+    evidence_status: OBSERVED
+    note: Learner-authored or learner-prepared material, not curriculum (V3 0.6).
+
+  - source_id: src-0041
+    relative_path: Kiểm toán 1/Thảo luận 2/Han_Che_Kiem_Soat_Noi_Bo_Gian_Lan_BCTC.pdf
+    content_role: learner_material
+    partition: learner_notes
+    evidence_status: OBSERVED
+    note: Learner-authored or learner-prepared material, not curriculum (V3 0.6).
+
+  - source_id: src-0046
+    relative_path: Kế toán chi phí/Thảo luận 1/Phân Loại Chi Phí Doanh Nghiệp.pdf
+    content_role: learner_material
+    partition: learner_notes
+    evidence_status: OBSERVED
+    note: Learner-authored or learner-prepared material, not curriculum (V3 0.6).
+
+  - source_id: src-0139
+    relative_path: Ngân hàng thương mại/SO_TAY_THI_MO_NHTM.docx
+    content_role: learner_material
+    partition: learner_notes
+    evidence_status: OBSERVED
+    note: Learner-authored or learner-prepared material, not curriculum (V3 0.6).
+
+  - source_id: src-0140
+    relative_path: Ngân hàng thương mại/SO_TAY_THI_MO_NHTM.pdf
+    content_role: learner_material
+    partition: learner_notes
+    evidence_status: OBSERVED
+    note: Learner-authored or learner-prepared material, not curriculum (V3 0.6).
+
+  - source_id: src-0165
+    relative_path: Tài chính doanh nghiệp 1/Corporate_Finance_Blueprint.pptx
+    content_role: learner_material
+    partition: learner_notes
+    evidence_status: OBSERVED
+    note: Learner-authored or learner-prepared material, not curriculum (V3 0.6).
+
+  - source_id: src-0173
+    relative_path: Tài chính doanh nghiệp 1/SO_TAY_THI_MO_TCDN1.docx
+    content_role: learner_material
+    partition: learner_notes
+    evidence_status: OBSERVED
+    note: Learner-authored or learner-prepared material, not curriculum (V3 0.6).
+
+  - source_id: src-0174
+    relative_path: Tài chính doanh nghiệp 1/SO_TAY_THI_MO_TCDN1.pdf
+    content_role: learner_material
+    partition: learner_notes
+    evidence_status: OBSERVED
+    note: Learner-authored or learner-prepared material, not curriculum (V3 0.6).
+
+  - source_id: src-0334
+    relative_path: Kế toán chi phí/NguyenDucTue_BKTC6_trinh_bay.docx
+    content_role: learner_material
+    partition: learner_notes
+    evidence_status: OBSERVED
+    note: Learner-authored or learner-prepared material, not curriculum (V3 0.6).
+
+  - source_id: src-0335
+    relative_path: Kế toán chi phí/NguyenDucTue_BKTC6.docx
+    content_role: learner_material
+    partition: learner_notes
+    evidence_status: OBSERVED
+    note: Learner-authored or learner-prepared material, not curriculum (V3 0.6).
+
+  - source_id: src-0336
+    relative_path: Kế toán chi phí/NguyenDucTue_BKTC6.pdf
+    content_role: learner_material
+    partition: learner_notes
+    evidence_status: OBSERVED
+    note: Learner-authored or learner-prepared material, not curriculum (V3 0.6).
+
+  - source_id: src-0337
+    relative_path: Kế toán chi phí/Claude outputs/Nguyễn Đức Tuệ_Thaoluanchude03_KTCP.docx
+    content_role: learner_material
+    partition: learner_notes
+    evidence_status: OBSERVED
+    note: Learner-authored or learner-prepared material, not curriculum (V3 0.6).
+
+  - source_id: src-0338
+    relative_path: Kế toán chi phí/Claude outputs/Nguyễn Đức Tuệ_Thaoluanchude03_KTCP.pdf
+    content_role: learner_material
+    partition: learner_notes
+    evidence_status: OBSERVED
+    note: Learner-authored or learner-prepared material, not curriculum (V3 0.6).
+
+  - source_id: src-0339
+    relative_path: Kế toán chi phí/Claude outputs/Thaoluan_chude3_DANG_DIEN_DAN.txt
+    content_role: learner_material
+    partition: learner_notes
+    evidence_status: OBSERVED
+    note: Learner-authored or learner-prepared material, not curriculum (V3 0.6).
+
+tmp_artifacts_not_curriculum:
+  - src-0053
+  - src-0054
+  - src-0055
+  - src-0056
+  - src-0071
+  - src-0072
+  - src-0073
+  - src-0074

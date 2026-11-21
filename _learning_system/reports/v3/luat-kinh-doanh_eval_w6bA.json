@@ -1,0 +1,564 @@
+{
+  "course_id": "luat-kinh-doanh",
+  "tag": "_w6bA",
+  "eval_sha256": "1d66c7351b6d868e3f9282645f85fc3ec2b32e75b77d62db6af391a8e8263045",
+  "n": 20,
+  "metrics": {
+    "direct_must_include": 1.0,
+    "direct_chapter_at1": 0.9166666666666666,
+    "source_bound": 1.0,
+    "insufficient": 1.0,
+    "collision_contamination": 0,
+    "account": null,
+    "topic_owner": null
+  },
+  "gates": {
+    "direct_must_include": true,
+    "direct_chapter_at1": true,
+    "source_bound": true,
+    "insufficient": true,
+    "collision_contamination": true,
+    "account": true,
+    "topic_owner": true
+  },
+  "all_pass": true,
+  "results": [
+    {
+      "id": "lk-d01",
+      "category": "direct",
+      "question": "Luật kinh doanh: đối tượng và phương pháp điều chỉnh của môn luật này là gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0079",
+        "src-0079",
+        "src-0079",
+        "src-0079",
+        "src-0078"
+      ],
+      "top_chapters": [
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "partition": "luat-kinh-doanh",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "lk-d02",
+      "category": "direct",
+      "question": "Luật kinh doanh: quy chế pháp lý chung về doanh nghiệp gồm những nội dung nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0080",
+        "src-0080",
+        "src-0078",
+        "src-0079",
+        "src-0083"
+      ],
+      "top_chapters": [
+        2,
+        2,
+        null,
+        1,
+        2
+      ],
+      "partition": "luat-kinh-doanh",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "lk-d03",
+      "category": "direct",
+      "question": "Luật kinh doanh: công ty trách nhiệm hữu hạn có những đặc điểm pháp lý nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0081",
+        "src-0078",
+        "src-0081",
+        "src-0081",
+        "src-0081"
+      ],
+      "top_chapters": [
+        2,
+        null,
+        2,
+        2,
+        2
+      ],
+      "partition": "luat-kinh-doanh",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "lk-d04",
+      "category": "direct",
+      "question": "Luật kinh doanh: công ty cổ phần có đặc trưng gì về vốn và cổ đông?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0082",
+        "src-0078",
+        "src-0082",
+        "src-0082",
+        "src-0082"
+      ],
+      "top_chapters": [
+        2,
+        null,
+        2,
+        2,
+        2
+      ],
+      "partition": "luat-kinh-doanh",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "lk-d05",
+      "category": "direct",
+      "question": "Luật kinh doanh: công ty hợp danh khác doanh nghiệp tư nhân như thế nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0078",
+        "src-0083",
+        "src-0083",
+        "src-0079",
+        "src-0080"
+      ],
+      "top_chapters": [
+        null,
+        2,
+        2,
+        1,
+        2
+      ],
+      "partition": "luat-kinh-doanh",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": false,
+      "contaminated": false,
+      "pass": false
+    },
+    {
+      "id": "lk-d06",
+      "category": "direct",
+      "question": "Luật kinh doanh: khái niệm và cách phân loại hợp đồng kinh doanh thương mại là gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0085",
+        "src-0087",
+        "src-0087",
+        "src-0087",
+        "src-0086"
+      ],
+      "top_chapters": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "partition": "luat-kinh-doanh",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "lk-d07",
+      "category": "direct",
+      "question": "Luật kinh doanh: giao kết và thực hiện hợp đồng dân sự được quy định thế nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0086",
+        "src-0086",
+        "src-0087",
+        "src-0086",
+        "src-0086"
+      ],
+      "top_chapters": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "partition": "luat-kinh-doanh",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "lk-d08",
+      "category": "direct",
+      "question": "Luật kinh doanh: trách nhiệm pháp lý do vi phạm hợp đồng kinh doanh gồm gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0087",
+        "src-0087",
+        "src-0087",
+        "src-0087",
+        "src-0087"
+      ],
+      "top_chapters": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "partition": "luat-kinh-doanh",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "lk-d09",
+      "category": "direct",
+      "question": "Luật kinh doanh: mất khả năng thanh toán và phá sản được phân biệt thế nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0089",
+        "src-0088",
+        "src-0088",
+        "src-0089",
+        "src-0088"
+      ],
+      "top_chapters": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "partition": "luat-kinh-doanh",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "lk-d10",
+      "category": "direct",
+      "question": "Luật kinh doanh: trình tự thủ tục giải quyết phá sản diễn ra thế nào?",
+      "coverage": "partial",
+      "top_sources": [
+        "src-0089",
+        "src-0089",
+        "src-0078",
+        "src-0088",
+        "src-0077"
+      ],
+      "top_chapters": [
+        4,
+        4,
+        null,
+        4,
+        null
+      ],
+      "partition": "luat-kinh-doanh",
+      "unknowns": [
+        "no_course_concept_match"
+      ],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "lk-d11",
+      "category": "direct",
+      "question": "Luật kinh doanh: thương lượng và hòa giải tranh chấp thương mại khác nhau thế nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0090",
+        "src-0090",
+        "src-0090",
+        "src-0090",
+        "src-0090"
+      ],
+      "top_chapters": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "partition": "luat-kinh-doanh",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "lk-d12",
+      "category": "direct",
+      "question": "Luật kinh doanh: trọng tài thương mại có thẩm quyền giải quyết tranh chấp nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0092",
+        "src-0092",
+        "src-0078",
+        "src-0077",
+        "src-0077"
+      ],
+      "top_chapters": [
+        5,
+        5,
+        null,
+        null,
+        null
+      ],
+      "partition": "luat-kinh-doanh",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "lk-s01",
+      "category": "source_bound",
+      "question": "Theo chương 2 của Luật kinh doanh, các loại chủ thể kinh doanh nào được trình bày?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0082",
+        "src-0083",
+        "src-0082",
+        "src-0080",
+        "src-0082"
+      ],
+      "top_chapters": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "partition": "luat-kinh-doanh",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "lk-s02",
+      "category": "source_bound",
+      "question": "Đề thi mẫu Luật kinh doanh có đáp án và dạng câu hỏi nào?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0076",
+        "src-0077",
+        "src-0076",
+        "src-0090",
+        "src-0078"
+      ],
+      "top_chapters": [
+        null,
+        null,
+        null,
+        5,
+        null
+      ],
+      "partition": "luat-kinh-doanh",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "lk-s03",
+      "category": "source_bound",
+      "question": "Hướng dẫn học và thi môn Luật kinh doanh yêu cầu ôn những gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0078",
+        "src-0078",
+        "src-0077",
+        "src-0079",
+        "src-0078"
+      ],
+      "top_chapters": [
+        null,
+        null,
+        null,
+        1,
+        null
+      ],
+      "partition": "luat-kinh-doanh",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "lk-i01",
+      "category": "insufficient",
+      "question": "WACC trong Luật kinh doanh được tính như thế nào?",
+      "coverage": "insufficient",
+      "top_sources": [
+        "src-0079",
+        "src-0079",
+        "src-0078",
+        "src-0085",
+        "src-0078"
+      ],
+      "top_chapters": [
+        1,
+        1,
+        null,
+        3,
+        null
+      ],
+      "partition": "luat-kinh-doanh",
+      "unknowns": [
+        "no_course_concept_match",
+        "term_not_in_course_corpus:wacc",
+        "insufficient_curriculum_evidence"
+      ],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "lk-i02",
+      "category": "insufficient",
+      "question": "Phương pháp FIFO trong Luật kinh doanh được hạch toán ra sao?",
+      "coverage": "insufficient",
+      "top_sources": [
+        "src-0089",
+        "src-0085",
+        "src-0079",
+        "src-0086",
+        "src-0089"
+      ],
+      "top_chapters": [
+        4,
+        3,
+        1,
+        3,
+        4
+      ],
+      "partition": "luat-kinh-doanh",
+      "unknowns": [
+        "no_course_concept_match",
+        "term_not_in_course_corpus:fifo",
+        "topic_in_other_course:ke-toan-tai-chinh-1",
+        "topic_in_other_course:ke-toan-chi-phi",
+        "insufficient_curriculum_evidence"
+      ],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "lk-i03",
+      "category": "insufficient",
+      "question": "Duration trái phiếu trong Luật kinh doanh đo như thế nào?",
+      "coverage": "insufficient",
+      "top_sources": [
+        "src-0078",
+        "src-0082",
+        "src-0079",
+        "src-0079",
+        "src-0079"
+      ],
+      "top_chapters": [
+        null,
+        2,
+        1,
+        1,
+        1
+      ],
+      "partition": "luat-kinh-doanh",
+      "unknowns": [
+        "no_course_concept_match",
+        "term_not_in_course_corpus:duration",
+        "term_not_in_course_corpus:đo",
+        "insufficient_curriculum_evidence"
+      ],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "lk-c01",
+      "category": "collision",
+      "question": "Chương 3 của Luật kinh doanh nói về gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0087",
+        "src-0086",
+        "src-0085",
+        "src-0087",
+        "src-0087"
+      ],
+      "top_chapters": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "partition": "luat-kinh-doanh",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    },
+    {
+      "id": "lk-c02",
+      "category": "collision",
+      "question": "Chương 5 của Luật kinh doanh nói về gì?",
+      "coverage": "sufficient",
+      "top_sources": [
+        "src-0092",
+        "src-0091",
+        "src-0090",
+        "src-0092",
+        "src-0092"
+      ],
+      "top_chapters": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "partition": "luat-kinh-doanh",
+      "unknowns": [],
+      "must_include": true,
+      "chapter_at1": true,
+      "contaminated": false,
+      "pass": true
+    }
+  ]
+}
