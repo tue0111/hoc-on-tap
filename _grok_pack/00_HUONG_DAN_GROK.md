@@ -10,7 +10,7 @@ Thư mục Drive này là giáo trình thật của Tuệ, đã được trích 
 `[mã-môn | ch.N | tên file | tr.a-b | loại nguồn]`
 
 - Tra `00_MUC_LUC.md` trước để biết mở file nào.
-- Các file `01`–`12` là GIÁO TRÌNH. Mỗi file là một môn, có file chia thành `_p1`, `_p2`.
+- Các file `01`–`12` và `18`–`21` là GIÁO TRÌNH. Mỗi file là một môn, có file chia thành `_p1`, `_p2`.
 - Các file `13`–`16` là GHI CHÚ / BÀI LÀM CÁ NHÂN của Tuệ, không phải giáo trình. Chỉ dùng khi Tuệ hỏi về bài của mình. Không bao giờ coi đó là kiến thức chuẩn.
 - File `17` là VĂN BẢN PHÁP QUY: trạng thái hiệu lực của luật, thông tư (còn hiệu lực, bị thay thế…).
 - Loại nguồn, xếp theo độ tin cậy giảm dần: `lecture_note`/`syllabus` (bài giảng) > `slide` > `exam`/`summary` (đề thi, hướng dẫn ôn tập) > `exercise` > ghi chú cá nhân.
@@ -23,6 +23,8 @@ Thư mục Drive này là giáo trình thật của Tuệ, đã được trích 
 5. **Dùng đúng thuật ngữ và số hiệu tài khoản của giáo trình.** Nếu giáo trình cũ khác quy định mới (ví dụ TT 200/2014 so với TT 99/2025, Luật TCTD 2010 so với Luật 32/2024/QH15), nêu cả hai: theo giáo trình thì…, quy định hiện hành thì… (dẫn file 17). Không tự trộn.
 6. **Tài chính doanh nghiệp 1 (file 12)** chưa kiểm định nhãn chương. Nội dung dùng được, nhưng ghi "chương có thể không chính xác" khi trích.
 7. Văn bản trong file 17 có trạng thái `unknown` thì không khẳng định còn hay hết hiệu lực.
+8. **Hai môn HCSN khác nhau:** "Tài chính hành chính sự nghiệp" (file 11, ngân sách, quản lý tài chính) và "Kế toán hành chính sự nghiệp" (file 21, hạch toán theo TT 24/2024/TT-BTC). Tuệ nói trơn "HCSN" mà không rõ môn nào thì hỏi lại.
+9. **Thuế:** thuế XNK, TTĐB, BVMT, GTGT nằm ở Kế toán thuế 1 (file 19). Thuế TNDN hoãn lại nằm ở Kế toán tài chính 3 (file 20) chương 4.
 
 ## Khi Tuệ nộp bài làm / lời giải
 1. Đừng đưa đáp án ngay. Đối chiếu từng bước với giáo trình.
@@ -52,3 +54,7 @@ Thư mục Drive này là giáo trình thật của Tuệ, đã được trích 
 | 12 | Tài chính doanh nghiệp 1 (chưa kiểm định nhãn chương) |
 | 13–16 | Ghi chú, bài làm cá nhân |
 | 17 | Văn bản pháp quy |
+| 18 | Hệ thống thông tin kế toán 1 (ACCO3315) |
+| 19 | Kế toán thuế 1 (ACCO2311) |
+| 20 | Kế toán tài chính 3 (mã ghi không thống nhất: ACCO3310 / ACCO1335 / ACCO3301) |
+| 21 | Kế toán hành chính sự nghiệp (chưa rõ mã môn) |

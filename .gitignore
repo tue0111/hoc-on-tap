@@ -6,3 +6,32 @@ _learning_system/work/v3_deps/
 venv/
 .env
 *.log
+
+# W6b test mirrors / reviewer scratch (multi-GB copies, never commit)
+_learning_system/work/codex_review*/
+_learning_system/work/w6b_s*/
+_learning_system/work/refresh/*/
+# local refresh pointer + listing: machine-specific, they point at ignored plan folders (W6b review G25)
+_learning_system/work/refresh/latest.json
+_learning_system/work/listing.json
+_learning_system/work/w6b_h*/
+
+# W6b transient QC outputs (tagged eval reruns, scratch copies); gate reports, *_eval_run1 and the final regression run are kept
+_learning_system/reports/v3/*_eval_s[0-9]*.*
+_learning_system/reports/v3/*_eval_qc*.*
+_learning_system/reports/v3/*_eval_m[0-9]*.*
+_learning_system/reports/v3/*_eval_fin.*
+_learning_system/reports/v3/*_eval_b2*.*
+_learning_system/reports/v3/*_eval_pc*.*
+_learning_system/reports/v3/*_eval_g0*.*
+_learning_system/reports/v3/*_eval_ch4*.*
+_learning_system/reports/v3/*_eval_w6b*.*
+_learning_system/reports/v3/*_eval_r1_s*.*
+_learning_system/reports/v3/*_eval_r1_qc*.*
+_learning_system/reports/v3/*_eval_r1_g0*.*
+_learning_system/reports/v3/*_eval+*
+_learning_system/reports/v3/run_*/
+_learning_system/work/w6b/regs_before_*/
+_learning_system/work/w6b/ext_before/
+_learning_system/work/w6b/before_*/
+_learning_system/work/w6b/g01test/
