@@ -1,0 +1,19 @@
+{
+  "name": "hoc-tutor",
+  "displayName": "Học ôn tập — Tutor kế toán",
+  "version": "1.0.0",
+  "description": "Nạp giáo trình kế toán/tài chính của Tuệ vào Claude Code: tutor, _grok_pack, và learning system.",
+  "author": {
+    "name": "Nguyễn Đức Tuệ",
+    "email": "ntue2411@gmail.com"
+  },
+  "keywords": [
+    "accounting",
+    "finance",
+    "tutoring",
+    "vietnamese",
+    "curriculum",
+    "hoc-on-tap"
+  ],
+  "license": "UNLICENSED"
+}
