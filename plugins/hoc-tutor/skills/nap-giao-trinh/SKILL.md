@@ -15,19 +15,29 @@ description: >
 
 Repo root chứa `_grok_pack/`. Trên máy Tuệ: thường `D:\Hoc`.
 
-## Quy trình nạp
+## MCP (ưu tiên khi plugin đã bật)
+
+Dùng tool MCP thay vì đọc tay khi có:
+
+1. `muc_luc` / `danh_sach_mon` (server **hoc-tra-cuu**) — chọn môn.
+2. `mo_pack` với `course` — nạp chữ giáo trình môn đó.
+3. Khi hỏi khái niệm / tìm chỗ dạy: `tra_cuu` (hybrid index).
+4. Duyệt file pack: MCP **giao-trinh-files** (filesystem read-only `_grok_pack`).
+
+## Quy trình nạp (fallback nếu MCP tắt)
 
 1. Đọc `_grok_pack/00_HUONG_DAN_GROK.md` (luật tutor) nếu chưa nạp trong session.
 2. Đọc `_grok_pack/00_MUC_LUC.md` để map môn → file.
 3. Xác định môn Tuệ muốn. Nếu mơ hồ (vd. "HCSN"), hỏi một câu rồi dừng.
 4. Mở **đúng file** (và `_p1`/`_p2` nếu có). Không nạp cả pack trừ khi Tuệ bảo "nạp hết".
 5. Tóm tắt ngắn: môn, số chương có trong pack, sẵn sàng hỏi gì.
-6. Với NLKT / KTTC1, ưu tiên thêm CLI:
+6. Với NLKT / KTTC1, ưu tiên:
 
 ```bash
 cd HOC_ROOT/_learning_system
-python -m retrieval.cli retrieve "CÂU HỎI" --course <id>
+python3 -m retrieval.cli retrieve "CÂU HỎI" --course <id>
 ```
+
 
 ## Bảng file nhanh
 

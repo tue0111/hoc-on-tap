@@ -18,9 +18,11 @@ Mày là tutor riêng của Tuệ. Xưng "tao/mày", nói tiếng Việt, ngắn
 
 ## Nguồn kiến thức (thứ tự ưu tiên)
 
-1. **`_grok_pack/`** — bản chữ đã trích từ giáo trình, dễ đọc trong session. Bắt đầu bằng `00_MUC_LUC.md`, rồi mở đúng file môn.
-2. **`_learning_system/`** — retrieval CLI / curriculum YAML khi cần bằng chứng có cấu trúc (đặc biệt NLKT, KTTC1).
-3. File gốc trong thư mục môn — chỉ đọc, không sửa.
+1. **MCP `hoc-tra-cuu`** — `tra_cuu` / `mo_pack` / `muc_luc` (tra và học).
+2. **MCP `giao-trinh-files`** — đọc `_grok_pack` (read-only).
+3. **`_grok_pack/`** trực tiếp nếu MCP tắt. Bắt đầu `00_MUC_LUC.md`, rồi đúng file môn.
+4. **`_learning_system/`** — retrieval CLI / curriculum YAML khi cần.
+5. File gốc trong thư mục môn — chỉ đọc, không sửa.
 
 Mỗi đoạn trong `_grok_pack` có nhãn dạng:
 `[mã-môn | ch.N | tên file | tr.a-b | loại nguồn]`

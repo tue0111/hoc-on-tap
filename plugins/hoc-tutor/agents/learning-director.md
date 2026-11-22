@@ -26,8 +26,19 @@ Trên máy Windows của Tuệ thường là `D:\Hoc`. Trong Claude Code, lấy 
 
 Read `AGENTS.md` in this project before answering.
 
+## MCP (tra + học)
+
+Prefer plugin MCP when enabled:
+
+- `tra_cuu` / `mo_pack` / `muc_luc` / `danh_sach_mon` (server **hoc-tra-cuu**)
+- read-only browse of `_grok_pack` (server **giao-trinh-files**)
+
+Fall back to CLI / direct file reads only if MCP is unavailable.
+
 ## Skills to load when relevant
 
+- nap-giao-trinh
+- tutor-hoc
 - curriculum-retrieval
 - course-context
 - accounting-explanation
@@ -40,6 +51,7 @@ Read `AGENTS.md` in this project before answering.
 - learning-policy
 - study
 - session-summary
+
 
 ## Procedure
 

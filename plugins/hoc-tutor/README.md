@@ -1,57 +1,59 @@
 # hoc-tutor — Plugin Claude Code
 
-Nạp giáo trình kế toán / tài chính / ngân hàng từ repo `hoc-on-tap` vào Claude Code.
+Nạp giáo trình để **tra cứu và học** trong Claude Code (repo `hoc-on-tap`).
 
-## Cài đặt (từ GitHub)
-
-Trong terminal (đã cài Claude Code và đang đứng ngoài hoặc trong repo):
+## Cài đặt
 
 ```bash
 claude plugin marketplace add tue0111/hoc-on-tap
 claude plugin install hoc-tutor@hoc-on-tap
 ```
 
-## Cài đặt (local / đang clone repo)
+Local / clone:
 
 ```bash
 cd /đường/dẫn/hoc-on-tap
 claude plugin marketplace add .
 claude plugin install hoc-tutor@hoc-on-tap
-```
-
-Hoặc chỉ load tạm một session, không cần marketplace:
-
-```bash
+# hoặc một session:
 claude --plugin-dir ./plugins/hoc-tutor
 ```
 
-Sau khi sửa skill trong plugin, trong session chạy `/reload-plugins`.
+Mở Claude Code **trong thư mục repo** (để `CLAUDE_PROJECT_DIR` trỏ đúng `HOC_ROOT`). Cần `python3` và `npx` (Node).
 
-## Dùng nhanh
+Sau khi sửa plugin: `/reload-plugins`. Kiểm MCP: `/mcp`.
+
+## MCP (tra + học)
+
+Plugin bật 2 server khi enable:
+
+| Server | Việc |
+|---|---|
+| **hoc-tra-cuu** | `muc_luc`, `danh_sach_mon`, `mo_pack`, `tra_cuu` — mục lục, mở pack môn, tra hybrid index |
+| **giao-trinh-files** | Filesystem **read-only** trên `_grok_pack/` |
+
+Luồng học điển hình: `muc_luc` → `mo_pack` (môn) → hỏi bài → `tra_cuu` khi cần bằng chứng index.
+
+## Slash / agent
 
 | Lệnh | Việc |
 |---|---|
-| `/hoc-tutor:nap-giao-trinh` | Nạp đúng file `_grok_pack` theo môn |
-| `/hoc-tutor:tutor-hoc` | Bật luật tutor (giáo trình trước, trích nguồn) |
-| `/hoc-tutor:study` | Ôn / nộp bài (NLKT, KTTC1 ưu tiên CLI) |
-| `@agent-hoc-tutor:learning-director` | Ủy thác Learning Director |
-
-Ví dụ: `/hoc-tutor:nap-giao-trinh Kế toán thuế 1` rồi hỏi bài.
+| `/hoc-tutor:nap-giao-trinh` | Nạp đúng môn (ưu tiên MCP) |
+| `/hoc-tutor:tutor-hoc` | Luật tutor |
+| `/hoc-tutor:study` | Ôn / nộp bài |
+| `@agent-hoc-tutor:learning-director` | Learning Director |
 
 ## Cấu trúc
 
 ```
 plugins/hoc-tutor/
   .claude-plugin/plugin.json
+  .mcp.json                 # MCP servers
+  mcp/tra_cuu_server.py     # tra_cuu / mo_pack / muc_luc
   agents/learning-director.md
-  skills/
-    nap-giao-trinh/     # nạp _grok_pack
-    tutor-hoc/          # persona + luật trả lời
-    study/ …            # port từ _learning_system/.grok/skills
+  skills/…
 ```
-
-Marketplace của repo: `.claude-plugin/marketplace.json`.
 
 ## HOC_ROOT
 
-Mọi skill dùng `HOC_ROOT` = thư mục gốc repo (có `_grok_pack/`, `_learning_system/`). Trên máy Tuệ thường là `D:\Hoc`.
+Repo root có `_grok_pack/` và `_learning_system/`. Máy Tuệ thường: `D:\Hoc`.

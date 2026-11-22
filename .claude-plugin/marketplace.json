@@ -9,8 +9,8 @@
     {
       "name": "hoc-tutor",
       "source": "./plugins/hoc-tutor",
-      "description": "Tutor kế toán — nạp _grok_pack và chạy learning system trong Claude Code.",
-      "version": "1.0.0",
+      "description": "Tutor kế toán — MCP tra cứu + nạp _grok_pack để học trong Claude Code.",
+      "version": "1.1.0",
       "category": "education",
       "tags": ["accounting", "tutoring", "vietnamese", "curriculum"]
     }

@@ -11,6 +11,8 @@ description: >
 
 `HOC_ROOT` = repo root (`_grok_pack/`, `_learning_system/`). Local Windows của Tuệ: thường `D:\Hoc`.
 
+Prefer MCP tool **`tra_cuu`** (server `hoc-tra-cuu`) when available. Otherwise run the CLI below.
+
 Hybrid retrieval. Do not use generic accounting knowledge as a substitute.
 
 For NLKT (ACCO1325) and KTTC1 (ACCO2310) Phase 2 runtime:

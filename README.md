@@ -7,14 +7,14 @@ Tài liệu ôn tập các môn: Nguyên lý kế toán, Kế toán tài chính 
 - `plugins/hoc-tutor/` — **plugin Claude Code** để nạp giáo trình (marketplace: `.claude-plugin/`).
 - Các thư mục môn học — tài liệu gốc (PDF, DOCX, PPTX, XLS, ghi chú).
 
-## Nạp vào Claude Code
+## Nạp vào Claude Code (tra + học)
 
 ```bash
 claude plugin marketplace add tue0111/hoc-on-tap
 claude plugin install hoc-tutor@hoc-on-tap
 ```
 
-Trong session: `/hoc-tutor:nap-giao-trinh` rồi chọn môn. Chi tiết: `plugins/hoc-tutor/README.md`.
+Plugin có **MCP**: `hoc-tra-cuu` (`tra_cuu`, `mo_pack`, `muc_luc`) và filesystem read-only `_grok_pack`. Trong session: `/hoc-tutor:nap-giao-trinh` hoặc gọi MCP. Chi tiết: `plugins/hoc-tutor/README.md`.
 
 ## Thêm tài liệu mới
 
